@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Monitoring Order" max_length="40" name="x_ster2_emfs_monitoring_order" sizeclass="4" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Actual End Date" max_length="40" name="actual_end_date" type="glide_date_time"/>
+        <element label="Additional Requirements" max_length="8000" name="additional_requirements" type="html"/>
+        <element label="Attachments" max_length="40" name="attachments" type="file_attachment"/>
+        <element label="Case" max_length="32" name="case" reference="sn_customerservice_case" type="reference"/>
+        <element label="Concurrent Order" max_length="40" name="concurrent_order" type="boolean"/>
+        <element choice="1" label="Sentencing Court/Releasing Prison" max_length="200" name="court_prison" reference="x_ster2_emfs_sentencing_organisations" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
+            <choice/>
+        </element>
+        <element label="Court Reference" max_length="200" name="court_reference" type="string"/>
+        <element default="&lt;!DOCTYPE html&gt;&#10;&lt;html&gt;&#10;&lt;head&gt;&#10;&lt;style&gt;&#10;table {&#10;  font-family: arial, sans-serif;&#10;  border-collapse: collapse;&#10;  width: 100%;&#10;}&#10;&#10;td {&#10;  border: 1px solid #dddddd;&#10;  text-align: left;&#10;  padding: 8px;&#10;  font-weight: bold;&#10;}&#10;&#10;th {&#10;  border: 1px solid #dddddd;&#10;  text-align: left;&#10;  padding: 8px;&#10;  background-color: #3498DB;&#10;  color: #ffffff;&#10;}&#10;&#10;tr:nth-child(even) {&#10;  background-color: #F4F6F7;&#10;}&#10;&#10;tr:nth-child(odd) {&#10;  background-color: #ECF0F1;&#10;}&#10;&lt;/style&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&#10;&lt;table&gt;&#10;&#10;  &lt;tr&gt;&#10;    &lt;th colspan=&quot;8&quot;&gt;&lt;center&gt;CURFEW SCHEDULE&lt;/center&gt;&lt;/th&gt;&#10;  &lt;/tr&gt;&#10;  &lt;tr&gt;&#10;    &lt;th&gt;&lt;/th&gt;&#10;    &lt;th&gt;Monday&lt;/th&gt;&#10;    &lt;th&gt;Tuesday&lt;/th&gt;&#10;    &lt;th&gt;Wednesday&lt;/th&gt;&#10;    &lt;th&gt;Thursday&lt;/th&gt;&#10;    &lt;th&gt;Friday&lt;/th&gt;&#10;    &lt;th&gt;Saturday&lt;/th&gt;&#10;    &lt;th&gt;Sunday&lt;/th&gt;&#10;  &lt;/tr&gt;&#10;  &lt;tr&gt;&#10;    &lt;td&gt;Start&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;  &lt;/tr&gt;&#10;    &lt;tr&gt;&#10;    &lt;td&gt;End&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;  &lt;/tr&gt;&#10;&#10;&lt;/table&gt;&#10;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" label="Curfew Schedules" max_length="8000" name="curfew_schedules" type="html"/>
+        <element choice="1" label="Monitoring Type" max_length="40" name="monitoring_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="GPS" sequence="10" value="gps"/>
+                <element inactive_on_update="false" label="RF" sequence="20" value="rf"/>
+                <element inactive_on_update="false" label="AM" sequence="30" value="am"/>
+                <element inactive_on_update="false" label="Non-Fitted" sequence="40" value="non-fitted"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" label="Order Type" max_length="40" name="order_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CO (Court Order)" sequence="10" value="co"/>
+                <element inactive_on_update="false" label="PR (Prison Release)" sequence="20" value="pr"/>
+                <element inactive_on_update="false" label="PT (Bail Pre-Trial)" sequence="30" value="pt"/>
+                <element inactive_on_update="false" label="IE (Immigration Enforcement)" sequence="40" value="ie"/>
+                <element inactive_on_update="false" label="HO (Home Office)" sequence="50" value="ho"/>
+            </choice>
+        </element>
+        <element label="Other Offence" max_length="200" name="other_offence" type="string"/>
+        <element label="Planned End Date" max_length="40" name="planned_end_date" type="glide_date_time"/>
+        <element choice="1" label="Primary Offence" max_length="40" name="primary_offence" type="string">
+            <choice/>
+        </element>
+        <element label="Primary Order" max_length="40" name="primary_order" type="boolean"/>
+        <element choice="1" label="Responsible Area" max_length="40" name="responsible_area" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Probation" sequence="10" value="probation"/>
+                <element inactive_on_update="false" label="YOT LDU" sequence="20" value="yot ldu"/>
+                <element inactive_on_update="false" label="Police" sequence="30" value="police"/>
+                <element inactive_on_update="false" label="Immigration Enforcement" sequence="40" value="immigration enforcement"/>
+                <element inactive_on_update="false" label="Home Office" sequence="50" value="home office"/>
+            </choice>
+        </element>
+        <element label="Responsible Officer" max_length="200" name="responsible_officer" type="string"/>
+        <element choice="1" label="Responsible Organisation" max_length="40" name="responsible_organisation" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="F - South Central - Buckinghamshire and Milton Keynes" sequence="10" value="f - south central - buckinghamshire and milton keynes"/>
+                <element inactive_on_update="false" label="F - South Central - Hampshire North and East" sequence="20" value="f - south central - hampshire north and east"/>
+                <element inactive_on_update="false" label="K - North West - Wirral" sequence="30" value="k - north west - wirral"/>
+            </choice>
+        </element>
+        <element label="Start Date/Time" max_length="40" name="start_date_time" type="glide_date_time"/>
+        <element label="Subject Name" max_length="32" name="subject_name" reference="x_ster2_emfs_subject" reference_qual="subject_nameSTARTSWITH^EQ" reference_qual_condition="subject_nameSTARTSWITH^EQ" type="reference"/>
+        <element label="Sub Order Type" max_length="200" name="sub_order_type" type="string"/>
+        <element label="Supervised Order" max_length="200" name="supervised_order" type="boolean"/>
+        <element label="Work Notes" max_length="4000" name="work_notes" type="journal_input"/>
+        <element label="Work Notes List" max_length="4000" name="work_notes_list" reference="sys_user" type="glide_list"/>
+        <index name="index">
+            <element name="subject_name"/>
+        </index>
+        <index name="index2">
+            <element name="case"/>
+        </index>
+    </element>
+</database>

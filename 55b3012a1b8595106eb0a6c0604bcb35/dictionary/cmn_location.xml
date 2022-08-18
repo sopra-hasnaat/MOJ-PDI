@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true" label="Location" max_length="40" name="cmn_location" sizeclass="3157" text_index="true" type="collection">
+        <element label="Address Line 1" max_length="50" name="x_ster2_emfs_address_line_1" type="string"/>
+        <element label="Address Line 2" max_length="50" name="x_ster2_emfs_address_line_2" type="string"/>
+        <element label="Areas Covered" max_length="1000" name="x_ster2_emfs_areas_covered" type="string"/>
+    </element>
+</database>

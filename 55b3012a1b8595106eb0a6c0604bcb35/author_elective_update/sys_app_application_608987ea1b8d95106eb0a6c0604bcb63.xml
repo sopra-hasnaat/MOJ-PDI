@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>false</active>
+        <category/>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Monitoring Order</name>
+        <order>100</order>
+        <roles>x_ster2_emfs.monitoring_order_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-08-04 18:02:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>608987ea1b8d95106eb0a6c0604bcb63</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Monitoring Order</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_app_application_608987ea1b8d95106eb0a6c0604bcb63</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-04 20:16:36</sys_updated_on>
+        <title>Monitoring Order</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_app_application_608987ea1b8d95106eb0a6c0604bcb63</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>false</active><category/><description/><device_type>browser</device_type><hint/><name>Monitoring Order</name><order>100</order><roles>x_ster2_emfs.monitoring_order_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>paul.fraser.ems</sys_created_by><sys_created_on>2022-08-04 18:02:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>608987ea1b8d95106eb0a6c0604bcb63</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Monitoring Order</sys_name><sys_overrides/><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sys_app_application_608987ea1b8d95106eb0a6c0604bcb63</sys_update_name><sys_updated_by>des.king.ems</sys_updated_by><sys_updated_on>2022-08-04 20:16:36</sys_updated_on><title>Monitoring Order</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-253530613</payload_hash>
+        <record_name>Monitoring Order</record_name>
+        <reverted_from/>
+        <source>51b3892a1b8595106eb0a6c0604bcb14</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-04 20:16:36</sys_created_on>
+        <sys_id>0548abee1b01d5106eb0a6c0604bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1826a80b84d0000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-04 20:16:36</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>4d48abeefa01d51024f8c2d894d39cbc</update_guid>
+        <update_guid_history>4d48abeefa01d51024f8c2d894d39cbc:-253530613,87f323aa0a01d510d6fcf8158c870996:-798612884,60898beac18d9510605a43d22d4b1a30:2055078461</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Monitoring Order">10dfafe61b41d5106eb0a6c0604bcb88</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-04 20:49:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>1cd4e94ea9864a88bb831dd61271d644</sys_id>
+        <sys_metadata>608987ea1b8d95106eb0a6c0604bcb63</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Monitoring Order</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_app_application_608987ea1b8d95106eb0a6c0604bcb63</sys_update_name>
+        <sys_update_version display_value="sys_app_application_608987ea1b8d95106eb0a6c0604bcb63">0548abee1b01d5106eb0a6c0604bcbbd</sys_update_version>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-04 20:49:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
