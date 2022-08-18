@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_ster2_emfs.monitoring_order_user" name="x_ster2_emfs.monitoring_order_user">d08987ea1b8d95106eb0a6c0604bcb5a</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-08-04 18:02:13</sys_created_on>
+        <sys_id>148987ea1b8d95106eb0a6c0604bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d08987ea1b8d95106eb0a6c0604bcb5a</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_embedded_help_role_148987ea1b8d95106eb0a6c0604bcb5c</sys_update_name>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-08-04 18:02:13</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

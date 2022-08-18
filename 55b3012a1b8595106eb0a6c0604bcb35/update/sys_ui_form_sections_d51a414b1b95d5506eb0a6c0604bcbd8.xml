@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="d51a414b1b95d5506eb0a6c0604bcbd8" sys_domain="global" table="x_ster2_emfs_curfew_location" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>cheryl.holt.ems</sys_created_by>
+            <sys_created_on>2022-08-18 08:18:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>591a414b1b95d5506eb0a6c0604bcbdb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ster2_emfs_curfew_location" name="x_ster2_emfs_curfew_location" sys_domain="global" view="Default view">d51a414b1b95d5506eb0a6c0604bcbd8</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="Default view">be4ff48f1b55d5506eb0a6c0604bcb0b</sys_ui_section>
+            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+            <sys_updated_on>2022-08-18 08:18:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>cheryl.holt.ems</sys_created_by>
+            <sys_created_on>2022-08-18 08:18:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d51a414b1b95d5506eb0a6c0604bcbdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ster2_emfs_curfew_location" name="x_ster2_emfs_curfew_location" sys_domain="global" view="Default view">d51a414b1b95d5506eb0a6c0604bcbd8</sys_ui_form>
+            <sys_ui_section caption="Work Notes" display_value="Work Notes" name="x_ster2_emfs_curfew_location" sys_domain="global" view="Default view">951a414b1b95d5506eb0a6c0604bcbd7</sys_ui_section>
+            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+            <sys_updated_on>2022-08-18 08:18:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_ster2_emfs_curfew_location</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>cheryl.holt.ems</sys_created_by>
+            <sys_created_on>2022-08-18 08:18:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d51a414b1b95d5506eb0a6c0604bcbd8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ster2_emfs_curfew_location</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d51a414b1b95d5506eb0a6c0604bcbd8</sys_update_name>
+            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+            <sys_updated_on>2022-08-18 08:18:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

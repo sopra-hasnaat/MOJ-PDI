@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>addressUiMacro</name>
+        <scoped_name>x_ster2_emfs_addressUiMacro</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-17 15:39:50</sys_created_on>
+        <sys_id>9f85e5fe87115950952f87f5cebb35cb</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>addressUiMacro</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ui_macro_9f85e5fe87115950952f87f5cebb35cb</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-08-18 08:54:10</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<link rel="stylesheet" type="text/css" href="https://api.addressnow.co.uk/css/addressnow-2.20.min.css?key=ft41-dw38-yj59-xj16" />
+<script type="text/javascript" src="https://api.addressnow.co.uk/js/addressnow-2.20.min.js?key=ft41-dw38-yj59-xj16"></script>	
+	<div class="row">
+		<div class="vsplit col-sm-6">
+			<div id="address_line_1_field" class="form-group " style="">
+				<div class="" data-type="label" choice="0" type="string" id="address_line_1_field" nowrap="true">
+					<label onclick="return labelClicked(this);" for="address_line_1_field" dir="ltr" class=" col-xs-12 col-md-3 col-lg-4 control-label">
+						<span id="address_line_1_field" aria-label="" data-dynamic-title="" mandatory="false" oclass="" class=" "></span>
+						<span title="" class="label-text" data-html="false" data-original-title="">Address Line 1</span>
+					</label>
+				</div>
+				<div class="col-xs-10 col-sm-9 col-md-6 col-lg-5 form-field input_controls">
+					<div ng-non-bindable="" class="hidden">
+						<input type="hidden" id="address_line_1_field" name="address_line_1_field" value=""></input>
+					</div>
+					<input type="text" data-type="string" id="x_ster2_emfs_subject.address_line_1" name="x_ster2_emfs_subject.address_line_1" aria-required="false" onchange="onChange('x_ster2_emfs_subject.address_line_1');" maxlength="40" value="" style="; " autocomplete="off" ng-non-bindable="" class="form-control " spellcheck="false" aria-label="Address line 1"></input>
+				</div>
+				<div class="col-xs-2 col-sm-3 col-lg-2 form-field-addons"></div>
+			</div>
+		</div>
+		<div class="vsplit col-sm-6">
+			<div id="city_field" class="form-group " style="">
+				<div class="" data-type="label" choice="0" type="string" id="label.city_field" nowrap="true">
+					<label onclick="return labelClicked(this);" for="city_field" dir="ltr" class=" col-xs-12 col-md-3 col-lg-4 control-label">
+						<span id="city_field" aria-label="" data-dynamic-title="" mandatory="false" oclass="" class=" "></span>
+						<span title="" class="label-text" data-html="false" data-original-title="">City</span>
+					</label>
+				</div>
+				<div class="col-xs-10 col-sm-9 col-md-6 col-lg-5 form-field input_controls">
+					<div ng-non-bindable="" class="hidden">
+						<input type="hidden" id="city_field" name="city_field" value=""></input>
+					</div>
+					<input type="text" data-type="string" id="x_ster2_emfs_subject.city" name="x_ster2_emfs_subject.city" aria-required="false" onchange="onChange('x_ster2_emfs_subject.city');" maxlength="50" value="" style="; " autocomplete="off" ng-non-bindable="" class="form-control " spellcheck="false" aria-label="City"></input>
+				</div>
+				<div class="col-xs-2 col-sm-3 col-lg-2 form-field-addons"></div>
+			</div>
+		</div>
+	</div>
+		
+		<div class="row">
+			<div class="vsplit col-sm-6">
+				<div id="address_line_2_field" class="form-group " style="">
+					<div class="" data-type="label" choice="0" type="string" id="address_line_2_field" nowrap="true">
+						<label onclick="return labelClicked(this);" for="address_line_2_field" dir="ltr" class=" col-xs-12 col-md-3 col-lg-4 control-label">
+							<span id="address_line_2_field" aria-label="" data-dynamic-title="" mandatory="false" oclass="" class=" "></span>
+							<span title="" class="label-text" data-html="false" data-original-title="">Address Line 2</span>
+						</label>
+					</div>
+					<div class="col-xs-10 col-sm-9 col-md-6 col-lg-5 form-field input_controls">
+						<div ng-non-bindable="" class="hidden">
+							<input type="hidden" id="address_line_2_field" name="address_line_2_field" value=""></input>
+						</div>
+						<input type="text" data-type="string" id="x_ster2_emfs_subject.address_line_2" name="x_ster2_emfs_subject.address_line_2" aria-required="false" onchange="onChange('x_ster2_emfs_subject.address_line_2');" maxlength="50" value="" style="; " autocomplete="off" ng-non-bindable="" class="form-control " spellcheck="false" aria-label="Address Line 2"></input>
+					</div>
+					<div class="col-xs-2 col-sm-3 col-lg-2 form-field-addons"></div>
+				</div>
+			</div>
+			
+			<div class="vsplit col-sm-6">
+				<div id="postcode_field" class="form-group " style="">
+					<div class="" data-type="label" choice="0" type="string" id="postcode_field" nowrap="true">
+						<label onclick="return labelClicked(this);" for="postcode_field" dir="ltr" class=" col-xs-12 col-md-3 col-lg-4 control-label">
+							<span id="postcode_field" aria-label="" data-dynamic-title="" mandatory="false" oclass="" class=" "></span>
+							<span title="" class="label-text" data-html="false" data-original-title="">Postcode</span>
+						</label>
+					</div>
+					<div class="col-xs-10 col-sm-9 col-md-6 col-lg-5 form-field input_controls">
+						<div ng-non-bindable="" class="hidden">
+							<input type="hidden" id="postcode_field" name="postcode_field" value=""></input>
+						</div>
+						<input type="text" data-type="string" id="x_ster2_emfs_subject.post_code" name="x_ster2_emfs_subject.post_code" aria-required="false" onchange="onChange('x_ster2_emfs_subject.post_code');" maxlength="40" value="" style="; " autocomplete="off" ng-non-bindable="" class="form-control " spellcheck="false" aria-label="Post Code"></input>
+					</div>
+					<div class="col-xs-2 col-sm-3 col-lg-2 form-field-addons"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="vsplit col-sm-6">
+				<div id="county_field" class="form-group " style="">
+					<div class="" data-type="label" choice="0" type="string" id="county_field" nowrap="true">
+						<label onclick="return labelClicked(this);" for="county_field" dir="ltr" class=" col-xs-12 col-md-3 col-lg-4 control-label">
+							<span id="county_field" aria-label="" data-dynamic-title="" mandatory="false" oclass="" class=" "></span>
+							<span title="" class="label-text" data-html="false" data-original-title="">County</span>
+						</label>
+					</div>
+					<div class="col-xs-10 col-sm-9 col-md-6 col-lg-5 form-field input_controls">
+						<div ng-non-bindable="" class="hidden">
+							<input type="hidden" id="county_field" name="county_field.county" value=""></input>
+						</div>
+						<input type="text" data-type="string" id="x_ster2_emfs_subject.county" name="x_ster2_emfs_subject.county" aria-required="false" onchange="onChange('x_ster2_emfs_subject.county');" maxlength="50" value="" style="; " autocomplete="off" ng-non-bindable="" class="form-control " spellcheck="false"></input>
+					</div>
+					<div class="col-xs-2 col-sm-3 col-lg-2 form-field-addons"></div>
+				</div>
+			</div>
+		</div>
+	<script>
+		//Populate address fields during record update
+		var updateRecordCheck = document.getElementsByClassName('navbar-title-display-value')[0].innerText;
+		if (updateRecordCheck != 'New record') { //only run when updating a record
+			var address_line_1 = document.getElementById('x_ster2_emfs_subject.address_line_1');
+			var address_line_2 = document.getElementById('x_ster2_emfs_subject.address_line_2');
+			var city = document.getElementById('x_ster2_emfs_subject.city');
+			var post_code = document.getElementById('x_ster2_emfs_subject.post_code');
+			var county = document.getElementById('x_ster2_emfs_subject.county');
+			var sysId = gel('sys_uniqueValue').value
+		
+			var ga = new GlideAjax('addressUiScriptInclude');
+			ga.addParam('sysparm_name', 'update'); //update is the script include method 
+			ga.addParam('sysid', sysId); //pass in sys_id 
+			ga.getXMLAnswer(updateField);
+
+			function updateField(response) { //retrieve object from server, parse then update empty values
+				returnedData = JSON.parse(response); 
+				address_line_1.value = returnedData.address_line_1;
+				address_line_2.value = returnedData.address_line_2;
+				post_code.value = returnedData.post_code;
+				city.value = returnedData.city;
+				county.value = returnedData.county;
+			}
+		}
+	</script>	
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

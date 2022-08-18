@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set Age Client Script</description>
+        <field>date_of_birth</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>ageScript</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+if (isLoading || newValue == '') {
+return;
+}
+
+var ga = new GlideAjax('global.ageScript');
+ga.addParam('sysparm_name','checkAge');
+ga.addParam('sysparam_id',newValue);
+ga.getXML(Process);
+}
+function Process(response) {
+var answer = response.responseXML.documentElement.getAttribute("answer");
+var a = parseInt(answer);
+g_form.setValue("age",a); //write age field name
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>warwick.cooney.ems</sys_created_by>
+        <sys_created_on>2022-08-04 20:00:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d2c323aa1b01d5106eb0a6c0604bcb61</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>ageScript</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_script_client_d2c323aa1b01d5106eb0a6c0604bcb61</sys_update_name>
+        <sys_updated_by>warwick.cooney.ems</sys_updated_by>
+        <sys_updated_on>2022-08-08 07:52:53</sys_updated_on>
+        <table>x_ster2_emfs_subject</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

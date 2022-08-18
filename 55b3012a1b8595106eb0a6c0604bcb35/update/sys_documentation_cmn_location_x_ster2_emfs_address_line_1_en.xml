@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_ster2_emfs_address_line_1" label="Address Line 1" language="en" table="cmn_location">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_ster2_emfs_address_line_1</element>
+            <help/>
+            <hint/>
+            <label>Address Line 1</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <plural>Address Line 1s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-08-18 10:21:20</sys_created_on>
+            <sys_id>6d46e10387919950952f87f5cebb356b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Address Line 1</sys_name>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_documentation_cmn_location_x_ster2_emfs_address_line_1_en</sys_update_name>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-08-18 10:21:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
