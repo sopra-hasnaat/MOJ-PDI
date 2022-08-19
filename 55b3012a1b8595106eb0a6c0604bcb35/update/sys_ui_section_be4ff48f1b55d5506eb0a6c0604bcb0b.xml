@@ -3,154 +3,182 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
-            <sys_created_by>cheryl.holt.ems</sys_created_by>
-            <sys_created_on>2022-08-18 10:41:24</sys_created_on>
-            <sys_id>bfdae14b1b19d5506eb0a6c0604bcb2d</sys_id>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-08-19 09:44:38</sys_created_on>
+            <sys_id>b9772a578719d950952f87f5cebb354d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="Default view">be4ff48f1b55d5506eb0a6c0604bcb0b</sys_ui_section>
-            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
-            <sys_updated_on>2022-08-18 10:41:24</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-08-19 09:44:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>street</element>
             <position>1</position>
-            <sys_created_by>cheryl.holt.ems</sys_created_by>
-            <sys_created_on>2022-08-18 10:41:24</sys_created_on>
-            <sys_id>b7dae14b1b19d5506eb0a6c0604bcb2e</sys_id>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-08-19 09:44:38</sys_created_on>
+            <sys_id>b1772a578719d950952f87f5cebb354e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="Default view">be4ff48f1b55d5506eb0a6c0604bcb0b</sys_ui_section>
-            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
-            <sys_updated_on>2022-08-18 10:41:24</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-08-19 09:44:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>city</element>
             <position>2</position>
-            <sys_created_by>cheryl.holt.ems</sys_created_by>
-            <sys_created_on>2022-08-18 10:41:24</sys_created_on>
-            <sys_id>bbdae14b1b19d5506eb0a6c0604bcb2e</sys_id>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-08-19 09:44:38</sys_created_on>
+            <sys_id>b5772a578719d950952f87f5cebb354e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="Default view">be4ff48f1b55d5506eb0a6c0604bcb0b</sys_ui_section>
-            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
-            <sys_updated_on>2022-08-18 10:41:24</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-08-19 09:44:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
             <position>3</position>
-            <sys_created_by>cheryl.holt.ems</sys_created_by>
-            <sys_created_on>2022-08-18 10:41:24</sys_created_on>
-            <sys_id>bfdae14b1b19d5506eb0a6c0604bcb2e</sys_id>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-08-19 09:44:38</sys_created_on>
+            <sys_id>b9772a578719d950952f87f5cebb354e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="Default view">be4ff48f1b55d5506eb0a6c0604bcb0b</sys_ui_section>
-            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
-            <sys_updated_on>2022-08-18 10:41:24</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-08-19 09:44:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>zip</element>
             <position>4</position>
-            <sys_created_by>cheryl.holt.ems</sys_created_by>
-            <sys_created_on>2022-08-18 10:41:24</sys_created_on>
-            <sys_id>b3dae14b1b19d5506eb0a6c0604bcb2f</sys_id>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-08-19 09:44:38</sys_created_on>
+            <sys_id>bd772a578719d950952f87f5cebb354e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="Default view">be4ff48f1b55d5506eb0a6c0604bcb0b</sys_ui_section>
-            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
-            <sys_updated_on>2022-08-18 10:41:24</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-08-19 09:44:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>country</element>
             <position>5</position>
-            <sys_created_by>cheryl.holt.ems</sys_created_by>
-            <sys_created_on>2022-08-18 10:41:24</sys_created_on>
-            <sys_id>b7dae14b1b19d5506eb0a6c0604bcb2f</sys_id>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-08-19 09:44:38</sys_created_on>
+            <sys_id>b1772a578719d950952f87f5cebb354f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="Default view">be4ff48f1b55d5506eb0a6c0604bcb0b</sys_ui_section>
-            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
-            <sys_updated_on>2022-08-18 10:41:24</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-08-19 09:44:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>6</position>
-            <sys_created_by>cheryl.holt.ems</sys_created_by>
-            <sys_created_on>2022-08-18 10:41:24</sys_created_on>
-            <sys_id>bbdae14b1b19d5506eb0a6c0604bcb2f</sys_id>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-08-19 09:44:38</sys_created_on>
+            <sys_id>b5772a578719d950952f87f5cebb354f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="Default view">be4ff48f1b55d5506eb0a6c0604bcb0b</sys_ui_section>
-            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
-            <sys_updated_on>2022-08-18 10:41:24</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-08-19 09:44:38</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>latitude</element>
             <position>7</position>
-            <sys_created_by>cheryl.holt.ems</sys_created_by>
-            <sys_created_on>2022-08-18 10:41:24</sys_created_on>
-            <sys_id>bfdae14b1b19d5506eb0a6c0604bcb2f</sys_id>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-08-19 09:44:38</sys_created_on>
+            <sys_id>b9772a578719d950952f87f5cebb354f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="Default view">be4ff48f1b55d5506eb0a6c0604bcb0b</sys_ui_section>
-            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
-            <sys_updated_on>2022-08-18 10:41:24</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-08-19 09:44:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>longitude</element>
             <position>8</position>
-            <sys_created_by>cheryl.holt.ems</sys_created_by>
-            <sys_created_on>2022-08-18 10:41:24</sys_created_on>
-            <sys_id>b3dae14b1b19d5506eb0a6c0604bcb30</sys_id>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-08-19 09:44:38</sys_created_on>
+            <sys_id>bd772a578719d950952f87f5cebb354f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="Default view">be4ff48f1b55d5506eb0a6c0604bcb0b</sys_ui_section>
-            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
-            <sys_updated_on>2022-08-18 10:41:24</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-08-19 09:44:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>9</position>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-08-19 09:44:38</sys_created_on>
+            <sys_id>b1772a578719d950952f87f5cebb3550</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="Default view">be4ff48f1b55d5506eb0a6c0604bcb0b</sys_ui_section>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-08-19 09:44:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>9</position>
-            <sys_created_by>cheryl.holt.ems</sys_created_by>
-            <sys_created_on>2022-08-18 10:41:24</sys_created_on>
-            <sys_id>b7dae14b1b19d5506eb0a6c0604bcb30</sys_id>
+            <position>10</position>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-08-19 09:44:38</sys_created_on>
+            <sys_id>b5772a578719d950952f87f5cebb3550</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="Default view">be4ff48f1b55d5506eb0a6c0604bcb0b</sys_ui_section>
-            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
-            <sys_updated_on>2022-08-18 10:41:24</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-08-19 09:44:38</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>full_name</element>
-            <position>10</position>
-            <sys_created_by>cheryl.holt.ems</sys_created_by>
-            <sys_created_on>2022-08-18 10:41:24</sys_created_on>
-            <sys_id>bbdae14b1b19d5506eb0a6c0604bcb30</sys_id>
+            <position>11</position>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-08-19 09:44:38</sys_created_on>
+            <sys_id>b9772a578719d950952f87f5cebb3550</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="Default view">be4ff48f1b55d5506eb0a6c0604bcb0b</sys_ui_section>
-            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
-            <sys_updated_on>2022-08-18 10:41:24</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-08-19 09:44:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subject_name</element>
+            <position>12</position>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-08-19 09:44:38</sys_created_on>
+            <sys_id>bd772a578719d950952f87f5cebb3550</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="Default view">be4ff48f1b55d5506eb0a6c0604bcb0b</sys_ui_section>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-08-19 09:44:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
