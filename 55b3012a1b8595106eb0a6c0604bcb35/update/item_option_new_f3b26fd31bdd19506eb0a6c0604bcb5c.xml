@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="New Monitoring Order">ca75d7f287891910952f87f5cebb35ec</cat_item>
+        <cat_item display_value="Create New Subject">f1f16f931bdd19506eb0a6c0604bcb18</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -19,11 +19,11 @@
         <dynamic_ref_qual/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>subject_name</field>
+        <field>email</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>true</hidden>
+        <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -35,26 +35,26 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>subject_name</name>
-        <order>100</order>
+        <name>email</name>
+        <order>400</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Who does the Order need to be raised against?</question_text>
+        <question_text>What is the Subject's Email Address?</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table>x_ster2_emfs_monitoring_order</record_producer_table>
-        <reference>x_ster2_emfs_subject</reference>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <record_producer_table>x_ster2_emfs_subject</record_producer_table>
+        <reference/>
+        <reference_qual>undefined</reference_qual>
+        <reference_qual_condition>undefined</reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script/>
@@ -66,19 +66,19 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>des.king.ems</sys_created_by>
-        <sys_created_on>2022-08-05 13:43:27</sys_created_on>
-        <sys_id>13961f3687891910952f87f5cebb359e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Who does the Order need to be raised against?</sys_name>
+        <sys_created_on>2022-08-19 14:04:05</sys_created_on>
+        <sys_id>f3b26fd31bdd19506eb0a6c0604bcb5c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>What is the Subject's Email Address?</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
-        <sys_update_name>item_option_new_13961f3687891910952f87f5cebb359e</sys_update_name>
-        <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-08-19 14:40:52</sys_updated_on>
+        <sys_update_name>item_option_new_f3b26fd31bdd19506eb0a6c0604bcb5c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-19 14:05:33</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>8</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -94,22 +94,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=13961f3687891910952f87f5cebb359e"/>
-    <fx_price action="delete_multiple" query="id=13961f3687891910952f87f5cebb359e"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=f3b26fd31bdd19506eb0a6c0604bcb5c"/>
+    <fx_price action="delete_multiple" query="id=f3b26fd31bdd19506eb0a6c0604bcb5c"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="GBP">GBP</currency>
         <field>price_if_checked</field>
-        <id>13961f3687891910952f87f5cebb359e</id>
+        <id>f3b26fd31bdd19506eb0a6c0604bcb5c</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>des.king.ems</sys_created_by>
-        <sys_created_on>2022-08-05 13:43:27</sys_created_on>
-        <sys_id>3fd717b687891910952f87f5cebb3566</sys_id>
+        <sys_created_on>2022-08-19 14:04:05</sys_created_on>
+        <sys_id>e2d2efd31bdd19506eb0a6c0604bcb3a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-08-05 13:43:27</sys_updated_on>
+        <sys_updated_on>2022-08-19 14:04:05</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -117,16 +117,16 @@
         <amount>0</amount>
         <currency display_value="GBP">GBP</currency>
         <field>rec_price_if_checked</field>
-        <id>13961f3687891910952f87f5cebb359e</id>
+        <id>f3b26fd31bdd19506eb0a6c0604bcb5c</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>des.king.ems</sys_created_by>
-        <sys_created_on>2022-08-05 13:43:27</sys_created_on>
-        <sys_id>7bd717b687891910952f87f5cebb3565</sys_id>
+        <sys_created_on>2022-08-19 14:04:05</sys_created_on>
+        <sys_id>a6d2efd31bdd19506eb0a6c0604bcb39</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-08-05 13:43:27</sys_updated_on>
+        <sys_updated_on>2022-08-19 14:04:05</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
