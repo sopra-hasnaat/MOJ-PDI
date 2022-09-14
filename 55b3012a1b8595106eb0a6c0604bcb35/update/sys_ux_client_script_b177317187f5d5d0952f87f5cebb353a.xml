@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Propose Major Case">a577317187f5d5d0952f87f5cebb3523</macroponent>
+        <name>Update business impact</name>
+        <required_translations/>
+        <script><![CDATA[function handler({api, event, imports}) {
+    api.setState('businessImpact',event.payload.fieldValue);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-08 10:55:25</sys_created_on>
+        <sys_id>b177317187f5d5d0952f87f5cebb353a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update business impact</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_client_script_b177317187f5d5d0952f87f5cebb353a</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-08 10:55:25</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

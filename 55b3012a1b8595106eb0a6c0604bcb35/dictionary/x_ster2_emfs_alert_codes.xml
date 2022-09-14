@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Alert Codes" max_length="40" name="x_ster2_emfs_alert_codes" sizeclass="82" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Action to be taken" max_length="65" name="action_to_be_taken" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Alert Type  " max_length="40" name="alert_type" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="AM" sequence="0" value="am"/>
+                <element inactive_on_update="false" label="GPS" sequence="1" value="gps"/>
+                <element inactive_on_update="false" label="RF" sequence="2" value="rf"/>
+                <element inactive_on_update="false" label="Non-Fitted" sequence="3" value="non-fitted"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Code" max_length="40" name="code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="High Level Description" max_length="500" name="high_level_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="50" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="516" name="notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Responsibilty" max_length="40" name="responsibilty" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Severity" max_length="40" name="severity" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Supplier" max_length="40" name="supplier" type="string"/>
+        <element label="Visit Required" max_length="40" name="visit_required" type="boolean"/>
+    </element>
+</database>

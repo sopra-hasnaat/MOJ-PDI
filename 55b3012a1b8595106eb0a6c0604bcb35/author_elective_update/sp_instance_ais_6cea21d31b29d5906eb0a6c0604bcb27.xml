@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application display_value="Service Portal Default Search Application">00731b9d5b231010d9a5ce1a8581c7dd</search_application>
+        <search_results_configuration display_value="CSM Portal Search">60446b31c3c62010a6f3f97c9840dd10</search_results_configuration>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">f17f45d71ba5d5906eb0a6c0604bcb01</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-31 15:35:38</sys_created_on>
+        <sys_id>6cea21d31b29d5906eb0a6c0604bcb27</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Search for an existing Subject</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_instance_ais_6cea21d31b29d5906eb0a6c0604bcb27</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-31 15:41:20</sys_updated_on>
+        <title>Search for an existing Subject</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"typeahead_search": {
+		"value": "Enter the Subjects PNC, Prison, Immigration Number or Name",
+		"displayValue": "Enter the Subjects PNC, Prison, Immigration Number or Name"
+	}
+}]]></widget_parameters>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=6cea21d31b29d5906eb0a6c0604bcb27"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sp_instance_ais_6cea21d31b29d5906eb0a6c0604bcb27</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_ais"&gt;&lt;sp_instance_ais action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;ai_search_source_filter/&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;disable_all_suggestions&gt;false&lt;/disable_all_suggestions&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;placeholder/&gt;&lt;roles/&gt;&lt;search_application display_value="Service Portal Default Search Application"&gt;00731b9d5b231010d9a5ce1a8581c7dd&lt;/search_application&gt;&lt;search_results_configuration display_value="CSM Portal Search"&gt;60446b31c3c62010a6f3f97c9840dd10&lt;/search_results_configuration&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;f17f45d71ba5d5906eb0a6c0604bcb01&lt;/sp_column&gt;&lt;sp_widget display_value="Homepage Search"&gt;200fbd96cb20020000f8d856634c9ca1&lt;/sp_widget&gt;&lt;spell_check_font_size&gt;xl&lt;/spell_check_font_size&gt;&lt;sys_class_name&gt;sp_instance_ais&lt;/sys_class_name&gt;&lt;sys_created_by&gt;des.king.ems&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-31 15:35:38&lt;/sys_created_on&gt;&lt;sys_id&gt;6cea21d31b29d5906eb0a6c0604bcb27&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Search for an existing Subject&lt;/sys_name&gt;&lt;sys_package display_value="Electronic Monitoring" source="x_ster2_emfs"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Electronic Monitoring"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_ais_6cea21d31b29d5906eb0a6c0604bcb27&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;des.king.ems&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-31 15:41:20&lt;/sys_updated_on&gt;&lt;title&gt;Search for an existing Subject&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"typeahead_search": {
+		"value": "Enter the Subjects PNC, Prison, Immigration Number or Name",
+		"displayValue": "Enter the Subjects PNC, Prison, Immigration Number or Name"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_ais&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6cea21d31b29d5906eb0a6c0604bcb27"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1596907739</payload_hash>
+        <record_name>Search for an existing Subject</record_name>
+        <reverted_from/>
+        <source>8649b79b1b1159506eb0a6c0604bcb1d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-31 15:41:20</sys_created_on>
+        <sys_id>cc3c25171b29d5906eb0a6c0604bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182f49068bb0000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-31 15:41:20</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>083c25172a29d590ca1d4537a1389954</update_guid>
+        <update_guid_history>083c25172a29d590ca1d4537a1389954:-1596907739,b44ba593d129d5907b76e16015481149:875202743,ecea21d3a729d590f9aed0507ce61629:-600296413</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Search for an existing Subject">9f4ca5171b29d5906eb0a6c0604bcb56</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-31 15:41:50</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>4374b33d0f4641dcad6db65802563dc4</sys_id>
+        <sys_metadata>6cea21d31b29d5906eb0a6c0604bcb27</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search for an existing Subject</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_6cea21d31b29d5906eb0a6c0604bcb27</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_6cea21d31b29d5906eb0a6c0604bcb27">cc3c25171b29d5906eb0a6c0604bcb54</sys_update_version>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-31 15:41:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

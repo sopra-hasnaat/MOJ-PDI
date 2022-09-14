@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Alerts" max_length="40" name="x_ster2_emfs_alerts" sizeclass="5" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Code" max_length="32" name="code" reference="x_ster2_emfs_alert_codes" type="reference"/>
+        <element label="Additional Comments (Subject Visible)" max_length="4000" name="comments" type="journal_input"/>
+        <element label="Date &amp; Time of Alert" max_length="40" name="date_time" type="glide_date_time"/>
+        <element label="Tag/Monitoring Unit" max_length="32" name="device" reference="alm_asset" type="reference"/>
+        <element label="Latitude" max_length="40" name="latitude" type="float"/>
+        <element label="Linked Alert" max_length="4000" name="linked_alert" reference="x_ster2_emfs_alerts" reference_floats="true" type="glide_list"/>
+        <element label="Longitude" max_length="40" name="longitude" type="float"/>
+        <element label="Message" max_length="500" name="message" type="string"/>
+        <element label="Non-Compliant" max_length="40" name="non_compliance" type="boolean"/>
+        <element choice="1" label="Non-Compliance Type" max_length="40" name="non_compliance_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="PID Tamper" sequence="0" value="tamper"/>
+                <element inactive_on_update="false" label="Absence" sequence="1" value="absence"/>
+                <element inactive_on_update="false" label="Accumulated Time Violation" sequence="2" value="time"/>
+                <element inactive_on_update="false" label="Withdrawal of Consent" sequence="3" value="withdrawal"/>
+                <element inactive_on_update="false" label="Incident on Site" sequence="4" value="incident"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" label="Severity" max_length="40" name="severity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="0" value="critical"/>
+                <element inactive_on_update="false" label="Serious" sequence="1" value="serious"/>
+                <element inactive_on_update="false" label="Warning" sequence="2" value="warning"/>
+                <element inactive_on_update="false" label="Low" sequence="3" value="low"/>
+                <element inactive_on_update="false" label="Message" sequence="4" value="message"/>
+            </choice>
+        </element>
+        <element choice="3" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="2" value="cancelled"/>
+                <element inactive_on_update="false" label="Awaiting Response" sequence="3" value="awaiting_response"/>
+                <element inactive_on_update="false" label="Warrant Issued" sequence="4" value="warrant_issued"/>
+                <element inactive_on_update="false" label="Complete" sequence="5" value="complete"/>
+            </choice>
+        </element>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AM" sequence="0" value="am"/>
+                <element inactive_on_update="false" label="GPS" sequence="1" value="gps"/>
+                <element inactive_on_update="false" label="RF" sequence="2" value="rf"/>
+                <element inactive_on_update="false" label="Non-Fitted" sequence="3" value="non_fitted"/>
+            </choice>
+        </element>
+        <element label="Work Notes" max_length="4000" name="work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="code"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="device"/>
+        </index>
+        <index name="index4">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

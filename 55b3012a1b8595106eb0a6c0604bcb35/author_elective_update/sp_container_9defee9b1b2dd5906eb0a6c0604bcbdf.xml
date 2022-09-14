@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>MOJ Home - Container 8</name>
+        <order>8</order>
+        <sp_page display_value="moj_home">cd4f05d71ba5d5906eb0a6c0604bcb79</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-31 20:37:09</sys_created_on>
+        <sys_id>9defee9b1b2dd5906eb0a6c0604bcbdf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>MOJ Home - Container 8</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_container_9defee9b1b2dd5906eb0a6c0604bcbdf</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-31 22:28:19</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sp_container_9defee9b1b2dd5906eb0a6c0604bcbdf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>MOJ Home - Container 8</name><order>8</order><sp_page display_value="moj_home">cd4f05d71ba5d5906eb0a6c0604bcb79</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>des.king.ems</sys_created_by><sys_created_on>2022-08-31 20:37:09</sys_created_on><sys_id>9defee9b1b2dd5906eb0a6c0604bcbdf</sys_id><sys_mod_count>2</sys_mod_count><sys_name>MOJ Home - Container 8</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sp_container_9defee9b1b2dd5906eb0a6c0604bcbdf</sys_update_name><sys_updated_by>des.king.ems</sys_updated_by><sys_updated_on>2022-08-31 22:28:19</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>957670744</payload_hash>
+        <record_name>MOJ Home - Container 8</record_name>
+        <reverted_from/>
+        <source>8649b79b1b1159506eb0a6c0604bcb1d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-31 22:28:19</sys_created_on>
+        <sys_id>69594b171badd5906eb0a6c0604bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182f60500460000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-31 22:28:19</sys_updated_on>
+        <type>Container</type>
+        <update_guid>a1594b17baadd590d9023a91127d9764</update_guid>
+        <update_guid_history>a1594b17baadd590d9023a91127d9764:957670744,0800b6db192dd590a829c7f744ba0580:357508535,ddefee9b0a2dd5908e69a61bf47e53e1:-242653674</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="MOJ Home - Container 8">2e79cb171badd5906eb0a6c0604bcbf9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-31 22:28:55</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>19412cde67ac4a9486f840a2470ec7c4</sys_id>
+        <sys_metadata>9defee9b1b2dd5906eb0a6c0604bcbdf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MOJ Home - Container 8</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sp_container_9defee9b1b2dd5906eb0a6c0604bcbdf</sys_update_name>
+        <sys_update_version display_value="sp_container_9defee9b1b2dd5906eb0a6c0604bcbdf">69594b171badd5906eb0a6c0604bcb64</sys_update_version>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-31 22:28:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

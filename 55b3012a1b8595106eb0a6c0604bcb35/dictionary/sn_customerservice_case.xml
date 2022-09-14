@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="email_client=true" audit="true" extends="task" label="Case" max_length="40" name="sn_customerservice_case" sizeclass="4" text_index="true" type="collection">
+    <element attributes="email_client=true" audit="true" extends="task" label="Case" max_length="40" name="sn_customerservice_case" sizeclass="53" text_index="true" type="collection">
         <element label="Monitoring Order" max_length="32" name="x_ster2_emfs_monitoring_order" reference="x_ster2_emfs_monitoring_order" type="reference"/>
     </element>
 </database>

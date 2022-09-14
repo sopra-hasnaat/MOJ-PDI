@@ -2,17 +2,45 @@
     <sys_ui_related sys_domain="global" table="x_ster2_emfs_monitoring_order" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Monitoring Order - Default view" name="x_ster2_emfs_monitoring_order" related_list="NULL" sys_domain="global" view="Default view">18ed8c43878d1910952f87f5cebb3512</list_id>
+            <list_id display_value="Monitoring Order - Default view" name="x_ster2_emfs_monitoring_order" related_list="NULL" sys_domain="global" view="Default view">63b5a25587251590952f87f5cebb3538</list_id>
             <order_by/>
             <position>0</position>
-            <related_list>sn_customerservice_case.x_ster2_emfs_monitoring_order</related_list>
+            <related_list>REL:69456a1587251590952f87f5cebb356e</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-08-05 17:39:26</sys_created_on>
-            <sys_id>54ed8c43878d1910952f87f5cebb3513</sys_id>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-08-25 14:44:57</sys_created_on>
+            <sys_id>afb5a25587251590952f87f5cebb3538</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-08-05 17:39:26</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-08-25 14:44:57</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Monitoring Order - Default view" name="x_ster2_emfs_monitoring_order" related_list="NULL" sys_domain="global" view="Default view">63b5a25587251590952f87f5cebb3538</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:23d6fa4f87d59950952f87f5cebb351d</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-08-25 14:44:57</sys_created_on>
+            <sys_id>a3b5a25587251590952f87f5cebb3539</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-08-25 14:44:57</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Monitoring Order - Default view" name="x_ster2_emfs_monitoring_order" related_list="NULL" sys_domain="global" view="Default view">63b5a25587251590952f87f5cebb3538</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:a5fffe8b87199950952f87f5cebb3596</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-08-25 14:44:57</sys_created_on>
+            <sys_id>a7b5a25587251590952f87f5cebb3539</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-08-25 14:44:57</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Monitoring Order - Default view</calculated_name>
@@ -22,19 +50,19 @@
             <position/>
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-08-05 17:39:26</sys_created_on>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-08-25 14:44:57</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>18ed8c43878d1910952f87f5cebb3512</sys_id>
+            <sys_id>63b5a25587251590952f87f5cebb3538</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Monitoring Order - Default view</sys_name>
             <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
             <sys_policy/>
             <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
             <sys_update_name>sys_ui_related_x_ster2_emfs_monitoring_order_null</sys_update_name>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-08-05 17:39:26</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-08-25 14:44:57</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

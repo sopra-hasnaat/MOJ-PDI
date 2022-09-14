@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Knowledge Category Picker Modal">9d273dfd87b5d5d0952f87f5cebb35a7</macroponent>
+        <name>Set Knowledge Base</name>
+        <required_translations/>
+        <script><![CDATA[function handler({
+    api,
+    event,
+    imports
+}) {
+	if(api.data.gliderecord_query.output.data.GlideRecord_Query.kb_knowledge._results.length > 0) {
+    	api.setState('parentId', api.data.gliderecord_query.output.data.GlideRecord_Query.kb_knowledge._results[0].kb_knowledge_base.value);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-08 10:54:02</sys_created_on>
+        <sys_id>15273dfd87b5d5d0952f87f5cebb35c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Knowledge Base</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_client_script_15273dfd87b5d5d0952f87f5cebb35c6</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-08 10:54:02</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

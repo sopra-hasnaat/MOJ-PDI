@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="sys_user" label="Responsible Officers" max_length="40" name="x_ster2_emfs_responsible_officers" sizeclass="1" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Office Administrative Email" max_length="50" name="office_administrative_email" type="string"/>
+        <element label="Office Administrative Phone" max_length="40" name="office_administrative_phone" type="string"/>
+        <element label="Primary Office/ Address" max_length="200" name="primary_office_address" type="string"/>
+        <element label="Responsible Organisations" max_length="32" name="responsible_organisations" reference="x_ster2_emfs_responsible_organisations" reference_qual="javascript:'type='+current.type;" type="reference" use_reference_qualifier="advanced"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="YOT" sequence="0" value="yot"/>
+                <element inactive_on_update="false" label="Probation" sequence="1" value="probation"/>
+                <element inactive_on_update="false" label="Police" sequence="2" value="police"/>
+                <element inactive_on_update="false" label="Immigration Enforcement" sequence="3" value="immigration"/>
+                <element inactive_on_update="false" label="Home Office" sequence="4" value="home_office"/>
+            </choice>
+        </element>
+        <element label="Work Notes" max_length="40" name="work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="responsible_organisations"/>
+        </index>
+    </element>
+</database>

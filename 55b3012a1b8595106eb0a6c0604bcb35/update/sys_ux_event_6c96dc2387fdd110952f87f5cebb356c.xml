@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>GFORM_SET_VALUE_RELAY_10049f8387b99110952f87f5cebb3523</event_name>
+        <interfaces/>
+        <label>Glide Form SET_VALUE Relay (Active Alerts default)</label>
+        <props>[{"name":"fieldName","fieldType":"string","label":"Field Name"},{"name":"value","fieldType":"string","label":"Value"},{"name":"displayValue","fieldType":"string","label":"Display Value"}]</props>
+        <required_translations>[ {
+  "message" : "Display Value",
+  "comment" : ""
+}, {
+  "message" : "Field Name",
+  "comment" : ""
+}, {
+  "message" : "Value",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-13 14:21:27</sys_created_on>
+        <sys_id>6c96dc2387fdd110952f87f5cebb356c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Glide Form SET_VALUE Relay (Active Alerts default)</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_event_6c96dc2387fdd110952f87f5cebb356c</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-13 14:21:27</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=6c96dc2387fdd110952f87f5cebb356c"/>
+</record_update>

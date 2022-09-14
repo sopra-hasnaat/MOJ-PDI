@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Create New Subject">f1f16f931bdd19506eb0a6c0604bcb18</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-19 14:05:32</sys_created_on>
+        <sys_id>ef23e3d7871dd950952f87f5cebb3573</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New Subject.SNC External</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_ef23e3d7871dd950952f87f5cebb3573</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-19 14:05:32</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_ef23e3d7871dd950952f87f5cebb3573</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Create New Subject">f1f16f931bdd19506eb0a6c0604bcb18</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2022-08-19 14:05:32</sys_created_on><sys_id>ef23e3d7871dd950952f87f5cebb3573</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create New Subject.SNC External</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_ef23e3d7871dd950952f87f5cebb3573</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-08-19 14:05:32</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>-803214752</payload_hash>
+        <record_name>Create New Subject.SNC External</record_name>
+        <reverted_from/>
+        <source>8dd703e01b0111106eb0a6c0604bcbdb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-07-29 12:47:01</sys_created_on>
+        <sys_id>ff2f1ca787111d50952f87f5cebb359a</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18249fef1880000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>bf2f1ca7e9111d509e571b258447fe9a</update_guid>
+        <update_guid_history>bf2f1ca7e9111d509e571b258447fe9a:-803214752</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New Subject.SNC External">083f1ca787111d50952f87f5cebb359e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-19 18:27:42</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>24079ff8cd31450089aee1e303e90000</sys_id>
+        <sys_metadata>ef23e3d7871dd950952f87f5cebb3573</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New Subject.SNC External</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_ef23e3d7871dd950952f87f5cebb3573</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_ef23e3d7871dd950952f87f5cebb3573">ff2f1ca787111d50952f87f5cebb359a</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-19 18:27:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

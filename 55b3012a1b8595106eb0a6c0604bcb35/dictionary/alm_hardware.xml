@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="alm_asset" label="Hardware" max_length="40" name="alm_hardware" sizeclass="4" type="collection">
+        <element label="Device Wearer" max_length="32" name="x_ster2_emfs_device_wearer" reference="x_ster2_emfs_subject" type="reference"/>
+        <index name="index">
+            <element name="x_ster2_emfs_device_wearer"/>
+        </index>
+    </element>
+</database>

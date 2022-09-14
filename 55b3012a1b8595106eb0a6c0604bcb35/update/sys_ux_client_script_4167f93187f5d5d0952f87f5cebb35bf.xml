@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Agent initiated messaging">0967f93187f5d5d0952f87f5cebb35a8</macroponent>
+        <name>sendMessage</name>
+        <required_translations/>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    if (!api.state.isButtonEnabled) {
+        var body = {
+            'channel_id': api.state.messageData.data.channel.item.channel_id,
+            'provider_id': api.state.messageData.data.fromValue.item.sys_id,
+            'provider_number': api.state.messageData.data.fromValue.item.id,
+            'to_number': api.state.messageData.data.toValue.formattedValue.value,
+            'message': api.state.messageData.data.message && api.state.messageData.data.message.value ? api.state.messageData.data.message.value : '',
+            'profile_table': api.state.messageData.user_document.table,
+            'profile_sysid': api.state.messageData.user_document.sys_id,
+            'attachment_sysid': api.state.messageData.data.attachmentSysId ? api.state.messageData.data.attachmentSysId : ''
+        };
+        api.emit("NOW_UXF_PAGE#SET_LOADING_STATE", {
+            id: "agent_messaging_send",
+            loading: true,
+            label: "Sending"
+        });
+        helpers.snHttp("/api/now/agent_initiated_message/send_message", {
+                method: "POST",
+                body: body
+            })
+            .then(({
+                response
+            }) => {
+                if (response.result.successful) {
+                    api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+                        items: [{
+                            id: "alert1",
+                            status: "info",
+                            icon: "info-circle-outline",
+                            content: "Message sent to customer.",
+                            textLinkProps: {
+                                label: "View Interaction",
+                                href: "/nav_to.do?uri=interaction.do?sys_id=" + response.result.interactionSysId
+                            },
+                            action: {
+                                type: "dismiss"
+                            },
+                        }]
+                    });
+
+                    helpers.timing.setTimeout(() => {
+                        api.emit("NOW_UXF_PAGE#SET_LOADING_STATE", {
+                            id: "agent_messaging_send",
+                            loading: false
+                        });
+                        helpers.modal.close();
+                    }, 1000);
+
+                } else {
+                    api.emit(" NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+                        items: [{
+                            id: "alert2",
+                            status: "critical",
+                            icon: "info-circle-outline",
+                            content: "There was an error in sending that message.",
+                            action: {
+                                type: "dismiss"
+                            }
+                        }]
+                    });
+
+                    helpers.timing.setTimeout(() => {
+                        api.emit("NOW_UXF_PAGE#SET_LOADING_STATE", {
+                            id: "agent_messaging_send",
+                            loading: false
+                        });
+                        helpers.modal.close();
+                    }, 1000);
+                }
+            });
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-08 10:55:07</sys_created_on>
+        <sys_id>4167f93187f5d5d0952f87f5cebb35bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sendMessage</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_client_script_4167f93187f5d5d0952f87f5cebb35bf</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-08 10:55:07</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

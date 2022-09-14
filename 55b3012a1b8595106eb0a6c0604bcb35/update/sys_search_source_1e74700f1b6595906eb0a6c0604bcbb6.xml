@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition table="x_ster2_emfs_m2m_subjects_curfew_locations">active=true</condition>
+        <group/>
+        <name>Electronic Monitoring Subjects - x_ster2_emfs_m2m_</name>
+        <roles/>
+        <source_table>x_ster2_emfs_m2m_subjects_curfew_locations</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-30 16:59:26</sys_created_on>
+        <sys_id>1e74700f1b6595906eb0a6c0604bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Electronic Monitoring Subjects - x_ster2_emfs_m2m_</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_search_source_1e74700f1b6595906eb0a6c0604bcbb6</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-30 16:59:26</sys_updated_on>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=1e74700f1b6595906eb0a6c0604bcbb6"/>
+</record_update>

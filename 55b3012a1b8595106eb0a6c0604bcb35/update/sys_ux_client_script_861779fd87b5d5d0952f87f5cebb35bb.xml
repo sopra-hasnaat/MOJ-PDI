@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Record">751779fd87b5d5d0952f87f5cebb35a1</macroponent>
+        <name>Launch Special Handling Notes</name>
+        <required_translations/>
+        <script><![CDATA[async function handler({
+    api,
+    helpers,
+    event,
+    imports
+}) {
+   const {
+    snHttp,
+    modal,
+    screen
+} = helpers;
+
+    var SHNOutput = api.data.get_special_handling_notes.output.data.GlideSHN_Query;
+    var showModal = SHNOutput && SHNOutput.totalMsg > 0;
+
+    if (api.state.specialHandlingNotesDisplayed)    return;
+
+    if (showModal && api.context.props.screen.isActive) {
+        api.emit('RECORD#OPEN_MODAL', {
+            "route": "shn",
+            "fields": {
+                "confs": SHNOutput,
+                "table": api.context.props.table,
+                "sysId": api.context.props.sysId
+            },
+            "ariaLabel": await helpers.translate("Special handling notes")
+        });
+        api.setState("specialHandlingNotesDisplayed", true);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-08 10:53:48</sys_created_on>
+        <sys_id>861779fd87b5d5d0952f87f5cebb35bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Launch Special Handling Notes</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_client_script_861779fd87b5d5d0952f87f5cebb35bb</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-08 10:53:48</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Demograpics" section_id="10ecbc471ba595906eb0a6c0604bcb13" sys_domain="global" table="x_ster2_emfs_subject" version="3" view="Workspace_View">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gender</element>
+            <position>0</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-30 17:36:10</sys_created_on>
+            <sys_id>acecbc471ba595906eb0a6c0604bcb5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Demograpics" display_value="Demograpics" name="x_ster2_emfs_subject" sys_domain="global" view="14ec7c471ba595906eb0a6c0604bcbc1">10ecbc471ba595906eb0a6c0604bcb13</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-30 17:36:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>access_requirements</element>
+            <position>1</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-30 17:36:10</sys_created_on>
+            <sys_id>a0ecbc471ba595906eb0a6c0604bcb5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Demograpics" display_value="Demograpics" name="x_ster2_emfs_subject" sys_domain="global" view="14ec7c471ba595906eb0a6c0604bcbc1">10ecbc471ba595906eb0a6c0604bcb13</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-30 17:36:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>access_comments</element>
+            <position>2</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-30 17:36:10</sys_created_on>
+            <sys_id>a4ecbc471ba595906eb0a6c0604bcb5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Demograpics" display_value="Demograpics" name="x_ster2_emfs_subject" sys_domain="global" view="14ec7c471ba595906eb0a6c0604bcbc1">10ecbc471ba595906eb0a6c0604bcb13</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-30 17:36:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-30 17:36:10</sys_created_on>
+            <sys_id>a8ecbc471ba595906eb0a6c0604bcb5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Demograpics" display_value="Demograpics" name="x_ster2_emfs_subject" sys_domain="global" view="14ec7c471ba595906eb0a6c0604bcbc1">10ecbc471ba595906eb0a6c0604bcb13</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-30 17:36:10</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>language</element>
+            <position>4</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-30 17:36:10</sys_created_on>
+            <sys_id>acecbc471ba595906eb0a6c0604bcb5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Demograpics" display_value="Demograpics" name="x_ster2_emfs_subject" sys_domain="global" view="14ec7c471ba595906eb0a6c0604bcbc1">10ecbc471ba595906eb0a6c0604bcb13</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-30 17:36:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nationality</element>
+            <position>5</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-30 17:36:10</sys_created_on>
+            <sys_id>a0ecbc471ba595906eb0a6c0604bcb60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Demograpics" display_value="Demograpics" name="x_ster2_emfs_subject" sys_domain="global" view="14ec7c471ba595906eb0a6c0604bcbc1">10ecbc471ba595906eb0a6c0604bcb13</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-30 17:36:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>faith_religion</element>
+            <position>6</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-30 17:36:10</sys_created_on>
+            <sys_id>a4ecbc471ba595906eb0a6c0604bcb60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Demograpics" display_value="Demograpics" name="x_ster2_emfs_subject" sys_domain="global" view="14ec7c471ba595906eb0a6c0604bcbc1">10ecbc471ba595906eb0a6c0604bcb13</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-30 17:36:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Demograpics</caption>
+            <header>false</header>
+            <name>x_ster2_emfs_subject</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-30 17:36:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10ecbc471ba595906eb0a6c0604bcb13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ster2_emfs_subject</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_ui_section_10ecbc471ba595906eb0a6c0604bcb13</sys_update_name>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-30 17:36:09</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace View" name="Workspace_View">14ec7c471ba595906eb0a6c0604bcbc1</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

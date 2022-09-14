@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Asset Management" source="com.snc.asset_management">7eb3ab5364901110a866d1e779b530dc</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-06 17:02:35</sys_created_on>
+        <sys_id>b8583cd187fd15d0952f87f5cebb350e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-06 17:02:35</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

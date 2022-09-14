@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_user" label="Sentencing Organisation users" max_length="40" name="x_ster2_emfs_sentencing_organisation_users" sizeclass="2" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Sentencing Organisation" max_length="32" name="sentencing_organisation" reference="x_ster2_emfs_sentencing_organisations" reference_qual="javascript:'type='+current.type;" type="reference" use_reference_qualifier="advanced"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Prison" sequence="0" value="prison"/>
+                <element inactive_on_update="false" label="Court" sequence="1" value="court"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="sentencing_organisation"/>
+        </index>
+    </element>
+</database>

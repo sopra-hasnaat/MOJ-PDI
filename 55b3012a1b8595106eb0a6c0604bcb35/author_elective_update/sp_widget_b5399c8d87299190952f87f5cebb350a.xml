@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function($scope) {
+    /* widget controller */
+    var c = this;
+
+document.getElementById('addressnow').parentElement.style.width = "100%";
+
+  $scope.page.g_form.$private.events.on("change", function() {
+    var address1 = document.getElementById('address_line_1');
+		var address2 = document.getElementById('address_line_2');
+		var city = document.getElementById('city');
+		var county = document.getElementById('county');
+		var post_code = document.getElementById('post_code');
+
+		$scope.page.g_form.setValue('address_line_1', address1.value);
+		$scope.page.g_form.setValue('address_line_2', address2.value);
+		$scope.page.g_form.setValue('city', city.value);
+		$scope.page.g_form.setValue('county', county.value);
+		$scope.page.g_form.setValue('post_code', post_code.value);
+	});
+    // 	var city = $scope.page.g_form.getValue('city');
+    // 	$scope.page.g_form.setValue('city', city);
+
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.row {&#13;
+    margin-top: 0.5em;&#13;
+    margin-bottom: 0.5em;&#13;
+}&#13;
+&#13;
+&#13;
+.vsplit.col-sm-6 {&#13;
+    padding-left: 0;&#13;
+    padding-right: 0;&#13;
+}&#13;
+&#13;
+.row &gt; .col-md-6 {&#13;
+    width: 100% !important;&#13;
+}&#13;
+&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>AddressNow</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-24 09:52:30</sys_created_on>
+        <sys_id>b5399c8d87299190952f87f5cebb350a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>AddressNow</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_widget_b5399c8d87299190952f87f5cebb350a</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-08-24 10:05:41</sys_updated_on>
+        <template><![CDATA[<div id="addressnow-widget">
+<!-- your widget template -->
+	<link rel="stylesheet" type="text/css" href="https://api.addressnow.co.uk/css/addressnow-2.20.min.css?key=ft41-dw38-yj59-xj16" />
+	<script type="text/javascript" src="https://api.addressnow.co.uk/js/addressnow-2.20.min.js?key=ft41-dw38-yj59-xj16"></script>
+
+	<div class="row">
+		<div class="col-sm-6">
+			<div id="address_line_1_field" class="form-group " style="">
+				<div class="" data-type="label" choice="0" type="string" id="address_line_1_field" nowrap="true">
+					<label for="address_line_1_field" dir="ltr" class=" col-xs-12 control-label">
+						<span id="address_line_1_field" aria-label="" data-dynamic-title="" mandatory="false" oclass="" class=" "></span>
+						<span title="" class="label-text" data-html="false" data-original-title="">House Name/Number & Street</span>
+					</label>
+				</div>
+				<div class="form-field input_controls">
+					<input type="text" data-type="string" id="address_line_1" name="address_line_1" aria-required="false" maxlength="40" value="" style="; " autocomplete="off" ng-non-bindable="" class="form-control " spellcheck="false" aria-label="Address line 1"></input>
+				</div>
+				<div class="col-xs-2 col-sm-3 col-lg-2 form-field-addons"></div>
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<div id="city_field" class="form-group " style="">
+				<div class="" data-type="label" choice="0" type="string" id="label.city_field" nowrap="true">
+					<label for="city_field" dir="ltr" class="col-xs-12 control-label">
+						<span id="city_field" aria-label="" data-dynamic-title="" mandatory="false" oclass="" class=" "></span>
+						<span title="" class="label-text" data-html="false" data-original-title="">City/Town</span>
+					</label>
+				</div>
+				<div class="form-field input_controls">
+					<input type="text" disabled data-type="string" id="city" name="city" aria-required="false" maxlength="50" value="" style="; " autocomplete="off" ng-non-bindable="" class="form-control " spellcheck="false" aria-label="City"></input>
+				</div>
+				<div class="col-xs-2 col-sm-3 col-lg-2 form-field-addons"></div>
+			</div>
+		</div>
+	</div>
+		
+		<div class="row">
+			<div class="col-sm-6">
+				<div id="address_line_2_field" class="form-group " style="">
+					<div class="" data-type="label" choice="0" type="string" id="address_line_2_field" nowrap="true">
+						<label for="address_line_2_field" dir="ltr" class=" col-xs-12 control-label">
+							<span id="address_line_2_field" aria-label="" data-dynamic-title="" mandatory="false" oclass="" class=" "></span>
+							<span title="" class="label-text" data-html="false" data-original-title="">Locale</span>
+						</label>
+					</div>
+					<div class="form-field input_controls">
+						<input type="text" disabled data-type="string" id="address_line_2" name="address_line_2" aria-required="false" maxlength="50" value="" style="; " autocomplete="off" ng-non-bindable="" class="form-control " spellcheck="false" aria-label="Address Line 2"></input>
+					</div>
+					<div class="col-xs-2 col-sm-3 col-lg-2 form-field-addons"></div>
+				</div>
+			</div>
+			
+			<div class="col-sm-6">
+				<div id="postcode_field" class="form-group " style="">
+					<div class="" data-type="label" choice="0" type="string" id="postcode_field" nowrap="true">
+						<label for="postcode_field" dir="ltr" class=" col-xs-12 control-label">
+							<span id="postcode_field" aria-label="" data-dynamic-title="" mandatory="false" oclass="" class=" "></span>
+							<span title="" class="label-text" data-html="false" data-original-title="">Post code</span>
+						</label>
+					</div>
+					<div class="form-field input_controls">
+						<input type="text" disabled data-type="string" id="post_code" name="post_code" aria-required="false" maxlength="40" value="" style="; " autocomplete="off" ng-non-bindable="" class="form-control " spellcheck="false" aria-label="Post Code"></input>
+					</div>
+					<div class="col-xs-2 col-sm-3 col-lg-2 form-field-addons"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-6">
+				<div id="county_field" class="form-group " style="">
+					<div class="" data-type="label" choice="0" type="string" id="county_field" nowrap="true">
+						<label for="county_field" dir="ltr" class=" col-xs-12 control-label">
+							<span id="county_field" aria-label="" data-dynamic-title="" mandatory="false" oclass="" class=" "></span>
+							<span title="" class="label-text" data-html="false" data-original-title="">County</span>
+						</label>
+					</div>
+					<div class="form-field input_controls">
+						<input type="text" disabled data-type="string" id="county" name="county" aria-required="false" maxlength="50" value="" style="; " autocomplete="off" ng-non-bindable="" class="form-control " spellcheck="false"></input>
+					</div>
+					<div class="col-xs-2 col-sm-3 col-lg-2 form-field-addons"></div>
+				</div>
+			</div>
+		</div>
+</div>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sp_widget_b5399c8d87299190952f87f5cebb350a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller = function($scope) {
+    /* widget controller */
+    var c = this;
+
+document.getElementById('addressnow').parentElement.style.width = "100%";
+
+  $scope.page.g_form.$private.events.on("change", function() {
+    var address1 = document.getElementById('address_line_1');
+		var address2 = document.getElementById('address_line_2');
+		var city = document.getElementById('city');
+		var county = document.getElementById('county');
+		var post_code = document.getElementById('post_code');
+
+		$scope.page.g_form.setValue('address_line_1', address1.value);
+		$scope.page.g_form.setValue('address_line_2', address2.value);
+		$scope.page.g_form.setValue('city', city.value);
+		$scope.page.g_form.setValue('county', county.value);
+		$scope.page.g_form.setValue('post_code', post_code.value);
+	});
+    // 	var city = $scope.page.g_form.getValue('city');
+    // 	$scope.page.g_form.setValue('city', city);
+
+};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.row {&amp;#13;
+    margin-top: 0.5em;&amp;#13;
+    margin-bottom: 0.5em;&amp;#13;
+}&amp;#13;
+&amp;#13;
+&amp;#13;
+.vsplit.col-sm-6 {&amp;#13;
+    padding-left: 0;&amp;#13;
+    padding-right: 0;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.row &amp;gt; .col-md-6 {&amp;#13;
+    width: 100% !important;&amp;#13;
+}&amp;#13;
+&amp;#13;
+&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;AddressNow&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;hasnaat.khan.ems&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-24 09:52:30&lt;/sys_created_on&gt;&lt;sys_id&gt;b5399c8d87299190952f87f5cebb350a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;AddressNow&lt;/sys_name&gt;&lt;sys_package display_value="Electronic Monitoring" source="x_ster2_emfs"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Electronic Monitoring"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_b5399c8d87299190952f87f5cebb350a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;hasnaat.khan.ems&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-24 10:05:41&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div id="addressnow-widget"&gt;
+&lt;!-- your widget template --&gt;
+	&lt;link rel="stylesheet" type="text/css" href="https://api.addressnow.co.uk/css/addressnow-2.20.min.css?key=ft41-dw38-yj59-xj16" /&gt;
+	&lt;script type="text/javascript" src="https://api.addressnow.co.uk/js/addressnow-2.20.min.js?key=ft41-dw38-yj59-xj16"&gt;&lt;/script&gt;
+
+	&lt;div class="row"&gt;
+		&lt;div class="col-sm-6"&gt;
+			&lt;div id="address_line_1_field" class="form-group " style=""&gt;
+				&lt;div class="" data-type="label" choice="0" type="string" id="address_line_1_field" nowrap="true"&gt;
+					&lt;label for="address_line_1_field" dir="ltr" class=" col-xs-12 control-label"&gt;
+						&lt;span id="address_line_1_field" aria-label="" data-dynamic-title="" mandatory="false" oclass="" class=" "&gt;&lt;/span&gt;
+						&lt;span title="" class="label-text" data-html="false" data-original-title=""&gt;House Name/Number &amp; Street&lt;/span&gt;
+					&lt;/label&gt;
+				&lt;/div&gt;
+				&lt;div class="form-field input_controls"&gt;
+					&lt;input type="text" data-type="string" id="address_line_1" name="address_line_1" aria-required="false" maxlength="40" value="" style="; " autocomplete="off" ng-non-bindable="" class="form-control " spellcheck="false" aria-label="Address line 1"&gt;&lt;/input&gt;
+				&lt;/div&gt;
+				&lt;div class="col-xs-2 col-sm-3 col-lg-2 form-field-addons"&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="col-sm-6"&gt;
+			&lt;div id="city_field" class="form-group " style=""&gt;
+				&lt;div class="" data-type="label" choice="0" type="string" id="label.city_field" nowrap="true"&gt;
+					&lt;label for="city_field" dir="ltr" class="col-xs-12 control-label"&gt;
+						&lt;span id="city_field" aria-label="" data-dynamic-title="" mandatory="false" oclass="" class=" "&gt;&lt;/span&gt;
+						&lt;span title="" class="label-text" data-html="false" data-original-title=""&gt;City/Town&lt;/span&gt;
+					&lt;/label&gt;
+				&lt;/div&gt;
+				&lt;div class="form-field input_controls"&gt;
+					&lt;input type="text" disabled data-type="string" id="city" name="city" aria-required="false" maxlength="50" value="" style="; " autocomplete="off" ng-non-bindable="" class="form-control " spellcheck="false" aria-label="City"&gt;&lt;/input&gt;
+				&lt;/div&gt;
+				&lt;div class="col-xs-2 col-sm-3 col-lg-2 form-field-addons"&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+		
+		&lt;div class="row"&gt;
+			&lt;div class="col-sm-6"&gt;
+				&lt;div id="address_line_2_field" class="form-group " style=""&gt;
+					&lt;div class="" data-type="label" choice="0" type="string" id="address_line_2_field" nowrap="true"&gt;
+						&lt;label for="address_line_2_field" dir="ltr" class=" col-xs-12 control-label"&gt;
+							&lt;span id="address_line_2_field" aria-label="" data-dynamic-title="" mandatory="false" oclass="" class=" "&gt;&lt;/span&gt;
+							&lt;span title="" class="label-text" data-html="false" data-original-title=""&gt;Locale&lt;/span&gt;
+						&lt;/label&gt;
+					&lt;/div&gt;
+					&lt;div class="form-field input_controls"&gt;
+						&lt;input type="text" disabled data-type="string" id="address_line_2" name="address_line_2" aria-required="false" maxlength="50" value="" style="; " autocomplete="off" ng-non-bindable="" class="form-control " spellcheck="false" aria-label="Address Line 2"&gt;&lt;/input&gt;
+					&lt;/div&gt;
+					&lt;div class="col-xs-2 col-sm-3 col-lg-2 form-field-addons"&gt;&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			
+			&lt;div class="col-sm-6"&gt;
+				&lt;div id="postcode_field" class="form-group " style=""&gt;
+					&lt;div class="" data-type="label" choice="0" type="string" id="postcode_field" nowrap="true"&gt;
+						&lt;label for="postcode_field" dir="ltr" class=" col-xs-12 control-label"&gt;
+							&lt;span id="postcode_field" aria-label="" data-dynamic-title="" mandatory="false" oclass="" class=" "&gt;&lt;/span&gt;
+							&lt;span title="" class="label-text" data-html="false" data-original-title=""&gt;Post code&lt;/span&gt;
+						&lt;/label&gt;
+					&lt;/div&gt;
+					&lt;div class="form-field input_controls"&gt;
+						&lt;input type="text" disabled data-type="string" id="post_code" name="post_code" aria-required="false" maxlength="40" value="" style="; " autocomplete="off" ng-non-bindable="" class="form-control " spellcheck="false" aria-label="Post Code"&gt;&lt;/input&gt;
+					&lt;/div&gt;
+					&lt;div class="col-xs-2 col-sm-3 col-lg-2 form-field-addons"&gt;&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		
+		&lt;div class="row"&gt;
+			&lt;div class="col-sm-6"&gt;
+				&lt;div id="county_field" class="form-group " style=""&gt;
+					&lt;div class="" data-type="label" choice="0" type="string" id="county_field" nowrap="true"&gt;
+						&lt;label for="county_field" dir="ltr" class=" col-xs-12 control-label"&gt;
+							&lt;span id="county_field" aria-label="" data-dynamic-title="" mandatory="false" oclass="" class=" "&gt;&lt;/span&gt;
+							&lt;span title="" class="label-text" data-html="false" data-original-title=""&gt;County&lt;/span&gt;
+						&lt;/label&gt;
+					&lt;/div&gt;
+					&lt;div class="form-field input_controls"&gt;
+						&lt;input type="text" disabled data-type="string" id="county" name="county" aria-required="false" maxlength="50" value="" style="; " autocomplete="off" ng-non-bindable="" class="form-control " spellcheck="false"&gt;&lt;/input&gt;
+					&lt;/div&gt;
+					&lt;div class="col-xs-2 col-sm-3 col-lg-2 form-field-addons"&gt;&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>106165754</payload_hash>
+        <record_name>AddressNow</record_name>
+        <reverted_from/>
+        <source>238f82cf87159950952f87f5cebb35a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-24 10:05:41</sys_created_on>
+        <sys_id>be3c94c187699190952f87f5cebb35e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182cf5096ed0000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-08-24 10:05:41</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>f63c94c1466991900555469b058001e7</update_guid>
+        <update_guid_history>f63c94c1466991900555469b058001e7:106165754,31399c8d4a299190be5227eb5c0cca0c:1999349762</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="AddressNow">e8add44587699190952f87f5cebb35c9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-24 10:11:48</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>342b17dd3a9a4420b3cb5b8154a87344</sys_id>
+        <sys_metadata>b5399c8d87299190952f87f5cebb350a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AddressNow</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sp_widget_b5399c8d87299190952f87f5cebb350a</sys_update_name>
+        <sys_update_version display_value="sp_widget_b5399c8d87299190952f87f5cebb350a">be3c94c187699190952f87f5cebb35e7</sys_update_version>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-08-24 10:11:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

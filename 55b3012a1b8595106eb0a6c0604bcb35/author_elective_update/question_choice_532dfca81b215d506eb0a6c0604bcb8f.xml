@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>500</order>
+        <published_ref display_value="Grandparent">331b74281b215d506eb0a6c0604bcbe5</published_ref>
+        <question display_value="What is the relationship to the subject?">472dfca81b215d506eb0a6c0604bcb84</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-22 23:12:38</sys_created_on>
+        <sys_id>532dfca81b215d506eb0a6c0604bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Grandparent</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_532dfca81b215d506eb0a6c0604bcb8f</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-22 23:12:38</sys_updated_on>
+        <text>Grandparent</text>
+        <value>grandparent</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=532dfca81b215d506eb0a6c0604bcb8f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_532dfca81b215d506eb0a6c0604bcb8f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>500</order><published_ref display_value="Grandparent">331b74281b215d506eb0a6c0604bcbe5</published_ref><question display_value="What is the relationship to the subject?">472dfca81b215d506eb0a6c0604bcb84</question><sys_class_name>question_choice</sys_class_name><sys_created_by>des.king.ems</sys_created_by><sys_created_on>2022-08-22 23:12:38</sys_created_on><sys_id>532dfca81b215d506eb0a6c0604bcb8f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Grandparent</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>question_choice_532dfca81b215d506eb0a6c0604bcb8f</sys_update_name><sys_updated_by>des.king.ems</sys_updated_by><sys_updated_on>2022-08-22 23:12:38</sys_updated_on><text>Grandparent</text><value>grandparent</value></question_choice><fx_price action="delete_multiple" query="id=532dfca81b215d506eb0a6c0604bcb8f"/></record_update>]]></payload>
+        <payload_hash>-1290359826</payload_hash>
+        <record_name>Grandparent</record_name>
+        <reverted_from/>
+        <source>8649b79b1b1159506eb0a6c0604bcb1d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-22 23:12:38</sys_created_on>
+        <sys_id>1b2dfca81b215d506eb0a6c0604bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182c7d459720000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-22 23:12:38</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>9f2dfca870215d50c0c9401fe2848190</update_guid>
+        <update_guid_history>9f2dfca870215d50c0c9401fe2848190:-1290359826</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Grandparent">c35d38e81b215d506eb0a6c0604bcbcc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-22 23:13:26</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>006c37288bf340fa8abe8b8d6b53e6c4</sys_id>
+        <sys_metadata>532dfca81b215d506eb0a6c0604bcb8f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Grandparent</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_532dfca81b215d506eb0a6c0604bcb8f</sys_update_name>
+        <sys_update_version display_value="question_choice_532dfca81b215d506eb0a6c0604bcb8f">1b2dfca81b215d506eb0a6c0604bcb91</sys_update_version>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-22 23:13:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

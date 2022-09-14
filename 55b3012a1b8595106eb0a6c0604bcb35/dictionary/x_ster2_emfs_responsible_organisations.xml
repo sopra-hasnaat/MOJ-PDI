@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Responsible Organisations" max_length="40" name="x_ster2_emfs_responsible_organisations" sizeclass="246" text_index="true" type="collection">
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Probation" sequence="1" value="probation"/>
+                <element inactive_on_update="false" label="YOT LDU" sequence="2" value="yot"/>
+                <element inactive_on_update="false" label="Police" sequence="3" value="police"/>
+                <element inactive_on_update="false" label="Immigration Enforcement" sequence="4" value="immigration"/>
+                <element inactive_on_update="false" sequence="5" value="home_office"/>
+            </choice>
+        </element>
+    </element>
+</database>

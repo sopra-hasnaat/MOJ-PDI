@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include">
+    <sp_js_include action="DELETE">
+        <display_name>https://maps.googleapis.com/maps/api/js?key=AIzaSyD0qoHs3kXYZZwfeAetSYnnJLrLN2WilXo&amp;libraries=places&amp;callback=initMap</display_name>
+        <source>url</source>
+        <sys_class_name>sp_js_include</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-22 08:51:40</sys_created_on>
+        <sys_id>dc087d988729dd50952f87f5cebb354a</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>https://maps.googleapis.com/maps/api/js?key=AIzaSyD0qoHs3kXYZZwfeAetSYnnJLrLN2WilXo&amp;libraries=places&amp;callback=initMap</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_ui_script/>
+        <sys_update_name>sp_js_include_dc087d988729dd50952f87f5cebb354a</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-08-22 16:36:50</sys_updated_on>
+        <url>https://maps.googleapis.com/maps/api/js?key=AIzaSyD0qoHs3kXYZZwfeAetSYnnJLrLN2WilXo&amp;libraries=places&amp;callback=initMap</url>
+    </sp_js_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sp_js_include_dc087d988729dd50952f87f5cebb354a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include"><sp_js_include action="INSERT_OR_UPDATE"><display_name>https://maps.googleapis.com/maps/api/js?key=AIzaSyD0qoHs3kXYZZwfeAetSYnnJLrLN2WilXo&amp;libraries=places&amp;callback=initMap</display_name><source>url</source><sys_class_name>sp_js_include</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-08-22 08:51:40</sys_created_on><sys_id>dc087d988729dd50952f87f5cebb354a</sys_id><sys_mod_count>7</sys_mod_count><sys_name>https://maps.googleapis.com/maps/api/js?key=AIzaSyD0qoHs3kXYZZwfeAetSYnnJLrLN2WilXo&amp;libraries=places&amp;callback=initMap</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_ui_script/><sys_update_name>sp_js_include_dc087d988729dd50952f87f5cebb354a</sys_update_name><sys_updated_by>hasnaat.khan.ems</sys_updated_by><sys_updated_on>2022-08-22 16:36:50</sys_updated_on><url>https://maps.googleapis.com/maps/api/js?key=AIzaSyD0qoHs3kXYZZwfeAetSYnnJLrLN2WilXo&amp;libraries=places&amp;callback=initMap</url></sp_js_include></record_update>]]></payload>
+        <payload_hash>-1568231165</payload_hash>
+        <record_name>https://maps.googleapis.com/maps/api/js?key=AIzaSyD0qoHs3kXYZZwfeAetSYnnJLrLN2WilXo&amp;libraries=places</record_name>
+        <reverted_from/>
+        <source>238f82cf87159950952f87f5cebb35a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-22 16:36:50</sys_created_on>
+        <sys_id>d592631c87611190952f87f5cebb35a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182c669fbd00000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-08-22 16:36:50</sys_updated_on>
+        <type>JS Include</type>
+        <update_guid>dd92631cd6611190ff30a6c38698eba8</update_guid>
+        <update_guid_history>dd92631cd6611190ff30a6c38698eba8:-1568231165,2758029441a9dd5080c64574d46a8a84:1125274641,dd284a54b6a9dd50b1bafe255a7157f2:-1110843223,a9704a94d569dd507eec02473a11c74f:1634108067,11500694ea69dd5086f9817c40ae38f7:-1633518725,5e0042943469dd506925ca4e3198f4e9:1278962425,b798f9d8f329dd50f7554f112fd88dcb:1458788968,c3187d982f29dd508680549f72cf7c52:54105710</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0qoHs3kXYZZwfeAetSYnnJLrLN2Wi">9e47ed9987edd190952f87f5cebb3552</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-25 10:12:04</sys_created_on>
+        <sys_db_object display_value="" name="sp_js_include">sp_js_include</sys_db_object>
+        <sys_id>292a789876d14d818f517b5294919c79</sys_id>
+        <sys_metadata>dc087d988729dd50952f87f5cebb354a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>https://maps.googleapis.com/maps/api/js?key=AIzaSyD0qoHs3kXYZZwfeAetSYnnJLrLN2WilXo&amp;libraries=places&amp;callback=initMap</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sp_js_include_dc087d988729dd50952f87f5cebb354a</sys_update_name>
+        <sys_update_version display_value="sp_js_include_dc087d988729dd50952f87f5cebb354a">d592631c87611190952f87f5cebb35a9</sys_update_version>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-08-25 10:12:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

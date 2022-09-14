@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>5455d30545bf405453240545d2f05458</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_worktask_product_model">
+    <cmdb_worktask_product_model action="INSERT_OR_UPDATE">
+        <acquisition_method/>
+        <asset_tracking_strategy>leave_to_category</asset_tracking_strategy>
+        <asset_tracking_unit display_value="Individual Unit">51a74add0f233300fee7579ac4767e59</asset_tracking_unit>
+        <assignment_group/>
+        <barcode/>
+        <bundle>false</bundle>
+        <certified>false</certified>
+        <checklist_template/>
+        <cmdb_ci_class/>
+        <cmdb_model_category>98b44470d7311100158ba6859e610353</cmdb_model_category>
+        <comments/>
+        <company/>
+        <customer_visible>false</customer_visible>
+        <depreciation/>
+        <description/>
+        <dispatch_group/>
+        <display_name>Pre-Visit Checks</display_name>
+        <expenditure_type/>
+        <flow_rate/>
+        <full_name/>
+        <is_migrated>true</is_migrated>
+        <life_cycle_stage/>
+        <life_cycle_stage_status/>
+        <main_component/>
+        <manufacturer/>
+        <model_number/>
+        <name>Pre-Visit Checks</name>
+        <owner/>
+        <picture/>
+        <power_consumption/>
+        <product_catalog_item/>
+        <rack_units>1</rack_units>
+        <short_description>Pre-Visit Checks</short_description>
+        <sla/>
+        <sound_power/>
+        <status>In Production</status>
+        <sys_class_name>cmdb_worktask_product_model</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-05 08:43:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>5455d30545bf405453240545d2f05458</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 08:43:55</sys_updated_on>
+        <task_description/>
+        <task_estimated_duration/>
+        <task_skills/>
+        <type>Generic</type>
+        <weight/>
+        <work_type display_value="Install">999469283bca10103f09080044efc4cf</work_type>
+    </cmdb_worktask_product_model>
+    <fx_price action="delete_multiple" query="id=5455d30545bf405453240545d2f05458"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=5455d30545bf405453240545d2f05458"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-05 08:43:55</sys_created_on>
+        <sys_id>5e9c79f887bd91d0952f87f5cebb35a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pre-Visit Checks</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_metadata_link_5e9c79f887bd91d0952f87f5cebb35a0</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 08:43:55</sys_updated_on>
+        <tablename>cmdb_worktask_product_model</tablename>
+    </sys_metadata_link>
+</record_update>

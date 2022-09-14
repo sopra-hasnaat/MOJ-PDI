@@ -13,7 +13,7 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description/>
+        <description><![CDATA[<p><span style="color: #ff0000;">Use this form only if the Subject already exists in the database</span></p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -79,22 +79,10 @@ grCase.priority = "4";
 grCase.short_description = "New Tag installation";
 grCase.description = "New Tag Installation";
 grCase.category = 5;
-grCase.expected_start = current.start_date_time;
+grCase.expected_start = producer.start_date_time;
 grCase.contact = gs.getUserID();
-grCase.insert();
-
-// var grUser = new GlideRecord('sys_user');
-// grUser.initialize();
-// grUser.user_name = current.subject_name;
-// grUser.first_name = current.first_name;
-// grUser.last_name = current.last_name;
-// grUser.email = current.email;
-// grUser.mobile_phone = current.mobile_phone;
-// grUser.active = true;
-// grUser.password_needs_reset = true;
-// //grUser.role = "u_subject_user";
-// grUser.insert();]]></script>
-        <short_description>New Monitoring Order for a Subject</short_description>
+grCase.insert();]]></script>
+        <short_description>New Monitoring Order for an exisiting Subject</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state>published</state>
@@ -102,14 +90,14 @@ grCase.insert();
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-08-05 13:32:58</sys_created_on>
         <sys_id>ca75d7f287891910952f87f5cebb35ec</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>New Monitoring Order</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sc_cat_item_producer_ca75d7f287891910952f87f5cebb35ec</sys_update_name>
-        <sys_updated_by>guest</sys_updated_by>
-        <sys_updated_on>2022-08-15 18:31:17</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-23 15:22:55</sys_updated_on>
         <table_name>x_ster2_emfs_monitoring_order</table_name>
         <taxonomy_topic/>
         <template/>

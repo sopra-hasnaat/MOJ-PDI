@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Risk Information" section_id="ae4f5d411b61dd506eb0a6c0604bcb38" sys_domain="global" table="x_ster2_emfs_curfew_location" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>risk_type</element>
+            <position>0</position>
+            <sys_created_by>cheryl.holt.ems</sys_created_by>
+            <sys_created_on>2022-08-24 15:01:24</sys_created_on>
+            <sys_id>baef19811b61dd506eb0a6c0604bcb34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Information" display_value="Risk Information" name="x_ster2_emfs_curfew_location" sys_domain="global" view="Default view">ae4f5d411b61dd506eb0a6c0604bcb38</sys_ui_section>
+            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+            <sys_updated_on>2022-08-24 15:01:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>risk_notes</element>
+            <position>1</position>
+            <sys_created_by>cheryl.holt.ems</sys_created_by>
+            <sys_created_on>2022-08-24 15:01:24</sys_created_on>
+            <sys_id>beef19811b61dd506eb0a6c0604bcb34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Information" display_value="Risk Information" name="x_ster2_emfs_curfew_location" sys_domain="global" view="Default view">ae4f5d411b61dd506eb0a6c0604bcb38</sys_ui_section>
+            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+            <sys_updated_on>2022-08-24 15:01:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Risk Information</caption>
+            <header>false</header>
+            <name>x_ster2_emfs_curfew_location</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>cheryl.holt.ems</sys_created_by>
+            <sys_created_on>2022-08-24 14:58:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae4f5d411b61dd506eb0a6c0604bcb38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ster2_emfs_curfew_location</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_ui_section_ae4f5d411b61dd506eb0a6c0604bcb38</sys_update_name>
+            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+            <sys_updated_on>2022-08-24 14:58:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Curfew Location Map">e6b6b20387399110952f87f5cebb3545</macroponent>
+        <name>iframe_1_src</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    var lat = api.context.props.retrieveCurfewLocationsDataResource[0].latitude.displayValue;
+    var long = api.context.props.retrieveCurfewLocationsDataResource[0].longitude.displayValue;
+    var apiKey = 'AIzaSyBpwgAfvZ5zWR0GmXQgLUEjbnl10P63qU4';
+
+    return 'https://www.google.com/maps/embed/v1/place?key=' + apiKey + '&q=' + lat + ',' + long +'&zoom=18&maptype=satellite';
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-12 12:46:35</sys_created_on>
+        <sys_id>cd47b24387399110952f87f5cebb3512</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>iframe_1_src</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_client_script_cd47b24387399110952f87f5cebb3512</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-12 13:29:32</sys_updated_on>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

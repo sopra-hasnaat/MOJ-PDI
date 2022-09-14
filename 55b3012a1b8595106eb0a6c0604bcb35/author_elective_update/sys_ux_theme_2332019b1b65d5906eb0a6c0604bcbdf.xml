@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="DELETE">
+        <active>true</active>
+        <description/>
+        <name>MOJ</name>
+        <parent/>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-31 12:38:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2332019b1b65d5906eb0a6c0604bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MOJ</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_theme_2332019b1b65d5906eb0a6c0604bcbdf</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-31 12:38:15</sys_updated_on>
+        <theme/>
+    </sys_ux_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_ux_theme_2332019b1b65d5906eb0a6c0604bcbdf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme"><sys_ux_theme action="INSERT_OR_UPDATE"><active>true</active><description/><name>MOJ</name><parent/><sys_class_name>sys_ux_theme</sys_class_name><sys_created_by>des.king.ems</sys_created_by><sys_created_on>2022-08-31 12:38:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2332019b1b65d5906eb0a6c0604bcbdf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MOJ</sys_name><sys_overrides/><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sys_ux_theme_2332019b1b65d5906eb0a6c0604bcbdf</sys_update_name><sys_updated_by>des.king.ems</sys_updated_by><sys_updated_on>2022-08-31 12:38:15</sys_updated_on><theme/></sys_ux_theme></record_update>]]></payload>
+        <payload_hash>-995601169</payload_hash>
+        <record_name>MOJ</record_name>
+        <reverted_from/>
+        <source>8649b79b1b1159506eb0a6c0604bcb1d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-31 12:38:15</sys_created_on>
+        <sys_id>d242c59b1b65d5906eb0a6c0604bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182f3e8ca8a0000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-31 12:38:15</sys_updated_on>
+        <type>UX Theme</type>
+        <update_guid>1e42c59bdd65d590f2df9fa7b92b00cd</update_guid>
+        <update_guid_history>1e42c59bdd65d590f2df9fa7b92b00cd:-995601169</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-31 12:42:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_theme">sys_ux_theme</sys_db_object>
+        <sys_id>9a678a4099324948be3d93656c86da40</sys_id>
+        <sys_metadata>2332019b1b65d5906eb0a6c0604bcbdf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MOJ</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_ux_theme_2332019b1b65d5906eb0a6c0604bcbdf</sys_update_name>
+        <sys_update_version display_value="sys_ux_theme_2332019b1b65d5906eb0a6c0604bcbdf">d242c59b1b65d5906eb0a6c0604bcbce</sys_update_version>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-31 12:42:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="MOJ_Sentencing_header">08c22d9b1be5d5906eb0a6c0604bcb33</child>
+        <cloned>2022-08-31 15:00:06</cloned>
+        <last_validated>2022-08-31 15:00:06</last_validated>
+        <parent display_value="CSM Stock Header">742f85dcc381320071d07bfaa2d3ae09</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category/&gt;&lt;client_script&gt;&lt;![CDATA[function ($rootScope, $scope, snRecordWatcher, spUtil, $location, $uibModal, cabrillo, $timeout,$window) {
+	$scope.userID = $scope.user.sys_id;
+	var c=this;
+	if (cabrillo.isNative())
+		$scope.isViewNative = true;
+	/*
+	$scope.dynamicOpenPopUp = function() {
+		if ($scope.data.useChatWidgetForCSM) {
+			$scope.toggleChat();
+		} else {
+			$scope.openPopUp();
+		}
+	};
+		//Show VA Chat
+	var MOBILE_DEVICE_SCREEN_WIDTH = 767;
+	$scope.mobileDevice = $scope.data.isMobile || ($(window).width() &lt; MOBILE_DEVICE_SCREEN_WIDTH);
+	$scope.showChat = $scope.mobileDevice;
+	$scope.toggleChat = function () {
+		$scope.showChat = !$scope.showChat;
+		$('a#va_chat').toggleClass('inactive-chat active-chat');
+		if($scope.showChat &amp;&amp; $('div.conversation-region.open').length&lt;=0){
+			$scope.$$postDigest(function(){
+				$('div.conversation-button-container button.help-button').trigger('click');
+			});
+		}
+	};
+
+	$scope.openPopUp = function(evt) {
+		$(evt.target).blur();
+		var queue_id;
+		if ($scope.data.queueType == "connect") {
+			queue_id = $scope.data.connect_support_queue_id;
+		} else {
+			queue_id = $scope.data.interaction_queue_id;
+		}
+		var url ="CustomerServiceChat.do?portal=csm&amp;queue_id="+queue_id+"&amp;user_id="+$scope.userID+"&amp;live_agent_only="+$scope.data.live_agent_only;
+		var popup = window.open (url, "popup", "width=450, height=600");
+	};
+	*/
+	$scope.openLogin = function () {
+			var portal=c.data.portal_url_suffix ;
+		var locationPath=$window.location.pathname;
+		var locationSearch=$window.location.search;
+		  var login_page=c.data.portal_login_page;
+			$location.url('/'+portal+'?id='+login_page);
+		  $scope.$on('$locationChangeStart', function (event, next, current) {
+				var nextIsLogin=false;
+				var nextUrl=new URL(next);
+				nextUrl=nextUrl.search.split('id=')[1];
+				if(nextUrl &amp;&amp; nextUrl==login_page)
+				    nextIsLogin=true;
+		     if(!c.data.isLoggedIn &amp;&amp; nextIsLogin)
+		         $window.sessionStorage.setItem('navBackUri',locationPath+locationSearch);
+			});
+		/* Redirecting to login page when login link on header is clicked, for the SP login widget to get new look according to STRY50124975
+		$scope.modalInstance = $uibModal.open({
+			templateUrl: 'csm_stock_header_template',
+			scope: $scope
+		});
+		*/
+	};
+
+	$rootScope.$on('sp.avatar_changed', function() {
+		$scope.userID = "";
+		$timeout(function(){
+			$scope.userID = $scope.user.sys_id;
+		});
+	});
+
+	$scope.isHomepage = function() {
+		if (!$scope.page.id)
+			return true;
+
+		if ($scope.page.id == $scope.portal.homepage_dv)
+			return true;
+
+		return false;
+	};
+
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.navbar {
+  transition: 250ms opacity ease-in-out;
+  -webkit-transition: 250ms opacity ease-in-out;
+  border: 0;
+  border-bottom: 4px solid $sp-navbar-divider-color;
+}
+
+.navbar-fade {
+  opacity: 0.4;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+header[role="banner"],
+.nav &amp;gt; li &amp;gt; a {
+  max-height: 60px;
+}
+
+@media screen and (max-width: 768px){
+  .nav &amp;gt; li &amp;gt; a {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+} 
+
+.navbar-brand {
+  max-height: 60px;
+  padding: 0;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-brand img, .navbar-brand span {
+  margin-left: $sp-logo-margin-x;
+  margin-right: $sp-logo-margin-x;
+  margin-top: $sp-logo-margin-y;
+  margin-bottom: $sp-logo-margin-y;
+  display: block;
+  max-height: $sp-logo-max-height;
+  max-width: $sp-logo-max-width;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.breadcrumb-container {
+  background-color: $panel-bg;
+}
+
+/* for mobile app */
+.navbar-inverse.is-native {
+  background-color: #405060;
+}
+
+nav{
+ margin-bottom: 0px;
+ border-radius: 0px;
+}
+
+.navbar-right {
+  padding-right: 0px;
+  padding-left: 7px;
+}
+
+.navbar-nav {
+  margin: 0px;
+  .visible-xs-block a {
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-right {
+    display: flex !important;
+  }
+} 
+&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function(scope, element) {
+    scope.$on('$locationChangeStart', function() {
+		$('#sp-nav-bar.in').removeClass('in').addClass('collapse').attr("aria-expanded", "false");
+		$("[data-target='#sp-nav-bar']").attr("aria-expanded", "false");
+	});
+	$(element).on('click.nav','.navbar-collapse.in',function(e) {
+		var target = $(e.target);
+		if (target.is('a')) {
+			// collapse mobile nav if clicked an anchor
+			$(this).removeClass('in').addClass('collapse');
+			return;
+		}
+
+		if (target.parent().hasClass("toggle-dropdown")) {
+			// collapse mobile nav if parent has toggle-dropdown class
+			$(this).removeClass('in').addClass('collapse');
+			return;
+		}
+
+		// if neither target nor parent is an anchor, do nothing
+		if (!target.parent().is('a'))
+			return;
+
+		// collapse mobile nav if target is part of a submenu
+		if (target.parents("ul.dropdown-menu").length &gt; 0)
+			$(this).removeClass('in').addClass('collapse');
+	});
+}]]&gt;&lt;/link&gt;&lt;name&gt;CSM Stock Header&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[// Defines the support queue ID that will be linked to by the Live Chat link in header
+data.isLoggedIn=gs.isLoggedIn();
+data.portal = $sp.getPortalRecord();
+data.portal_url_suffix = data.portal.getValue("url_suffix")+'';
+data.portal_login_page = $sp.getDisplayValue('login_page') || 'csm_login';
+data.isMobile = gs.isMobile();
+data.connect_support_queue_id = $sp.getValue('sp_chat_queue');
+data.login_page = $sp.getValue('login_page');
+var menu = $sp.getValue("sp_rectangle_menu");
+data.menu = $sp.getWidgetFromInstance(menu);
+if (data.menu &amp;&amp; data.menu.data) {
+	data.menu.data.replace = true;
+	// Hide login if menu already has link to login
+	data.hasLogin = false;
+	if (data.menu.data.menu.items) {
+		for(var i in data.menu.data.menu.items) {
+			var item = data.menu.data.menu.items[i];
+			if (item.type == 'page' &amp;&amp; item.sp_page == data.login_page)
+				data.hasLogin = true;
+		}
+	}
+}
+var qsConfig = $sp.getValue("quick_start_config");
+var qsConfigJson = qsConfig ? JSON.parse(qsConfig)[0] : {};
+data.loginWidget = $sp.getWidgetFromInstance('login-modal-customerservice');
+data.typeahead = $sp.getWidgetFromInstance('typeahead-search');
+
+data.queueType = "connect";
+var liveAgent = new GlideRecord("sys_cs_live_agent_setup");
+liveAgent.query();
+if (liveAgent.next()) {
+	data.queueType = liveAgent.getValue("csm_fulfiller");
+}
+data.isVAActive = GlidePluginManager.isActive('com.glide.cs.chatbot');
+
+// changes data.live_agent_only to true to allow only live agent
+data.live_agent_only = false;
+if (!data.live_agent_only) {
+	data.live_agent_only = !data.isVAActive;
+}
+
+data.useChatWidgetForCSM = false;
+var chatW = new GlideRecord("sp_widget");
+chatW.addQuery("id", "sn-va-sp-widget");
+chatW.query();
+if (chatW.next()){
+	data.useChatWidgetForCSM = true;
+	var contactUrl = "";
+	var accountUrl = "";
+	var cc = new GlideRecord('customer_contact');
+	cc.addQuery("sys_id", gs.getUserID());
+	cc.query();
+	if (cc.next()) {
+		contactUrl = "&amp;sysparm_liveagent_interaction_contact=" + cc.getUniqueValue();
+		accountUrl = "&amp;sysparm_liveagent_interaction_account=" + cc.getValue("account");
+	}
+	var liveAgentUrl = data.live_agent_only ? "&amp;sysparm_live_agent_only=true":"";
+	var csmQueue;
+	if (data.queueType == 'connect') {
+		csmQueue = data.connect_support_queue_id;
+	} 
+	var va_parms = "sysparm_portal=csm&amp;sysparm_liveagent_application=csm&amp;sysparm_liveagent_queue="+csmQueue+contactUrl+accountUrl+liveAgentUrl;
+		
+	data.va_chat = $sp.getWidget('sn-va-sp-widget',{
+		va_url_params:va_parms
+	});
+}]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_header_footer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-02-15 23:29:43&lt;/sys_created_on&gt;&lt;sys_id&gt;742f85dcc381320071d07bfaa2d3ae09&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;CSM Stock Header&lt;/sys_name&gt;&lt;sys_package display_value="Customer Service Portal" source="com.glide.service-portal.customer-portal"&gt;6416ee218781d110952f87f5cebb35f0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_header_footer_742f85dcc381320071d07bfaa2d3ae09&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-29 10:10:21&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+  &lt;nav aria-label="main" class="navbar-inverse" ng-class="::{'navbar':!isViewNative, 'is-native': isViewNative}"
+       role="navigation"&gt;
+    &lt;div ng-show="::!isViewNative" class="navbar-header"&gt;
+      &lt;a class="navbar-brand" ng-if="::!portal.logo" href="?id={{::portal.homepage_dv}}"&gt;&lt;span&gt;{{::portal.title}}&lt;/span&gt;&lt;/a&gt;
+      &lt;a class="navbar-brand navbar-brand-logo" ng-if="::portal.logo" href="?id={{::portal.homepage_dv}}" aria-label="${Go to homepage}"&gt;
+        &lt;img ng-src="{{::portal.logo}}" title="ServiceNow" role="presentation" /&gt;
+      &lt;/a&gt;
+
+      &lt;button type="button" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false" data-target="#sp-nav-bar"&gt;
+        &lt;span class="sr-only" aria-label="${Toggle navigation}"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;div sp-navbar-toggle="" class="collapse navbar-right" id="sp-nav-bar"&gt;
+      &lt;!-- Include The Menu --&gt;
+      &lt;sp-widget widget="data.menu"&gt;&lt;/sp-widget&gt;
+      &lt;ul ng-if="::(!user.logged_in &amp;&amp; page.id != portal.login_page_dv &amp;&amp; !data.hasLogin)" class="nav navbar-nav"&gt;
+        &lt;li&gt;&lt;a href ng-click="openLogin()"&gt;${Login}&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;ul ng-if="::user.logged_in" class="nav navbar-nav"&gt;
+        &lt;!-- chat, avatar, and logout --&gt;
+        &lt;!-- Since we are uptaking new SP Chat flaoting widget, this menu item is not needed.
+        &lt;li ng-if="::data.connect_support_queue_id"&gt;&lt;a href ng-click="dynamicOpenPopUp()"&gt;${Chat}&lt;/a&gt;
+        &lt;div ng-if="!data.isMobile" ng-show="showChat"&gt;
+            &lt;sp-widget widget="::data.va_chat"&gt;&lt;/sp-widget&gt;
+        &lt;/div&gt;
+        &lt;/li&gt;
+		--&gt;
+        &lt;li class="dropdown hidden-xs"&gt;
+          &lt;a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"&gt;
+            &lt;span class="navbar-avatar"&gt;&lt;sn-avatar class="avatar-small-medium" primary="userID" /&gt;&lt;/span&gt;
+            &lt;span class="visible-lg-inline"&gt;{{::user.name}}&lt;/span&gt;
+          &lt;/a&gt;
+          &lt;ul class="dropdown-menu"&gt;
+            &lt;li&gt;&lt;a ng-href="?id=csm_profile&amp;sys_id={{::user.sys_id}}"&gt;${Profile}&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="{{::portal.logoutUrl}}"&gt;${Logout}&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li class="visible-xs-block"&gt;&lt;a ng-href="?id=user_profile&amp;sys_id={{::user.sys_id}}"&gt;&lt;span class="navbar-avatar"&gt;&lt;sn-avatar class="avatar-small-medium" primary="userID" /&gt;&lt;/span&gt;{{::user.name}}&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="visible-xs-block"&gt;&lt;a href="{{::portal.logoutUrl}}"&gt;${Logout}&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/nav&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-31 15:00:06</sys_created_on>
+        <sys_id>c8c22d9b1be5d5906eb0a6c0604bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>08c22d9b1be5d5906eb0a6c0604bcb33</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_c8c22d9b1be5d5906eb0a6c0604bcb37</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-31 15:00:06</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>

@@ -3,17 +3,32 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_ster2_emfs_sentencing_organisations" element="NULL" name="x_ster2_emfs_sentencing_organisations" parent="NULL" relationship="NULL" sys_domain="global" view="bb11e35364101110a866d1e779b53022">6511e0361b5595506eb0a6c0604bcbc7</list_id>
+            <list_id display_value="x_ster2_emfs_sentencing_organisations" element="NULL" name="x_ster2_emfs_sentencing_organisations" parent="NULL" relationship="NULL" sys_domain="global" view="bb11e35364101110a866d1e779b53022">390462d31bd919506eb0a6c0604bcb31</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>cheryl.holt.ems</sys_created_by>
-            <sys_created_on>2022-08-17 10:40:33</sys_created_on>
-            <sys_id>ed11e0361b5595506eb0a6c0604bcbc7</sys_id>
+            <sys_created_by>warwick.cooney.ems</sys_created_by>
+            <sys_created_on>2022-08-19 09:29:36</sys_created_on>
+            <sys_id>fd0462d31bd919506eb0a6c0604bcb32</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
-            <sys_updated_on>2022-08-17 10:40:33</sys_updated_on>
+            <sys_updated_by>warwick.cooney.ems</sys_updated_by>
+            <sys_updated_on>2022-08-19 09:29:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>type</element>
+            <list_id display_value="x_ster2_emfs_sentencing_organisations" element="NULL" name="x_ster2_emfs_sentencing_organisations" parent="NULL" relationship="NULL" sys_domain="global" view="bb11e35364101110a866d1e779b53022">390462d31bd919506eb0a6c0604bcb31</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>warwick.cooney.ems</sys_created_by>
+            <sys_created_on>2022-08-19 09:29:37</sys_created_on>
+            <sys_id>b904a2d31bd919506eb0a6c0604bcb38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>warwick.cooney.ems</sys_updated_by>
+            <sys_updated_on>2022-08-19 09:29:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -26,19 +41,19 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>cheryl.holt.ems</sys_created_by>
-            <sys_created_on>2022-08-17 10:40:33</sys_created_on>
+            <sys_created_by>warwick.cooney.ems</sys_created_by>
+            <sys_created_on>2022-08-19 09:29:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6511e0361b5595506eb0a6c0604bcbc7</sys_id>
+            <sys_id>390462d31bd919506eb0a6c0604bcb31</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_ster2_emfs_sentencing_organisations</sys_name>
             <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
             <sys_policy/>
             <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
             <sys_update_name>sys_ui_list_x_ster2_emfs_sentencing_organisations_sys_ref_list</sys_update_name>
-            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
-            <sys_updated_on>2022-08-17 10:40:33</sys_updated_on>
+            <sys_updated_by>warwick.cooney.ems</sys_updated_by>
+            <sys_updated_on>2022-08-19 09:29:36</sys_updated_on>
             <sys_user/>
             <view display_value="Reference List" name="sys_ref_list">bb11e35364101110a866d1e779b53022</view>
             <view_name/>

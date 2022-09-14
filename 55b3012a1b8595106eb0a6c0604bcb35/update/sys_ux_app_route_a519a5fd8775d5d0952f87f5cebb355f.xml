@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Asset Workspace App Config">67137075530130106b86ddeeff7b1213</app_config>
+        <description>Consumables marked for disposal are put back into stock</description>
+        <fields>table,sysId,stockroom</fields>
+        <icon/>
+        <name>subject draft Cancel from disposal</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Record">e309a1fd8775d5d0952f87f5cebb3566</parent_macroponent>
+        <parent_macroponent_composition_element_id>modalContainerViewport</parent_macroponent_composition_element_id>
+        <route_type>cancel-from-disposal</route_type>
+        <screen_type display_value="Cancel from disposal">8a4279f0732130102d1d2f163cf6a758</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-08 09:52:37</sys_created_on>
+        <sys_id>a519a5fd8775d5d0952f87f5cebb355f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>subject draft Cancel from disposal</sys_name>
+        <sys_package display_value="Asset Management Workspace" source="sn_itam_workspace">54b90b435d70f410f87728dca52fcfea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_app_route_a519a5fd8775d5d0952f87f5cebb355f</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-08 09:52:37</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=a519a5fd8775d5d0952f87f5cebb355f"/>
+</record_update>

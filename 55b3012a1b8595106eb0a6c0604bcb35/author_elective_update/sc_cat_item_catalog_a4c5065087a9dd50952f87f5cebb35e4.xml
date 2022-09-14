@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Enter details for a new Subject">2ab5ce1087a9dd50952f87f5cebb35b1</sc_cat_item>
+        <sc_catalog display_value="Customer Service">65bcd377c3011200b12d9f2974d3aea0</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-22 09:51:17</sys_created_on>
+        <sys_id>a4c5065087a9dd50952f87f5cebb35e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Service.Enter details for a new Subject</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_a4c5065087a9dd50952f87f5cebb35e4</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-08-22 09:51:17</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sc_cat_item_catalog_a4c5065087a9dd50952f87f5cebb35e4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Enter details for a new Subject">2ab5ce1087a9dd50952f87f5cebb35b1</sc_cat_item><sc_catalog display_value="Customer Service">65bcd377c3011200b12d9f2974d3aea0</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-08-22 09:51:17</sys_created_on><sys_id>a4c5065087a9dd50952f87f5cebb35e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Customer Service.Enter details for a new Subject</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sc_cat_item_catalog_a4c5065087a9dd50952f87f5cebb35e4</sys_update_name><sys_updated_by>hasnaat.khan.ems</sys_updated_by><sys_updated_on>2022-08-22 09:51:17</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1721438024</payload_hash>
+        <record_name>Customer Service.Enter details for a new Subject</record_name>
+        <reverted_from/>
+        <source>8649b79b1b1159506eb0a6c0604bcb1d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-22 09:51:17</sys_created_on>
+        <sys_id>e0c5065087a9dd50952f87f5cebb35e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182c4f6b11e0000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-08-22 09:51:17</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>68c506504ea9dd50982238e6c8b90ee6</update_guid>
+        <update_guid_history>68c506504ea9dd50982238e6c8b90ee6:1721438024</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Customer Service.Enter details for a new Subject">25e54e5087a9dd50952f87f5cebb35fd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-22 09:51:54</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>bbae04d4d2eb472e9b022cc6b25f5081</sys_id>
+        <sys_metadata>a4c5065087a9dd50952f87f5cebb35e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Service.Enter details for a new Subject</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_a4c5065087a9dd50952f87f5cebb35e4</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_a4c5065087a9dd50952f87f5cebb35e4">e0c5065087a9dd50952f87f5cebb35e7</sys_update_version>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-08-22 09:51:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

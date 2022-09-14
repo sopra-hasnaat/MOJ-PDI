@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Answer the questions on the form as follows:
+First Name = Joe
+and Last Name = Bloggs Test
+and Date of Birth = 02/09/2022
+and What is the start date and time of the Order = 09/01/2022 00:00:00
+and What is the end date and time of the order = 22/09/2022 01:00:00
+and House Name/Number &amp; Street = Test</description>
+        <display_name>Set Variable Values (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <snapshot/>
+        <step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-02 11:02:40</sys_created_on>
+        <sys_id>777f7efb87ed9d90952f87f5cebb352c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Variable Values (SP)</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_atf_step_777f7efb87ed9d90952f87f5cebb352c</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-02 11:26:32</sys_updated_on>
+        <table/>
+        <test display_value="SubjectTest">7dddfa7b87ed9d90952f87f5cebb3527</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=777f7efb87ed9d90952f87f5cebb352c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>777f7efb87ed9d90952f87f5cebb352c</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-02 11:02:40</sys_created_on>
+        <sys_id>299ffafb87ed9d90952f87f5cebb35e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-02 11:02:40</sys_updated_on>
+        <value/>
+        <variable display_value="Multi-row Variable Set">2fba49d673142300688e0d573cf6a748</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>777f7efb87ed9d90952f87f5cebb352c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-02 11:02:41</sys_created_on>
+        <sys_id>ed9ffafb87ed9d90952f87f5cebb35e1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-02 11:26:32</sys_updated_on>
+        <value>IO:c21bf0281b215d506eb0a6c0604bcb56=Joe^IO:6e1bf0281b215d506eb0a6c0604bcbfa=Bloggs Test^IO:421bf0281b215d506eb0a6c0604bcb6f=09/05/2022^IO:1ac3ba6c87ed1190952f87f5cebb35e6=01/09/2022 00:00:00^IO:a504b2ac87ed1190952f87f5cebb35a2=22/09/2022 00:00:00^IO:ce1bf0281b215d506eb0a6c0604bcb87=Test^EQ</value>
+        <variable display_value="Variable Values">3f3525f48703030070870cf888cb0b37</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>777f7efb87ed9d90952f87f5cebb352c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-02 11:02:41</sys_created_on>
+        <sys_id>ed9ffefb87ed9d90952f87f5cebb3586</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-02 11:02:41</sys_updated_on>
+        <value>b51bfce41b215d506eb0a6c0604bcbdf</value>
+        <variable display_value="Item">d164adb48703030070870cf888cb0b30</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2e4229b48703030070870cf888cb0b5c^id=777f7efb87ed9d90952f87f5cebb352c"/>
+</record_update>

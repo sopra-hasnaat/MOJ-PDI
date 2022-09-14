@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="5891625b1be9d5906eb0a6c0604bcbb6" sys_domain="global" table="x_ster2_emfs_curfew_location" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>account</element>
+            <position>0</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-31 19:34:33</sys_created_on>
+            <sys_id>5091625b1be9d5906eb0a6c0604bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="57a3235364901110a866d1e779b53017">5891625b1be9d5906eb0a6c0604bcbb6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-31 19:34:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consumer</element>
+            <position>1</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-31 19:34:33</sys_created_on>
+            <sys_id>98912a5b1be9d5906eb0a6c0604bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="57a3235364901110a866d1e779b53017">5891625b1be9d5906eb0a6c0604bcbb6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-31 19:34:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>2</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-31 19:34:33</sys_created_on>
+            <sys_id>9c912a5b1be9d5906eb0a6c0604bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="57a3235364901110a866d1e779b53017">5891625b1be9d5906eb0a6c0604bcbb6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-31 19:34:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street</element>
+            <position>3</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-31 19:34:33</sys_created_on>
+            <sys_id>90912a5b1be9d5906eb0a6c0604bcb49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="57a3235364901110a866d1e779b53017">5891625b1be9d5906eb0a6c0604bcbb6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-31 19:34:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>4</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-31 19:34:33</sys_created_on>
+            <sys_id>94912a5b1be9d5906eb0a6c0604bcb49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="57a3235364901110a866d1e779b53017">5891625b1be9d5906eb0a6c0604bcbb6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-31 19:34:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>5</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-31 19:34:33</sys_created_on>
+            <sys_id>98912a5b1be9d5906eb0a6c0604bcb49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="57a3235364901110a866d1e779b53017">5891625b1be9d5906eb0a6c0604bcbb6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-31 19:34:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zip</element>
+            <position>6</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-31 19:34:33</sys_created_on>
+            <sys_id>9c912a5b1be9d5906eb0a6c0604bcb49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="57a3235364901110a866d1e779b53017">5891625b1be9d5906eb0a6c0604bcbb6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-31 19:34:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>7</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-31 19:34:33</sys_created_on>
+            <sys_id>90912a5b1be9d5906eb0a6c0604bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="57a3235364901110a866d1e779b53017">5891625b1be9d5906eb0a6c0604bcbb6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-31 19:34:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>primary</element>
+            <position>8</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-31 19:34:33</sys_created_on>
+            <sys_id>94912a5b1be9d5906eb0a6c0604bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="57a3235364901110a866d1e779b53017">5891625b1be9d5906eb0a6c0604bcbb6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-31 19:34:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>9</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-31 19:34:33</sys_created_on>
+            <sys_id>98912a5b1be9d5906eb0a6c0604bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="57a3235364901110a866d1e779b53017">5891625b1be9d5906eb0a6c0604bcbb6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-31 19:34:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-31 19:34:33</sys_created_on>
+            <sys_id>9c912a5b1be9d5906eb0a6c0604bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="57a3235364901110a866d1e779b53017">5891625b1be9d5906eb0a6c0604bcbb6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-31 19:34:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>use_same_address_for</element>
+            <position>11</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-31 19:34:33</sys_created_on>
+            <sys_id>90912a5b1be9d5906eb0a6c0604bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Use same address for">e56a01f9c320220071d07bfaa2d3aeb4</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_curfew_location" sys_domain="global" view="57a3235364901110a866d1e779b53017">5891625b1be9d5906eb0a6c0604bcbb6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-31 19:34:33</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_ster2_emfs_curfew_location</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-31 19:34:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5891625b1be9d5906eb0a6c0604bcbb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ster2_emfs_curfew_location</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_ui_section_5891625b1be9d5906eb0a6c0604bcbb6</sys_update_name>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-31 19:34:33</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">57a3235364901110a866d1e779b53017</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

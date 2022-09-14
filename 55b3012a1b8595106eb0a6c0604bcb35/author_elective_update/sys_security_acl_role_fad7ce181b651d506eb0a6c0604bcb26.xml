@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>cheryl.holt.ems</sys_created_by>
+        <sys_created_on>2022-08-22 10:00:27</sys_created_on>
+        <sys_id>fad7ce181b651d506eb0a6c0604bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ster2_emfs_responsible_organisations.x_ster2_emfs.sentencing_organisations_user</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_security_acl display_value="x_ster2_emfs_responsible_organisations">fad7ce181b651d506eb0a6c0604bcb23</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_fad7ce181b651d506eb0a6c0604bcb26</sys_update_name>
+        <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+        <sys_updated_on>2022-08-22 10:00:27</sys_updated_on>
+        <sys_user_role display_value="x_ster2_emfs.sentencing_organisations_user" name="x_ster2_emfs.sentencing_organisations_user">dd0390661b5555506eb0a6c0604bcbba</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_security_acl_role_fad7ce181b651d506eb0a6c0604bcb26</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>cheryl.holt.ems</sys_created_by><sys_created_on>2022-08-22 10:00:27</sys_created_on><sys_id>fad7ce181b651d506eb0a6c0604bcb26</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_ster2_emfs_responsible_organisations.x_ster2_emfs.sentencing_organisations_user</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_security_acl display_value="x_ster2_emfs_responsible_organisations">fad7ce181b651d506eb0a6c0604bcb23</sys_security_acl><sys_update_name>sys_security_acl_role_fad7ce181b651d506eb0a6c0604bcb26</sys_update_name><sys_updated_by>cheryl.holt.ems</sys_updated_by><sys_updated_on>2022-08-22 10:00:27</sys_updated_on><sys_user_role display_value="x_ster2_emfs.sentencing_organisations_user" name="x_ster2_emfs.sentencing_organisations_user">dd0390661b5555506eb0a6c0604bcbba</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-2056467214</payload_hash>
+        <record_name>x_ster2_emfs_responsible_organisations.x_ster2_emfs.sentencing_organisations_user</record_name>
+        <reverted_from/>
+        <source>9c8ea1501b251d506eb0a6c0604bcba5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>cheryl.holt.ems</sys_created_by>
+        <sys_created_on>2022-08-22 10:00:27</sys_created_on>
+        <sys_id>b6d7ce181b651d506eb0a6c0604bcb42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182c4ff13150000001</sys_recorded_at>
+        <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+        <sys_updated_on>2022-08-22 10:00:27</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>fed7ce1861651d503a83ccfa255bcc41</update_guid>
+        <update_guid_history>fed7ce1861651d503a83ccfa255bcc41:-2056467214</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_ster2_emfs_responsible_organisations.x_ster2_emfs.sentencing_organisations_use">13d8c2981b651d506eb0a6c0604bcbcd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cheryl.holt.ems</sys_created_by>
+        <sys_created_on>2022-08-22 10:04:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>83153db69cf244b78f97a1d789b84899</sys_id>
+        <sys_metadata>fad7ce181b651d506eb0a6c0604bcb26</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ster2_emfs_responsible_organisations.x_ster2_emfs.sentencing_organisations_user</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">fad7ce181b651d506eb0a6c0604bcb23</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_fad7ce181b651d506eb0a6c0604bcb26</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_fad7ce181b651d506eb0a6c0604bcb26">b6d7ce181b651d506eb0a6c0604bcb42</sys_update_version>
+        <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+        <sys_updated_on>2022-08-22 10:04:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

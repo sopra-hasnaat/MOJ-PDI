@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_ster2_emfs_subject</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>submitAddressesAndCase</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    if (current.address_line_1 != '') {
+        var grLocation = new GlideRecord('cmn_location');
+        grLocation.addQuery('x_ster2_emfs_address_line_1', current.address_line_1);
+        grLocation.addQuery('zip', current.post_code);
+        grLocation.query();
+
+        if (grLocation.hasNext() === false) { //Check if record already exists
+            grLocation.name = current.address_line_1 + ', ' + current.city + ', ' + current.county + ', ' + current.post_code;
+            grLocation.street = current.address_line_1 + ', ' + current.address_line_2;
+            grLocation.x_ster2_emfs_address_line_1 = current.address_line_1;
+            grLocation.x_ster2_emfs_address_line_2 = current.address_line_2;
+            grLocation.city = current.city;
+            grLocation.state = current.county;
+            grLocation.zip = current.post_code;
+            grLocation.parent.setDisplayValue(current.post_code.split(' ')[0]);
+            grLocation.insert();
+        }
+
+        var grCurfewLocation = new GlideRecord('x_ster2_emfs_curfew_location');
+        grCurfewLocation.addQuery('x_ster2_emfs_address_line_1', current.address_line_1);
+        grCurfewLocation.addQuery('zip', current.post_code);
+        grCurfewLocation.query();
+
+        if (grCurfewLocation.hasNext() === false) { //Check if record already exists
+            grCurfewLocation.name = current.address_line_1 + ', ' + current.city + ', ' + current.county + ', ' + current.post_code;
+            grCurfewLocation.street = current.address_line_1 + ', ' + current.address_line_2;
+            grCurfewLocation.x_ster2_emfs_address_line_1 = current.address_line_1;
+            grCurfewLocation.x_ster2_emfs_address_line_2 = current.address_line_2;
+            grCurfewLocation.city = current.city;
+            grCurfewLocation.state = current.county;
+            grCurfewLocation.zip = current.post_code;
+            grCurfewLocation.parent.setDisplayValue(current.post_code.split(' ')[0]);
+            grCurfewLocation.insert();
+            gs.addInfoMessage('Successfully added subject and address to Location and Curfew Location tables!');
+        } else {
+            gs.addInfoMessage('Location already exists in Location and Curfew Address table.');
+        }
+    } else {
+        gs.addInfoMessage('Subject without Location data added');
+    }
+
+    var grCase = new GlideRecord('sn_customerservice_case');
+    var orderInfoDisplayValue = grMO.monitoring_type.getDisplayValue() + " - " + (current.adult_juvenile == 'adult' ? 'Adult' : 'Juvenile');
+    var orderInfo = grMO.monitoring_type + " - " + current.adult_juvenile;
+    grCase.initialize();
+    grCase.u_subject = current.getUniqueValue();
+    grCase.priority = 4;
+    grCase.short_description = "New Tag installation - " + orderInfoDisplayValue;
+    grCase.description = "New Tag Installation";
+    grCase.category = 5;
+    switch (orderInfo) {
+        case 'am - adult':
+            grCase.subcategory = 1;
+            break;
+        case 'am - juvenile':
+            grCase.subcategory = 2;
+            break;
+        case 'gps - adult':
+            grCase.subcategory = 3;
+            break;
+        case 'gps - juvenile':
+            grCase.subcategory = 4;
+            break;
+        case 'rf - adult':
+            grCase.subcategory = 5;
+            break;
+        case 'rf - juvenile':
+            grCase.subcategory = 6;
+            break;
+        case 'non-fitted - adult':
+            grCase.subcategory = 7;
+            break;
+        case 'non-fitted - juvenile':
+            grCase.subcategory = 8;
+            break;
+    }
+    if (current.address_line_1 != '') {
+        grCase.location = grLocation.insert();
+    }
+    grCase.expected_start = grMO.start_date_time;
+    grCase.contact = gs.getUserID();
+    grCase.assignment_group = "7d32384b1b6595906eb0a6c0604bcb7f";
+    grCase.insert();
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-19 10:58:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6228b61b8759d950952f87f5cebb359b</sys_id>
+        <sys_mod_count>71</sys_mod_count>
+        <sys_name>submitAddressesAndCase</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_script_6228b61b8759d950952f87f5cebb359b</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 09:40:38</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=6228b61b8759d950952f87f5cebb359b"/>
+</record_update>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_ster2_emfs_subject</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>submitAddressToLocationTable</name>
+        <order>1001</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    if (current.address_line_1 != '') {
+        var gr = new GlideRecord('cmn_location');
+        gr.addQuery('x_ster2_emfs_address_line_1', current.address_line_1);
+        gr.addQuery('zip', current.post_code);
+        gr.query();
+
+        if (gr.hasNext() === false) { //Check if record already exists
+            gr.name = current.address_line_1 + ', ' + current.city + ', ' + current.county + ', ' + current.post_code;
+            gr.street = current.address_line_1 + ', ' + current.address_line_2;
+            gr.x_ster2_emfs_address_line_1 = current.address_line_1;
+            gr.x_ster2_emfs_address_line_2 = current.address_line_2;
+            gr.city = current.city;
+            gr.state = current.county;
+            gr.zip = current.post_code;
+            gr.parent.setDisplayValue(current.post_code.split(' ')[0]);
+            gr.insert();
+        }
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-17 15:39:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b46525fe87115950952f87f5cebb3559</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_name>submitAddressToLocationTable</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_script_b46525fe87115950952f87f5cebb3559</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-02 09:17:03</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=b46525fe87115950952f87f5cebb3559"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_script_b46525fe87115950952f87f5cebb3559</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_ster2_emfs_subject&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;submitAddressToLocationTable&lt;/name&gt;&lt;order&gt;1001&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    if (current.address_line_1 != '') {
+        var gr = new GlideRecord('cmn_location');
+        gr.addQuery('x_ster2_emfs_address_line_1', current.address_line_1);
+        gr.addQuery('zip', current.post_code);
+        gr.query();
+
+        if (gr.hasNext() === false) { //Check if record already exists
+            gr.name = current.address_line_1 + ', ' + current.city + ', ' + current.county + ', ' + current.post_code;
+            gr.street = current.address_line_1 + ', ' + current.address_line_2;
+            gr.x_ster2_emfs_address_line_1 = current.address_line_1;
+            gr.x_ster2_emfs_address_line_2 = current.address_line_2;
+            gr.city = current.city;
+            gr.state = current.county;
+            gr.zip = current.post_code;
+            gr.parent.setDisplayValue(current.post_code.split(' ')[0]);
+            gr.insert();
+        }
+    }
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;hasnaat.khan.ems&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-17 15:39:26&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b46525fe87115950952f87f5cebb3559&lt;/sys_id&gt;&lt;sys_mod_count&gt;52&lt;/sys_mod_count&gt;&lt;sys_name&gt;submitAddressToLocationTable&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Electronic Monitoring" source="x_ster2_emfs"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Electronic Monitoring"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_b46525fe87115950952f87f5cebb3559&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;hasnaat.khan.ems&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-02 09:17:03&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b46525fe87115950952f87f5cebb3559"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1196252891</payload_hash>
+        <record_name>submitAddressToLocationTable</record_name>
+        <reverted_from/>
+        <source>238f82cf87159950952f87f5cebb35a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-02 09:17:03</sys_created_on>
+        <sys_id>9667ee7f876d9d90952f87f5cebb355d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182fd7d4dd40000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-02 09:17:03</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>5e67ee7f816d9d90e2c7d794cc6d675c</update_guid>
+        <update_guid_history>5e67ee7f816d9d90e2c7d794cc6d675c:-1196252891,4e06263ff86d9d90db9022860a26631c:-1713011278,bc1526fbbf6d9d90e94b193f88a80868:-1216753725,af4e996b29e55d9047a68054317dede2:-1551404411,098e126dde255590f08da5fe525592c0:763404580,30ddd22da2255590ee1b20f896e3bf78:2129709647,f93d56e9fb2555903fb44fc3e8cd3978:-937106683,85fa5a29582555900c2a7f49aad89aaf:-882333274,85da96292a255590f647507fe5c1dec2:437864557,b7aa1629da2555903bcf12006bc1f8e5:2134673985,dcaa9229c12555900616947a872ca089:1571577479,989a9229082555907f43feb92125796c:2134673985,028a1229a22555900750a0b117ee82d6:1571577479,8e7a9ee5a62555900a997ff6dcaa80fd:-1909855072,ae6a5ee51d255590fde83ba7f3907a28:2134673985,0f5a1ee5ca255590dff90dc0ba875bbd:1571577479,ec4a9ae5ce255590c34ced639d9dd15e:-145841716,4fd952e598255590fe79ceabe30b3c39:1948954691,688956a5f325559063c87851a47318fc:-701719895,03f8da652b255590a17328f16e4bedc9:-924918106,b73716e10f255590e2eba2ef49e08ac2:-1899659787,c34b721f2b59d95003d45174335a2ad0:816302988,bc58b61b1959d950991dd8d31d6156b9:-1964459125,1a187ed7e459d950e5e671aa71f65003:-10032028,1413ba937459d950818ca6a30db4e15e:1498496234,eed2be539659d950b7392338f5857b5f:1129817915,4be13a534659d95065002a0142425ca9:1177127747,8f11ba13dc59d950fa4dba40afcd9522:-1339172854,4b1fe69f7219d950d6a06c377d2f5f64:-1318250698,e9fc6edbf519d950feddb9b298b84a97:594451156,995c26db3819d950165b6e6206971c1e:308190985,702cae9b5719d9501b2d3fabb96f7e3c:-2023143470,5cfbea9be619d950bcbb5ac1d4976b5e:738030954,4aabe69bb719d9505caeaa128bf7d27f:1203789332,6f1bea5b1319d950ad42c2462bf779b3:1475092088,19bae25b6d19d950a4e3fc4714ec408c:-1220268087,2be9661b0e19d950bc9843bf9f43de96:-2000349173,72692ed7af19d9507d1bf885920485b1:418381835,2939e6d74919d95009d8f6959999777e:-605464489,66ff690f6e919950ddf064dabb4e432f:18308710,8f1fe9cb339199504c4f63544ea7a569:1725217108,5f4ea18b4b9199503259f6bf465600dc:-2093354696,bc7d254b99919950e7968cfed61186c3:-1125723681,a04ca50bc79199505c9ae4f77d18713d:1836571018,ec1c610bfd919950f7e59ca10e11b6f3:1573123334,bcbb29c7d9919950d9e2cc68357c0934:992797147,4f7b6d87cb919950ce68b03f478c2b91:2123085089,d4faa98755919950c8a77830da2ddc21:336361892,ff7aa947879199501d4612447f97da53:-1025291547,f2d9ed07e5919950f3147f3f0a843950:-266400605,9b7a918391519950b6a7740b47e96db4:-1995842976,d66999034e519950805d5f619c8c0992:-1116998230,eb7565fe2511595095cfc4f069aa0ac2:19809806</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-02 09:18:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>2e35d86581494696b52c2828dc8b6584</sys_id>
+        <sys_metadata>b46525fe87115950952f87f5cebb3559</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>submitAddressToLocationTable</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="Subjects">a3c95d6e1bc595106eb0a6c0604bcb98</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_script_b46525fe87115950952f87f5cebb3559</sys_update_name>
+        <sys_update_version display_value="sys_script_b46525fe87115950952f87f5cebb3559">9667ee7f876d9d90952f87f5cebb355d</sys_update_version>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-02 09:18:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

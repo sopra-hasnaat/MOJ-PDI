@@ -39,7 +39,7 @@ tr:nth-child(odd) {
   background-color: #ECF0F1;
 }
 </style>
-<table><tbody><tr><th colspan="8"><center>CURFEW SCHEDULE</center></th></tr><tr><th> </th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th></tr><tr><td>Start</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr><tr><td>End</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr></tbody></table>]]></default_html_value>
+<table><tbody><tr><th colspan="8"><center><span style="font-size: 12pt;">CURFEW SCHEDULE</span></center></th></tr><tr><th> </th><th><span style="font-size: 12pt;">Monday</span></th><th><span style="font-size: 12pt;">Tuesday</span></th><th><span style="font-size: 12pt;">Wednesday</span></th><th><span style="font-size: 12pt;">Thursday</span></th><th><span style="font-size: 12pt;">Friday</span></th><th><span style="font-size: 12pt;">Saturday</span></th><th><span style="font-size: 12pt;">Sunday</span></th></tr><tr><td><span style="font-size: 12pt;">Start</span></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr><tr><td><span style="font-size: 12pt;">End</span></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr></tbody></table>]]></default_html_value>
         <default_value/>
         <delete_roles/>
         <delivery_plan/>
@@ -71,7 +71,7 @@ tr:nth-child(odd) {
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>curfew_schedules</name>
-        <order>2100</order>
+        <order>2000</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
@@ -97,16 +97,16 @@ tr:nth-child(odd) {
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>des.king.ems</sys_created_by>
-        <sys_created_on>2022-08-05 14:07:21</sys_created_on>
+        <sys_created_on>2022-08-23 15:20:28</sys_created_on>
         <sys_id>c61d973e87891910952f87f5cebb3577</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>What are the schedules associated to the Order?</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>item_option_new_c61d973e87891910952f87f5cebb3577</sys_update_name>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-08-05 17:43:57</sys_updated_on>
+        <sys_updated_on>2022-08-23 15:27:41</sys_updated_on>
         <table/>
         <tooltip/>
         <type>23</type>

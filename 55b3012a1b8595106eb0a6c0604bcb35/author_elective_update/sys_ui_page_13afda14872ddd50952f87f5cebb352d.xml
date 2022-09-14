@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_ster2_emfs_AddressUiPage.do</endpoint>
+        <html><![CDATA[<html>
+    <!-- necessary for pages that do not contain angular yet:
+    <sript src="/scripts/angular_includes_no_min.1.5.11.js"></sript>-->
+    <!-- HTML Angular code for the popup -->
+    <sript id="angular-template" type="text/template">
+        /*
+        <div ng-controller="angularController">
+            Type a color: <input ng-model="name"/>
+            <h2 style="color: {{name}}">You entered: {{name}}</h2>
+        </div>
+        */
+    </sript>
+
+    <!-- The HTML tag that will contain the inserted code -->
+    <div id="angular-app"></div>
+</html>]]></html>
+        <name>AddressUiPage</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-22 11:45:25</sys_created_on>
+        <sys_id>13afda14872ddd50952f87f5cebb352d</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>AddressUiPage</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ui_page_13afda14872ddd50952f87f5cebb352d</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-08-22 16:24:19</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_ui_page_13afda14872ddd50952f87f5cebb352d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_ster2_emfs_AddressUiPage.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;html&gt;
+    &lt;!-- necessary for pages that do not contain angular yet:
+    &lt;sript src="/scripts/angular_includes_no_min.1.5.11.js"&gt;&lt;/sript&gt;--&gt;
+    &lt;!-- HTML Angular code for the popup --&gt;
+    &lt;sript id="angular-template" type="text/template"&gt;
+        /*
+        &lt;div ng-controller="angularController"&gt;
+            Type a color: &lt;input ng-model="name"/&gt;
+            &lt;h2 style="color: {{name}}"&gt;You entered: {{name}}&lt;/h2&gt;
+        &lt;/div&gt;
+        */
+    &lt;/sript&gt;
+
+    &lt;!-- The HTML tag that will contain the inserted code --&gt;
+    &lt;div id="angular-app"&gt;&lt;/div&gt;
+&lt;/html&gt;]]&gt;&lt;/html&gt;&lt;name&gt;AddressUiPage&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;hasnaat.khan.ems&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-22 11:45:25&lt;/sys_created_on&gt;&lt;sys_id&gt;13afda14872ddd50952f87f5cebb352d&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;AddressUiPage&lt;/sys_name&gt;&lt;sys_package display_value="Electronic Monitoring" source="x_ster2_emfs"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Electronic Monitoring"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_13afda14872ddd50952f87f5cebb352d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;hasnaat.khan.ems&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-22 16:24:19&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1777425506</payload_hash>
+        <record_name>AddressUiPage</record_name>
+        <reverted_from/>
+        <source>238f82cf87159950952f87f5cebb35a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-22 16:24:19</sys_created_on>
+        <sys_id>35bfd71887611190952f87f5cebb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182c65e84840000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-08-22 16:24:19</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>3dbfd7183761119066919c5565867b1f</update_guid>
+        <update_guid_history>3dbfd7183761119066919c5565867b1f:-1777425506,8e0fd7d4d26111900ad50a63644dc2cc:376964706,11e51fd872211190bb64d9eaaca3838d:-246383762,f7372adc1e2ddd50f2bbc5b52f2eb7d4:2091215134,4b17e6dc522ddd50fb50ce21a07f9b99:355807492,b20766dc332ddd5066bba14eaa027d98:535388651,b5c26e18442ddd50f5d5095c9fd593f2:415819170,18efde14c92ddd50bc05c9f7d0f7f11d:-815751957</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-29 22:23:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>e2db652a7d654738900471d793bb0a10</sys_id>
+        <sys_metadata>13afda14872ddd50952f87f5cebb352d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AddressUiPage</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_ui_page_13afda14872ddd50952f87f5cebb352d</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_13afda14872ddd50952f87f5cebb352d">35bfd71887611190952f87f5cebb3520</sys_update_version>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-08-29 22:23:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

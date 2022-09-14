@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>700</order>
+        <published_ref display_value="Carer">9dbed0631bd159506eb0a6c0604bcb4b</published_ref>
+        <question display_value="What is the relationship to the subject?">5aeb3ddc8729dd50952f87f5cebb35b9</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-22 09:08:16</sys_created_on>
+        <sys_id>56eb3ddc8729dd50952f87f5cebb35d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Carer</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_56eb3ddc8729dd50952f87f5cebb35d2</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-08-22 09:08:16</sys_updated_on>
+        <text>Carer</text>
+        <value>carer</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=56eb3ddc8729dd50952f87f5cebb35d2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_56eb3ddc8729dd50952f87f5cebb35d2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>700</order><published_ref display_value="Carer">9dbed0631bd159506eb0a6c0604bcb4b</published_ref><question display_value="What is the relationship to the subject?">5aeb3ddc8729dd50952f87f5cebb35b9</question><sys_class_name>question_choice</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-08-22 09:08:16</sys_created_on><sys_id>56eb3ddc8729dd50952f87f5cebb35d2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Carer</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>question_choice_56eb3ddc8729dd50952f87f5cebb35d2</sys_update_name><sys_updated_by>hasnaat.khan.ems</sys_updated_by><sys_updated_on>2022-08-22 09:08:16</sys_updated_on><text>Carer</text><value>carer</value></question_choice><fx_price action="delete_multiple" query="id=56eb3ddc8729dd50952f87f5cebb35d2"/></record_update>]]></payload>
+        <payload_hash>-835741502</payload_hash>
+        <record_name>Carer</record_name>
+        <reverted_from/>
+        <source>8649b79b1b1159506eb0a6c0604bcb1d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-22 09:08:16</sys_created_on>
+        <sys_id>1eeb3ddc8729dd50952f87f5cebb35d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182c4cf4d1b0000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-08-22 09:08:16</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>92eb3ddc1629dd5007a70925c4b68fd4</update_guid>
+        <update_guid_history>92eb3ddc1629dd5007a70925c4b68fd4:-835741502</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Carer">47b086d48769dd50952f87f5cebb35b0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-22 09:29:21</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>99596521d1334a14ad3976310f8c7610</sys_id>
+        <sys_metadata>56eb3ddc8729dd50952f87f5cebb35d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Carer</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_56eb3ddc8729dd50952f87f5cebb35d2</sys_update_name>
+        <sys_update_version display_value="question_choice_56eb3ddc8729dd50952f87f5cebb35d2">1eeb3ddc8729dd50952f87f5cebb35d4</sys_update_version>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-08-22 09:29:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
