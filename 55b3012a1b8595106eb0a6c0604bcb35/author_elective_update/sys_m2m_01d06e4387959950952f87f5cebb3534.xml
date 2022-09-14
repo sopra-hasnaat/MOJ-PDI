@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="DELETE">
+        <from_table>x_ster2_emfs_subject</from_table>
+        <m2m_from_field>subjects</m2m_from_field>
+        <m2m_from_label>Curfew Locations</m2m_from_label>
+        <m2m_table>x_ster2_emfs_m2m_curfew_locations_subjects</m2m_table>
+        <m2m_to_field>curfew_location</m2m_to_field>
+        <m2m_to_label>Subjects</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-18 14:37:31</sys_created_on>
+        <sys_id>01d06e4387959950952f87f5cebb3534</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ster2_emfs_m2m_curfew_locations_subjects</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_m2m_01d06e4387959950952f87f5cebb3534</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-08-18 14:37:31</sys_updated_on>
+        <to_table>x_ster2_emfs_curfew_location</to_table>
+    </sys_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_m2m_01d06e4387959950952f87f5cebb3534</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m"><sys_m2m action="INSERT_OR_UPDATE"><from_table>x_ster2_emfs_subject</from_table><m2m_from_field>subjects</m2m_from_field><m2m_from_label>Curfew Locations</m2m_from_label><m2m_table>x_ster2_emfs_m2m_curfew_locations_subjects</m2m_table><m2m_to_field>curfew_location</m2m_to_field><m2m_to_label>Subjects</m2m_to_label><sys_class_name>sys_m2m</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-08-18 14:37:31</sys_created_on><sys_id>01d06e4387959950952f87f5cebb3534</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_ster2_emfs_m2m_curfew_locations_subjects</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sys_m2m_01d06e4387959950952f87f5cebb3534</sys_update_name><sys_updated_by>hasnaat.khan.ems</sys_updated_by><sys_updated_on>2022-08-18 14:37:31</sys_updated_on><to_table>x_ster2_emfs_curfew_location</to_table></sys_m2m></record_update>]]></payload>
+        <payload_hash>-293710982</payload_hash>
+        <record_name>x_ster2_emfs_m2m_curfew_locations_subjects</record_name>
+        <reverted_from/>
+        <source>238f82cf87159950952f87f5cebb35a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-08-18 14:37:31</sys_created_on>
+        <sys_id>6ae0ae4387959950952f87f5cebb35ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182b1634f7f0000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-08-18 14:37:31</sys_updated_on>
+        <type>Many to Many Definition</type>
+        <update_guid>a2e0ae4343959950d631ff92769828ac</update_guid>
+        <update_guid_history>a2e0ae4343959950d631ff92769828ac:-293710982</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-14 14:42:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_m2m">sys_m2m</sys_db_object>
+        <sys_id>492d8933da90489e9787c34e698d5d61</sys_id>
+        <sys_metadata>01d06e4387959950952f87f5cebb3534</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ster2_emfs_m2m_curfew_locations_subjects</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_m2m_01d06e4387959950952f87f5cebb3534</sys_update_name>
+        <sys_update_version display_value="sys_m2m_01d06e4387959950952f87f5cebb3534">6ae0ae4387959950952f87f5cebb35ac</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-14 14:42:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

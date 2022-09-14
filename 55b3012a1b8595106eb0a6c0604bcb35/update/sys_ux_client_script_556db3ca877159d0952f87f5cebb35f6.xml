@@ -13,10 +13,15 @@ function evaluateProperty({
     api,
     helpers
 }) {
-    var startDateWithTime = api.data.monitoring_orders.results[0].start_date_time.value;
-    var startDate = new Date(startDateWithTime.slice(0, 10));
-    var dateToday = new Date();
+    if (api.data.gform.nowRecordCommonHeader.tableDisplayValue === "Subjects") {
+        var startDateWithTime = api.data.monitoring_orders.results[0].start_date_time.value;
+        var startDate = new Date(startDateWithTime.slice(0, 10));
+    } else if (api.data.gform.nowRecordCommonHeader.tableDisplayValue === 'Monitoring Order') {
+        var startDateWithTime = api.data.monitoring_order.result.start_date_time.value;
+        var startDate = new Date(startDateWithTime.slice(0, 10));
+    }
 
+    var dateToday = new Date();
     var diffTime = Math.abs(dateToday - startDate);
     var diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
@@ -33,14 +38,14 @@ function evaluateProperty({
         <sys_created_by>hasnaat.khan.ems</sys_created_by>
         <sys_created_on>2022-09-09 15:19:03</sys_created_on>
         <sys_id>556db3ca877159d0952f87f5cebb35f6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>progress_bar_1_value</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_ux_client_script_556db3ca877159d0952f87f5cebb35f6</sys_update_name>
         <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-09-12 13:29:07</sys_updated_on>
+        <sys_updated_on>2022-09-14 13:24:54</sys_updated_on>
         <type>transform</type>
     </sys_ux_client_script>
 </record_update>
