@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_ster2_emfs_curfew_location</collection>
+        <condition>current.active.changes()</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>get_lat_long</name>
+        <order>300</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[if (current != null) {
+  var street = new String(current.street);
+  street = street.replaceAll("\r","");
+  street = street.replaceAll("\n"," ");
+  var address = encodeParm(current.full_name);
+  address = address.trim();
+
+  if (address.length > 0) {
+      var point=GoogleMapsHelper.google_queueRequest(address, current);
+  }
+}
+
+// encodes non-Latin characters
+function encodeParm(parm) {
+   return GlideStringUtil.urlEncode(parm);
+}]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-31 17:42:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eaf7c6131ba9d5906eb0a6c0604bcb01</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>get_lat_long</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_script_eaf7c6131ba9d5906eb0a6c0604bcb01</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-01 09:41:09</sys_updated_on>
+        <template/>
+        <when>async_always</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=eaf7c6131ba9d5906eb0a6c0604bcb01"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_script_eaf7c6131ba9d5906eb0a6c0604bcb01</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_ster2_emfs_curfew_location&lt;/collection&gt;&lt;condition&gt;current.active.changes()&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;get_lat_long&lt;/name&gt;&lt;order&gt;300&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[if (current != null) {
+  var street = new String(current.street);
+  street = street.replaceAll("\r","");
+  street = street.replaceAll("\n"," ");
+  var address = encodeParm(current.full_name);
+  address = address.trim();
+
+  if (address.length &gt; 0) {
+      var point=GoogleMapsHelper.google_queueRequest(address, current);
+  }
+}
+
+// encodes non-Latin characters
+function encodeParm(parm) {
+   return GlideStringUtil.urlEncode(parm);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;des.king.ems&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-31 17:42:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;eaf7c6131ba9d5906eb0a6c0604bcb01&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;get_lat_long&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Electronic Monitoring" source="x_ster2_emfs"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Electronic Monitoring"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_eaf7c6131ba9d5906eb0a6c0604bcb01&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;hasnaat.khan.ems&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-01 09:41:09&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;async_always&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=eaf7c6131ba9d5906eb0a6c0604bcb01"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1673146734</payload_hash>
+        <record_name>get_lat_long</record_name>
+        <reverted_from/>
+        <source>238f82cf87159950952f87f5cebb35a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-01 09:41:09</sys_created_on>
+        <sys_id>295329ef87e55d90952f87f5cebb3512</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182f86d01c10000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-01 09:41:09</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>2d5329efd8e55d90da95c6f24d635311</update_guid>
+        <update_guid_history>2d5329efd8e55d90da95c6f24d635311:-1673146734,fbfed5ab30e55d90cd0e09f15c17be19:1980594725,4d7d952b62e55d90137e675b43ff079a:1135481383,fb5c55e786e55d90e5909a8bbf146c3e:1959467485,7db855e32de55d9081c68818167cdb4c:71442553,adebc21770a9d590cb5fbfcc63ed1212:-1919483747,e2fa46d34fa9d5906f78b1f4dd5e1d5d:505282147,cf080a13c2a9d5908eb9b0d776aee1f1:-1539970462,a2f7c6135aa9d5902218951d4bc21406:2030417638</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-01 09:42:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>b9ab9b257f994748a2d899e4b958d640</sys_id>
+        <sys_metadata>eaf7c6131ba9d5906eb0a6c0604bcb01</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>get_lat_long</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="Curfew Location">6c4fb88f1b55d5506eb0a6c0604bcb5a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_script_eaf7c6131ba9d5906eb0a6c0604bcb01</sys_update_name>
+        <sys_update_version display_value="sys_script_eaf7c6131ba9d5906eb0a6c0604bcb01">295329ef87e55d90952f87f5cebb3512</sys_update_version>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-01 09:42:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

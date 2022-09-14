@@ -28,3 +28,4 @@ If you find yourself unable to import your repository due to the presence of fil
    * System Import Sets
    * Service Management Basics
    * Customer Service
+   * Asset Management

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="a7fa529c1ba51d506eb0a6c0604bcbe6" sys_domain="global" table="x_ster2_emfs_responsible_officers" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>cheryl.holt.ems</sys_created_by>
+            <sys_created_on>2022-08-22 11:24:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ffa529c1ba51d506eb0a6c0604bcbe9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ster2_emfs_responsible_officers" name="x_ster2_emfs_responsible_officers" sys_domain="global" view="Default view">a7fa529c1ba51d506eb0a6c0604bcbe6</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_responsible_officers" sys_domain="global" view="Default view">e73f02501ba51d506eb0a6c0604bcb75</sys_ui_section>
+            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+            <sys_updated_on>2022-08-22 11:24:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>cheryl.holt.ems</sys_created_by>
+            <sys_created_on>2022-08-22 11:24:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abfa529c1ba51d506eb0a6c0604bcbea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ster2_emfs_responsible_officers" name="x_ster2_emfs_responsible_officers" sys_domain="global" view="Default view">a7fa529c1ba51d506eb0a6c0604bcbe6</sys_ui_form>
+            <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_ster2_emfs_responsible_officers" sys_domain="global" view="Default view">6bfa529c1ba51d506eb0a6c0604bcbe5</sys_ui_section>
+            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+            <sys_updated_on>2022-08-22 11:24:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-09-08 15:28:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09e53e751b3551d06eb0a6c0604bcb30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ster2_emfs_responsible_officers" name="x_ster2_emfs_responsible_officers" sys_domain="global" view="Default view">a7fa529c1ba51d506eb0a6c0604bcbe6</sys_ui_form>
+            <sys_ui_section caption="Work Notes" display_value="Work Notes" name="x_ster2_emfs_responsible_officers" sys_domain="global" view="Default view">81e53e751b3551d06eb0a6c0604bcb2d</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-09-08 15:28:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_ster2_emfs_responsible_officers</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>cheryl.holt.ems</sys_created_by>
+            <sys_created_on>2022-08-22 11:24:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7fa529c1ba51d506eb0a6c0604bcbe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ster2_emfs_responsible_officers</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a7fa529c1ba51d506eb0a6c0604bcbe6</sys_update_name>
+            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+            <sys_updated_on>2022-08-22 11:24:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

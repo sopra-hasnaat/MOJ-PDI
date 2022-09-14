@@ -39,12 +39,12 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>order_details</name>
-        <order>900</order>
+        <name>order_type1</name>
+        <order>1200</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Order Details</question_text>
+        <question_text>Order Type</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -66,16 +66,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>des.king.ems</sys_created_by>
-        <sys_created_on>2022-08-05 13:53:38</sys_created_on>
+        <sys_created_on>2022-08-23 15:20:28</sys_created_on>
         <sys_id>783a5b3a87891910952f87f5cebb352b</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Order Details</sys_name>
+        <sys_name>Order Type</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>item_option_new_783a5b3a87891910952f87f5cebb352b</sys_update_name>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-08-05 14:04:15</sys_updated_on>
+        <sys_updated_on>2022-08-23 15:25:42</sys_updated_on>
         <table/>
         <tooltip/>
         <type>19</type>

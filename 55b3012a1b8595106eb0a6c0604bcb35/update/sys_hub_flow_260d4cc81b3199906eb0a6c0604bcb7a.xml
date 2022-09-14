@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>Create AM Adult Work Order - Male</description>
+        <internal_name>create_am_adult_work_order</internal_name>
+        <label_cache>[{"name":"Created_1.current.subcategory","label":"Trigger - Record Created➛Case Record➛Subcategory","reference":"","reference_display":"Subcategory","type":"choice","base_type":"choice","parent_table_name":"sn_customerservice_case","column_name":"subcategory","choices":[{"label":"AM - Adult","used":false,"rawLabel":"AM - Adult","reference":false,"selected":false,"image":"","missing":false,"value":"1","parameters":{"name":"sn_customerservice_case"}},{"label":"AM - Juvenile","used":false,"rawLabel":"AM - Juvenile","reference":false,"selected":false,"image":"","missing":false,"value":"2","parameters":{"name":"sn_customerservice_case"}},{"label":"GPS - Adult","used":false,"rawLabel":"GPS - Adult","reference":false,"selected":false,"image":"","missing":false,"value":"3","parameters":{"name":"sn_customerservice_case"}},{"label":"GPS - Juvenile","used":false,"rawLabel":"GPS - Juvenile","reference":false,"selected":false,"image":"","missing":false,"value":"4","parameters":{"name":"sn_customerservice_case"}},{"label":"Non-Fitted - Adult","used":false,"rawLabel":"Non-Fitted - Adult","reference":false,"selected":false,"image":"","missing":false,"value":"7","parameters":{"name":"sn_customerservice_case"}},{"label":"Non-Fitted - Juvenile","used":false,"rawLabel":"Non-Fitted - Juvenile","reference":false,"selected":false,"image":"","missing":false,"value":"8","parameters":{"name":"sn_customerservice_case"}},{"label":"RF - Adult","used":false,"rawLabel":"RF - Adult","reference":false,"selected":false,"image":"","missing":false,"value":"5","parameters":{"name":"sn_customerservice_case"}},{"label":"RF - Juvenile","used":false,"rawLabel":"RF - Juvenile","reference":false,"selected":false,"image":"","missing":false,"value":"6","parameters":{"name":"sn_customerservice_case"}}]},{"name":"Created_1.current.u_subject.subject_name","label":"Trigger - Record Created➛Case Record➛Subject➛Subject Name","reference":"","reference_display":"Subject Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"subject_name"},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Case Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_customerservice_case","column_name":"sys_id"},{"name":"Created_1.current.u_subject.risk_comments","label":"Trigger - Record Created➛Case Record➛Subject➛Risk Comments","reference":"","reference_display":"Risk Comments","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"risk_comments"},{"name":"Created_1.current.description","label":"Trigger - Record Created➛Case Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"sn_customerservice_case","column_name":"description"},{"name":"Created_1.current.short_description","label":"Trigger - Record Created➛Case Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"sn_customerservice_case","column_name":"short_description"},{"name":"Created_1.current.due_date","label":"Trigger - Record Created➛Case Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sn_customerservice_case","column_name":"due_date"},{"name":"Created_1.current.location","label":"Trigger - Record Created➛Case Record➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"sn_customerservice_case","column_name":"location"},{"name":"Created_1.current.u_subject","label":"Trigger - Record Created➛Case Record➛Subject","reference":"x_ster2_emfs_subject","reference_display":"Subjects","type":"reference","base_type":"reference","parent_table_name":"sn_customerservice_case","column_name":"u_subject"},{"name":"212d450e-c5c2-4189-87ba-f45cb9d30468.__dont_treat_as_error__","label":"1 - Create Work Order➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212d450e-c5c2-4189-87ba-f45cb9d30468.__action_status__","label":"1 - Create Work Order➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212d450e-c5c2-4189-87ba-f45cb9d30468.Work Order","label":"1 - Create Work Order➛Work Order","reference":"wm_order","reference_display":"Work Order","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Case Record","reference":"sn_customerservice_case","reference_display":"Case","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.expected_start","label":"Trigger - Record Created➛Case Record➛Expected start","reference":"","reference_display":"Expected start","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sn_customerservice_case","column_name":"expected_start"}]</label_cache>
+        <master_snapshot>0ed2d4801b7199906eb0a6c0604bcb43</master_snapshot>
+        <name>Create AM Adult Work Order - Male</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>57f62bf487f5d1d0952f87f5cebb35ea</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 16:41:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>260d4cc81b3199906eb0a6c0604bcb7a</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Create AM Adult Work Order - Male</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_hub_flow_260d4cc81b3199906eb0a6c0604bcb7a</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 16:28:45</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=260d4cc81b3199906eb0a6c0604bcb7a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=260d4cc81b3199906eb0a6c0604bcb7a"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="sn_customerservice_case">category=5^subcategory=1^u_subject.gender=male<item display_value="Installation" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="5"/>
+            <item display_value="AM - Adult" endquery="false" field="subcategory" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item display_value="male" endquery="false" field="u_subject.gender" goto="false" newquery="false" operator="=" or="false" value="male"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-05 16:28:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57f62bf487f5d1d0952f87f5cebb35ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 16:28:45</sys_updated_on>
+        <table>sn_customerservice_case</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"dbf62bf487f5d1d0952f87f5cebb35ea","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>260d4cc81b3199906eb0a6c0604bcb7a</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-05 16:28:45</sys_created_on>
+        <sys_id>dbf62bf487f5d1d0952f87f5cebb35ea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 16:28:45</sys_updated_on>
+        <trigger display_value="">57f62bf487f5d1d0952f87f5cebb35ea</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>dbf62bf487f5d1d0952f87f5cebb35ea</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-05 16:28:45</sys_created_on>
+        <sys_id>9ff62bf487f5d1d0952f87f5cebb35ea</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=260d4cc81b3199906eb0a6c0604bcb7a^sys_idNOT INdbf62bf487f5d1d0952f87f5cebb35ea"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=260d4cc81b3199906eb0a6c0604bcb7a^sys_idNOT INb1d2d4801b7199906eb0a6c0604bcb16"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create AM Adult Work Order - Male">260d4cc81b3199906eb0a6c0604bcb7a</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:25</sys_created_on>
+        <sys_id>b1d2d4801b7199906eb0a6c0604bcb16</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 16:28:45</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b1d2d4801b7199906eb0a6c0604bcb16"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>b1d2d4801b7199906eb0a6c0604bcb16</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:25</sys_created_on>
+        <sys_id>71d2d4801b7199906eb0a6c0604bcb18</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 15:06:29</sys_updated_on>
+        <value>category=5^subcategory=1^u_subject.gender=male</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>b1d2d4801b7199906eb0a6c0604bcb16</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:25</sys_created_on>
+        <sys_id>79d2d4801b7199906eb0a6c0604bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-02 17:06:25</sys_updated_on>
+        <value>sn_customerservice_case</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=260d4cc81b3199906eb0a6c0604bcb7a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=260d4cc81b3199906eb0a6c0604bcb7a^sys_idNOT INa60d4cc81b3199906eb0a6c0604bcb7c"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>260d4cc81b3199906eb0a6c0604bcb7a</id>
+        <name>Create AM Adult Work Order</name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 16:41:04</sys_created_on>
+        <sys_id>a60d4cc81b3199906eb0a6c0604bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-02 16:41:04</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a60d4cc81b3199906eb0a6c0604bcb7c"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=260d4cc81b3199906eb0a6c0604bcb7a^sys_idNOT IN35d2d4801b7199906eb0a6c0604bcb11,3dd290801b7199906eb0a6c0604bcb7b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create AM Adult Work Order - Male">260d4cc81b3199906eb0a6c0604bcb7a</model>
+        <model_id>260d4cc81b3199906eb0a6c0604bcb7a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_260d4cc81b3199906eb0a6c0604bcb7a</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:25</sys_created_on>
+        <sys_id>35d2d4801b7199906eb0a6c0604bcb11</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 16:28:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create AM Adult Work Order - Male">260d4cc81b3199906eb0a6c0604bcb7a</model>
+        <model_id>260d4cc81b3199906eb0a6c0604bcb7a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_260d4cc81b3199906eb0a6c0604bcb7a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:24</sys_created_on>
+        <sys_id>3dd290801b7199906eb0a6c0604bcb7b</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 16:28:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=260d4cc81b3199906eb0a6c0604bcb7a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=260d4cc81b3199906eb0a6c0604bcb7a"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=260d4cc81b3199906eb0a6c0604bcb7a^sys_idNOT INbdd2d4801b7199906eb0a6c0604bcb1d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Work Order">128cc856e751030097a26188d2f6a980</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create AM Adult Work Order - Male">260d4cc81b3199906eb0a6c0604bcb7a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:25</sys_created_on>
+        <sys_id>bdd2d4801b7199906eb0a6c0604bcb1d</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 16:28:45</sys_updated_on>
+        <ui_id>212d450e-c5c2-4189-87ba-f45cb9d30468</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bdd2d4801b7199906eb0a6c0604bcb1d"/>
+    <sys_element_mapping action="delete_multiple" query="id=bdd2d4801b7199906eb0a6c0604bcb1d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_case</field>
+        <id>bdd2d4801b7199906eb0a6c0604bcb1d</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:50</sys_created_on>
+        <sys_id>80f258801b7199906eb0a6c0604bcba2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 09:22:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_128cc856e751030097a26188d2f6a980</table>
+        <value>{{Created_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_work_order_fields</field>
+        <id>bdd2d4801b7199906eb0a6c0604bcb1d</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:25</sys_created_on>
+        <sys_id>f1d2d4801b7199906eb0a6c0604bcb20</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 14:57:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_128cc856e751030097a26188d2f6a980</table>
+        <value>u_subject_name={{Created_1.current.u_subject}}^location={{Created_1.current.location}}^requested_due_by={{Created_1.current.expected_start}}^short_description={{Created_1.current.short_description}}^description=Install {{Created_1.current.subcategory}} Tag on {{Created_1.current.u_subject.subject_name}}^secure_notes={{Created_1.current.u_subject.risk_comments}}^qualification_group={"display":"UK_Qualifiers","value":"8f2723a987695590952f87f5cebb3567"}^template={"display":"Install  - AM - Adult","value":"c69cb57887bd91d0952f87f5cebb3536"}^initiated_from=^=</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bdd2d4801b7199906eb0a6c0604bcb1d^sys_idNOT INf5d2d4801b7199906eb0a6c0604bcb1f"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_work_order_fields</input_name>
+        <instance>bdd2d4801b7199906eb0a6c0604bcb1d</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"secure_notes":{"scriptActive":false,"savedValue":"{{Created_1.current.u_subject.risk_comments}}"}}</script>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:25</sys_created_on>
+        <sys_id>f5d2d4801b7199906eb0a6c0604bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-02 17:06:25</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bdd2d4801b7199906eb0a6c0604bcb1d"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=260d4cc81b3199906eb0a6c0604bcb7a"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=260d4cc81b3199906eb0a6c0604bcb7a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=260d4cc81b3199906eb0a6c0604bcb7a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=260d4cc81b3199906eb0a6c0604bcb7a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_260d4cc81b3199906eb0a6c0604bcb7a^sys_idNOT IN7dd2d4801b7199906eb0a6c0604bcb13,b5d2d4801b7199906eb0a6c0604bcb10"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_260d4cc81b3199906eb0a6c0604bcb7a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:25</sys_created_on>
+        <sys_id>7dd2d4801b7199906eb0a6c0604bcb13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-02 17:06:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_260d4cc81b3199906eb0a6c0604bcb7a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:25</sys_created_on>
+        <sys_id>b5d2d4801b7199906eb0a6c0604bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-02 17:06:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_260d4cc81b3199906eb0a6c0604bcb7a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_260d4cc81b3199906eb0a6c0604bcb7a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_260d4cc81b3199906eb0a6c0604bcb7a"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=260d4cc81b3199906eb0a6c0604bcb7a^sys_idNOT IN16d2d4801b7199906eb0a6c0604bcb90"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"16d2d4801b7199906eb0a6c0604bcb90","name":"plan","plan_signature":null}}</plan>
+        <plan_id>260d4cc81b3199906eb0a6c0604bcb7a</plan_id>
+        <snapshot>0ed2d4801b7199906eb0a6c0604bcb43</snapshot>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>16d2d4801b7199906eb0a6c0604bcb90</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 16:28:45</sys_updated_on>
+        <trigger display_value="">57f62bf487f5d1d0952f87f5cebb35ea</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=260d4cc81b3199906eb0a6c0604bcb7a"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Create AM Adult Work Order - Male</description>
+        <internal_name>create_am_adult_work_order</internal_name>
+        <label_cache>[{"name":"Created_1.current.subcategory","label":"Trigger - Record Created➛Case Record➛Subcategory","reference":"","reference_display":"Subcategory","type":"choice","base_type":"choice","parent_table_name":"sn_customerservice_case","column_name":"subcategory","choices":[{"label":"AM - Adult","used":false,"rawLabel":"AM - Adult","reference":false,"selected":false,"image":"","missing":false,"value":"1","parameters":{"name":"sn_customerservice_case"}},{"label":"AM - Juvenile","used":false,"rawLabel":"AM - Juvenile","reference":false,"selected":false,"image":"","missing":false,"value":"2","parameters":{"name":"sn_customerservice_case"}},{"label":"GPS - Adult","used":false,"rawLabel":"GPS - Adult","reference":false,"selected":false,"image":"","missing":false,"value":"3","parameters":{"name":"sn_customerservice_case"}},{"label":"GPS - Juvenile","used":false,"rawLabel":"GPS - Juvenile","reference":false,"selected":false,"image":"","missing":false,"value":"4","parameters":{"name":"sn_customerservice_case"}},{"label":"Non-Fitted - Adult","used":false,"rawLabel":"Non-Fitted - Adult","reference":false,"selected":false,"image":"","missing":false,"value":"7","parameters":{"name":"sn_customerservice_case"}},{"label":"Non-Fitted - Juvenile","used":false,"rawLabel":"Non-Fitted - Juvenile","reference":false,"selected":false,"image":"","missing":false,"value":"8","parameters":{"name":"sn_customerservice_case"}},{"label":"RF - Adult","used":false,"rawLabel":"RF - Adult","reference":false,"selected":false,"image":"","missing":false,"value":"5","parameters":{"name":"sn_customerservice_case"}},{"label":"RF - Juvenile","used":false,"rawLabel":"RF - Juvenile","reference":false,"selected":false,"image":"","missing":false,"value":"6","parameters":{"name":"sn_customerservice_case"}}]},{"name":"Created_1.current.u_subject.subject_name","label":"Trigger - Record Created➛Case Record➛Subject➛Subject Name","reference":"","reference_display":"Subject Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"subject_name"},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Case Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_customerservice_case","column_name":"sys_id"},{"name":"Created_1.current.u_subject.risk_comments","label":"Trigger - Record Created➛Case Record➛Subject➛Risk Comments","reference":"","reference_display":"Risk Comments","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"risk_comments"},{"name":"Created_1.current.description","label":"Trigger - Record Created➛Case Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"sn_customerservice_case","column_name":"description"},{"name":"Created_1.current.short_description","label":"Trigger - Record Created➛Case Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"sn_customerservice_case","column_name":"short_description"},{"name":"Created_1.current.due_date","label":"Trigger - Record Created➛Case Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sn_customerservice_case","column_name":"due_date"},{"name":"Created_1.current.location","label":"Trigger - Record Created➛Case Record➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"sn_customerservice_case","column_name":"location"},{"name":"Created_1.current.u_subject","label":"Trigger - Record Created➛Case Record➛Subject","reference":"x_ster2_emfs_subject","reference_display":"Subjects","type":"reference","base_type":"reference","parent_table_name":"sn_customerservice_case","column_name":"u_subject"},{"name":"212d450e-c5c2-4189-87ba-f45cb9d30468.__dont_treat_as_error__","label":"1 - Create Work Order➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212d450e-c5c2-4189-87ba-f45cb9d30468.__action_status__","label":"1 - Create Work Order➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"212d450e-c5c2-4189-87ba-f45cb9d30468.Work Order","label":"1 - Create Work Order➛Work Order","reference":"wm_order","reference_display":"Work Order","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Case Record","reference":"sn_customerservice_case","reference_display":"Case","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.expected_start","label":"Trigger - Record Created➛Case Record➛Expected start","reference":"","reference_display":"Expected start","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sn_customerservice_case","column_name":"expected_start"}]</label_cache>
+        <master>true</master>
+        <name>Create AM Adult Work Order - Male</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Create AM Adult Work Order - Male">260d4cc81b3199906eb0a6c0604bcb7a</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0ed2d4801b7199906eb0a6c0604bcb43</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 16:28:45</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=0ed2d4801b7199906eb0a6c0604bcb43"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0ed2d4801b7199906eb0a6c0604bcb43"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=0ed2d4801b7199906eb0a6c0604bcb43^sys_idNOT IN1ed2d4801b7199906eb0a6c0604bcb66"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create AM Adult Work Order - Male">0ed2d4801b7199906eb0a6c0604bcb43</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:26</sys_created_on>
+        <sys_id>1ed2d4801b7199906eb0a6c0604bcb66</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 16:28:45</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1ed2d4801b7199906eb0a6c0604bcb66"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>1ed2d4801b7199906eb0a6c0604bcb66</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:26</sys_created_on>
+        <sys_id>56d2d4801b7199906eb0a6c0604bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-02 17:06:26</sys_updated_on>
+        <value>sn_customerservice_case</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>1ed2d4801b7199906eb0a6c0604bcb66</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:26</sys_created_on>
+        <sys_id>92d2d4801b7199906eb0a6c0604bcb68</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 16:28:44</sys_updated_on>
+        <value>category=5^subcategory=1^u_subject.gender=male</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=0ed2d4801b7199906eb0a6c0604bcb43"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=0ed2d4801b7199906eb0a6c0604bcb43^sys_idNOT IN4ad2d4801b7199906eb0a6c0604bcb44"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>0ed2d4801b7199906eb0a6c0604bcb43</id>
+        <name>Create AM Adult Work Order</name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:26</sys_created_on>
+        <sys_id>4ad2d4801b7199906eb0a6c0604bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-02 17:06:26</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=4ad2d4801b7199906eb0a6c0604bcb44"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=0ed2d4801b7199906eb0a6c0604bcb43^sys_idNOT IN0ed2d4801b7199906eb0a6c0604bcb54,8ed2d4801b7199906eb0a6c0604bcb45"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create AM Adult Work Order - Male">0ed2d4801b7199906eb0a6c0604bcb43</model>
+        <model_id>0ed2d4801b7199906eb0a6c0604bcb43</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_0ed2d4801b7199906eb0a6c0604bcb43</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:26</sys_created_on>
+        <sys_id>0ed2d4801b7199906eb0a6c0604bcb54</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 16:28:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create AM Adult Work Order - Male">0ed2d4801b7199906eb0a6c0604bcb43</model>
+        <model_id>0ed2d4801b7199906eb0a6c0604bcb43</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_0ed2d4801b7199906eb0a6c0604bcb43</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:26</sys_created_on>
+        <sys_id>8ed2d4801b7199906eb0a6c0604bcb45</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 16:28:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=0ed2d4801b7199906eb0a6c0604bcb43"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0ed2d4801b7199906eb0a6c0604bcb43"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=0ed2d4801b7199906eb0a6c0604bcb43^sys_idNOT INd6d2d4801b7199906eb0a6c0604bcb65"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Work Order">128cc856e751030097a26188d2f6a980</action_type>
+        <action_type_parent display_value="Create Work Order">1f4c4456e751030097a26188d2f6a98e</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create AM Adult Work Order - Male">0ed2d4801b7199906eb0a6c0604bcb43</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:26</sys_created_on>
+        <sys_id>d6d2d4801b7199906eb0a6c0604bcb65</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 16:28:45</sys_updated_on>
+        <ui_id>212d450e-c5c2-4189-87ba-f45cb9d30468</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d6d2d4801b7199906eb0a6c0604bcb65"/>
+    <sys_element_mapping action="delete_multiple" query="id=d6d2d4801b7199906eb0a6c0604bcb65"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_case</field>
+        <id>d6d2d4801b7199906eb0a6c0604bcb65</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:07:03</sys_created_on>
+        <sys_id>8bf2d8801b7199906eb0a6c0604bcb43</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 09:22:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_128cc856e751030097a26188d2f6a980</table>
+        <value>{{Created_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_work_order_fields</field>
+        <id>d6d2d4801b7199906eb0a6c0604bcb65</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:26</sys_created_on>
+        <sys_id>5ad2d4801b7199906eb0a6c0604bcb66</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 16:28:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_128cc856e751030097a26188d2f6a980</table>
+        <value>u_subject_name={{Created_1.current.u_subject}}^location={{Created_1.current.location}}^requested_due_by={{Created_1.current.expected_start}}^short_description={{Created_1.current.short_description}}^description=Install {{Created_1.current.subcategory}} Tag on {{Created_1.current.u_subject.subject_name}}^secure_notes={{Created_1.current.u_subject.risk_comments}}^qualification_group={"display":"UK_Qualifiers","value":"8f2723a987695590952f87f5cebb3567"}^template={"display":"Install  - AM - Adult","value":"c69cb57887bd91d0952f87f5cebb3536"}^initiated_from=^=</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d6d2d4801b7199906eb0a6c0604bcb65^sys_idNOT IN56d2d4801b7199906eb0a6c0604bcb66"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_work_order_fields</input_name>
+        <instance>d6d2d4801b7199906eb0a6c0604bcb65</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"secure_notes":{"scriptActive":false,"savedValue":"{{Created_1.current.u_subject.risk_comments}}"}}</script>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:26</sys_created_on>
+        <sys_id>56d2d4801b7199906eb0a6c0604bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-02 17:06:26</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d6d2d4801b7199906eb0a6c0604bcb65"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=0ed2d4801b7199906eb0a6c0604bcb43"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=0ed2d4801b7199906eb0a6c0604bcb43"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0ed2d4801b7199906eb0a6c0604bcb43"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=0ed2d4801b7199906eb0a6c0604bcb43"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_0ed2d4801b7199906eb0a6c0604bcb43^sys_idNOT IN06d2d4801b7199906eb0a6c0604bcb51,c6d2d4801b7199906eb0a6c0604bcb59"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0ed2d4801b7199906eb0a6c0604bcb43</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:26</sys_created_on>
+        <sys_id>06d2d4801b7199906eb0a6c0604bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-02 17:06:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0ed2d4801b7199906eb0a6c0604bcb43</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-02 17:06:26</sys_created_on>
+        <sys_id>c6d2d4801b7199906eb0a6c0604bcb59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-02 17:06:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_0ed2d4801b7199906eb0a6c0604bcb43"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_0ed2d4801b7199906eb0a6c0604bcb43"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_0ed2d4801b7199906eb0a6c0604bcb43"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>260d4cc81b3199906eb0a6c0604bcb7a</sys_id>
+        <latest_snapshot>0ed2d4801b7199906eb0a6c0604bcb43</latest_snapshot>
+        <compiler_build>glide-sandiego-12-22-2021__patch5-06-22-2022_06-30-2022_1211.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

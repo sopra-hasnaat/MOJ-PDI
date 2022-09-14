@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="cmn_location" label="Curfew Location" max_length="40" name="x_ster2_emfs_curfew_location" sizeclass="15" type="collection">
+    <element audit="true" extends="cmn_location" label="Curfew Location" max_length="40" name="x_ster2_emfs_curfew_location" sizeclass="57" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Postal Area" max_length="40" name="postal_area" type="string"/>
         <element label="Risk?" max_length="40" name="risk" type="boolean"/>
         <element label="Risk Notes" max_length="4000" name="risk_notes" type="html"/>
         <element label="Risk Type" max_length="40" name="risk_type" type="string"/>
-        <element label="Subject Name" max_length="32" name="subject_name" reference="x_ster2_emfs_subject" type="reference"/>
         <element label="Validated?" max_length="40" name="validated" type="boolean"/>
         <element label="Work Notes" max_length="4000" name="work_notes" type="journal_input"/>
-        <index name="index">
-            <element name="subject_name"/>
-        </index>
     </element>
 </database>

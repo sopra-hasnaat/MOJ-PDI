@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Subject September">f8f58d9787251d90952f87f5cebb35dd</macroponent>
+        <name>iframe_1_src</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    // var lat = api.data.curfew_locations.results[0].latitude.displayValue;
+    // var long = api.data.curfew_locations.results[0].longitude.displayValue;
+    // console.log(api.data.curfew_locations.results[0]);
+    // console.log("lat= " + lat + "long= " + long);
+    // return 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBpwgAfvZ5zWR0GmXQgLUEjbnl10P63qU4&q=' + lat + ',' + long;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-06 15:53:47</sys_created_on>
+        <sys_id>7c98641187bd15d0952f87f5cebb35c5</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>iframe_1_src</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_client_script_7c98641187bd15d0952f87f5cebb35c5</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-06 16:47:35</sys_updated_on>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_ux_client_script_7c98641187bd15d0952f87f5cebb35c5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Subject September"&gt;f8f58d9787251d90952f87f5cebb35dd&lt;/macroponent&gt;&lt;name&gt;iframe_1_src&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    // var lat = api.data.curfew_locations.results[0].latitude.displayValue;
+    // var long = api.data.curfew_locations.results[0].longitude.displayValue;
+    // console.log(api.data.curfew_locations.results[0]);
+    // console.log("lat= " + lat + "long= " + long);
+    // return 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBpwgAfvZ5zWR0GmXQgLUEjbnl10P63qU4&amp;q=' + lat + ',' + long;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;hasnaat.khan.ems&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-06 15:53:47&lt;/sys_created_on&gt;&lt;sys_id&gt;7c98641187bd15d0952f87f5cebb35c5&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;iframe_1_src&lt;/sys_name&gt;&lt;sys_package display_value="Electronic Monitoring" source="x_ster2_emfs"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Electronic Monitoring"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_7c98641187bd15d0952f87f5cebb35c5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;hasnaat.khan.ems&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-06 16:47:35&lt;/sys_updated_on&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-30885183</payload_hash>
+        <record_name>iframe_1_src</record_name>
+        <reverted_from/>
+        <source>238f82cf87159950952f87f5cebb35a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-06 16:47:35</sys_created_on>
+        <sys_id>74e4b0dd87bd15d0952f87f5cebb3513</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18313b336f20000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-06 16:47:35</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>3ce4b0dd25bd15d0b61907a479125112</update_guid>
+        <update_guid_history>3ce4b0dd25bd15d0b61907a479125112:-30885183,154f641916bd15d03322a1b8fe72e308:910395711,c87ea4d53ebd15d00182775eac3e4f39:1411942118,ce0eac95abbd15d0886654dd2e87814b:-1093253040,09cde49527bd15d0be2110e9eb8faef7:1246731460,f29d249529bd15d07861d511c2639274:666707797,691de855e6bd15d06a0008038959f91c:35130514,418c2055bbbd15d0ab89d3d2ef10175d:-650548494,913ca81578bd15d021ce7b61ffab9469:35130514,ffdb2415d0bd15d022573db853184f41:9333292,8dbb20153fbd15d049acb028e3f7b8f6:1887493970,b77b2cd10abd15d0a751a919e8dfb0e5:1983022134,264b68d14bbd15d0bfac6e0be9c40108:1614195528,b498641119bd15d087fa0655bccdd9ce:348722539</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-06 16:47:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>58327aa76c1c4b0caf41fb0a55a83d90</sys_id>
+        <sys_metadata>7c98641187bd15d0952f87f5cebb35c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>iframe_1_src</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_7c98641187bd15d0952f87f5cebb35c5</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_7c98641187bd15d0952f87f5cebb35c5">74e4b0dd87bd15d0952f87f5cebb3513</sys_update_version>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-06 16:47:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

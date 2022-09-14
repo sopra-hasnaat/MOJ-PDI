@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Monitoring Order" max_length="40" name="x_ster2_emfs_monitoring_order" sizeclass="5" type="collection">
+    <element audit="true" label="Monitoring Order" max_length="40" name="x_ster2_emfs_monitoring_order" sizeclass="89" text_index="true" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Actual End Date" max_length="40" name="actual_end_date" type="glide_date_time"/>
         <element label="Additional Requirements" max_length="8000" name="additional_requirements" type="html"/>
@@ -10,7 +10,7 @@
             <choice/>
         </element>
         <element label="Court Reference" max_length="200" name="court_reference" type="string"/>
-        <element default="&lt;!DOCTYPE html&gt;&#10;&lt;html&gt;&#10;&lt;head&gt;&#10;&lt;style&gt;&#10;table {&#10;  font-family: arial, sans-serif;&#10;  border-collapse: collapse;&#10;  width: 100%;&#10;}&#10;&#10;td {&#10;  border: 1px solid #dddddd;&#10;  text-align: left;&#10;  padding: 8px;&#10;  font-weight: bold;&#10;}&#10;&#10;th {&#10;  border: 1px solid #dddddd;&#10;  text-align: left;&#10;  padding: 8px;&#10;  background-color: #3498DB;&#10;  color: #ffffff;&#10;}&#10;&#10;tr:nth-child(even) {&#10;  background-color: #F4F6F7;&#10;}&#10;&#10;tr:nth-child(odd) {&#10;  background-color: #ECF0F1;&#10;}&#10;&lt;/style&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&#10;&lt;table&gt;&#10;&#10;  &lt;tr&gt;&#10;    &lt;th colspan=&quot;8&quot;&gt;&lt;center&gt;CURFEW SCHEDULE&lt;/center&gt;&lt;/th&gt;&#10;  &lt;/tr&gt;&#10;  &lt;tr&gt;&#10;    &lt;th&gt;&lt;/th&gt;&#10;    &lt;th&gt;Monday&lt;/th&gt;&#10;    &lt;th&gt;Tuesday&lt;/th&gt;&#10;    &lt;th&gt;Wednesday&lt;/th&gt;&#10;    &lt;th&gt;Thursday&lt;/th&gt;&#10;    &lt;th&gt;Friday&lt;/th&gt;&#10;    &lt;th&gt;Saturday&lt;/th&gt;&#10;    &lt;th&gt;Sunday&lt;/th&gt;&#10;  &lt;/tr&gt;&#10;  &lt;tr&gt;&#10;    &lt;td&gt;Start&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;  &lt;/tr&gt;&#10;    &lt;tr&gt;&#10;    &lt;td&gt;End&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;    &lt;td&gt;&lt;/td&gt;&#10;  &lt;/tr&gt;&#10;&#10;&lt;/table&gt;&#10;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" label="Curfew Schedules" max_length="8000" name="curfew_schedules" type="html"/>
+        <element label="Curfew Schedules" max_length="8000" name="curfew_schedules" type="html"/>
         <element choice="1" label="Monitoring Type" max_length="40" name="monitoring_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="GPS" sequence="10" value="gps"/>
@@ -44,7 +44,7 @@
                 <element inactive_on_update="false" label="Home Office" sequence="50" value="home office"/>
             </choice>
         </element>
-        <element label="Responsible Officer" max_length="200" name="responsible_officer" type="string"/>
+        <element label="Responsible Officer" max_length="200" name="responsible_officer" reference="x_ster2_emfs_responsible_officers" type="reference"/>
         <element choice="1" label="Responsible Organisation" max_length="40" name="responsible_organisation" type="choice">
             <choice>
                 <element inactive_on_update="false" label="F - South Central - Buckinghamshire and Milton Keynes" sequence="10" value="f - south central - buckinghamshire and milton keynes"/>

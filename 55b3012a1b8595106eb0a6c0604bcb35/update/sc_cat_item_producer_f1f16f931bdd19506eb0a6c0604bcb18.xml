@@ -24,13 +24,13 @@
         <ignore_price>true</ignore_price>
         <image/>
         <location/>
-        <mandatory_attachment>false</mandatory_attachment>
+        <mandatory_attachment>true</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Create New Subject</name>
+        <name>Enter details for a new Subject</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -41,7 +41,7 @@
         <no_quantity>false</no_quantity>
         <no_quantity_v2>false</no_quantity_v2>
         <no_search>false</no_search>
-        <no_wishlist_v2>false</no_wishlist_v2>
+        <no_wishlist_v2>true</no_wishlist_v2>
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
@@ -68,7 +68,7 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></save_script>
-        <sc_catalogs/>
+        <sc_catalogs>65bcd377c3011200b12d9f2974d3aea0</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
@@ -78,8 +78,9 @@
 * Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
 * Avoid `current.setAbortAction()` and generate a separate record
 * Use `producer.var1` to access variables
-*/]]></script>
-        <short_description/>
+*/
+]]></script>
+        <short_description>Enter details for a new Subject for this monitoring order</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state>published</state>
@@ -87,14 +88,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-08-19 14:00:44</sys_created_on>
         <sys_id>f1f16f931bdd19506eb0a6c0604bcb18</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Create New Subject</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Enter details for a new Subject</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sc_cat_item_producer_f1f16f931bdd19506eb0a6c0604bcb18</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-08-19 14:05:33</sys_updated_on>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-25 17:35:19</sys_updated_on>
         <table_name>x_ster2_emfs_subject</table_name>
         <taxonomy_topic/>
         <template/>

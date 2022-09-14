@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="CSM/FSM Configurable Workspace App Config">f224e5a3530210102c30ddeeff7b128d</app_config>
+        <description/>
+        <fields>table,sysId</fields>
+        <icon/>
+        <name>subject draft Create Child Cases</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Record">e309a1fd8775d5d0952f87f5cebb3566</parent_macroponent>
+        <parent_macroponent_composition_element_id>modalContainerViewport</parent_macroponent_composition_element_id>
+        <route_type>create_childcases</route_type>
+        <screen_type display_value="Create Child Cases">ec79a89ac7a710102cdf073703c260ef</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-08 09:52:37</sys_created_on>
+        <sys_id>7d19a5fd8775d5d0952f87f5cebb3585</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>subject draft Create Child Cases</sys_name>
+        <sys_package display_value="Major Issue Management" source="sn_majorissue_mgt">8c2fe7753b120300b5c42479b3efc449</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_app_route_7d19a5fd8775d5d0952f87f5cebb3585</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-08 09:52:37</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=7d19a5fd8775d5d0952f87f5cebb3585"/>
+</record_update>

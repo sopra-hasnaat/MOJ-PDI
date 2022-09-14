@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Electronic Monitoring Subjects Config">6c74300f1e659590bb960d72709de55d</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "ckfppgglhhraaaaaauddhhhejjeaassotf",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_majorissue_mgt.SESSIONGQL_REFRESH_RELAY_55125886c7a310102cdf073703c26045",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_majorissue_mgt.SESSIONGQL_REFRESH_RELAY_55125886c7a310102cdf073703c26045",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : {
+      "dataBrokerId" : "e0af18bf531340107388ddeeff7b12a2",
+      "operationName" : "REFRESH",
+      "parentResourceId" : "sessionGQL",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      }
+    },
+    "targetId" : "ckfppgglhhraaaaaatddhhheevhhkffddz",
+    "type" : "DATABROKER_OP"
+  } ]
+}, {
+  "eventMappingId" : "ckfppccjddaaaaaaaajddhhhefveeufffxn",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_majorissue_mgt.SESSION_REFRESH_RELAY_55125886c7a310102cdf073703c26045",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_majorissue_mgt.SESSION_REFRESH_RELAY_55125886c7a310102cdf073703c26045",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : {
+      "dataBrokerId" : "f7ef98bf531340107388ddeeff7b122f",
+      "operationName" : "REFRESH",
+      "parentResourceId" : "session",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      }
+    },
+    "targetId" : "ckfppccjddaaaaaaaaiddhhheiaiikdxdhh",
+    "type" : "DATABROKER_OP"
+  } ]
+}, {
+  "eventMappingId" : "ckfppbbeekkaaaaaafddhhhegwjtzpxo",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_now_record_form.RECORD_PAGE_TABS#ADD_NOTIFICATIONS",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#ADD_NOTIFICATIONS",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : {
+      "dataBrokerId" : "f7ef98bf531340107388ddeeff7b122f",
+      "operationName" : "REFRESH",
+      "parentResourceId" : "session",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      }
+    },
+    "targetId" : "ckfppbbeekkaaaaaagddhhhejjjwflbggbb",
+    "type" : "DATABROKER_OP"
+  } ]
+}, {
+  "eventMappingId" : "ckfpoiiksbbaaaaaahddhhheaiipfchhggg",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_majorissue_mgt.CONTENT_UPDATED_RELAY_55125886c7a310102cdf073703c26045",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_majorissue_mgt.CONTENT_UPDATED_RELAY_55125886c7a310102cdf073703c26045",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.CONTENT_UPDATED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          }
+        }
+      },
+      "sysId" : "75f3815fb0d9c38bb6df1626a0f284c4"
+    },
+    "operation" : null,
+    "targetId" : "ckfpoiiksbbaaaaaagddhhheqnffhcdfaa",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckfpmfibbqaaaabbwddhhheccupkbbnz",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_majorissue_mgt.MODAL_SELECTED_RELAY_55125886c7a310102cdf073703c26045",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_majorissue_mgt.MODAL_SELECTED_RELAY_55125886c7a310102cdf073703c26045",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.MODAL_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "modalId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "modalId" ]
+            }
+          },
+          "showModal" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "showModal" ]
+            }
+          },
+          "displayOptions" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "displayOptions" ]
+            }
+          }
+        }
+      },
+      "sysId" : "882eed4091382d3a41f1bb3f382ae089"
+    },
+    "operation" : null,
+    "targetId" : "ckfpmfibbpaaaabbvddhhhepbbvohvcca",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckfxnrxbbqaaaabbuccchhmccaadbnggox",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_majorissue_mgt.GLIDE_FORM_1_RELOAD_RELAY_429f31fbdbebd01045cf5ce4dc96193d",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_majorissue_mgt.GLIDE_FORM_1_RELOAD_RELAY_429f31fbdbebd01045cf5ce4dc96193d",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : {
+      "dataBrokerId" : "dc6e87a5232200100e4bc50947bf654b",
+      "operationName" : "RELOAD",
+      "parentResourceId" : "gform",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      }
+    },
+    "targetId" : "ckfxnrxbbqaaaabbtccchhmhddggccqgaf",
+    "type" : "DATABROKER_OP"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="Propose Major Case">a577317187f5d5d0952f87f5cebb3523</macroponent>
+        <macroponent_config>{
+  "sysId" : "",
+  "table" : "",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : true,
+  "headingOnlyVisibleToScreenReaders" : false
+}</macroponent_config>
+        <name>Propose Major Case Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record">751779fd87b5d5d0952f87f5cebb35a1</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="subject draft Propose Major Case">e977317187f5d5d0952f87f5cebb351d</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-08 10:55:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6177317187f5d5d0952f87f5cebb3525</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Propose Major Case Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_screen_6177317187f5d5d0952f87f5cebb3525</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-08 10:55:25</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=6177317187f5d5d0952f87f5cebb3525"/>
+</record_update>

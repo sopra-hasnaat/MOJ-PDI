@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <sc_catalog display_value="Customer Service">65bcd377c3011200b12d9f2974d3aea0</sc_catalog>
+        <sp_portal display_value="Electronic Monitoring Field Services Management - Sentencing Organisations Portal">d71b0d931ba5d5906eb0a6c0604bcbee</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-02 11:04:11</sys_created_on>
+        <sys_id>67eff63f87ed9d90952f87f5cebb3507</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Service.Electronic Monitoring Field Services Management - Sentencing Organisations Portal</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_67eff63f87ed9d90952f87f5cebb3507</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-02 11:04:11</sys_updated_on>
+    </m2m_sp_portal_catalog>
+</record_update>

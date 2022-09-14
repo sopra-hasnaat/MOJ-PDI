@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="bb7a250387a5d990952f87f5cebb3528" sys_domain="global" table="x_ster2_emfs_subject" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-30 20:55:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff7a250387a5d990952f87f5cebb352b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ster2_emfs_subject" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">bb7a250387a5d990952f87f5cebb3528</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">337a250387a5d990952f87f5cebb3526</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-30 20:55:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-09-02 16:04:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f8448801b3199906eb0a6c0604bcb93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ster2_emfs_subject" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">bb7a250387a5d990952f87f5cebb3528</sys_ui_form>
+            <sys_ui_section caption="Information" display_value="Information" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">578448801b3199906eb0a6c0604bcb32</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-09-02 16:04:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-09-02 16:04:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a78448801b3199906eb0a6c0604bcb97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ster2_emfs_subject" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">bb7a250387a5d990952f87f5cebb3528</sys_ui_form>
+            <sys_ui_section caption="Address Information" display_value="Address Information" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">178448801b3199906eb0a6c0604bcb7f</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-09-02 16:04:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-09-02 16:04:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a38448801b3199906eb0a6c0604bcb9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ster2_emfs_subject" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">bb7a250387a5d990952f87f5cebb3528</sys_ui_form>
+            <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">9f8448801b3199906eb0a6c0604bcb7f</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-09-02 16:04:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-09-02 16:04:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a38448801b3199906eb0a6c0604bcb9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ster2_emfs_subject" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">bb7a250387a5d990952f87f5cebb3528</sys_ui_form>
+            <sys_ui_section caption="Alternative Contact Information" display_value="Alternative Contact Information" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">1b8448801b3199906eb0a6c0604bcb80</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-09-02 16:04:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-09-02 16:04:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a78448801b3199906eb0a6c0604bcba3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ster2_emfs_subject" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">bb7a250387a5d990952f87f5cebb3528</sys_ui_form>
+            <sys_ui_section caption="Demographics" display_value="Demographics" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">938448801b3199906eb0a6c0604bcb81</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-09-02 16:04:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-09-02 16:04:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>678448801b3199906eb0a6c0604bcbb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ster2_emfs_subject" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">bb7a250387a5d990952f87f5cebb3528</sys_ui_form>
+            <sys_ui_section caption="Risk Information" display_value="Risk Information" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">5f8448801b3199906eb0a6c0604bcb81</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-09-02 16:04:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-09-02 16:04:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>638448801b3199906eb0a6c0604bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ster2_emfs_subject" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">bb7a250387a5d990952f87f5cebb3528</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">d78448801b3199906eb0a6c0604bcb82</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-09-02 16:04:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_ster2_emfs_subject</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-08-30 20:55:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb7a250387a5d990952f87f5cebb3528</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ster2_emfs_subject</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_ui_form_sections_bb7a250387a5d990952f87f5cebb3528</sys_update_name>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-08-30 20:55:28</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">57a3235364901110a866d1e779b53017</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

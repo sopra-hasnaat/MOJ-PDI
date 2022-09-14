@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>The declarative action should open vieport model with MRA component</description>
+        <name>Subject Add Affected Install Base </name>
+        <parent_macroponent display_value="Record">6053fd4b87a5d990952f87f5cebb3518</parent_macroponent>
+        <source_da display_value="Add Affected Install Base">0e828e0653331010d715ddeeff7b12d1</source_da>
+        <source_element_id>record_page_tabs_1</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-30 21:34:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e253f58b87a5d990952f87f5cebb35c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Subject Add Affected Install Base </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Customer Service Install Base Management" source="sn_install_base">7f1fc05477122300d7159b71a91061b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_e253f58b87a5d990952f87f5cebb35c8</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-30 21:34:09</sys_updated_on>
+        <target_event display_value="RECORD#OPEN_MODAL">509663140f0310107d20409dc4767e00</target_event>
+        <target_payload_mapping>{&#13;
+  "type": "MAP_CONTAINER",&#13;
+  "container": {&#13;
+    "route": {&#13;
+      "type": "JSON_LITERAL",&#13;
+      "value": "mra"&#13;
+    },&#13;
+    "size": {&#13;
+      "type": "JSON_LITERAL",&#13;
+      "value": "lg"&#13;
+    },&#13;
+    "fields": {&#13;
+      "type": "MAP_CONTAINER",&#13;
+      "container": {&#13;
+        "label": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["label"]&#13;
+          }&#13;
+        },&#13;
+        "userGivenTable": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["userGivenTable"]&#13;
+          }&#13;
+        },&#13;
+        "table": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["table"]&#13;
+          }&#13;
+        },&#13;
+        "parentRecordSysId": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["parentRecordSysId"]&#13;
+          }&#13;
+        },&#13;
+        "parentFieldName": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["parentFieldName"]&#13;
+          }&#13;
+        },&#13;
+        "referencedFieldName": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["referencedFieldName"]&#13;
+          }&#13;
+        },&#13;
+        "extensionPoint": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["extensionPoint"]&#13;
+          }&#13;
+        },&#13;
+        "view": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["view"]&#13;
+          }&#13;
+        },&#13;
+        "columns": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["columns"]&#13;
+          }&#13;
+        },&#13;
+        "type": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["type"]&#13;
+          }&#13;
+        },&#13;
+        "hideSelectAll": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["hideSelectAll"]&#13;
+          }&#13;
+        },&#13;
+        "relatedListName": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["relatedListName"]&#13;
+          }&#13;
+        }&#13;
+      }&#13;
+    },&#13;
+    "params": {&#13;
+      "type": "JSON_LITERAL",&#13;
+      "value": {}&#13;
+    }&#13;
+  }&#13;
+}&#13;
+</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

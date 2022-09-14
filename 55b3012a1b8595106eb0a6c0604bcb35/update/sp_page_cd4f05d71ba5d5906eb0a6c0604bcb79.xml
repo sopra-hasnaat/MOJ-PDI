@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>body .padding-top{&#13;
+  padding-top: 0px;&#13;
+}&#13;
+section.page { &#13;
+  background-color: $sp-homepage-bg;&#13;
+}&#13;
+&#13;
+section.page, section.body {&#13;
+    padding-top: 0px !important;&#13;
+}&#13;
+&#13;
+.banner-container {&#13;
+    height: 230px;&#13;
+    display: table;&#13;
+  	width: 100%;&#13;
+}&#13;
+&#13;
+.search-container {&#13;
+  max-width: 709px;&#13;
+  margin: 0 auto;&#13;
+}&#13;
+&#13;
+.mob-ban-container {&#13;
+  height: 85px;&#13;
+  padding-top: 20px;&#13;
+}&#13;
+&#13;
+.v-h-center {&#13;
+    display: table-cell;&#13;
+    vertical-align: middle;&#13;
+    margin-left: auto;&#13;
+    margin-right: auto;&#13;
+}&#13;
+#homepage-search {&#13;
+  	padding: 0px !important;&#13;
+}&#13;
+#homepage-search h2 {&#13;
+	font-size: 36px;&#13;
+    font-weight: 300;&#13;
+    line-height: 42px;&#13;
+    margin-top: 0px;&#13;
+	margin-bottom: 10px !important;&#13;
+}&#13;
+#homepage-search .h4 {&#13;
+	margin-top: 0px;&#13;
+    font-size: 18px;&#13;
+    font-weight: 300;&#13;
+    line-height: 21px;&#13;
+}&#13;
+#homepage-search div[widget] .input-group {&#13;
+	max-width: 578px;&#13;
+  	margin: 0 auto;	&#13;
+}&#13;
+#homepage-search div[widget] .input-group input[name="q"] {&#13;
+	height: 42px;&#13;
+    border: 1.2px solid $input-border;&#13;
+    border-radius: 4.8px 0 0 4.8px;&#13;
+  	padding-left: 12px;&#13;
+    padding-right: 12px;&#13;
+    box-shadow: none;&#13;
+    -webkit-box-shadow: none;&#13;
+}&#13;
+#homepage-search div[widget] .input-group input[name="q"]:focus {&#13;
+  outline: 5px auto $input-border-focus;&#13;
+}&#13;
+#homepage-search ::placeholder {&#13;
+	font-size: 16px;&#13;
+	line-height: 25px;&#13;
+}&#13;
+#homepage-search :-ms-input-placeholder {&#13;
+	font-size: 16px;&#13;
+	line-height: 25px;&#13;
+}&#13;
+#homepage-search div[widget] .input-group .input-group-btn &gt; button {&#13;
+	height: 42px;&#13;
+    min-width: 48px;&#13;
+    border: 1.2px solid $input-border;&#13;
+    border-radius: 0 4.8px 4.8px 0;&#13;
+    padding: 0;&#13;
+}&#13;
+&#13;
+.myHeight {&#13;
+  height: 150px;&#13;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>moj_home</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>true</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-31 13:34:58</sys_created_on>
+        <sys_id>cd4f05d71ba5d5906eb0a6c0604bcb79</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>moj_home</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_page_cd4f05d71ba5d5906eb0a6c0604bcb79</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-08-31 15:30:06</sys_updated_on>
+        <title>MOJ Home</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=cd4f05d71ba5d5906eb0a6c0604bcb79"/>
+</record_update>

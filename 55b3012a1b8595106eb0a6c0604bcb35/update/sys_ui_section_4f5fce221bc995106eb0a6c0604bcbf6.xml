@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Risk Information" section_id="4f5fce221bc995106eb0a6c0604bcbf6" sys_domain="global" table="x_ster2_emfs_subject" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>risk_comments</element>
+            <element>risk</element>
             <position>0</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-08-04 13:48:12</sys_created_on>
-            <sys_id>2b5f02621bc995106eb0a6c0604bcb56</sys_id>
+            <sys_created_on>2022-09-02 16:06:41</sys_created_on>
+            <sys_id>722504c01b3199906eb0a6c0604bcbbb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Risk Information" display_value="Risk Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">4f5fce221bc995106eb0a6c0604bcbf6</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-08-04 13:48:12</sys_updated_on>
+            <sys_updated_on>2022-09-02 16:06:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>risk_comments</element>
+            <position>1</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-09-02 16:06:41</sys_created_on>
+            <sys_id>762504c01b3199906eb0a6c0604bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Information" display_value="Risk Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">4f5fce221bc995106eb0a6c0604bcbf6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-09-02 16:06:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

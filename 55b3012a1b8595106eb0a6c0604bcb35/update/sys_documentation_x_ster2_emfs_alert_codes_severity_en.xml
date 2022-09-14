@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="severity" label="Severity" language="en" table="x_ster2_emfs_alert_codes">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>severity</element>
+            <help/>
+            <hint/>
+            <label>Severity</label>
+            <language>en</language>
+            <name>x_ster2_emfs_alert_codes</name>
+            <plural>Severities</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-09-05 17:37:45</sys_created_on>
+            <sys_id>cac6b3b88739d1d0952f87f5cebb35ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Severity</sys_name>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_documentation_x_ster2_emfs_alert_codes_severity_en</sys_update_name>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-09-05 17:37:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

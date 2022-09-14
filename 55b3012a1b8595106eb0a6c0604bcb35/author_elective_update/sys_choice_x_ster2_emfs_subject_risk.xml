@@ -24,16 +24,16 @@
             <label>Red</label>
             <language>en</language>
             <name>x_ster2_emfs_subject</name>
-            <sequence>10</sequence>
+            <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>des.king.ems</sys_created_by>
             <sys_created_on>2022-08-04 16:07:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>d94faa221b4d95106eb0a6c0604bcbdf</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-08-04 16:08:25</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+            <sys_updated_on>2022-08-31 15:05:31</sys_updated_on>
             <value>red</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -44,17 +44,17 @@
             <label>Amber</label>
             <language>en</language>
             <name>x_ster2_emfs_subject</name>
-            <sequence>20</sequence>
+            <sequence>1</sequence>
             <synonyms/>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-08-04 16:08:17</sys_created_on>
+            <sys_created_by>cheryl.holt.ems</sys_created_by>
+            <sys_created_on>2022-08-31 15:05:31</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d75fe6221b4d95106eb0a6c0604bcbfa</sys_id>
+            <sys_id>5bf3a15b87a51d90952f87f5cebb3525</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-08-04 16:08:17</sys_updated_on>
-            <value>orange</value>
+            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+            <sys_updated_on>2022-08-31 15:05:31</sys_updated_on>
+            <value>amber</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -64,16 +64,16 @@
             <label>Green</label>
             <language>en</language>
             <name>x_ster2_emfs_subject</name>
-            <sequence>30</sequence>
+            <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>des.king.ems</sys_created_by>
             <sys_created_on>2022-08-04 16:08:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>567f6e221b4d95106eb0a6c0604bcb77</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-08-04 16:08:43</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+            <sys_updated_on>2022-08-31 15:05:31</sys_updated_on>
             <value>green</value>
         </sys_choice>
     </sys_choice>

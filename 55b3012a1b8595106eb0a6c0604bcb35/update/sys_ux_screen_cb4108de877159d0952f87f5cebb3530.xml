@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Electronic Monitoring Subjects Config">6c74300f1e659590bb960d72709de55d</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Attachment">3478e8db0f0210107d20409dc4767e89</macroponent>
+        <macroponent_config/>
+        <name>Subject Attachment default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record">6053fd4b87a5d990952f87f5cebb3518</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Subject Attachment">874108de877159d0952f87f5cebb352c</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-09 15:36:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cb4108de877159d0952f87f5cebb3530</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Subject Attachment default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_screen_cb4108de877159d0952f87f5cebb3530</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-09 15:36:06</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=cb4108de877159d0952f87f5cebb3530"/>
+</record_update>

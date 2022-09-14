@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Emfs 1662399381922</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_ster2_emfs_1662399381922</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-05 17:36:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ca763f788739d1d0952f87f5cebb35e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emfs 1662399381922</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_app_module_ca763f788739d1d0952f87f5cebb35e8</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 17:36:23</sys_updated_on>
+        <timeline_page/>
+        <title>Emfs 1662399381922</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_app_module_ca763f788739d1d0952f87f5cebb35e8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Emfs 1662399381922</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_ster2_emfs_1662399381922</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>des.king.ems</sys_created_by><sys_created_on>2022-09-05 17:36:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ca763f788739d1d0952f87f5cebb35e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Emfs 1662399381922</sys_name><sys_overrides/><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sys_app_module_ca763f788739d1d0952f87f5cebb35e8</sys_update_name><sys_updated_by>des.king.ems</sys_updated_by><sys_updated_on>2022-09-05 17:36:23</sys_updated_on><timeline_page/><title>Emfs 1662399381922</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1958099510</payload_hash>
+        <record_name>Emfs 1662399381922</record_name>
+        <reverted_from/>
+        <source>8649b79b1b1159506eb0a6c0604bcb1d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-05 17:36:23</sys_created_on>
+        <sys_id>42763f788739d1d0952f87f5cebb35f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1830eb989740000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 17:36:23</sys_updated_on>
+        <type>Module</type>
+        <update_guid>8a763f78a839d1d0f402841dd79174f7</update_guid>
+        <update_guid_history>8a763f78a839d1d0f402841dd79174f7:1958099510</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Emfs 1662399381922">5bc637b88739d1d0952f87f5cebb355e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-09-05 17:37:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>3c52d87fb5cb4250b01085323d1a86c4</sys_id>
+        <sys_metadata>ca763f788739d1d0952f87f5cebb35e8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emfs 1662399381922</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_app_module_ca763f788739d1d0952f87f5cebb35e8</sys_update_name>
+        <sys_update_version display_value="sys_app_module_ca763f788739d1d0952f87f5cebb35e8">42763f788739d1d0952f87f5cebb35f8</sys_update_version>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-09-05 17:37:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

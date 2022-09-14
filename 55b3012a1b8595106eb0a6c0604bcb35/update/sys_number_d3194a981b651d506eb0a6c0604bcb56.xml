@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_ster2_emfs_responsible_organisations">x_ster2_emfs_responsible_organisations</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>RESPORG</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>cheryl.holt.ems</sys_created_by>
+        <sys_created_on>2022-08-22 10:05:56</sys_created_on>
+        <sys_id>d3194a981b651d506eb0a6c0604bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RESPORG</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_number_d3194a981b651d506eb0a6c0604bcb56</sys_update_name>
+        <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+        <sys_updated_on>2022-08-22 10:05:56</sys_updated_on>
+    </sys_number>
+</record_update>

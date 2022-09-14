@@ -4,7 +4,7 @@
         <attributes/>
         <cat_item display_value="Raise New Monitoring Order">9c832b171bdd19506eb0a6c0604bcb46</cat_item>
         <category/>
-        <choice_direction>down</choice_direction>
+        <choice_direction>across</choice_direction>
         <choice_field/>
         <choice_table/>
         <create_roles/>
@@ -40,11 +40,11 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>select_exisiting_subject</name>
-        <order>10</order>
+        <order>5</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Select exisiting Subject</question_text>
+        <question_text>Is this for a new Subject?</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -68,17 +68,17 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-08-19 14:09:32</sys_created_on>
         <sys_id>2ce327571bdd19506eb0a6c0604bcbfa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Select exisiting Subject</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Is this for a new Subject?</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>item_option_new_2ce327571bdd19506eb0a6c0604bcbfa</sys_update_name>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-08-19 14:09:32</sys_updated_on>
+        <sys_updated_on>2022-08-22 09:57:26</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>1</type>
+        <type>3</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="date_time" label="Date &amp; Time of Alert" language="en" table="x_ster2_emfs_alerts">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>date_time</element>
+            <help/>
+            <hint/>
+            <label>Date &amp; Time of Alert</label>
+            <language>en</language>
+            <name>x_ster2_emfs_alerts</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-09-05 17:53:06</sys_created_on>
+            <sys_id>c34a7fbc8739d1d0952f87f5cebb35f8</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Date &amp; Time of Alert</sys_name>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_documentation_x_ster2_emfs_alerts_date_time_en</sys_update_name>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-09-05 17:53:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

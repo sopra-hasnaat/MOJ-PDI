@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+  "sysId" : "a4ac90071b2595906eb0a6c0604bcb3f"
+}</macroponent_config>
+        <screen display_value="subject draft">ef09a1fd8775d5d0952f87f5cebb3567</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-08 09:52:28</sys_created_on>
+        <sys_id>af0925fd8775d5d0952f87f5cebb3587</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_af0925fd8775d5d0952f87f5cebb3587</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-08 09:58:56</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

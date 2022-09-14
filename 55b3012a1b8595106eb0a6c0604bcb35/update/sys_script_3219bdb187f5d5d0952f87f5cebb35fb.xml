@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_ster2_emfs_alerts</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>linkAlerts</name>
+        <order>300</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    var linkedAlertFlag = (gs.action.getGlideURI().get('sysparm_collection_key'));
+    if (linkedAlertFlag == 'linked_alert') {
+        var originalSysId = (gs.action.getGlideURI().get('sysparm_collectionID'));
+        var newAlertSysId = current.sys_id;
+
+        var gr = new GlideRecord('x_ster2_emfs_alerts');
+        gr.addQuery('sys_id', originalSysId); // Retrieve the original Alert record as current variable refers to the new added alert
+        gr.query();
+        while (gr.next()) {
+            if (newAlertSysId == originalSysId) {
+                return;
+            } else if (gr.linked_alert != newAlertSysId) {
+                gr.linked_alert += ", " + newAlertSysId;
+                gr.update();
+            }
+        }
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-08 11:05:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3219bdb187f5d5d0952f87f5cebb35fb</sys_id>
+        <sys_mod_count>98</sys_mod_count>
+        <sys_name>linkAlerts</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_script_3219bdb187f5d5d0952f87f5cebb35fb</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-09 12:27:06</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=3219bdb187f5d5d0952f87f5cebb35fb"/>
+</record_update>
