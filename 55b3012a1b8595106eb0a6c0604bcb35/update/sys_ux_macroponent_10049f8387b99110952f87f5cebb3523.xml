@@ -1161,7 +1161,7 @@
     },
     "readonly" : {
       "type" : "JSON_LITERAL",
-      "value" : false
+      "value" : true
     },
     "required" : {
       "type" : "JSON_LITERAL",
@@ -1236,155 +1236,6 @@
   "styles" : {
     "padding" : "var(--now-static-space--xs)"
   }
-}, {
-  "elementId" : "button_1",
-  "elementLabel" : "Button 1",
-  "propertyValues" : {
-    "variant" : {
-      "type" : "JSON_LITERAL",
-      "value" : "secondary"
-    },
-    "size" : {
-      "type" : "JSON_LITERAL",
-      "value" : "md"
-    },
-    "label" : {
-      "type" : "TRANSLATION_LITERAL",
-      "value" : {
-        "code" : null,
-        "message" : "Button",
-        "comment" : ""
-      }
-    },
-    "icon" : {
-      "type" : "JSON_LITERAL",
-      "value" : null
-    },
-    "disabled" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "tooltipContent" : {
-      "type" : "TRANSLATION_LITERAL",
-      "value" : {
-        "code" : null,
-        "message" : "Enter a label",
-        "comment" : ""
-      }
-    },
-    "configAria" : {
-      "type" : "MAP_CONTAINER",
-      "container" : { }
-    }
-  },
-  "eventMappings" : [ {
-    "eventMappingId" : "cliiaaasarfaaeeeebddffhheexwhhcchhsnw",
-    "isConfiguration" : false,
-    "offRowStorageId" : null,
-    "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
-    "sourceEventCorrelationId" : null,
-    "sourceEventDefinition" : {
-      "apiName" : "sn_button.NOW_BUTTON#CLICKED",
-      "id" : null,
-      "type" : "UXEVENT"
-    },
-    "sourceEventSysId" : null,
-    "targets" : [ {
-      "broker" : null,
-      "clientScript" : {
-        "sysId" : "d73654e787fdd110952f87f5cebb352f"
-      },
-      "conditional" : null,
-      "declarativeAction" : null,
-      "event" : null,
-      "operation" : null,
-      "targetId" : "cliiaaasarfaaeeeecddffhheekunaeasaa",
-      "type" : "CLIENT_SCRIPT"
-    } ]
-  } ],
-  "slot" : null,
-  "definition" : {
-    "id" : "d37ce8abca89d02905fed903c8e34d8e",
-    "type" : "MACROPONENT"
-  },
-  "overrides" : null,
-  "isHidden" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  },
-  "isHero" : false,
-  "isNonDestructive" : false,
-  "styles" : { }
-}, {
-  "elementId" : "repeater_1",
-  "elementLabel" : "Repeater 1",
-  "propertyValues" : { },
-  "eventMappings" : [ ],
-  "slot" : null,
-  "definition" : {
-    "id" : "",
-    "type" : "REPEATER"
-  },
-  "overrides" : {
-    "composition" : [ {
-      "elementId" : "heading_2",
-      "elementLabel" : "Heading 2",
-      "propertyValues" : {
-        "label" : {
-          "type" : "REPEATER_ITEM_BINDING",
-          "binding" : {
-            "address" : [ "number", "displayValue" ],
-            "category" : "value"
-          }
-        },
-        "level" : {
-          "type" : "JSON_LITERAL",
-          "value" : "1"
-        },
-        "variant" : {
-          "type" : "JSON_LITERAL",
-          "value" : "header-primary"
-        },
-        "wontWrap" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hasNoMargin" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        }
-      },
-      "eventMappings" : [ ],
-      "slot" : null,
-      "definition" : {
-        "id" : "1f6e0643eca7a637e36bd7833549ec9e",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : null,
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : null
-      },
-      "isHero" : false,
-      "isNonDestructive" : false,
-      "styles" : { }
-    } ],
-    "layout" : null
-  },
-  "isHidden" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  },
-  "isHero" : false,
-  "isNonDestructive" : false,
-  "repeatWith" : {
-    "type" : "CONTEXT_BINDING",
-    "binding" : {
-      "address" : [ "retrieveActiveAlertsDataResource" ],
-      "category" : "props"
-    }
-  },
-  "styles" : { }
 } ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
@@ -1398,7 +1249,7 @@
   "default" : {
     "children" : null,
     "isInline" : null,
-    "items" : [{"element_id":"input_1","styles":{}},{"element_id":"input_2","styles":{}},{"element_id":"input_3","styles":{}},{"element_id":"heading_1","styles":{}},{"element_id":"input_8","styles":{}},{"element_id":"alert_input_fields","styles":{}},{"element_id":"alert_text_areas","styles":{}},{"element_id":"textarea_1","styles":{}},{"element_id":"textarea_2","styles":{}},{"element_id":"container_1","styles":{}},{"element_id":"container_2","styles":{}},{"element_id":"button_1","styles":{}},{"element_id":"repeater_1","styles":{}}],
+    "items" : [{"element_id":"input_1","styles":{}},{"element_id":"input_2","styles":{}},{"element_id":"input_3","styles":{}},{"element_id":"heading_1","styles":{}},{"element_id":"input_8","styles":{}},{"element_id":"alert_input_fields","styles":{}},{"element_id":"alert_text_areas","styles":{}},{"element_id":"textarea_1","styles":{}},{"element_id":"textarea_2","styles":{}},{"element_id":"container_1","styles":{}},{"element_id":"container_2","styles":{}}],
     "root" : null,
     "rules" : null,
     "styles" : {"flex-direction":"column","padding":"var(--now-static-space--xs)"},
@@ -1426,16 +1277,10 @@
   "message" : "Assignment Group",
   "comment" : ""
 }, {
-  "message" : "Button",
-  "comment" : ""
-}, {
   "message" : "Code",
   "comment" : ""
 }, {
   "message" : "Date &amp; Time of Alert",
-  "comment" : ""
-}, {
-  "message" : "Enter a label",
   "comment" : ""
 }, {
   "message" : "Message",
@@ -1465,13 +1310,13 @@
         <sys_created_by>hasnaat.khan.ems</sys_created_by>
         <sys_created_on>2022-09-12 14:52:09</sys_created_on>
         <sys_id>10049f8387b99110952f87f5cebb3523</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>55</sys_mod_count>
         <sys_name>Active Alerts</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_ux_macroponent_10049f8387b99110952f87f5cebb3523</sys_update_name>
         <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-09-13 14:40:37</sys_updated_on>
+        <sys_updated_on>2022-09-14 08:56:57</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
