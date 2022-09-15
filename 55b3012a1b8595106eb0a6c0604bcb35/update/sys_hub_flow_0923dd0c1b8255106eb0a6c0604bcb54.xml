@@ -10,12 +10,12 @@
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description>Create Non Compliance Case - Single Alert</description>
         <internal_name>create_non_compliance_case__single_alert</internal_name>
-        <label_cache>[{"name":"Updated_1.current.message","label":"Trigger - Record Updated➛Alerts Record➛Message","reference":"","reference_display":"Message","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_alerts","column_name":"message"},{"name":"Updated_1.current.device.display_name","label":"Trigger - Record Updated➛Alerts Record➛Tag/Monitoring Unit➛Display name","reference":"","reference_display":"Display name","type":"string","base_type":"string","parent_table_name":"alm_asset","column_name":"display_name"},{"name":"Updated_1.current.subject.subject_name","label":"Trigger - Record Updated➛Alerts Record➛Subject➛Subject Name","reference":"","reference_display":"Subject Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"subject_name"},{"name":"Updated_1.current.subject","label":"Trigger - Record Updated➛Alerts Record➛Subject","reference":"x_ster2_emfs_subject","reference_display":"Subjects","type":"reference","base_type":"reference","parent_table_name":"x_ster2_emfs_alerts","column_name":"subject"},{"name":"Updated_1.current.device","label":"Trigger - Record Updated➛Alerts Record➛Tag/Monitoring Unit","reference":"alm_asset","reference_display":"Asset","type":"reference","base_type":"reference","parent_table_name":"x_ster2_emfs_alerts","column_name":"device"},{"name":"Updated_1.current.number","label":"Trigger - Record Updated➛Alerts Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_alerts","column_name":"number"},{"name":"Updated_1.current.code.name","label":"Trigger - Record Updated➛Alerts Record➛Code➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_alert_codes","column_name":"name"},{"name":"Updated_1.current.severity","label":"Trigger - Record Updated➛Alerts Record➛Severity","reference":"","reference_display":"Severity","type":"choice","base_type":"choice","parent_table_name":"x_ster2_emfs_alerts","column_name":"severity","choices":[{"label":"-- None --","used":false,"rawLabel":"-- None --","missing":false,"reference":false,"selected":false,"image":"","value":""},{"used":false,"label":"Critical","rawLabel":"Critical","missing":false,"reference":false,"selected":false,"image":"","value":"critical","parameters":{"name":"x_ster2_emfs_alerts"}},{"used":false,"label":"Serious","rawLabel":"Serious","missing":false,"reference":false,"selected":false,"image":"","value":"serious","parameters":{"name":"x_ster2_emfs_alerts"}},{"used":false,"label":"Warning","rawLabel":"Warning","missing":false,"reference":false,"selected":false,"image":"","value":"warning","parameters":{"name":"x_ster2_emfs_alerts"}},{"used":false,"label":"Low","rawLabel":"Low","missing":false,"reference":false,"selected":false,"image":"","value":"low","parameters":{"name":"x_ster2_emfs_alerts"}},{"used":false,"label":"Message","rawLabel":"Message","missing":false,"reference":false,"selected":false,"image":"","value":"message","parameters":{"name":"x_ster2_emfs_alerts"}}]},{"name":"Updated_1.current.subject.sys_id","label":"Trigger - Record Updated➛Alerts Record➛Subject➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_subject","column_name":"sys_id"},{"name":"80b2573f-5bb6-4c2d-9a64-a65860fd528d.__dont_treat_as_error__","label":"1 - Create Case➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"80b2573f-5bb6-4c2d-9a64-a65860fd528d.__action_status__","label":"1 - Create Case➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"80b2573f-5bb6-4c2d-9a64-a65860fd528d.Case","label":"1 - Create Case➛Case","reference":"sn_customerservice_case","reference_display":"Case","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current.date_time","label":"Trigger - Record Updated➛Alerts Record➛Date \u0026 Time of Alert","reference":"","reference_display":"Date \u0026 Time of Alert","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_ster2_emfs_alerts","column_name":"date_time"},{"name":"Updated_1.current.message","label":"Trigger - Record Updated➛Alerts Record➛Message","reference":"","reference_display":"Message","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_alerts","column_name":"message"},{"name":"Updated_1.current.device.display_name","label":"Trigger - Record Updated➛Alerts Record➛Tag/Monitoring Unit➛Display name","reference":"","reference_display":"Display name","type":"string","base_type":"string","parent_table_name":"alm_asset","column_name":"display_name"},{"name":"Updated_1.current.subject.subject_name","label":"Trigger - Record Updated➛Alerts Record➛Subject➛Subject Name","reference":"","reference_display":"Subject Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"subject_name"},{"name":"Updated_1.current.subject","label":"Trigger - Record Updated➛Alerts Record➛Subject","reference":"x_ster2_emfs_subject","reference_display":"Subjects","type":"reference","base_type":"reference","parent_table_name":"x_ster2_emfs_alerts","column_name":"subject"},{"name":"Updated_1.current.device","label":"Trigger - Record Updated➛Alerts Record➛Tag/Monitoring Unit","reference":"alm_asset","reference_display":"Asset","type":"reference","base_type":"reference","parent_table_name":"x_ster2_emfs_alerts","column_name":"device"},{"name":"Updated_1.current.number","label":"Trigger - Record Updated➛Alerts Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_alerts","column_name":"number"},{"name":"Updated_1.current.code.name","label":"Trigger - Record Updated➛Alerts Record➛Code➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_alert_codes","column_name":"name"},{"name":"Updated_1.current.severity","label":"Trigger - Record Updated➛Alerts Record➛Severity","reference":"","reference_display":"Severity","type":"choice","base_type":"choice","parent_table_name":"x_ster2_emfs_alerts","column_name":"severity","choices":[{"label":"-- None --","used":false,"rawLabel":"-- None --","missing":false,"reference":false,"selected":false,"image":"","value":""},{"used":false,"label":"Critical","rawLabel":"Critical","missing":false,"reference":false,"selected":false,"image":"","value":"critical","parameters":{"name":"x_ster2_emfs_alerts"}},{"used":false,"label":"Serious","rawLabel":"Serious","missing":false,"reference":false,"selected":false,"image":"","value":"serious","parameters":{"name":"x_ster2_emfs_alerts"}},{"used":false,"label":"Warning","rawLabel":"Warning","missing":false,"reference":false,"selected":false,"image":"","value":"warning","parameters":{"name":"x_ster2_emfs_alerts"}},{"used":false,"label":"Low","rawLabel":"Low","missing":false,"reference":false,"selected":false,"image":"","value":"low","parameters":{"name":"x_ster2_emfs_alerts"}},{"used":false,"label":"Message","rawLabel":"Message","missing":false,"reference":false,"selected":false,"image":"","value":"message","parameters":{"name":"x_ster2_emfs_alerts"}}]},{"name":"Updated_1.current.subject.sys_id","label":"Trigger - Record Updated➛Alerts Record➛Subject➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_subject","column_name":"sys_id"},{"name":"80b2573f-5bb6-4c2d-9a64-a65860fd528d.__dont_treat_as_error__","label":"1 - Create Case➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"80b2573f-5bb6-4c2d-9a64-a65860fd528d.__action_status__","label":"1 - Create Case➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"80b2573f-5bb6-4c2d-9a64-a65860fd528d.Case","label":"1 - Create Case➛Case","reference":"sn_customerservice_case","reference_display":"Case","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>aa2bb9841b4655106eb0a6c0604bcb06</master_snapshot>
         <name>Create Non Compliance Case - Single Alert</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>832bb9841b4655106eb0a6c0604bcb5a</remote_trigger_id>
+        <remote_trigger_id>ec62c68c1b4655106eb0a6c0604bcb63</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0923dd0c1b8255106eb0a6c0604bcb54</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Create Non Compliance Case - Single Alert</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_hub_flow_0923dd0c1b8255106eb0a6c0604bcb54</sys_update_name>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-15 10:57:57</sys_updated_on>
+        <sys_updated_on>2022-09-15 11:29:27</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=0923dd0c1b8255106eb0a6c0604bcb54"/>
@@ -59,42 +59,42 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>des.king.ems</sys_created_by>
-        <sys_created_on>2022-09-15 10:57:56</sys_created_on>
+        <sys_created_on>2022-09-15 11:29:27</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>832bb9841b4655106eb0a6c0604bcb5a</sys_id>
+        <sys_id>ec62c68c1b4655106eb0a6c0604bcb63</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-15 10:57:56</sys_updated_on>
+        <sys_updated_on>2022-09-15 11:29:27</sys_updated_on>
         <table>x_ster2_emfs_alerts</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"cf2bb9841b4655106eb0a6c0604bcb5a","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"a862c68c1b4655106eb0a6c0604bcb64","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>0923dd0c1b8255106eb0a6c0604bcb54</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>des.king.ems</sys_created_by>
-        <sys_created_on>2022-09-15 10:57:57</sys_created_on>
-        <sys_id>cf2bb9841b4655106eb0a6c0604bcb5a</sys_id>
+        <sys_created_on>2022-09-15 11:29:27</sys_created_on>
+        <sys_id>a862c68c1b4655106eb0a6c0604bcb64</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-15 10:57:57</sys_updated_on>
-        <trigger display_value="">832bb9841b4655106eb0a6c0604bcb5a</trigger>
+        <sys_updated_on>2022-09-15 11:29:27</sys_updated_on>
+        <trigger display_value="">ec62c68c1b4655106eb0a6c0604bcb63</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>cf2bb9841b4655106eb0a6c0604bcb5a</document_id>
+        <document_id>a862c68c1b4655106eb0a6c0604bcb64</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>des.king.ems</sys_created_by>
-        <sys_created_on>2022-09-15 10:57:57</sys_created_on>
-        <sys_id>0f2bb9841b4655106eb0a6c0604bcb5b</sys_id>
+        <sys_created_on>2022-09-15 11:29:27</sys_created_on>
+        <sys_id>6062c68c1b4655106eb0a6c0604bcb65</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=0923dd0c1b8255106eb0a6c0604bcb54^sys_idNOT INcf2bb9841b4655106eb0a6c0604bcb5a"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=0923dd0c1b8255106eb0a6c0604bcb54^sys_idNOT INa862c68c1b4655106eb0a6c0604bcb64"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=0923dd0c1b8255106eb0a6c0604bcb54^sys_idNOT IN452b39841b4655106eb0a6c0604bcb70"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -105,10 +105,10 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-15 10:57:48</sys_created_on>
         <sys_id>452b39841b4655106eb0a6c0604bcb70</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-15 10:57:57</sys_updated_on>
+        <sys_updated_on>2022-09-15 11:29:27</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -221,14 +221,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-15 10:57:48</sys_created_on>
         <sys_id>0d2b39841b4655106eb0a6c0604bcb6a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name/>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-15 10:57:57</sys_updated_on>
+        <sys_updated_on>2022-09-15 11:29:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -302,14 +302,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-15 10:57:48</sys_created_on>
         <sys_id>3c2b39841b4655106eb0a6c0604bcb55</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name/>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-15 10:57:57</sys_updated_on>
+        <sys_updated_on>2022-09-15 11:29:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -325,7 +325,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDc32bb98407465510d7d52ae227c94e61,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDdc62868c8946551013eca883acb678f2,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -383,14 +383,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-15 10:57:48</sys_created_on>
         <sys_id>bc2b39841b4655106eb0a6c0604bcb66</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name/>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-15 10:57:57</sys_updated_on>
+        <sys_updated_on>2022-09-15 11:29:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -419,10 +419,10 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-15 10:57:48</sys_created_on>
         <sys_id>cd2b39841b4655106eb0a6c0604bcb77</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-15 10:57:57</sys_updated_on>
+        <sys_updated_on>2022-09-15 11:29:27</sys_updated_on>
         <ui_id>80b2573f-5bb6-4c2d-9a64-a65860fd528d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cd2b39841b4655106eb0a6c0604bcb77"/>
@@ -433,11 +433,13 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-15 10:57:49</sys_created_on>
         <sys_id>0d2b39841b4655106eb0a6c0604bcb79</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-15 10:57:49</sys_updated_on>
+        <sys_updated_on>2022-09-15 11:29:20</sys_updated_on>
         <table>var__m_sys_hub_action_input_a7c8dc84e7010300c4726188d2f6a9ca</table>
-        <value>active=false^u_subject={{Updated_1.current.subject.sys_id}}^category=7^assignment_group={"display":"Enforcement Management","value":"f0c4998c1b8255106eb0a6c0604bcbd4"}^priority=2^short_description=Non Compliance - ﻿{{Updated_1.current.subject.subject_name}} - ﻿{{Updated_1.current.code.name}} -﻿{{Updated_1.current.device.display_name}} -﻿^description=Non Compliance Activity 
+        <value>active=false^u_subject={{Updated_1.current.subject.sys_id}}^category=7^assignment_group={"display":"Enforcement Management","value":"f0c4998c1b8255106eb0a6c0604bcbd4"}^priority=2^short_description=Non Compliance - ﻿{{Updated_1.current.date_time}} - ﻿{{Updated_1.current.subject.subject_name}} - ﻿{{Updated_1.current.code.name}} -﻿{{Updated_1.current.device.display_name}} -﻿^description=Non Compliance Activity 
+
+{{Updated_1.current.date_time}} - ﻿
 {{Updated_1.current.number}} - ﻿{{Updated_1.current.code.name}} ﻿-
 ﻿ - {{Updated_1.current.device.display_name}}
 
@@ -535,12 +537,12 @@ This needs investigation by ﻿Enforcement Management</value>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>872bb9841b4655106eb0a6c0604bcb5c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-15 10:57:57</sys_updated_on>
-        <trigger display_value="">832bb9841b4655106eb0a6c0604bcb5a</trigger>
+        <sys_updated_on>2022-09-15 11:29:27</sys_updated_on>
+        <trigger display_value="">ec62c68c1b4655106eb0a6c0604bcb63</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=0923dd0c1b8255106eb0a6c0604bcb54"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -554,7 +556,7 @@ This needs investigation by ﻿Enforcement Management</value>
         <copied_from_name/>
         <description>Create Non Compliance Case - Single Alert</description>
         <internal_name>create_non_compliance_case__single_alert</internal_name>
-        <label_cache>[{"name":"Updated_1.current.message","label":"Trigger - Record Updated➛Alerts Record➛Message","reference":"","reference_display":"Message","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_alerts","column_name":"message"},{"name":"Updated_1.current.device.display_name","label":"Trigger - Record Updated➛Alerts Record➛Tag/Monitoring Unit➛Display name","reference":"","reference_display":"Display name","type":"string","base_type":"string","parent_table_name":"alm_asset","column_name":"display_name"},{"name":"Updated_1.current.subject.subject_name","label":"Trigger - Record Updated➛Alerts Record➛Subject➛Subject Name","reference":"","reference_display":"Subject Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"subject_name"},{"name":"Updated_1.current.subject","label":"Trigger - Record Updated➛Alerts Record➛Subject","reference":"x_ster2_emfs_subject","reference_display":"Subjects","type":"reference","base_type":"reference","parent_table_name":"x_ster2_emfs_alerts","column_name":"subject"},{"name":"Updated_1.current.device","label":"Trigger - Record Updated➛Alerts Record➛Tag/Monitoring Unit","reference":"alm_asset","reference_display":"Asset","type":"reference","base_type":"reference","parent_table_name":"x_ster2_emfs_alerts","column_name":"device"},{"name":"Updated_1.current.number","label":"Trigger - Record Updated➛Alerts Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_alerts","column_name":"number"},{"name":"Updated_1.current.code.name","label":"Trigger - Record Updated➛Alerts Record➛Code➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_alert_codes","column_name":"name"},{"name":"Updated_1.current.severity","label":"Trigger - Record Updated➛Alerts Record➛Severity","reference":"","reference_display":"Severity","type":"choice","base_type":"choice","parent_table_name":"x_ster2_emfs_alerts","column_name":"severity","choices":[{"label":"-- None --","used":false,"rawLabel":"-- None --","missing":false,"reference":false,"selected":false,"image":"","value":""},{"used":false,"label":"Critical","rawLabel":"Critical","missing":false,"reference":false,"selected":false,"image":"","value":"critical","parameters":{"name":"x_ster2_emfs_alerts"}},{"used":false,"label":"Serious","rawLabel":"Serious","missing":false,"reference":false,"selected":false,"image":"","value":"serious","parameters":{"name":"x_ster2_emfs_alerts"}},{"used":false,"label":"Warning","rawLabel":"Warning","missing":false,"reference":false,"selected":false,"image":"","value":"warning","parameters":{"name":"x_ster2_emfs_alerts"}},{"used":false,"label":"Low","rawLabel":"Low","missing":false,"reference":false,"selected":false,"image":"","value":"low","parameters":{"name":"x_ster2_emfs_alerts"}},{"used":false,"label":"Message","rawLabel":"Message","missing":false,"reference":false,"selected":false,"image":"","value":"message","parameters":{"name":"x_ster2_emfs_alerts"}}]},{"name":"Updated_1.current.subject.sys_id","label":"Trigger - Record Updated➛Alerts Record➛Subject➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_subject","column_name":"sys_id"},{"name":"80b2573f-5bb6-4c2d-9a64-a65860fd528d.__dont_treat_as_error__","label":"1 - Create Case➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"80b2573f-5bb6-4c2d-9a64-a65860fd528d.__action_status__","label":"1 - Create Case➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"80b2573f-5bb6-4c2d-9a64-a65860fd528d.Case","label":"1 - Create Case➛Case","reference":"sn_customerservice_case","reference_display":"Case","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current.date_time","label":"Trigger - Record Updated➛Alerts Record➛Date \u0026 Time of Alert","reference":"","reference_display":"Date \u0026 Time of Alert","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_ster2_emfs_alerts","column_name":"date_time"},{"name":"Updated_1.current.message","label":"Trigger - Record Updated➛Alerts Record➛Message","reference":"","reference_display":"Message","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_alerts","column_name":"message"},{"name":"Updated_1.current.device.display_name","label":"Trigger - Record Updated➛Alerts Record➛Tag/Monitoring Unit➛Display name","reference":"","reference_display":"Display name","type":"string","base_type":"string","parent_table_name":"alm_asset","column_name":"display_name"},{"name":"Updated_1.current.subject.subject_name","label":"Trigger - Record Updated➛Alerts Record➛Subject➛Subject Name","reference":"","reference_display":"Subject Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"subject_name"},{"name":"Updated_1.current.subject","label":"Trigger - Record Updated➛Alerts Record➛Subject","reference":"x_ster2_emfs_subject","reference_display":"Subjects","type":"reference","base_type":"reference","parent_table_name":"x_ster2_emfs_alerts","column_name":"subject"},{"name":"Updated_1.current.device","label":"Trigger - Record Updated➛Alerts Record➛Tag/Monitoring Unit","reference":"alm_asset","reference_display":"Asset","type":"reference","base_type":"reference","parent_table_name":"x_ster2_emfs_alerts","column_name":"device"},{"name":"Updated_1.current.number","label":"Trigger - Record Updated➛Alerts Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_alerts","column_name":"number"},{"name":"Updated_1.current.code.name","label":"Trigger - Record Updated➛Alerts Record➛Code➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_alert_codes","column_name":"name"},{"name":"Updated_1.current.severity","label":"Trigger - Record Updated➛Alerts Record➛Severity","reference":"","reference_display":"Severity","type":"choice","base_type":"choice","parent_table_name":"x_ster2_emfs_alerts","column_name":"severity","choices":[{"label":"-- None --","used":false,"rawLabel":"-- None --","missing":false,"reference":false,"selected":false,"image":"","value":""},{"used":false,"label":"Critical","rawLabel":"Critical","missing":false,"reference":false,"selected":false,"image":"","value":"critical","parameters":{"name":"x_ster2_emfs_alerts"}},{"used":false,"label":"Serious","rawLabel":"Serious","missing":false,"reference":false,"selected":false,"image":"","value":"serious","parameters":{"name":"x_ster2_emfs_alerts"}},{"used":false,"label":"Warning","rawLabel":"Warning","missing":false,"reference":false,"selected":false,"image":"","value":"warning","parameters":{"name":"x_ster2_emfs_alerts"}},{"used":false,"label":"Low","rawLabel":"Low","missing":false,"reference":false,"selected":false,"image":"","value":"low","parameters":{"name":"x_ster2_emfs_alerts"}},{"used":false,"label":"Message","rawLabel":"Message","missing":false,"reference":false,"selected":false,"image":"","value":"message","parameters":{"name":"x_ster2_emfs_alerts"}}]},{"name":"Updated_1.current.subject.sys_id","label":"Trigger - Record Updated➛Alerts Record➛Subject➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_subject","column_name":"sys_id"},{"name":"80b2573f-5bb6-4c2d-9a64-a65860fd528d.__dont_treat_as_error__","label":"1 - Create Case➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"80b2573f-5bb6-4c2d-9a64-a65860fd528d.__action_status__","label":"1 - Create Case➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"80b2573f-5bb6-4c2d-9a64-a65860fd528d.Case","label":"1 - Create Case➛Case","reference":"sn_customerservice_case","reference_display":"Case","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>Create Non Compliance Case - Single Alert</name>
         <natlang/>
@@ -571,7 +573,7 @@ This needs investigation by ﻿Enforcement Management</value>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>aa2bb9841b4655106eb0a6c0604bcb06</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -579,7 +581,7 @@ This needs investigation by ﻿Enforcement Management</value>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name/>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-15 10:57:55</sys_updated_on>
+        <sys_updated_on>2022-09-15 11:29:26</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=aa2bb9841b4655106eb0a6c0604bcb06"/>
@@ -594,10 +596,10 @@ This needs investigation by ﻿Enforcement Management</value>
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-15 10:57:56</sys_created_on>
         <sys_id>7a2bb9841b4655106eb0a6c0604bcb4b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-15 10:57:57</sys_updated_on>
+        <sys_updated_on>2022-09-15 11:29:27</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -652,7 +654,7 @@ This needs investigation by ﻿Enforcement Management</value>
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -710,14 +712,14 @@ This needs investigation by ﻿Enforcement Management</value>
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-15 10:57:55</sys_created_on>
         <sys_id>222bb9841b4655106eb0a6c0604bcb0b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name/>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-15 10:57:55</sys_updated_on>
+        <sys_updated_on>2022-09-15 11:29:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -733,7 +735,7 @@ This needs investigation by ﻿Enforcement Management</value>
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD2e2bb98413465510904fb4ea4f752508,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDdc62868c8946551013eca883acb678f2,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -791,14 +793,14 @@ This needs investigation by ﻿Enforcement Management</value>
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-15 10:57:55</sys_created_on>
         <sys_id>3e2bb9841b4655106eb0a6c0604bcb17</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name/>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-15 10:57:55</sys_updated_on>
+        <sys_updated_on>2022-09-15 11:29:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -814,7 +816,7 @@ This needs investigation by ﻿Enforcement Management</value>
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -872,14 +874,14 @@ This needs investigation by ﻿Enforcement Management</value>
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-15 10:57:56</sys_created_on>
         <sys_id>b62bb9841b4655106eb0a6c0604bcb20</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name/>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-15 10:57:56</sys_updated_on>
+        <sys_updated_on>2022-09-15 11:29:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -908,10 +910,10 @@ This needs investigation by ﻿Enforcement Management</value>
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-15 10:57:56</sys_created_on>
         <sys_id>7a2bb9841b4655106eb0a6c0604bcb4a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-15 10:57:56</sys_updated_on>
+        <sys_updated_on>2022-09-15 11:29:26</sys_updated_on>
         <ui_id>80b2573f-5bb6-4c2d-9a64-a65860fd528d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7a2bb9841b4655106eb0a6c0604bcb4a"/>
@@ -922,11 +924,13 @@ This needs investigation by ﻿Enforcement Management</value>
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-15 10:57:56</sys_created_on>
         <sys_id>b62bb9841b4655106eb0a6c0604bcb4b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-15 10:57:56</sys_updated_on>
+        <sys_updated_on>2022-09-15 11:29:26</sys_updated_on>
         <table>var__m_sys_hub_action_input_a7c8dc84e7010300c4726188d2f6a9ca</table>
-        <value>active=false^u_subject={{Updated_1.current.subject.sys_id}}^category=7^assignment_group={"display":"Enforcement Management","value":"f0c4998c1b8255106eb0a6c0604bcbd4"}^priority=2^short_description=Non Compliance - ﻿{{Updated_1.current.subject.subject_name}} - ﻿{{Updated_1.current.code.name}} -﻿{{Updated_1.current.device.display_name}} -﻿^description=Non Compliance Activity 
+        <value>active=false^u_subject={{Updated_1.current.subject.sys_id}}^category=7^assignment_group={"display":"Enforcement Management","value":"f0c4998c1b8255106eb0a6c0604bcbd4"}^priority=2^short_description=Non Compliance - ﻿{{Updated_1.current.date_time}} - ﻿{{Updated_1.current.subject.subject_name}} - ﻿{{Updated_1.current.code.name}} -﻿{{Updated_1.current.device.display_name}} -﻿^description=Non Compliance Activity 
+
+{{Updated_1.current.date_time}} - ﻿
 {{Updated_1.current.number}} - ﻿{{Updated_1.current.code.name}} ﻿-
 ﻿ - {{Updated_1.current.device.display_name}}
 
