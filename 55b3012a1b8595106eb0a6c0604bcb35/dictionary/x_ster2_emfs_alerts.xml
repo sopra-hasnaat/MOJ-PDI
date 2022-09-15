@@ -41,6 +41,7 @@
                 <element inactive_on_update="false" label="Complete" sequence="5" value="complete"/>
             </choice>
         </element>
+        <element label="Subject" max_length="32" name="subject" reference="x_ster2_emfs_subject" type="reference"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="AM" sequence="0" value="am"/>
@@ -57,9 +58,12 @@
             <element name="assignment_group"/>
         </index>
         <index name="index3">
-            <element name="device"/>
+            <element name="subject"/>
         </index>
         <index name="index4">
+            <element name="device"/>
+        </index>
+        <index name="index5">
             <element name="assigned_to"/>
         </index>
     </element>
