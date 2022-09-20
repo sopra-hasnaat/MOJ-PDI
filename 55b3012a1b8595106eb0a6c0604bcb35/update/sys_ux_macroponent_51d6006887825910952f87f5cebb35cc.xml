@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "heading_1",
+  "elementLabel" : "Heading 1",
+  "propertyValues" : {
+    "label" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Compose Message",
+        "comment" : ""
+      }
+    },
+    "level" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "variant" : {
+      "type" : "JSON_LITERAL",
+      "value" : "header-tertiary"
+    },
+    "wontWrap" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hasNoMargin" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "First region",
+  "definition" : {
+    "id" : "1f6e0643eca7a637e36bd7833549ec9e",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "agent_messaging_1",
+  "elementLabel" : "Agent Messaging 1",
+  "propertyValues" : {
+    "channels" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "agent_initiated_messaging_1", "output", "result", "channels" ]
+      }
+    },
+    "uniqueSysId" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "agent_initiated_messaging_1", "output", "result", "uniqueSysId" ]
+      }
+    },
+    "userDocument" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "agent_initiated_messaging_1", "output", "result", "userDocument" ]
+      }
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "ckhbbffqbbeexaaaaaaxddhhhngebbriibej",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_agent_messaging.SN_AGENT_MESSAGING#SEND_DATA_SET",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_agent_messaging.SN_AGENT_MESSAGING#SEND_DATA_SET",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "5dd6006887825910952f87f5cebb35da"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckhbbffqbbeexaaaaaayddhhhnhhjjilpjjvl",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  }, {
+    "eventMappingId" : "ckhbbffpuccddaaaaaavddhhhnhifjbeffii",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_agent_messaging.SN_AGENT_MESSAGING#BUTTON_ENABLED_SET",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_agent_messaging.SN_AGENT_MESSAGING#BUTTON_ENABLED_SET",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "19d6006887825910952f87f5cebb35e8"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckhbbffpuccddaaaaaawddhhhncdcctvjgw",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "slot" : "Second region",
+  "definition" : {
+    "id" : "3e4105705f244cf5a80650170db507a7",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+}, {
+  "elementId" : "button_1",
+  "elementLabel" : "Button 1",
+  "propertyValues" : {
+    "variant" : {
+      "type" : "JSON_LITERAL",
+      "value" : "secondary"
+    },
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "md"
+    },
+    "label" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Cancel",
+        "comment" : ""
+      }
+    },
+    "icon" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "disabled" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "tooltipContent" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Cancel",
+        "comment" : ""
+      }
+    },
+    "configAria" : {
+      "type" : "MAP_CONTAINER",
+      "container" : { }
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "ckhgguguafaaaaeenddhhhwpywsziitc",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "95d6006887825910952f87f5cebb35de"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckhgguguafaaaaeeoddhhhwmbddxydwcc",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "slot" : "Third region",
+  "definition" : {
+    "id" : "d37ce8abca89d02905fed903c8e34d8e",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "button_2",
+  "elementLabel" : "Button 2",
+  "propertyValues" : {
+    "variant" : {
+      "type" : "JSON_LITERAL",
+      "value" : "primary"
+    },
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "md"
+    },
+    "label" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Send",
+        "comment" : ""
+      }
+    },
+    "icon" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "disabled" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "isButtonEnabled" ]
+      }
+    },
+    "tooltipContent" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Send",
+        "comment" : ""
+      }
+    },
+    "configAria" : {
+      "type" : "MAP_CONTAINER",
+      "container" : { }
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "ckhbbffqahfaaaaaazddhhhnkaajjjcchhhx",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "ddd6006887825910952f87f5cebb35e2"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckhbbffqahfaaaabbaaddhhhneymffbpck",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "slot" : "Third region",
+  "definition" : {
+    "id" : "d37ce8abca89d02905fed903c8e34d8e",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "margin-left" : "10px"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "d4febecf5335101085ecddeeff7b12b5",
+    "type" : "REST"
+  },
+  "elementId" : "agent_initiated_messaging_1",
+  "elementLabel" : "Agent Initiated Messaging 1",
+  "eventMappings" : [ {
+    "eventMappingId" : "ckguemeejjhaaaabbrddghhngghhlhzlaadd",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "88dff7475340201085ecddeeff7b122b"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckguemeejjiaaaabbsddghhnolbeeaceejj",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "inputValues" : {
+    "table" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "table" ],
+        "category" : "props"
+      }
+    },
+    "sysId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "sysId" ],
+        "category" : "props"
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <dispatched_events>49fe7d575f983bb3f8eea3fa8d40694c</dispatched_events>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"slotName":"First region","rules":{"grid-area":"first-region"},"styles":{"display":"flex"}},{"slotName":"Second region","rules":{"grid-area":"second-region","min-height":"50px"},"styles":{"display":"flex"}},{"slotName":"Third region","rules":{"grid-area":"third-region"},"styles":{"display":"flex","float":"right"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"auto","grid-template-columns":"100%","grid-template-areas":"\"first-region \"\"second-region\"\"third-region\"","grid-gap":"1px"},
+    "styles" : {"height":"auto"},
+    "templateId" : null,
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Agent initiated messaging</name>
+        <props>[ {
+  "name" : "table",
+  "label" : "Table",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : "",
+  "readOnly" : false,
+  "selectable" : false,
+  "disabled" : false
+}, {
+  "name" : "sysId",
+  "label" : "sysId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : "",
+  "readOnly" : false,
+  "selectable" : false,
+  "disabled" : false
+} ]</props>
+        <required_translations>[ {
+  "message" : "Cancel",
+  "comment" : ""
+}, {
+  "message" : "Compose Message",
+  "comment" : ""
+}, {
+  "message" : "Send",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ {
+  "name" : "isButtonEnabled",
+  "label" : "isButtonEnabled",
+  "fieldType" : "boolean",
+  "valueType" : "boolean",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  }
+}, {
+  "name" : "messageData",
+  "label" : "messageData",
+  "fieldType" : "json",
+  "valueType" : "json",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+} ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-16 15:46:37</sys_created_on>
+        <sys_id>51d6006887825910952f87f5cebb35cc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Agent initiated messaging</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_macroponent_51d6006887825910952f87f5cebb35cc</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-16 15:46:38</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

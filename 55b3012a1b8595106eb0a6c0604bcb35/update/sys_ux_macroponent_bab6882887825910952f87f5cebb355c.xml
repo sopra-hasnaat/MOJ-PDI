@@ -1,0 +1,1428 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "container_2",
+      "elementLabel" : "Container 2",
+      "propertyValues" : {
+        "ariaRegionName" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "includeAriaHeading" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "type" : {
+          "type" : "JSON_LITERAL",
+          "value" : "section"
+        },
+        "ariaRole" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "input_1",
+          "elementLabel" : "Input 1",
+          "propertyValues" : {
+            "type" : {
+              "type" : "JSON_LITERAL",
+              "value" : "text"
+            },
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "Order Type",
+                "comment" : ""
+              }
+            },
+            "placeholder" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "name" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "value" : {
+              "type" : "CONTEXT_BINDING",
+              "binding" : {
+                "address" : [ "retrieveMonitoringOrderDataResource", "0", "order_type", "displayValue" ],
+                "category" : "props"
+              }
+            },
+            "readonly" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "required" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideRequiredIndicator" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "optional" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "min" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "max" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "minlength" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "maxlength" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "multiple" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "pattern" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "autofocus" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "invalid" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "helperContent" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "messages" : {
+              "type" : "LIST_CONTAINER",
+              "container" : [ ]
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : null,
+          "definition" : {
+            "id" : "bb0f92e8d7eff1590624bfe69d316f23",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "isHero" : false,
+          "isNonDestructive" : false,
+          "styles" : { }
+        }, {
+          "elementId" : "input_3",
+          "elementLabel" : "Input 3",
+          "propertyValues" : {
+            "type" : {
+              "type" : "JSON_LITERAL",
+              "value" : "text"
+            },
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "Sub Order Type",
+                "comment" : ""
+              }
+            },
+            "placeholder" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "name" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "value" : {
+              "type" : "CONTEXT_BINDING",
+              "binding" : {
+                "address" : [ "retrieveMonitoringOrderDataResource", "0", "sub_order_type", "value" ],
+                "category" : "props"
+              }
+            },
+            "readonly" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "required" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideRequiredIndicator" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "optional" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "min" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "max" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "minlength" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "maxlength" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "multiple" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "pattern" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "autofocus" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "invalid" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "helperContent" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "messages" : {
+              "type" : "LIST_CONTAINER",
+              "container" : [ ]
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : null,
+          "definition" : {
+            "id" : "bb0f92e8d7eff1590624bfe69d316f23",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "isHero" : false,
+          "isNonDestructive" : false,
+          "styles" : { }
+        }, {
+          "elementId" : "input_4",
+          "elementLabel" : "Input 4",
+          "propertyValues" : {
+            "type" : {
+              "type" : "JSON_LITERAL",
+              "value" : "text"
+            },
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "Monitoring Type",
+                "comment" : ""
+              }
+            },
+            "placeholder" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "name" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "value" : {
+              "type" : "CONTEXT_BINDING",
+              "binding" : {
+                "address" : [ "retrieveMonitoringOrderDataResource", "0", "monitoring_type", "displayValue" ],
+                "category" : "props"
+              }
+            },
+            "readonly" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "required" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideRequiredIndicator" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "optional" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "min" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "max" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "minlength" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "maxlength" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "multiple" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "pattern" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "autofocus" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "invalid" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "helperContent" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "messages" : {
+              "type" : "LIST_CONTAINER",
+              "container" : [ ]
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : null,
+          "definition" : {
+            "id" : "bb0f92e8d7eff1590624bfe69d316f23",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "isHero" : false,
+          "isNonDestructive" : false,
+          "styles" : { }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "isInline" : null,
+            "items" : [{"element_id":"input_1","styles":{}},{"element_id":"input_3","styles":{}},{"element_id":"input_4","styles":{}},{"element_id":"input_5","styles":{}},{"element_id":"input_6","styles":{}},{"element_id":"input_7","styles":{}},{"element_id":"input_8","styles":{}},{"element_id":"input_9","styles":{}},{"element_id":"textarea_1","styles":{}},{"element_id":"textarea_2","styles":{}}],
+            "root" : null,
+            "rules" : null,
+            "styles" : {"flex-direction":"column","margin":"var(--now-static-space--xs)"},
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "flex"
+          },
+          "version" : "3.0.0"
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "100%"
+      }
+    }, {
+      "elementId" : "container_3",
+      "elementLabel" : "Container 3",
+      "propertyValues" : {
+        "ariaRegionName" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "includeAriaHeading" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "type" : {
+          "type" : "JSON_LITERAL",
+          "value" : "section"
+        },
+        "ariaRole" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "input_5",
+          "elementLabel" : "Input 5",
+          "propertyValues" : {
+            "type" : {
+              "type" : "JSON_LITERAL",
+              "value" : "text"
+            },
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "Start Date/Time",
+                "comment" : ""
+              }
+            },
+            "placeholder" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "name" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "value" : {
+              "type" : "CONTEXT_BINDING",
+              "binding" : {
+                "address" : [ "retrieveMonitoringOrderDataResource", "0", "start_date_time", "displayValue" ],
+                "category" : "props"
+              }
+            },
+            "readonly" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "required" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideRequiredIndicator" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "optional" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "min" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "max" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "minlength" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "maxlength" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "multiple" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "pattern" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "autofocus" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "invalid" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "helperContent" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "messages" : {
+              "type" : "LIST_CONTAINER",
+              "container" : [ ]
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : null,
+          "definition" : {
+            "id" : "bb0f92e8d7eff1590624bfe69d316f23",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "isHero" : false,
+          "isNonDestructive" : false,
+          "styles" : { }
+        }, {
+          "elementId" : "input_6",
+          "elementLabel" : "Input 6",
+          "propertyValues" : {
+            "type" : {
+              "type" : "JSON_LITERAL",
+              "value" : "text"
+            },
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "Planned End Date",
+                "comment" : ""
+              }
+            },
+            "placeholder" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "name" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "value" : {
+              "type" : "CONTEXT_BINDING",
+              "binding" : {
+                "address" : [ "retrieveMonitoringOrderDataResource", "0", "planned_end_date", "displayValue" ],
+                "category" : "props"
+              }
+            },
+            "readonly" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "required" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideRequiredIndicator" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "optional" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "min" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "max" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "minlength" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "maxlength" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "multiple" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "pattern" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "autofocus" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "invalid" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "helperContent" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "messages" : {
+              "type" : "LIST_CONTAINER",
+              "container" : [ ]
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : null,
+          "definition" : {
+            "id" : "bb0f92e8d7eff1590624bfe69d316f23",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "isHero" : false,
+          "isNonDestructive" : false,
+          "styles" : { }
+        }, {
+          "elementId" : "input_7",
+          "elementLabel" : "Input 7",
+          "propertyValues" : {
+            "type" : {
+              "type" : "JSON_LITERAL",
+              "value" : "text"
+            },
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "Actual End Date",
+                "comment" : ""
+              }
+            },
+            "placeholder" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "name" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "value" : {
+              "type" : "CONTEXT_BINDING",
+              "binding" : {
+                "address" : [ "retrieveMonitoringOrderDataResource", "0", "actual_end_date", "displayValue" ],
+                "category" : "props"
+              }
+            },
+            "readonly" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "required" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideRequiredIndicator" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "optional" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "min" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "max" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "minlength" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "maxlength" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "multiple" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "pattern" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "autofocus" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "invalid" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "helperContent" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "messages" : {
+              "type" : "LIST_CONTAINER",
+              "container" : [ ]
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : null,
+          "definition" : {
+            "id" : "bb0f92e8d7eff1590624bfe69d316f23",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "isHero" : false,
+          "isNonDestructive" : false,
+          "styles" : { }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "isInline" : null,
+            "items" : [{"element_id":"input_5","styles":{}},{"element_id":"input_6","styles":{}},{"element_id":"input_7","styles":{}}],
+            "root" : null,
+            "rules" : null,
+            "styles" : {"flex-direction":"column","margin":"var(--now-static-space--xs)"},
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "flex"
+          },
+          "version" : "3.0.0"
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "100%"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"heading_1","styles":{}},{"element_id":"container_2","styles":{}},{"element_id":"container_3","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"row"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+}, {
+  "elementId" : "heading_1",
+  "elementLabel" : "Heading 1",
+  "propertyValues" : {
+    "label" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "retrieveMonitoringOrderDataResource", "0", "number", "displayValue" ],
+        "category" : "props"
+      }
+    },
+    "level" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "variant" : {
+      "type" : "JSON_LITERAL",
+      "value" : "header-secondary"
+    },
+    "wontWrap" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hasNoMargin" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "1f6e0643eca7a637e36bd7833549ec9e",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "align-self" : "center"
+  }
+}, {
+  "elementId" : "container_4",
+  "elementLabel" : "Container 4",
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "input_9",
+      "elementLabel" : "Input 9",
+      "propertyValues" : {
+        "type" : {
+          "type" : "JSON_LITERAL",
+          "value" : "text"
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Sentencing Court/Releasing Prison",
+            "comment" : ""
+          }
+        },
+        "placeholder" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "name" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "value" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "retrieveMonitoringOrderDataResource", "0", "court_prison", "displayValue" ],
+            "category" : "props"
+          }
+        },
+        "readonly" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "required" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideRequiredIndicator" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "optional" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "min" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "max" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "minlength" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "maxlength" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "multiple" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "pattern" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "autofocus" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "invalid" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "helperContent" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "messages" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ ]
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "bb0f92e8d7eff1590624bfe69d316f23",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "textarea_1",
+      "elementLabel" : "Textarea 1",
+      "propertyValues" : {
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Curfew Schedules",
+            "comment" : ""
+          }
+        },
+        "value" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "retrieveMonitoringOrderDataResource", "0", "curfew_schedules", "displayValue" ],
+            "category" : "props"
+          }
+        },
+        "placeholder" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "rows" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "maxlength" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "minlength" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "helperContent" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "messages" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ ]
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "invalid" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "readonly" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "required" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "hideRequiredIndicator" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "optional" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "autoresize" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "resize" : {
+          "type" : "JSON_LITERAL",
+          "value" : "vertical"
+        },
+        "showCounter" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "name" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "autofocus" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "d667a5e769598b2e5c6e92ebe73394f6",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "textarea_2",
+      "elementLabel" : "Textarea 2",
+      "propertyValues" : {
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Additional Requirements",
+            "comment" : ""
+          }
+        },
+        "value" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "retrieveMonitoringOrderDataResource", "0", "additional_requirements", "displayValue" ],
+            "category" : "props"
+          }
+        },
+        "placeholder" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "rows" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "maxlength" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "minlength" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "helperContent" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "messages" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ ]
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "invalid" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "readonly" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "required" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "hideRequiredIndicator" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "optional" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "autoresize" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "resize" : {
+          "type" : "JSON_LITERAL",
+          "value" : "vertical"
+        },
+        "showCounter" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "name" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "autofocus" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "d667a5e769598b2e5c6e92ebe73394f6",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "input_8",
+      "elementLabel" : "Input 8",
+      "propertyValues" : {
+        "type" : {
+          "type" : "JSON_LITERAL",
+          "value" : "text"
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Court Reference",
+            "comment" : ""
+          }
+        },
+        "placeholder" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "name" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "value" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "retrieveMonitoringOrderDataResource", "0", "court_reference", "displayValue" ],
+            "category" : "props"
+          }
+        },
+        "readonly" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "required" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideRequiredIndicator" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "optional" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "min" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "max" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "minlength" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "maxlength" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "multiple" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "pattern" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "autofocus" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "invalid" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "helperContent" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "messages" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ ]
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "bb0f92e8d7eff1590624bfe69d316f23",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"input_8","styles":{}},{"element_id":"input_9","styles":{}},{"element_id":"textarea_1","styles":{}},{"element_id":"textarea_2","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"heading_1","styles":{}},{"element_id":"container_1","styles":{}},{"element_id":"container_4","styles":{}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column","padding":"var(--now-static-space--xs)"},
+    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Monitoring Orders</name>
+        <props>[ {
+  "name" : "retrieveMonitoringOrderDataResource",
+  "label" : "retrieveMonitoringOrderDataResource",
+  "fieldType" : "json",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : "",
+  "readOnly" : false,
+  "selectable" : false,
+  "disabled" : false
+} ]</props>
+        <required_translations>[ {
+  "message" : "Actual End Date",
+  "comment" : ""
+}, {
+  "message" : "Additional Requirements",
+  "comment" : ""
+}, {
+  "message" : "Court Reference",
+  "comment" : ""
+}, {
+  "message" : "Curfew Schedules",
+  "comment" : ""
+}, {
+  "message" : "Monitoring Type",
+  "comment" : ""
+}, {
+  "message" : "Order Type",
+  "comment" : ""
+}, {
+  "message" : "Planned End Date",
+  "comment" : ""
+}, {
+  "message" : "Sentencing Court/Releasing Prison",
+  "comment" : ""
+}, {
+  "message" : "Start Date/Time",
+  "comment" : ""
+}, {
+  "message" : "Sub Order Type",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-16 15:46:10</sys_created_on>
+        <sys_id>bab6882887825910952f87f5cebb355c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Monitoring Orders</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_macroponent_bab6882887825910952f87f5cebb355c</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-16 15:46:10</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

@@ -1996,16 +1996,525 @@
   },
   "overrides" : null,
   "isHidden" : {
-    "type" : "CLIENT_TRANSFORM_SCRIPT",
-    "script" : {
-      "apiVersion" : "1.0.0",
-      "inlineScript" : "function evaluateProperty({api}) {\n\tconst ribbonLoc = api.context.app.ribbonLocation;\n\treturn !api.state.isValidRecord || api.state.isNewRecord || ribbonLoc === 'sidebar';\n}",
-      "scriptSysId" : null
-    }
+    "type" : "JSON_LITERAL",
+    "value" : true
   },
   "isHero" : false,
   "isNonDestructive" : false,
   "styles" : { }
+}, {
+  "elementId" : "collapsible_container_2",
+  "elementLabel" : "Collapsible Container 2",
+  "propertyValues" : {
+    "label" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Timeline",
+        "comment" : ""
+      }
+    },
+    "bare" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "canCollapse" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "collapsed" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Ribbon",
+  "definition" : {
+    "id" : "d11fecf1d5fc9b50f799c3d9acb56276",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "timeline_1",
+      "elementLabel" : "Timeline 1",
+      "propertyValues" : {
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "labelHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "3"
+        },
+        "labelStyle" : {
+          "type" : "JSON_LITERAL",
+          "value" : "title-tertiary"
+        },
+        "formattedStartDate" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "2019-01-01 05:00:00",
+            "comment" : ""
+          }
+        },
+        "formattedEndDate" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "2020-06-01 05:00:00",
+            "comment" : ""
+          }
+        },
+        "formattedDisplayStartDate" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "2019-06-17 09:00:00",
+            "comment" : ""
+          }
+        },
+        "formattedDisplayEndDate" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "2019-12-14 09:00:00",
+            "comment" : ""
+          }
+        },
+        "minZoomSpread" : {
+          "type" : "JSON_LITERAL",
+          "value" : "D"
+        },
+        "hidePanZoom" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideToggle" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "isCompactView" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "legendTitle" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Legend",
+            "comment" : ""
+          }
+        },
+        "hideNow" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "legendEventTitle" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Timeline Indicators",
+            "comment" : ""
+          }
+        },
+        "legendRangeTitle" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Timeline Ranges",
+            "comment" : ""
+          }
+        },
+        "eventData" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "name" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "code" : null,
+                  "message" : "Agent Comment",
+                  "comment" : ""
+                }
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : "headsetOutline"
+              },
+              "iconHref" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "color" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "code" : null,
+                  "message" : "Agent Comment",
+                  "comment" : ""
+                }
+              },
+              "labelPlural" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "code" : null,
+                  "message" : "Agent Comment",
+                  "comment" : ""
+                }
+              },
+              "events" : {
+                "type" : "LIST_CONTAINER",
+                "container" : [ {
+                  "type" : "MAP_CONTAINER",
+                  "container" : {
+                    "timestamp" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : 1574744400000
+                    },
+                    "description" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "Agent Comment #5",
+                        "comment" : ""
+                      }
+                    },
+                    "data" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : { }
+                    }
+                  }
+                }, {
+                  "type" : "MAP_CONTAINER",
+                  "container" : {
+                    "timestamp" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : 1569124800000
+                    },
+                    "description" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "Agent Comment #8",
+                        "comment" : ""
+                      }
+                    },
+                    "data" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : { }
+                    }
+                  }
+                } ]
+              }
+            }
+          }, {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "name" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "code" : null,
+                  "message" : "Customer Comment",
+                  "comment" : ""
+                }
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : "userOutline"
+              },
+              "iconHref" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "color" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "code" : null,
+                  "message" : "Customer Comment",
+                  "comment" : ""
+                }
+              },
+              "labelPlural" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "code" : null,
+                  "message" : "Customer Comments",
+                  "comment" : ""
+                }
+              },
+              "events" : {
+                "type" : "LIST_CONTAINER",
+                "container" : [ {
+                  "type" : "MAP_CONTAINER",
+                  "container" : {
+                    "timestamp" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : 1568779200000
+                    },
+                    "description" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "Customer Comment #2",
+                        "comment" : ""
+                      }
+                    },
+                    "data" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : { }
+                    }
+                  }
+                }, {
+                  "type" : "MAP_CONTAINER",
+                  "container" : {
+                    "timestamp" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : 1563163200000
+                    },
+                    "description" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "Customer Comment #11",
+                        "comment" : ""
+                      }
+                    },
+                    "data" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : { }
+                    }
+                  }
+                } ]
+              }
+            }
+          } ]
+        },
+        "rangeData" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "name" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "code" : null,
+                  "message" : "RangeA",
+                  "comment" : ""
+                }
+              },
+              "color" : {
+                "type" : "JSON_LITERAL",
+                "value" : "#5992E3"
+              },
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "code" : null,
+                  "message" : "Range type A",
+                  "comment" : ""
+                }
+              },
+              "ranges" : {
+                "type" : "LIST_CONTAINER",
+                "container" : [ {
+                  "type" : "MAP_CONTAINER",
+                  "container" : {
+                    "start" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : 1567656000000
+                    },
+                    "end" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : 1568779200000
+                    },
+                    "description" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "Range type A #2",
+                        "comment" : ""
+                      }
+                    },
+                    "data" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : { }
+                    }
+                  }
+                } ]
+              }
+            }
+          }, {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "name" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "code" : null,
+                  "message" : "RangeB",
+                  "comment" : ""
+                }
+              },
+              "color" : {
+                "type" : "JSON_LITERAL",
+                "value" : "#84B849"
+              },
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "code" : null,
+                  "message" : "Range type B",
+                  "comment" : ""
+                }
+              },
+              "ranges" : {
+                "type" : "LIST_CONTAINER",
+                "container" : [ {
+                  "type" : "MAP_CONTAINER",
+                  "container" : {
+                    "start" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : 1571112000000
+                    },
+                    "end" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : 1573794000000
+                    },
+                    "description" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "Range type B #3",
+                        "comment" : ""
+                      }
+                    },
+                    "data" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : { }
+                    }
+                  }
+                } ]
+              }
+            }
+          } ]
+        },
+        "locale" : {
+          "type" : "JSON_LITERAL",
+          "value" : "en"
+        },
+        "isEmpty" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "emptyMessage" : {
+          "type" : "JSON_LITERAL",
+          "value" : "Contact admin for more information"
+        },
+        "isError" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "errorMessage" : {
+          "type" : "JSON_LITERAL",
+          "value" : "This content could not be loaded"
+        },
+        "isLoading" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "loadingMessage" : {
+          "type" : "JSON_LITERAL",
+          "value" : "Loading timeline data"
+        },
+        "displayPopover" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "inUiBuilder" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hidePadding" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "default-slot",
+      "definition" : {
+        "id" : "d8e620ed91cdeed8b10d11849bde6f58",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "CLIENT_TRANSFORM_SCRIPT",
+        "script" : {
+          "apiVersion" : "2.0.0",
+          "inlineScript" : null,
+          "scriptSysId" : "5f24b7d087425910952f87f5cebb350b"
+        }
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "100%"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"slotName":"default-slot","styles":{"flex-direction":"column"}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "2.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "CLIENT_TRANSFORM_SCRIPT",
+    "script" : {
+      "apiVersion" : "2.0.0",
+      "inlineScript" : null,
+      "scriptSysId" : "5cd400a487825910952f87f5cebb3550"
+    }
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
 } ]</composition>
         <da_relay_models/>
         <data>[ {
@@ -3228,7 +3737,7 @@
   "default" : {
     "children" : null,
     "isInline" : null,
-    "items" : [{"slotName":"Top Left","rules":{"max-width":"100%","min-width":"550px","grid-area":"1 / 1 / 2 / 2"},"styles":{"display":"flex","padding":"1.5rem 1.5rem 0.75rem","flex-direction":"row","justify-content":"space-between","align-items":"flex-start"}},{"slotName":"Top Right","rules":{"min-width":"550px","max-width":"100%","grid-area":"1 / 2 / 2 / 3"},"styles":{"display":"flex","padding":"1.5rem 1.5rem 0.75rem"}},{"slotName":"Ribbon","rules":{"grid-area":"2 / 1 / 3 / 3"},"styles":{}},{"slotName":"Form","rules":{"min-width":"1100px","grid-area":"3 / 1 / 4 / 3"},"styles":{}}],
+    "items" : [{"slotName":"Top Left","rules":{"max-width":"100%","min-width":"550px","grid-area":"1 / 1 / 2 / 2"},"styles":{"display":"flex","padding":"1.5rem 1.5rem 0.75rem","flex-direction":"row","justify-content":"space-between","align-items":"flex-start"}},{"slotName":"Top Right","rules":{"min-width":"550px","max-width":"100%","grid-area":"1 / 2 / 2 / 3"},"styles":{"display":"flex","padding":"1.5rem 1.5rem 0.75rem"}},{"slotName":"Ribbon","rules":{"grid-area":"2 / 1 / 3 / 3"},"styles":{"display":"flex"}},{"slotName":"Form","rules":{"min-width":"1100px","grid-area":"3 / 1 / 4 / 3"},"styles":{}}],
     "root" : null,
     "rules" : {"display":"grid","grid-template-columns":"1fr 1fr","grid-template-rows":"max-content max-content minmax(0px, 1fr)","grid-gap":"0px","height":"100%","overflow-x":"auto"},
     "styles" : null,
@@ -3366,6 +3875,27 @@
   "disabled" : false
 } ]</props>
         <required_translations>[ {
+  "message" : "2019-01-01 05:00:00",
+  "comment" : ""
+}, {
+  "message" : "2019-06-17 09:00:00",
+  "comment" : ""
+}, {
+  "message" : "2019-12-14 09:00:00",
+  "comment" : ""
+}, {
+  "message" : "2020-06-01 05:00:00",
+  "comment" : ""
+}, {
+  "message" : "Agent Comment",
+  "comment" : ""
+}, {
+  "message" : "Agent Comment #5",
+  "comment" : ""
+}, {
+  "message" : "Agent Comment #8",
+  "comment" : ""
+}, {
   "message" : "Cancel",
   "comment" : ""
 }, {
@@ -3375,13 +3905,55 @@
   "message" : "Custom Close Confirmation",
   "comment" : ""
 }, {
+  "message" : "Customer Comment",
+  "comment" : ""
+}, {
+  "message" : "Customer Comment #11",
+  "comment" : ""
+}, {
+  "message" : "Customer Comment #2",
+  "comment" : ""
+}, {
+  "message" : "Customer Comments",
+  "comment" : ""
+}, {
+  "message" : "Legend",
+  "comment" : ""
+}, {
   "message" : "Monitoring Order Timeline",
+  "comment" : ""
+}, {
+  "message" : "Range type A",
+  "comment" : ""
+}, {
+  "message" : "Range type A #2",
+  "comment" : ""
+}, {
+  "message" : "Range type B",
+  "comment" : ""
+}, {
+  "message" : "Range type B #3",
+  "comment" : ""
+}, {
+  "message" : "RangeA",
+  "comment" : ""
+}, {
+  "message" : "RangeB",
   "comment" : ""
 }, {
   "message" : "Record not found",
   "comment" : ""
 }, {
   "message" : "Security constraints prevent access to requested page",
+  "comment" : ""
+}, {
+  "message" : "Timeline",
+  "comment" : ""
+}, {
+  "message" : "Timeline Indicators",
+  "comment" : ""
+}, {
+  "message" : "Timeline Ranges",
   "comment" : ""
 }, {
   "message" : "Yes",
@@ -3637,13 +4209,13 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-08-30 21:34:02</sys_created_on>
         <sys_id>6053fd4b87a5d990952f87f5cebb3518</sys_id>
-        <sys_mod_count>128</sys_mod_count>
+        <sys_mod_count>138</sys_mod_count>
         <sys_name>Record</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_ux_macroponent_6053fd4b87a5d990952f87f5cebb3518</sys_update_name>
         <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-09-14 10:35:48</sys_updated_on>
+        <sys_updated_on>2022-09-16 15:37:52</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

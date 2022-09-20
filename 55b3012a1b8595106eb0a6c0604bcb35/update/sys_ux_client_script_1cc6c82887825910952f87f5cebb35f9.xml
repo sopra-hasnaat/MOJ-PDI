@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Asset lifecycle">ccc6c82887825910952f87f5cebb35dd</macroponent>
+        <name>Handle card view toggle</name>
+        <required_translations/>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({api, event, helpers, imports}) {
+    if(!api.state.showZeroCountCard) {
+        api.setState('assetEventData', api.state.assetEventDataComplete.filter(function(card) {return card.count != 0;}));
+    } else {
+        api.setState('assetEventData', api.state.assetEventDataComplete);
+    }
+    api.setState('showZeroCountCard', !api.state.showZeroCountCard);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-16 15:46:16</sys_created_on>
+        <sys_id>1cc6c82887825910952f87f5cebb35f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Handle card view toggle</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_client_script_1cc6c82887825910952f87f5cebb35f9</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-16 15:46:16</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
