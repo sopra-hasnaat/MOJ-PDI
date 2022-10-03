@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="outcome" table="x_ster2_emfs_monitoring_order" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>outcome</element>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:30:34</sys_created_on>
+            <sys_id>79a1c88a1b52d1506eb0a6c0604bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>outcome</sys_name>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_choice_x_ster2_emfs_monitoring_order_outcome</sys_update_name>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:30:34</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>outcome</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Natural End</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd918c8a1b52d1506eb0a6c0604bcb17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:30:34</sys_updated_on>
+            <value>natural_end</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>outcome</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cease</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:30:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25b1cc8a1b52d1506eb0a6c0604bcb8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:30:49</sys_updated_on>
+            <value>cease</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

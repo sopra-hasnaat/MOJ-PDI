@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="other_offence" label="Other Offence" language="en" table="x_ster2_emfs_monitoring_order">
+    <sys_documentation element="confirmed_date" label="Confirmed Date" language="en" table="x_ster2_emfs_monitoring_order">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>other_offence</element>
+            <element>confirmed_date</element>
             <help/>
             <hint/>
-            <label>Other Offence</label>
+            <label>Confirmed Date</label>
             <language>en</language>
             <name>x_ster2_emfs_monitoring_order</name>
-            <plural>Other Offences</plural>
+            <plural>Confirmed Dates</plural>
             <sys_class_name>sys_documentation</sys_class_name>
-            <sys_created_by>paul.fraser.ems</sys_created_by>
-            <sys_created_on>2022-08-04 18:45:53</sys_created_on>
-            <sys_id>cc8313e61bcd95106eb0a6c0604bcb8d</sys_id>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:09:46</sys_created_on>
+            <sys_id>85ec7b751b52d1506eb0a6c0604bcb8c</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Other Offence</sys_name>
+            <sys_name>Confirmed Date</sys_name>
             <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
             <sys_policy/>
             <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
-            <sys_update_name>sys_documentation_x_ster2_emfs_monitoring_order_other_offence_en</sys_update_name>
-            <sys_updated_by>paul.fraser.ems</sys_updated_by>
-            <sys_updated_on>2022-08-04 18:45:53</sys_updated_on>
+            <sys_update_name>sys_documentation_x_ster2_emfs_monitoring_order_confirmed_date_en</sys_update_name>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:09:46</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
