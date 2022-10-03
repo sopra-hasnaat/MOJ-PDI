@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="faith_religion" label="Faith/Religion" language="en" table="x_ster2_emfs_subject">
+    <sys_documentation element="ni_number" label="NI Number" language="en" table="x_ster2_emfs_subject">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>faith_religion</element>
+            <element>ni_number</element>
             <help/>
             <hint/>
-            <label>Faith/Religion</label>
+            <label>NI Number</label>
             <language>en</language>
             <name>x_ster2_emfs_subject</name>
-            <plural>Faith/Religions</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-08-04 09:54:13</sys_created_on>
-            <sys_id>4cd99d6e1bc595106eb0a6c0604bcb84</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Faith/Religion</sys_name>
+            <sys_created_on>2022-10-03 15:26:25</sys_created_on>
+            <sys_id>d335e77d1bde91506eb0a6c0604bcb10</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>NI Number</sys_name>
             <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
             <sys_policy/>
             <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
-            <sys_update_name>sys_documentation_x_ster2_emfs_subject_faith_religion_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_ster2_emfs_subject_ni_number_en</sys_update_name>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <sys_updated_on>2022-10-03 15:26:26</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

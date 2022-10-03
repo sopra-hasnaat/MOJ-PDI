@@ -33,7 +33,7 @@
         <element label="Address Validated" max_length="40" name="address_validated" read_only="true" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;if current.age =&lt;&quot;17&quot; current.adult_juvenile = 'juvenile';&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Adult/Juvenile" max_length="40" name="adult_juvenile" read_only="true" type="string"/>
         <element label="Age" max_length="40" name="age" read_only="true" type="integer"/>
-        <element label="Alias" max_length="40" name="alias" type="string"/>
+        <element label="Alias(es)" max_length="40" name="alias" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Alternative Contact" max_length="50" name="alternative_contact" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Alternative Contact Relationship to Subject" max_length="40" name="alternative_contact_relationship_to_subject" type="choice">
             <choice>
@@ -56,29 +56,69 @@
         <element label="Delius ID" max_length="40" name="delius_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
         <element choice="1" label="Ethnicity" max_length="40" name="ethnicity" type="glide_list">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="English / Welsh / Scottish / Northern Irish / British" sequence="0" value="british"/>
+                <element inactive_on_update="false" label="Irish" sequence="1" value="irish"/>
+                <element inactive_on_update="false" label="Gypsy or Irish Traveller" sequence="2" value="gypsy_traveller"/>
+                <element inactive_on_update="false" label="Other White" sequence="3" value="other_white"/>
+                <element inactive_on_update="false" label="White and Black Caribbean" sequence="4" value="white_black_caribbean"/>
+                <element inactive_on_update="false" label="White and Black African" sequence="5" value="white_black_african"/>
+                <element inactive_on_update="false" label="White and Asian" sequence="6" value="white_asian"/>
+                <element inactive_on_update="false" label="Other Mixed White/ Multiple" sequence="7" value="white_other"/>
+                <element inactive_on_update="false" label="Indian" sequence="8" value="indian"/>
+                <element inactive_on_update="false" label="Pakistani" sequence="9" value="pakistani"/>
+                <element inactive_on_update="false" label="Bangladeshi" sequence="10" value="bangladeshi"/>
+                <element inactive_on_update="false" label="Chinese" sequence="11" value="chinese"/>
+                <element inactive_on_update="false" label="Other Asian background" sequence="12" value="other_asian"/>
+                <element inactive_on_update="false" label="African" sequence="13" value="african"/>
+                <element inactive_on_update="false" label="Caribbean" sequence="14" value="caribbean"/>
+                <element inactive_on_update="false" label="Other Black / African / Caribbean" sequence="15" value="other_black"/>
+                <element inactive_on_update="false" label="Arab" sequence="16" value="arab"/>
+                <element inactive_on_update="false" label="Other ethnic group" sequence="17" value="other"/>
+            </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Faith/Religion" max_length="40" name="faith_religion" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Christian" sequence="0" value="christian"/>
+                <element inactive_on_update="false" label="Buddhist" sequence="1" value="buddhist"/>
+                <element inactive_on_update="false" label="Hindu" sequence="2" value="hindu"/>
+                <element inactive_on_update="false" label="Jewish" sequence="3" value="jewish"/>
+                <element inactive_on_update="false" label="Muslim" sequence="4" value="muslim"/>
+                <element inactive_on_update="false" label="Sikh" sequence="5" value="sikh"/>
+                <element inactive_on_update="false" label="Other Religion" sequence="6" value="other"/>
+            </choice>
         </element>
+        <element label="Fingerprint" max_length="255" name="fingerprint" type="user_image"/>
         <element attributes="edge_encryption_enabled=true" label="First Name" mandatory="true" max_length="50" name="first_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Sex" max_length="40" name="gender" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
                 <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
             </choice>
         </element>
         <element label="Gender Reassignment" max_length="40" name="gender_reassignment" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Immigration Number" max_length="50" name="immigration_number" type="string"/>
-        <element label="Interpreter" max_length="40" name="interpreter" type="string"/>
+        <element label="Interpreter" max_length="40" name="interpreter" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" default="English" label="Language" max_length="40" name="language" reference="x_ster2_emfs_languages" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="50" name="last_name" type="string"/>
+        <element choice="1" label="Marriage Status" max_length="40" name="marriage_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Single" sequence="0" value="single"/>
+                <element inactive_on_update="false" label="Married" sequence="1" value="married"/>
+                <element inactive_on_update="false" label="Separated" sequence="2" value="separated"/>
+                <element inactive_on_update="false" label="Divorced" sequence="3" value="divorced"/>
+                <element inactive_on_update="false" label="Widowed" sequence="4" value="widowed"/>
+                <element inactive_on_update="false" label="Living with Partner" sequence="5" value="living_with_partner"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Middle Name(s)" max_length="50" name="middle_name" type="string"/>
         <element label="Mobile" max_length="40" name="mobile" type="phone_number_e164"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="British" label="Nationality" max_length="40" name="nationality" reference="x_ster2_emfs_nationalities" type="glide_list">
             <choice/>
         </element>
-        <element label="NOMIS ID" max_length="40" name="nomis_id" type="string"/>
+        <element label="NI Number" max_length="9" name="ni_number" type="string"/>
+        <element label="NOMIS ID" max_length="7" name="nomis_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
         <element label="Photo" max_length="40" name="photo" type="user_image"/>
@@ -98,11 +138,12 @@
         </element>
         <element label="Responsible Officer" max_length="32" name="responsible_officer" reference="x_ster2_emfs_responsible_officers" type="reference"/>
         <element label="Responsible Organisation" max_length="40" name="responsible_organisation" read_only="true" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="green" label="Risk" mandatory="true" max_length="40" name="risk" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="low" label="Risk" mandatory="true" max_length="40" name="risk" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Red" sequence="0" value="red"/>
-                <element inactive_on_update="false" label="Amber" sequence="1" value="amber"/>
-                <element inactive_on_update="false" label="Green" sequence="2" value="green"/>
+                <element inactive_on_update="false" label="Very High" sequence="0" value="very_high"/>
+                <element inactive_on_update="false" label="High" sequence="1" value="high"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="medium"/>
+                <element inactive_on_update="false" label="Low" sequence="3" value="low"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Risk Comments" max_length="4000" name="risk_comments" type="string"/>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="ethnicity" table="x_ster2_emfs_subject" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>ethnicity</element>
+            <name>x_ster2_emfs_subject</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:05</sys_created_on>
+            <sys_id>7734a73d1bde91506eb0a6c0604bcb76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ethnicity</sys_name>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_choice_x_ster2_emfs_subject_ethnicity</sys_update_name>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>English / Welsh / Scottish / Northern Irish / British</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3334a73d1bde91506eb0a6c0604bcb76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <value>british</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Irish</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7334a73d1bde91506eb0a6c0604bcb77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <value>irish</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gypsy or Irish Traveller</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff34a73d1bde91506eb0a6c0604bcb77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <value>gypsy_traveller</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other White</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f34a73d1bde91506eb0a6c0604bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <value>other_white</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>White and Black Caribbean</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb34a73d1bde91506eb0a6c0604bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <value>white_black_caribbean</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>White and Black African</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7b34a73d1bde91506eb0a6c0604bcb7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <value>white_black_african</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>White and Asian</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f734a73d1bde91506eb0a6c0604bcb7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <value>white_asian</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Mixed White/ Multiple</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7734a73d1bde91506eb0a6c0604bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <value>white_other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Indian</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb34a73d1bde91506eb0a6c0604bcb89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <value>indian</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pakistani</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b34a73d1bde91506eb0a6c0604bcb8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <value>pakistani</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bangladeshi</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b734a73d1bde91506eb0a6c0604bcb8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <value>bangladeshi</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chinese</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3734a73d1bde91506eb0a6c0604bcb8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <value>chinese</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Asian background</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b334a73d1bde91506eb0a6c0604bcb8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <value>other_asian</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>African</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3334a73d1bde91506eb0a6c0604bcb8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <value>african</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Caribbean</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf34a73d1bde91506eb0a6c0604bcb8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <value>caribbean</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Black / African / Caribbean</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f34a73d1bde91506eb0a6c0604bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <value>other_black</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Arab</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb34a73d1bde91506eb0a6c0604bcb90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <value>arab</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other ethnic group</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b34a73d1bde91506eb0a6c0604bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
