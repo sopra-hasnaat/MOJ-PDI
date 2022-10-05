@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="order_type2" table="x_ster2_emfs_monitoring_order" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>order_type2</element>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 16:41:25</sys_created_on>
+            <sys_id>7d667fbd1b12d1506eb0a6c0604bcb61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>order_type2</sys_name>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_choice_x_ster2_emfs_monitoring_order_order_type2</sys_update_name>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:41:25</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_type2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Adult Custody</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 16:41:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e36bfbd1b12d1506eb0a6c0604bcbe5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:41:25</sys_updated_on>
+            <value>adult_custody</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_type2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Community Order</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 16:41:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9766fbbd1b12d1506eb0a6c0604bcba1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:41:53</sys_updated_on>
+            <value>community_order</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_type2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EM Order</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 16:42:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>297637fd1b12d1506eb0a6c0604bcb9e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:42:18</sys_updated_on>
+            <value>em_order</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_type2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Youth Custody</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 16:42:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a286b7fd1b12d1506eb0a6c0604bcb44</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:42:40</sys_updated_on>
+            <value>youth_custody</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_type2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ISSP</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 16:42:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0a6f7fd1b12d1506eb0a6c0604bcbbe</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:42:54</sys_updated_on>
+            <value>issp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_type2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TPIMS Notice</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 16:43:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9b63bfd1b12d1506eb0a6c0604bcbdd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:44:49</sys_updated_on>
+            <value>tpims</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_type2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Immigration Bail Order</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 16:43:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ec6bbfd1b12d1506eb0a6c0604bcb0a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:44:52</sys_updated_on>
+            <value>immigration_bail</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_type2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Domestic Abuse Protection Order/Notice</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 16:43:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aad6bbfd1b12d1506eb0a6c0604bcbd1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:44:55</sys_updated_on>
+            <value>domestic_abuse</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_type2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Suspended Sentence Order</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 16:44:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5f63ffd1b12d1506eb0a6c0604bcbd9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:44:57</sys_updated_on>
+            <value>suspended_sentence</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_type2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Youth Rehabilitation Order</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 16:45:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29177ffd1b12d1506eb0a6c0604bcbe0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:47:21</sys_updated_on>
+            <value>youth_rehabilitation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_type2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bail Order</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 16:45:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d47bffd1b12d1506eb0a6c0604bcbcd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:47:23</sys_updated_on>
+            <value>bail_order</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_type2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Supervision Default Order</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 16:45:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e57bffd1b12d1506eb0a6c0604bcbd0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:47:25</sys_updated_on>
+            <value>supervision_default</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_type2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deferred Sentence</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 16:46:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1877b3311b52d1506eb0a6c0604bcbfa</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:47:28</sys_updated_on>
+            <value>deferred_sentence</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_type2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Military Court Order</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 16:46:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b8737311b52d1506eb0a6c0604bcb5f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:47:37</sys_updated_on>
+            <value>military_court</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

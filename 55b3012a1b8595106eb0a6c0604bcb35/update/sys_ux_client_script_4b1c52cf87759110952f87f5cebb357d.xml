@@ -13,25 +13,21 @@ function evaluateProperty({
     api,
     helpers
 }) {
-    if (api.data.gform.nowRecordCommonHeader.tableDisplayValue === "Subjects") {
-        return false;
-    } else {
-        return true;
-    }
+    return (api.data.gform.nowRecordCommonHeader.tableDisplayValue !== "Subjects");
 }]]></script>
         <script_api_version>2.0.0</script_api_version>
         <sys_class_name>sys_ux_client_script</sys_class_name>
         <sys_created_by>hasnaat.khan.ems</sys_created_by>
         <sys_created_on>2022-09-12 10:47:56</sys_created_on>
         <sys_id>4b1c52cf87759110952f87f5cebb357d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>viewport_jql___isHidden__</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_ux_client_script_4b1c52cf87759110952f87f5cebb357d</sys_update_name>
         <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-09-12 13:25:51</sys_updated_on>
+        <sys_updated_on>2022-09-15 15:23:42</sys_updated_on>
         <type>transform</type>
     </sys_ux_client_script>
 </record_update>

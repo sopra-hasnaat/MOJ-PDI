@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Reason for Breach">55bea042870e1510952f87f5cebb351e</sc_cat_item>
+        <sc_category display_value="Departmental Services">95fc11615f1211001c9b2572f2b477c6</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-21 10:53:23</sys_created_on>
+        <sys_id>76a37c86870e1510952f87f5cebb3505</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Departmental Services.Reason for Breach</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sc_cat_item_category_76a37c86870e1510952f87f5cebb3505</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-09-21 10:53:23</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sc_cat_item_category_76a37c86870e1510952f87f5cebb3505</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Reason for Breach">55bea042870e1510952f87f5cebb351e</sc_cat_item><sc_category display_value="Departmental Services">95fc11615f1211001c9b2572f2b477c6</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>rebecca.seiga.ems</sys_created_by><sys_created_on>2022-09-21 10:53:23</sys_created_on><sys_id>76a37c86870e1510952f87f5cebb3505</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Departmental Services.Reason for Breach</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sc_cat_item_category_76a37c86870e1510952f87f5cebb3505</sys_update_name><sys_updated_by>rebecca.seiga.ems</sys_updated_by><sys_updated_on>2022-09-21 10:53:23</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1197363556</payload_hash>
+        <record_name>Departmental Services.Reason for Breach</record_name>
+        <reverted_from/>
+        <source>2f19971487ce1910952f87f5cebb35b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-21 10:53:24</sys_created_on>
+        <sys_id>fea37c86870e1510952f87f5cebb3508</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1835fae54a70000001</sys_recorded_at>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-09-21 10:53:24</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>3aa37c86db0e1510d73fd7de4e938d08</update_guid>
+        <update_guid_history>3aa37c86db0e1510d73fd7de4e938d08:-1197363556</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Departmental Services.Reason for Breach">aeefdbfb87ca1d10952f87f5cebb357a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-27 09:55:20</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>20c18bfa5b3348ea975274b09c9275c9</sys_id>
+        <sys_metadata>76a37c86870e1510952f87f5cebb3505</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Departmental Services.Reason for Breach</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_76a37c86870e1510952f87f5cebb3505</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_76a37c86870e1510952f87f5cebb3505">fea37c86870e1510952f87f5cebb3508</sys_update_version>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-09-27 09:55:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

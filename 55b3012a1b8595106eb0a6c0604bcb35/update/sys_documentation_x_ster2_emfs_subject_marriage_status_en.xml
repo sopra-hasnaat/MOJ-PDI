@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="marriage_status" label="Marriage Status" language="en" table="x_ster2_emfs_subject">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>marriage_status</element>
+            <help/>
+            <hint/>
+            <label>Marriage Status</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 15:22:04</sys_created_on>
+            <sys_id>6f34673d1bde91506eb0a6c0604bcbcd</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Marriage Status</sys_name>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_documentation_x_ster2_emfs_subject_marriage_status_en</sys_update_name>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:22:05</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

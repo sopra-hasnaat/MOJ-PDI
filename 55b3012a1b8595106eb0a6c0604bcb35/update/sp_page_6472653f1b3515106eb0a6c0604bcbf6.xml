@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>section.page{&#13;
+  padding-top: 0;&#13;
+}main.body {&#13;
+  padding-top: 0;&#13;
+}&#13;
+.kb-home-explorer-continer{&#13;
+ background-color:#ffffff;&#13;
+  margin-bottom:20px;&#13;
+}&#13;
+.banner-container {&#13;
+    height: 230px;&#13;
+  	width: 100%;&#13;
+}&#13;
+.v-h-center {&#13;
+    display: table-cell;&#13;
+    vertical-align: middle;&#13;
+    margin-left: auto;&#13;
+    margin-right: auto;&#13;
+}&#13;
+.search-container{&#13;
+  padding-top: 3.7rem;&#13;
+  display:block;&#13;
+  margin-left: auto;&#13;
+  margin-right: auto;&#13;
+}&#13;
+@media screen and (max-width: 992px) {&#13;
+  .banner-container {&#13;
+    height: 85px;&#13;
+  }&#13;
+  .search-container{&#13;
+    padding-top: 0.1rem;&#13;
+  }&#13;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>subject</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>true</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-14 14:31:39</sys_created_on>
+        <sys_id>6472653f1b3515106eb0a6c0604bcbf6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>subject</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_page_6472653f1b3515106eb0a6c0604bcbf6</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-09-20 08:35:58</sys_updated_on>
+        <title>Subject</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=6472653f1b3515106eb0a6c0604bcbf6"/>
+</record_update>

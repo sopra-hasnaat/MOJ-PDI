@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>3</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">40cb00d687169550952f87f5cebb35cf</sp_column>
+        <sp_widget display_value="Appointment Booking - Reselect ">90b5ba4a8750030064048467a7cb0b9d</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-10-04 12:55:45</sys_created_on>
+        <sys_id>f95c4cd687169550952f87f5cebb35e3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_instance_f95c4cd687169550952f87f5cebb35e3</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-10-04 12:56:08</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=f95c4cd687169550952f87f5cebb35e3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sp_instance_f95c4cd687169550952f87f5cebb35e3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>3</order><roles/><short_description/><size>md</size><sp_column display_value="1">40cb00d687169550952f87f5cebb35cf</sp_column><sp_widget display_value="Appointment Booking - Reselect ">90b5ba4a8750030064048467a7cb0b9d</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>rebecca.seiga.ems</sys_created_by><sys_created_on>2022-10-04 12:55:45</sys_created_on><sys_id>f95c4cd687169550952f87f5cebb35e3</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sp_instance_f95c4cd687169550952f87f5cebb35e3</sys_update_name><sys_updated_by>rebecca.seiga.ems</sys_updated_by><sys_updated_on>2022-10-04 12:56:08</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=f95c4cd687169550952f87f5cebb35e3"/></record_update>]]></payload>
+        <payload_hash>1071702012</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>2f19971487ce1910952f87f5cebb35b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-10-04 12:56:08</sys_created_on>
+        <sys_id>e76c001a87169550952f87f5cebb356a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183a31161970000001</sys_recorded_at>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-10-04 12:56:08</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>ef6c001ad0169550116b35c4552ce469</update_guid>
+        <update_guid_history>ef6c001ad0169550116b35c4552ce469:1071702012,ab5c8cd68c169550fc445398d010b5f4:638009213,f15c4cd6fa16955041412bfc31546ce5:1071702012</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d07c001a87169550952f87f5cebb3594</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-10-04 12:56:11</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>7e4f7b58eaf947f7839c67a072881049</sys_id>
+        <sys_metadata>f95c4cd687169550952f87f5cebb35e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sp_instance_f95c4cd687169550952f87f5cebb35e3</sys_update_name>
+        <sys_update_version display_value="sp_instance_f95c4cd687169550952f87f5cebb35e3">e76c001a87169550952f87f5cebb356a</sys_update_version>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-10-04 12:56:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

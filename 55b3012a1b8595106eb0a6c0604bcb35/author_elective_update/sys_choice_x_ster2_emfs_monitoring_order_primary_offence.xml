@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="primary_offence" table="x_ster2_emfs_monitoring_order" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>primary_offence</element>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:24:00</sys_created_on>
+            <sys_id>6d20804a1b52d1506eb0a6c0604bcbea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>primary_offence</sys_name>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_choice_x_ster2_emfs_monitoring_order_primary_offence</sys_update_name>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:24:00</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_offence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Criminal damage and arson</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:25:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0290884a1b52d1506eb0a6c0604bcbc8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:28:25</sys_updated_on>
+            <value>criminal_damage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_offence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Drug offences</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:26:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29a00c4a1b52d1506eb0a6c0604bcbef</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:28:28</sys_updated_on>
+            <value>drugs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_offence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fraud Offences</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:27:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>49f0808a1b52d1506eb0a6c0604bcb48</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:28:30</sys_updated_on>
+            <value>fraud</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_offence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Miscellaneous crimes against society</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:27:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6e00c4a1b52d1506eb0a6c0604bcbf9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:28:45</sys_updated_on>
+            <value>misc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_offence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Possession of weapons</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:26:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15c08c4a1b52d1506eb0a6c0604bcb09</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:28:51</sys_updated_on>
+            <value>weapon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_offence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Public order offences</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:27:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7fd0408a1b52d1506eb0a6c0604bcb97</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:28:54</sys_updated_on>
+            <value>public _order</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_offence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Robbery</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:25:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2270444a1b52d1506eb0a6c0604bcb87</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:28:57</sys_updated_on>
+            <value>robbery</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_offence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sexual offences</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:25:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b360444a1b52d1506eb0a6c0604bcb83</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:29:00</sys_updated_on>
+            <value>sexual</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_offence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Summary Motoring</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:28:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6411048a1b52d1506eb0a6c0604bcbc0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:29:06</sys_updated_on>
+            <value>motoring</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_offence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Summary Non-Motoring</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:27:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca01808a1b52d1506eb0a6c0604bcbf5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:29:10</sys_updated_on>
+            <value>non_motoring</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_offence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Theft Offences</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:25:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d80484a1b52d1506eb0a6c0604bcbee</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:29:14</sys_updated_on>
+            <value>theft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_offence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Violence against the person</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:24:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad10044a1b52d1506eb0a6c0604bcb28</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:29:16</sys_updated_on>
+            <value>violence</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>primary_offence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Offence not recorded</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:28:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0821808a1b52d1506eb0a6c0604bcb40</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:28:48</sys_updated_on>
+            <value>not_recorded</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

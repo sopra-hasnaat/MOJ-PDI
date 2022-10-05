@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Electronic Monitoring Subjects Config">6c74300f1e659590bb960d72709de55d</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Record Information">a8e6046887825910952f87f5cebb356c</macroponent>
+        <macroponent_config>{
+  "isOpenFrameConfigValid" : "@data.validate_openframe_configuration_1.output.isOpenframeConfigValid",
+  "recordSecondaryItems" : "@data.gform.nowRecordCommonHeader.secondaryItems",
+  "ribbonConfig" : "@data.gform.snRecordRibbon",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false,
+  "views" : "",
+  "selectedTabIndex" : 0,
+  "headingOnlyVisibleToScreenReaders" : false
+}</macroponent_config>
+        <name>Record Information</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record">c1a6042887825910952f87f5cebb35bc</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Subject Record Information">20e6046887825910952f87f5cebb354b</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-16 15:46:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>24e6046887825910952f87f5cebb356e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Information</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_screen_24e6046887825910952f87f5cebb356e</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-16 15:46:51</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=24e6046887825910952f87f5cebb356e"/>
+</record_update>

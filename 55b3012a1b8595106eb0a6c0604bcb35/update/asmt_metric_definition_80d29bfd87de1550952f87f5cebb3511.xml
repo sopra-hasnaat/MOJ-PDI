@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="INSERT_OR_UPDATE">
+        <display>YES</display>
+        <metric display_value="New Multiple Selection">c4d29bfd87de1550952f87f5cebb350c</metric>
+        <normalization_input>0</normalization_input>
+        <order>0</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-03 14:05:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>80d29bfd87de1550952f87f5cebb3511</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>YES</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>asmt_metric_definition_80d29bfd87de1550952f87f5cebb3511</sys_update_name>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-03 14:05:56</sys_updated_on>
+        <unselected_image/>
+        <value>1</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=80d29bfd87de1550952f87f5cebb3511"/>
+</record_update>

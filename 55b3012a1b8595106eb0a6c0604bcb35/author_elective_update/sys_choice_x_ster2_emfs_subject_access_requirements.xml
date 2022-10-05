@@ -16,5 +16,225 @@
             <sys_updated_by>warwick.cooney.ems</sys_updated_by>
             <sys_updated_on>2022-08-09 08:39:28</sys_updated_on>
         </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>access_requirements</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vision</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 13:57:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ace05f391b9e91506eb0a6c0604bcb50</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 13:57:29</sys_updated_on>
+            <value>vision</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>access_requirements</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hearing</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 13:57:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e8e05f391b9e91506eb0a6c0604bcb90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 13:57:29</sys_updated_on>
+            <value>hearing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>access_requirements</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mobility</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 13:57:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>68e05f391b9e91506eb0a6c0604bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 13:57:29</sys_updated_on>
+            <value>mobility</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>access_requirements</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dexterity</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 13:57:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4e05f391b9e91506eb0a6c0604bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 13:57:29</sys_updated_on>
+            <value>dexterity</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>access_requirements</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Learning, understanding or concentrating</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 13:57:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64e05f391b9e91506eb0a6c0604bcb93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 13:57:29</sys_updated_on>
+            <value>learning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>access_requirements</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Memory</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 13:57:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0e05f391b9e91506eb0a6c0604bcb94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 13:57:29</sys_updated_on>
+            <value>memory</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>access_requirements</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mental Health</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 13:57:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60e05f391b9e91506eb0a6c0604bcb95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 13:57:29</sys_updated_on>
+            <value>mental_health</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>access_requirements</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stamina, breathing or fatigure</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 13:57:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ece05f391b9e91506eb0a6c0604bcb95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 13:57:29</sys_updated_on>
+            <value>stamina</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>access_requirements</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Social or behavioural</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 13:57:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ce05f391b9e91506eb0a6c0604bcb96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 13:57:29</sys_updated_on>
+            <value>social_behavioural</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>access_requirements</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 13:57:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e8e05f391b9e91506eb0a6c0604bcb97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 13:57:29</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>access_requirements</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>None of the above</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 13:57:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>68e05f391b9e91506eb0a6c0604bcb98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 13:57:29</sys_updated_on>
+            <value>none_of_the_above</value>
+        </sys_choice>
     </sys_choice>
 </record_update>

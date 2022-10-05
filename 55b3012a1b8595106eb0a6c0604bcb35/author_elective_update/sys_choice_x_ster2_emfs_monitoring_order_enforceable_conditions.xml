@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="enforceable_conditions" table="x_ster2_emfs_monitoring_order" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>enforceable_conditions</element>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:17:43</sys_created_on>
+            <sys_id>adbe3bf51b52d1506eb0a6c0604bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>enforceable_conditions</sys_name>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_choice_x_ster2_emfs_monitoring_order_enforceable_conditions</sys_update_name>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:17:43</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enforceable_conditions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Curfew with EM</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:17:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f9ebbf51b52d1506eb0a6c0604bcb16</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:17:43</sys_updated_on>
+            <value>curfew</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enforceable_conditions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Location Monitoring (Fitted Device)</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:18:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52cebbf51b52d1506eb0a6c0604bcb1c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:18:15</sys_updated_on>
+            <value>location_monitoring_fitted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enforceable_conditions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Location Monitoring (using Non-Fitted Device)</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:18:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61eebff51b52d1506eb0a6c0604bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:18:32</sys_updated_on>
+            <value>location_monitoring_nonfitted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enforceable_conditions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EM Exclusion/ Inclusion Zone</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:19:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7c2f73391b52d1506eb0a6c0604bcbee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:19:35</sys_updated_on>
+            <value>zone</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enforceable_conditions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AAMR</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:18:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ddfebff51b52d1506eb0a6c0604bcb0d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:18:59</sys_updated_on>
+            <value>aamr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enforceable_conditions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AML</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:19:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c30f7ff51b52d1506eb0a6c0604bcb3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:19:11</sys_updated_on>
+            <value>aml</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

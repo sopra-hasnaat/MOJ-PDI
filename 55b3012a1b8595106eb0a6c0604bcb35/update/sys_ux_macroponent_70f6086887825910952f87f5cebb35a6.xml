@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "heading_1",
+  "elementLabel" : "Heading 1",
+  "propertyValues" : {
+    "label" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Reject major case candidate",
+        "comment" : ""
+      }
+    },
+    "level" : {
+      "type" : "JSON_LITERAL",
+      "value" : "2"
+    },
+    "variant" : {
+      "type" : "JSON_LITERAL",
+      "value" : "header-secondary"
+    },
+    "wontWrap" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hasNoMargin" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Header",
+  "definition" : {
+    "id" : "1f6e0643eca7a637e36bd7833549ec9e",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "padding-bottom" : "24px"
+  }
+}, {
+  "elementId" : "rich_text_1",
+  "elementLabel" : "Rich Text 1",
+  "propertyValues" : {
+    "html" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "descriptionText" ]
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "color" : "rgb(var(--now-color_text--primary))",
+    "padding-bottom" : "4px"
+  }
+}, {
+  "elementId" : "textarea_1",
+  "elementLabel" : "Textarea 1",
+  "propertyValues" : {
+    "label" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Work Notes",
+        "comment" : ""
+      }
+    },
+    "value" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "placeholder" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "rows" : {
+      "type" : "JSON_LITERAL",
+      "value" : "3"
+    },
+    "maxlength" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "minlength" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "helperContent" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Internal work notes - not visible to customer",
+        "comment" : ""
+      }
+    },
+    "messages" : {
+      "type" : "LIST_CONTAINER",
+      "container" : [ ]
+    },
+    "disabled" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "invalid" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "disableReject" ]
+      }
+    },
+    "readonly" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "required" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideRequiredIndicator" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "optional" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "autoresize" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "resize" : {
+      "type" : "JSON_LITERAL",
+      "value" : "vertical"
+    },
+    "showBorders" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "showCounter" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "name" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "autofocus" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "ckfwjjahhdsaaaabbyddhhhiieeryvfcdc",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_textarea.NOW_TEXTAREA#INPUT",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_textarea.NOW_TEXTAREA#INPUT",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "30f6086887825910952f87f5cebb35cf"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckfwjjahhdsaaaabbzddhhhiijjhhteeffada",
+      "type" : "CLIENT_SCRIPT"
+    }, {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "74f6086887825910952f87f5cebb35c1"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckfwjjalxtaaaaccaaddhhhiiypffqrerq",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d667a5e769598b2e5c6e92ebe73394f6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "button_1",
+  "elementLabel" : "Button 1",
+  "propertyValues" : {
+    "variant" : {
+      "type" : "JSON_LITERAL",
+      "value" : "primary"
+    },
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "md"
+    },
+    "label" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Reject",
+        "comment" : ""
+      }
+    },
+    "icon" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "disabled" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "disableReject" ]
+      }
+    },
+    "tooltipContent" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "toolTipText" ]
+      }
+    },
+    "configAria" : {
+      "type" : "MAP_CONTAINER",
+      "container" : { }
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "ckfwbfzdsaaaaaanddhhhiiiiccdaakccng",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : null,
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : {
+        "dataBrokerId" : "3ef24d6b0fa310106dc9445485767efc",
+        "operationName" : "EXECUTE",
+        "parentResourceId" : "reject_major_case_candidate_1",
+        "payload" : {
+          "type" : "MAP_CONTAINER",
+          "container" : {
+            "caseSysID" : {
+              "type" : "CONTEXT_BINDING",
+              "binding" : {
+                "address" : [ "sysId" ],
+                "category" : "props"
+              }
+            },
+            "worknotes" : {
+              "type" : "STATE_BINDING",
+              "binding" : {
+                "address" : [ "worknotes" ]
+              }
+            }
+          }
+        }
+      },
+      "targetId" : "ckfwbfzdsaaaaaaoddhhhiihhvptiicjjg",
+      "type" : "DATABROKER_OP"
+    }, {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "f4f6086887825910952f87f5cebb35c9"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckhaaahhwcbbaaaaaawddhhhutudtiijiiii",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "slot" : "Footer",
+  "definition" : {
+    "id" : "d37ce8abca89d02905fed903c8e34d8e",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "padding-left" : "8px"
+  }
+}, {
+  "elementId" : "button_2",
+  "elementLabel" : "Button 2",
+  "propertyValues" : {
+    "variant" : {
+      "type" : "JSON_LITERAL",
+      "value" : "secondary"
+    },
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "md"
+    },
+    "label" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Cancel",
+        "comment" : ""
+      }
+    },
+    "icon" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "disabled" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "tooltipContent" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Cancel",
+        "comment" : ""
+      }
+    },
+    "configAria" : {
+      "type" : "MAP_CONTAINER",
+      "container" : { }
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "ckfwjjbaduaaaaccjjddhhhiiggnccaarefr",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : null,
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : {
+        "apiName" : "sn_majorissue_mgt.MODAL_SELECTED_RELAY_c3379cde0f6710106dc9445485767eda",
+        "payload" : {
+          "type" : "JSON_LITERAL",
+          "value" : {
+            "modalId" : null,
+            "showModal" : null,
+            "displayOptions" : null,
+            "bare" : null
+          }
+        },
+        "sysId" : "9facb8ef0f2310106dc9445485767e81"
+      },
+      "operation" : null,
+      "targetId" : "ckfwjjbaduaaaaccaddhhhiiqfffjjcaasjj",
+      "type" : "EVENT"
+    } ]
+  } ],
+  "slot" : "Footer",
+  "definition" : {
+    "id" : "d37ce8abca89d02905fed903c8e34d8e",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "padding-left" : "8px"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "3ef24d6b0fa310106dc9445485767efc",
+    "type" : "TRANSFORM"
+  },
+  "elementId" : "reject_major_case_candidate_1",
+  "elementLabel" : "Reject major case candidate 1",
+  "eventMappings" : [ {
+    "eventMappingId" : "ckhaaaddaabkaaaaaapddhhhuggbgkufcn",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf.DATA_OP_SUCCEEDED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf.DATA_OP_SUCCEEDED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "bcf6086887825910952f87f5cebb35c4"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckhaaaddaablaaaaaaqddhhhuqgabbiicczr",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "inputValues" : { },
+  "readEvaluationMode" : "EXPLICIT"
+}, {
+  "definition" : {
+    "id" : "7df1f5dfc78020102cdf073703c260ea",
+    "type" : "TRANSFORM"
+  },
+  "elementId" : "get_case_data_1",
+  "elementLabel" : "Get case data 1",
+  "eventMappings" : [ {
+    "eventMappingId" : "ckhakbzmnaaaabblddhiiaddhhblaajddt",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf.DATA_FETCH_INITIATED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf.DATA_FETCH_INITIATED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "78f6086887825910952f87f5cebb35d5"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckhakbzmnaaaabbmddhiiaccffccddvmhhj",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "inputValues" : {
+    "caseSysID" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "sysId" ],
+        "category" : "props"
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <dispatched_events>9facb8ef0f2310106dc9445485767e81,fd65c7040fb710106dc9445485767eb3</dispatched_events>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"slotName":"Header","rules":{"grid-area":"header"},"styles":{"display":"flex","flex-direction":"column","height":"fit-content"}},{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column","height":"fit-content","padding-bottom":"32px"}},{"slotName":"Footer","rules":{"grid-area":"footer"},"styles":{"display":"flex","flex-direction":"row-reverse","height":"fit-content"}}],
+    "root" : null,
+    "rules" : {"grid-template-columns":"1fr","grid-template-areas":"\"header\" \"main\" \"footer\"","height":"100%"},
+    "styles" : {"padding":"12px","margin":"12px"},
+    "templateId" : "7ebde90d53c31010e6bcddeeff7b126d",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Reject Major Case Candidate</name>
+        <props>[ {
+  "name" : "table",
+  "label" : "Table",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false,
+  "disabled" : false
+}, {
+  "name" : "sysId",
+  "label" : "sysId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false,
+  "disabled" : false
+} ]</props>
+        <required_translations>[ {
+  "message" : "Cancel",
+  "comment" : ""
+}, {
+  "message" : "Internal work notes - not visible to customer",
+  "comment" : ""
+}, {
+  "message" : "Reject",
+  "comment" : ""
+}, {
+  "message" : "Reject major case candidate",
+  "comment" : ""
+}, {
+  "message" : "Work Notes",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ {
+  "name" : "worknotes",
+  "label" : "worknotes",
+  "fieldType" : "string",
+  "valueType" : "string",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "disableReject",
+  "label" : "disableReject",
+  "fieldType" : "boolean",
+  "valueType" : "boolean",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  }
+}, {
+  "name" : "descriptionText",
+  "label" : "descriptionText",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : "Enter the reason that you are rejecting this proposed major case."
+  }
+}, {
+  "name" : "toolTipText",
+  "label" : "toolTipText",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+} ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-16 15:47:08</sys_created_on>
+        <sys_id>70f6086887825910952f87f5cebb35a6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Reject Major Case Candidate</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_macroponent_70f6086887825910952f87f5cebb35a6</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-16 15:47:08</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

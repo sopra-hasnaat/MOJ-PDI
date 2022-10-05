@@ -6,11 +6,22 @@
         <element label="Attachments" max_length="40" name="attachments" type="file_attachment"/>
         <element label="Case" max_length="32" name="case" reference="sn_customerservice_case" type="reference"/>
         <element label="Concurrent Order" max_length="40" name="concurrent_order" type="boolean"/>
+        <element label="Confirmed Date" max_length="40" name="confirmed_date" type="glide_date_time"/>
         <element choice="1" label="Sentencing Court/Releasing Prison" max_length="200" name="court_prison" reference="x_ster2_emfs_sentencing_organisations" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
             <choice/>
         </element>
         <element label="Court Reference" max_length="200" name="court_reference" type="string"/>
         <element label="Curfew Schedules" max_length="8000" name="curfew_schedules" type="html"/>
+        <element choice="1" label="Enforceable Conditions" max_length="40" name="enforceable_conditions" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Curfew with EM" sequence="1" value="curfew"/>
+                <element inactive_on_update="false" label="Location Monitoring (Fitted Device)" sequence="2" value="location_monitoring_fitted"/>
+                <element inactive_on_update="false" label="Location Monitoring (using Non-Fitted Device)" sequence="3" value="location_monitoring_nonfitted"/>
+                <element inactive_on_update="false" label="EM Exclusion/ Inclusion Zone" sequence="4" value="zone"/>
+                <element inactive_on_update="false" label="AAMR" sequence="5" value="aamr"/>
+                <element inactive_on_update="false" label="AML" sequence="6" value="aml"/>
+            </choice>
+        </element>
         <element choice="1" label="Monitoring Type" max_length="40" name="monitoring_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="GPS" sequence="10" value="gps"/>
@@ -19,22 +30,72 @@
                 <element inactive_on_update="false" label="Non-Fitted" sequence="40" value="non-fitted"/>
             </choice>
         </element>
+        <element label="Notifying Officer" max_length="32" name="notifying_officer" reference="x_ster2_emfs_sentencing_organisation_users" type="reference"/>
+        <element label="Notifying Organisation" max_length="32" name="notifying_organisation" reference="x_ster2_emfs_sentencing_organisations" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
-        <element choice="1" label="Order Type" max_length="40" name="order_type" type="choice">
+        <element choice="1" label="Condition Type" max_length="40" name="order_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="CO (Court Order)" sequence="10" value="co"/>
-                <element inactive_on_update="false" label="PR (Prison Release)" sequence="20" value="pr"/>
-                <element inactive_on_update="false" label="PT (Bail Pre-Trial)" sequence="30" value="pt"/>
-                <element inactive_on_update="false" label="IE (Immigration Enforcement)" sequence="40" value="ie"/>
-                <element inactive_on_update="false" label="HO (Home Office)" sequence="50" value="ho"/>
+                <element inactive="true" inactive_on_update="true" label="CO (Court Order)" sequence="10" value="co"/>
+                <element inactive="true" inactive_on_update="true" label="PR (Prison Release)" sequence="20" value="pr"/>
+                <element inactive="true" inactive_on_update="true" label="PT (Bail Pre-Trial)" sequence="30" value="pt"/>
+                <element inactive="true" inactive_on_update="true" label="IE (Immigration Enforcement)" sequence="40" value="ie"/>
+                <element inactive="true" inactive_on_update="true" label="HO (Home Office)" sequence="50" value="ho"/>
+                <element inactive_on_update="false" label="R =Requirement of a Community Order" sequence="60" value="r"/>
+                <element inactive_on_update="false" label="L = Licence Condition of a Custodial Order" sequence="70" value="l"/>
+                <element inactive_on_update="false" label="P = Post-Sentence Supervision Requirement following on from an Adult Custody order" sequence="80" value="p"/>
+                <element inactive_on_update="false" label="B = Bail Order" sequence="90" value="b"/>
             </choice>
         </element>
-        <element label="Other Offence" max_length="200" name="other_offence" type="string"/>
+        <element choice="1" label="Order Type" max_length="50" name="order_type2" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Adult Custody" sequence="1" value="adult_custody"/>
+                <element inactive_on_update="false" label="Community Order" sequence="2" value="community_order"/>
+                <element inactive_on_update="false" label="EM Order" sequence="3" value="em_order"/>
+                <element inactive_on_update="false" label="Youth Custody" sequence="4" value="youth_custody"/>
+                <element inactive_on_update="false" label="ISSP" sequence="5" value="issp"/>
+                <element inactive_on_update="false" label="TPIMS Notice" sequence="6" value="tpims"/>
+                <element inactive_on_update="false" label="Immigration Bail Order" sequence="7" value="immigration_bail"/>
+                <element inactive_on_update="false" label="Domestic Abuse Protection Order/Notice" sequence="8" value="domestic_abuse"/>
+                <element inactive_on_update="false" label="Suspended Sentence Order" sequence="9" value="suspended_sentence"/>
+                <element inactive_on_update="false" label="Youth Rehabilitation Order" sequence="10" value="youth_rehabilitation"/>
+                <element inactive_on_update="false" label="Bail Order" sequence="11" value="bail_order"/>
+                <element inactive_on_update="false" label="Supervision Default Order" sequence="12" value="supervision_default"/>
+                <element inactive_on_update="false" label="Deferred Sentence" sequence="13" value="deferred_sentence"/>
+                <element inactive_on_update="false" label="Military Court Order" sequence="14" value="military_court"/>
+            </choice>
+        </element>
+        <element choice="1" label="Outcome" max_length="40" name="outcome" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Natural End" sequence="1" value="natural_end"/>
+                <element inactive_on_update="false" label="Cease" sequence="2" value="cease"/>
+            </choice>
+        </element>
         <element label="Planned End Date" max_length="40" name="planned_end_date" type="glide_date_time"/>
-        <element choice="1" label="Primary Offence" max_length="40" name="primary_offence" type="string">
-            <choice/>
+        <element choice="1" label="Offence" max_length="40" name="primary_offence" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Criminal damage and arson" sequence="1" value="criminal_damage"/>
+                <element inactive_on_update="false" label="Drug offences" sequence="2" value="drugs"/>
+                <element inactive_on_update="false" label="Fraud Offences" sequence="3" value="fraud"/>
+                <element inactive_on_update="false" label="Miscellaneous crimes against society" sequence="4" value="misc"/>
+                <element inactive_on_update="false" label="Possession of weapons" sequence="5" value="weapon"/>
+                <element inactive_on_update="false" label="Public order offences" sequence="6" value="public _order"/>
+                <element inactive_on_update="false" label="Robbery" sequence="7" value="robbery"/>
+                <element inactive_on_update="false" label="Sexual offences" sequence="8" value="sexual"/>
+                <element inactive_on_update="false" label="Summary Motoring" sequence="9" value="motoring"/>
+                <element inactive_on_update="false" label="Summary Non-Motoring" sequence="10" value="non_motoring"/>
+                <element inactive_on_update="false" label="Theft Offences" sequence="11" value="theft"/>
+                <element inactive_on_update="false" label="Violence against the person" sequence="12" value="violence"/>
+                <element inactive_on_update="false" label="Offence not recorded" sequence="13" value="not_recorded"/>
+            </choice>
         </element>
         <element label="Primary Order" max_length="40" name="primary_order" type="boolean"/>
+        <element choice="1" default="new" label="Request Type" max_length="40" name="request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New Order" sequence="1" value="new"/>
+                <element inactive_on_update="false" label="Variation" sequence="2" value="variation"/>
+                <element inactive_on_update="false" label="Cease" sequence="3" value="cease"/>
+            </choice>
+        </element>
         <element choice="1" label="Responsible Area" max_length="40" name="responsible_area" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Probation" sequence="10" value="probation"/>
@@ -53,15 +114,38 @@
             </choice>
         </element>
         <element label="Start Date/Time" max_length="40" name="start_date_time" type="glide_date_time"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Live" sequence="1" value="live"/>
+                <element inactive_on_update="false" label="Complete" sequence="2" value="complete"/>
+                <element inactive_on_update="false" label="Revoked" sequence="4" value="revoked"/>
+                <element inactive_on_update="false" label="Starts Today" sequence="5" value="starts_today"/>
+                <element inactive_on_update="false" label="Void" sequence="6" value="void"/>
+            </choice>
+        </element>
         <element label="Subject Name" max_length="32" name="subject_name" reference="x_ster2_emfs_subject" reference_qual="subject_nameSTARTSWITH^EQ" reference_qual_condition="subject_nameSTARTSWITH^EQ" type="reference"/>
-        <element label="Sub Order Type" max_length="200" name="sub_order_type" type="string"/>
         <element label="Supervised Order" max_length="200" name="supervised_order" type="boolean"/>
+        <element label="Variation Details" max_length="500" name="variation_details" type="string"/>
+        <element choice="1" label="Variation Type" max_length="40" name="variation_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Change of curfew hours" sequence="1" value="curfew_hours"/>
+                <element inactive_on_update="false" label="Change of address" sequence="2" value="address_change"/>
+                <element inactive_on_update="false" label="Change to add an Inclusion or Exclusion Zone(s)" sequence="3" value="add_zone"/>
+                <element inactive_on_update="false" label="Change to an existing Inclusion or Exclusion Zone(s)." sequence="4" value="amend_zone"/>
+            </choice>
+        </element>
         <element label="Work Notes" max_length="4000" name="work_notes" type="journal_input"/>
         <element label="Work Notes List" max_length="4000" name="work_notes_list" reference="sys_user" type="glide_list"/>
         <index name="index">
-            <element name="subject_name"/>
+            <element name="notifying_officer"/>
         </index>
         <index name="index2">
+            <element name="notifying_organisation"/>
+        </index>
+        <index name="index3">
+            <element name="subject_name"/>
+        </index>
+        <index name="index4">
             <element name="case"/>
         </index>
     </element>

@@ -6,10 +6,11 @@
         <element label="Location" max_length="50" name="location" type="string"/>
         <element label="Name" max_length="100" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="2" label="Type" max_length="40" name="type" type="choice">
+        <element choice="2" label="Type" max_length="40" name="type" type="glide_list">
             <choice>
                 <element inactive_on_update="false" label="Prison" sequence="0" value="prison"/>
                 <element inactive_on_update="false" label="Court" sequence="1" value="court"/>
+                <element inactive_on_update="false" label="Young Offender Institution" sequence="2" value="yoi"/>
             </choice>
         </element>
     </element>

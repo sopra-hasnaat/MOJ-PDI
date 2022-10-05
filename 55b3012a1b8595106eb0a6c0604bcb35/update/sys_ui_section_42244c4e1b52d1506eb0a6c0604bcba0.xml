@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Outcome" section_id="42244c4e1b52d1506eb0a6c0604bcba0" sys_domain="global" table="x_ster2_emfs_monitoring_order" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>actual_end_date</element>
+            <position>0</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:44:55</sys_created_on>
+            <sys_id>04f4888e1b52d1506eb0a6c0604bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outcome" display_value="Outcome" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">42244c4e1b52d1506eb0a6c0604bcba0</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:44:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>outcome</element>
+            <position>1</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:44:55</sys_created_on>
+            <sys_id>08f4888e1b52d1506eb0a6c0604bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outcome" display_value="Outcome" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">42244c4e1b52d1506eb0a6c0604bcba0</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:44:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Outcome</caption>
+            <header>false</header>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-03 17:41:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42244c4e1b52d1506eb0a6c0604bcba0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ster2_emfs_monitoring_order</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_ui_section_42244c4e1b52d1506eb0a6c0604bcba0</sys_update_name>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-03 17:41:31</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

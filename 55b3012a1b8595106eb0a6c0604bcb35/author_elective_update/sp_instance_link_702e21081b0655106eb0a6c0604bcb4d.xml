@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>handshake-o</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>2</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b5a8a21c87ca1910952f87f5cebb3579</sp_column>
+        <sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-15 10:01:00</sys_created_on>
+        <sys_id>702e21081b0655106eb0a6c0604bcb4d</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Helping Hands</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_instance_link_702e21081b0655106eb0a6c0604bcb4d</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-09-16 08:57:16</sys_updated_on>
+        <title>Helping Hands</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=702e21081b0655106eb0a6c0604bcb4d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sp_instance_link_702e21081b0655106eb0a6c0604bcb4d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;handshake-o&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;b5a8a21c87ca1910952f87f5cebb3579&lt;/sp_column&gt;&lt;sp_page display_value="kb_view2"&gt;26c2e030d7201200a9addd173e24d437&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;rebecca.seiga.ems&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-15 10:01:00&lt;/sys_created_on&gt;&lt;sys_id&gt;702e21081b0655106eb0a6c0604bcb4d&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name&gt;Helping Hands&lt;/sys_name&gt;&lt;sys_package display_value="Electronic Monitoring" source="x_ster2_emfs"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Electronic Monitoring"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_702e21081b0655106eb0a6c0604bcb4d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;rebecca.seiga.ems&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-16 08:57:16&lt;/sys_updated_on&gt;&lt;title&gt;Helping Hands&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=702e21081b0655106eb0a6c0604bcb4d"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-579492814</payload_hash>
+        <record_name>Helping Hands</record_name>
+        <reverted_from/>
+        <source>c5a2ce3b87f59510952f87f5cebb35d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-16 08:57:16</sys_created_on>
+        <sys_id>cd29aa1c87ca1910952f87f5cebb35c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1834584396b0000001</sys_recorded_at>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-09-16 08:57:16</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>c529aa1c2dca1910643efdb25eaee4c9</update_guid>
+        <update_guid_history>c529aa1c2dca1910643efdb25eaee4c9:-579492814,dfc8661c5dca19100b45d7f620b7a912:-1996637600,dbb8e21c53ca1910f333021b619aefdb:-1504304769,21b8e21ca5ca1910a76db511b8d6bc53:-1996637600,80b8a21c82ca1910c5620c92445ea2f1:-1504304769,f2a8a21c38ca1910696144cdecfa72ad:-1011971938,94a8a21c96ca1910bbb83c7f31a1d123:-519639107,da88221c46ca1910c14ba35d8258f020:-27306276,3834eecc2dc6551045a315cc537be7af:465026555,5c34eecc64c65510846bcfc86ec5ff72:-27306276,6af3eaccacc65510ee639443df4509b9:465026555,75f3eacc94c655109df9bba9beedb58f:-27306276,a8e36acc49c65510bab70306877d25b9:465026555,f6cf6d48080655105b542b87e10bf8d3:-27306276,953ea1088c0655103a669c07dbc468e9:-249587443,382e2108bd0655100230991e7f10b64e:1707040391</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Helping Hands">6c549b1c878e1910952f87f5cebb3566</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-16 12:05:55</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>0aae17e8c45549e2800137d37bcfe844</sys_id>
+        <sys_metadata>702e21081b0655106eb0a6c0604bcb4d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Helping Hands</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sp_instance_link_702e21081b0655106eb0a6c0604bcb4d</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_702e21081b0655106eb0a6c0604bcb4d">cd29aa1c87ca1910952f87f5cebb35c9</sys_update_version>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-09-16 12:05:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

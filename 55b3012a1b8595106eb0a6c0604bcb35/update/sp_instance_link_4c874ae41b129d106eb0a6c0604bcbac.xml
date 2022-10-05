@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">83496e1c87ca1910952f87f5cebb35ca</sp_column>
+        <sp_page display_value="help_me">96968da2875ad550952f87f5cebb3598</sp_page>
+        <sp_widget display_value="helpme">c13742e41b129d106eb0a6c0604bcbab</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-29 11:24:28</sys_created_on>
+        <sys_id>4c874ae41b129d106eb0a6c0604bcbac</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Help Me With Something</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_instance_link_4c874ae41b129d106eb0a6c0604bcbac</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-10-05 11:51:03</sys_updated_on>
+        <title>Help Me With Something</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=4c874ae41b129d106eb0a6c0604bcbac"/>
+</record_update>

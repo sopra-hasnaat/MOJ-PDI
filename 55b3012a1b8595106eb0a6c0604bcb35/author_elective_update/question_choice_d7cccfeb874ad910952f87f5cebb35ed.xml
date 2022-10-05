@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref display_value="Guardian">e50f7eaa8786d510952f87f5cebb3555</published_ref>
+        <question display_value="Relationship">9fcccfeb874ad910952f87f5cebb35bb</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-26 13:53:20</sys_created_on>
+        <sys_id>d7cccfeb874ad910952f87f5cebb35ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Guardian</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_d7cccfeb874ad910952f87f5cebb35ed</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-09-26 13:53:20</sys_updated_on>
+        <text>Guardian</text>
+        <value>Guardian</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=d7cccfeb874ad910952f87f5cebb35ed"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_d7cccfeb874ad910952f87f5cebb35ed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref display_value="Guardian">e50f7eaa8786d510952f87f5cebb3555</published_ref><question display_value="Relationship">9fcccfeb874ad910952f87f5cebb35bb</question><sys_class_name>question_choice</sys_class_name><sys_created_by>rebecca.seiga.ems</sys_created_by><sys_created_on>2022-09-26 13:53:20</sys_created_on><sys_id>d7cccfeb874ad910952f87f5cebb35ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Guardian</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>question_choice_d7cccfeb874ad910952f87f5cebb35ed</sys_update_name><sys_updated_by>rebecca.seiga.ems</sys_updated_by><sys_updated_on>2022-09-26 13:53:20</sys_updated_on><text>Guardian</text><value>Guardian</value></question_choice><fx_price action="delete_multiple" query="id=d7cccfeb874ad910952f87f5cebb35ed"/></record_update>]]></payload>
+        <payload_hash>44680643</payload_hash>
+        <record_name>Guardian</record_name>
+        <reverted_from/>
+        <source>2f19971487ce1910952f87f5cebb35b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-26 13:53:20</sys_created_on>
+        <sys_id>9fcccfeb874ad910952f87f5cebb35ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1837a12de890000001</sys_recorded_at>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-09-26 13:53:20</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>17cccfebbb4ad91027c43e2cd9df1def</update_guid>
+        <update_guid_history>17cccfebbb4ad91027c43e2cd9df1def:44680643</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Guardian">8f0d8f271b4a99106eb0a6c0604bcb5a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-26 13:54:24</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>130d5925be9e438aa01335e9b35bbd29</sys_id>
+        <sys_metadata>d7cccfeb874ad910952f87f5cebb35ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Guardian</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">9fcccfeb874ad910952f87f5cebb35bb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_d7cccfeb874ad910952f87f5cebb35ed</sys_update_name>
+        <sys_update_version display_value="question_choice_d7cccfeb874ad910952f87f5cebb35ed">9fcccfeb874ad910952f87f5cebb35ef</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-26 13:54:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
