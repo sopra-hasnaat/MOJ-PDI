@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="List">11faf3fc87de1150952f87f5cebb3597</macroponent>
+        <name>container_2___isHidden__</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    if (api.context.props.listId === '5574300f1b6595906eb0a6c0604bcbe1') {
+        console.log("This is subject list");
+        return false;
+    } else {
+        console.log(api.context.props.listId);
+        return true;
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-30 15:13:45</sys_created_on>
+        <sys_id>e09504c987125150952f87f5cebb35e0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>container_2___isHidden__</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_client_script_e09504c987125150952f87f5cebb35e0</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-30 15:16:15</sys_updated_on>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_ux_client_script_e09504c987125150952f87f5cebb35e0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="List"&gt;11faf3fc87de1150952f87f5cebb3597&lt;/macroponent&gt;&lt;name&gt;container_2___isHidden__&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    if (api.context.props.listId === '5574300f1b6595906eb0a6c0604bcbe1') {
+        console.log("This is subject list");
+        return false;
+    } else {
+        console.log(api.context.props.listId);
+        return true;
+    }
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;hasnaat.khan.ems&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-30 15:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;e09504c987125150952f87f5cebb35e0&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;container_2___isHidden__&lt;/sys_name&gt;&lt;sys_package display_value="Electronic Monitoring" source="x_ster2_emfs"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Electronic Monitoring"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_e09504c987125150952f87f5cebb35e0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;hasnaat.khan.ems&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-30 15:16:15&lt;/sys_updated_on&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-552650815</payload_hash>
+        <record_name>container_2___isHidden__</record_name>
+        <reverted_from/>
+        <source>0d6c503f87b55510952f87f5cebb356b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-30 15:16:15</sys_created_on>
+        <sys_id>4926800d87125150952f87f5cebb35b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1838ef837cb0000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-30 15:16:15</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>0126800d7912515092f109f0c664feb3</update_guid>
+        <update_guid_history>0126800d7912515092f109f0c664feb3:-552650815,d806ccc944125150f7bcee8c904d775f:1854717564,9fb588c9db12515097419a3b2eccb81c:-1717303867,9595c4c95a125150fccda5341b49b015:92732027,209584c9641251502f96971241451eac:-1331108063</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-30 15:17:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>29777fdcff8d4b408856bc80a1c7b100</sys_id>
+        <sys_metadata>e09504c987125150952f87f5cebb35e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>container_2___isHidden__</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_e09504c987125150952f87f5cebb35e0</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_e09504c987125150952f87f5cebb35e0">4926800d87125150952f87f5cebb35b3</sys_update_version>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-30 15:17:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

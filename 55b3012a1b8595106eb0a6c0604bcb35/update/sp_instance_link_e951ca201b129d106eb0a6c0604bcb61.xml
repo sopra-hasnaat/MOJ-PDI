@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item display_value="Appointment Booking">374516f987da1550952f87f5cebb35e6</sc_cat_item>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">315ecbe98706d110952f87f5cebb3554</sp_column>
+        <sp_page display_value="angular_bootstrap_calendar">457631d7db10230002157a61399619b7</sp_page>
+        <sp_widget display_value="my_appointments">6e8fb5ac1bde5d106eb0a6c0604bcb4c</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-29 10:57:32</sys_created_on>
+        <sys_id>e951ca201b129d106eb0a6c0604bcb61</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>My Appointments</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_instance_link_e951ca201b129d106eb0a6c0604bcb61</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-10-03 10:56:27</sys_updated_on>
+        <title>My Appointments</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=e951ca201b129d106eb0a6c0604bcb61"/>
+</record_update>

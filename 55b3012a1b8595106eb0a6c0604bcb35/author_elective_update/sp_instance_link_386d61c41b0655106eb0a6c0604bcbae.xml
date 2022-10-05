@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>thumbs-o-up</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>2</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1c6d61c41b0655106eb0a6c0604bcbaa</sp_column>
+        <sp_page display_value="my_day">671621cc1bc255106eb0a6c0604bcbc9</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-15 09:57:44</sys_created_on>
+        <sys_id>386d61c41b0655106eb0a6c0604bcbae</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>My Day</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_instance_link_386d61c41b0655106eb0a6c0604bcbae</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-09-16 08:54:24</sys_updated_on>
+        <title>My Day</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=386d61c41b0655106eb0a6c0604bcbae"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sp_instance_link_386d61c41b0655106eb0a6c0604bcbae</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;thumbs-o-up&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;1c6d61c41b0655106eb0a6c0604bcbaa&lt;/sp_column&gt;&lt;sp_page display_value="my_day"&gt;671621cc1bc255106eb0a6c0604bcbc9&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;rebecca.seiga.ems&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-15 09:57:44&lt;/sys_created_on&gt;&lt;sys_id&gt;386d61c41b0655106eb0a6c0604bcbae&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Day&lt;/sys_name&gt;&lt;sys_package display_value="Electronic Monitoring" source="x_ster2_emfs"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Electronic Monitoring"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_386d61c41b0655106eb0a6c0604bcbae&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;rebecca.seiga.ems&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-16 08:54:24&lt;/sys_updated_on&gt;&lt;title&gt;My Day&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=386d61c41b0655106eb0a6c0604bcbae"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1465946185</payload_hash>
+        <record_name>My Day</record_name>
+        <reverted_from/>
+        <source>c5a2ce3b87f59510952f87f5cebb35d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-16 08:54:24</sys_created_on>
+        <sys_id>f278eed887ca1910952f87f5cebb3506</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183458197130000001</sys_recorded_at>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-09-16 08:54:24</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>7a78eed8d1ca1910a4ada2c7bfe30705</update_guid>
+        <update_guid_history>7a78eed8d1ca1910a4ada2c7bfe30705:1465946185,7e946600200a5510e925fe4c346f2dea:625503879,93842600300a55102155825701e1841d:1465946185,3434eeccf5c655106348e77afacb929f:912400991,1834eecc0ec65510c1ec8ec9c5e96f30:1039244608,a2f3aaccb4c65510c908a840aa0a12a4:912400991,b9f3eacce8c655105df1177245cefb72:1039244608,68e36acc05c65510d0acc436e2e3099c:912400991,d88d29c45f06551099187f8b0680df00:1039244608,496d65c4600655102093e12e47deb9dd:-1670777077</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Day">9288221c87ca1910952f87f5cebb3500</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-16 08:54:37</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>29b89523aa3942349cec4654e89d8010</sys_id>
+        <sys_metadata>386d61c41b0655106eb0a6c0604bcbae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Day</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sp_instance_link_386d61c41b0655106eb0a6c0604bcbae</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_386d61c41b0655106eb0a6c0604bcbae">f278eed887ca1910952f87f5cebb3506</sys_update_version>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-09-16 08:54:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

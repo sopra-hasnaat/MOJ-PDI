@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, $rootScope, moment, $location, calendarEventTitle) {
+	// See https://mattlewis92.github.io/angular-bootstrap-calendar
+	var vm = this;
+	vm.events = vm.options.events || [];
+	
+	vm.events.forEach(function(x){
+		x.startsAt = new Date(x.startsAt);
+		x.endsAt = new Date(x.endsAt);
+	});
+	
+	var hash = getHash();
+	
+	vm.calendarView = hash.calendarView || vm.options.default_calendar_view || 'week';
+
+	
+	if(!vm.options.start_date){
+		if(vm.calendarView == 'week'){
+			vm.viewDate = moment().startOf('week').toDate();
+		} else {
+			vm.viewDate = new Date(); // Today
+		}
+	} else {
+		vm.viewDate = new Date(vm.options.start_date);
+	}
+	
+	vm.hiddenButtons = [];
+	
+	vm.getViewDateTitle = function (){
+		var viewFormats = {
+			year: 'YYYY',
+			month: 'MMM YYYY',
+			week: 'MMM YYYY',
+			day: 'MM/DD/YYYY'
+		};
+		
+		return moment(vm.viewDate).format(viewFormats[vm.calendarView]);
+	}
+	
+	$scope.$watchGroup(['vm.calendarView','vm.viewDate'], function(){
+		vm.viewDateTitle = vm.getViewDateTitle();
+		
+		// Put the view in the browser hash so that it can be bookmarked
+		var hash = getHash();
+		hash.calendarView = vm.calendarView;
+		var hashString = Object.keys(hash).map(function(key){ return key + '=' + hash[key]; }).join('&');
+		$location.hash(hashString);
+	});
+	
+	// Use this to interact with a containing widget
+	// Implement $rootScope.$on in the calling widget and you can do all of the
+	// activities you can do with "vm." in the Matt's sample code such as overriding
+	// text of event display and subscribing to events like click
+	$rootScope.$broadcast('angular-bootstrap-calendar-init', vm);
+
+	function getHash(){
+		var hash = $location.hash().split('&').reduce(function(obj, x){
+			var pieces = x.split('=');
+			if(pieces[0]){
+				obj[pieces[0]] = pieces[1] || '';
+			}
+			return obj;
+		}, {});
+		
+		return hash;
+	}
+}
+
+/* SAMPLE:
+		vm.events = [
+		{
+			title: 'Resizable event',
+			color: vm.options.colorTypes.warning,
+			startsAt: moment().startOf('week').toDate(),
+			endsAt: moment().startOf('week').add(1, 'hour').toDate(), //ends at is required
+			resizable: true
+		},
+		{
+			title: 'Non-resizeable event',
+			color: vm.options.colorTypes.info,
+			startsAt: moment().startOf('week').toDate(),
+			endsAt: moment().startOf('week').add(1, 'hour').toDate(), //ends at is required
+			resizable: false
+		}
+	];// */
+
+]]></client_script>
+        <controller_as>vm</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>curfew_calendar</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>curfew calendar</name>
+        <option_schema>[{"hint":"Whether or not to show the navigation header","name":"show_navigation","section":"Presentation","label":"Show Navigation Header","type":"boolean"},{"hint":"Date to start the calendar on","name":"start_date","section":"Data","label":"Start Date","type":"string"},{"hint":"{ 'calendarMonthCellEvents' : 'calendarMonthCellEvents.html', 'calendarWeekView' : 'calendarWeekView.html' }","name":"custom_template_urls","section":"Presentation","label":"Custom Template Urls","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	// See https://mattlewis92.github.io/angular-bootstrap-calendar
+	
+	// This option can be set with a JSON string in the properties of the
+	// widget or passed in as an object when using the $sp.getWidget method
+	if(options.custom_template_urls){
+		if(typeof options.custom_template_urls == 'string'){
+			data.customTemplateUrls = JSON.parse(options.custom_template_urls);
+		} else {
+			data.customTemplateUrls = options.custom_template_urls;
+		}
+	} else {
+		data.customTemplateUrls = '';
+	}
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-20 14:53:13</sys_created_on>
+        <sys_id>c6f0ac79878ad110952f87f5cebb3557</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>curfew calendar</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_widget_c6f0ac79878ad110952f87f5cebb3557</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-09-21 09:47:27</sys_updated_on>
+        <template><![CDATA[<!-- 	// See https://mattlewis92.github.io/angular-bootstrap-calendar -->
+<div class="mwlCalendarWrapper" id="{{::vm.options.id}}" ng-show="!vm.hidden">
+<ng-include ng-if="vm.options.show_navigation === true" src="'calendarControls.html'"></ng-include>  
+  <mwl-calendar
+    events="vm.events"
+    view="vm.calendarView"
+    view-date="vm.viewDate"
+    custom-template-urls="vm.customTemplateUrls"
+    on-event-click="vm.eventClicked(calendarEvent)">
+  </mwl-calendar>
+</div>]]></template>
+    </sp_widget>
+</record_update>

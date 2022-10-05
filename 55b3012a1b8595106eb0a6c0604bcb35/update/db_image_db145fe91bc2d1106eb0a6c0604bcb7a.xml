@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <format>JPEG</format>
+        <height>39</height>
+        <image>b684d32d1bc2d1106eb0a6c0604bcb7c</image>
+        <name>my_tag.jpg</name>
+        <size_bytes>1720</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-20 09:19:09</sys_created_on>
+        <sys_id>db145fe91bc2d1106eb0a6c0604bcb7a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>my_tag.jpg</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>db_image_db145fe91bc2d1106eb0a6c0604bcb7a</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-09-20 09:38:44</sys_updated_on>
+        <thumbnail/>
+        <width>41</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#dcdadb</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <encryption_context/>
+        <file_name>image</file_name>
+        <hash>2722a5392c1bc25422e9d7674a5b360b0c44641a716addfef2e4026865b2fcc9</hash>
+        <image_height>39</image_height>
+        <image_width>41</image_width>
+        <size_bytes>1720</size_bytes>
+        <size_compressed>1580</size_compressed>
+        <state>available</state>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-20 09:19:18</sys_created_on>
+        <sys_id>b684d32d1bc2d1106eb0a6c0604bcb7c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-09-20 09:19:19</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>db145fe91bc2d1106eb0a6c0604bcb7a</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="b684d32d1bc2d1106eb0a6c0604bcb7c">b684d32d1bc2d1106eb0a6c0604bcb7c</sys_attachment>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-20 09:19:18</sys_created_on>
+        <sys_id>f684d32d1bc2d1106eb0a6c0604bcb7c</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>nZF7NJRpGMC/b2aYGaYYoyFJYSTGJmGKlNxvZZeKELaUpuwkhKl1zShE4xJjta1GQmI1LuNayiW5JbeYSS5DN2vsfF00MczOdNrdf/aP3f29z3vOe87zPO95fucRj4onAUVneyd7AARBIF1yAPFzwAaAgaA0vgKXgUuRRSDgMkhZJFJ6UWh5NAolh0Ii5VbJycljJCDRqxVWYVZL39JPpO3SLklgUEgU5j8jfgBgUYAuoAcHtQAYFoRjQXEbsAEAQBnwC8BXQBgcISMrGUlOXlJQoygZHw6HSYaVQSAk2WhJHkBgZZQ0jaxkcW5HkFohytviM5gobWvWwzXu/QKC8dHQC2g5vIrqWjWdTbqb9fRNTEnbd5iZ29ja2Ts4OjnvP3DQw/OQl3fAseOBJ8gnT4WdDY+IpJ47n0BLvHgpKTklM+tqdg4j96e8gpuFt4qKS26XVlZV17Br6+obWlrb2h91PO7sGhgcGn42MsrhTvGmZ16+ev3m7Sz07v2HjwufhJ8XpV4gAAf/5B+9sBIvmGQHCKTUC4RFSguwCBlNI1klKzfkkRCc1rZ4lLJ1BpP1EK1t7C5YczS0Xw5PMJnSgaRqX8z+ndiF/2X2l9jfXlwAAwcly4NjAUtgWfQrjufPx94QkSCEmir9AKSQsuUmzoZJZk8ENRvh6KYjmpp0s+WZJ0mOG5WohcsF93X9o4wFGP/RDJsQXizW34b5xs0VTRt3dfQiwPO3EJT2Toa64+GZxOlYGkOtI7nJfUWjgfWsZlnBbzjY3WTw1sqTOujFmEqmz5i//6xGgMUzoz3JmqN329So5f0EEJ+rAd1ZGePO06Etgy3voywHyz8SnwddruPPR1GKHELvyLclroVvK6P1NHrG7vTPvzpSSNVdyBqwcOA9jjIre7vYl2CxL1SBU/0idM1l/pK9z9zgTQsV1VnbUDxwrGQNVJzSkXB2guvgzK6GNrSUmLjsW+cRv9IrePqCGjNa3puOPXwYSdSFf8r6XKqt/4D/3ugQyV3h8nYVBVMaOxYtMlb6bcRPbSB8XR9LWEQ89/IiJcwuY9gPRVHt2HGB1Faoqa7KtduUc921iYQdTi3t5GJffG7knKs9cXxmvLPqAzvlXR8nlkdi8tYbHhI8aizZVFFBNSczzfMA2dojJkd9iHOG3Q2OlRW1dJLeGRjvnmtC+ueJhfFr7ekia6G/GEBFnT/QUJfvFWQ3VJi9cWnPwCuuVSru1blASlOAWQVj7nTMZq8olSFXBmWScEWB1qDE7TweGb3Q1u/t1Pv8IdvyYxss8PljInbtD55jYqCa0errwtONK38tWLL+hSi4JzKfpwVGZ7iEy8aGafLV+6vvsuaqcNz7u4RZBa3TsUrkFaOaoUuJTWZTXnvPU7rJLoaijYzLIat6Fj2KMQZVXvTdQHMQXf/pmLkZNyCDC/s2KX+1yAraeSChVSViMQna9cGDHYMbaDK0uCvEL7UklqlBOtcVt3PyT3Pe2RZvLfz+5iqOBtoSV8B4cIb8LEaWojXRrvaxNiHnUWBmJ38PMQRTRLl1NgTVyH16Mbqfm+jbCLJKyVwSExqx2So0tM2yy2/lllV5k5uVPTbI+yaEHfWzAxldtTrJVNs9uycjdrcEFUCX2tF8gyv1lJIO6rGgYHl2/ZRjzoSN4DqtFlu84JdmwFcPG3dtMf2xwGNH9sFkerdjbuW93vVeDaeygrNJA28jgxojIzw/OHiKAcTstfZMap+dGKBd/Aa/w2fqCn1hf7GTMaPa51oG+cR75SNda41SUz1HTadjWV2WdAtiici1IdUqDNJkNlbWIC05DYc3B1SyCUryMobE7OmeujPo79ALznt7iPHChCWLkxomkKeIkBc9f2fKEp+UAy8nDxoYj9k3R5hNh5NPK0Z4ZbDFANp78w2FDUNiYDLfPKcYUutrqxRemnr5iHni5K7iayEC3vDLn7sE9XnWVaUm3TNxFVVxv3f0+mUzYzoXdYaX74mBNMPgGK1THqxcfjN7mjZ66LZv2cbKNPy4RcW6FOPpNCHBzW5n/CyezRrldmCMCre2MLXTlPUL4uMAdQB5KjNFDxRz/gCE/QEYuAYAAA==</data>
+        <length>2096</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="b684d32d1bc2d1106eb0a6c0604bcb7c">b684d32d1bc2d1106eb0a6c0604bcb7c</sys_attachment>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-20 09:19:18</sys_created_on>
+        <sys_id>7a84d32d1bc2d1106eb0a6c0604bcb7c</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#dcdadb</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <encryption_context/>
+        <file_name>my tag.jpg</file_name>
+        <hash>2722a5392c1bc25422e9d7674a5b360b0c44641a716addfef2e4026865b2fcc9</hash>
+        <image_height>39</image_height>
+        <image_width>41</image_width>
+        <size_bytes>1720</size_bytes>
+        <size_compressed>1580</size_compressed>
+        <state>available</state>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-20 09:18:22</sys_created_on>
+        <sys_id>0d54132d1bc2d1106eb0a6c0604bcb6a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-09-20 09:18:22</sys_updated_on>
+        <table_name>db_image</table_name>
+        <table_sys_id>db145fe91bc2d1106eb0a6c0604bcb7a</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="my tag.jpg" sys_id="0d54132d1bc2d1106eb0a6c0604bcb6a">0d54132d1bc2d1106eb0a6c0604bcb6a</sys_attachment>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-20 09:18:22</sys_created_on>
+        <sys_id>4d54132d1bc2d1106eb0a6c0604bcb6a</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2096</length>
+        <position>1</position>
+        <sys_attachment display_value="my tag.jpg" sys_id="0d54132d1bc2d1106eb0a6c0604bcb6a">0d54132d1bc2d1106eb0a6c0604bcb6a</sys_attachment>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-20 09:18:22</sys_created_on>
+        <sys_id>cd54132d1bc2d1106eb0a6c0604bcb6a</sys_id>
+    </sys_attachment_doc>
+</record_update>

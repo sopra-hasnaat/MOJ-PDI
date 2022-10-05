@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description/>
+        <name>Responsible officerCH</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>cheryl.holt.ems</sys_created_by>
+        <sys_created_on>2022-09-14 11:42:00</sys_created_on>
+        <sys_id>26abf8771bb115106eb0a6c0604bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Responsible officerCH</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_screen_type_26abf8771bb115106eb0a6c0604bcb52</sys_update_name>
+        <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+        <sys_updated_on>2022-09-14 11:42:00</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="DELETE" query="documentkey=26abf8771bb115106eb0a6c0604bcb52"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_ux_screen_type_26abf8771bb115106eb0a6c0604bcb52</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type"><sys_ux_screen_type action="INSERT_OR_UPDATE"><description/><name>Responsible officerCH</name><sys_class_name>sys_ux_screen_type</sys_class_name><sys_created_by>cheryl.holt.ems</sys_created_by><sys_created_on>2022-09-14 11:42:00</sys_created_on><sys_id>26abf8771bb115106eb0a6c0604bcb52</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Responsible officerCH</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sys_ux_screen_type_26abf8771bb115106eb0a6c0604bcb52</sys_update_name><sys_updated_by>cheryl.holt.ems</sys_updated_by><sys_updated_on>2022-09-14 11:42:00</sys_updated_on></sys_ux_screen_type><sys_translated_text action="delete_multiple" query="documentkey=26abf8771bb115106eb0a6c0604bcb52"/></record_update>]]></payload>
+        <payload_hash>-37713121</payload_hash>
+        <record_name>Responsible officerCH</record_name>
+        <reverted_from/>
+        <source>5bb670b31bb115106eb0a6c0604bcb8a</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>cheryl.holt.ems</sys_created_by>
+        <sys_created_on>2022-09-14 11:42:00</sys_created_on>
+        <sys_id>beabf8771bb115106eb0a6c0604bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1833bce52a70000001</sys_recorded_at>
+        <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+        <sys_updated_on>2022-09-14 11:42:00</sys_updated_on>
+        <type>UX Screen Collection</type>
+        <update_guid>f6abf87751b115107b480c249a63db54</update_guid>
+        <update_guid_history>f6abf87751b115107b480c249a63db54:-37713121</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cheryl.holt.ems</sys_created_by>
+        <sys_created_on>2022-09-14 15:15:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>0bb92085f9a94850825bdce7d18e0411</sys_id>
+        <sys_metadata>26abf8771bb115106eb0a6c0604bcb52</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Responsible officerCH</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_26abf8771bb115106eb0a6c0604bcb52</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_26abf8771bb115106eb0a6c0604bcb52">beabf8771bb115106eb0a6c0604bcb54</sys_update_version>
+        <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+        <sys_updated_on>2022-09-14 15:15:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_highlighted_value_condition">
+    <sys_highlighted_value_condition action="INSERT_OR_UPDATE">
+        <color>critical</color>
+        <conditions>risk=very_high^ORrisk=high^EQ</conditions>
+        <highlighted_value/>
+        <icon/>
+        <order>0</order>
+        <show_icon>false</show_icon>
+        <status/>
+        <sys_class_name>sys_highlighted_value_condition</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-04 09:00:49</sys_created_on>
+        <sys_id>11865f4e87129550952f87f5cebb3592</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_highlighted_value_condition_11865f4e87129550952f87f5cebb3592</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-04 09:00:49</sys_updated_on>
+        <value_override/>
+        <variant>tertiary</variant>
+    </sys_highlighted_value_condition>
+</record_update>

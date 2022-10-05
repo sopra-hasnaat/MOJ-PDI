@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_highlighted_value">
+    <sys_highlighted_value action="DELETE">
+        <field>address_line_1</field>
+        <sys_class_name>sys_highlighted_value</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-04 08:57:36</sys_created_on>
+        <sys_id>f6c59f0e87129550952f87f5cebb355a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>address_line_1</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_highlighted_value_f6c59f0e87129550952f87f5cebb355a</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-04 08:57:36</sys_updated_on>
+        <table>x_ster2_emfs_subject</table>
+        <workspace/>
+    </sys_highlighted_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_highlighted_value_f6c59f0e87129550952f87f5cebb355a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_highlighted_value"><sys_highlighted_value action="INSERT_OR_UPDATE"><field>address_line_1</field><sys_class_name>sys_highlighted_value</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-10-04 08:57:36</sys_created_on><sys_id>f6c59f0e87129550952f87f5cebb355a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>address_line_1</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sys_highlighted_value_f6c59f0e87129550952f87f5cebb355a</sys_update_name><sys_updated_by>hasnaat.khan.ems</sys_updated_by><sys_updated_on>2022-10-04 08:57:36</sys_updated_on><table>x_ster2_emfs_subject</table><workspace/></sys_highlighted_value></record_update>]]></payload>
+        <payload_hash>1490219989</payload_hash>
+        <record_name>address_line_1</record_name>
+        <reverted_from/>
+        <source>0d6c503f87b55510952f87f5cebb356b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-04 08:57:36</sys_created_on>
+        <sys_id>11d5134e87129550952f87f5cebb356b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183a236fe850000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-04 08:57:36</sys_updated_on>
+        <type>Highlighted Value</type>
+        <update_guid>59d5134eac1295509fba221d9cada46a</update_guid>
+        <update_guid_history>59d5134eac1295509fba221d9cada46a:1490219989</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-05 09:36:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_highlighted_value">sys_highlighted_value</sys_db_object>
+        <sys_id>6ec90960ff35400595bcc979ba281dd9</sys_id>
+        <sys_metadata>f6c59f0e87129550952f87f5cebb355a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>address_line_1</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_highlighted_value_f6c59f0e87129550952f87f5cebb355a</sys_update_name>
+        <sys_update_version display_value="sys_highlighted_value_f6c59f0e87129550952f87f5cebb355a">11d5134e87129550952f87f5cebb356b</sys_update_version>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-05 09:36:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
