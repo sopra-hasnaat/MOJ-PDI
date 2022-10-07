@@ -40,7 +40,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>order_constraints</name>
-        <order>7200</order>
+        <order>8300</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
@@ -68,14 +68,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-01 16:27:08</sys_created_on>
         <sys_id>f108bea087215190952f87f5cebb3588</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Order Constraints</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>item_option_new_f108bea087215190952f87f5cebb3588</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-09-01 16:36:09</sys_updated_on>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-10-07 16:54:39</sys_updated_on>
         <table/>
         <tooltip/>
         <type>19</type>

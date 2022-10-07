@@ -24,10 +24,10 @@
         <help_tag>More information</help_tag>
         <help_text/>
         <hidden>false</hidden>
-        <include_none>false</include_none>
+        <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
-        <list_table/>
+        <list_table>x_ster2_emfs_disability</list_table>
         <lookup_label/>
         <lookup_price/>
         <lookup_table/>
@@ -40,11 +40,11 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>access_requirements</name>
-        <order>4600</order>
+        <order>5600</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Does the Subject have a disability?</question_text>
+        <question_text>Does the Subject have a disability or impairment?</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -53,8 +53,8 @@
         <record/>
         <record_producer_table>x_ster2_emfs_subject</record_producer_table>
         <reference/>
-        <reference_qual>undefined</reference_qual>
-        <reference_qual_condition>undefined</reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script/>
@@ -68,17 +68,17 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-01 16:26:55</sys_created_on>
         <sys_id>461bf0281b215d506eb0a6c0604bcb81</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Does the Subject have a disability?</sys_name>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Does the Subject have a disability or impairment?</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>item_option_new_461bf0281b215d506eb0a6c0604bcb81</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-09-01 16:36:17</sys_updated_on>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-10-07 17:38:21</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>7</type>
+        <type>21</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>

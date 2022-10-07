@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="What is the preferred method for notifications">d4ca9457879a9950952f87f5cebb3540</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-10-07 16:34:00</sys_created_on>
+        <sys_id>4c1bd857879a9950952f87f5cebb35ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SMS</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_4c1bd857879a9950952f87f5cebb35ed</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-10-07 16:34:00</sys_updated_on>
+        <text>SMS</text>
+        <value>sms</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=4c1bd857879a9950952f87f5cebb35ed"/>
+</record_update>

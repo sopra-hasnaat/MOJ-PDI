@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" label="Subjects" max_length="40" name="x_ster2_emfs_subject" sizeclass="44" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Access Comments" max_length="4000" name="access_comments" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Disability" max_length="40" name="access_requirements" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Disability" max_length="40" name="access_requirements" reference="x_ster2_emfs_disability" type="glide_list">
             <choice>
                 <element inactive_on_update="false" label="Vision" sequence="0" value="vision"/>
                 <element inactive_on_update="false" label="Hearing" sequence="1" value="hearing"/>
@@ -82,28 +82,7 @@
         <element attributes="edge_encryption_enabled=true" label="Date of Birth" mandatory="true" max_length="40" name="date_of_birth" type="glide_date"/>
         <element label="Delius ID" max_length="40" name="delius_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
-        <element choice="1" label="Ethnicity" max_length="40" name="ethnicity" type="glide_list">
-            <choice>
-                <element inactive_on_update="false" label="English / Welsh / Scottish / Northern Irish / British" sequence="0" value="british"/>
-                <element inactive_on_update="false" label="Irish" sequence="1" value="irish"/>
-                <element inactive_on_update="false" label="Gypsy or Irish Traveller" sequence="2" value="gypsy_traveller"/>
-                <element inactive_on_update="false" label="Other White" sequence="3" value="other_white"/>
-                <element inactive_on_update="false" label="White and Black Caribbean" sequence="4" value="white_black_caribbean"/>
-                <element inactive_on_update="false" label="White and Black African" sequence="5" value="white_black_african"/>
-                <element inactive_on_update="false" label="White and Asian" sequence="6" value="white_asian"/>
-                <element inactive_on_update="false" label="Other Mixed White/ Multiple" sequence="7" value="white_other"/>
-                <element inactive_on_update="false" label="Indian" sequence="8" value="indian"/>
-                <element inactive_on_update="false" label="Pakistani" sequence="9" value="pakistani"/>
-                <element inactive_on_update="false" label="Bangladeshi" sequence="10" value="bangladeshi"/>
-                <element inactive_on_update="false" label="Chinese" sequence="11" value="chinese"/>
-                <element inactive_on_update="false" label="Other Asian background" sequence="12" value="other_asian"/>
-                <element inactive_on_update="false" label="African" sequence="13" value="african"/>
-                <element inactive_on_update="false" label="Caribbean" sequence="14" value="caribbean"/>
-                <element inactive_on_update="false" label="Other Black / African / Caribbean" sequence="15" value="other_black"/>
-                <element inactive_on_update="false" label="Arab" sequence="16" value="arab"/>
-                <element inactive_on_update="false" label="Other ethnic group" sequence="17" value="other"/>
-            </choice>
-        </element>
+        <element label="Ethnicity" max_length="40" name="ethnicity" reference="x_ster2_emfs_ethnicity" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Faith/Religion" max_length="40" name="faith_religion" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Christian" sequence="0" value="christian"/>

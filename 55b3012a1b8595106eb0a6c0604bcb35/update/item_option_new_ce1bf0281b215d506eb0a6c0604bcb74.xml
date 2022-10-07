@@ -40,7 +40,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>formatter11</name>
-        <order>4100</order>
+        <order>5200</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
@@ -68,14 +68,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-01 16:27:04</sys_created_on>
         <sys_id>ce1bf0281b215d506eb0a6c0604bcb74</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>formatter11</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>item_option_new_ce1bf0281b215d506eb0a6c0604bcb74</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-09-01 16:35:48</sys_updated_on>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-10-07 16:38:56</sys_updated_on>
         <table/>
         <tooltip/>
         <type>20</type>
