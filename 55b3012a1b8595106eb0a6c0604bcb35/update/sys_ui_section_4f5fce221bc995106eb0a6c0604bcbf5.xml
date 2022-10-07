@@ -4,13 +4,13 @@
             <element>alternative_contact</element>
             <position>0</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-08-04 13:50:26</sys_created_on>
-            <sys_id>d4ef0a621bc995106eb0a6c0604bcbc7</sys_id>
+            <sys_created_on>2022-10-07 15:14:18</sys_created_on>
+            <sys_id>20d84c9b871a9950952f87f5cebb350b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Alternative Contact Information" display_value="Alternative Contact Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">4f5fce221bc995106eb0a6c0604bcbf5</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-08-04 13:50:26</sys_updated_on>
+            <sys_updated_on>2022-10-07 15:14:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>alternative_mobile</element>
             <position>1</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-08-04 13:50:26</sys_created_on>
-            <sys_id>58ef0a621bc995106eb0a6c0604bcbc7</sys_id>
+            <sys_created_on>2022-10-07 15:14:18</sys_created_on>
+            <sys_id>24d84c9b871a9950952f87f5cebb350b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Alternative Contact Information" display_value="Alternative Contact Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">4f5fce221bc995106eb0a6c0604bcbf5</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-08-04 13:50:26</sys_updated_on>
+            <sys_updated_on>2022-10-07 15:14:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>alternative_phone</element>
             <position>2</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-08-04 13:50:26</sys_created_on>
-            <sys_id>d8ef0a621bc995106eb0a6c0604bcbc7</sys_id>
+            <sys_created_on>2022-10-07 15:14:18</sys_created_on>
+            <sys_id>28d84c9b871a9950952f87f5cebb350b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Alternative Contact Information" display_value="Alternative Contact Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">4f5fce221bc995106eb0a6c0604bcbf5</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-08-04 13:50:26</sys_updated_on>
+            <sys_updated_on>2022-10-07 15:14:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-08-04 13:50:26</sys_created_on>
-            <sys_id>5cef0a621bc995106eb0a6c0604bcbc7</sys_id>
+            <sys_created_on>2022-10-07 15:14:18</sys_created_on>
+            <sys_id>2cd84c9b871a9950952f87f5cebb350b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Alternative Contact Information" display_value="Alternative Contact Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">4f5fce221bc995106eb0a6c0604bcbf5</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-08-04 13:50:26</sys_updated_on>
+            <sys_updated_on>2022-10-07 15:14:18</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>alternative_contact_relationship_to_subject</element>
             <position>4</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-08-04 13:50:26</sys_created_on>
-            <sys_id>dcef0a621bc995106eb0a6c0604bcbc7</sys_id>
+            <sys_created_on>2022-10-07 15:14:18</sys_created_on>
+            <sys_id>20d84c9b871a9950952f87f5cebb350c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Alternative Contact Information" display_value="Alternative Contact Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">4f5fce221bc995106eb0a6c0604bcbf5</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-08-04 13:50:26</sys_updated_on>
+            <sys_updated_on>2022-10-07 15:14:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,27 @@
             <element>alternative_email</element>
             <position>5</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-08-04 13:50:26</sys_created_on>
-            <sys_id>50ef0a621bc995106eb0a6c0604bcbc8</sys_id>
+            <sys_created_on>2022-10-07 15:14:18</sys_created_on>
+            <sys_id>24d84c9b871a9950952f87f5cebb350c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Alternative Contact Information" display_value="Alternative Contact Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">4f5fce221bc995106eb0a6c0604bcbf5</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-08-04 13:50:26</sys_updated_on>
+            <sys_updated_on>2022-10-07 15:14:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>alternatives_contact_preferences</element>
+            <position>6</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-07 15:14:18</sys_created_on>
+            <sys_id>28d84c9b871a9950952f87f5cebb350c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Alternative Contact Information" display_value="Alternative Contact Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">4f5fce221bc995106eb0a6c0604bcbf5</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-07 15:14:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

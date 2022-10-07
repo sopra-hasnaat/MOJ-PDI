@@ -3,70 +3,84 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>email</element>
             <position>0</position>
-            <sys_created_by>hasnaat.khan.ems</sys_created_by>
-            <sys_created_on>2022-08-18 08:31:05</sys_created_on>
-            <sys_id>ea0d090387119950952f87f5cebb3564</sys_id>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-07 15:13:58</sys_created_on>
+            <sys_id>f3b8c89b871a9950952f87f5cebb357b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">620dc50387119950952f87f5cebb35f6</sys_ui_section>
-            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-            <sys_updated_on>2022-08-18 08:31:05</sys_updated_on>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-07 15:13:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>mobile</element>
             <position>1</position>
-            <sys_created_by>hasnaat.khan.ems</sys_created_by>
-            <sys_created_on>2022-08-18 08:31:05</sys_created_on>
-            <sys_id>ee0d090387119950952f87f5cebb3564</sys_id>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-07 15:13:58</sys_created_on>
+            <sys_id>fbb8c89b871a9950952f87f5cebb357b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">620dc50387119950952f87f5cebb35f6</sys_ui_section>
-            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-            <sys_updated_on>2022-08-18 08:31:05</sys_updated_on>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-07 15:13:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact_preferences</element>
+            <position>2</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-07 15:13:58</sys_created_on>
+            <sys_id>ffb8c89b871a9950952f87f5cebb357b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">620dc50387119950952f87f5cebb35f6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-07 15:13:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
-            <sys_created_by>hasnaat.khan.ems</sys_created_by>
-            <sys_created_on>2022-08-18 08:31:05</sys_created_on>
-            <sys_id>e20d090387119950952f87f5cebb3565</sys_id>
+            <position>3</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-07 15:13:58</sys_created_on>
+            <sys_id>f3b8c89b871a9950952f87f5cebb357c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">620dc50387119950952f87f5cebb35f6</sys_ui_section>
-            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-            <sys_updated_on>2022-08-18 08:31:05</sys_updated_on>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-07 15:13:58</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>phone</element>
-            <position>3</position>
-            <sys_created_by>hasnaat.khan.ems</sys_created_by>
-            <sys_created_on>2022-08-18 08:31:05</sys_created_on>
-            <sys_id>e60d090387119950952f87f5cebb3565</sys_id>
+            <position>4</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-07 15:13:58</sys_created_on>
+            <sys_id>f7b8c89b871a9950952f87f5cebb357c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">620dc50387119950952f87f5cebb35f6</sys_ui_section>
-            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-            <sys_updated_on>2022-08-18 08:31:05</sys_updated_on>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-07 15:13:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>secondary_phone</element>
-            <position>4</position>
-            <sys_created_by>hasnaat.khan.ems</sys_created_by>
-            <sys_created_on>2022-08-18 08:31:05</sys_created_on>
-            <sys_id>ea0d090387119950952f87f5cebb3565</sys_id>
+            <position>5</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-07 15:13:58</sys_created_on>
+            <sys_id>fbb8c89b871a9950952f87f5cebb357c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">620dc50387119950952f87f5cebb35f6</sys_ui_section>
-            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-            <sys_updated_on>2022-08-18 08:31:05</sys_updated_on>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-07 15:13:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
