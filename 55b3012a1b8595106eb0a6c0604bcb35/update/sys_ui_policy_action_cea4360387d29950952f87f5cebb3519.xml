@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>pregnant</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-10-07 09:06:41</sys_created_on>
+        <sys_id>cea4360387d29950952f87f5cebb3519</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>pregnant</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ui_policy_action_cea4360387d29950952f87f5cebb3519</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-10-07 09:07:08</sys_updated_on>
+        <table>x_ster2_emfs_subject</table>
+        <ui_policy display_value="Hide Protected Characteristics">83c3f2cf87929950952f87f5cebb35d9</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

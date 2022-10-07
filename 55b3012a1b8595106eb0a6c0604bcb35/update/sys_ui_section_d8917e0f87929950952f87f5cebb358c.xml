@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="New Section" section_id="d78448801b3199906eb0a6c0604bcb82" sys_domain="global" table="x_ster2_emfs_subject" version="3" view="workspace">
+    <sys_ui_section caption="Special Handling" section_id="d8917e0f87929950952f87f5cebb358c" sys_domain="global" table="x_ster2_emfs_subject" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_notes</element>
+            <element>special</element>
             <position>0</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-09-02 16:04:01</sys_created_on>
-            <sys_id>f38448801b3199906eb0a6c0604bcbfd</sys_id>
+            <sys_created_on>2022-10-07 08:53:06</sys_created_on>
+            <sys_id>fc91be0f87929950952f87f5cebb3518</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">d78448801b3199906eb0a6c0604bcb82</sys_ui_section>
+            <sys_ui_section caption="Special Handling" display_value="Special Handling" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">d8917e0f87929950952f87f5cebb358c</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-09-02 16:04:01</sys_updated_on>
+            <sys_updated_on>2022-10-07 08:53:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>activity.xml</element>
+            <element>special_handling</element>
             <position>1</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-09-02 16:04:01</sys_created_on>
-            <sys_id>f78448801b3199906eb0a6c0604bcbfd</sys_id>
+            <sys_created_on>2022-10-07 08:53:06</sys_created_on>
+            <sys_id>f091be0f87929950952f87f5cebb3519</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">d78448801b3199906eb0a6c0604bcb82</sys_ui_section>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Special Handling" display_value="Special Handling" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">d8917e0f87929950952f87f5cebb358c</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-09-02 16:04:01</sys_updated_on>
+            <sys_updated_on>2022-10-07 08:53:06</sys_updated_on>
             <sys_user/>
-            <type>formatter</type>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption>New Section</caption>
+            <caption>Special Handling</caption>
             <header>false</header>
             <name>x_ster2_emfs_subject</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-09-02 16:03:59</sys_created_on>
+            <sys_created_on>2022-10-07 08:53:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d78448801b3199906eb0a6c0604bcb82</sys_id>
+            <sys_id>d8917e0f87929950952f87f5cebb358c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_ster2_emfs_subject</sys_name>
             <sys_overrides/>
             <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
             <sys_policy/>
             <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
-            <sys_update_name>sys_ui_section_d78448801b3199906eb0a6c0604bcb82</sys_update_name>
+            <sys_update_name>sys_ui_section_d8917e0f87929950952f87f5cebb358c</sys_update_name>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-09-02 16:03:59</sys_updated_on>
+            <sys_updated_on>2022-10-07 08:53:05</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Workspace" name="workspace">57a3235364901110a866d1e779b53017</view>
+            <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

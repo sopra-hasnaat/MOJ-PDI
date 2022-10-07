@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="interpreter" label="Interpreter Required?" language="en" table="x_ster2_emfs_subject">
+    <sys_documentation element="address2_county" label="Address 2 County" language="en" table="x_ster2_emfs_subject">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>interpreter</element>
+            <element>address2_county</element>
             <help/>
             <hint/>
-            <label>Interpreter Required?</label>
+            <label>Address 2 County</label>
             <language>en</language>
             <name>x_ster2_emfs_subject</name>
-            <plural>Interpreter Required?s</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-03 13:50:44</sys_created_on>
-            <sys_id>a95f43f51b9e91506eb0a6c0604bcb88</sys_id>
-            <sys_mod_count>6</sys_mod_count>
-            <sys_name>Interpreter Required?</sys_name>
+            <sys_created_on>2022-10-07 09:54:54</sys_created_on>
+            <sys_id>31bffe0f87d29950952f87f5cebb3537</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Address 2 County</sys_name>
             <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
             <sys_policy/>
             <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
-            <sys_update_name>sys_documentation_x_ster2_emfs_subject_interpreter_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_ster2_emfs_subject_address2_county_en</sys_update_name>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-07 09:24:43</sys_updated_on>
+            <sys_updated_on>2022-10-07 09:54:55</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

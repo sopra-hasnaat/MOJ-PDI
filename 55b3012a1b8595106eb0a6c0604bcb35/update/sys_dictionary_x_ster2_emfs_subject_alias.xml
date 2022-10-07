@@ -6,7 +6,7 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Alias(es)</column_label>
@@ -29,7 +29,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>200</max_length>
         <name>x_ster2_emfs_subject</name>
         <next_element/>
         <primary>false</primary>
@@ -49,14 +49,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-10-03 13:49:18</sys_created_on>
         <sys_id>a00f8bb51b9e91506eb0a6c0604bcbd0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Alias(es)</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_dictionary_x_ster2_emfs_subject_alias</sys_update_name>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-10-03 15:26:26</sys_updated_on>
+        <sys_updated_on>2022-10-07 08:50:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

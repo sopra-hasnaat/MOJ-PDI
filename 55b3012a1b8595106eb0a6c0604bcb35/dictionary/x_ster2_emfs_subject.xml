@@ -17,6 +17,19 @@
             </choice>
         </element>
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Address 2 City" max_length="40" name="address2_city" type="string"/>
+        <element label="Address 2 County" max_length="40" name="address2_county" type="string"/>
+        <element label="Address 2 Line 1" max_length="40" name="address2_line_1" type="string"/>
+        <element label="Address 2 Line 2" max_length="40" name="address2_line_2" type="string"/>
+        <element label="Address 2 Post Code" max_length="40" name="address2_post_code" type="string"/>
+        <element choice="1" label="Address 2 Type" max_length="40" name="address_2_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Parents/Grandparents" sequence="0" value="parents"/>
+                <element inactive_on_update="false" label="Childrens" sequence="1" value="childrens"/>
+                <element inactive_on_update="false" label="Other Family" sequence="2" value="other_family"/>
+                <element inactive_on_update="false" label="Place of Work" sequence="3" value="work"/>
+            </choice>
+        </element>
         <element label="Address Line 1" max_length="40" name="address_line_1" type="string"/>
         <element label="Address Line 2" max_length="40" name="address_line_2" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Address Type" max_length="40" name="address_type" type="choice">
@@ -33,7 +46,7 @@
         <element label="Address Validated" max_length="40" name="address_validated" read_only="true" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;if current.age =&lt;&quot;17&quot; current.adult_juvenile = 'juvenile';&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Adult/Juvenile" max_length="40" name="adult_juvenile" read_only="true" type="string"/>
         <element label="Age" max_length="40" name="age" read_only="true" type="integer"/>
-        <element label="Alias(es)" max_length="40" name="alias" type="string"/>
+        <element label="Alias(es)" max_length="200" name="alias" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Alternative Contact" max_length="50" name="alternative_contact" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Alternative Contact Relationship to Subject" max_length="40" name="alternative_contact_relationship_to_subject" type="choice">
             <choice>
@@ -99,7 +112,7 @@
         </element>
         <element label="Gender Reassignment" max_length="40" name="gender_reassignment" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Immigration Number" max_length="50" name="immigration_number" type="string"/>
-        <element label="Interpreter" max_length="40" name="interpreter" type="boolean"/>
+        <element label="Interpreter Required?" max_length="40" name="interpreter" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" default="English" label="Language" max_length="40" name="language" reference="x_ster2_emfs_languages" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="50" name="last_name" type="string"/>
         <element choice="1" label="Marriage Status" max_length="40" name="marriage_status" type="choice">
@@ -127,6 +140,7 @@
         <element label="Pregnant" max_length="40" name="pregnant" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Primary Address" max_length="500" name="primary_address" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Prison Number" max_length="50" name="prison_number" type="string"/>
+        <element label="Individual has declined to share protected characteristics" max_length="40" name="protected_characteristics" type="boolean"/>
         <element choice="1" label="Responsible Area" max_length="40" name="responsible_area" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Probation" sequence="0" value="probation"/>

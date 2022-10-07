@@ -1,105 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="Demographics" section_id="938448801b3199906eb0a6c0604bcb81" sys_domain="global" table="x_ster2_emfs_subject" version="3" view="workspace">
+    <sys_ui_section caption="Protected Characteristics" section_id="938448801b3199906eb0a6c0604bcb81" sys_domain="global" table="x_ster2_emfs_subject" version="3" view="workspace">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>gender</element>
+            <element>protected_characteristics</element>
             <position>0</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-09-02 16:04:01</sys_created_on>
-            <sys_id>7b8448801b3199906eb0a6c0604bcbf1</sys_id>
+            <sys_created_on>2022-10-07 09:10:59</sys_created_on>
+            <sys_id>62a53a4387d29950952f87f5cebb3590</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Demographics" display_value="Demographics" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">938448801b3199906eb0a6c0604bcb81</sys_ui_section>
+            <sys_ui_section caption="Protected Characteristics" display_value="Protected Characteristics" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">938448801b3199906eb0a6c0604bcb81</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-09-02 16:04:01</sys_updated_on>
+            <sys_updated_on>2022-10-07 09:10:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>access_requirements</element>
+            <element>gender_reassignment</element>
             <position>1</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-09-02 16:04:01</sys_created_on>
-            <sys_id>7f8448801b3199906eb0a6c0604bcbf1</sys_id>
+            <sys_created_on>2022-10-07 09:10:59</sys_created_on>
+            <sys_id>66a53a4387d29950952f87f5cebb3590</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Demographics" display_value="Demographics" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">938448801b3199906eb0a6c0604bcb81</sys_ui_section>
+            <sys_ui_section caption="Protected Characteristics" display_value="Protected Characteristics" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">938448801b3199906eb0a6c0604bcb81</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-09-02 16:04:01</sys_updated_on>
+            <sys_updated_on>2022-10-07 09:10:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>access_comments</element>
+            <element>pregnant</element>
             <position>2</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-09-02 16:04:01</sys_created_on>
-            <sys_id>738448801b3199906eb0a6c0604bcbf2</sys_id>
+            <sys_created_on>2022-10-07 09:10:59</sys_created_on>
+            <sys_id>6aa53a4387d29950952f87f5cebb3590</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Demographics" display_value="Demographics" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">938448801b3199906eb0a6c0604bcb81</sys_ui_section>
+            <sys_ui_section caption="Protected Characteristics" display_value="Protected Characteristics" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">938448801b3199906eb0a6c0604bcb81</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-09-02 16:04:01</sys_updated_on>
+            <sys_updated_on>2022-10-07 09:10:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>marriage_status</element>
+            <position>3</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-07 09:10:59</sys_created_on>
+            <sys_id>6ea53a4387d29950952f87f5cebb3590</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Protected Characteristics" display_value="Protected Characteristics" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">938448801b3199906eb0a6c0604bcb81</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-07 09:10:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-09-02 16:04:01</sys_created_on>
-            <sys_id>778448801b3199906eb0a6c0604bcbf2</sys_id>
+            <sys_created_on>2022-10-07 09:10:59</sys_created_on>
+            <sys_id>62a53a4387d29950952f87f5cebb3591</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Demographics" display_value="Demographics" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">938448801b3199906eb0a6c0604bcb81</sys_ui_section>
+            <sys_ui_section caption="Protected Characteristics" display_value="Protected Characteristics" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">938448801b3199906eb0a6c0604bcb81</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-09-02 16:04:01</sys_updated_on>
+            <sys_updated_on>2022-10-07 09:10:59</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>language</element>
-            <position>4</position>
+            <element>access_requirements</element>
+            <position>5</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-09-02 16:04:01</sys_created_on>
-            <sys_id>7b8448801b3199906eb0a6c0604bcbf2</sys_id>
+            <sys_created_on>2022-10-07 09:10:59</sys_created_on>
+            <sys_id>66a53a4387d29950952f87f5cebb3591</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Demographics" display_value="Demographics" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">938448801b3199906eb0a6c0604bcb81</sys_ui_section>
+            <sys_ui_section caption="Protected Characteristics" display_value="Protected Characteristics" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">938448801b3199906eb0a6c0604bcb81</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-09-02 16:04:01</sys_updated_on>
+            <sys_updated_on>2022-10-07 09:10:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>nationality</element>
-            <position>5</position>
+            <element>access_comments</element>
+            <position>6</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-09-02 16:04:01</sys_created_on>
-            <sys_id>7f8448801b3199906eb0a6c0604bcbf2</sys_id>
+            <sys_created_on>2022-10-07 09:10:59</sys_created_on>
+            <sys_id>6aa53a4387d29950952f87f5cebb3591</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Demographics" display_value="Demographics" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">938448801b3199906eb0a6c0604bcb81</sys_ui_section>
+            <sys_ui_section caption="Protected Characteristics" display_value="Protected Characteristics" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">938448801b3199906eb0a6c0604bcb81</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-09-02 16:04:01</sys_updated_on>
+            <sys_updated_on>2022-10-07 09:10:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ethnicity</element>
+            <position>7</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-07 09:10:59</sys_created_on>
+            <sys_id>6ea53a4387d29950952f87f5cebb3591</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Protected Characteristics" display_value="Protected Characteristics" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">938448801b3199906eb0a6c0604bcb81</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-07 09:10:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>faith_religion</element>
-            <position>6</position>
+            <position>8</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-09-02 16:04:01</sys_created_on>
-            <sys_id>738448801b3199906eb0a6c0604bcbf3</sys_id>
+            <sys_created_on>2022-10-07 09:10:59</sys_created_on>
+            <sys_id>62a53a4387d29950952f87f5cebb3592</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Demographics" display_value="Demographics" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">938448801b3199906eb0a6c0604bcb81</sys_ui_section>
+            <sys_ui_section caption="Protected Characteristics" display_value="Protected Characteristics" name="x_ster2_emfs_subject" sys_domain="global" view="57a3235364901110a866d1e779b53017">938448801b3199906eb0a6c0604bcb81</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-09-02 16:04:01</sys_updated_on>
+            <sys_updated_on>2022-10-07 09:10:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption>Demographics</caption>
+            <caption>Protected Characteristics</caption>
             <header>false</header>
             <name>x_ster2_emfs_subject</name>
             <roles/>
@@ -109,7 +137,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>938448801b3199906eb0a6c0604bcb81</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_name>x_ster2_emfs_subject</sys_name>
             <sys_overrides/>
             <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
@@ -117,7 +145,7 @@
             <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
             <sys_update_name>sys_ui_section_938448801b3199906eb0a6c0604bcb81</sys_update_name>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-09-02 16:03:59</sys_updated_on>
+            <sys_updated_on>2022-10-07 08:38:01</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Workspace" name="workspace">57a3235364901110a866d1e779b53017</view>

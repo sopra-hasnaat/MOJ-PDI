@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Secondary Address Information" section_id="96bf324f87d29950952f87f5cebb351c" sys_domain="global" table="x_ster2_emfs_subject" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>address2_line_1</element>
+            <position>0</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-07 09:58:07</sys_created_on>
+            <sys_id>05700f4f87d29950952f87f5cebb3565</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Secondary Address Information" display_value="Secondary Address Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">96bf324f87d29950952f87f5cebb351c</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-07 09:58:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>address2_line_2</element>
+            <position>1</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-07 09:58:07</sys_created_on>
+            <sys_id>09700f4f87d29950952f87f5cebb3565</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Secondary Address Information" display_value="Secondary Address Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">96bf324f87d29950952f87f5cebb351c</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-07 09:58:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>address2_city</element>
+            <position>2</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-07 09:58:07</sys_created_on>
+            <sys_id>0d700f4f87d29950952f87f5cebb3565</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Secondary Address Information" display_value="Secondary Address Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">96bf324f87d29950952f87f5cebb351c</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-07 09:58:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-07 09:58:07</sys_created_on>
+            <sys_id>01700f4f87d29950952f87f5cebb3566</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Secondary Address Information" display_value="Secondary Address Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">96bf324f87d29950952f87f5cebb351c</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-07 09:58:07</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>address2_county</element>
+            <position>4</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-07 09:58:07</sys_created_on>
+            <sys_id>05700f4f87d29950952f87f5cebb3566</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Secondary Address Information" display_value="Secondary Address Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">96bf324f87d29950952f87f5cebb351c</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-07 09:58:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>address2_post_code</element>
+            <position>5</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-07 09:58:07</sys_created_on>
+            <sys_id>09700f4f87d29950952f87f5cebb3566</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Secondary Address Information" display_value="Secondary Address Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">96bf324f87d29950952f87f5cebb351c</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-07 09:58:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>address_2_type</element>
+            <position>6</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-07 09:58:07</sys_created_on>
+            <sys_id>0d700f4f87d29950952f87f5cebb3566</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Secondary Address Information" display_value="Secondary Address Information" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">96bf324f87d29950952f87f5cebb351c</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-07 09:58:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Secondary Address Information</caption>
+            <header>false</header>
+            <name>x_ster2_emfs_subject</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-07 09:54:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96bf324f87d29950952f87f5cebb351c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ster2_emfs_subject</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_ui_section_96bf324f87d29950952f87f5cebb351c</sys_update_name>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-07 09:54:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
