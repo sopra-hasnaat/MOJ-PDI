@@ -22,6 +22,8 @@
                 <element inactive_on_update="false" label="AML" sequence="6" value="aml"/>
             </choice>
         </element>
+        <element label="Exclusion Zones" max_length="40" name="exclusion_zones" reference="cmn_location" type="glide_list"/>
+        <element label="Inclusion Zones" max_length="40" name="inclusion_zones" reference="cmn_location" type="glide_list"/>
         <element choice="1" label="Monitoring Type" max_length="40" name="monitoring_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="GPS" sequence="10" value="gps"/>
