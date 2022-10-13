@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="New Subject &amp; Monitoring Order">b51bfce41b215d506eb0a6c0604bcbdf</catalog_item>
+        <catalog_variable>IO:2c5fd89f879a9950952f87f5cebb3546</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-10-07 17:41:30</sys_created_on>
+        <sys_id>fc8a20df87da9950952f87f5cebb3532</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ethnicity</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_fc8a20df87da9950952f87f5cebb3532</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-10-07 17:41:30</sys_updated_on>
+        <table/>
+        <ui_policy display_value="New Subject &amp; Monitoring Order UI policy">547a6c9f87da9950952f87f5cebb3537</ui_policy>
+        <variable>ethnicity</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>catalog_ui_policy_action_fc8a20df87da9950952f87f5cebb3532</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="New Subject &amp; Monitoring Order">b51bfce41b215d506eb0a6c0604bcbdf</catalog_item><catalog_variable>IO:2c5fd89f879a9950952f87f5cebb3546</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>des.king.ems</sys_created_by><sys_created_on>2022-10-07 17:41:30</sys_created_on><sys_id>fc8a20df87da9950952f87f5cebb3532</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ethnicity</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>catalog_ui_policy_action_fc8a20df87da9950952f87f5cebb3532</sys_update_name><sys_updated_by>des.king.ems</sys_updated_by><sys_updated_on>2022-10-07 17:41:30</sys_updated_on><table/><ui_policy display_value="New Subject &amp; Monitoring Order UI policy">547a6c9f87da9950952f87f5cebb3537</ui_policy><variable>ethnicity</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>140910047</payload_hash>
+        <record_name>ethnicity</record_name>
+        <reverted_from/>
+        <source>fedab1ea875ed550952f87f5cebb356b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-10-07 17:41:30</sys_created_on>
+        <sys_id>f48a20df87da9950952f87f5cebb3536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183b389b7090000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-10-07 17:41:30</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>7c8a20df76da99503adb63ae46c15b35</update_guid>
+        <update_guid_history>7c8a20df76da99503adb63ae46c15b35:140910047</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ethnicity">c12eb93c1b2e5d506eb0a6c0604bcbe6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-12 15:37:45</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>45d5e2edecdc410082088f0185209990</sys_id>
+        <sys_metadata>fc8a20df87da9950952f87f5cebb3532</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ethnicity</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_fc8a20df87da9950952f87f5cebb3532</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_fc8a20df87da9950952f87f5cebb3532">f48a20df87da9950952f87f5cebb3536</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:37:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

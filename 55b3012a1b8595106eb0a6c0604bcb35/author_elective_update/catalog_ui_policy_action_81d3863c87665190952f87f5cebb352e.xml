@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="New Subject &amp; Monitoring Order">b51bfce41b215d506eb0a6c0604bcbdf</catalog_item>
+        <catalog_variable>IO:7a1b34281b215d506eb0a6c0604bcb48</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-12 16:02:37</sys_created_on>
+        <sys_id>81d3863c87665190952f87f5cebb352e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>special_handling</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_81d3863c87665190952f87f5cebb352e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-12 16:05:26</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'special_handling' visible depending on 'special'">85d3863c87665190952f87f5cebb352a</ui_policy>
+        <variable>special_handling</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>catalog_ui_policy_action_81d3863c87665190952f87f5cebb352e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="New Subject &amp; Monitoring Order">b51bfce41b215d506eb0a6c0604bcbdf</catalog_item><catalog_variable>IO:7a1b34281b215d506eb0a6c0604bcb48</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-10-12 16:02:37</sys_created_on><sys_id>81d3863c87665190952f87f5cebb352e</sys_id><sys_mod_count>2</sys_mod_count><sys_name>special_handling</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>catalog_ui_policy_action_81d3863c87665190952f87f5cebb352e</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-10-12 16:05:26</sys_updated_on><table/><ui_policy display_value="Make 'special_handling' visible depending on 'special'">85d3863c87665190952f87f5cebb352a</ui_policy><variable>special_handling</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-775435803</payload_hash>
+        <record_name>special_handling</record_name>
+        <reverted_from/>
+        <source>a11a0ec487e29d50952f87f5cebb350b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-12 16:05:26</sys_created_on>
+        <sys_id>ea7442bc87665190952f87f5cebb3558</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183ccf18ffb0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-12 16:05:26</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>627442bc0f665190dca977b077850d58</update_guid>
+        <update_guid_history>627442bc0f665190dca977b077850d58:-775435803,89d3863c90665190755c698f89b9e242:1637169027,8dd3863caf665190bd6beaa43d7e8b30:-775435803</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="special_handling">5ec642f41b6e5d506eb0a6c0604bcbe3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-12 16:15:31</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>009e0969a5264812801453d515b8b4b9</sys_id>
+        <sys_metadata>81d3863c87665190952f87f5cebb352e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>special_handling</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_81d3863c87665190952f87f5cebb352e</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_81d3863c87665190952f87f5cebb352e">ea7442bc87665190952f87f5cebb3558</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-12 16:15:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

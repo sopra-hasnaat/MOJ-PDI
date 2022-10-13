@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
     <sys_ux_list action="INSERT_OR_UPDATE">
         <active>true</active>
-        <category display_value="All">bf02eeb9871e1550952f87f5cebb35b2</category>
-        <columns>number,active,sys_created_on,subject_name,order_type,sub_order_type,monitoring_type,primary_order,concurrent_order,supervised_order,court_reference,start_date_time,planned_end_date</columns>
+        <category display_value="Monitoring Orders">e974700f1b6595906eb0a6c0604bcb31</category>
+        <columns>number,active,sys_created_on,subject_name,order_type,monitoring_type,primary_order,concurrent_order,supervised_order,court_reference,start_date_time,planned_end_date</columns>
         <condition/>
         <configuration display_value="Electronic Monitoring Subjects_menu_config">d574300f1b6595906eb0a6c0604bcbdc</configuration>
         <group_by_column/>
@@ -51,7 +51,7 @@
         <highlight_content_pattern/>
         <list_attributes/>
         <max_characters>4000</max_characters>
-        <order>50</order>
+        <order>1</order>
         <override_word_wrap_user_pref>false</override_word_wrap_user_pref>
         <roles/>
         <sys_class_name>sys_ux_list</sys_class_name>
@@ -60,17 +60,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2574700f1b6595906eb0a6c0604bcb33</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Monitoring Orders</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>All</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_ux_list_2574700f1b6595906eb0a6c0604bcb33</sys_update_name>
         <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-10-03 10:34:38</sys_updated_on>
+        <sys_updated_on>2022-10-12 14:54:33</sys_updated_on>
         <table>x_ster2_emfs_monitoring_order</table>
-        <title>Monitoring Orders</title>
+        <title>All</title>
         <view/>
         <word_wrap>false</word_wrap>
     </sys_ux_list>

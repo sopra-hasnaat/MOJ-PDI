@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>ethnicity</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-10-07 09:09:00</sys_created_on>
+        <sys_id>b225be0387d29950952f87f5cebb35d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ethnicity</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b225be0387d29950952f87f5cebb35d4</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-10-07 09:09:00</sys_updated_on>
+        <table>x_ster2_emfs_subject</table>
+        <ui_policy display_value="Hide Protected Characteristics">83c3f2cf87929950952f87f5cebb35d9</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_ui_policy_action_b225be0387d29950952f87f5cebb35d4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>ethnicity</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>des.king.ems</sys_created_by><sys_created_on>2022-10-07 09:09:00</sys_created_on><sys_id>b225be0387d29950952f87f5cebb35d4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ethnicity</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sys_ui_policy_action_b225be0387d29950952f87f5cebb35d4</sys_update_name><sys_updated_by>des.king.ems</sys_updated_by><sys_updated_on>2022-10-07 09:09:00</sys_updated_on><table>x_ster2_emfs_subject</table><ui_policy display_value="Hide Protected Characteristics">83c3f2cf87929950952f87f5cebb35d9</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1149072861</payload_hash>
+        <record_name>ethnicity</record_name>
+        <reverted_from/>
+        <source>fedab1ea875ed550952f87f5cebb356b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-10-07 09:09:00</sys_created_on>
+        <sys_id>a9353a0387d29950952f87f5cebb356a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183b1b4814b0000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-10-07 09:09:00</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>e1353a0309d299508045548fa614a06a</update_guid>
+        <update_guid_history>e1353a0309d299508045548fa614a06a:-1149072861</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-13 10:19:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>9598d693f84a48b0906352330532c679</sys_id>
+        <sys_metadata>b225be0387d29950952f87f5cebb35d4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ethnicity</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="Hide Protected Characteristics">83c3f2cf87929950952f87f5cebb35d9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_b225be0387d29950952f87f5cebb35d4</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_b225be0387d29950952f87f5cebb35d4">a9353a0387d29950952f87f5cebb356a</sys_update_version>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-13 10:19:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

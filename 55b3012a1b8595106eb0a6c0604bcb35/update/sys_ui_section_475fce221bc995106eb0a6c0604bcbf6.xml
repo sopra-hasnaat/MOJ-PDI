@@ -3,126 +3,140 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>protected_characteristics</element>
             <position>0</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-07 09:10:40</sys_created_on>
-            <sys_id>ce95b64387d29950952f87f5cebb356e</sys_id>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-10-13 10:18:30</sys_created_on>
+            <sys_id>52aeb54187e69190952f87f5cebb3539</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Protected Characteristics" display_value="Protected Characteristics" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">475fce221bc995106eb0a6c0604bcbf6</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-07 09:10:40</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-10-13 10:18:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>gender_reassignment</element>
             <position>1</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-07 09:10:40</sys_created_on>
-            <sys_id>c295b64387d29950952f87f5cebb356f</sys_id>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-10-13 10:18:30</sys_created_on>
+            <sys_id>5aaeb54187e69190952f87f5cebb3539</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Protected Characteristics" display_value="Protected Characteristics" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">475fce221bc995106eb0a6c0604bcbf6</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-07 09:10:40</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-10-13 10:18:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>pregnant</element>
             <position>2</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-07 09:10:40</sys_created_on>
-            <sys_id>c695b64387d29950952f87f5cebb356f</sys_id>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-10-13 10:18:30</sys_created_on>
+            <sys_id>5eaeb54187e69190952f87f5cebb3539</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Protected Characteristics" display_value="Protected Characteristics" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">475fce221bc995106eb0a6c0604bcbf6</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-07 09:10:40</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-10-13 10:18:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>marriage_status</element>
             <position>3</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-07 09:10:40</sys_created_on>
-            <sys_id>ca95b64387d29950952f87f5cebb356f</sys_id>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-10-13 10:18:30</sys_created_on>
+            <sys_id>52aeb54187e69190952f87f5cebb353a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Protected Characteristics" display_value="Protected Characteristics" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">475fce221bc995106eb0a6c0604bcbf6</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-07 09:10:40</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-10-13 10:18:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>4</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-07 09:10:40</sys_created_on>
-            <sys_id>ce95b64387d29950952f87f5cebb356f</sys_id>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-10-13 10:18:30</sys_created_on>
+            <sys_id>56aeb54187e69190952f87f5cebb353a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Protected Characteristics" display_value="Protected Characteristics" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">475fce221bc995106eb0a6c0604bcbf6</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-07 09:10:40</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-10-13 10:18:30</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>access_requirements</element>
             <position>5</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-07 09:10:40</sys_created_on>
-            <sys_id>c295b64387d29950952f87f5cebb3570</sys_id>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-10-13 10:18:30</sys_created_on>
+            <sys_id>5aaeb54187e69190952f87f5cebb353a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Protected Characteristics" display_value="Protected Characteristics" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">475fce221bc995106eb0a6c0604bcbf6</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-07 09:10:40</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-10-13 10:18:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>access_comments</element>
             <position>6</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-07 09:10:40</sys_created_on>
-            <sys_id>c695b64387d29950952f87f5cebb3570</sys_id>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-10-13 10:18:30</sys_created_on>
+            <sys_id>5eaeb54187e69190952f87f5cebb353a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Protected Characteristics" display_value="Protected Characteristics" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">475fce221bc995106eb0a6c0604bcbf6</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-07 09:10:40</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-10-13 10:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ethnicity2</element>
+            <position>7</position>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-10-13 10:18:30</sys_created_on>
+            <sys_id>52aeb54187e69190952f87f5cebb353b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Protected Characteristics" display_value="Protected Characteristics" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">475fce221bc995106eb0a6c0604bcbf6</sys_ui_section>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-10-13 10:18:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>ethnicity</element>
-            <position>7</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-07 09:10:40</sys_created_on>
-            <sys_id>ca95b64387d29950952f87f5cebb3570</sys_id>
+            <position>8</position>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-10-13 10:18:30</sys_created_on>
+            <sys_id>56aeb54187e69190952f87f5cebb353b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Protected Characteristics" display_value="Protected Characteristics" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">475fce221bc995106eb0a6c0604bcbf6</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-07 09:10:40</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-10-13 10:18:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>faith_religion</element>
-            <position>8</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-07 09:10:40</sys_created_on>
-            <sys_id>ce95b64387d29950952f87f5cebb3570</sys_id>
+            <position>9</position>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-10-13 10:18:30</sys_created_on>
+            <sys_id>5aaeb54187e69190952f87f5cebb353b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Protected Characteristics" display_value="Protected Characteristics" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">475fce221bc995106eb0a6c0604bcbf6</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-07 09:10:40</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-10-13 10:18:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

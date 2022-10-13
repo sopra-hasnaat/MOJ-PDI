@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Electronic Monitoring">a2f911ae1bc595106eb0a6c0604bcb84</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>MAP</link_type>
+        <map_page display_value="Subject Access">df1ab1011b2e9d506eb0a6c0604bcb94</map_page>
+        <mobile_title>Subject Map</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-10-13 10:52:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0e9046851b2e9d506eb0a6c0604bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Subject Map</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_app_module_0e9046851b2e9d506eb0a6c0604bcbba</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-10-13 10:52:38</sys_updated_on>
+        <timeline_page/>
+        <title>Subject Map</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

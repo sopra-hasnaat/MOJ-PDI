@@ -36,7 +36,7 @@
 
         if (grLocation.hasNext() === false) { //Check if record already exists
             grLocation.name = current.address_line_1 + ', ' + current.city + ', ' + current.county + ', ' + current.post_code;
-            grLocation.street = current.address_line_1 + (current.address_line_2 ? ", " + current.address_line_2 : "") ;
+            grLocation.street = current.address_line_1 + (current.address_line_2 ? ", " + current.address_line_2 : "");
             grLocation.x_ster2_emfs_address_line_1 = current.address_line_1;
             grLocation.x_ster2_emfs_address_line_2 = current.address_line_2;
             grLocation.city = current.city;
@@ -50,24 +50,61 @@
         grCurfewLocation.addQuery('x_ster2_emfs_address_line_1', current.address_line_1);
         grCurfewLocation.addQuery('zip', current.post_code);
         grCurfewLocation.query();
-		
+
         if (grCurfewLocation.hasNext() === false) { //Check if record already exists
             grCurfewLocation.name = current.address_line_1 + ', ' + current.city + ', ' + current.county + ', ' + current.post_code;
-            grCurfewLocation.street = current.address_line_1 + (current.address_line_2 ? ", " + current.address_line_2 : "") ;
+            grCurfewLocation.street = current.address_line_1 + (current.address_line_2 ? ", " + current.address_line_2 : "");
             grCurfewLocation.x_ster2_emfs_address_line_1 = current.address_line_1;
             grCurfewLocation.x_ster2_emfs_address_line_2 = current.address_line_2;
             grCurfewLocation.city = current.city;
             grCurfewLocation.state = current.county;
             grCurfewLocation.zip = current.post_code;
-			grCurfewLocation.active = true;
+            grCurfewLocation.active = true;
             grCurfewLocation.parent.setDisplayValue(current.post_code.split(' ')[0]);
             grCurfewLocation.insert();
             gs.addInfoMessage('Successfully added subject and address to Location and Curfew Location tables!');
         } else {
             gs.addInfoMessage('Location already exists in Location and Curfew Address table.');
         }
-    } else {
-        gs.addInfoMessage('Subject without Location data added');
+	} else {
+		gs.addInfoMessage('Subject without Location data added');
+	}
+
+    if (current.address2_line_1 != '') {
+        var grSecondaryLocation = new GlideRecord('cmn_location');
+        grSecondaryLocation.addQuery('x_ster2_emfs_address_line_1', current.address2_line_1);
+        grSecondaryLocation.addQuery('zip', current.address2_postcode);
+        grSecondaryLocation.query();
+
+        if (grSecondaryLocation.hasNext() === false) { //Check if record already exists
+            grSecondaryLocation.name = current.address2_line_1 + ', ' + current.address2_city + ', ' + current.address2_county + ', ' + current.address2_post_code;
+            grSecondaryLocation.street = current.address2_line_1 + (current.address2_line_2 ? ", " + current.address2_line_2 : "");
+            grSecondaryLocation.x_ster2_emfs_address_line_1 = current.address2_line_1;
+            grSecondaryLocation.x_ster2_emfs_address_line_2 = current.address2_line_2;
+            grSecondaryLocation.city = current.address2_city;
+            grSecondaryLocation.state = current.address2_county;
+            grSecondaryLocation.zip = current.address2_post_code;
+            grSecondaryLocation.parent.setDisplayValue(current.address2_post_code.split(' ')[0]);
+            grSecondaryLocation.insert();
+        }
+
+        var grCurfewSecondaryLocation = new GlideRecord('x_ster2_emfs_curfew_location');
+        grCurfewSecondaryLocation.addQuery('x_ster2_emfs_address_line_1', current.address2_line_1);
+        grCurfewSecondaryLocation.addQuery('zip', current.address2_post_code);
+        grCurfewSecondaryLocation.query();
+
+        if (grCurfewSecondaryLocation.hasNext() === false) { //Check if record already exists
+            grCurfewSecondaryLocation.name = current.address2_line_1 + ', ' + current.address2_city + ', ' + current.address2_county + ', ' + current.address2_post_code;
+            grCurfewSecondaryLocation.street = current.address2_line_1 + (current.address2_line_2 ? ", " + current.address2_line_2 : "");
+            grCurfewSecondaryLocation.x_ster2_emfs_address_line_1 = current.address2_line_1;
+            grCurfewSecondaryLocation.x_ster2_emfs_address_line_2 = current.address2_line_2;
+            grCurfewSecondaryLocation.city = current.address2_city;
+            grCurfewSecondaryLocation.state = current.address2_county;
+            grCurfewSecondaryLocation.zip = current.address2_post_code;
+            grCurfewSecondaryLocation.active = true;
+            grCurfewSecondaryLocation.parent.setDisplayValue(current.address2_post_code.split(' ')[0]);
+            grCurfewSecondaryLocation.insert();
+        }
     }
 
     var grCase = new GlideRecord('sn_customerservice_case');
@@ -105,9 +142,6 @@
             grCase.subcategory = 8;
             break;
     }
-    if (current.address_line_1 != '') {
-        grCase.location = grLocation.insert();
-    }
     grCase.expected_start = grMO.start_date_time;
     grCase.contact = gs.getUserID();
     grCase.assignment_group = "7d32384b1b6595906eb0a6c0604bcb7f";
@@ -119,7 +153,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6228b61b8759d950952f87f5cebb359b</sys_id>
-        <sys_mod_count>77</sys_mod_count>
+        <sys_mod_count>85</sys_mod_count>
         <sys_name>submitAddressesAndCase</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
@@ -127,9 +161,9 @@
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_script_6228b61b8759d950952f87f5cebb359b</sys_update_name>
         <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-10-04 10:14:10</sys_updated_on>
+        <sys_updated_on>2022-10-13 11:55:32</sys_updated_on>
         <template/>
-        <when>after</when>
+        <when>before</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=6228b61b8759d950952f87f5cebb359b"/>
 </record_update>

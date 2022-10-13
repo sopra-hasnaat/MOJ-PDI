@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref display_value="Email">481bd857879a9950952f87f5cebb35f3</published_ref>
+        <question display_value="What is the preferred method for notifications">6f564ef087a65190952f87f5cebb35f8</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-12 16:13:42</sys_created_on>
+        <sys_id>eb568ef087a65190952f87f5cebb3517</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Email</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_eb568ef087a65190952f87f5cebb3517</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-12 16:13:42</sys_updated_on>
+        <text>Email</text>
+        <value>email</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=eb568ef087a65190952f87f5cebb3517"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_eb568ef087a65190952f87f5cebb3517</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>300</order><published_ref display_value="Email">481bd857879a9950952f87f5cebb35f3</published_ref><question display_value="What is the preferred method for notifications">6f564ef087a65190952f87f5cebb35f8</question><sys_class_name>question_choice</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-10-12 16:13:42</sys_created_on><sys_id>eb568ef087a65190952f87f5cebb3517</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Email</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>question_choice_eb568ef087a65190952f87f5cebb3517</sys_update_name><sys_updated_by>hasnaat.khan.ems</sys_updated_by><sys_updated_on>2022-10-12 16:13:42</sys_updated_on><text>Email</text><value>email</value></question_choice><fx_price action="delete_multiple" query="id=eb568ef087a65190952f87f5cebb3517"/></record_update>]]></payload>
+        <payload_hash>1448690900</payload_hash>
+        <record_name>Email</record_name>
+        <reverted_from/>
+        <source>a11a0ec487e29d50952f87f5cebb350b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-12 16:13:42</sys_created_on>
+        <sys_id>a3568ef087a65190952f87f5cebb351a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183ccf9224a0000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-12 16:13:42</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>2b568ef053a65190d1dd8baf1b470519</update_guid>
+        <update_guid_history>2b568ef053a65190d1dd8baf1b470519:1448690900</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Email">fbc606f41b6e5d506eb0a6c0604bcb8b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-12 16:15:38</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>1de25179da5e43e48a74f0e6e8db9f89</sys_id>
+        <sys_metadata>eb568ef087a65190952f87f5cebb3517</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Email</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">6f564ef087a65190952f87f5cebb35f8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_eb568ef087a65190952f87f5cebb3517</sys_update_name>
+        <sys_update_version display_value="question_choice_eb568ef087a65190952f87f5cebb3517">a3568ef087a65190952f87f5cebb351a</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-12 16:15:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

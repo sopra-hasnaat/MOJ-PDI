@@ -218,7 +218,8 @@
                       "isHero" : false,
                       "isNonDestructive" : false,
                       "styles" : {
-                        "align-self" : "center"
+                        "align-self" : "center",
+                        "padding" : "var(--now-static-space--lg)"
                       }
                     } ],
                     "layout" : {
@@ -1097,7 +1098,7 @@
                                 "type" : "TRANSLATION_LITERAL",
                                 "value" : {
                                   "code" : null,
-                                  "message" : "Alerts",
+                                  "message" : "Alerts 1",
                                   "comment" : ""
                                 }
                               },
@@ -1107,11 +1108,11 @@
                               },
                               "tableOrViewName" : {
                                 "type" : "JSON_LITERAL",
-                                "value" : "x_ster2_emfs_alerts"
+                                "value" : "x_ster2_emfs_alerts2"
                               },
                               "filterQuery" : {
                                 "type" : "JSON_LITERAL",
-                                "value" : "severity=critical"
+                                "value" : null
                               },
                               "reportSourceSysId" : {
                                 "type" : "JSON_LITERAL",
@@ -1119,7 +1120,7 @@
                               },
                               "id" : {
                                 "type" : "JSON_LITERAL",
-                                "value" : "dGFibGV4X3N0ZXIyX2VtZnNfYWxlcnRzMTY2MzY3Mjk0ODM1OQ=="
+                                "value" : "dGFibGV4X3N0ZXIyX2VtZnNfYWxlcnRzMjE2NjQ5ODc1ODYzMTU="
                               }
                             }
                           } ]
@@ -1140,7 +1141,7 @@
                           "type" : "TRANSLATION_LITERAL",
                           "value" : {
                             "code" : null,
-                            "message" : "Alerts with Critical Severity",
+                            "message" : "All Active Alerts",
                             "comment" : ""
                           }
                         },
@@ -1163,11 +1164,11 @@
                             "container" : {
                               "dataSource" : {
                                 "type" : "JSON_LITERAL",
-                                "value" : "dGFibGV4X3N0ZXIyX2VtZnNfYWxlcnRzMTY2MzY3Mjk0ODM1OQ=="
+                                "value" : "dGFibGV4X3N0ZXIyX2VtZnNfYWxlcnRzMjE2NjQ5ODc1ODYzMTU="
                               },
                               "id" : {
                                 "type" : "JSON_LITERAL",
-                                "value" : "ZEdGaWJHVjRYM04wWlhJeVgyVnRabk5mWVd4bGNuUnpNVFkyTXpZM01qazBPRE0xT1E9PTE2NjM2NzI5NTIzNjg="
+                                "value" : "ZEdGaWJHVjRYM04wWlhJeVgyVnRabk5mWVd4bGNuUnpNakUyTmpRNU9EYzFPRFl6TVRVPTE2NjQ5ODc1ODgzNDM="
                               },
                               "aggregateFunction" : {
                                 "type" : "JSON_LITERAL",
@@ -1505,101 +1506,57 @@
           "overrides" : {
             "composition" : [ {
               "elementId" : "single_score_5",
-              "elementLabel" : "Vertical bar",
+              "elementLabel" : "Donut",
               "propertyValues" : {
                 "chartSize" : {
                   "type" : "JSON_LITERAL",
                   "value" : null
                 },
-                "chartVariation" : {
+                "showDataLabels" : {
                   "type" : "JSON_LITERAL",
                   "value" : null
                 },
-                "yAxisHidden" : {
+                "dataLabelsType" : {
                   "type" : "JSON_LITERAL",
-                  "value" : false
+                  "value" : "both"
                 },
-                "yAxisTitle" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "yAxisFrom" : {
+                "maxLabelSize" : {
                   "type" : "JSON_LITERAL",
                   "value" : null
                 },
-                "yAxisTo" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "yAxisPosition" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "bottom"
-                },
-                "yAxisShowGrid" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : true
-                },
-                "xAxisTitle" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "xAxisWrapLabels" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
-                "xAxisMaxLabelSize" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : 100
-                },
-                "xAxisTruncationType" : {
+                "truncationType" : {
                   "type" : "JSON_LITERAL",
                   "value" : "end"
                 },
-                "yAxisStyle" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "clean"
-                },
-                "showLegend" : {
+                "showRegister" : {
                   "type" : "JSON_LITERAL",
                   "value" : true
                 },
-                "showLegendValue" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : true
-                },
-                "legendPosition" : {
+                "registerPosition" : {
                   "type" : "JSON_LITERAL",
                   "value" : "bottom"
                 },
-                "showDataLabels" : {
+                "registerOrientation" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "horizontal"
+                },
+                "showRegisterOnSameLine" : {
                   "type" : "JSON_LITERAL",
                   "value" : false
                 },
-                "dataLabelPosition" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "middle"
-                },
-                "showStackedValues" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "none"
-                },
-                "showOverlappingLabels" : {
+                "showRegisterValue" : {
                   "type" : "JSON_LITERAL",
                   "value" : false
+                },
+                "showRegisterPercentage" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
                 },
                 "colorConfig" : {
                   "type" : "JSON_LITERAL",
                   "value" : {
                     "type" : "default"
                   }
-                },
-                "sortBy" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "value"
-                },
-                "sortByOrder" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "desc"
                 },
                 "dataSources" : {
                   "type" : "LIST_CONTAINER",
@@ -1720,6 +1677,14 @@
                       "isPaBucket" : false
                     } ]
                   } ]
+                },
+                "sortBy" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "value"
+                },
+                "sortByOrder" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "desc"
                 },
                 "trendBy" : {
                   "type" : "JSON_LITERAL",
@@ -1843,7 +1808,7 @@
               "eventMappings" : [ ],
               "slot" : null,
               "definition" : {
-                "id" : "23051643b7e03010097cb81cde11a910",
+                "id" : "a2b0596cec6b9d49dd1ff9bf76b5084b",
                 "type" : "MACROPONENT"
               },
               "overrides" : null,
@@ -1855,7 +1820,7 @@
               "isNonDestructive" : false,
               "styles" : {
                 "height" : "100%",
-                "width" : "75%",
+                "width" : "50%",
                 "align-self" : "center"
               }
             } ],
@@ -2225,7 +2190,7 @@
               "overrides" : null,
               "isHidden" : {
                 "type" : "JSON_LITERAL",
-                "value" : null
+                "value" : true
               },
               "isHero" : false,
               "isNonDestructive" : false,
@@ -2333,7 +2298,10 @@
   "message" : "Alerts",
   "comment" : ""
 }, {
-  "message" : "Alerts with Critical Severity",
+  "message" : "Alerts 1",
+  "comment" : ""
+}, {
+  "message" : "All Active Alerts",
   "comment" : ""
 }, {
   "message" : "All Active Monitoring Orders",
@@ -2366,13 +2334,13 @@
         <sys_created_by>hasnaat.khan.ems</sys_created_by>
         <sys_created_on>2022-09-20 10:09:22</sys_created_on>
         <sys_id>c8002b618786d110952f87f5cebb3511</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Responsible officer CH</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_ux_macroponent_c8002b618786d110952f87f5cebb3511</sys_update_name>
         <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-09-30 08:29:26</sys_updated_on>
+        <sys_updated_on>2022-10-10 15:19:27</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

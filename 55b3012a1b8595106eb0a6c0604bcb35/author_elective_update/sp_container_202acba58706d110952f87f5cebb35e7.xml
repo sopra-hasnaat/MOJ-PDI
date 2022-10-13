@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Subject - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="subject">6472653f1b3515106eb0a6c0604bcbf6</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-09-20 08:33:50</sys_created_on>
+        <sys_id>202acba58706d110952f87f5cebb35e7</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Subject - Container 1</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_container_202acba58706d110952f87f5cebb35e7</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-10-10 15:16:10</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sp_container_202acba58706d110952f87f5cebb35e7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Subject - Container 1</name><order>1</order><sp_page display_value="subject">6472653f1b3515106eb0a6c0604bcbf6</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>rebecca.seiga.ems</sys_created_by><sys_created_on>2022-09-20 08:33:50</sys_created_on><sys_id>202acba58706d110952f87f5cebb35e7</sys_id><sys_mod_count>10</sys_mod_count><sys_name>Subject - Container 1</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sp_container_202acba58706d110952f87f5cebb35e7</sys_update_name><sys_updated_by>rebecca.seiga.ems</sys_updated_by><sys_updated_on>2022-10-10 15:16:10</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>2078565222</payload_hash>
+        <record_name>Subject - Container 1</record_name>
+        <reverted_from/>
+        <source>7c32c2c81bee99506eb0a6c0604bcbe6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-10-10 15:16:10</sys_created_on>
+        <sys_id>15062b081b66d9506eb0a6c0604bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183c277bafa0000001</sys_recorded_at>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-10-10 15:16:10</sys_updated_on>
+        <type>Container</type>
+        <update_guid>99062b084a66d9501aa541fb9f454c31</update_guid>
+        <update_guid_history>99062b084a66d9501aa541fb9f454c31:2078565222,7ff5e708c566d950d8cf814f15799ad5:30815769,5fee072d1406d1109e3d78ce9bd5a8e1:1264349866,9bee072dd106d110cad58dfb56b424db:850217877,989ccb694606d110001f1bc21d31dca6:1528803919,1d7c8b690906d11092c1d8c4d8b01160:872901872,022cc369e406d110b43111dafb868836:1528803919,a82cc3693306d110f6fbf4e06df7854b:-338311843,831c8369fd06d110f40d42a59a773ff2:1453829730,511c83690906d1103ab516ed81367fe2:-453456827,6afacfe50706d110474ade61a89b373b:872901872,aefacfe50706d1107b9d28a0641f8935:2037458208,548a07a175c2d1109f3f4971e86be7b9:1348152071,642acba59006d110d466e4f2e67c35e9:2078565222</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Subject - Container 1">9a0658e01be61d506eb0a6c0604bcba6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-10-11 13:24:26</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>3eab34d4b4f04cc6ae21e3b797e94711</sys_id>
+        <sys_metadata>202acba58706d110952f87f5cebb35e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Subject - Container 1</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sp_container_202acba58706d110952f87f5cebb35e7</sys_update_name>
+        <sys_update_version display_value="sp_container_202acba58706d110952f87f5cebb35e7">15062b081b66d9506eb0a6c0604bcb32</sys_update_version>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-10-11 13:24:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

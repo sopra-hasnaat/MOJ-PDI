@@ -39,12 +39,12 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>date_and_time_of_exception</name>
+        <name>start_date_and_time_of_exception</name>
         <order>150</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Date and Time of Exception</question_text>
+        <question_text>Start Date and Time</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -68,14 +68,14 @@
         <sys_created_by>rebecca.seiga.ems</sys_created_by>
         <sys_created_on>2022-10-03 09:08:51</sys_created_on>
         <sys_id>81be06b187da1550952f87f5cebb356e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Date and Time of Exception</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Start Date and Time</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>item_option_new_81be06b187da1550952f87f5cebb356e</sys_update_name>
         <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
-        <sys_updated_on>2022-10-03 09:08:51</sys_updated_on>
+        <sys_updated_on>2022-10-13 09:00:05</sys_updated_on>
         <table/>
         <tooltip/>
         <type>10</type>

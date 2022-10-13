@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="New Subject &amp; Monitoring Order">b51bfce41b215d506eb0a6c0604bcbdf</catalog_item>
+        <catalog_variable>IO:0f1b34281b215d506eb0a6c0604bcba7</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-12 16:13:51</sys_created_on>
+        <sys_id>3566423487a65190952f87f5cebb358a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>alternative_contact_relationship_to_subject</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_3566423487a65190952f87f5cebb358a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-12 16:15:32</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'alternative_contact_relationship_to_subject' mandatory depending on 'adult_juvenile'">3966423487a65190952f87f5cebb3586</ui_policy>
+        <variable>alternative_contact_relationship_to_subject</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>catalog_ui_policy_action_3566423487a65190952f87f5cebb358a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="New Subject &amp; Monitoring Order">b51bfce41b215d506eb0a6c0604bcbdf</catalog_item><catalog_variable>IO:0f1b34281b215d506eb0a6c0604bcba7</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-10-12 16:13:51</sys_created_on><sys_id>3566423487a65190952f87f5cebb358a</sys_id><sys_mod_count>2</sys_mod_count><sys_name>alternative_contact_relationship_to_subject</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>catalog_ui_policy_action_3566423487a65190952f87f5cebb358a</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-10-12 16:15:32</sys_updated_on><table/><ui_policy display_value="Make 'alternative_contact_relationship_to_subject' mandatory depending on 'adult_juvenile'">3966423487a65190952f87f5cebb3586</ui_policy><variable>alternative_contact_relationship_to_subject</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1449270946</payload_hash>
+        <record_name>alternative_contact_relationship_to_subject</record_name>
+        <reverted_from/>
+        <source>a11a0ec487e29d50952f87f5cebb350b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-12 16:15:32</sys_created_on>
+        <sys_id>22c682f41b6e5d506eb0a6c0604bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183ccfacf0f0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-12 16:15:32</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>a6c682f4f56e5d50fb79de811391aa49</update_guid>
+        <update_guid_history>a6c682f4f56e5d50fb79de811391aa49:-1449270946,756642343da65190ff9b641c3be13192:1325013591,316642345ca65190703724753a5ce78d:-1449270946</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="alternative_contact_relationship_to_subject">4ec8c6f81b6e5d506eb0a6c0604bcb6d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-12 16:24:14</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>21b4d2a61eb34ab089fbfcbe4d8d10e4</sys_id>
+        <sys_metadata>3566423487a65190952f87f5cebb358a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>alternative_contact_relationship_to_subject</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_3566423487a65190952f87f5cebb358a</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_3566423487a65190952f87f5cebb358a">22c682f41b6e5d506eb0a6c0604bcb4a</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-12 16:24:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

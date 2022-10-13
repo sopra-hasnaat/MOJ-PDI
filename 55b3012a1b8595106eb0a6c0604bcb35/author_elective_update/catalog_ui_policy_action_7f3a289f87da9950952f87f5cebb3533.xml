@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="New Subject &amp; Monitoring Order">b51bfce41b215d506eb0a6c0604bcbdf</catalog_item>
+        <catalog_variable>IO:861bf0281b215d506eb0a6c0604bcb69</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-10-07 17:40:20</sys_created_on>
+        <sys_id>7f3a289f87da9950952f87f5cebb3533</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>faith_religion</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_7f3a289f87da9950952f87f5cebb3533</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-10-07 17:40:20</sys_updated_on>
+        <table/>
+        <ui_policy display_value="New Subject &amp; Monitoring Order UI policy">c41a649f87da9950952f87f5cebb3520</ui_policy>
+        <variable>faith_religion</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>catalog_ui_policy_action_7f3a289f87da9950952f87f5cebb3533</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="New Subject &amp; Monitoring Order">b51bfce41b215d506eb0a6c0604bcbdf</catalog_item><catalog_variable>IO:861bf0281b215d506eb0a6c0604bcb69</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>des.king.ems</sys_created_by><sys_created_on>2022-10-07 17:40:20</sys_created_on><sys_id>7f3a289f87da9950952f87f5cebb3533</sys_id><sys_mod_count>0</sys_mod_count><sys_name>faith_religion</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>catalog_ui_policy_action_7f3a289f87da9950952f87f5cebb3533</sys_update_name><sys_updated_by>des.king.ems</sys_updated_by><sys_updated_on>2022-10-07 17:40:20</sys_updated_on><table/><ui_policy display_value="New Subject &amp; Monitoring Order UI policy">c41a649f87da9950952f87f5cebb3520</ui_policy><variable>faith_religion</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-2071019339</payload_hash>
+        <record_name>faith_religion</record_name>
+        <reverted_from/>
+        <source>fedab1ea875ed550952f87f5cebb356b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-10-07 17:40:20</sys_created_on>
+        <sys_id>3b3a289f87da9950952f87f5cebb3569</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183b388a74a0000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-10-07 17:40:20</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>bf3a289f85da995095327a4c26c87368</update_guid>
+        <update_guid_history>bf3a289f85da995095327a4c26c87368:-2071019339</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="faith_religion">8d2ef93c1b2e5d506eb0a6c0604bcb2a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-12 15:37:45</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>e4b0b12dfd32470b946e97d4d7b96b89</sys_id>
+        <sys_metadata>7f3a289f87da9950952f87f5cebb3533</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>faith_religion</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_7f3a289f87da9950952f87f5cebb3533</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_7f3a289f87da9950952f87f5cebb3533">3b3a289f87da9950952f87f5cebb3569</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:37:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

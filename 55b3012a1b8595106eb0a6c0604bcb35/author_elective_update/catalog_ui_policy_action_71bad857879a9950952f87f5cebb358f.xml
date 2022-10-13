@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="New Subject &amp; Monitoring Order">b51bfce41b215d506eb0a6c0604bcbdf</catalog_item>
+        <catalog_variable>IO:0f1b34281b215d506eb0a6c0604bcba7</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-10-07 16:32:28</sys_created_on>
+        <sys_id>71bad857879a9950952f87f5cebb358f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>alternative_contact_relationship_to_subject</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_71bad857879a9950952f87f5cebb358f</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-10-07 16:32:28</sys_updated_on>
+        <table/>
+        <ui_policy display_value="New Subject &amp; Monitoring Order UI policy">edaa1857879a9950952f87f5cebb3502</ui_policy>
+        <variable>alternative_contact_relationship_to_subject</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>catalog_ui_policy_action_71bad857879a9950952f87f5cebb358f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="New Subject &amp; Monitoring Order">b51bfce41b215d506eb0a6c0604bcbdf</catalog_item><catalog_variable>IO:0f1b34281b215d506eb0a6c0604bcba7</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>des.king.ems</sys_created_by><sys_created_on>2022-10-07 16:32:28</sys_created_on><sys_id>71bad857879a9950952f87f5cebb358f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>alternative_contact_relationship_to_subject</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>catalog_ui_policy_action_71bad857879a9950952f87f5cebb358f</sys_update_name><sys_updated_by>des.king.ems</sys_updated_by><sys_updated_on>2022-10-07 16:32:28</sys_updated_on><table/><ui_policy display_value="New Subject &amp; Monitoring Order UI policy">edaa1857879a9950952f87f5cebb3502</ui_policy><variable>alternative_contact_relationship_to_subject</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1961534764</payload_hash>
+        <record_name>alternative_contact_relationship_to_subject</record_name>
+        <reverted_from/>
+        <source>fedab1ea875ed550952f87f5cebb356b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-10-07 16:32:28</sys_created_on>
+        <sys_id>39bad857879a9950952f87f5cebb3592</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183b34a838e0000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-10-07 16:32:28</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>bdbad857e39a99502b6ee79e27701291</update_guid>
+        <update_guid_history>bdbad857e39a99502b6ee79e27701291:1961534764</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="alternative_contact_relationship_to_subject">052ef93c1b2e5d506eb0a6c0604bcb62</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-12 15:37:46</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>275eaca2158f4e9483ad77ad0a9d4141</sys_id>
+        <sys_metadata>71bad857879a9950952f87f5cebb358f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>alternative_contact_relationship_to_subject</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_71bad857879a9950952f87f5cebb358f</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_71bad857879a9950952f87f5cebb358f">39bad857879a9950952f87f5cebb3592</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:37:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -2,19 +2,7 @@
     <element audit="true" label="Subjects" max_length="40" name="x_ster2_emfs_subject" sizeclass="44" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Access Comments" max_length="4000" name="access_comments" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Disability" max_length="40" name="access_requirements" reference="x_ster2_emfs_disability" type="glide_list">
-            <choice>
-                <element inactive_on_update="false" label="Vision" sequence="0" value="vision"/>
-                <element inactive_on_update="false" label="Hearing" sequence="1" value="hearing"/>
-                <element inactive_on_update="false" label="Mobility" sequence="2" value="mobility"/>
-                <element inactive_on_update="false" label="Dexterity" sequence="3" value="dexterity"/>
-                <element inactive_on_update="false" label="Learning, understanding or concentrating" sequence="4" value="learning"/>
-                <element inactive_on_update="false" label="Memory" sequence="5" value="memory"/>
-                <element inactive_on_update="false" label="Mental Health" sequence="6" value="mental_health"/>
-                <element inactive_on_update="false" label="Stamina, breathing or fatigure" sequence="7" value="stamina"/>
-                <element inactive_on_update="false" label="Social or behavioural" sequence="8" value="social_behavioural"/>
-                <element inactive_on_update="false" label="Other" sequence="9" value="other"/>
-                <element inactive_on_update="false" label="None of the above" sequence="10" value="none_of_the_above"/>
-            </choice>
+            <choice/>
         </element>
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Address 2 City" max_length="40" name="address2_city" type="string"/>
@@ -82,7 +70,7 @@
         <element attributes="edge_encryption_enabled=true" label="Date of Birth" mandatory="true" max_length="40" name="date_of_birth" type="glide_date"/>
         <element label="Delius ID" max_length="40" name="delius_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
-        <element label="Ethnicity" max_length="40" name="ethnicity" reference="x_ster2_emfs_ethnicity" type="glide_list"/>
+        <element label="Ethnicity" max_length="100" name="ethnicity" reference="x_ster2_emfs_ethnicity" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Faith/Religion" max_length="40" name="faith_religion" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Christian" sequence="0" value="christian"/>
@@ -154,6 +142,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Risk Comments" max_length="4000" name="risk_comments" type="string"/>
+        <element label="Secondary Address Validated" max_length="10" name="secondary_address_validated" type="boolean"/>
         <element label="Secondary phone" max_length="40" name="secondary_phone" type="phone_number_e164"/>
         <element label="Special?" max_length="40" name="special" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Special Handling" max_length="40" name="special_handling" type="choice">
