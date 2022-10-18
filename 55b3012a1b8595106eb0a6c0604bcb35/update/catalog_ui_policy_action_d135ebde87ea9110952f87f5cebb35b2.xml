@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="New Subject">b51bfce41b215d506eb0a6c0604bcbdf</catalog_item>
+        <catalog_variable>IO:0e1bf0281b215d506eb0a6c0604bcb5e</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-17 14:58:56</sys_created_on>
+        <sys_id>d135ebde87ea9110952f87f5cebb35b2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>alternative_contact</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d135ebde87ea9110952f87f5cebb35b2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:04:41</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'alternative_contact' mandatory depending on 'adult_juvenile'">d535ebde87ea9110952f87f5cebb35ae</ui_policy>
+        <variable>alternative_contact</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

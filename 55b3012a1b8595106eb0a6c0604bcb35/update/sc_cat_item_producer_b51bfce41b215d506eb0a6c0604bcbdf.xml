@@ -32,7 +32,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>New Subject &amp; Monitoring Order</name>
+        <name>New Subject</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -74,21 +74,23 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <script><![CDATA[var grMO = new GlideRecord('x_ster2_emfs_monitoring_order');
-grMO.initialize();
-grMO.subject_name = current.getUniqueValue();
-grMO.order_type = producer.order_type;
-grMO.sub_order_type = producer.sub_order_type;
-grMO.monitoring_type = producer.monitoring_type;
-grMO.primary_offence = producer.primary_offence;
-grMO.court_prison = producer.court_prison;
-grMO.court_reference = producer.what_is_the_court_prison_reference_for_this_order;
-grMO.start_date_time = producer.start_date_time;
-grMO.planned_end_date = producer.planned_end_date;
-grMO.additional_requirements = producer.additional_requirements;
-grMO.attachments = producer.order_documentation;
-//grCase.contact = gs.getUserID();
-grMO.insert();
+        <script><![CDATA[// var grMO = new GlideRecord('x_ster2_emfs_monitoring_order');
+// grMO.initialize();
+// grMO.subject_name = current.getUniqueValue();
+// grMO.order_type = producer.order_type;
+// grMO.sub_order_type = producer.sub_order_type;
+// grMO.monitoring_type = producer.monitoring_type;
+// grMO.primary_offence = producer.primary_offence;
+// grMO.court_prison = producer.court_prison;
+// grMO.court_reference = producer.what_is_the_court_prison_reference_for_this_order;
+// grMO.start_date_time = producer.start_date_time;
+// grMO.planned_end_date = producer.planned_end_date;
+// grMO.additional_requirements = producer.additional_requirements;
+// grMO.attachments = producer.order_documentation;
+// grCase.contact = gs.getUserID();
+// grMO.insert();
+
+var subjectID = current.sys_id;
 
 var grUser = new GlideRecord('sys_user');
 grUser.initialize();
@@ -100,8 +102,9 @@ grUser.mobile_phone = current.mobile;
 grUser.active = true;
 grUser.password_needs_reset = true;
 //grUser.role = "u_subject_user";
+grUser.u_subject = current.sys_id;
 grUser.insert();]]></script>
-        <short_description>New Subject &amp; Monitoring Order</short_description>
+        <short_description>New Subject</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state>published</state>
@@ -109,14 +112,14 @@ grUser.insert();]]></script>
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-08-22 23:03:32</sys_created_on>
         <sys_id>b51bfce41b215d506eb0a6c0604bcbdf</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>New Subject &amp; Monitoring Order</sys_name>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>New Subject</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sc_cat_item_producer_b51bfce41b215d506eb0a6c0604bcbdf</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-10-12 16:32:22</sys_updated_on>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-18 11:57:48</sys_updated_on>
         <table_name>x_ster2_emfs_subject</table_name>
         <taxonomy_topic/>
         <template/>

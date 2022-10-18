@@ -43,7 +43,7 @@
     <sys_variable_value action="delete_multiple" query="document_key=260d4cc81b3199906eb0a6c0604bcb7a"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="sn_customerservice_case">category=5^subcategory=1^u_subject.gender=male<item display_value="Installation" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="5"/>
+        <condition table="sn_customerservice_case">category=5^subcategory=1^u_subject.gender=male<item display_value="Visit" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="5"/>
             <item display_value="AM - Adult" endquery="false" field="subcategory" goto="false" newquery="false" operator="=" or="false" value="1"/>
             <item display_value="male" endquery="false" field="u_subject.gender" goto="false" newquery="false" operator="=" or="false" value="male"/>
         </condition>
@@ -336,10 +336,10 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-02 17:06:25</sys_created_on>
         <sys_id>bdd2d4801b7199906eb0a6c0604bcb1d</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
-        <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-05 16:28:45</sys_updated_on>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-12 16:51:25</sys_updated_on>
         <ui_id>212d450e-c5c2-4189-87ba-f45cb9d30468</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bdd2d4801b7199906eb0a6c0604bcb1d"/>
@@ -442,7 +442,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"16d2d4801b7199906eb0a6c0604bcb90","name":"plan","plan_signature":null}}</plan>
         <plan_id>260d4cc81b3199906eb0a6c0604bcb7a</plan_id>
-        <snapshot>0ed2d4801b7199906eb0a6c0604bcb43</snapshot>
+        <snapshot>cc0f827087e65190952f87f5cebb35eb</snapshot>
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-02 17:06:27</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -843,6 +843,6 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>260d4cc81b3199906eb0a6c0604bcb7a</sys_id>
         <latest_snapshot>0ed2d4801b7199906eb0a6c0604bcb43</latest_snapshot>
-        <compiler_build>glide-sandiego-12-22-2021__patch5-06-22-2022_06-30-2022_1211.zip</compiler_build>
+        <compiler_build>glide-sandiego-12-22-2021__patch7-08-17-2022_08-23-2022_1902.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

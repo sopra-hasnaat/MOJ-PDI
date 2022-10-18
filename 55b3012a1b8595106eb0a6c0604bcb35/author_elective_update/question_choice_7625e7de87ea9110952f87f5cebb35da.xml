@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref display_value="SMS">4c1bd857879a9950952f87f5cebb35ed</published_ref>
+        <question display_value="What is the preferred method for notifications">7e25e7de87ea9110952f87f5cebb35b7</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-17 14:58:46</sys_created_on>
+        <sys_id>7625e7de87ea9110952f87f5cebb35da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SMS</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_7625e7de87ea9110952f87f5cebb35da</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-17 14:58:46</sys_updated_on>
+        <text>SMS</text>
+        <value>sms</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=7625e7de87ea9110952f87f5cebb35da"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_7625e7de87ea9110952f87f5cebb35da</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref display_value="SMS">4c1bd857879a9950952f87f5cebb35ed</published_ref><question display_value="What is the preferred method for notifications">7e25e7de87ea9110952f87f5cebb35b7</question><sys_class_name>question_choice</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-10-17 14:58:46</sys_created_on><sys_id>7625e7de87ea9110952f87f5cebb35da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SMS</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>question_choice_7625e7de87ea9110952f87f5cebb35da</sys_update_name><sys_updated_by>hasnaat.khan.ems</sys_updated_by><sys_updated_on>2022-10-17 14:58:46</sys_updated_on><text>SMS</text><value>sms</value></question_choice><fx_price action="delete_multiple" query="id=7625e7de87ea9110952f87f5cebb35da"/></record_update>]]></payload>
+        <payload_hash>-663130707</payload_hash>
+        <record_name>SMS</record_name>
+        <reverted_from/>
+        <source>a11a0ec487e29d50952f87f5cebb350b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-17 14:58:46</sys_created_on>
+        <sys_id>3e25e7de87ea9110952f87f5cebb35dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183e67453790000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-17 14:58:46</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>b225e7de7eea911078b93181f0312edc</update_guid>
+        <update_guid_history>b225e7de7eea911078b93181f0312edc:-663130707</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SMS">26866792872e9110952f87f5cebb35f3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-17 15:04:45</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>1f5a8e26d60b482cab83badb058209c4</sys_id>
+        <sys_metadata>7625e7de87ea9110952f87f5cebb35da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SMS</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">7e25e7de87ea9110952f87f5cebb35b7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_7625e7de87ea9110952f87f5cebb35da</sys_update_name>
+        <sys_update_version display_value="question_choice_7625e7de87ea9110952f87f5cebb35da">3e25e7de87ea9110952f87f5cebb35dc</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:04:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

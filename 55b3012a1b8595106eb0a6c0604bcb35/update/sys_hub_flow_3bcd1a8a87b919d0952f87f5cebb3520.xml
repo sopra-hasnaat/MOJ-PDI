@@ -43,7 +43,7 @@
     <sys_variable_value action="delete_multiple" query="document_key=3bcd1a8a87b919d0952f87f5cebb3520"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="sn_customerservice_case">category=5^subcategory=2^u_subject.gender=male<item display_value="Installation" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="5"/>
+        <condition table="sn_customerservice_case">category=5^subcategory=2^u_subject.gender=male<item display_value="Visit" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="5"/>
             <item display_value="AM - Juvenile" endquery="false" field="subcategory" goto="false" newquery="false" operator="=" or="false" value="2"/>
             <item display_value="male" endquery="false" field="u_subject.gender" goto="false" newquery="false" operator="=" or="false" value="male"/>
         </condition>

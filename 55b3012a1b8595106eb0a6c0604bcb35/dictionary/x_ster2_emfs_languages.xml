@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Languages" max_length="40" name="x_ster2_emfs_languages" sizeclass="180" text_index="true" type="collection">
+    <element label="Languages" max_length="40" name="x_ster2_emfs_languages" sizeclass="181" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" label="ISO 639-1 Code" max_length="40" name="iso_639_1_code" type="string"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Language Name" max_length="40" name="language_name" type="string"/>
         <element label="Order" max_length="40" name="order" type="integer"/>

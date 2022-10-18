@@ -3,7 +3,7 @@
         <choices/>
         <description>L1 Configuration	</description>
         <name>chrome_toolbar</name>
-        <page display_value="Electronic Monitoring">2074300f266595902f71ce01d56e875e</page>
+        <page display_value="Electronic Monitoring Workspace">2074300f266595902f71ce01d56e875e</page>
         <required_translations>[ {
   "message" : "Analytics Center",
   "comment" : ""

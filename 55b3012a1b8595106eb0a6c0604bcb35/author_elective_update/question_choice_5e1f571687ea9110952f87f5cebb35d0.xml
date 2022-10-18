@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref display_value="Vision">212d589b879a9950952f87f5cebb3520</published_ref>
+        <question display_value="Does the Subject have a disability or impairment?">1a1f571687ea9110952f87f5cebb35c0</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-17 14:32:15</sys_created_on>
+        <sys_id>5e1f571687ea9110952f87f5cebb35d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vision</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_5e1f571687ea9110952f87f5cebb35d0</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-17 14:32:15</sys_updated_on>
+        <text>Vision</text>
+        <value>vision</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=5e1f571687ea9110952f87f5cebb35d0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_5e1f571687ea9110952f87f5cebb35d0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref display_value="Vision">212d589b879a9950952f87f5cebb3520</published_ref><question display_value="Does the Subject have a disability or impairment?">1a1f571687ea9110952f87f5cebb35c0</question><sys_class_name>question_choice</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-10-17 14:32:15</sys_created_on><sys_id>5e1f571687ea9110952f87f5cebb35d0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Vision</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>question_choice_5e1f571687ea9110952f87f5cebb35d0</sys_update_name><sys_updated_by>hasnaat.khan.ems</sys_updated_by><sys_updated_on>2022-10-17 14:32:15</sys_updated_on><text>Vision</text><value>vision</value></question_choice><fx_price action="delete_multiple" query="id=5e1f571687ea9110952f87f5cebb35d0"/></record_update>]]></payload>
+        <payload_hash>497713884</payload_hash>
+        <record_name>Vision</record_name>
+        <reverted_from/>
+        <source>a11a0ec487e29d50952f87f5cebb350b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-17 14:32:15</sys_created_on>
+        <sys_id>561f571687ea9110952f87f5cebb35d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183e65c0afd0000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-17 14:32:15</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>da1f5716daea911054627c72379035d2</update_guid>
+        <update_guid_history>da1f5716daea911054627c72379035d2:497713884</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Vision">0dc027d687ea9110952f87f5cebb35c6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-17 14:39:32</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>45e3329dd2f347e082cf389b8f58b640</sys_id>
+        <sys_metadata>5e1f571687ea9110952f87f5cebb35d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vision</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">1a1f571687ea9110952f87f5cebb35c0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_5e1f571687ea9110952f87f5cebb35d0</sys_update_name>
+        <sys_update_version display_value="question_choice_5e1f571687ea9110952f87f5cebb35d0">561f571687ea9110952f87f5cebb35d3</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-17 14:39:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

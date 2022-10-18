@@ -4,7 +4,7 @@
   "table" : "x_ster2_emfs_subject",
   "sysId" : "a4ac90071b2595906eb0a6c0604bcb3f"
 }</macroponent_config>
-        <screen display_value="Subject Copy">01a6042887825910952f87f5cebb35bf</screen>
+        <screen display_value="Subject">01a6042887825910952f87f5cebb35bf</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>hasnaat.khan.ems</sys_created_by>
         <sys_created_on>2022-09-16 15:45:47</sys_created_on>

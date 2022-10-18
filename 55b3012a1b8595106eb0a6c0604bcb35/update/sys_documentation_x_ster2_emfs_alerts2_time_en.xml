@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="time" label="Time" language="en" table="x_ster2_emfs_alerts2">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>time</element>
+            <help/>
+            <hint/>
+            <label>Time</label>
+            <language>en</language>
+            <name>x_ster2_emfs_alerts2</name>
+            <plural>Times</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-10-05 15:18:19</sys_created_on>
+            <sys_id>80967926875ed550952f87f5cebb3562</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Time</sys_name>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_documentation_x_ster2_emfs_alerts2_time_en</sys_update_name>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-10-05 15:18:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

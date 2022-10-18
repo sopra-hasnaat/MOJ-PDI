@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="subj location">72179b59876ed190952f87f5cebb3510</child>
+        <cloned>2022-10-14 11:23:25</cloned>
+        <last_validated>2022-10-14 11:23:25</last_validated>
+        <parent display_value="Ticket Location">2795e5e2ff123100ba13ffffffffff84</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function ($scope, $element, $timeout, $http, cabrillo, $rootScope, spUtil) {
+  $scope.locationSupported = !!navigator.geolocation;
+
+	$scope.requested = false;
+
+  $scope.isNative = false;
+  if (cabrillo.isNative())
+    $scope.isNative = true;
+	
+  if ($scope.data.isMapKeyAvailable)
+    $rootScope.$broadcast("sp.show_location_icon");
+
+  $scope.getLocation = function() {
+    $rootScope.$broadcast("location.sharing.start");
+    $scope.requested = true;
+    $scope.status = $scope.data.askingMsg;
+    $scope.api_key = $scope.data.api_key;
+    if (cabrillo.isNative()) {
+      cabrillo.geolocation.getCurrentLocation().then(function(o) {
+        $scope.data.cabrilloloc = o;
+        $scope.position = {};
+        $scope.position.coords = {};
+        $scope.position.coords.latitude = o.coordinate.latitude;
+        $scope.position.coords.longitude = o.coordinate.longitude;
+        spLoadMaps($scope.api_key); // in sp.geo.js
+      });
+    } else
+			navigator.geolocation.getCurrentPosition(gotLocation, error, {timeout: 10000});
+  }
+
+  function gotLocation(pos) {
+    $scope.position = pos;
+    $scope.$digest();
+    spLoadMaps($scope.api_key); // in sp.geo.js
+  }
+
+  function error(msg) {
+    if (msg.code == 1) {
+      alert($scope.data.enableMsg);
+      $scope.status = $scope.data.notEnabledMsg;
+    } else if (msg.code == 2 || msg.code == 3)
+			$scope.status = $scope.data.notDeterminedMsg;
+    $rootScope.$broadcast("location.sharing.end");
+    $scope.$digest();
+  }
+
+  $scope.$on('check_in_location', function(evt) {
+    $scope.getLocation()
+  });
+
+  CustomEvent.observe('map.initialized', function() {
+    if (!$scope.position)
+      return;
+
+    $scope.mapInit = true;
+    $scope.$digest();
+
+    var position = $scope.position;
+    console.log(position);
+    $scope.data.lat = position.coords.latitude;
+    $scope.data['long'] = position.coords.longitude;
+
+    $scope.latlng = new google.maps.LatLng($scope.data.lat, $scope.data['long']);
+    var geocoder = new google.maps.Geocoder();
+    geocoder.geocode({'latLng': $scope.latlng}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        if (results[0]) {
+          $scope.address = results[0].formatted_address;
+          $scope.data.address = results[0].formatted_address;
+          $scope.$digest();
+
+          $scope.data.geodata = {};
+          $scope.data.geodata["latitude"] = $scope.data.lat;
+          $scope.data.geodata["longitude"] = $scope.data['long'];
+          $scope.data.geodata["address"] = results[0].formatted_address;
+          $scope.data.geodata["sys_user"] = $scope.data.user;
+
+          $scope.phoneHome();
+
+        } else
+          $scope.address = "Street address not found";
+      }
+    });
+    var mapOptions = {
+      scrollwheel: false,
+      zoom : 17,
+      center : $scope.latlng,
+      mapTypeControl : true,
+      navigationControlOptions : {
+        style : google.maps.NavigationControlStyle.SMALL
+      },
+      mapTypeId : google.maps.MapTypeId.ROADMAP
+    };
+    var target = $element.find(".sp-geo-canvas-container")[0];
+    $scope.status = $scope.data.fetchingMapMsg;
+    $scope.map = new google.maps.Map(target, mapOptions);
+
+    var R = 6371; // kilometers
+    var radius = .25; // 100 meter circle
+    // first-cut bounding box (in degrees)
+
+    $scope.data.maxLat = $scope.data.lat + rad2deg(radius/R);
+    $scope.data.minLat = $scope.data.lat - rad2deg(radius/R);
+    // compensate for degrees longitude getting smaller with increasing latitude
+    $scope.data.maxLon = $scope.data['long'] + rad2deg(radius/R/Math.cos(deg2rad($scope.data.lat)));
+    $scope.data.minLon = $scope.data['long'] - rad2deg(radius/R/Math.cos(deg2rad($scope.data.lat)));
+    $scope.submit();
+
+    var marker = new google.maps.Marker({
+      position : $scope.latlng,
+      map : $scope.map,
+      title : $scope.data.youAreHereMsg
+    });
+
+    var cir = {
+      strokeColor: '#00FF00',
+      strokeOpacity: 0.8,
+      strokeWeight: 1,
+      fillColor: '#00FF00',
+      fillOpacity: 0.15,
+      map: $scope.map,
+      center: $scope.latlng,
+      radius: Math.sqrt(20000)
+    };
+    var circle = new google.maps.Circle(cir);
+    $rootScope.$broadcast("location.sharing.end");
+  });
+
+  $scope.phoneHome = function() {
+    var dataURL = spUtil.getWidgetURL($scope);
+    $http.post(dataURL, $scope.data).success(function(response) {
+      $scope.data.address = "";
+      $scope.data.geodata = {};
+    });
+  }
+
+  $scope.submit = function(map, latlng) {
+    var dataURL = spUtil.getWidgetURL($scope);
+    $http.post(dataURL, $scope.data).success(function(response) {
+      angular.extend($scope.data, response.result.data);
+      if (!$scope.data.others)
+        return;
+
+      for (var i = 0; i &lt; $scope.data.others.length; i++) {
+        var u = $scope.data.others[i];
+        var ll = new google.maps.LatLng(u.lat, u.lon);
+        var ic = "/images/google_map_man_" + (i+1) + ".gif";
+        var marker = new google.maps.Marker({
+          icon: ic,
+          position : ll,
+          map : $scope.map,
+          title: u.name
+        });
+
+      }
+    });
+  }
+
+  function rad2deg(rad) {
+    return rad * 57.2957795;
+  }
+
+  function deg2rad(deg) {
+    return deg * 0.0174532925;
+  }
+}
+
+]]&gt;&lt;/client_script&gt;&lt;controller_as/&gt;&lt;css&gt;.panel-heading {
+  border-radius:2px;
+}
+
+.sp-geo-canvas-container {
+  height: 400px;
+  width: 100%;
+}
+
+.other-name {
+  vertical-align:bottom;
+  padding-left:4px;
+  font-size:0.9em;
+}
+
+.other-item {
+  padding:2px;
+  white-space:nowrap;
+}
+
+.map-icon {
+  vertical-align:bottom;
+  height:30px;
+  padding:4px 0px 4px 4px;
+} 
+	    
+.panel-primary, .panel-info, .panel-success, .panel-danger, .panel-warning {
+  .panel-heading a {
+    color: #ffffff;
+  }
+} 
+	    
+.set-map-key-title {
+  padding-bottom: 10px;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;Ticket Location&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles&gt;snc_external,snc_internal&lt;/roles&gt;&lt;script&gt;&lt;![CDATA[(function() {
+	data.askingMsg = gs.getMessage("Asking browser for location");
+	data.notEnabledMsg = gs.getMessage("Location Services not enabled");
+	data.notDeterminedMsg = gs.getMessage("Location could not be determined");
+	data.setUpGoogleMapKey = gs.getMessage("Set up Google Maps API");
+	data.enableMsg = gs.getMessage("Enable 'Location Services' in Settings for Location Check In");
+	data.fetchingMapMsg = gs.getMessage("Fetching map...");
+	data.youAreHereMsg = gs.getMessage("You are here");
+
+	var gr = $sp.getRecord();
+	if (gr == null)
+		return;
+
+	data.canRead = gr.canRead();
+	data.canWrite = gr.canWrite();
+	data.table = gr.getTableName();
+	data.sys_id = gr.getUniqueValue();
+	data.api_key = gs.getProperty("google.maps.key");
+	data.isMapKeyAvailable = !!(data.api_key.trim()); 
+	var folks = [];
+
+	if (input) {
+		// add comment w/ checkin address
+		if (data.canWrite &amp;&amp; typeof input.address != "undefined" &amp;&amp; input.address != "") {
+			gr.comments = gs.getMessage("Checked in from {0}", input.address);
+			gr.update();
+		}
+
+		// insert GEO Checkin record
+		if (typeof input.geodata != "undefined" &amp;&amp; input.geodata != {}) {
+			var geo = new GlideRecord("sys_user_geo_location");
+			geo.latitude = input.geodata.latitude;
+			geo.longitude = input.geodata.longitude;
+			geo.address = input.geodata.address;
+			geo.sys_user = input.geodata.sys_user;
+			geo.insert();
+		}
+
+		// find nearby users
+		var loc = new GlideRecord("sys_user_geo_location");
+		loc.addQuery("latitude", "&lt;=", input.maxLat);
+		loc.addQuery("latitude", "&gt;=", input.minLat);
+		loc.addQuery("longitude", "&lt;=", input.maxLon);
+		loc.addQuery("longitude", "&gt;=", input.minLon);
+		loc.addQuery("sys_user", "!=", gs.getUserID());
+		loc.query();
+		var idx = 0;
+		while (loc.next()) {
+			var u = {};
+			u.lat = loc.latitude.toString();
+			u.lon = loc.longitude.toString();
+			u.name = loc.sys_user.getDisplayValue();
+			folks.push(u);
+		}
+	}
+	data.others = folks;
+	data.user = gs.getUserID();
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-02-20 19:28:08&lt;/sys_created_on&gt;&lt;sys_id&gt;2795e5e2ff123100ba13ffffffffff84&lt;/sys_id&gt;&lt;sys_mod_count&gt;422&lt;/sys_mod_count&gt;&lt;sys_name&gt;Ticket Location&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;7465e3df64901110a866d1e779b530ac&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_2795e5e2ff123100ba13ffffffffff84&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-06-21 08:50:55&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div ng-if="data.canRead &amp;&amp; data.canWrite" ng-show="locationSupported"&gt;
+  &lt;div ng-show="!requested" class="panel panel-{{options.color}} b"&gt;
+    &lt;div class="panel-heading padder-b-none"&gt;
+      &lt;div class="panel-title pull-left" ng-class="{'set-map-key-title':!data.isMapKeyAvailable}" role="heading" aria-level="2"&gt;
+        &lt;span ng-if="data.isMapKeyAvailable"&gt;${Location}&lt;/span&gt;
+        &lt;span ng-if="!data.isMapKeyAvailable"&gt;
+          &lt;a href="/api/now/v1/context_doc_url/CSHelp:maps-api"&gt;{{data.setUpGoogleMapKey}}&lt;/a&gt;
+        &lt;/span&gt; 
+      &lt;/div&gt;
+      &lt;a href="javascript:void(0)" ng-if="data.isMapKeyAvailable" ng-click="getLocation()" class="panel-button" title="Check in location"&gt;
+        &lt;span class="glyphicon glyphicon-globe"&gt;&lt;/span&gt;
+      &lt;/a&gt;
+      &lt;div class="clearfix"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div ng-show="requested" class="panel b panel-{{options.color}} "&gt;
+    &lt;div ng-show="!address" class="panel-heading"&gt;&lt;h4 class="panel-title"&gt;{{status}}&lt;/h4&gt;&lt;/div&gt;
+    &lt;div ng-show="address" class="panel-heading"&gt;&lt;h4 class="panel-title"&gt;${Location Shared}&lt;/h4&gt;&lt;/div&gt;
+    &lt;div ng-show="address" class="geo-address wrapper"&gt;&lt;p class="text-muted m-n"&gt;&lt;span&gt;{{address}}&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+    &lt;div id="map-container"&gt;
+      &lt;div ng-show="mapInit" class="sp-geo-canvas-container"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div ng-show="data.others.length &gt; 0" style="padding-bottom:4px;"&gt;
+      &lt;span ng-repeat="other in data.others"&gt;
+        &lt;span class="other-item"&gt;
+          &lt;img class="map-icon" ng-src="/images/google_map_man_{{($index % 8) + 1}}.gif"/&gt;&lt;span class="other-name"&gt;{{other.name}}&lt;/span&gt;
+        &lt;/span&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-10-14 11:23:25</sys_created_on>
+        <sys_id>3e179b59876ed190952f87f5cebb3512</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>72179b59876ed190952f87f5cebb3510</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_3e179b59876ed190952f87f5cebb3512</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-10-14 11:23:25</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>

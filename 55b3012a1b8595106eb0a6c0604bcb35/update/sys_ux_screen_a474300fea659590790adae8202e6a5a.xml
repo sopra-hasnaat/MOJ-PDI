@@ -244,7 +244,7 @@
         <required_translations>[]</required_translations>
         <rollback_screen/>
         <screen_condition/>
-        <screen_type display_value="List">2c74300ff7659590a77b09c6d6edd65c</screen_type>
+        <screen_type/>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-08-30 16:59:20</sys_created_on>

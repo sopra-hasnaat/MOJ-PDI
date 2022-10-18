@@ -30,7 +30,7 @@ $sp-tagline-color:#000000;&#13;
         <homepage display_value="subject">6472653f1b3515106eb0a6c0604bcbf6</homepage>
         <icon>1070e1bb1b3515106eb0a6c0604bcba9</icon>
         <kb_knowledge_base/>
-        <kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page>
+        <kb_knowledge_page display_value="helpinghands">be9e886587621590952f87f5cebb35e3</kb_knowledge_page>
         <login_page/>
         <logo>9a22106887c25910952f87f5cebb35ac</logo>
         <notfound_page/>
@@ -46,14 +46,14 @@ $sp-tagline-color:#000000;&#13;
         <sys_created_by>rebecca.seiga.ems</sys_created_by>
         <sys_created_on>2022-09-14 14:17:40</sys_created_on>
         <sys_id>bfde593b1b3515106eb0a6c0604bcbc6</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Electronic Monitoring Device Wearers Portal</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sp_portal_bfde593b1b3515106eb0a6c0604bcbc6</sys_update_name>
-        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
-        <sys_updated_on>2022-10-04 13:40:53</sys_updated_on>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-10-14 16:42:33</sys_updated_on>
         <theme display_value="MOJ Theme">9b9c05171ba5d5906eb0a6c0604bcb84</theme>
         <title>Electronic Monitoring Device Wearers Portal</title>
         <ts_index_group/>

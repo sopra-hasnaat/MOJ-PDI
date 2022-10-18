@@ -477,76 +477,7 @@ This needs investigation by ﻿Enforcement Management^contact={{Updated_1.curren
     <sys_hub_flow_logic action="delete_multiple" query="flow=9c5feed0870e1910952f87f5cebb35af"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=9c5feed0870e1910952f87f5cebb35af"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=9c5feed0870e1910952f87f5cebb35af"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9c5feed0870e1910952f87f5cebb35af^sys_idNOT IN505feed0870e1910952f87f5cebb35cf,d05feed0870e1910952f87f5cebb35d6,d45feed0870e1910952f87f5cebb35d2"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>table_name</element>
-        <help/>
-        <hint/>
-        <label>Table Name</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_9c5feed0870e1910952f87f5cebb35af</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>des.king.ems</sys_created_by>
-        <sys_created_on>2022-09-16 09:24:15</sys_created_on>
-        <sys_id>505feed0870e1910952f87f5cebb35cf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Table Name</sys_name>
-        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_9c5feed0870e1910952f87f5cebb35af_table_name_en</sys_update_name>
-        <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-16 09:24:15</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>changed_fields</element>
-        <help/>
-        <hint/>
-        <label>Changed Fields</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_9c5feed0870e1910952f87f5cebb35af</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>des.king.ems</sys_created_by>
-        <sys_created_on>2022-09-16 09:24:16</sys_created_on>
-        <sys_id>d05feed0870e1910952f87f5cebb35d6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Changed Fields</sys_name>
-        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_9c5feed0870e1910952f87f5cebb35af_changed_fields_en</sys_update_name>
-        <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-16 09:24:16</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>current</element>
-        <help/>
-        <hint/>
-        <label>Record</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_9c5feed0870e1910952f87f5cebb35af</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>des.king.ems</sys_created_by>
-        <sys_created_on>2022-09-16 09:24:15</sys_created_on>
-        <sys_id>d45feed0870e1910952f87f5cebb35d2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Record</sys_name>
-        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_9c5feed0870e1910952f87f5cebb35af_current_en</sys_update_name>
-        <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-16 09:24:15</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9c5feed0870e1910952f87f5cebb35af"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9c5feed0870e1910952f87f5cebb35af"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_9c5feed0870e1910952f87f5cebb35af"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9c5feed0870e1910952f87f5cebb35af"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category">
     <sys_ux_registry_m2m_category action="INSERT_OR_UPDATE">
         <experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category>
-        <page_registry display_value="Electronic Monitoring">2074300f266595902f71ce01d56e875e</page_registry>
+        <page_registry display_value="Electronic Monitoring Workspace">2074300f266595902f71ce01d56e875e</page_registry>
         <sys_class_name>sys_ux_registry_m2m_category</sys_class_name>
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-08-30 16:59:20</sys_created_on>

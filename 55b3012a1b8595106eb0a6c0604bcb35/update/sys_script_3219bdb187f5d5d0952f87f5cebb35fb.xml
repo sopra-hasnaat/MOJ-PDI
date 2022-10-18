@@ -11,7 +11,7 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_ster2_emfs_alerts</collection>
+        <collection>x_ster2_emfs_alerts2</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
@@ -33,7 +33,7 @@
         var originalSysId = (gs.action.getGlideURI().get('sysparm_collectionID'));
         var newAlertSysId = current.sys_id;
 
-        var gr = new GlideRecord('x_ster2_emfs_alerts');
+        var gr = new GlideRecord('x_ster2_emfs_alerts2');
         gr.addQuery('sys_id', originalSysId); // Retrieve the original Alert record as current variable refers to the new added alert
         gr.query();
         while (gr.next()) {
@@ -52,7 +52,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3219bdb187f5d5d0952f87f5cebb35fb</sys_id>
-        <sys_mod_count>98</sys_mod_count>
+        <sys_mod_count>100</sys_mod_count>
         <sys_name>linkAlerts</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
@@ -60,7 +60,7 @@
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_script_3219bdb187f5d5d0952f87f5cebb35fb</sys_update_name>
         <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-09-09 12:27:06</sys_updated_on>
+        <sys_updated_on>2022-10-05 15:53:51</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

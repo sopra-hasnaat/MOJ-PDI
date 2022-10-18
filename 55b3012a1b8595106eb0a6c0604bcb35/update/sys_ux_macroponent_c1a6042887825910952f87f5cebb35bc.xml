@@ -710,7 +710,7 @@
                       "type" : "CLIENT_TRANSFORM_SCRIPT",
                       "script" : {
                         "apiVersion" : "1.0.0",
-                        "inlineScript" : "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n* @param {any} params.imports\n*/\nfunction evaluateEvent({api, event}) {\n\treturn {\n\t\troute: null,\n\t\tfields: null,\n\t\tparams: null,\n\t\tredirect: null,\n\t\tpassiveNavigation: null,\n\t\ttitle: null,\n\t\tmultiInstField: null,\n\t\ttargetRoute: null,\n\t\texternal: {\n\t\t\turl:  \"x_ster2_emfs_alerts_list.do?sysparm_query=active%3Dtrue%5Edevice.ref_alm_hardware.x_ster2_emfs_device_wearer.subject_name%3D\" + api.data.subject.result.subject_name.displayValue\n\t\t}\n\t};\n}",
+                        "inlineScript" : "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n* @param {any} params.imports\n*/\nfunction evaluateEvent({api, event}) {\n\treturn {\n\t\troute: null,\n\t\tfields: null,\n\t\tparams: null,\n\t\tredirect: null,\n\t\tpassiveNavigation: null,\n\t\ttitle: null,\n\t\tmultiInstField: null,\n\t\ttargetRoute: null,\n\t\texternal: {\n\t\t\turl:  \"x_ster2_emfs_alerts2_list.do?sysparm_query=active%3Dtrue%5Edevice.ref_alm_hardware.x_ster2_emfs_device_wearer.subject_name%3D\" + api.data.subject.result.subject_name.displayValue\n\t\t}\n\t};\n}",
                         "scriptSysId" : null
                       }
                     },
@@ -3262,7 +3262,7 @@
   "inputValues" : {
     "table" : {
       "type" : "JSON_LITERAL",
-      "value" : "x_ster2_emfs_alerts"
+      "value" : "x_ster2_emfs_alerts2"
     },
     "encodedQuery" : {
       "type" : "CLIENT_TRANSFORM",
@@ -3275,7 +3275,7 @@
           }, {
             "type" : "DATA_OUTPUT_BINDING",
             "binding" : {
-              "address" : [ "subject", "result", "sys_id", "value" ]
+              "address" : [ "subject", "result", "sys_id", "displayValue" ]
             }
           }, {
             "type" : "JSON_LITERAL",
@@ -3459,7 +3459,7 @@
   "inputValues" : {
     "table" : {
       "type" : "JSON_LITERAL",
-      "value" : "x_ster2_emfs_alerts"
+      "value" : "x_ster2_emfs_alerts2"
     },
     "encodedQuery" : {
       "type" : "CLIENT_TRANSFORM",
@@ -3472,7 +3472,7 @@
           }, {
             "type" : "DATA_OUTPUT_BINDING",
             "binding" : {
-              "address" : [ "subject", "result", "sys_id", "value" ]
+              "address" : [ "subject", "result", "sys_id", "displayValue" ]
             }
           }, {
             "type" : "JSON_LITERAL",
@@ -3484,7 +3484,7 @@
     },
     "returnFields" : {
       "type" : "JSON_LITERAL",
-      "value" : "message,severity,date_time,code,state,type,device,assignment_group,work_notes"
+      "value" : "active,code,assigned_to,date_time,priority,state,type,assignment_group"
     },
     "orderBy" : {
       "type" : "JSON_LITERAL",
@@ -4244,13 +4244,13 @@
         <sys_created_by>hasnaat.khan.ems</sys_created_by>
         <sys_created_on>2022-09-16 15:45:47</sys_created_on>
         <sys_id>c1a6042887825910952f87f5cebb35bc</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Record</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_ux_macroponent_c1a6042887825910952f87f5cebb35bc</sys_update_name>
         <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-09-16 16:38:27</sys_updated_on>
+        <sys_updated_on>2022-10-05 16:07:29</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

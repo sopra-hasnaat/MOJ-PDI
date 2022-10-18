@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="CIs Affected" max_length="40" name="task_ci" sizeclass="0" type="collection">
+    <element label="CIs Affected" max_length="40" name="task_ci" sizeclass="1" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" dependent="task.sys_class_name" dependent_on_field="task.sys_class_name" label="Asset action" max_length="40" name="asset_action" type="string">
             <choice>
                 <element dependent_value="change_request" inactive_on_update="false" label="Deploy" sequence="1" value="deploy"/>

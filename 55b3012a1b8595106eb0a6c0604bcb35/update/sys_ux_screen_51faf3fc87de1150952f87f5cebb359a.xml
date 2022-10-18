@@ -173,7 +173,7 @@
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
         <screen_condition/>
-        <screen_type display_value="list-page">ddfab3fc87de1150952f87f5cebb354d</screen_type>
+        <screen_type display_value="List">ddfab3fc87de1150952f87f5cebb354d</screen_type>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>hasnaat.khan.ems</sys_created_by>
         <sys_created_on>2022-09-30 14:27:24</sys_created_on>

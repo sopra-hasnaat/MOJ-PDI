@@ -56,6 +56,20 @@
             <sys_updated_by>des.king.ems</sys_updated_by>
             <sys_updated_on>2022-09-06 08:30:06</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2022-10-05 15:32:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d4e93d6a875ed550952f87f5cebb3573</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ster2_emfs_alerts" name="x_ster2_emfs_alerts" sys_domain="global" view="Default view">5c9b77308779d1d0952f87f5cebb3538</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_ster2_emfs_alerts" sys_domain="global" view="Default view">d8e93d6a875ed550952f87f5cebb356f</sys_ui_section>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2022-10-05 15:32:49</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_ster2_emfs_alerts</name>
             <roles/>

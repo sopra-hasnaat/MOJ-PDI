@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>400</order>
+        <sc_cat_item display_value="New Subject &amp; Monitoring Order">b51bfce41b215d506eb0a6c0604bcbdf</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-17 14:17:03</sys_created_on>
+        <sys_id>379b131e87aa9110952f87f5cebb35ed</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>sn_appointment_variable_set.New Subject &amp; Monitoring Order</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>io_set_item_379b131e87aa9110952f87f5cebb35ed</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-17 14:26:13</sys_updated_on>
+        <variable_set display_value="sn_appointment_variable_set">e33bd9f493b0030045a3f5be867ffbc5</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>io_set_item_379b131e87aa9110952f87f5cebb35ed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>400</order><sc_cat_item display_value="New Subject &amp; Monitoring Order">b51bfce41b215d506eb0a6c0604bcbdf</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-10-17 14:17:03</sys_created_on><sys_id>379b131e87aa9110952f87f5cebb35ed</sys_id><sys_mod_count>2</sys_mod_count><sys_name>sn_appointment_variable_set.New Subject &amp; Monitoring Order</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>io_set_item_379b131e87aa9110952f87f5cebb35ed</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-10-17 14:26:13</sys_updated_on><variable_set display_value="sn_appointment_variable_set">e33bd9f493b0030045a3f5be867ffbc5</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>583822389</payload_hash>
+        <record_name>sn_appointment_variable_set.New Subject &amp; Monitoring Order</record_name>
+        <reverted_from/>
+        <source>a11a0ec487e29d50952f87f5cebb350b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-17 14:26:13</sys_created_on>
+        <sys_id>46bd9fde87aa9110952f87f5cebb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183e65684f10000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-17 14:26:13</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>cabd9fde15aa9110bc752683ad02ea1f</update_guid>
+        <update_guid_history>cabd9fde15aa9110bc752683ad02ea1f:583822389,173d139e0faa911019443fea6a899b70:1902290322,f39b131ebaaa9110d2f5eec833fe30f2:46484623</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sn_appointment_variable_set.New Subject &amp; Monitoring Order">d0c0e3d687ea9110952f87f5cebb35ac</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-17 14:39:29</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>c77257f0d4ac4928a796d66b02e9ac10</sys_id>
+        <sys_metadata>379b131e87aa9110952f87f5cebb35ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_appointment_variable_set.New Subject &amp; Monitoring Order</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>io_set_item_379b131e87aa9110952f87f5cebb35ed</sys_update_name>
+        <sys_update_version display_value="io_set_item_379b131e87aa9110952f87f5cebb35ed">46bd9fde87aa9110952f87f5cebb3520</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-17 14:39:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

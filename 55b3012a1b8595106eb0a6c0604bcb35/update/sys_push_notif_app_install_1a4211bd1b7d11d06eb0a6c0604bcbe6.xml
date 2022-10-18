@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
     <sys_push_notif_app_install action="INSERT_OR_UPDATE">
         <active>true</active>
-        <last_registered_on>2022-09-08 08:12:58</last_registered_on>
+        <last_registered_on>2022-10-18 09:56:16</last_registered_on>
         <sys_class_name>sys_push_notif_app_install</sys_class_name>
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-08 08:12:58</sys_created_on>
         <sys_id>1a4211bd1b7d11d06eb0a6c0604bcbe6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>DE948F0155F562CF25464307322448497262346ADBB4DE2940F338A45DFBD690</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
@@ -15,7 +15,7 @@
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_push_notif_app_install_1a4211bd1b7d11d06eb0a6c0604bcbe6</sys_update_name>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-08 08:12:58</sys_updated_on>
+        <sys_updated_on>2022-10-18 09:56:16</sys_updated_on>
         <sys_user_id display_value="Des King">3571ab281b4111106eb0a6c0604bcb6f</sys_user_id>
         <token>DE948F0155F562CF25464307322448497262346ADBB4DE2940F338A45DFBD690</token>
     </sys_push_notif_app_install>

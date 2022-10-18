@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>100</order>
+        <published_ref display_value="Yes">4a9c34a81b215d506eb0a6c0604bcb95</published_ref>
+        <question display_value="Was the Subject Found?">7a8bd7da87aa9110952f87f5cebb357b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-17 14:16:43</sys_created_on>
+        <sys_id>fa8bd7da87aa9110952f87f5cebb358f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Yes</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_fa8bd7da87aa9110952f87f5cebb358f</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-17 14:16:43</sys_updated_on>
+        <text>Yes</text>
+        <value>Yes</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=fa8bd7da87aa9110952f87f5cebb358f"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>fa8bd7da87aa9110952f87f5cebb358f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-17 14:16:43</sys_created_on>
+        <sys_id>fa8bd7da87aa9110952f87f5cebb3591</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-17 14:16:43</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>fa8bd7da87aa9110952f87f5cebb358f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-17 14:16:43</sys_created_on>
+        <sys_id>be8bd7da87aa9110952f87f5cebb3590</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-17 14:16:43</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_fa8bd7da87aa9110952f87f5cebb358f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>100</order><published_ref display_value="Yes">4a9c34a81b215d506eb0a6c0604bcb95</published_ref><question display_value="Was the Subject Found?">7a8bd7da87aa9110952f87f5cebb357b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-10-17 14:16:43</sys_created_on><sys_id>fa8bd7da87aa9110952f87f5cebb358f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Yes</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>question_choice_fa8bd7da87aa9110952f87f5cebb358f</sys_update_name><sys_updated_by>hasnaat.khan.ems</sys_updated_by><sys_updated_on>2022-10-17 14:16:43</sys_updated_on><text>Yes</text><value>Yes</value></question_choice><fx_price action="delete_multiple" query="id=fa8bd7da87aa9110952f87f5cebb358f"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>fa8bd7da87aa9110952f87f5cebb358f</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-10-17 14:16:43</sys_created_on><sys_id>fa8bd7da87aa9110952f87f5cebb3591</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>hasnaat.khan.ems</sys_updated_by><sys_updated_on>2022-10-17 14:16:43</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>fa8bd7da87aa9110952f87f5cebb358f</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-10-17 14:16:43</sys_created_on><sys_id>be8bd7da87aa9110952f87f5cebb3590</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>hasnaat.khan.ems</sys_updated_by><sys_updated_on>2022-10-17 14:16:43</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>1951720025</payload_hash>
+        <record_name>Yes</record_name>
+        <reverted_from/>
+        <source>a11a0ec487e29d50952f87f5cebb350b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-17 14:16:43</sys_created_on>
+        <sys_id>b68bd7da87aa9110952f87f5cebb35b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183e64dd2c60000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-17 14:16:43</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>3e8bd7da82aa911072a2a26133558db8</update_guid>
+        <update_guid_history>3e8bd7da82aa911072a2a26133558db8:1951720025</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Yes">9fbd131287ea9110952f87f5cebb3587</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-17 14:26:18</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>2d57b698237c427ea9b96ad1ddbc4ba4</sys_id>
+        <sys_metadata>fa8bd7da87aa9110952f87f5cebb358f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Yes</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">7a8bd7da87aa9110952f87f5cebb357b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_fa8bd7da87aa9110952f87f5cebb358f</sys_update_name>
+        <sys_update_version display_value="question_choice_fa8bd7da87aa9110952f87f5cebb358f">b68bd7da87aa9110952f87f5cebb35b9</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-17 14:26:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
