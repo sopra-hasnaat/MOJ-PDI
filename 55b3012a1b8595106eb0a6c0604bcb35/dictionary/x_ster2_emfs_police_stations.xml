@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Police Stations" max_length="40" name="x_ster2_emfs_police_stations" sizeclass="29" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Force" max_length="32" name="force" reference="x_ster2_emfs_police_forces" type="reference"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <index name="index">
+            <element name="force"/>
+        </index>
+    </element>
+</database>

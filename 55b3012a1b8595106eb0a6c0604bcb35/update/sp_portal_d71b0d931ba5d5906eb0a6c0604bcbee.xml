@@ -46,18 +46,18 @@ $sp-tagline-color:#000000;&#13;
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-08-31 13:17:07</sys_created_on>
         <sys_id>d71b0d931ba5d5906eb0a6c0604bcbee</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Electronic Monitoring Field Services Management - Sentencing Organisations Portal</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Notifying Organisations Portal</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sp_portal_d71b0d931ba5d5906eb0a6c0604bcbee</sys_update_name>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-08-31 15:27:16</sys_updated_on>
+        <sys_updated_on>2022-10-24 14:35:18</sys_updated_on>
         <theme display_value="MOJ Theme">9b9c05171ba5d5906eb0a6c0604bcb84</theme>
-        <title>Electronic Monitoring Field Services Management - Sentencing Organisations Portal</title>
+        <title>Notifying Organisations Portal</title>
         <ts_index_group/>
-        <url_suffix>demo</url_suffix>
+        <url_suffix>notifyingorg</url_suffix>
     </sp_portal>
     <sys_translated_text action="delete_multiple" query="documentkey=d71b0d931ba5d5906eb0a6c0604bcbee"/>
     <sys_attachment action="INSERT_OR_UPDATE">

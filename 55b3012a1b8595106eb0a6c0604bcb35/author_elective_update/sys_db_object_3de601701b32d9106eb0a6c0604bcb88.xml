@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Emfs 1666648327189</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_ster2_emfs_1666648327189</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">665163d364101110a866d1e779b5301b</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-10-24 21:52:07</sys_created_on>
+        <sys_id>3de601701b32d9106eb0a6c0604bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emfs 1666648327189</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_db_object_3de601701b32d9106eb0a6c0604bcb88</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-10-24 21:52:07</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_db_object_3de601701b32d9106eb0a6c0604bcb88</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Emfs 1666648327189</label><live_feed_enabled>false</live_feed_enabled><name>x_ster2_emfs_1666648327189</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">665163d364101110a866d1e779b5301b</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>des.king.ems</sys_created_by><sys_created_on>2022-10-24 21:52:07</sys_created_on><sys_id>3de601701b32d9106eb0a6c0604bcb88</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Emfs 1666648327189</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sys_db_object_3de601701b32d9106eb0a6c0604bcb88</sys_update_name><sys_updated_by>des.king.ems</sys_updated_by><sys_updated_on>2022-10-24 21:52:07</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-331810891</payload_hash>
+        <record_name>Emfs 1666648327189</record_name>
+        <reverted_from/>
+        <source>9b20f8ba1b66d1106eb0a6c0604bcb1c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-10-24 21:52:08</sys_created_on>
+        <sys_id>c2e601701b32d9106eb0a6c0604bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1840bfb488b0000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-10-24 21:52:08</sys_updated_on>
+        <type>Table</type>
+        <update_guid>4ee60170e432d9108f12659c8fa9f8a0</update_guid>
+        <update_guid_history>4ee60170e432d9108f12659c8fa9f8a0:-331810891</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-10-24 21:53:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>562a28f692544fa88bebb7af29a95a40</sys_id>
+        <sys_metadata>3de601701b32d9106eb0a6c0604bcb88</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emfs 1666648327189</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_db_object_3de601701b32d9106eb0a6c0604bcb88</sys_update_name>
+        <sys_update_version display_value="sys_db_object_3de601701b32d9106eb0a6c0604bcb88">c2e601701b32d9106eb0a6c0604bcba1</sys_update_version>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-10-24 21:53:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

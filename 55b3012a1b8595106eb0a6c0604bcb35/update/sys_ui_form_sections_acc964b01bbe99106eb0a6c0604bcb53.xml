@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="acc964b01bbe99106eb0a6c0604bcb53" sys_domain="global" table="x_ster2_emfs_non_compliance" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-24 19:44:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>acc964b01bbe99106eb0a6c0604bcb57</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ster2_emfs_non_compliance" name="x_ster2_emfs_non_compliance" sys_domain="global" view="Default view">acc964b01bbe99106eb0a6c0604bcb53</sys_ui_form>
+            <sys_ui_section caption="Non-Compliance" display_value="Non-Compliance" name="x_ster2_emfs_non_compliance" sys_domain="global" view="Default view">acc964b01bbe99106eb0a6c0604bcb51</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-24 19:56:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-24 19:44:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28c964b01bbe99106eb0a6c0604bcb8d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ster2_emfs_non_compliance" name="x_ster2_emfs_non_compliance" sys_domain="global" view="Default view">acc964b01bbe99106eb0a6c0604bcb53</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_ster2_emfs_non_compliance" sys_domain="global" view="Default view">68c964b01bbe99106eb0a6c0604bcb52</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-24 19:56:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-24 19:44:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0c964b01bbe99106eb0a6c0604bcb91</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ster2_emfs_non_compliance" name="x_ster2_emfs_non_compliance" sys_domain="global" view="Default view">acc964b01bbe99106eb0a6c0604bcb53</sys_ui_form>
+            <sys_ui_section caption="Dates and Times" display_value="Dates and Times" name="x_ster2_emfs_non_compliance" sys_domain="global" view="Default view">a0c964b01bbe99106eb0a6c0604bcb53</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-24 19:56:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-24 19:50:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e11b6cf01bbe99106eb0a6c0604bcb23</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ster2_emfs_non_compliance" name="x_ster2_emfs_non_compliance" sys_domain="global" view="Default view">acc964b01bbe99106eb0a6c0604bcb53</sys_ui_form>
+            <sys_ui_section caption="Work Notes" display_value="Work Notes" name="x_ster2_emfs_non_compliance" sys_domain="global" view="Default view">a51b6cf01bbe99106eb0a6c0604bcb20</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-24 19:56:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_ster2_emfs_non_compliance</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-24 19:44:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>acc964b01bbe99106eb0a6c0604bcb53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ster2_emfs_non_compliance</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_ui_form_sections_acc964b01bbe99106eb0a6c0604bcb53</sys_update_name>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-24 19:44:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

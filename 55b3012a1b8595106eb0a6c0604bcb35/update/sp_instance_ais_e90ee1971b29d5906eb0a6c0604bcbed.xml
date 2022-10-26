@@ -14,7 +14,7 @@
         <search_application display_value="Service Portal Default Search Application">00731b9d5b231010d9a5ce1a8581c7dd</search_application>
         <search_results_configuration display_value="Service Portal Search">80eb579d53671010968addeeff7b1215</search_results_configuration>
         <short_description/>
-        <size>500</size>
+        <size/>
         <sp_column display_value="1">e49c2d171b29d5906eb0a6c0604bcb16</sp_column>
         <sp_widget display_value="Typeahead Search">fa20ec02cb31020000f8d856634c9ce9</sp_widget>
         <spell_check_font_size>xl</spell_check_font_size>
@@ -22,20 +22,20 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-08-31 15:49:22</sys_created_on>
         <sys_id>e90ee1971b29d5906eb0a6c0604bcbed</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Search for a Subject</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sp_instance_ais_e90ee1971b29d5906eb0a6c0604bcbed</sys_update_name>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-08-31 16:11:47</sys_updated_on>
-        <title>Search for a Subject</title>
+        <sys_updated_on>2022-10-24 14:52:29</sys_updated_on>
+        <title/>
         <url/>
         <widget_parameters><![CDATA[{
 	"title": {
-		"value": "Search for a Subject",
-		"displayValue": "Search for a Subject"
+		"value": "",
+		"displayValue": ""
 	},
 	"color": {
 		"value": "",
@@ -46,16 +46,15 @@
 		"displayValue": ""
 	},
 	"size": {
-		"value": "500",
-		"displayValue": "500"
+		"value": "",
+		"displayValue": ""
 	},
 	"limit": {
 		"value": null,
 		"displayValue": ""
 	},
 	"contextual_search_sources": {
-		"value": "81cb09d31ba5d5906eb0a6c0604bcbcb,cc7944f5c3712200b0449f2974d3ae32",
-		"displayValue": "Subjects, Case"
+		"value": ""
 	}
 }]]></widget_parameters>
     </sp_instance_ais>

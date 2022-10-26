@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-05 17:43:17</sys_created_on>
-            <sys_id>abb7922287121950952f87f5cebb352b</sys_id>
+            <sys_created_on>2022-10-24 13:16:15</sys_created_on>
+            <sys_id>19d0172c1b3a99106eb0a6c0604bcb79</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">dfb7522287121950952f87f5cebb35f5</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-05 17:43:17</sys_updated_on>
+            <sys_updated_on>2022-10-24 13:16:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>subject</element>
             <position>1</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-05 17:43:17</sys_created_on>
-            <sys_id>afb7922287121950952f87f5cebb352b</sys_id>
+            <sys_created_on>2022-10-24 13:16:15</sys_created_on>
+            <sys_id>1dd0172c1b3a99106eb0a6c0604bcb79</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">dfb7522287121950952f87f5cebb35f5</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-05 17:43:17</sys_updated_on>
+            <sys_updated_on>2022-10-24 13:16:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>device</element>
             <position>2</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-05 17:43:17</sys_created_on>
-            <sys_id>a3b7922287121950952f87f5cebb352c</sys_id>
+            <sys_created_on>2022-10-24 13:16:15</sys_created_on>
+            <sys_id>11d0172c1b3a99106eb0a6c0604bcb7a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">dfb7522287121950952f87f5cebb35f5</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-05 17:43:17</sys_updated_on>
+            <sys_updated_on>2022-10-24 13:16:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>assignment_group</element>
             <position>3</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-05 17:43:17</sys_created_on>
-            <sys_id>a7b7922287121950952f87f5cebb352c</sys_id>
+            <sys_created_on>2022-10-24 13:16:15</sys_created_on>
+            <sys_id>15d0172c1b3a99106eb0a6c0604bcb7a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">dfb7522287121950952f87f5cebb35f5</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-05 17:43:17</sys_updated_on>
+            <sys_updated_on>2022-10-24 13:16:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>assigned_to</element>
             <position>4</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-05 17:43:17</sys_created_on>
-            <sys_id>abb7922287121950952f87f5cebb352c</sys_id>
+            <sys_created_on>2022-10-24 13:16:15</sys_created_on>
+            <sys_id>19d0172c1b3a99106eb0a6c0604bcb7a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">dfb7522287121950952f87f5cebb35f5</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-05 17:43:17</sys_updated_on>
+            <sys_updated_on>2022-10-24 13:16:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-05 17:43:17</sys_created_on>
-            <sys_id>afb7922287121950952f87f5cebb352c</sys_id>
+            <sys_created_on>2022-10-24 13:16:15</sys_created_on>
+            <sys_id>1dd0172c1b3a99106eb0a6c0604bcb7a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">dfb7522287121950952f87f5cebb35f5</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-05 17:43:17</sys_updated_on>
+            <sys_updated_on>2022-10-24 13:16:15</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -88,55 +88,97 @@
             <element>active</element>
             <position>6</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-05 17:43:17</sys_created_on>
-            <sys_id>a3b7922287121950952f87f5cebb352d</sys_id>
+            <sys_created_on>2022-10-24 13:16:15</sys_created_on>
+            <sys_id>11d0172c1b3a99106eb0a6c0604bcb7b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">dfb7522287121950952f87f5cebb35f5</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-05 17:43:17</sys_updated_on>
+            <sys_updated_on>2022-10-24 13:16:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>7</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-24 13:16:15</sys_created_on>
+            <sys_id>15d0172c1b3a99106eb0a6c0604bcb7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">dfb7522287121950952f87f5cebb35f5</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-24 13:16:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>priority</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-05 17:43:17</sys_created_on>
-            <sys_id>a7b7922287121950952f87f5cebb352d</sys_id>
+            <sys_created_on>2022-10-24 13:16:15</sys_created_on>
+            <sys_id>19d0172c1b3a99106eb0a6c0604bcb7b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">dfb7522287121950952f87f5cebb35f5</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-05 17:43:17</sys_updated_on>
+            <sys_updated_on>2022-10-24 13:16:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-05 17:43:17</sys_created_on>
-            <sys_id>abb7922287121950952f87f5cebb352d</sys_id>
+            <sys_created_on>2022-10-24 13:16:15</sys_created_on>
+            <sys_id>1dd0172c1b3a99106eb0a6c0604bcb7b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">dfb7522287121950952f87f5cebb35f5</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-05 17:43:17</sys_updated_on>
+            <sys_updated_on>2022-10-24 13:16:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>parent_alert</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-05 17:43:17</sys_created_on>
-            <sys_id>afb7922287121950952f87f5cebb352d</sys_id>
+            <sys_created_on>2022-10-24 13:16:15</sys_created_on>
+            <sys_id>11d0172c1b3a99106eb0a6c0604bcb7c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">dfb7522287121950952f87f5cebb35f5</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-05 17:43:17</sys_updated_on>
+            <sys_updated_on>2022-10-24 13:16:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>atv_calculated</element>
+            <position>11</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-24 13:16:15</sys_created_on>
+            <sys_id>15d0172c1b3a99106eb0a6c0604bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">dfb7522287121950952f87f5cebb35f5</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-24 13:16:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>business_elapsed_percentage</element>
+            <position>12</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-25 15:10:44</sys_created_on>
+            <sys_id>8ca470411bbed9106eb0a6c0604bcbfb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">dfb7522287121950952f87f5cebb35f5</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-25 15:10:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

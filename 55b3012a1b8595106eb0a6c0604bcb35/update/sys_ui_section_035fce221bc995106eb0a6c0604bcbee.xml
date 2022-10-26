@@ -84,6 +84,34 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>technical_bail</element>
+            <position>6</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-19 13:22:58</sys_created_on>
+            <sys_id>8362ad0787ee5510952f87f5cebb35af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Subject" display_value="Subject" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">035fce221bc995106eb0a6c0604bcbee</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-19 13:22:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>custody_suite</element>
+            <position>7</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-19 13:24:43</sys_created_on>
+            <sys_id>2cd2a54787ee5510952f87f5cebb35d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Subject" display_value="Subject" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">035fce221bc995106eb0a6c0604bcbee</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-19 13:24:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Subject</caption>
             <header>false</header>

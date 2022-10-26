@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Police Forces" max_length="40" name="x_ster2_emfs_police_forces" sizeclass="48" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Area of responsibility" max_length="191" name="area_of_responsibility" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Force" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Special police force" sequence="0" value="Special police force"/>
+                <element inactive_on_update="false" label="Territorial police force" sequence="0" value="Territorial police force"/>
+            </choice>
+        </element>
+    </element>
+</database>

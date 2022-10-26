@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="sn_customerservice_task" label="Non-Compliance" max_length="40" name="x_ster2_emfs_non_compliance" sizeclass="1" type="collection">
+        <element label="Alert" max_length="32" name="alert" read_only="true" reference="x_ster2_emfs_alerts2" type="reference"/>
+        <element choice="1" label="Assessment" max_length="4000" name="assessment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Return Home late" sequence="0" value="return_home_late"/>
+                <element inactive_on_update="false" label="Out After Curfew" sequence="1" value="out_after_curfew"/>
+                <element inactive_on_update="false" label="Left Home During Curfew" sequence="2" value="left_home_during_curfew"/>
+                <element inactive_on_update="false" label="ATV" sequence="3" value="atv"/>
+                <element inactive_on_update="false" label="PID Tamper" sequence="4" value="pid_tamper"/>
+                <element inactive_on_update="false" label="HMU Tamper" sequence="5" value="hmu_tamper"/>
+            </choice>
+        </element>
+        <element label="Enforcement Action" max_length="32" name="enforcement_action" reference="x_ster2_emfs_enforcement_action_cases" type="reference"/>
+        <element label="Notification Date/Time" max_length="40" name="notification_date_time" type="glide_date_time"/>
+        <element choice="3" label="Outcome" max_length="40" name="outcome" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Extenuating Circumstances" sequence="0" value="extenuating_circumstances"/>
+                <element inactive_on_update="false" label="Warning Letter" sequence="1" value="warning_letter"/>
+                <element inactive_on_update="false" label="Breach" sequence="2" value="breach"/>
+            </choice>
+        </element>
+        <element label="Outcome Date/Time" max_length="40" name="outcome_date_time" type="glide_date_time"/>
+        <element label="Response Date/Time" max_length="40" name="response_date_time" type="glide_date_time"/>
+        <element label="Device Wearer" max_length="32" name="subject" read_only="true" reference="x_ster2_emfs_subject" type="reference"/>
+    </element>
+</database>

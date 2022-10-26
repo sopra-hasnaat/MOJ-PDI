@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sn_customerservice_task" label="Enforcement Action Case" max_length="40" name="x_ster2_emfs_enforcement_action_cases" sizeclass="1" type="collection">
+        <element label="Alerts" max_length="40" name="alerts" reference="x_ster2_emfs_alerts2" type="glide_list"/>
+        <element label="Court" max_length="32" name="court" reference="x_ster2_emfs_sentencing_organisations" type="reference"/>
+        <element label="Court Hearing Date" max_length="40" name="court_date" type="glide_date"/>
+        <element label="Custody Date/Time" max_length="255" name="custody_date_time" type="glide_date_time"/>
+        <element choice="1" label="Custody Suite" max_length="40" name="custody_suite" reference="x_ster2_emfs_police_stations" type="reference">
+            <choice/>
+        </element>
+        <element label="Date Authorised" max_length="40" name="date_authorised" type="glide_date"/>
+        <element label="Non-Compliances" max_length="40" name="non_compliances" reference="x_ster2_emfs_non_compliance" type="glide_list"/>
+        <element label="Notification Date/Time" max_length="40" name="notification_date_time" type="glide_date_time"/>
+        <element choice="1" label="Outcome" max_length="40" name="outcome" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Caseowner to Issue Warning Letter" sequence="0" value="caseowner_to_issue_warning_letter"/>
+                <element inactive_on_update="false" label="Other Sentence Imposed" sequence="1" value="other_sentence_imposed"/>
+                <element inactive_on_update="false" label="Pending" sequence="2" value="pending"/>
+                <element inactive_on_update="false" label="Revoked" sequence="3" value="revoked"/>
+                <element inactive_on_update="false" label="Revoked and Recalled" sequence="4" value="revoked_and_recalled"/>
+                <element inactive_on_update="false" label="Subject Arrested on Section 9" sequence="5" value="subject_arrested_on_section_9"/>
+                <element inactive_on_update="false" label="Subject Detained" sequence="6" value="subject_detained"/>
+                <element inactive_on_update="false" label="Warning Letter" sequence="7" value="warning_letter"/>
+                <element inactive_on_update="false" label="Warning Letter Rescinded" sequence="8" value="warning_letter_rescinded"/>
+                <element inactive_on_update="false" label="Warning Letter to be Issued" sequence="9" value="warning_letter_to_be_issued"/>
+            </choice>
+        </element>
+        <element label="Device Wearer" max_length="32" name="subject" reference="x_ster2_emfs_subject" type="reference"/>
+    </element>
+</database>

@@ -9,48 +9,60 @@
         <name>RetrieveSubject</name>
         <script><![CDATA[var RetrieveSubject = Class.create();
 RetrieveSubject.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
-    retrieveSubject: function() {
-        var subjectSysID = this.getParameter("sys_id");
-
-        var subjectGR = new GlideRecord('x_ster2_emfs_subject');
-        subjectGR.get(subjectSysID);
+    retrieveUser: function() {
+        var userSysID = this.getParameter("sys_id");
+        var userGr = new GlideRecord('sys_user');
+        userGr.get(userSysID);
 
         var result = {
-            "address_line_1": subjectGR.getValue('address_line_1'),
-            "post_code": subjectGR.getValue('post_code'),
-            "address2_line_1": subjectGR.getValue('address2_line_1'),
-            "address2_post_code": subjectGR.getValue('address2_post_code')
+            "address_line_1": userGr.getDisplayValue('u_subject.address_line_1'),
+            "post_code": userGr.getDisplayValue('u_subject.post_code'),
+            "address2_line_1": userGr.getDisplayValue('u_subject.address2_line_1'),
+            "address2_post_code": userGr.getDisplayValue('u_subject.address2_post_code')
         };
         return JSON.stringify(result);
     },
 
     retrieveCurfewLocation: function() {
         var subjectAddressLine1 = this.getParameter("address_line_1");
-        var subjectPostCode = this.getParameter("post_code");
-		
-        var curfewLocationGR = new GlideRecord('x_ster2_emfs_curfew_location');
-		curfewLocationGR.addQuery('x_ster2_emfs_address_line_1', '=', subjectAddressLine1);
-		curfewLocationGR.addQuery('zip', '=', 'BD7 1PP');
-		curfewLocationGR.query();
-		
-		while(curfewLocationGR.next()){
-			return curfewLocationGR.getUniqueValue();
-		}
-    },
+        var subjectPostcode = this.getParameter("post_code");
 
+        var curfewLocationGR = new GlideRecord('x_ster2_emfs_curfew_location');
+        curfewLocationGR.addQuery('x_ster2_emfs_address_line_1', subjectAddressLine1);
+        curfewLocationGR.addQuery('zip', subjectPostcode);
+        curfewLocationGR.query();
+
+        while (curfewLocationGR.next()) {
+            return curfewLocationGR.getUniqueValue();
+        }
+    },
+	
+    retrieveSecondaryCurfewLocation: function() {
+        var subjectSecondaryAddressLine1 = this.getParameter("address2_line_1");
+        var subjectSecondaryPostcode = this.getParameter("address2_post_code");
+
+        var curfewSecondaryLocationGR = new GlideRecord('x_ster2_emfs_curfew_location');
+        curfewSecondaryLocationGR.addQuery('x_ster2_emfs_address_line_1', subjectSecondaryAddressLine1);
+        curfewSecondaryLocationGR.addQuery('zip', subjectSecondaryPostcode);
+        curfewSecondaryLocationGR.query();
+
+        while (curfewSecondaryLocationGR.next()) {
+            return curfewSecondaryLocationGR.getUniqueValue();
+        }
+    },
     type: 'RetrieveSubject'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>hasnaat.khan.ems</sys_created_by>
         <sys_created_on>2022-10-18 09:16:19</sys_created_on>
         <sys_id>0e406b2a872ed110952f87f5cebb35d5</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>102</sys_mod_count>
         <sys_name>RetrieveSubject</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_script_include_0e406b2a872ed110952f87f5cebb35d5</sys_update_name>
-        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-10-18 11:37:06</sys_updated_on>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-10-24 10:25:58</sys_updated_on>
     </sys_script_include>
 </record_update>

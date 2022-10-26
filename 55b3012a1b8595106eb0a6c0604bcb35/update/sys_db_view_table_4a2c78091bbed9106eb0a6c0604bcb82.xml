@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-10-25 15:44:43</sys_created_on>
+        <sys_id>4a2c78091bbed9106eb0a6c0604bcb82</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_ster2_emfs_alerts2</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_db_view_table_4a2c78091bbed9106eb0a6c0604bcb82</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-10-25 15:46:15</sys_updated_on>
+        <table>x_ster2_emfs_alerts2</table>
+        <variable_prefix>alert</variable_prefix>
+        <view display_value="x_ster2_emfs_alerts_with_sla">fe4b7cc51bbed9106eb0a6c0604bcb93</view>
+        <where_clause>taskslatable_task = alert_sys_id</where_clause>
+    </sys_db_view_table>
+</record_update>

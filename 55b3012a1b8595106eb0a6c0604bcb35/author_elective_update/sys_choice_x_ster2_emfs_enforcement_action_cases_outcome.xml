@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="outcome" table="x_ster2_emfs_enforcement_action_cases" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>outcome</element>
+            <name>x_ster2_emfs_enforcement_action_cases</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-24 20:59:07</sys_created_on>
+            <sys_id>d1caf8341bfe99106eb0a6c0604bcb51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>outcome</sys_name>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_choice_x_ster2_emfs_enforcement_action_cases_outcome</sys_update_name>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-24 20:59:07</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>outcome</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Caseowner to Issue Warning Letter</label>
+            <language>en</language>
+            <name>x_ster2_emfs_enforcement_action_cases</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-24 20:59:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9dcaf8341bfe99106eb0a6c0604bcb50</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-24 20:59:07</sys_updated_on>
+            <value>caseowner_to_issue_warning_letter</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>outcome</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Sentence Imposed</label>
+            <language>en</language>
+            <name>x_ster2_emfs_enforcement_action_cases</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-24 20:59:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a9caf8341bfe99106eb0a6c0604bcb63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-24 20:59:07</sys_updated_on>
+            <value>other_sentence_imposed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>outcome</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending</label>
+            <language>en</language>
+            <name>x_ster2_emfs_enforcement_action_cases</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-24 20:59:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1caf8341bfe99106eb0a6c0604bcb69</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-24 20:59:07</sys_updated_on>
+            <value>pending</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>outcome</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Revoked</label>
+            <language>en</language>
+            <name>x_ster2_emfs_enforcement_action_cases</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-24 20:59:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2dcaf8341bfe99106eb0a6c0604bcb6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-24 20:59:07</sys_updated_on>
+            <value>revoked</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>outcome</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Revoked and Recalled</label>
+            <language>en</language>
+            <name>x_ster2_emfs_enforcement_action_cases</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-24 20:59:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65caf8341bfe99106eb0a6c0604bcb74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-24 20:59:07</sys_updated_on>
+            <value>revoked_and_recalled</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>outcome</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Subject Arrested on Section 9</label>
+            <language>en</language>
+            <name>x_ster2_emfs_enforcement_action_cases</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-24 20:59:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>adcaf8341bfe99106eb0a6c0604bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-24 20:59:07</sys_updated_on>
+            <value>subject_arrested_on_section_9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>outcome</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Subject Detained</label>
+            <language>en</language>
+            <name>x_ster2_emfs_enforcement_action_cases</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-24 20:59:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5caf8341bfe99106eb0a6c0604bcb7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-24 20:59:07</sys_updated_on>
+            <value>subject_detained</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>outcome</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Warning Letter</label>
+            <language>en</language>
+            <name>x_ster2_emfs_enforcement_action_cases</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-24 20:59:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21caf8341bfe99106eb0a6c0604bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-24 20:59:07</sys_updated_on>
+            <value>warning_letter</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>outcome</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Warning Letter Rescinded</label>
+            <language>en</language>
+            <name>x_ster2_emfs_enforcement_action_cases</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-24 20:59:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>69caf8341bfe99106eb0a6c0604bcb8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-24 20:59:07</sys_updated_on>
+            <value>warning_letter_rescinded</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>outcome</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Warning Letter to be Issued</label>
+            <language>en</language>
+            <name>x_ster2_emfs_enforcement_action_cases</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-24 20:59:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1caf8341bfe99106eb0a6c0604bcb90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-24 20:59:07</sys_updated_on>
+            <value>warning_letter_to_be_issued</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

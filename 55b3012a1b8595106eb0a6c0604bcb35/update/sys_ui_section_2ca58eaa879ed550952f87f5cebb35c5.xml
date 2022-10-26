@@ -4,13 +4,13 @@
             <element>non_compliance</element>
             <position>0</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-05 16:51:42</sys_created_on>
-            <sys_id>4cfb8aa287ded550952f87f5cebb353b</sys_id>
+            <sys_created_on>2022-10-24 13:11:14</sys_created_on>
+            <sys_id>3bafcba81b3a99106eb0a6c0604bcbdb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Compliance" display_value="Compliance" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">2ca58eaa879ed550952f87f5cebb35c5</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-05 16:51:42</sys_updated_on>
+            <sys_updated_on>2022-10-24 13:11:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,27 +18,41 @@
             <element>non_compliance_type</element>
             <position>1</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-05 16:51:42</sys_created_on>
-            <sys_id>40fb8aa287ded550952f87f5cebb353c</sys_id>
+            <sys_created_on>2022-10-24 13:11:14</sys_created_on>
+            <sys_id>3fafcba81b3a99106eb0a6c0604bcbdb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Compliance" display_value="Compliance" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">2ca58eaa879ed550952f87f5cebb35c5</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-05 16:51:42</sys_updated_on>
+            <sys_updated_on>2022-10-24 13:11:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>atv</element>
+            <position>2</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-24 13:11:14</sys_created_on>
+            <sys_id>33afcba81b3a99106eb0a6c0604bcbdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compliance" display_value="Compliance" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">2ca58eaa879ed550952f87f5cebb35c5</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-24 13:11:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>confirm_incident</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-05 16:51:42</sys_created_on>
-            <sys_id>44fb8aa287ded550952f87f5cebb353c</sys_id>
+            <sys_created_on>2022-10-24 13:11:14</sys_created_on>
+            <sys_id>37afcba81b3a99106eb0a6c0604bcbdc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Compliance" display_value="Compliance" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">2ca58eaa879ed550952f87f5cebb35c5</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-05 16:51:42</sys_updated_on>
+            <sys_updated_on>2022-10-24 13:11:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
