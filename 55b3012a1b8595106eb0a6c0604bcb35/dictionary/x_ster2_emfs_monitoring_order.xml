@@ -74,6 +74,7 @@
                 <element inactive_on_update="false" label="Cease" sequence="2" value="cease"/>
             </choice>
         </element>
+        <element label="Permissible ATV" max_length="40" name="permissible_atv" type="integer"/>
         <element label="Planned End Date" max_length="40" name="planned_end_date" type="glide_date_time"/>
         <element choice="1" label="Offence" max_length="40" name="primary_offence" type="choice">
             <choice>

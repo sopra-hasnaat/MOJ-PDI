@@ -4,13 +4,13 @@
             <element>request_type</element>
             <position>0</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-19 10:34:11</sys_created_on>
-            <sys_id>62cb708b872e5510952f87f5cebb3570</sys_id>
+            <sys_created_on>2022-10-28 10:39:15</sys_created_on>
+            <sys_id>a8431bbd87329150952f87f5cebb3597</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Order Details" display_value="Order Details" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">df81f6fa87c51910952f87f5cebb3519</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-19 10:34:11</sys_updated_on>
+            <sys_updated_on>2022-10-28 10:39:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>primary_order</element>
             <position>1</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-19 10:34:11</sys_created_on>
-            <sys_id>66cb708b872e5510952f87f5cebb3570</sys_id>
+            <sys_created_on>2022-10-28 10:39:15</sys_created_on>
+            <sys_id>e0431bbd87329150952f87f5cebb3598</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Order Details" display_value="Order Details" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">df81f6fa87c51910952f87f5cebb3519</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-19 10:34:11</sys_updated_on>
+            <sys_updated_on>2022-10-28 10:39:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>supervised_order</element>
             <position>2</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-19 10:34:11</sys_created_on>
-            <sys_id>6acb708b872e5510952f87f5cebb3570</sys_id>
+            <sys_created_on>2022-10-28 10:39:15</sys_created_on>
+            <sys_id>e4431bbd87329150952f87f5cebb3598</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Order Details" display_value="Order Details" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">df81f6fa87c51910952f87f5cebb3519</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-19 10:34:11</sys_updated_on>
+            <sys_updated_on>2022-10-28 10:39:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>concurrent_order</element>
             <position>3</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-19 10:34:11</sys_created_on>
-            <sys_id>6ecb708b872e5510952f87f5cebb3570</sys_id>
+            <sys_created_on>2022-10-28 10:39:15</sys_created_on>
+            <sys_id>e8431bbd87329150952f87f5cebb3598</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Order Details" display_value="Order Details" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">df81f6fa87c51910952f87f5cebb3519</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-19 10:34:11</sys_updated_on>
+            <sys_updated_on>2022-10-28 10:39:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>variation_type</element>
             <position>4</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-19 10:34:11</sys_created_on>
-            <sys_id>62cb708b872e5510952f87f5cebb3571</sys_id>
+            <sys_created_on>2022-10-28 10:39:15</sys_created_on>
+            <sys_id>ec431bbd87329150952f87f5cebb3598</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Order Details" display_value="Order Details" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">df81f6fa87c51910952f87f5cebb3519</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-19 10:34:11</sys_updated_on>
+            <sys_updated_on>2022-10-28 10:39:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>variation_details</element>
             <position>5</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-19 10:34:11</sys_created_on>
-            <sys_id>66cb708b872e5510952f87f5cebb3571</sys_id>
+            <sys_created_on>2022-10-28 10:39:15</sys_created_on>
+            <sys_id>e0431bbd87329150952f87f5cebb3599</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Order Details" display_value="Order Details" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">df81f6fa87c51910952f87f5cebb3519</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-19 10:34:11</sys_updated_on>
+            <sys_updated_on>2022-10-28 10:39:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>curfew_schedules</element>
             <position>6</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-19 10:34:11</sys_created_on>
-            <sys_id>6acb708b872e5510952f87f5cebb3571</sys_id>
+            <sys_created_on>2022-10-28 10:39:15</sys_created_on>
+            <sys_id>e4431bbd87329150952f87f5cebb3599</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Order Details" display_value="Order Details" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">df81f6fa87c51910952f87f5cebb3519</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-19 10:34:11</sys_updated_on>
+            <sys_updated_on>2022-10-28 10:39:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>additional_requirements</element>
             <position>7</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-19 10:34:11</sys_created_on>
-            <sys_id>6ecb708b872e5510952f87f5cebb3571</sys_id>
+            <sys_created_on>2022-10-28 10:39:15</sys_created_on>
+            <sys_id>e8431bbd87329150952f87f5cebb3599</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Order Details" display_value="Order Details" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">df81f6fa87c51910952f87f5cebb3519</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-19 10:34:11</sys_updated_on>
+            <sys_updated_on>2022-10-28 10:39:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,27 @@
             <element>attachments</element>
             <position>8</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-19 10:34:11</sys_created_on>
-            <sys_id>62cb708b872e5510952f87f5cebb3572</sys_id>
+            <sys_created_on>2022-10-28 10:39:15</sys_created_on>
+            <sys_id>ec431bbd87329150952f87f5cebb3599</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Order Details" display_value="Order Details" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">df81f6fa87c51910952f87f5cebb3519</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-19 10:34:11</sys_updated_on>
+            <sys_updated_on>2022-10-28 10:39:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>permissible_atv</element>
+            <position>9</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-28 10:39:15</sys_created_on>
+            <sys_id>e0431bbd87329150952f87f5cebb359a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Order Details" display_value="Order Details" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">df81f6fa87c51910952f87f5cebb3519</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-28 10:39:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -67,7 +67,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Country" max_length="50" name="country" type="string"/>
         <element label="County" max_length="50" name="county" type="string"/>
-        <element label="Custody Suite" max_length="32" name="custody_suite" reference="x_ster2_emfs_sentencing_organisations" type="reference"/>
+        <element label="Custody Suite" max_length="32" name="custody_suite" reference="x_ster2_emfs_police_stations" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Date of Birth" mandatory="true" max_length="40" name="date_of_birth" type="glide_date"/>
         <element label="Delius ID" max_length="40" name="delius_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
