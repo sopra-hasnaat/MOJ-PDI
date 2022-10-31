@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="sn_customerservice_task" label="Enforcement Action Case" max_length="40" name="x_ster2_emfs_enforcement_action_cases" sizeclass="1" type="collection">
         <element label="Alerts" max_length="40" name="alerts" reference="x_ster2_emfs_alerts2" type="glide_list"/>
+        <element label="Breach Report Details" max_length="65536" name="breach_report" type="html"/>
         <element label="Court" max_length="32" name="court" reference="x_ster2_emfs_sentencing_organisations" type="reference"/>
         <element label="Court Hearing Date" max_length="40" name="court_date" type="glide_date"/>
         <element label="Custody Date/Time" max_length="255" name="custody_date_time" type="glide_date_time"/>

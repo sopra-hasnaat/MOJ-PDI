@@ -34,27 +34,13 @@
             <sys_created_on>2022-10-05 16:24:09</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>a0a58eaa879ed550952f87f5cebb35c8</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_ster2_emfs_alerts2" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">ab2ab1aa875ed550952f87f5cebb3532</sys_ui_form>
-            <sys_ui_section caption="Compliance" display_value="Compliance" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">2ca58eaa879ed550952f87f5cebb35c5</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-05 16:51:42</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>3</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-05 16:24:09</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>a8a5ceaa879ed550952f87f5cebb352f</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_ster2_emfs_alerts2" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">ab2ab1aa875ed550952f87f5cebb3532</sys_ui_form>
             <sys_ui_section caption="Work Notes" display_value="Work Notes" name="x_ster2_emfs_alerts2" sys_domain="global" view="Default view">e8a58eaa879ed550952f87f5cebb35c6</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-05 16:51:42</sys_updated_on>
+            <sys_updated_on>2022-10-31 17:04:37</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_ster2_emfs_alerts2</name>

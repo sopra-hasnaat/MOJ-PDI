@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Details" section_id="2bdd34381bfe99106eb0a6c0604bcb26" sys_domain="global" table="x_ster2_emfs_enforcement_action_cases" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>subject</element>
+            <element>short_description</element>
             <position>0</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-24 21:15:15</sys_created_on>
-            <sys_id>317ebc381bfe99106eb0a6c0604bcbe4</sys_id>
+            <sys_created_on>2022-10-31 17:18:02</sys_created_on>
+            <sys_id>0f4b8ccb1bb2d1506eb0a6c0604bcb96</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Details" display_value="Details" name="x_ster2_emfs_enforcement_action_cases" sys_domain="global" view="Default view">2bdd34381bfe99106eb0a6c0604bcb26</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-24 21:15:15</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>short_description</element>
-            <position>1</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-24 21:15:15</sys_created_on>
-            <sys_id>357ebc381bfe99106eb0a6c0604bcbe4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Details" display_value="Details" name="x_ster2_emfs_enforcement_action_cases" sys_domain="global" view="Default view">2bdd34381bfe99106eb0a6c0604bcb26</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-24 21:15:15</sys_updated_on>
+            <sys_updated_on>2022-10-31 17:18:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-24 21:15:15</sys_created_on>
-            <sys_id>397ebc381bfe99106eb0a6c0604bcbe4</sys_id>
+            <sys_created_on>2022-10-31 17:18:02</sys_created_on>
+            <sys_id>034b8ccb1bb2d1506eb0a6c0604bcb97</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Details" display_value="Details" name="x_ster2_emfs_enforcement_action_cases" sys_domain="global" view="Default view">2bdd34381bfe99106eb0a6c0604bcb26</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-24 21:15:15</sys_updated_on>
+            <sys_updated_on>2022-10-31 17:18:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>alerts</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-24 21:15:15</sys_created_on>
-            <sys_id>3d7ebc381bfe99106eb0a6c0604bcbe4</sys_id>
+            <sys_created_on>2022-10-31 17:18:02</sys_created_on>
+            <sys_id>074b8ccb1bb2d1506eb0a6c0604bcb97</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Details" display_value="Details" name="x_ster2_emfs_enforcement_action_cases" sys_domain="global" view="Default view">2bdd34381bfe99106eb0a6c0604bcb26</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-24 21:15:15</sys_updated_on>
+            <sys_updated_on>2022-10-31 17:18:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>non_compliances</element>
+            <position>3</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-10-31 17:18:02</sys_created_on>
+            <sys_id>0b4b8ccb1bb2d1506eb0a6c0604bcb97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Details" display_value="Details" name="x_ster2_emfs_enforcement_action_cases" sys_domain="global" view="Default view">2bdd34381bfe99106eb0a6c0604bcb26</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-10-31 17:18:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

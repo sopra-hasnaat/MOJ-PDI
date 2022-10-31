@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Alerts" max_length="40" name="x_ster2_emfs_alerts2" sizeclass="6" type="collection">
+    <element audit="true" extends="task" label="Alerts" max_length="40" name="x_ster2_emfs_alerts2" sizeclass="12" type="collection">
         <element choice="1" label="Alert Type" max_length="40" name="alert_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Curfew Time/Boundary Warning" sequence="0" value="0"/>
@@ -11,6 +11,7 @@
         </element>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return ;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="ATV Calculated" max_length="40" name="atv_calculated" read_only="true" type="integer"/>
         <element label="ATV" max_length="40" name="atv_value" type="integer"/>
+        <element label="Case" max_length="32" name="case" reference="sn_customerservice_case" type="reference"/>
         <element label="Code" max_length="32" name="code" reference="x_ster2_emfs_alert_codes" type="reference"/>
         <element label="Confirm Incident" max_length="32" name="confirm_incident" type="boolean"/>
         <element label="Date &amp; Time of Alert" max_length="40" name="date_time" type="glide_date_time"/>
