@@ -3,42 +3,126 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>name</element>
             <position>0</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-24 22:01:10</sys_created_on>
-            <sys_id>96f80df01b32d9106eb0a6c0604bcb85</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-01 14:50:14</sys_created_on>
+            <sys_id>fb03fc5f1b3615506eb0a6c0604bcb60</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_police_stations" sys_domain="global" view="Default view">937841f01b32d9106eb0a6c0604bcbf2</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-24 22:01:10</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-01 14:50:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-01 14:50:14</sys_created_on>
+            <sys_id>ff03fc5f1b3615506eb0a6c0604bcb60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_police_stations" sys_domain="global" view="Default view">937841f01b32d9106eb0a6c0604bcbf2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-01 14:50:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-01 14:50:14</sys_created_on>
+            <sys_id>f303fc5f1b3615506eb0a6c0604bcb61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_police_stations" sys_domain="global" view="Default view">937841f01b32d9106eb0a6c0604bcbf2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-01 14:50:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-01 14:50:14</sys_created_on>
+            <sys_id>f703fc5f1b3615506eb0a6c0604bcb61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_police_stations" sys_domain="global" view="Default view">937841f01b32d9106eb0a6c0604bcbf2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-01 14:50:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zip</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-01 14:50:14</sys_created_on>
+            <sys_id>fb03fc5f1b3615506eb0a6c0604bcb61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_police_stations" sys_domain="global" view="Default view">937841f01b32d9106eb0a6c0604bcbf2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-01 14:50:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>force</element>
-            <position>1</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-24 22:01:10</sys_created_on>
-            <sys_id>9ef80df01b32d9106eb0a6c0604bcb85</sys_id>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-01 14:50:14</sys_created_on>
+            <sys_id>ff03fc5f1b3615506eb0a6c0604bcb61</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_police_stations" sys_domain="global" view="Default view">937841f01b32d9106eb0a6c0604bcbf2</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-24 22:01:10</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-01 14:50:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>latitude</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-01 14:50:14</sys_created_on>
+            <sys_id>f303fc5f1b3615506eb0a6c0604bcb62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_police_stations" sys_domain="global" view="Default view">937841f01b32d9106eb0a6c0604bcbf2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-01 14:50:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>longitude</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-01 14:50:14</sys_created_on>
+            <sys_id>f703fc5f1b3615506eb0a6c0604bcb62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_police_stations" sys_domain="global" view="Default view">937841f01b32d9106eb0a6c0604bcbf2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-01 14:50:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
-            <position>2</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-24 22:01:10</sys_created_on>
-            <sys_id>92f80df01b32d9106eb0a6c0604bcb86</sys_id>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-01 14:50:14</sys_created_on>
+            <sys_id>fb03fc5f1b3615506eb0a6c0604bcb62</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_police_stations" sys_domain="global" view="Default view">937841f01b32d9106eb0a6c0604bcbf2</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-24 22:01:10</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-01 14:50:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
