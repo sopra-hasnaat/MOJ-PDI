@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric">
+    <asmt_metric action="DELETE">
+        <active>true</active>
+        <add_info_label>Additional Information</add_info_label>
+        <allow_add_info>false</allow_add_info>
+        <allow_not_applicable>false</allow_not_applicable>
+        <auto_gen>false</auto_gen>
+        <category display_value="Install: On Site">dc74d47b1b62d5106eb0a6c0604bcb3f</category>
+        <cond_question>always</cond_question>
+        <condition/>
+        <context/>
+        <correct_answer/>
+        <correct_answer_checkbox/>
+        <correct_answer_choice/>
+        <correct_answer_template/>
+        <correct_answer_yesno/>
+        <custom_metric/>
+        <datatype>choice</datatype>
+        <default_value_field/>
+        <depends_on/>
+        <description/>
+        <details><![CDATA[<p class="MsoNormal"><span style="font-size:10.0pt;font-family:&#34;Titillium Web&#34;">Confirm ONE of the following types of identification of the Device Wearer, any reference numbers must also be recorded.</span></p>]]></details>
+        <displayed_when/>
+        <displayed_when_checkbox/>
+        <displayed_when_template/>
+        <displayed_when_yesno/>
+        <duration/>
+        <field_validation/>
+        <mandatory>false</mandatory>
+        <max>8</max>
+        <max_weight/>
+        <maximum_normalization_input>false</maximum_normalization_input>
+        <method>assessment</method>
+        <metric_type display_value="Install: On Site">9074d47b1b62d5106eb0a6c0604bcb3b</metric_type>
+        <min>1</min>
+        <name>ID Verification</name>
+        <order>200</order>
+        <plugin/>
+        <question>ID Verification</question>
+        <randomize_answers>false</randomize_answers>
+        <read_only>false</read_only>
+        <reference_table/>
+        <scale>low</scale>
+        <scored>false</scored>
+        <script><![CDATA[// The following variables are available:  // - primary: contains the sys_id of the assessable object to be evaluated  // - string_result: the script sets the display string value for this metric to this variable  // - actual_result: the script sets the actual value for this metric to this variable  // - scaled_result: the script sets the scaled value (used in calculations) for this metric to this variable  //  // For example: // var gr = new GlideRecord('cmdb_ci'); // gr.addQuery('manufacturer', primary); // gr.query(); // actual_result = gr.getRowCount(); // string_result = actual_result + ''; // if (actual_result &gt; 100) scaled_result = 5; // else scaled_result = 1;]]></script>
+        <source_field/>
+        <string_option>wide</string_option>
+        <sys_class_name>asmt_metric</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-21 15:48:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>53c698fb1b62d5106eb0a6c0604bcb8d</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>ID Verification</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>asmt_metric_53c698fb1b62d5106eb0a6c0604bcb8d</sys_update_name>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-28 12:44:18</sys_updated_on>
+        <template/>
+        <value_parameters/>
+        <weight>10</weight>
+    </asmt_metric>
+    <sys_translated_text action="DELETE" query="documentkey=53c698fb1b62d5106eb0a6c0604bcb8d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>asmt_metric_53c698fb1b62d5106eb0a6c0604bcb8d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="asmt_metric"&gt;&lt;asmt_metric action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_info_label&gt;Additional Information&lt;/add_info_label&gt;&lt;allow_add_info&gt;false&lt;/allow_add_info&gt;&lt;allow_not_applicable&gt;false&lt;/allow_not_applicable&gt;&lt;auto_gen&gt;false&lt;/auto_gen&gt;&lt;category display_value="Install: On Site"&gt;dc74d47b1b62d5106eb0a6c0604bcb3f&lt;/category&gt;&lt;cond_question&gt;always&lt;/cond_question&gt;&lt;condition/&gt;&lt;context/&gt;&lt;correct_answer/&gt;&lt;correct_answer_checkbox/&gt;&lt;correct_answer_choice/&gt;&lt;correct_answer_template/&gt;&lt;correct_answer_yesno/&gt;&lt;custom_metric/&gt;&lt;datatype&gt;choice&lt;/datatype&gt;&lt;default_value_field/&gt;&lt;depends_on/&gt;&lt;description/&gt;&lt;details&gt;&lt;![CDATA[&lt;p class="MsoNormal"&gt;&lt;span style="font-size:10.0pt;font-family:&amp;#34;Titillium Web&amp;#34;"&gt;Confirm ONE of the following types of identification of the Device Wearer, any reference numbers must also be recorded.&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/details&gt;&lt;displayed_when/&gt;&lt;displayed_when_checkbox/&gt;&lt;displayed_when_template/&gt;&lt;displayed_when_yesno/&gt;&lt;duration/&gt;&lt;field_validation/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max&gt;8&lt;/max&gt;&lt;max_weight/&gt;&lt;maximum_normalization_input&gt;false&lt;/maximum_normalization_input&gt;&lt;method&gt;assessment&lt;/method&gt;&lt;metric_type display_value="Install: On Site"&gt;9074d47b1b62d5106eb0a6c0604bcb3b&lt;/metric_type&gt;&lt;min&gt;1&lt;/min&gt;&lt;name&gt;ID Verification&lt;/name&gt;&lt;order&gt;200&lt;/order&gt;&lt;plugin/&gt;&lt;question&gt;ID Verification&lt;/question&gt;&lt;randomize_answers&gt;false&lt;/randomize_answers&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;reference_table/&gt;&lt;scale&gt;low&lt;/scale&gt;&lt;scored&gt;false&lt;/scored&gt;&lt;script&gt;&lt;![CDATA[// The following variables are available:  // - primary: contains the sys_id of the assessable object to be evaluated  // - string_result: the script sets the display string value for this metric to this variable  // - actual_result: the script sets the actual value for this metric to this variable  // - scaled_result: the script sets the scaled value (used in calculations) for this metric to this variable  //  // For example: // var gr = new GlideRecord('cmdb_ci'); // gr.addQuery('manufacturer', primary); // gr.query(); // actual_result = gr.getRowCount(); // string_result = actual_result + ''; // if (actual_result &amp;gt; 100) scaled_result = 5; // else scaled_result = 1;]]&gt;&lt;/script&gt;&lt;source_field/&gt;&lt;string_option&gt;wide&lt;/string_option&gt;&lt;sys_class_name&gt;asmt_metric&lt;/sys_class_name&gt;&lt;sys_created_by&gt;paul.fraser.ems&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-21 15:48:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;53c698fb1b62d5106eb0a6c0604bcb8d&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;ID Verification&lt;/sys_name&gt;&lt;sys_package display_value="Electronic Monitoring" source="x_ster2_emfs"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Electronic Monitoring"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_scope&gt;&lt;sys_update_name&gt;asmt_metric_53c698fb1b62d5106eb0a6c0604bcb8d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;paul.fraser.ems&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-28 12:44:18&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;value_parameters/&gt;&lt;weight&gt;10&lt;/weight&gt;&lt;/asmt_metric&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=53c698fb1b62d5106eb0a6c0604bcb8d"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1783172554</payload_hash>
+        <record_name>ID Verification</record_name>
+        <reverted_from/>
+        <source>3266f3eb1bee95106eb0a6c0604bcbc3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-28 12:44:18</sys_created_on>
+        <sys_id>08efe7311bb6dd106eb0a6c0604bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1841e9f29fe0000001</sys_recorded_at>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-28 12:44:18</sys_updated_on>
+        <type>Assessment Metric</type>
+        <update_guid>00efe731aab6dd100bbbb37815b0f073</update_guid>
+        <update_guid_history>00efe731aab6dd100bbbb37815b0f073:1783172554,44efe73128b6dd10e8a296fcdfe9a26e:1993627435,88efe731a5b6dd1095535bac99353769:-2090884980,ccefe731ffb6dd10bb6724791fd1dc64:-1880430099,04efe731cdb6dd101a83374b25dff560:-1669975218,84efe73151b6dd104342ae23cd0a295b:-1459520337,0cefe7317cb6dd10e491a7c8f4227b51:1783172554,dfe65cfbcd62d5106d178e2e7c01422d:1153659429,67c698fb9c62d510a602621e02ceccd1:985021528,9fc698fb2962d510d17beae7de5a1d99:-1393681999,dbc698fb1362d510fa700620088bd394:813711314,13c698fbbc62d51089d437d4aac7fb91:-1393681999</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ID Verification">9c213f711bb6dd106eb0a6c0604bcb36</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-28 12:49:46</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric">asmt_metric</sys_db_object>
+        <sys_id>ccfdda3ae4084333adcf44e0e5802a21</sys_id>
+        <sys_metadata>53c698fb1b62d5106eb0a6c0604bcb8d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ID Verification</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>asmt_metric_53c698fb1b62d5106eb0a6c0604bcb8d</sys_update_name>
+        <sys_update_version display_value="asmt_metric_53c698fb1b62d5106eb0a6c0604bcb8d">08efe7311bb6dd106eb0a6c0604bcb73</sys_update_version>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-28 12:49:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>linked_alert</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Calculate Parent ATV on Cell Change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	
+	var originalSysId = g_form.getUniqueValue();
+    var ga = new GlideAjax('CalculateParentATV');
+    ga.addParam('sysparm_name', 'linkedAlerts');
+    ga.addParam('sysparm_sysid', originalSysId);
+    ga.getXML(HelloWorldParse);
+
+    function HelloWorldParse(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+        //      		g_form.setValue('atv_calculated', answer);
+    }
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-26 11:39:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e6bdcd9d87b6dd10952f87f5cebb3517</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Calculate Parent ATV on Cell Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_script_client_e6bdcd9d87b6dd10952f87f5cebb3517</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-26 11:40:20</sys_updated_on>
+        <table>x_ster2_emfs_alerts2</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_script_client_e6bdcd9d87b6dd10952f87f5cebb3517</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;linked_alert&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Calculate Parent ATV on Cell Change&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	
+	var originalSysId = g_form.getUniqueValue();
+    var ga = new GlideAjax('CalculateParentATV');
+    ga.addParam('sysparm_name', 'linkedAlerts');
+    ga.addParam('sysparm_sysid', originalSysId);
+    ga.getXML(HelloWorldParse);
+
+    function HelloWorldParse(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+        //      		g_form.setValue('atv_calculated', answer);
+    }
+
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;hasnaat.khan.ems&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-26 11:39:30&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e6bdcd9d87b6dd10952f87f5cebb3517&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Calculate Parent ATV on Cell Change&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Electronic Monitoring" source="x_ster2_emfs"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Electronic Monitoring"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e6bdcd9d87b6dd10952f87f5cebb3517&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;hasnaat.khan.ems&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-26 11:40:20&lt;/sys_updated_on&gt;&lt;table&gt;x_ster2_emfs_alerts2&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2084272155</payload_hash>
+        <record_name>Calculate Parent ATV on Cell Change</record_name>
+        <reverted_from/>
+        <source>a11a0ec487e29d50952f87f5cebb350b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-26 11:40:20</sys_created_on>
+        <sys_id>3f0e85dd87b6dd10952f87f5cebb3561</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1841417e2530000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-26 11:40:20</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>370e85dd07b6dd1073af753815cce261</update_guid>
+        <update_guid_history>370e85dd07b6dd1073af753815cce261:2084272155,2fdd81ddb6b6dd10fa632faaecfb8222:-362820846</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-26 11:41:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0a26dee8a90444f3b1dbd326161e5269</sys_id>
+        <sys_metadata>e6bdcd9d87b6dd10952f87f5cebb3517</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Calculate Parent ATV on Cell Change</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="Alerts">6cc4fd22875ed550952f87f5cebb35ce</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_script_client_e6bdcd9d87b6dd10952f87f5cebb3517</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e6bdcd9d87b6dd10952f87f5cebb3517">3f0e85dd87b6dd10952f87f5cebb3561</sys_update_version>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-26 11:41:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

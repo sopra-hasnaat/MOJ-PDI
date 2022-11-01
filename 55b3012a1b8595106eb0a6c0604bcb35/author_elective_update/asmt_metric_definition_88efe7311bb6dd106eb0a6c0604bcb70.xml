@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="DELETE">
+        <display>Any distinguishing marks, information from the notification may also be used as identification.</display>
+        <metric display_value="ID Verification">53c698fb1b62d5106eb0a6c0604bcb8d</metric>
+        <normalization_input>0</normalization_input>
+        <order>7</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-28 12:44:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>88efe7311bb6dd106eb0a6c0604bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Any distinguishing marks, information from the notification may also be used as identification.</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>asmt_metric_definition_88efe7311bb6dd106eb0a6c0604bcb70</sys_update_name>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-28 12:44:18</sys_updated_on>
+        <unselected_image/>
+        <value>8</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="DELETE" query="documentkey=88efe7311bb6dd106eb0a6c0604bcb70"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>asmt_metric_definition_88efe7311bb6dd106eb0a6c0604bcb70</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition"><asmt_metric_definition action="INSERT_OR_UPDATE"><display>Any distinguishing marks, information from the notification may also be used as identification.</display><metric display_value="ID Verification">53c698fb1b62d5106eb0a6c0604bcb8d</metric><normalization_input>0</normalization_input><order>7</order><selected_image/><sys_class_name>asmt_metric_definition</sys_class_name><sys_created_by>paul.fraser.ems</sys_created_by><sys_created_on>2022-10-28 12:44:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>88efe7311bb6dd106eb0a6c0604bcb70</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Any distinguishing marks, information from the notification may also be used as identification.</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>asmt_metric_definition_88efe7311bb6dd106eb0a6c0604bcb70</sys_update_name><sys_updated_by>paul.fraser.ems</sys_updated_by><sys_updated_on>2022-10-28 12:44:18</sys_updated_on><unselected_image/><value>8</value></asmt_metric_definition><sys_translated_text action="delete_multiple" query="documentkey=88efe7311bb6dd106eb0a6c0604bcb70"/></record_update>]]></payload>
+        <payload_hash>175977462</payload_hash>
+        <record_name>Any distinguishing marks, information from the notification may also be used as identification.</record_name>
+        <reverted_from/>
+        <source>3266f3eb1bee95106eb0a6c0604bcbc3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-28 12:44:18</sys_created_on>
+        <sys_id>00efe7311bb6dd106eb0a6c0604bcb75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1841e9f2a160000001</sys_recorded_at>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-28 12:44:18</sys_updated_on>
+        <type>Assessment Metric Definition</type>
+        <update_guid>48efe73106b6dd1004a444ef88889f74</update_guid>
+        <update_guid_history>48efe73106b6dd1004a444ef88889f74:175977462</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Any distinguishing marks, information from the notification may also be used as ">18213f711bb6dd106eb0a6c0604bcb26</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-28 12:49:46</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_definition">asmt_metric_definition</sys_db_object>
+        <sys_id>8a4307c8711e4950bb01648080e33100</sys_id>
+        <sys_metadata>88efe7311bb6dd106eb0a6c0604bcb70</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Any distinguishing marks, information from the notification may also be used as identification.</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>asmt_metric_definition_88efe7311bb6dd106eb0a6c0604bcb70</sys_update_name>
+        <sys_update_version display_value="asmt_metric_definition_88efe7311bb6dd106eb0a6c0604bcb70">00efe7311bb6dd106eb0a6c0604bcb75</sys_update_version>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-28 12:49:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

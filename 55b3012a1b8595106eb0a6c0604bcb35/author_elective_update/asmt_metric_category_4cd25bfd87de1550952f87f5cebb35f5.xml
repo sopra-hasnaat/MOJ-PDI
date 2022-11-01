@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="DELETE">
+        <create_stakeholders>false</create_stakeholders>
+        <description/>
+        <details/>
+        <filter table="asmt_metric_type">sys_id=7f2882f9879a1550952f87f5cebb3563^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="7f2882f9879a1550952f87f5cebb3563"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <metric_type display_value="Generic: Arrival At Address">7f2882f9879a1550952f87f5cebb3563</metric_type>
+        <name>Left Site</name>
+        <order>400</order>
+        <qb_evaluation_method/>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-03 14:05:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4cd25bfd87de1550952f87f5cebb35f5</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Left Site</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>asmt_metric_category_4cd25bfd87de1550952f87f5cebb35f5</sys_update_name>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-24 08:33:25</sys_updated_on>
+        <table>asmt_metric_type</table>
+        <total_metrics>0</total_metrics>
+        <weight>10</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="DELETE" query="documentkey=4cd25bfd87de1550952f87f5cebb35f5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>asmt_metric_category_4cd25bfd87de1550952f87f5cebb35f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category"><asmt_metric_category action="INSERT_OR_UPDATE"><create_stakeholders>false</create_stakeholders><description/><details/><filter table="asmt_metric_type">sys_id=7f2882f9879a1550952f87f5cebb3563^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="7f2882f9879a1550952f87f5cebb3563"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><metric_type display_value="Generic: Arrival At Address">7f2882f9879a1550952f87f5cebb3563</metric_type><name>Left Site</name><order>400</order><qb_evaluation_method/><roles/><scoring_type>percent</scoring_type><sys_class_name>asmt_metric_category</sys_class_name><sys_created_by>paul.fraser.ems</sys_created_by><sys_created_on>2022-10-03 14:05:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4cd25bfd87de1550952f87f5cebb35f5</sys_id><sys_mod_count>10</sys_mod_count><sys_name>Left Site</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>asmt_metric_category_4cd25bfd87de1550952f87f5cebb35f5</sys_update_name><sys_updated_by>paul.fraser.ems</sys_updated_by><sys_updated_on>2022-10-24 08:33:25</sys_updated_on><table>asmt_metric_type</table><total_metrics>0</total_metrics><weight>10</weight></asmt_metric_category><sys_translated_text action="delete_multiple" query="documentkey=4cd25bfd87de1550952f87f5cebb35f5"/></record_update>]]></payload>
+        <payload_hash>1619919436</payload_hash>
+        <record_name>Left Site</record_name>
+        <reverted_from/>
+        <source>3266f3eb1bee95106eb0a6c0604bcbc3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-24 08:33:25</sys_created_on>
+        <sys_id>de10de2c87f61d10952f87f5cebb359f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18409200b100000001</sys_recorded_at>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-24 08:33:25</sys_updated_on>
+        <type>Metric Category</type>
+        <update_guid>d610de2c0ff61d10915aa3c8bbae479f</update_guid>
+        <update_guid_history>d610de2c0ff61d10915aa3c8bbae479f:1619919436,1a10de2c72f61d10c5a59a264f10b096:-1807995635,9610de2c68f61d100e6ec001b89f1587:-940943410,5610de2c37f61d1046aa5c82939cee72:-73891185,c610de2c53f61d108e52a7f9edb03869:793161040,00d29bfd76de1550b6d2a3111e24eb19:-2053476593,8cd29bfdfdde15506b59140b11f1c10e:1374438478,00d29bfd85de15505af459733231b20a:507386253,80d29bfddade1550467e51fdfbfe0f05:-359665972,00d25bfda4de1550d5e576c0f109affb:-1226718197,c8d25bfdd8de155098ab834705dd65f7:-1863085090</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Left Site">a7701a6c87f61d10952f87f5cebb354b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-24 08:35:09</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_category">asmt_metric_category</sys_db_object>
+        <sys_id>3cf8914132fb42408a11f47bc58e9000</sys_id>
+        <sys_metadata>4cd25bfd87de1550952f87f5cebb35f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Left Site</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>asmt_metric_category_4cd25bfd87de1550952f87f5cebb35f5</sys_update_name>
+        <sys_update_version display_value="asmt_metric_category_4cd25bfd87de1550952f87f5cebb35f5">de10de2c87f61d10952f87f5cebb359f</sys_update_version>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-24 08:35:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

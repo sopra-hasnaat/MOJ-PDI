@@ -24,30 +24,42 @@
     var parm = "";
 
     for (var i = 0; i < hash.length; i++) {
-        if (hash[i].indexOf('subject') > -1) {
+        if (hash[i].indexOf('userid') > -1) { //Look for "userid" in url
             parm = hash[i].split('=');
             g_form.setValue('subject', parm[1]);
 
             var ga = new GlideAjax('RetrieveSubject');
-            ga.addParam('sysparm_name', 'retrieveSubject');
+            ga.addParam('sysparm_name', 'retrieveUser');
             ga.addParam('sys_id', parm[1]);
             ga.getXML(retrieveSubjectParse);
 
             function retrieveSubjectParse(response) {
                 var answer = JSON.parse(response.responseXML.documentElement.getAttribute("answer"));
                 var subjectAddressLine1 = answer.address_line_1;
-                var subjectAddressLine2 = answer.address_line_2;
-				var subjectPostCode = answer.post_code;
+                var subjectPostcode = answer.post_code;
+				var subjectAddressLine2 = answer.address2_line_1;
+				var subjectPostcode2 = answer.address2_post_code;
 
                 var gaCurfewLocation = new GlideAjax('RetrieveSubject');
-                ga.addParam('sysparm_name', 'retrieveCurfewLocation');
-                ga.addParam('address_line_1', subjectAddressLine1);
-				ga.addParam('post_code', subjectPostCode);
-                ga.getXML(retrieveCurfewLocationParse);
+                gaCurfewLocation.addParam('sysparm_name', 'retrieveCurfewLocation');
+                gaCurfewLocation.addParam('address_line_1', subjectAddressLine1);
+                gaCurfewLocation.addParam('post_code', subjectPostcode);
+                gaCurfewLocation.getXML(retrieveCurfewLocationParse);
 
                 function retrieveCurfewLocationParse(response) {
                     var answer = response.responseXML.documentElement.getAttribute("answer");
-					g_form.setValue('curfew_location', answer);
+                    g_form.setValue('curfew_location', answer);
+                }
+				
+				var gaSecondaryCurfewLocation = new GlideAjax('RetrieveSubject');
+                gaSecondaryCurfewLocation.addParam('sysparm_name', 'retrieveSecondaryCurfewLocation');
+                gaSecondaryCurfewLocation.addParam('address2_line_1', subjectAddressLine2);
+                gaSecondaryCurfewLocation.addParam('address2_post_code', subjectPostcode2);
+                gaSecondaryCurfewLocation.getXML(retrieveSecondaryCurfewLocationParse);
+				
+                function retrieveSecondaryCurfewLocationParse(response) {
+                    var answer = response.responseXML.documentElement.getAttribute("answer");
+                    g_form.setValue('secondary_curfew_location', answer);
                 }
             }
         }
@@ -59,7 +71,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b8c0ffde872e9110952f87f5cebb35b6</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>96</sys_mod_count>
         <sys_name>Store Subject</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
@@ -67,7 +79,7 @@
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>catalog_script_client_b8c0ffde872e9110952f87f5cebb35b6</sys_update_name>
         <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-10-18 11:38:22</sys_updated_on>
+        <sys_updated_on>2022-10-19 10:44:16</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>

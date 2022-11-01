@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="DELETE">
+        <create_stakeholders>false</create_stakeholders>
+        <description/>
+        <details/>
+        <filter table="asmt_metric_type">sys_id=7f2882f9879a1550952f87f5cebb3563^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="7f2882f9879a1550952f87f5cebb3563"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <metric_type display_value="Generic: Arrival At Address">7f2882f9879a1550952f87f5cebb3563</metric_type>
+        <name>On Site</name>
+        <order>200</order>
+        <qb_evaluation_method/>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-03 13:54:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>31301b3d87de1550952f87f5cebb35cc</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>On Site</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>asmt_metric_category_31301b3d87de1550952f87f5cebb35cc</sys_update_name>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-24 08:33:24</sys_updated_on>
+        <table>asmt_metric_type</table>
+        <total_metrics>0</total_metrics>
+        <weight>10</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="DELETE" query="documentkey=31301b3d87de1550952f87f5cebb35cc"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>asmt_metric_category_31301b3d87de1550952f87f5cebb35cc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category"><asmt_metric_category action="INSERT_OR_UPDATE"><create_stakeholders>false</create_stakeholders><description/><details/><filter table="asmt_metric_type">sys_id=7f2882f9879a1550952f87f5cebb3563^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="7f2882f9879a1550952f87f5cebb3563"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><metric_type display_value="Generic: Arrival At Address">7f2882f9879a1550952f87f5cebb3563</metric_type><name>On Site</name><order>200</order><qb_evaluation_method/><roles/><scoring_type>percent</scoring_type><sys_class_name>asmt_metric_category</sys_class_name><sys_created_by>paul.fraser.ems</sys_created_by><sys_created_on>2022-10-03 13:54:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>31301b3d87de1550952f87f5cebb35cc</sys_id><sys_mod_count>10</sys_mod_count><sys_name>On Site</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>asmt_metric_category_31301b3d87de1550952f87f5cebb35cc</sys_update_name><sys_updated_by>paul.fraser.ems</sys_updated_by><sys_updated_on>2022-10-24 08:33:24</sys_updated_on><table>asmt_metric_type</table><total_metrics>0</total_metrics><weight>10</weight></asmt_metric_category><sys_translated_text action="delete_multiple" query="documentkey=31301b3d87de1550952f87f5cebb35cc"/></record_update>]]></payload>
+        <payload_hash>507442826</payload_hash>
+        <record_name>On Site</record_name>
+        <reverted_from/>
+        <source>3266f3eb1bee95106eb0a6c0604bcbc3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-24 08:33:24</sys_created_on>
+        <sys_id>0e10de2c87f61d10952f87f5cebb354d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184092007920000001</sys_recorded_at>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-24 08:33:24</sys_updated_on>
+        <type>Metric Category</type>
+        <update_guid>0610de2cb3f61d10e9042a43ee695f4d</update_guid>
+        <update_guid_history>0610de2cb3f61d10e9042a43ee695f4d:507442826,c210de2c67f61d100e0c06b6544fe438:1374495051,8210de2c3af61d10bf3186d4609a1f23:-2053420020,0e10de2c02f61d10e87f3778c2464c0d:-1186367795,f5109e2cc3f61d10850598694046a2d3:-319315570,82305b3d80de1550e4015c149dd8ef63:-952462771,8e305b3dedde1550d378b7f77aaca51c:-1819514996,86305b3d8ade1550181e8bea47abf408:1608400075,8e301b3dd6de155006fd5ff4789ed3f3:741347850,39301b3da6de155072db4c1ec0439ed2:-125704375,f9301b3d9cde1550a1de2f67eebadfce:-1274154212</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="On Site">67701a6c87f61d10952f87f5cebb3543</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-24 08:35:09</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_category">asmt_metric_category</sys_db_object>
+        <sys_id>053da88558784e2b80f034f01b99d259</sys_id>
+        <sys_metadata>31301b3d87de1550952f87f5cebb35cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>On Site</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>asmt_metric_category_31301b3d87de1550952f87f5cebb35cc</sys_update_name>
+        <sys_update_version display_value="asmt_metric_category_31301b3d87de1550952f87f5cebb35cc">0e10de2c87f61d10952f87f5cebb354d</sys_update_version>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-24 08:35:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

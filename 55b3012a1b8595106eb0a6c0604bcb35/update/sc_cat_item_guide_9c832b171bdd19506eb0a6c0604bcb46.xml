@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide">
     <sc_cat_item_guide action="INSERT_OR_UPDATE">
         <access_type>restricted</access_type>
-        <active>true</active>
+        <active>false</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
         <cascade>true</cascade>
@@ -67,14 +67,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-08-19 14:08:19</sys_created_on>
         <sys_id>9c832b171bdd19506eb0a6c0604bcb46</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Raise New Monitoring Order</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sc_cat_item_guide_9c832b171bdd19506eb0a6c0604bcb46</sys_update_name>
         <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-10-17 13:27:00</sys_updated_on>
+        <sys_updated_on>2022-10-24 09:04:34</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>

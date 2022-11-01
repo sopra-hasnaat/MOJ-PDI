@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_ster2_emfs.CalculateParentATV</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>CalculateParentATV</name>
+        <script><![CDATA[var CalculateParentATV = Class.create();
+CalculateParentATV.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    linkedAlerts: function() {
+        var returnedValue = 0;
+		
+        var gr = new GlideRecord('x_ster2_emfs_alerts2');
+        gr.addQuery('linked_alert', this.getParameter('sysparm_sysid'));
+        gr.addQuery('non_compliance', true);
+        gr.query();
+        while (gr.next()) {
+            returnedValue += gr.atv_value;
+        }
+        var originalGr = new GlideRecord('x_ster2_emfs_alerts2');
+        originalGr.get(this.getParameter('sysparm_sysid'));
+        originalGr.setValue('atv_calculated', returnedValue);
+        originalGr.update();
+
+        // return returnedValue.toFixed(0);
+    },
+    type: 'CalculateParentATV'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-26 10:56:12</sys_created_on>
+        <sys_id>59e3459187b6dd10952f87f5cebb3552</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>CalculateParentATV</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_script_include_59e3459187b6dd10952f87f5cebb3552</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-26 11:46:21</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>body{
+	text-align: center;
+	background: #00ECB9;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+h1{
+  text-align: center;
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+  width: 100%;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+    width: 100%;
+}
+
+#clockdiv &gt; div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#clockdiv div &gt; span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>countdown</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	var deadLine;
+var gr = new GlideRecord('table');
+if(gr.get('sys_id_of_record/logic'))
+deadLine= gr.due_date.dateNumericValue(); // use dateNumericValue() to get time in millisecond
+ var countDownWidgetOptions = {"deadLine": deadLine};
+    data.countDownWidget = $sp.getWidget('countdown', countDownWidgetOptions);
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-10-31 10:08:26</sys_created_on>
+        <sys_id>3ba8a63287729550952f87f5cebb35b7</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>countdown</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_widget_3ba8a63287729550952f87f5cebb35b7</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-10-31 10:36:44</sys_updated_on>
+        <template><![CDATA[<div>
+<script>
+function getTimeRemaining(endtime) {
+var t = Date.parse(endtime) - Date.parse(new Date());
+var seconds = Math.floor((t / 1000) % 60);
+var minutes = Math.floor((t / 1000 / 60) % 60);
+var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+var days = Math.floor(t / (1000 * 60 * 60 * 24));
+return {
+'total': t,
+'days': days,
+'hours': hours,
+'minutes': minutes,
+'seconds': seconds
+};
+}
+
+function initializeClock(id, endtime) {
+var clock = document.getElementById(id);
+var daysSpan = clock.querySelector('.days');
+var hoursSpan = clock.querySelector('.hours');
+var minutesSpan = clock.querySelector('.minutes');
+var secondsSpan = clock.querySelector('.seconds');
+
+function updateClock() {
+var t = getTimeRemaining(endtime);
+
+daysSpan.innerHTML = t.days;
+hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+if (t.total <= 0) {
+clearInterval(timeinterval);
+}
+}
+
+updateClock();
+var timeinterval = setInterval(updateClock, 1000);
+}
+
+var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+initializeClock('clockdiv', deadline);
+
+</script>
+<h1>Coundown To End Of Monitoring Order</h1>
+<div id="clockdiv">
+<div>
+<span class="days"></span>
+<div class="smalltext">Days</div>
+</div>
+<div>
+<span class="hours"></span>
+<div class="smalltext">Hours</div>
+</div>
+<div>
+<span class="minutes"></span>
+<div class="smalltext">Minutes</div>
+</div>
+<div>
+<span class="seconds"></span>
+<div class="smalltext">Seconds</div>
+</div>
+</div>
+
+</div>]]></template>
+    </sp_widget>
+</record_update>

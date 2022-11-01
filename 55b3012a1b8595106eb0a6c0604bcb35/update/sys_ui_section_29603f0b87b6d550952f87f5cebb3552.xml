@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="29603f0b87b6d550952f87f5cebb3552" sys_domain="global" table="x_ster2_emfs_non_compliance" version="3" view="case">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent_crumbs</element>
+            <position>0</position>
+            <sys_created_by>NVR.ems</sys_created_by>
+            <sys_created_on>2022-11-01 09:58:59</sys_created_on>
+            <sys_id>a1603f0b87b6d550952f87f5cebb3553</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Parent Breadcrumbs">a25ea5f8c0a80a6d3f3e5dde6317a3be</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_non_compliance" sys_domain="global" view="d747aa6d8781d110952f87f5cebb3573">29603f0b87b6d550952f87f5cebb3552</sys_ui_section>
+            <sys_updated_by>NVR.ems</sys_updated_by>
+            <sys_updated_on>2022-11-01 09:58:59</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>NVR.ems</sys_created_by>
+            <sys_created_on>2022-11-01 09:58:59</sys_created_on>
+            <sys_id>a5603f0b87b6d550952f87f5cebb3553</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_non_compliance" sys_domain="global" view="d747aa6d8781d110952f87f5cebb3573">29603f0b87b6d550952f87f5cebb3552</sys_ui_section>
+            <sys_updated_by>NVR.ems</sys_updated_by>
+            <sys_updated_on>2022-11-01 09:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>2</position>
+            <sys_created_by>NVR.ems</sys_created_by>
+            <sys_created_on>2022-11-01 09:58:59</sys_created_on>
+            <sys_id>a9603f0b87b6d550952f87f5cebb3553</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_non_compliance" sys_domain="global" view="d747aa6d8781d110952f87f5cebb3573">29603f0b87b6d550952f87f5cebb3552</sys_ui_section>
+            <sys_updated_by>NVR.ems</sys_updated_by>
+            <sys_updated_on>2022-11-01 09:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>NVR.ems</sys_created_by>
+            <sys_created_on>2022-11-01 09:58:59</sys_created_on>
+            <sys_id>ad603f0b87b6d550952f87f5cebb3553</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_non_compliance" sys_domain="global" view="d747aa6d8781d110952f87f5cebb3573">29603f0b87b6d550952f87f5cebb3552</sys_ui_section>
+            <sys_updated_by>NVR.ems</sys_updated_by>
+            <sys_updated_on>2022-11-01 09:58:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>4</position>
+            <sys_created_by>NVR.ems</sys_created_by>
+            <sys_created_on>2022-11-01 09:58:59</sys_created_on>
+            <sys_id>a1603f0b87b6d550952f87f5cebb3554</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_non_compliance" sys_domain="global" view="d747aa6d8781d110952f87f5cebb3573">29603f0b87b6d550952f87f5cebb3552</sys_ui_section>
+            <sys_updated_by>NVR.ems</sys_updated_by>
+            <sys_updated_on>2022-11-01 09:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>5</position>
+            <sys_created_by>NVR.ems</sys_created_by>
+            <sys_created_on>2022-11-01 09:58:59</sys_created_on>
+            <sys_id>a5603f0b87b6d550952f87f5cebb3554</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_non_compliance" sys_domain="global" view="d747aa6d8781d110952f87f5cebb3573">29603f0b87b6d550952f87f5cebb3552</sys_ui_section>
+            <sys_updated_by>NVR.ems</sys_updated_by>
+            <sys_updated_on>2022-11-01 09:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>NVR.ems</sys_created_by>
+            <sys_created_on>2022-11-01 09:58:59</sys_created_on>
+            <sys_id>a9603f0b87b6d550952f87f5cebb3554</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_non_compliance" sys_domain="global" view="d747aa6d8781d110952f87f5cebb3573">29603f0b87b6d550952f87f5cebb3552</sys_ui_section>
+            <sys_updated_by>NVR.ems</sys_updated_by>
+            <sys_updated_on>2022-11-01 09:58:59</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>7</position>
+            <sys_created_by>NVR.ems</sys_created_by>
+            <sys_created_on>2022-11-01 09:58:59</sys_created_on>
+            <sys_id>ad603f0b87b6d550952f87f5cebb3554</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_non_compliance" sys_domain="global" view="d747aa6d8781d110952f87f5cebb3573">29603f0b87b6d550952f87f5cebb3552</sys_ui_section>
+            <sys_updated_by>NVR.ems</sys_updated_by>
+            <sys_updated_on>2022-11-01 09:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>8</position>
+            <sys_created_by>NVR.ems</sys_created_by>
+            <sys_created_on>2022-11-01 09:58:59</sys_created_on>
+            <sys_id>a1603f0b87b6d550952f87f5cebb3555</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_non_compliance" sys_domain="global" view="d747aa6d8781d110952f87f5cebb3573">29603f0b87b6d550952f87f5cebb3552</sys_ui_section>
+            <sys_updated_by>NVR.ems</sys_updated_by>
+            <sys_updated_on>2022-11-01 09:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>9</position>
+            <sys_created_by>NVR.ems</sys_created_by>
+            <sys_created_on>2022-11-01 09:58:59</sys_created_on>
+            <sys_id>a5603f0b87b6d550952f87f5cebb3555</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_non_compliance" sys_domain="global" view="d747aa6d8781d110952f87f5cebb3573">29603f0b87b6d550952f87f5cebb3552</sys_ui_section>
+            <sys_updated_by>NVR.ems</sys_updated_by>
+            <sys_updated_on>2022-11-01 09:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_ster2_emfs_non_compliance</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>NVR.ems</sys_created_by>
+            <sys_created_on>2022-11-01 09:58:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29603f0b87b6d550952f87f5cebb3552</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ster2_emfs_non_compliance</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_ui_section_29603f0b87b6d550952f87f5cebb3552</sys_update_name>
+            <sys_updated_by>NVR.ems</sys_updated_by>
+            <sys_updated_on>2022-11-01 09:58:59</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Case" name="case">d747aa6d8781d110952f87f5cebb3573</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="DELETE">
+        <display>Right Wrist</display>
+        <metric display_value="New Choice">2581d3bd87de1550952f87f5cebb3522</metric>
+        <normalization_input>0</normalization_input>
+        <order>1</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-03 14:00:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e181d3bd87de1550952f87f5cebb352c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Right Wrist</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>asmt_metric_definition_e181d3bd87de1550952f87f5cebb352c</sys_update_name>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-03 14:00:17</sys_updated_on>
+        <unselected_image/>
+        <value>2</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="DELETE" query="documentkey=e181d3bd87de1550952f87f5cebb352c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>asmt_metric_definition_e181d3bd87de1550952f87f5cebb352c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition"><asmt_metric_definition action="INSERT_OR_UPDATE"><display>Right Wrist</display><metric display_value="New Choice">2581d3bd87de1550952f87f5cebb3522</metric><normalization_input>0</normalization_input><order>1</order><selected_image/><sys_class_name>asmt_metric_definition</sys_class_name><sys_created_by>paul.fraser.ems</sys_created_by><sys_created_on>2022-10-03 14:00:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e181d3bd87de1550952f87f5cebb352c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Right Wrist</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>asmt_metric_definition_e181d3bd87de1550952f87f5cebb352c</sys_update_name><sys_updated_by>paul.fraser.ems</sys_updated_by><sys_updated_on>2022-10-03 14:00:17</sys_updated_on><unselected_image/><value>2</value></asmt_metric_definition><sys_translated_text action="delete_multiple" query="documentkey=e181d3bd87de1550952f87f5cebb352c"/></record_update>]]></payload>
+        <payload_hash>-316527522</payload_hash>
+        <record_name>Right Wrist</record_name>
+        <reverted_from/>
+        <source>8263842487825910952f87f5cebb3592</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-03 14:00:17</sys_created_on>
+        <sys_id>6181d3bd87de1550952f87f5cebb3531</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1839e25c1390000001</sys_recorded_at>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-03 14:00:17</sys_updated_on>
+        <type>Assessment Metric Definition</type>
+        <update_guid>a981d3bd2cde1550b9fba144ab746a30</update_guid>
+        <update_guid_history>a981d3bd2cde1550b9fba144ab746a30:-316527522</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Right Wrist">69109e2c87f61d10952f87f5cebb3574</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-24 08:33:23</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_definition">asmt_metric_definition</sys_db_object>
+        <sys_id>5c8f45f845444dc9947b67ca5342ee11</sys_id>
+        <sys_metadata>e181d3bd87de1550952f87f5cebb352c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Right Wrist</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>asmt_metric_definition_e181d3bd87de1550952f87f5cebb352c</sys_update_name>
+        <sys_update_version display_value="asmt_metric_definition_e181d3bd87de1550952f87f5cebb352c">6181d3bd87de1550952f87f5cebb3531</sys_update_version>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-24 08:33:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

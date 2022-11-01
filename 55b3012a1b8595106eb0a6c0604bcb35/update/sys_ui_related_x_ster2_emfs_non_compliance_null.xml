@@ -2,31 +2,45 @@
     <sys_ui_related sys_domain="global" table="x_ster2_emfs_non_compliance" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Non-Compliance - Default view" name="x_ster2_emfs_non_compliance" related_list="NULL" sys_domain="global" view="Default view">460d81381b32d9106eb0a6c0604bcbc3</list_id>
+            <list_id display_value="Non-Compliance - Default view" name="x_ster2_emfs_non_compliance" related_list="NULL" sys_domain="global" view="Default view">505ba3c31b3215506eb0a6c0604bcbd0</list_id>
             <order_by/>
             <position>0</position>
             <related_list>task_sla.task</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-24 22:18:53</sys_created_on>
-            <sys_id>4e0d81381b32d9106eb0a6c0604bcbc4</sys_id>
+            <sys_created_on>2022-11-01 09:36:47</sys_created_on>
+            <sys_id>985ba3c31b3215506eb0a6c0604bcbd0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-24 22:18:53</sys_updated_on>
+            <sys_updated_on>2022-11-01 09:36:47</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Non-Compliance - Default view" name="x_ster2_emfs_non_compliance" related_list="NULL" sys_domain="global" view="Default view">460d81381b32d9106eb0a6c0604bcbc3</list_id>
+            <list_id display_value="Non-Compliance - Default view" name="x_ster2_emfs_non_compliance" related_list="NULL" sys_domain="global" view="Default view">505ba3c31b3215506eb0a6c0604bcbd0</list_id>
             <order_by/>
             <position>1</position>
+            <related_list>sn_customerservice_case.u_non_compliance</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-01 09:36:47</sys_created_on>
+            <sys_id>9c5ba3c31b3215506eb0a6c0604bcbd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-01 09:36:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Non-Compliance - Default view" name="x_ster2_emfs_non_compliance" related_list="NULL" sys_domain="global" view="Default view">505ba3c31b3215506eb0a6c0604bcbd0</list_id>
+            <order_by/>
+            <position>2</position>
             <related_list>x_ster2_emfs_enforcement_action_cases.non_compliances</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-24 22:18:53</sys_created_on>
-            <sys_id>860d81381b32d9106eb0a6c0604bcbc5</sys_id>
+            <sys_created_on>2022-11-01 09:36:47</sys_created_on>
+            <sys_id>905ba3c31b3215506eb0a6c0604bcbd1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-24 22:18:53</sys_updated_on>
+            <sys_updated_on>2022-11-01 09:36:47</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Non-Compliance - Default view</calculated_name>
@@ -37,10 +51,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-24 22:18:53</sys_created_on>
+            <sys_created_on>2022-11-01 09:36:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>460d81381b32d9106eb0a6c0604bcbc3</sys_id>
+            <sys_id>505ba3c31b3215506eb0a6c0604bcbd0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Non-Compliance - Default view</sys_name>
             <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
@@ -48,7 +62,7 @@
             <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
             <sys_update_name>sys_ui_related_x_ster2_emfs_non_compliance_null</sys_update_name>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-24 22:18:53</sys_updated_on>
+            <sys_updated_on>2022-11-01 09:36:47</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

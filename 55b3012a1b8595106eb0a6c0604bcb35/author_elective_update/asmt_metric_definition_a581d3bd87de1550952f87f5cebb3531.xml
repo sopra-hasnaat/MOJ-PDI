@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="DELETE">
+        <display>Left Ankle</display>
+        <metric display_value="New Choice">2581d3bd87de1550952f87f5cebb3522</metric>
+        <normalization_input>0</normalization_input>
+        <order>2</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-03 14:00:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a581d3bd87de1550952f87f5cebb3531</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Left Ankle</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>asmt_metric_definition_a581d3bd87de1550952f87f5cebb3531</sys_update_name>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-03 14:00:17</sys_updated_on>
+        <unselected_image/>
+        <value>3</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="DELETE" query="documentkey=a581d3bd87de1550952f87f5cebb3531"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>asmt_metric_definition_a581d3bd87de1550952f87f5cebb3531</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition"><asmt_metric_definition action="INSERT_OR_UPDATE"><display>Left Ankle</display><metric display_value="New Choice">2581d3bd87de1550952f87f5cebb3522</metric><normalization_input>0</normalization_input><order>2</order><selected_image/><sys_class_name>asmt_metric_definition</sys_class_name><sys_created_by>paul.fraser.ems</sys_created_by><sys_created_on>2022-10-03 14:00:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a581d3bd87de1550952f87f5cebb3531</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Left Ankle</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>asmt_metric_definition_a581d3bd87de1550952f87f5cebb3531</sys_update_name><sys_updated_by>paul.fraser.ems</sys_updated_by><sys_updated_on>2022-10-03 14:00:17</sys_updated_on><unselected_image/><value>3</value></asmt_metric_definition><sys_translated_text action="delete_multiple" query="documentkey=a581d3bd87de1550952f87f5cebb3531"/></record_update>]]></payload>
+        <payload_hash>-185873414</payload_hash>
+        <record_name>Left Ankle</record_name>
+        <reverted_from/>
+        <source>8263842487825910952f87f5cebb3592</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-03 14:00:18</sys_created_on>
+        <sys_id>2581d3bd87de1550952f87f5cebb3536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1839e25c1840000001</sys_recorded_at>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-03 14:00:18</sys_updated_on>
+        <type>Assessment Metric Definition</type>
+        <update_guid>6d81d3bd17de1550f66502e6aa2db035</update_guid>
+        <update_guid_history>6d81d3bd17de1550f66502e6aa2db035:-185873414</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Left Ankle">e9109e2c87f61d10952f87f5cebb356e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-24 08:33:23</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_definition">asmt_metric_definition</sys_db_object>
+        <sys_id>0c61e679d76642da82c032569c686f71</sys_id>
+        <sys_metadata>a581d3bd87de1550952f87f5cebb3531</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Left Ankle</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>asmt_metric_definition_a581d3bd87de1550952f87f5cebb3531</sys_update_name>
+        <sys_update_version display_value="asmt_metric_definition_a581d3bd87de1550952f87f5cebb3531">2581d3bd87de1550952f87f5cebb3536</sys_update_version>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-24 08:33:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="DELETE">
+        <display>Choice 1</display>
+        <metric display_value="New Choice">22411f7d87de1550952f87f5cebb35fb</metric>
+        <normalization_input>0</normalization_input>
+        <order>0</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-03 13:59:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2e411f7d87de1550952f87f5cebb35ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Choice 1</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>asmt_metric_definition_2e411f7d87de1550952f87f5cebb35ff</sys_update_name>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-03 13:59:16</sys_updated_on>
+        <unselected_image/>
+        <value>1</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="DELETE" query="documentkey=2e411f7d87de1550952f87f5cebb35ff"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>asmt_metric_definition_2e411f7d87de1550952f87f5cebb35ff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition"><asmt_metric_definition action="INSERT_OR_UPDATE"><display>Choice 1</display><metric display_value="New Choice">22411f7d87de1550952f87f5cebb35fb</metric><normalization_input>0</normalization_input><order>0</order><selected_image/><sys_class_name>asmt_metric_definition</sys_class_name><sys_created_by>paul.fraser.ems</sys_created_by><sys_created_on>2022-10-03 13:59:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2e411f7d87de1550952f87f5cebb35ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Choice 1</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>asmt_metric_definition_2e411f7d87de1550952f87f5cebb35ff</sys_update_name><sys_updated_by>paul.fraser.ems</sys_updated_by><sys_updated_on>2022-10-03 13:59:16</sys_updated_on><unselected_image/><value>1</value></asmt_metric_definition><sys_translated_text action="delete_multiple" query="documentkey=2e411f7d87de1550952f87f5cebb35ff"/></record_update>]]></payload>
+        <payload_hash>-711154068</payload_hash>
+        <record_name>Choice 1</record_name>
+        <reverted_from/>
+        <source>8263842487825910952f87f5cebb3592</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-03 13:59:16</sys_created_on>
+        <sys_id>ea415f7d87de1550952f87f5cebb3504</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1839e24d0f60000001</sys_recorded_at>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-03 13:59:16</sys_updated_on>
+        <type>Assessment Metric Definition</type>
+        <update_guid>26415f7dbdde1550bd79eeda6da8e204</update_guid>
+        <update_guid_history>26415f7dbdde1550bd79eeda6da8e204:-711154068</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Choice 1">a9109e2c87f61d10952f87f5cebb3553</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-24 08:33:22</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_definition">asmt_metric_definition</sys_db_object>
+        <sys_id>2145da46dfae42a48507b2436a35a244</sys_id>
+        <sys_metadata>2e411f7d87de1550952f87f5cebb35ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Choice 1</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>asmt_metric_definition_2e411f7d87de1550952f87f5cebb35ff</sys_update_name>
+        <sys_update_version display_value="asmt_metric_definition_2e411f7d87de1550952f87f5cebb35ff">ea415f7d87de1550952f87f5cebb3504</sys_update_version>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-24 08:33:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

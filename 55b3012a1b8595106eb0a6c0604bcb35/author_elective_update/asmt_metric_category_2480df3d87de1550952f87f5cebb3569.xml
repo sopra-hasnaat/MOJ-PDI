@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="DELETE">
+        <create_stakeholders>false</create_stakeholders>
+        <description/>
+        <details/>
+        <filter table="asmt_metric_type">sys_id=7f2882f9879a1550952f87f5cebb3563^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="7f2882f9879a1550952f87f5cebb3563"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <metric_type display_value="Generic: Arrival At Address">7f2882f9879a1550952f87f5cebb3563</metric_type>
+        <name>Equipment Installation</name>
+        <order>300</order>
+        <qb_evaluation_method/>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-03 13:55:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2480df3d87de1550952f87f5cebb3569</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Equipment Installation</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>asmt_metric_category_2480df3d87de1550952f87f5cebb3569</sys_update_name>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-24 08:33:23</sys_updated_on>
+        <table>asmt_metric_type</table>
+        <total_metrics>0</total_metrics>
+        <weight>10</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="DELETE" query="documentkey=2480df3d87de1550952f87f5cebb3569"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>asmt_metric_category_2480df3d87de1550952f87f5cebb3569</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category"><asmt_metric_category action="INSERT_OR_UPDATE"><create_stakeholders>false</create_stakeholders><description/><details/><filter table="asmt_metric_type">sys_id=7f2882f9879a1550952f87f5cebb3563^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="7f2882f9879a1550952f87f5cebb3563"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><metric_type display_value="Generic: Arrival At Address">7f2882f9879a1550952f87f5cebb3563</metric_type><name>Equipment Installation</name><order>300</order><qb_evaluation_method/><roles/><scoring_type>percent</scoring_type><sys_class_name>asmt_metric_category</sys_class_name><sys_created_by>paul.fraser.ems</sys_created_by><sys_created_on>2022-10-03 13:55:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2480df3d87de1550952f87f5cebb3569</sys_id><sys_mod_count>14</sys_mod_count><sys_name>Equipment Installation</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>asmt_metric_category_2480df3d87de1550952f87f5cebb3569</sys_update_name><sys_updated_by>paul.fraser.ems</sys_updated_by><sys_updated_on>2022-10-24 08:33:23</sys_updated_on><table>asmt_metric_type</table><total_metrics>0</total_metrics><weight>10</weight></asmt_metric_category><sys_translated_text action="delete_multiple" query="documentkey=2480df3d87de1550952f87f5cebb3569"/></record_update>]]></payload>
+        <payload_hash>-1261999369</payload_hash>
+        <record_name>Equipment Installation</record_name>
+        <reverted_from/>
+        <source>3266f3eb1bee95106eb0a6c0604bcbc3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-24 08:33:23</sys_created_on>
+        <sys_id>fd109e2c87f61d10952f87f5cebb35a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184092002cd0000001</sys_recorded_at>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-24 08:33:23</sys_updated_on>
+        <type>Metric Category</type>
+        <update_guid>f5109e2cd9f61d1040ac6cef0acdc2a5</update_guid>
+        <update_guid_history>f5109e2cd9f61d1040ac6cef0acdc2a5:-1261999369,f5109e2c77f61d1086292ad3e165df8a:-394947144,39109e2c25f61d1056df617638a1ae81:472105081,69109e2c96f61d10274d321a6835cb60:1339157306,69109e2cbbf61d10f5737dc917014b45:-2088757765,69109e2c00f61d107e4215b94f2e813c:-1221705540,c4d25bfd7dde15501113f97d277e2ef3:-1216274181,48d25bfd26de155008fc83a9082e1bee:-2083326406,c4d25bfd53de1550491f8b0adce214c8:1344588665,b581d3bde9de155074243f965fd8106b:477536440,e981d3bd2bde155046bdf7c5b8f16a24:1344588665,2e415f7d97de1550b527adc7b4cfcb49:477536440,aa415f7dc4de1550134f16fc14692423:-389515785,2a411f7db8de15504e664b3aa37acefd:-1256568010,a080df3d0fde155021b51576a8fc326b:1555943689</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Equipment Installation">eb701a6c87f61d10952f87f5cebb353b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-10-24 08:35:09</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_category">asmt_metric_category</sys_db_object>
+        <sys_id>7734991814944ac4b211a7fd5bcda044</sys_id>
+        <sys_metadata>2480df3d87de1550952f87f5cebb3569</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Equipment Installation</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>asmt_metric_category_2480df3d87de1550952f87f5cebb3569</sys_update_name>
+        <sys_update_version display_value="asmt_metric_category_2480df3d87de1550952f87f5cebb3569">fd109e2c87f61d10952f87f5cebb35a5</sys_update_version>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-10-24 08:35:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

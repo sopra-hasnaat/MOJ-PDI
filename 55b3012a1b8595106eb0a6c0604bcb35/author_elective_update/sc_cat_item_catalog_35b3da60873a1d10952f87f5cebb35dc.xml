@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Secondary Address Appointments">4b9efd1f87a2d510952f87f5cebb3564</sc_cat_item>
+        <sc_catalog display_value="Customer Service">65bcd377c3011200b12d9f2974d3aea0</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-24 08:49:14</sys_created_on>
+        <sys_id>35b3da60873a1d10952f87f5cebb35dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Service.Secondary Address Appointments</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_35b3da60873a1d10952f87f5cebb35dc</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-24 08:49:14</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sc_cat_item_catalog_35b3da60873a1d10952f87f5cebb35dc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Secondary Address Appointments">4b9efd1f87a2d510952f87f5cebb3564</sc_cat_item><sc_catalog display_value="Customer Service">65bcd377c3011200b12d9f2974d3aea0</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-10-24 08:49:14</sys_created_on><sys_id>35b3da60873a1d10952f87f5cebb35dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Customer Service.Secondary Address Appointments</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sc_cat_item_catalog_35b3da60873a1d10952f87f5cebb35dc</sys_update_name><sys_updated_by>hasnaat.khan.ems</sys_updated_by><sys_updated_on>2022-10-24 08:49:14</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1244751311</payload_hash>
+        <record_name>Customer Service.Secondary Address Appointments</record_name>
+        <reverted_from/>
+        <source>a11a0ec487e29d50952f87f5cebb350b</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-24 08:49:14</sys_created_on>
+        <sys_id>f1b39e60873a1d10952f87f5cebb355d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184092e84150000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-24 08:49:14</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>3db39e60a43a1d10294c700f42b75c5c</update_guid>
+        <update_guid_history>3db39e60a43a1d10294c700f42b75c5c:1244751311</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Customer Service.Secondary Address Appointments">db44daa0873a1d10952f87f5cebb35b2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-24 08:51:47</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>1857e8f201b24a5c96673a474dbb4490</sys_id>
+        <sys_metadata>35b3da60873a1d10952f87f5cebb35dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Service.Secondary Address Appointments</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="Secondary Address Appointments">4b9efd1f87a2d510952f87f5cebb3564</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_35b3da60873a1d10952f87f5cebb35dc</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_35b3da60873a1d10952f87f5cebb35dc">f1b39e60873a1d10952f87f5cebb355d</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-24 08:51:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
