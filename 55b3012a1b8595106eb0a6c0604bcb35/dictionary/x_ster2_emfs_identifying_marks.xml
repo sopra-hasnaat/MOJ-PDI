@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Identifying Marks" max_length="40" name="x_ster2_emfs_identifying_marks" type="collection">
+        <element label="Device Wearer" max_length="32" name="device_wearer" reference="x_ster2_emfs_subject" type="reference"/>
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <index name="index">
+            <element name="device_wearer"/>
+        </index>
+    </element>
+</database>

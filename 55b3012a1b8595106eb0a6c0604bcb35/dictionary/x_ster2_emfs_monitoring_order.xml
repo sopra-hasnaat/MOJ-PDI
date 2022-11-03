@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Monitoring Order" max_length="40" name="x_ster2_emfs_monitoring_order" sizeclass="97" text_index="true" type="collection">
+    <element audit="true" label="Monitoring Order" max_length="40" name="x_ster2_emfs_monitoring_order" sizeclass="98" text_index="true" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Actual End Date" max_length="40" name="actual_end_date" type="glide_date_time"/>
         <element label="Additional Requirements" max_length="8000" name="additional_requirements" type="html"/>
@@ -26,6 +26,7 @@
         <element label="Exclusion Zones" max_length="4000" name="exclusion_zones" reference="cmn_location" type="glide_list"/>
         <element label="Inclusion Coordinates" max_length="10000" name="inclusion_coordinates" type="string"/>
         <element label="Inclusion Zones" max_length="4000" name="inclusion_zones" reference="cmn_location" type="glide_list"/>
+        <element label="Install Scheduled?" max_length="40" name="installscheduled" type="boolean"/>
         <element choice="1" label="Monitoring Type" max_length="40" name="monitoring_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="GPS" sequence="10" value="gps"/>
@@ -94,6 +95,9 @@
             </choice>
         </element>
         <element label="Primary Order" max_length="40" name="primary_order" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Remove at other location" max_length="32" name="removal_locatiion" reference="cmn_location" type="reference"/>
+        <element label="Removal Scheduled?" max_length="40" name="removal_scheduled" type="boolean"/>
+        <element label="Remove Tag at Home?" max_length="40" name="remove_home" type="boolean"/>
         <element choice="1" default="new" label="Request Type" max_length="40" name="request_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="New Order" sequence="1" value="new"/>
@@ -121,15 +125,18 @@
         <element label="Start Date/Time" max_length="40" name="start_date_time" type="glide_date_time"/>
         <element choice="1" label="State" max_length="40" name="state" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Live" sequence="1" value="live"/>
-                <element inactive_on_update="false" label="Complete" sequence="2" value="complete"/>
-                <element inactive_on_update="false" label="Revoked" sequence="4" value="revoked"/>
-                <element inactive_on_update="false" label="Starts Today" sequence="5" value="starts_today"/>
-                <element inactive_on_update="false" label="Void" sequence="6" value="void"/>
+                <element inactive_on_update="false" label="New" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Starts Today" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Live" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Pending" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Complete" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Revoked" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Void" sequence="7" value="7"/>
             </choice>
         </element>
-        <element label="Subject Name" max_length="32" name="subject_name" reference="x_ster2_emfs_subject" reference_qual="subject_nameSTARTSWITH^EQ" reference_qual_condition="subject_nameSTARTSWITH^EQ" type="reference"/>
+        <element label="Device Wearer" max_length="32" name="subject_name" reference="x_ster2_emfs_subject" reference_qual="subject_nameSTARTSWITH^EQ" reference_qual_condition="subject_nameSTARTSWITH^EQ" type="reference"/>
         <element label="Supervised Order" max_length="200" name="supervised_order" type="boolean"/>
+        <element label="Should the Device Wearer be tagged at this location?" max_length="40" name="tag_at_source" type="boolean"/>
         <element label="Variation Details" max_length="500" name="variation_details" type="string"/>
         <element choice="1" label="Variation Type" max_length="40" name="variation_type" type="choice">
             <choice>
@@ -145,12 +152,15 @@
             <element name="notifying_officer"/>
         </index>
         <index name="index2">
-            <element name="notifying_organisation"/>
+            <element name="removal_locatiion"/>
         </index>
         <index name="index3">
-            <element name="subject_name"/>
+            <element name="notifying_organisation"/>
         </index>
         <index name="index4">
+            <element name="subject_name"/>
+        </index>
+        <index name="index5">
             <element name="case"/>
         </index>
     </element>

@@ -4,6 +4,7 @@
         <element label="Sentencing Organisation" max_length="32" name="sentencing_organisation" reference="x_ster2_emfs_sentencing_organisations" reference_qual="javascript:'type='+current.type;" type="reference" use_reference_qualifier="advanced"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
             <choice>
+                <element inactive_on_update="false" label="IRC" value="irc"/>
                 <element inactive_on_update="false" label="Prison" sequence="0" value="prison"/>
                 <element inactive_on_update="false" label="Court" sequence="1" value="court"/>
             </choice>
