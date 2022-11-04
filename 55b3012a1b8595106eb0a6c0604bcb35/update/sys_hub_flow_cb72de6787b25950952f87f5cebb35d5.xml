@@ -10,7 +10,7 @@
         <copied_from_name/>
         <description>Update Live Monitoring Orders with Custody Suite if Device Wearer updated</description>
         <internal_name>update_live_monitoring_orders_with_custody_suite_if_device_wearer_updated</internal_name>
-        <label_cache>[{"name":"fa5addca-d4d4-4e95-938d-374e213437d7.record.removal_locatiion.sys_id","label":"3 - Update Record➛Monitoring Order Record➛Remove at other location➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"cmn_location","column_name":"sys_id"},{"name":"b0e94b2e-a7b8-4574-858d-234bf54ea5c0.item.subject_name.sys_id","label":"2 - For Each➛Monitoring Order Record➛Device Wearer➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_subject","column_name":"sys_id"},{"name":"0be3cc83-9df9-4e52-9303-4574fb91c8ea.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0be3cc83-9df9-4e52-9303-4574fb91c8ea.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0be3cc83-9df9-4e52-9303-4574fb91c8ea.table_name","label":"7 - Update Record➛Monitoring Order Table","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0be3cc83-9df9-4e52-9303-4574fb91c8ea.record","label":"7 - Update Record➛Monitoring Order Record","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d987b16f-3d25-4115-b7e1-931ed6abad21.item","label":"6 - For Each➛Monitoring Order Record","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"f9539b4b-47ef-444a-89b7-2797204139dc.Case.location.sys_id","label":"4 - Create Case➛Case➛Location➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"cmn_location","column_name":"sys_id"},{"name":"f9539b4b-47ef-444a-89b7-2797204139dc.Case.u_subject.sys_id","label":"4 - Create Case➛Case➛Subject➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_subject","column_name":"sys_id"},{"name":"fa5addca-d4d4-4e95-938d-374e213437d7.record.removal_locatiion.full_name","label":"3 - Update Record➛Monitoring Order Record➛Remove at other location➛Full name","reference":"","reference_display":"Full name","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"full_name"},{"name":"fa5addca-d4d4-4e95-938d-374e213437d7.record.subject_name.subject_name","label":"3 - Update Record➛Monitoring Order Record➛Device Wearer➛Subject Name","reference":"","reference_display":"Subject Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"subject_name"},{"name":"f9539b4b-47ef-444a-89b7-2797204139dc.Case.expected_start","label":"4 - Create Case➛Case➛Expected start","reference":"","reference_display":"Expected start","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sn_customerservice_case","column_name":"expected_start"},{"name":"f9539b4b-47ef-444a-89b7-2797204139dc.Case.sys_id","label":"4 - Create Case➛Case➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_customerservice_case","column_name":"sys_id"},{"name":"3e415694-17eb-4472-9b34-2199eec50e09.__dont_treat_as_error__","label":"5 - Create Work Order➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e415694-17eb-4472-9b34-2199eec50e09.__action_status__","label":"5 - Create Work Order➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e415694-17eb-4472-9b34-2199eec50e09.Work Order","label":"5 - Create Work Order➛Work Order","reference":"wm_order","reference_display":"Work Order","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b0e94b2e-a7b8-4574-858d-234bf54ea5c0.item.removal_locatiion.sys_id","label":"2 - For Each➛Monitoring Order Record➛Remove at other location➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"cmn_location","column_name":"sys_id"},{"name":"b0e94b2e-a7b8-4574-858d-234bf54ea5c0.item.removal_locatiion.name","label":"2 - For Each➛Monitoring Order Record➛Remove at other location➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"name"},{"name":"b0e94b2e-a7b8-4574-858d-234bf54ea5c0.item.subject_name.subject_name","label":"2 - For Each➛Monitoring Order Record➛Device Wearer➛Subject Name","reference":"","reference_display":"Subject Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"subject_name"},{"name":"f9539b4b-47ef-444a-89b7-2797204139dc.__dont_treat_as_error__","label":"4 - Create Case➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f9539b4b-47ef-444a-89b7-2797204139dc.__action_status__","label":"4 - Create Case➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f9539b4b-47ef-444a-89b7-2797204139dc.Case","label":"4 - Create Case➛Case","reference":"sn_customerservice_case","reference_display":"Case","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛Subjects Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_subject","column_name":"sys_id"},{"name":"eafdf377-b70d-4385-ab4a-8248f2b34b2b.Records","label":"1 - Look Up Records➛Monitoring Order Records","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eafdf377-b70d-4385-ab4a-8248f2b34b2b.Table","label":"1 - Look Up Records➛Monitoring Order Table","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eafdf377-b70d-4385-ab4a-8248f2b34b2b.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eafdf377-b70d-4385-ab4a-8248f2b34b2b.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eafdf377-b70d-4385-ab4a-8248f2b34b2b.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.subject_name","label":"Trigger - Record Created or Updated➛Subjects Record➛Subject Name","reference":"","reference_display":"Subject Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"subject_name"},{"name":"b0e94b2e-a7b8-4574-858d-234bf54ea5c0.item","label":"2 - For Each➛Monitoring Order Record","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"ef5811de-5f26-41ff-b12e-d3fa1bb20b6e.record","label":"3 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef5811de-5f26-41ff-b12e-d3fa1bb20b6e.table_name","label":"3 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef5811de-5f26-41ff-b12e-d3fa1bb20b6e.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"ef5811de-5f26-41ff-b12e-d3fa1bb20b6e.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"fa5addca-d4d4-4e95-938d-374e213437d7.record","label":"3 - Update Record➛Monitoring Order Record","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fa5addca-d4d4-4e95-938d-374e213437d7.table_name","label":"3 - Update Record➛Monitoring Order Table","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fa5addca-d4d4-4e95-938d-374e213437d7.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fa5addca-d4d4-4e95-938d-374e213437d7.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.custody_suite.sys_id","label":"Trigger - Record Created or Updated➛Subjects Record➛Custody Suite➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_police_stations","column_name":"sys_id"},{"name":"Created or Updated_1.current.custody_suite.full_name","label":"Trigger - Record Created or Updated➛Subjects Record➛Custody Suite➛Full name","reference":"","reference_display":"Full name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_police_stations","column_name":"full_name"}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.custody_suite.full_name","label":"Trigger - Record Created or Updated➛Subjects Record➛Custody Suite➛Full name","reference":"","reference_display":"Full name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_police_stations","column_name":"full_name"},{"name":"Created or Updated_1.current.custody_suite.sys_id","label":"Trigger - Record Created or Updated➛Subjects Record➛Custody Suite➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_police_stations","column_name":"sys_id"},{"name":"fa5addca-d4d4-4e95-938d-374e213437d7.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fa5addca-d4d4-4e95-938d-374e213437d7.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fa5addca-d4d4-4e95-938d-374e213437d7.table_name","label":"3 - Update Record➛Monitoring Order Table","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fa5addca-d4d4-4e95-938d-374e213437d7.record","label":"3 - Update Record➛Monitoring Order Record","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef5811de-5f26-41ff-b12e-d3fa1bb20b6e.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"ef5811de-5f26-41ff-b12e-d3fa1bb20b6e.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"ef5811de-5f26-41ff-b12e-d3fa1bb20b6e.table_name","label":"3 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef5811de-5f26-41ff-b12e-d3fa1bb20b6e.record","label":"3 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b0e94b2e-a7b8-4574-858d-234bf54ea5c0.item","label":"2 - For Each➛Monitoring Order Record","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created or Updated_1.current.subject_name","label":"Trigger - Record Created or Updated➛Subjects Record➛Subject Name","reference":"","reference_display":"Subject Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"subject_name"},{"name":"eafdf377-b70d-4385-ab4a-8248f2b34b2b.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eafdf377-b70d-4385-ab4a-8248f2b34b2b.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eafdf377-b70d-4385-ab4a-8248f2b34b2b.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eafdf377-b70d-4385-ab4a-8248f2b34b2b.Table","label":"1 - Look Up Records➛Monitoring Order Table","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eafdf377-b70d-4385-ab4a-8248f2b34b2b.Records","label":"1 - Look Up Records➛Monitoring Order Records","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛Subjects Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_subject","column_name":"sys_id"},{"name":"f9539b4b-47ef-444a-89b7-2797204139dc.Case","label":"4 - Create Case➛Case","reference":"sn_customerservice_case","reference_display":"Case","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f9539b4b-47ef-444a-89b7-2797204139dc.__action_status__","label":"4 - Create Case➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f9539b4b-47ef-444a-89b7-2797204139dc.__dont_treat_as_error__","label":"4 - Create Case➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b0e94b2e-a7b8-4574-858d-234bf54ea5c0.item.subject_name.subject_name","label":"2 - For Each➛Monitoring Order Record➛Device Wearer➛Subject Name","reference":"","reference_display":"Subject Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"subject_name"},{"name":"b0e94b2e-a7b8-4574-858d-234bf54ea5c0.item.removal_locatiion.name","label":"2 - For Each➛Monitoring Order Record➛Remove at other location➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"name"},{"name":"b0e94b2e-a7b8-4574-858d-234bf54ea5c0.item.removal_locatiion.sys_id","label":"2 - For Each➛Monitoring Order Record➛Remove at other location➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"cmn_location","column_name":"sys_id"},{"name":"3e415694-17eb-4472-9b34-2199eec50e09.Work Order","label":"5 - Create Work Order➛Work Order","reference":"wm_order","reference_display":"Work Order","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e415694-17eb-4472-9b34-2199eec50e09.__action_status__","label":"5 - Create Work Order➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e415694-17eb-4472-9b34-2199eec50e09.__dont_treat_as_error__","label":"5 - Create Work Order➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f9539b4b-47ef-444a-89b7-2797204139dc.Case.sys_id","label":"4 - Create Case➛Case➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_customerservice_case","column_name":"sys_id"},{"name":"f9539b4b-47ef-444a-89b7-2797204139dc.Case.expected_start","label":"4 - Create Case➛Case➛Expected start","reference":"","reference_display":"Expected start","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sn_customerservice_case","column_name":"expected_start"},{"name":"fa5addca-d4d4-4e95-938d-374e213437d7.record.subject_name.subject_name","label":"3 - Update Record➛Monitoring Order Record➛Device Wearer➛Subject Name","reference":"","reference_display":"Subject Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"subject_name"},{"name":"fa5addca-d4d4-4e95-938d-374e213437d7.record.removal_locatiion.full_name","label":"3 - Update Record➛Monitoring Order Record➛Remove at other location➛Full name","reference":"","reference_display":"Full name","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"full_name"},{"name":"f9539b4b-47ef-444a-89b7-2797204139dc.Case.u_subject.sys_id","label":"4 - Create Case➛Case➛Subject➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_subject","column_name":"sys_id"},{"name":"f9539b4b-47ef-444a-89b7-2797204139dc.Case.location.sys_id","label":"4 - Create Case➛Case➛Location➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"cmn_location","column_name":"sys_id"},{"name":"d987b16f-3d25-4115-b7e1-931ed6abad21.item","label":"6 - For Each➛Monitoring Order Record","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"0be3cc83-9df9-4e52-9303-4574fb91c8ea.record","label":"7 - Update Record➛Monitoring Order Record","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0be3cc83-9df9-4e52-9303-4574fb91c8ea.table_name","label":"7 - Update Record➛Monitoring Order Table","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0be3cc83-9df9-4e52-9303-4574fb91c8ea.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0be3cc83-9df9-4e52-9303-4574fb91c8ea.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b0e94b2e-a7b8-4574-858d-234bf54ea5c0.item.subject_name.sys_id","label":"2 - For Each➛Monitoring Order Record➛Device Wearer➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_subject","column_name":"sys_id"},{"name":"fa5addca-d4d4-4e95-938d-374e213437d7.record.removal_locatiion.sys_id","label":"3 - Update Record➛Monitoring Order Record➛Remove at other location➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"cmn_location","column_name":"sys_id"},{"name":"d987b16f-3d25-4115-b7e1-931ed6abad21.item.removal_locatiion.full_name","label":"6 - For Each➛Monitoring Order Record➛Remove at other location➛Full name","reference":"","reference_display":"Full name","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"full_name"}]</label_cache>
         <master_snapshot>e2fadeef87b25950952f87f5cebb358e</master_snapshot>
         <name>Update Live Monitoring Orders with Custody Suite if Device Wearer updated</name>
         <natlang/>
@@ -21,14 +21,14 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-02 16:25:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cb72de6787b25950952f87f5cebb35d5</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Update Live Monitoring Orders with Custody Suite if Device Wearer updated</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_hub_flow_cb72de6787b25950952f87f5cebb35d5</sys_update_name>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-11-02 18:31:59</sys_updated_on>
+        <sys_updated_on>2022-11-04 17:53:56</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=cb72de6787b25950952f87f5cebb35d5"/>
@@ -103,10 +103,10 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-02 16:39:28</sys_created_on>
         <sys_id>b1a552ab87b25950952f87f5cebb3526</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-11-02 18:31:59</sys_updated_on>
+        <sys_updated_on>2022-11-04 17:53:55</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -161,7 +161,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD716fa66bed3659505b55da2fe695511e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDb7d974dc0f031d50300a9acee0781ee3,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -219,14 +219,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-02 16:39:28</sys_created_on>
         <sys_id>3da552ab87b25950952f87f5cebb351d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name/>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-11-02 18:31:59</sys_updated_on>
+        <sys_updated_on>2022-11-04 17:53:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -242,7 +242,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -300,14 +300,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-02 16:39:28</sys_created_on>
         <sys_id>b1a552ab87b25950952f87f5cebb3521</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name/>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-11-02 18:31:59</sys_updated_on>
+        <sys_updated_on>2022-11-04 17:53:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -323,7 +323,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -381,14 +381,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-02 16:39:28</sys_created_on>
         <sys_id>bda552ab87b25950952f87f5cebb3518</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name/>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-11-02 18:31:59</sys_updated_on>
+        <sys_updated_on>2022-11-04 17:53:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -417,10 +417,10 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-02 18:26:43</sys_created_on>
         <sys_id>383e66e787365950952f87f5cebb3581</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-11-02 18:45:12</sys_updated_on>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-04 17:53:56</sys_updated_on>
         <ui_id>3e415694-17eb-4472-9b34-2199eec50e09</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=383e66e787365950952f87f5cebb3581"/>
@@ -443,14 +443,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-02 18:26:43</sys_created_on>
         <sys_id>3c3e66e787365950952f87f5cebb3582</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-11-02 18:26:43</sys_updated_on>
+        <sys_updated_on>2022-11-04 17:53:56</sys_updated_on>
         <table>var__m_sys_hub_action_input_128cc856e751030097a26188d2f6a980</table>
-        <value>requested_due_by={{f9539b4b-47ef-444a-89b7-2797204139dc.Case.expected_start}}^template={"display":"Removal - AM - Adult - Male","value":"631ecbe4873e1d10952f87f5cebb350c"}^short_description=Removal of Tag from ﻿{{fa5addca-d4d4-4e95-938d-374e213437d7.record.subject_name.subject_name}}^description=&lt;p data-tinymcerootblock=""&gt;Note this Device Wearer is in custody!&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Removal of tag from &lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:f82e39d7-471d-4565-8623-d5f7c57a7107}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="3 &amp;gt; Monitoring Order Record &amp;gt; Device Wearer &amp;gt; Subject Name"&gt;&lt;span class="pill-start"&gt;3&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Subject Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f82e39d7-471d-4565-8623-d5f7c57a7107" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;In Custody at &lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:fc6e57c1-c89a-41e7-b617-884060ba8482}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="3 &amp;gt; Monitoring Order Record &amp;gt; Remove at other location &amp;gt; Full name"&gt;&lt;span class="pill-start"&gt;3&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Full name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_fc6e57c1-c89a-41e7-b617-884060ba8482" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;^qualification_group={"display":"UK_Qualifiers","value":"8f2723a987695590952f87f5cebb3567"}^initiated_from={{f9539b4b-47ef-444a-89b7-2797204139dc.Case.sys_id}}^u_subject_name={{f9539b4b-47ef-444a-89b7-2797204139dc.Case.u_subject.sys_id}}^location={{f9539b4b-47ef-444a-89b7-2797204139dc.Case.location.sys_id}}</value>
+        <value>requested_due_by={{f9539b4b-47ef-444a-89b7-2797204139dc.Case.expected_start}}^template={"display":"Remove Tag in Custody","value":"d3f7fc1c87031d50952f87f5cebb35bd"}^short_description=Removal of Tag from ﻿{{fa5addca-d4d4-4e95-938d-374e213437d7.record.subject_name.subject_name}}^description=&lt;p data-tinymcerootblock=""&gt;Note this Device Wearer is in custody!&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Removal of tag from &lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:f82e39d7-471d-4565-8623-d5f7c57a7107}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="3 &gt; Monitoring Order Record &gt; Device Wearer &gt; Subject Name"&gt;&lt;span class="pill-start"&gt;3&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Subject Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f82e39d7-471d-4565-8623-d5f7c57a7107" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt; &lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;In Custody at &lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:fc6e57c1-c89a-41e7-b617-884060ba8482}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="3 &gt; Monitoring Order Record &gt; Remove at other location &gt; Full name"&gt;&lt;span class="pill-start"&gt;3&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Full name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_fc6e57c1-c89a-41e7-b617-884060ba8482" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;^qualification_group={"display":"UK_Qualifiers","value":"8f2723a987695590952f87f5cebb3567"}^initiated_from={{f9539b4b-47ef-444a-89b7-2797204139dc.Case.sys_id}}^u_subject_name={{f9539b4b-47ef-444a-89b7-2797204139dc.Case.u_subject.sys_id}}^location={{f9539b4b-47ef-444a-89b7-2797204139dc.Case.location.sys_id}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=383e66e787365950952f87f5cebb3581"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=383e66e787365950952f87f5cebb3581"/>
@@ -468,10 +468,10 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-02 16:39:29</sys_created_on>
         <sys_id>46a552ab87b25950952f87f5cebb3546</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-11-02 18:45:12</sys_updated_on>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-04 17:53:55</sys_updated_on>
         <ui_id>fa5addca-d4d4-4e95-938d-374e213437d7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=46a552ab87b25950952f87f5cebb3546"/>
@@ -542,10 +542,10 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-02 16:39:28</sys_created_on>
         <sys_id>7da552ab87b25950952f87f5cebb352e</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-11-02 18:45:12</sys_updated_on>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-04 17:53:55</sys_updated_on>
         <ui_id>eafdf377-b70d-4385-ab4a-8248f2b34b2b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7da552ab87b25950952f87f5cebb352e"/>
@@ -604,10 +604,10 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-02 18:26:43</sys_created_on>
         <sys_id>f43e66e787365950952f87f5cebb358a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-11-02 18:45:12</sys_updated_on>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-04 17:53:56</sys_updated_on>
         <ui_id>0be3cc83-9df9-4e52-9303-4574fb91c8ea</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f43e66e787365950952f87f5cebb358a"/>
@@ -619,10 +619,10 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-02 18:26:43</sys_created_on>
         <sys_id>343e66e787365950952f87f5cebb358c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-11-02 18:26:43</sys_updated_on>
-        <value>removal_scheduled=true^work_notes=Removal of tag is scheduled﻿</value>
+        <sys_updated_on>2022-11-04 17:53:56</sys_updated_on>
+        <value/>
         <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -670,11 +670,11 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-02 18:26:43</sys_created_on>
         <sys_id>b03e66e787365950952f87f5cebb358c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-11-02 18:26:43</sys_updated_on>
+        <sys_updated_on>2022-11-04 17:53:56</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value/>
+        <value>removal_scheduled=true^work_notes=Device Wearer is in custoday. Removal of tag is scheduled﻿ at {{d987b16f-3d25-4115-b7e1-931ed6abad21.item.removal_locatiion.full_name}}^outcome=cease^state=6</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f43e66e787365950952f87f5cebb358a"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f43e66e787365950952f87f5cebb358a"/>
@@ -692,10 +692,10 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-02 18:26:42</sys_created_on>
         <sys_id>fc3e66e787365950952f87f5cebb357a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-11-02 18:45:12</sys_updated_on>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-04 17:53:55</sys_updated_on>
         <ui_id>f9539b4b-47ef-444a-89b7-2797204139dc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fc3e66e787365950952f87f5cebb357a"/>
@@ -752,10 +752,10 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-02 16:39:28</sys_created_on>
         <sys_id>0aa552ab87b25950952f87f5cebb3532</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-11-02 18:31:59</sys_updated_on>
+        <sys_updated_on>2022-11-04 17:53:55</sys_updated_on>
         <ui_id>b0e94b2e-a7b8-4574-858d-234bf54ea5c0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -798,10 +798,10 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-02 18:26:43</sys_created_on>
         <sys_id>3c3e66e787365950952f87f5cebb3583</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-11-02 18:31:59</sys_updated_on>
+        <sys_updated_on>2022-11-04 17:53:56</sys_updated_on>
         <ui_id>d987b16f-3d25-4115-b7e1-931ed6abad21</ui_id>
         <workflow_inputs/>
         <workflow_reference/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Monitoring Order" max_length="40" name="x_ster2_emfs_monitoring_order" sizeclass="98" text_index="true" type="collection">
+    <element audit="true" label="Monitoring Order" max_length="40" name="x_ster2_emfs_monitoring_order" sizeclass="100" text_index="true" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Actual End Date" max_length="40" name="actual_end_date" type="glide_date_time"/>
         <element label="Additional Requirements" max_length="8000" name="additional_requirements" type="html"/>
@@ -132,6 +132,7 @@
                 <element inactive_on_update="false" label="Complete" sequence="5" value="5"/>
                 <element inactive_on_update="false" label="Revoked" sequence="6" value="6"/>
                 <element inactive_on_update="false" label="Void" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="In Custody" sequence="8" value="8"/>
             </choice>
         </element>
         <element label="Device Wearer" max_length="32" name="subject_name" reference="x_ster2_emfs_subject" reference_qual="subject_nameSTARTSWITH^EQ" reference_qual_condition="subject_nameSTARTSWITH^EQ" type="reference"/>
