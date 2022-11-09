@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Monitoring Order" max_length="40" name="x_ster2_emfs_monitoring_order" sizeclass="100" text_index="true" type="collection">
+    <element audit="true" label="Monitoring Order" max_length="40" name="x_ster2_emfs_monitoring_order" sizeclass="101" text_index="true" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Actual End Date" max_length="40" name="actual_end_date" type="glide_date_time"/>
         <element label="Additional Requirements" max_length="8000" name="additional_requirements" type="html"/>
@@ -22,10 +22,27 @@
                 <element inactive_on_update="false" label="AML" sequence="6" value="aml"/>
             </choice>
         </element>
+        <element label="Exclusion Address City" max_length="100" name="exclusion_address_city" type="string"/>
+        <element label="Exclusion Address County" max_length="40" name="exclusion_address_county" type="string"/>
+        <element label="Exclusion Address Line 1" max_length="100" name="exclusion_address_line_1" type="string"/>
+        <element label="Exclusion Address Line 2" max_length="100" name="exclusion_address_line_2" type="string"/>
+        <element label="Exclusion Address Post Code" max_length="40" name="exclusion_address_post_code" type="string"/>
+        <element choice="1" label="Exclusion Zone Radius" max_length="40" name="exclusion_address_radius" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="100m" sequence="0" value="100"/>
+                <element inactive_on_update="false" label="200m" sequence="1" value="200"/>
+                <element inactive_on_update="false" label="400m" sequence="2" value="400"/>
+                <element inactive_on_update="false" label="1km" sequence="3" value="1000"/>
+                <element inactive_on_update="false" label="2km" sequence="4" value="2000"/>
+                <element inactive_on_update="false" label="5km" sequence="5" value="5000"/>
+                <element inactive_on_update="false" label="10km" sequence="6" value="10000"/>
+            </choice>
+        </element>
         <element label="Exclusion Coordinates" max_length="10000" name="exclusion_coordinates" type="string"/>
         <element label="Exclusion Zones" max_length="4000" name="exclusion_zones" reference="cmn_location" type="glide_list"/>
         <element label="Inclusion Coordinates" max_length="10000" name="inclusion_coordinates" type="string"/>
         <element label="Inclusion Zones" max_length="4000" name="inclusion_zones" reference="cmn_location" type="glide_list"/>
+        <element label="Individual Protocol" max_length="1000" name="individual_protocol" type="string"/>
         <element label="Install Scheduled?" max_length="40" name="installscheduled" type="boolean"/>
         <element choice="1" label="Monitoring Type" max_length="40" name="monitoring_type" type="choice">
             <choice>
@@ -122,6 +139,8 @@
                 <element inactive_on_update="false" label="K - North West - Wirral" sequence="30" value="k - north west - wirral"/>
             </choice>
         </element>
+        <element label="Special?" max_length="40" name="special" type="boolean"/>
+        <element label="Specify Exclusion Address" max_length="40" name="specify_exclusion_address" type="boolean"/>
         <element label="Start Date/Time" max_length="40" name="start_date_time" type="glide_date_time"/>
         <element choice="1" label="State" max_length="40" name="state" type="choice">
             <choice>

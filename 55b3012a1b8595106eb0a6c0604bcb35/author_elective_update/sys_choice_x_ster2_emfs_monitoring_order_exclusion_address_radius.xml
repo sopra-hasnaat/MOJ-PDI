@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="exclusion_address_radius" table="x_ster2_emfs_monitoring_order" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>exclusion_address_radius</element>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-09 20:06:21</sys_created_on>
+            <sys_id>e42843391b8755106eb0a6c0604bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>exclusion_address_radius</sys_name>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_choice_x_ster2_emfs_monitoring_order_exclusion_address_radius</sys_update_name>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-09 20:06:21</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exclusion_address_radius</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>100m</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-09 20:06:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>602843391b8755106eb0a6c0604bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-09 20:06:21</sys_updated_on>
+            <value>100</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exclusion_address_radius</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>200m</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-09 20:06:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>302843391b8755106eb0a6c0604bcbf9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-09 20:06:21</sys_updated_on>
+            <value>200</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exclusion_address_radius</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>400m</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-09 20:06:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>382883391b8755106eb0a6c0604bcb03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-09 20:06:21</sys_updated_on>
+            <value>400</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exclusion_address_radius</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1km</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-09 20:06:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f42883391b8755106eb0a6c0604bcb1a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-09 20:06:21</sys_updated_on>
+            <value>1000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exclusion_address_radius</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2km</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-09 20:06:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc2883391b8755106eb0a6c0604bcb24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-09 20:06:22</sys_updated_on>
+            <value>2000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exclusion_address_radius</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5km</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-09 20:06:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f42883391b8755106eb0a6c0604bcb2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-09 20:06:22</sys_updated_on>
+            <value>5000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exclusion_address_radius</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10km</label>
+            <language>en</language>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-09 20:06:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc2883391b8755106eb0a6c0604bcb39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-09 20:06:22</sys_updated_on>
+            <value>10000</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

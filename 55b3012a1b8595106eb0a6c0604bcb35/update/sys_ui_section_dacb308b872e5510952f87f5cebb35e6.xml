@@ -4,13 +4,13 @@
             <element>exclusion_zones</element>
             <position>0</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-19 10:34:11</sys_created_on>
-            <sys_id>26cb708b872e5510952f87f5cebb357d</sys_id>
+            <sys_created_on>2022-11-09 20:19:28</sys_created_on>
+            <sys_id>f42b47f91b8755106eb0a6c0604bcb78</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Exclusion Zones" display_value="Exclusion Zones" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">dacb308b872e5510952f87f5cebb35e6</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-19 10:34:11</sys_updated_on>
+            <sys_updated_on>2022-11-09 20:19:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,139 @@
             <element>exclusion_coordinates</element>
             <position>1</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-19 10:34:11</sys_created_on>
-            <sys_id>2acb708b872e5510952f87f5cebb357d</sys_id>
+            <sys_created_on>2022-11-09 20:19:28</sys_created_on>
+            <sys_id>f82b47f91b8755106eb0a6c0604bcb78</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Exclusion Zones" display_value="Exclusion Zones" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">dacb308b872e5510952f87f5cebb35e6</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-19 10:34:11</sys_updated_on>
+            <sys_updated_on>2022-11-09 20:19:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>specify_exclusion_address</element>
+            <position>2</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-09 20:19:28</sys_created_on>
+            <sys_id>fc2b47f91b8755106eb0a6c0604bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Exclusion Zones" display_value="Exclusion Zones" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">dacb308b872e5510952f87f5cebb35e6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-09 20:19:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>3</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-09 20:19:28</sys_created_on>
+            <sys_id>f02b47f91b8755106eb0a6c0604bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Exclusion Zones" display_value="Exclusion Zones" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">dacb308b872e5510952f87f5cebb35e6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-09 20:19:28</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>exclusion_address_line_1</element>
+            <position>4</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-09 20:19:28</sys_created_on>
+            <sys_id>f42b47f91b8755106eb0a6c0604bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Exclusion Zones" display_value="Exclusion Zones" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">dacb308b872e5510952f87f5cebb35e6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-09 20:19:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>exclusion_address_line_2</element>
+            <position>5</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-09 20:19:28</sys_created_on>
+            <sys_id>f82b47f91b8755106eb0a6c0604bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Exclusion Zones" display_value="Exclusion Zones" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">dacb308b872e5510952f87f5cebb35e6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-09 20:19:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>exclusion_address_city</element>
+            <position>6</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-09 20:19:28</sys_created_on>
+            <sys_id>fc2b47f91b8755106eb0a6c0604bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Exclusion Zones" display_value="Exclusion Zones" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">dacb308b872e5510952f87f5cebb35e6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-09 20:19:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-09 20:19:28</sys_created_on>
+            <sys_id>f02b47f91b8755106eb0a6c0604bcb7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Exclusion Zones" display_value="Exclusion Zones" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">dacb308b872e5510952f87f5cebb35e6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-09 20:19:28</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>exclusion_address_county</element>
+            <position>8</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-09 20:19:28</sys_created_on>
+            <sys_id>f42b47f91b8755106eb0a6c0604bcb7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Exclusion Zones" display_value="Exclusion Zones" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">dacb308b872e5510952f87f5cebb35e6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-09 20:19:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>exclusion_address_post_code</element>
+            <position>9</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-09 20:19:28</sys_created_on>
+            <sys_id>f82b47f91b8755106eb0a6c0604bcb7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Exclusion Zones" display_value="Exclusion Zones" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">dacb308b872e5510952f87f5cebb35e6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-09 20:19:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>exclusion_address_radius</element>
+            <position>10</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-09 20:19:28</sys_created_on>
+            <sys_id>fc2b47f91b8755106eb0a6c0604bcb7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Exclusion Zones" display_value="Exclusion Zones" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">dacb308b872e5510952f87f5cebb35e6</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-09 20:19:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
