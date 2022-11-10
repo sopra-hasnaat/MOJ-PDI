@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>2300</order>
+        <sc_cat_item display_value="New Monitoring Order">3e0511f5870b5510952f87f5cebb356f</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-09 11:43:34</sys_created_on>
+        <sys_id>a30551f5870b5510952f87f5cebb358b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_appointment_variable_set.New Monitoring Order</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>io_set_item_a30551f5870b5510952f87f5cebb358b</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-09 11:43:34</sys_updated_on>
+        <variable_set display_value="sn_appointment_variable_set">e33bd9f493b0030045a3f5be867ffbc5</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>io_set_item_a30551f5870b5510952f87f5cebb358b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>2300</order><sc_cat_item display_value="New Monitoring Order">3e0511f5870b5510952f87f5cebb356f</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-11-09 11:43:34</sys_created_on><sys_id>a30551f5870b5510952f87f5cebb358b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_appointment_variable_set.New Monitoring Order</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>io_set_item_a30551f5870b5510952f87f5cebb358b</sys_update_name><sys_updated_by>hasnaat.khan.ems</sys_updated_by><sys_updated_on>2022-11-09 11:43:34</sys_updated_on><variable_set display_value="sn_appointment_variable_set">e33bd9f493b0030045a3f5be867ffbc5</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>2070180016</payload_hash>
+        <record_name>sn_appointment_variable_set.New Monitoring Order</record_name>
+        <reverted_from/>
+        <source>877c8dab877e1950952f87f5cebb356c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-09 11:43:35</sys_created_on>
+        <sys_id>670551f5870b5510952f87f5cebb3590</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1845c33e2830000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-09 11:43:35</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>eb0551f5c10b551044989d2f1ff9098f</update_guid>
+        <update_guid_history>eb0551f5c10b551044989d2f1ff9098f:2070180016</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sn_appointment_variable_set.New Monitoring Order">e94559f5870b5510952f87f5cebb356f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-09 11:44:31</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>ddb156853d954fccb82761ccf0e44c51</sys_id>
+        <sys_metadata>a30551f5870b5510952f87f5cebb358b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_appointment_variable_set.New Monitoring Order</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>io_set_item_a30551f5870b5510952f87f5cebb358b</sys_update_name>
+        <sys_update_version display_value="io_set_item_a30551f5870b5510952f87f5cebb358b">670551f5870b5510952f87f5cebb3590</sys_update_version>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-09 11:44:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

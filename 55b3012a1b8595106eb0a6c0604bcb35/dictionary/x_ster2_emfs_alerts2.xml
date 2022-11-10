@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Alerts" max_length="40" name="x_ster2_emfs_alerts2" sizeclass="12" type="collection">
+    <element audit="true" extends="task" label="Alerts" max_length="40" name="x_ster2_emfs_alerts2" sizeclass="16" type="collection">
         <element choice="1" label="Alert Type" max_length="40" name="alert_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Curfew Time/Boundary Warning" sequence="0" value="0"/>
@@ -15,11 +15,12 @@
         <element label="Code" max_length="32" name="code" reference="x_ster2_emfs_alert_codes" type="reference"/>
         <element label="Confirm Incident" max_length="32" name="confirm_incident" type="boolean"/>
         <element label="Date &amp; Time of Alert" max_length="40" name="date_time" type="glide_date_time"/>
-        <element label="Tag/Monitoring Unit" max_length="32" name="device" reference="alm_asset" type="reference"/>
+        <element label="Device ID" max_length="32" name="device" reference="alm_asset" type="reference"/>
         <element label="Latitude" max_length="40" name="latitude" type="float"/>
         <element label="Linked Alert" max_length="32" name="linked_alert" reference="x_ster2_emfs_alerts2" reference_floats="true" type="glide_list"/>
         <element label="Longitude" max_length="40" name="longitude" type="float"/>
         <element label="Message" max_length="500" name="message" type="string"/>
+        <element label="Monitoring Order" max_length="32" name="monitoring_order" reference="x_ster2_emfs_monitoring_order" type="reference"/>
         <element label="Non-Compliant" max_length="40" name="non_compliance" type="boolean"/>
         <element choice="1" label="Non-Compliance Type" max_length="40" name="non_compliance_type" type="choice">
             <choice>
@@ -31,7 +32,7 @@
             </choice>
         </element>
         <element label="Parent Alert" max_length="40" name="parent_alert" type="boolean"/>
-        <element label="Subject" max_length="32" name="subject" reference="x_ster2_emfs_subject" type="reference"/>
+        <element label="Device Wearer" max_length="32" name="subject" reference="x_ster2_emfs_subject" type="reference"/>
         <element label="Time" max_length="40" name="time" type="integer"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
             <choice/>

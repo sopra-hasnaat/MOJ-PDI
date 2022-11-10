@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric">
     <asmt_metric action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <add_info_label>Additional Information</add_info_label>
         <allow_add_info>false</allow_add_info>
         <allow_not_applicable>true</allow_not_applicable>
@@ -19,24 +19,24 @@
         <default_value_field/>
         <depends_on/>
         <description/>
-        <details><![CDATA[<p>If visit was not possible give a reason here, otherwise put N/A.</p>]]></details>
+        <details/>
         <displayed_when/>
         <displayed_when_checkbox/>
         <displayed_when_template/>
         <displayed_when_yesno/>
         <duration/>
         <field_validation/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max>10</max>
         <max_weight/>
         <maximum_normalization_input>false</maximum_normalization_input>
         <method>assessment</method>
         <metric_type display_value="Generic: Arrival At Address">7f2882f9879a1550952f87f5cebb3563</metric_type>
         <min>1</min>
-        <name>Visit Outcome</name>
-        <order>400</order>
+        <name>a</name>
+        <order>600</order>
         <plugin/>
-        <question>Visit Outcome</question>
+        <question>a</question>
         <randomize_answers>false</randomize_answers>
         <read_only>false</read_only>
         <reference_table/>
@@ -51,14 +51,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a833cbbd879e1550952f87f5cebb35bc</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_name>Visit Outcome</sys_name>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>a</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>asmt_metric_a833cbbd879e1550952f87f5cebb35bc</sys_update_name>
         <sys_updated_by>paul.fraser.ems</sys_updated_by>
-        <sys_updated_on>2022-10-26 11:59:42</sys_updated_on>
+        <sys_updated_on>2022-11-09 14:20:47</sys_updated_on>
         <template/>
         <value_parameters/>
         <weight>10</weight>

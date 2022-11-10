@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="New Monitoring Order">d49a535a87aa9110952f87f5cebb3524</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Store Subject</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    var link = parent.window.location.href;
+    var hash = link.split('&');
+    var parm = "";
+
+    for (var i = 0; i < hash.length; i++) {
+        if (hash[i].indexOf('userid') > -1) { //Look for "userid" in url
+            parm = hash[i].split('=');
+            g_form.setValue('subject', parm[1]);
+
+            var ga = new GlideAjax('RetrieveSubject');
+            ga.addParam('sysparm_name', 'retrieveUser');
+            ga.addParam('sys_id', parm[1]);
+            ga.getXML(retrieveSubjectParse);
+
+            function retrieveSubjectParse(response) {
+                var answer = JSON.parse(response.responseXML.documentElement.getAttribute("answer"));
+                var subjectAddressLine1 = answer.address_line_1;
+                var subjectPostcode = answer.post_code;
+				var subjectAddressLine2 = answer.address2_line_1;
+				var subjectPostcode2 = answer.address2_post_code;
+
+                var gaCurfewLocation = new GlideAjax('RetrieveSubject');
+                gaCurfewLocation.addParam('sysparm_name', 'retrieveCurfewLocation');
+                gaCurfewLocation.addParam('address_line_1', subjectAddressLine1);
+                gaCurfewLocation.addParam('post_code', subjectPostcode);
+                gaCurfewLocation.getXML(retrieveCurfewLocationParse);
+
+                function retrieveCurfewLocationParse(response) {
+                    var answer = response.responseXML.documentElement.getAttribute("answer");
+                    g_form.setValue('curfew_location', answer);
+                }
+				
+				var gaSecondaryCurfewLocation = new GlideAjax('RetrieveSubject');
+                gaSecondaryCurfewLocation.addParam('sysparm_name', 'retrieveSecondaryCurfewLocation');
+                gaSecondaryCurfewLocation.addParam('address2_line_1', subjectAddressLine2);
+                gaSecondaryCurfewLocation.addParam('address2_post_code', subjectPostcode2);
+                gaSecondaryCurfewLocation.getXML(retrieveSecondaryCurfewLocationParse);
+				
+                function retrieveSecondaryCurfewLocationParse(response) {
+                    var answer = response.responseXML.documentElement.getAttribute("answer");
+                    g_form.setValue('secondary_curfew_location', answer);
+                }
+            }
+        }
+    }
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-17 15:49:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b8c0ffde872e9110952f87f5cebb35b6</sys_id>
+        <sys_mod_count>96</sys_mod_count>
+        <sys_name>Store Subject</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>catalog_script_client_b8c0ffde872e9110952f87f5cebb35b6</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-19 10:44:16</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>catalog_script_client_b8c0ffde872e9110952f87f5cebb35b6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="New Monitoring Order"&gt;d49a535a87aa9110952f87f5cebb3524&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Store Subject&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    var link = parent.window.location.href;
+    var hash = link.split('&amp;');
+    var parm = "";
+
+    for (var i = 0; i &lt; hash.length; i++) {
+        if (hash[i].indexOf('userid') &gt; -1) { //Look for "userid" in url
+            parm = hash[i].split('=');
+            g_form.setValue('subject', parm[1]);
+
+            var ga = new GlideAjax('RetrieveSubject');
+            ga.addParam('sysparm_name', 'retrieveUser');
+            ga.addParam('sys_id', parm[1]);
+            ga.getXML(retrieveSubjectParse);
+
+            function retrieveSubjectParse(response) {
+                var answer = JSON.parse(response.responseXML.documentElement.getAttribute("answer"));
+                var subjectAddressLine1 = answer.address_line_1;
+                var subjectPostcode = answer.post_code;
+				var subjectAddressLine2 = answer.address2_line_1;
+				var subjectPostcode2 = answer.address2_post_code;
+
+                var gaCurfewLocation = new GlideAjax('RetrieveSubject');
+                gaCurfewLocation.addParam('sysparm_name', 'retrieveCurfewLocation');
+                gaCurfewLocation.addParam('address_line_1', subjectAddressLine1);
+                gaCurfewLocation.addParam('post_code', subjectPostcode);
+                gaCurfewLocation.getXML(retrieveCurfewLocationParse);
+
+                function retrieveCurfewLocationParse(response) {
+                    var answer = response.responseXML.documentElement.getAttribute("answer");
+                    g_form.setValue('curfew_location', answer);
+                }
+				
+				var gaSecondaryCurfewLocation = new GlideAjax('RetrieveSubject');
+                gaSecondaryCurfewLocation.addParam('sysparm_name', 'retrieveSecondaryCurfewLocation');
+                gaSecondaryCurfewLocation.addParam('address2_line_1', subjectAddressLine2);
+                gaSecondaryCurfewLocation.addParam('address2_post_code', subjectPostcode2);
+                gaSecondaryCurfewLocation.getXML(retrieveSecondaryCurfewLocationParse);
+				
+                function retrieveSecondaryCurfewLocationParse(response) {
+                    var answer = response.responseXML.documentElement.getAttribute("answer");
+                    g_form.setValue('secondary_curfew_location', answer);
+                }
+            }
+        }
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;hasnaat.khan.ems&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-17 15:49:59&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b8c0ffde872e9110952f87f5cebb35b6&lt;/sys_id&gt;&lt;sys_mod_count&gt;96&lt;/sys_mod_count&gt;&lt;sys_name&gt;Store Subject&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Electronic Monitoring" source="x_ster2_emfs"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Electronic Monitoring"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_b8c0ffde872e9110952f87f5cebb35b6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;hasnaat.khan.ems&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-19 10:44:16&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2097118988</payload_hash>
+        <record_name>Store Subject</record_name>
+        <reverted_from/>
+        <source>a11a0ec487e29d50952f87f5cebb350b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-19 10:44:16</sys_created_on>
+        <sys_id>961efc0f872e5510952f87f5cebb351c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183efd80a430000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-19 10:44:16</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>9e1efc0fbf2e5510a35ba1480d15cc1b</update_guid>
+        <update_guid_history>9e1efc0fbf2e5510a35ba1480d15cc1b:2097118988,9f1db8cbe62e5510fc4157d0b5f94917:2112446032,b81d78cbff2e5510d89c434ecb4f2238:1742621510,73bcbc8b8f2e5510adc7a5b9354eaf90:1973989199,fa4a700bc62e551069a59923e47deb02:1419332160,e20a38c7692e551002588add774397bc:-804480673,2e06b0c3e92e5510342dabe32f9b6d37:1419332160,0ff5fc833c2e551019019e530b564fa8:-1812613514,d56570434d2e5510a38a61268e1c3c32:1419332160,4014fc035a2e5510ddaa83ccd3c6d50b:-394493162,97f33c03552e551088b62538a9d4adea:1987004236,efa3f403d82e551094cb165cea8b3e2f:2094778125,f513f8cfa8ea5510e7896be413387d1a:295475385,b022788fd4ea55108f2fcb3bbc5fd095:-1523238361,1aa1fc4f7aea551012335e2a7c9dcb26:-528856829,256f60cb30ea5510efeecc14cc2715f6:744110890,eb7c20c7c7ea551015e0361a27fd58da:-1954116630,50a6a403b1ea5510e8639edca05dc681:-43636416,6901608b6baa55109373df40bda45d9b:-925359872,20b0208b5daa5510d0bfc31e587fcc4c:-189887493,9360e44b18aa5510e3c10c8d1966b729:480243404,0520a44be8aa5510638262569495d5a9:-388081009,3f10244b0eaa551081e25d22ce20e1b0:-945306438,6cff904bb7aa5510bf7dd7d68ae70078:1258737134,7bdf104b05aa5510abac5a2df94aebeb:-352301629,8746f4b696ea1510687dc827f1912e1d:1503341168,c9e0887e16aed1104531e02162349e75:1554662716,6ab0447e9baed11086b157d4553a7b7d:-447552791,b69d7b6a3caed1108fed05eb1daabaf7:-1092681372,6dbbb7e6c9aed1109cbc27d3cd8042c1:-999648230,728b7fa674aed110e452aabba1538d8d:-1507238513,653afb6615aed11043c0cd3b0d65e672:-561675281,bf1a7b6652aed1101ee3ef4ec7529027:-196015480,00a8ffe235aed11062ad0addab9ecf12:320705694,3c883fe295aed1105bbc4f0dedca91c9:1325074684,8de7b3e2f5aed110fb2006dc134de463:1609155223,a1c73fa267aed110985e48a4db6513df:-889807345,3d97bba2a2aed1106e499cea2853795b:1397016248,db87b7a289aed1108bd9170bd0d1331e:930749825,df3777a2d0aed110830f86a13f99c52f:1110992128,c53773a218aed11023bced5cebc28991:-714617808,c50733a2c5aed11059bce3929139faad:1110992128,4bf633a2adaed1104799b728f5f36f45:279753049,80f67f620daed11008d32e6e8fef7f5d:1110992128,f9d63f624daed11046e6ffc9e0b082ae:279753049,ce66f362abaed1109d66e4691f70c569:1110992128,6356b362f2aed11080e010ad455eec7a:612704476,66163f2256aed1107bc8ecc3207c1cdb:-675246570,31063f224daed1101b1c55b0179f928a:279753049,6cd5f722ecaed1104a865470511f42dd:-714617808,cba577221baed110dd7d450c4b0a9799:1110992128,5b757322feaed110ad77f574a349dd90:-714617808,92457fee4f6ed11003923af0144f3da2:1110992128,e2357bee3e6ed1108ba113a114a561d0:-1779766483,3aa4ffaead6ed110c53a115492fad8c4:1110992128,1f84fbaeee6ed110445e961060d6bb23:1170500218,b8d3a32ea22ed110cc4c9ee2be64ea0d:2092772085,90a2e3ea442ed110c03efe8b9acb235e:1243431583,6b126baaac2ed110ca2830743d7ad1d8:-945115762,73b1e3aa012ed110b8c94cab728b4de9:-1287032643,08702f2ae32ed1104287ba512fadf067:686993705,81ffd32a792ed1102794455152019858:-380827904,874f17e6f22ed1100d62bc724aa48cbc:-1604516885,dade9fa6bc2ed1104fdb6c8b2fc5fe98:-1516480547,b19e1ba6512ed11086347cae4ce1c221:-817104779,0d1edf66d02ed1109876c6e7cb80a469:1092683319,64fd5b662f2ed110e54e9f2851b558c1:753148336,9cadd766bf2ed110b06f024b55362d5e:1306505232,1b8dd766702ed1103e7b810454dd0d55:-2088650636,6e6d9366ab2ed110232dd6fd17079a7f:-1516480547,be4d1f26b02ed110d45f4ea17badf8ac:515383883,a1fcdb26012ed110975e0a77b7ce4e74:-2027624935,a5ec9b26ec2ed1108a842be8686ce616:2119783764,56dc5b26bd2ed1105d7f22e2b46798b0:-1638318563,17bcd726d82ed110ccb3cc40b6899399:-2063931181,0b2c5fe2302ed1103c7c5e5b86394d7e:1196053854,f71c9be2402ed110b08c4bc71f2b6cd6:-1899617493,9efb9be2b02ed110ed1cb3ca90eec348:1196053854,e1db17e2762ed11008578d9bebc423d0:-1775883394,47ab13e2372ed110a192b3538659974a:1422134286,296bd3a22c2ed110376c8e6b0d385530:2120678435,3dc9db22572ed1109477961e50faf1dd:1697940120,aa99db22b72ed110b035a71393995b8a:1819830468,33791b22f62ed1104c5157a5282689d5:-594809910,d0591322112ed110b8f7a609d1e14740:1396744518,aaf85fee07ead11030a2cb59f09df87b:1707208712,39081bae80ead110b0a5dbf8934bcdd3:183159256,2be71bae8aead110462c5dde3b09eb44:1408881909,05e717aefdead110c9b8a45f92a3db79:719297695,b4c6136ee2ead1106a192208c399d757:1408881909,7e56db2e2dead1100a1b2647e7c8ed02:1707208712,66361b2e8bead11031e666c7d72cd9f4:-688880412,1726d72ed7ead110f2afb11ec1c25a13:-844593981,a306172ef1ead110a571a649c230f0fb:1826620471,61f5132ef9ead110502ef68b62ae382d:376199698,66a5dfea13ead110aa8e32ccf77deb15:-996077899,81e0fb12416e91107ea02e260074ea2f:-659951600</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Store Subject">32335935870b5510952f87f5cebb3572</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-09 11:35:36</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>52dd4cd80b67420cb73dd9a899571b10</sys_id>
+        <sys_metadata>b8c0ffde872e9110952f87f5cebb35b6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Store Subject</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>catalog_script_client_b8c0ffde872e9110952f87f5cebb35b6</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_b8c0ffde872e9110952f87f5cebb35b6">961efc0f872e5510952f87f5cebb351c</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-09 11:35:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

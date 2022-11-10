@@ -27,7 +27,7 @@
         <element label="Exclusion Address Line 1" max_length="100" name="exclusion_address_line_1" type="string"/>
         <element label="Exclusion Address Line 2" max_length="100" name="exclusion_address_line_2" type="string"/>
         <element label="Exclusion Address Post Code" max_length="40" name="exclusion_address_post_code" type="string"/>
-        <element choice="1" label="Exclusion Zone Radius" max_length="40" name="exclusion_address_radius" type="choice">
+        <element choice="1" label="Exclusion Address Radius" max_length="40" name="exclusion_address_radius" type="choice">
             <choice>
                 <element inactive_on_update="false" label="100m" sequence="0" value="100"/>
                 <element inactive_on_update="false" label="200m" sequence="1" value="200"/>
@@ -40,9 +40,10 @@
         </element>
         <element label="Exclusion Coordinates" max_length="10000" name="exclusion_coordinates" type="string"/>
         <element label="Exclusion Zones" max_length="4000" name="exclusion_zones" reference="cmn_location" type="glide_list"/>
-        <element label="Inclusion Coordinates" max_length="10000" name="inclusion_coordinates" type="string"/>
-        <element label="Inclusion Zones" max_length="4000" name="inclusion_zones" reference="cmn_location" type="glide_list"/>
-        <element label="Individual Protocol" max_length="1000" name="individual_protocol" type="string"/>
+        <element label="Inclusion Coordinates" max_length="10000" name="inclusion_coordinates" read_only="true" type="string"/>
+        <element attributes="start_locked=false" label="Inclusion Zones" max_length="4000" name="inclusion_zones" reference="cmn_location" reference_qual="sys_class_name=cmn_location^EQ" reference_qual_condition="sys_class_name=cmn_location^EQ" type="glide_list"/>
+        <element label="Individual Protocol Instructions" max_length="1000" name="individual_protocol_instructions" type="glide_encrypted"/>
+        <element label="Installation Instructions" max_length="1000" name="installation_instructions" type="string"/>
         <element label="Install Scheduled?" max_length="40" name="installscheduled" type="boolean"/>
         <element choice="1" label="Monitoring Type" max_length="40" name="monitoring_type" type="choice">
             <choice>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes>486f9b47ffb13010667053ea793bf11c</includes>
+        <macroponent display_value="Non Compliance Investigation">03b8c0841b03d5506eb0a6c0604bcbaa</macroponent>
+        <name>Update formFieldItems</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({api, event, helpers, imports}) {
+     const {
+        setFormFieldItems
+    } = imports['sn_playbook_exp.playbookActivityUIUtils']();
+    
+    setFormFieldItems(api, event);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-11-03 19:40:45</sys_created_on>
+        <sys_id>83b844841b03d5506eb0a6c0604bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update formFieldItems</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_client_script_83b844841b03d5506eb0a6c0604bcb58</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-11-03 19:40:45</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

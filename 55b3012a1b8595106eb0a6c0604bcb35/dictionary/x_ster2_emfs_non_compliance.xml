@@ -12,8 +12,16 @@
             </choice>
         </element>
         <element label="Enforcement Action" max_length="32" name="enforcement_action" reference="x_ster2_emfs_enforcement_action_cases" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Non Compliance Assessment" max_length="40" name="noncomplianceassessment" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Return Home Late" sequence="0" value="Return Home Late"/>
+                <element inactive_on_update="false" label="Out After Curfew" sequence="1" value="out after curfew"/>
+                <element inactive_on_update="false" label="Left Home" sequence="2" value="left home"/>
+                <element inactive_on_update="false" label="Tamper" sequence="3" value="tamper"/>
+            </choice>
+        </element>
         <element label="Notification Date/Time" max_length="40" name="notification_date_time" type="glide_date_time"/>
-        <element choice="3" label="Outcome" max_length="40" name="outcome" type="choice">
+        <element choice="3" default="extenuating_circumstances" label="Outcome" max_length="40" name="outcome" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Extenuating Circumstances" sequence="0" value="extenuating_circumstances"/>
                 <element inactive_on_update="false" label="Warning Letter" sequence="1" value="warning_letter"/>

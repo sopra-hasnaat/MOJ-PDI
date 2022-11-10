@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="noncomplianceassessment" table="x_ster2_emfs_non_compliance" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>noncomplianceassessment</element>
+            <name>x_ster2_emfs_non_compliance</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-03 12:32:24</sys_created_on>
+            <sys_id>98b66a3f1b7a95506eb0a6c0604bcb65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>noncomplianceassessment</sys_name>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_choice_x_ster2_emfs_non_compliance_noncomplianceassessment</sys_update_name>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-03 12:32:24</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>noncomplianceassessment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Return Home Late</label>
+            <language>en</language>
+            <name>x_ster2_emfs_non_compliance</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-03 12:32:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14b66a3f1b7a95506eb0a6c0604bcb65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-03 12:32:24</sys_updated_on>
+            <value>Return Home Late</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>noncomplianceassessment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Out After Curfew</label>
+            <language>en</language>
+            <name>x_ster2_emfs_non_compliance</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-03 12:32:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1cb66a3f1b7a95506eb0a6c0604bcb6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-03 12:32:24</sys_updated_on>
+            <value>out after curfew</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>noncomplianceassessment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Left Home</label>
+            <language>en</language>
+            <name>x_ster2_emfs_non_compliance</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-03 12:32:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54b66a3f1b7a95506eb0a6c0604bcb71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-03 12:32:24</sys_updated_on>
+            <value>left home</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>noncomplianceassessment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tamper</label>
+            <language>en</language>
+            <name>x_ster2_emfs_non_compliance</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-03 12:32:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9cb66a3f1b7a95506eb0a6c0604bcb76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-03 12:32:24</sys_updated_on>
+            <value>tamper</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

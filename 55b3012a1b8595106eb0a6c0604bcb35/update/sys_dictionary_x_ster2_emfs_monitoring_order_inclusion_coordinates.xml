@@ -38,7 +38,7 @@
         <name>x_ster2_emfs_monitoring_order</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -54,14 +54,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-10-19 10:31:03</sys_created_on>
         <sys_id>8beabc0b872e5510952f87f5cebb35b3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Inclusion Coordinates</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_dictionary_x_ster2_emfs_monitoring_order_inclusion_coordinates</sys_update_name>
-        <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-10-19 10:31:03</sys_updated_on>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-07 17:19:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

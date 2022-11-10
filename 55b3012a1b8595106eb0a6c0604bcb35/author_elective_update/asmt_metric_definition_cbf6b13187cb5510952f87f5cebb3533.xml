@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="DELETE">
+        <display>Incorrect Address</display>
+        <metric display_value="Visit Outcome">cbf6b13187cb5510952f87f5cebb351d</metric>
+        <normalization_input>0</normalization_input>
+        <order>3</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-11-09 14:11:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cbf6b13187cb5510952f87f5cebb3533</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incorrect Address</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>asmt_metric_definition_cbf6b13187cb5510952f87f5cebb3533</sys_update_name>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-11-09 14:11:49</sys_updated_on>
+        <unselected_image/>
+        <value>4</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="DELETE" query="documentkey=cbf6b13187cb5510952f87f5cebb3533"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>asmt_metric_definition_cbf6b13187cb5510952f87f5cebb3533</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition"><asmt_metric_definition action="INSERT_OR_UPDATE"><display>Incorrect Address</display><metric display_value="Visit Outcome">cbf6b13187cb5510952f87f5cebb351d</metric><normalization_input>0</normalization_input><order>3</order><selected_image/><sys_class_name>asmt_metric_definition</sys_class_name><sys_created_by>paul.fraser.ems</sys_created_by><sys_created_on>2022-11-09 14:11:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cbf6b13187cb5510952f87f5cebb3533</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Incorrect Address</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>asmt_metric_definition_cbf6b13187cb5510952f87f5cebb3533</sys_update_name><sys_updated_by>paul.fraser.ems</sys_updated_by><sys_updated_on>2022-11-09 14:11:49</sys_updated_on><unselected_image/><value>4</value></asmt_metric_definition><sys_translated_text action="delete_multiple" query="documentkey=cbf6b13187cb5510952f87f5cebb3533"/></record_update>]]></payload>
+        <payload_hash>1975383502</payload_hash>
+        <record_name>Incorrect Address</record_name>
+        <reverted_from/>
+        <source>0abb342b873e1950952f87f5cebb3535</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-11-09 14:11:49</sys_created_on>
+        <sys_id>4bf6b13187cb5510952f87f5cebb3538</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1845cbb99ec0000001</sys_recorded_at>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-11-09 14:11:49</sys_updated_on>
+        <type>Assessment Metric Definition</type>
+        <update_guid>83f6b1315dcb5510e7f6fba91474f238</update_guid>
+        <update_guid_history>83f6b1315dcb5510e7f6fba91474f238:1975383502</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Incorrect Address">e767b93187cb5510952f87f5cebb3539</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-11-09 14:13:45</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_definition">asmt_metric_definition</sys_db_object>
+        <sys_id>d90f244ff22842209353a94f6fad6490</sys_id>
+        <sys_metadata>cbf6b13187cb5510952f87f5cebb3533</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incorrect Address</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>asmt_metric_definition_cbf6b13187cb5510952f87f5cebb3533</sys_update_name>
+        <sys_update_version display_value="asmt_metric_definition_cbf6b13187cb5510952f87f5cebb3533">4bf6b13187cb5510952f87f5cebb3538</sys_update_version>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-11-09 14:13:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

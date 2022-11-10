@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "playbook_card_component",
+  "elementLabel" : "Playbook Card",
+  "propertyValues" : {
+    "fillContainer" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "fillContainer" ]
+      }
+    },
+    "contextId" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "contextId" ]
+      }
+    },
+    "associatedTable" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "associatedTable" ]
+      }
+    },
+    "associatedSysId" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "associatedSysId" ]
+      }
+    },
+    "formFieldItems" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "formFieldItems" ]
+      }
+    },
+    "formFieldsRequired" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "formFieldsRequired" ]
+      }
+    },
+    "declarativeModel" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "declarativeModel", "model" ]
+      }
+    },
+    "configProperties" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "configProperties" ]
+      }
+    },
+    "activityState" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "activityState" ]
+      }
+    },
+    "loading" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "loading" ]
+      }
+    },
+    "prioritized" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "prioritized" ]
+      }
+    },
+    "declarativeActions" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "declarativeActions", "actions" ]
+      }
+    },
+    "filterData" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "filterData" ]
+      }
+    },
+    "heading" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "heading" ]
+      }
+    },
+    "tagline" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "tagline" ]
+      }
+    },
+    "assignedTo" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "assignedTo" ]
+      }
+    },
+    "cardFooter" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "cardFooter" ]
+      }
+    },
+    "isAutomated" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "isAutomated" ]
+      }
+    },
+    "showSla" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "showSla" ]
+      }
+    },
+    "pendingTitle" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "pendingTitle" ]
+      }
+    },
+    "pendingDescription" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "pendingDescription" ]
+      }
+    },
+    "hasSufficientData" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "hasSufficientData" ]
+      }
+    },
+    "expandOnMountOrChange" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "expandOnMountOrChange" ]
+      }
+    },
+    "userSession" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "userSession" ]
+      }
+    },
+    "dispatchDeclarativeAction" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "dispatchDeclarativeAction" ]
+      }
+    },
+    "modalDeclarativeAction" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "playbook_activity_ui", "playbookCardProperties", "modalDeclarativeAction" ]
+      }
+    },
+    "daClientActionContract" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "cktepvjeoaaaaaakddghhslmnnsziijj",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "now_playbook_exp.PLAYBOOK_CARD#FORM_FIELDS_REQUIRED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "now_playbook_exp.PLAYBOOK_CARD#FORM_FIELDS_REQUIRED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : null,
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : {
+        "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+        "payload" : {
+          "type" : "MAP_CONTAINER",
+          "container" : {
+            "propName" : {
+              "type" : "JSON_LITERAL",
+              "value" : "formFieldsRequired"
+            },
+            "value" : {
+              "type" : "EVENT_PAYLOAD_BINDING",
+              "binding" : {
+                "address" : [ "formFieldsRequired" ]
+              }
+            }
+          }
+        },
+        "sysId" : "32408b42ff7a10109046e490703bf176"
+      },
+      "operation" : null,
+      "targetId" : "cktepvjeoaaaaaalddghhsisdvhhddjjdd",
+      "type" : "EVENT"
+    } ]
+  } ],
+  "slot" : null,
+  "definition" : {
+    "id" : "e9da68254e5ea0af81d301c61b372022",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "rich_text_1",
+      "elementLabel" : "Description",
+      "propertyValues" : {
+        "html" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "experienceProperties", "description", "value" ],
+            "category" : "props"
+          }
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "content",
+      "definition" : {
+        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : {
+        "padding-bottom" : "var(--now-static-space--lg)"
+      }
+    }, {
+      "elementId" : "label_value_stacked_1",
+      "elementLabel" : "Record Fields",
+      "propertyValues" : {
+        "items" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "playbook_activity_ui", "fieldListProperties", "fieldListItems", "record_fields" ]
+          }
+        },
+        "align" : {
+          "type" : "JSON_LITERAL",
+          "value" : "horizontal"
+        },
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "sm"
+        },
+        "truncated" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "wrapped" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "itemMinWidth" : {
+          "type" : "JSON_LITERAL",
+          "value" : "0"
+        },
+        "delimiter" : {
+          "type" : "JSON_LITERAL",
+          "value" : ","
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "ckwbhhiiccljaaddcclccahhccyhbhhtybbm",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_label_value.NOW_LABEL_VALUE_STACKED#TEXT_LINK_CLICKED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_label_value.NOW_LABEL_VALUE_STACKED#TEXT_LINK_CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "sn_playbook_exp.PLAYBOOK_INTERNAL#OPEN_RECORD",
+            "payload" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "table" : {
+                  "type" : "EVENT_PAYLOAD_BINDING",
+                  "binding" : {
+                    "address" : [ "item", "table" ]
+                  }
+                },
+                "sys_id" : {
+                  "type" : "EVENT_PAYLOAD_BINDING",
+                  "binding" : {
+                    "address" : [ "item", "sysId" ]
+                  }
+                }
+              }
+            },
+            "sysId" : "c0d0cee8c7123010bfbaf89f51c26017"
+          },
+          "operation" : null,
+          "targetId" : "ckwbhhiicclkaaddccmccahhcccbbiiwccebl",
+          "type" : "EVENT"
+        } ]
+      } ],
+      "slot" : "content",
+      "definition" : {
+        "id" : "cfdc0486addc8811fd5249eae681d12d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "DATA_OUTPUT_BINDING",
+        "binding" : {
+          "address" : [ "playbook_activity_ui", "fieldListProperties", "isHidden" ]
+        }
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : {
+        "padding-bottom" : "var(--now-static-space--lg)"
+      }
+    }, {
+      "elementId" : "attachments_1",
+      "elementLabel" : "Attachments",
+      "propertyValues" : {
+        "table" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "playbook_activity_ui", "attachmentsProperties", "table" ]
+          }
+        },
+        "sysId" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "playbook_activity_ui", "attachmentsProperties", "sysId" ]
+          }
+        },
+        "isAttachmentUploadDisabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "isReadOnly" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "playbook_activity_ui", "attachmentsProperties", "readOnly" ]
+          }
+        },
+        "mode" : {
+          "type" : "JSON_LITERAL",
+          "value" : "compact"
+        },
+        "recordDisplayValue" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "refreshRequested" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "playbook_activity_ui", "attachmentsProperties", "refreshRequested" ]
+          }
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "ckwpiiffbsgaabbccqddeggwsodffqwffv",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_now_record_side.NOW_RECORD_COMMON_ATTACHMENT_CONNECTED#ADD_NOTIFICATIONS",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_now_record_side.NOW_RECORD_COMMON_ATTACHMENT_CONNECTED#ADD_NOTIFICATIONS",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "sn_playbook_exp.ADD_NOTIFICATIONS_INTERNAL",
+            "payload" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "notifications" : {
+                  "type" : "EVENT_PAYLOAD_BINDING",
+                  "binding" : {
+                    "address" : [ "items" ]
+                  }
+                }
+              }
+            },
+            "sysId" : "fd7a772cffb23010667053ea793bf1c3"
+          },
+          "operation" : null,
+          "targetId" : "ckwpiiffbsgaabbccrddeggwwdflniiffv",
+          "type" : "EVENT"
+        } ]
+      } ],
+      "slot" : "below-form",
+      "definition" : {
+        "id" : "0e238931bce36c9fe3b52475c69c85a3",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "DATA_OUTPUT_BINDING",
+        "binding" : {
+          "address" : [ "playbook_activity_ui", "attachmentsProperties", "isHidden" ]
+        }
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : {
+        "padding-bottom" : "var(--now-static-space--lg)"
+      }
+    }, {
+      "elementId" : "playbook_form_component",
+      "elementLabel" : "Playbook Form",
+      "propertyValues" : {
+        "table" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "playbook_activity_ui", "playbookFormProperties", "table" ]
+          }
+        },
+        "sysId" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "playbook_activity_ui", "playbookFormProperties", "sysId" ]
+          }
+        },
+        "forcedViewName" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "playbook_activity_ui", "playbookFormProperties", "forcedViewName" ]
+          }
+        },
+        "validateRequested" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "playbook_activity_ui", "playbookFormProperties", "validateRequested" ]
+          }
+        },
+        "refreshRequested" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "playbook_activity_ui", "playbookFormProperties", "refreshRequested" ]
+          }
+        },
+        "submitAction" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "playbook_activity_ui", "playbookFormProperties", "submitAction" ]
+          }
+        },
+        "query" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "playbook_activity_ui", "playbookFormProperties", "query" ]
+          }
+        },
+        "showFieldList" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "playbook_activity_ui", "playbookFormProperties", "showFieldList" ]
+          }
+        },
+        "legacyWorkspaceId" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "playbook_activity_ui", "playbookFormProperties", "legacyWorkspaceId" ]
+          }
+        },
+        "fieldInclusionList" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "playbook_activity_ui", "playbookFormProperties", "fieldInclusionList" ]
+          }
+        },
+        "userSession" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "playbook_activity_ui", "playbookFormProperties", "userSession" ]
+          }
+        },
+        "visible" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "cktuqkgblaaaaeeyddghhswqprddzwt",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "now_playbook_exp.PLAYBOOK_FORM#ADD_NOTIFICATIONS",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "now_playbook_exp.PLAYBOOK_FORM#ADD_NOTIFICATIONS",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "sn_playbook_exp.ADD_NOTIFICATIONS_INTERNAL",
+            "payload" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "notifications" : {
+                  "type" : "EVENT_PAYLOAD_BINDING",
+                  "binding" : {
+                    "address" : [ "notifications" ]
+                  }
+                }
+              }
+            },
+            "sysId" : "fd7a772cffb23010667053ea793bf1c3"
+          },
+          "operation" : null,
+          "targetId" : "cktuqkgblaaaaeezddghhsfhmvkrqa",
+          "type" : "EVENT"
+        } ]
+      }, {
+        "eventMappingId" : "cktncohhlraaaabbhddghhsaeenjgqfk",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "now_playbook_exp.PLAYBOOK_FORM#OPEN_RECORD",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "now_playbook_exp.PLAYBOOK_FORM#OPEN_RECORD",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "sn_playbook_exp.PLAYBOOK_INTERNAL#OPEN_RECORD",
+            "payload" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "table" : {
+                  "type" : "EVENT_PAYLOAD_BINDING",
+                  "binding" : {
+                    "address" : [ "table" ]
+                  }
+                },
+                "sys_id" : {
+                  "type" : "EVENT_PAYLOAD_BINDING",
+                  "binding" : {
+                    "address" : [ "sys_id" ]
+                  }
+                }
+              }
+            },
+            "sysId" : "c0d0cee8c7123010bfbaf89f51c26017"
+          },
+          "operation" : null,
+          "targetId" : "cktncohhlsaaaabbiddghhspgnighsdd",
+          "type" : "EVENT"
+        } ]
+      }, {
+        "eventMappingId" : "ckteysiienaaaaccffddghhsfeffdjcnv",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "now_playbook_exp.PLAYBOOK_FORM#RECORD_SET_FIELDS",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "now_playbook_exp.PLAYBOOK_FORM#RECORD_SET_FIELDS",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "sn_playbook_exp.PLAYBOOK_FORM_SET_FIELDS",
+            "payload" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "formFieldItems" : {
+                  "type" : "EVENT_PAYLOAD_BINDING",
+                  "binding" : {
+                    "address" : [ "formFieldItems" ]
+                  }
+                }
+              }
+            },
+            "sysId" : "b9038863ff713010667053ea793bf12e"
+          },
+          "operation" : null,
+          "targetId" : "ckteysiienaaaaccggddghhsaajggjtnjjg",
+          "type" : "EVENT"
+        } ]
+      } ],
+      "slot" : "form",
+      "definition" : {
+        "id" : "c83e76841d9c05f3201aaed961806717",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : {
+        "padding-bottom" : "var(--now-static-space--lg)"
+      }
+    }, {
+      "elementId" : "conditional_checklist",
+      "elementLabel" : "Conditional Checklist",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "content",
+      "definition" : {
+        "id" : "",
+        "type" : "CONDITIONAL"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isHero" : false,
+      "conditionals" : [ {
+        "condition" : {
+          "type" : "CLIENT_TRANSFORM_SCRIPT",
+          "script" : {
+            "apiVersion" : "1.0.0",
+            "inlineScript" : "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {any} params.imports\n  */\nfunction evaluateProperty({api}) {\n\treturn api.context.props.associatedRecord &amp;&amp; api.context.props.experienceProperties.show_checklist &amp;&amp; [true, 'true', 'yes', '1'].includes(api.context.props.experienceProperties.show_checklist.value);\n}",
+            "scriptSysId" : null
+          }
+        },
+        "item" : {
+          "elementId" : "sn_checklist_1",
+          "elementLabel" : "Checklist 1",
+          "propertyValues" : {
+            "title" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "checklistId" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "documentId" : {
+              "type" : "CONTEXT_BINDING",
+              "binding" : {
+                "address" : [ "associatedRecord" ],
+                "category" : "props"
+              }
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "content",
+          "definition" : {
+            "id" : "50f337c2a33e187a876827c5f8016f2f",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : false
+          },
+          "isHero" : false,
+          "isNonDestructive" : false,
+          "styles" : {
+            "padding-bottom" : "var(--proxy-global-space--lg)"
+          }
+        }
+      } ],
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : { }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "c8d6649ec3310110948404186e40dd39",
+    "type" : "CLIENT_STATE"
+  },
+  "elementId" : "playbook_activity_ui",
+  "elementLabel" : "Playbook Activity UI",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "experienceProperties" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "experienceProperties" ],
+        "category" : "props"
+      }
+    },
+    "advanced" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "advanced" ],
+        "category" : "props"
+      }
+    },
+    "parentRecord" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "parentRecord" ],
+        "category" : "props"
+      }
+    },
+    "parentTable" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "parentTable" ],
+        "category" : "props"
+      }
+    },
+    "associatedRecord" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "associatedRecord" ],
+        "category" : "props"
+      }
+    },
+    "associatedTable" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "associatedTable" ],
+        "category" : "props"
+      }
+    },
+    "activityLabel" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "activityLabel" ],
+        "category" : "props"
+      }
+    },
+    "activityState" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "activityState" ],
+        "category" : "props"
+      }
+    },
+    "assignedTo" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "assignedTo" ],
+        "category" : "props"
+      }
+    },
+    "prioritized" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "prioritized" ],
+        "category" : "props"
+      }
+    },
+    "fillContainer" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "fillContainer" ],
+        "category" : "props"
+      }
+    },
+    "configProperties" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "configProperties" ],
+        "category" : "props"
+      }
+    },
+    "formFieldItems" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "formFieldItems" ]
+      }
+    },
+    "hasSufficientData" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "hasSufficientData" ]
+      }
+    },
+    "formFieldsRequired" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "formFieldsRequired" ]
+      }
+    },
+    "fieldListExperienceProperties" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ "record_fields" ]
+    },
+    "playbookExperienceId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "playbookExperienceId" ],
+        "category" : "props"
+      }
+    },
+    "activityDefinitionId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "activityDefinitionId" ],
+        "category" : "props"
+      }
+    },
+    "playbookContext" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "playbookContext" ],
+        "category" : "props"
+      }
+    },
+    "laneContext" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "laneContext" ],
+        "category" : "props"
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <dispatched_events>d3356afeff323010667053ea793bf143,fd7a772cffb23010667053ea793bf1c3,e3c2ca2cc7123010bfbaf89f51c260ce,3302cee8c7123010bfbaf89f51c26020,46e1ca2cc7123010bfbaf89f51c260c7,79a1cee8c7123010bfbaf89f51c2601c,9f51ca2cc7123010bfbaf89f51c260c3,c0d0cee8c7123010bfbaf89f51c26017,8dbd9324c3e33010fc7a60bc0eba8f7c</dispatched_events>
+        <extends display_value="Base">814b032ec7653010bfbaf89f51c2608b</extends>
+        <handled_events>b8dbd1b3c3313010948404186e40dd54,b9038863ff713010667053ea793bf12e</handled_events>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+  "sn_playbook_exp.PLAYBOOK_FORM_SET_FIELDS" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "propName" : {
+            "type" : "JSON_LITERAL",
+            "value" : "formFieldItems"
+          },
+          "value" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "formFieldItems" ]
+            }
+          }
+        }
+      },
+      "sysId" : "32408b42ff7a10109046e490703bf176"
+    },
+    "operation" : null,
+    "targetId" : "ckteyroggmaaaacceeddghhszeebiieiccu",
+    "type" : "EVENT"
+  } ],
+  "sn_playbook_exp.PLAYBOOK_SUFFICIENT_DATA_CHECK" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+      "payload" : {
+        "type" : "CLIENT_TRANSFORM_SCRIPT",
+        "script" : {
+          "apiVersion" : "1.0.0",
+          "inlineScript" : "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n* @param {any} params.imports\n*/\nfunction evaluateEvent({api, event}) {\n\t// INSERT ANY CUSTOM SUFFICIENT DATA LOGIC HERE\n\n\tconst {\n\t\tassociatedTable,\n\t\tassociatedRecord,\n\t\texperienceProperties,\n\t\tactivityState,\n\t\tactivityLabel\n\t} = api.context.props;\n\n\tconst {\n\t\tdescription = {},\n\t\ttitle = {},\n\t\tassociated_table = {},\n\t\tassociated_record = {},\n\t\tform_fields = {},\n\t\tform_view = {},\n\t\trecord_fields = {},\n\t\tattachment_source = {},\n\t\tshow_checklist = {}\n\t} = experienceProperties;\n\n\tconst propName = 'hasSufficientData';\n\n\t// a card is sufficient with a description or title\n\tif (description.value || title.value)\n\t    return {\n\t\t\tpropName,\n\t\t\tvalue: true\n\t\t};\n\n\t// without a description or title, a card must have an associated record and table\n\tif (!associated_table.value || !associated_record.value)\n\t    return {\n\t\t    propName,\n\t\t    value: false\n\t    };\n\n\t// If we have data to show for this associated record, we're all set\n\tif (\n\t\tform_fields.value ||\n\t\tform_view.value ||\n\t\trecord_fields.value ||\n\t\tattachment_source.value ||\n\t\tshow_checklist.value\n\t)\n\t\treturn {\n\t\t\tpropName,\n\t\t\tvalue: true\n\t\t};\n\n\t// No data to show\n\treturn {\n\t\tpropName,\n\t\tvalue: false\n\t};\n}",
+          "scriptSysId" : null
+        }
+      },
+      "sysId" : "32408b42ff7a10109046e490703bf176"
+    },
+    "operation" : null,
+    "targetId" : "cksjjgdduejjaaaaaamddhiiddqhhlaeuzdd",
+    "type" : "EVENT"
+  } ],
+  "MACROPONENT_READY" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_playbook_exp.PLAYBOOK_SUFFICIENT_DATA_CHECK",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : "b8dbd1b3c3313010948404186e40dd54"
+    },
+    "operation" : null,
+    "targetId" : "cksjjgddknlaaaaaajddhiiddneetwlaeer",
+    "type" : "EVENT"
+  } ],
+  "MACROPONENT_PROPERTY_CHANGED" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_playbook_exp.PLAYBOOK_SUFFICIENT_DATA_CHECK",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : "b8dbd1b3c3313010948404186e40dd54"
+    },
+    "operation" : null,
+    "targetId" : "ckshhzxsaabaaaabbvddhiiddaazzpoxjjbb",
+    "type" : "EVENT"
+  } ]
+}</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"rules":{},"styles":{"flex":"1"},"element_id":"playbook_card_component"}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-flow":"row nowrap","align-items":"stretch","min-height":"5rem","height":"100%"},
+    "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Non Compliance Investigation</name>
+        <props>[{"name":"experienceProperties","label":"Experience Properties","description":"Collection of properties for the Activity UI based on the Experience Type","fieldType":"json","valueType":"object","typeMetadata":{"schema":{"type":"object","properties":{"icon":{"type":"object","properties":{"value":{"type":"string"},"elementData":{"type":"object","properties":{"type":{"type":"string"},"reference":{"type":"string"}}},"displayValue":{"type":"string"}}},"description":{"type":"object","properties":{"value":{"type":"string"},"elementData":{"type":"object","properties":{"type":{"type":"string"}}},"displayValue":{"type":"string"}}},"title":{"type":"object","properties":{"value":{"type":"string"},"elementData":{"type":"object","properties":{"type":{"type":"string"}}}}},"experience_status_record":{"type":"object","properties":{"value":{"type":"string"},"elementData":{"type":"object","properties":{"type":{"type":"string"}}},"displayValue":{"type":"string"}}},"tagline":{"type":"object","properties":{"value":{"type":"string"},"elementData":{"type":"object","properties":{"type":{"type":"string"}}}}},"associated_table":{"type":"object","properties":{"value":{"type":"string"},"elementData":{"type":"object","properties":{"type":{"type":"string"}}},"displayValue":{"type":"string"}}},"footer":{"type":"object","properties":{"value":{"type":"string"},"elementData":{"type":"object","properties":{"type":{"type":"string"}}}}},"experience_status_table":{"type":"object","properties":{"value":{"type":"string"},"elementData":{"type":"object","properties":{"type":{"type":"string"}}},"displayValue":{"type":"string"}}},"associated_record":{"type":"object","properties":{"value":{"type":"string"},"elementData":{"type":"object","properties":{"type":{"type":"string"}}},"displayValue":{"type":"string"}}},"is_automated":{"type":"object","properties":{"value":{"type":"string"},"elementData":{"type":"object","properties":{"type":{"type":"string"}}},"displayValue":{"type":"string"}}}}}},"defaultValue":{"icon":{"value":"","elementData":{"type":"reference","reference":"st_sys_design_system_icon"},"displayValue":""},"description":{"value":"","elementData":{"type":"html"},"displayValue":""},"title":{"value":"","elementData":{"type":"string"}},"experience_status_record":{"value":"","elementData":{"type":"document_id"},"displayValue":""},"tagline":{"value":"","elementData":{"type":"string"}},"associated_table":{"value":"sys_flow_data","elementData":{"type":"table_name"},"displayValue":"sys_flow_data"},"footer":{"value":"","elementData":{"type":"string"}},"experience_status_table":{"value":"sys_flow_data","elementData":{"type":"table_name"},"displayValue":"sys_flow_data"},"associated_record":{"value":"","elementData":{"type":"document_id"},"displayValue":""},"is_automated":{"value":"false","elementData":{"type":"boolean"},"displayValue":"false"}},"selectable":false,"mandatory":false,"readOnly":false}]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ {
+  "name" : "formFieldItems",
+  "label" : "formFieldItems",
+  "fieldType" : "json",
+  "valueType" : "json",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : [ ]
+  }
+}, {
+  "name" : "hasSufficientData",
+  "label" : "hasSufficientData",
+  "fieldType" : "boolean",
+  "valueType" : "boolean",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  }
+}, {
+  "name" : "formFieldsRequired",
+  "label" : "formFieldsRequired",
+  "fieldType" : "boolean",
+  "valueType" : "boolean",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+} ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-11-03 19:40:45</sys_created_on>
+        <sys_id>03b8c0841b03d5506eb0a6c0604bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Non Compliance Investigation</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_macroponent_03b8c0841b03d5506eb0a6c0604bcbaa</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-11-03 19:40:45</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

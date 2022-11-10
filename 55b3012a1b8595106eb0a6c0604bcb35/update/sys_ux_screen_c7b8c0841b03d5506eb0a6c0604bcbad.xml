@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <app_config display_value="Playbook Builder Config">2ba981dcc31a201098c960bc0eba8f00</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Non Compliance Investigation">03b8c0841b03d5506eb0a6c0604bcbaa</macroponent>
+        <macroponent_config>{"parentTable":{"type":"JSON_LITERAL","value":"interaction"},"parentRecord":{"type":"JSON_LITERAL","value":"-1"},"associatedTable":{"type":"JSON_LITERAL","value":"interaction"},"associatedRecord":{"type":"JSON_LITERAL","value":"-1"},"activityLabel":{"type":"JSON_LITERAL","value":"Sample Activity"},"activityState":{"type":"JSON_LITERAL","value":"IN_PROGRESS"},"assignedTo":{"type":"JSON_LITERAL","value":{"value":"0a826bf03710200044e0bfc8bcbe5d7a","displayValue":"Adela Cervantsz","avatar":"58e13b44c3222010ae17dd981840ddd3.iix?t=small"}},"prioritized":{"type":"JSON_LITERAL","value":false},"fillContainer":{"type":"JSON_LITERAL","value":false},"activityDefinitionId":{"type":"JSON_LITERAL","value":"47e9278fff131010834953bd6338f16e"},"playbookExperienceId":{"type":"JSON_LITERAL","value":""},"configProperties":{"type":"JSON_LITERAL","value":{"showActivityState":true,"showAutomatedManualIndicator":true,"filterFields":"assigned_to","maxFormFieldsOnCard":15,"slaConfiguration":"","expandFirstPrioritizedCard":true,"pendingActivityDisplay":"SHOW_ALL"}},"playbookContext":{"type":"JSON_LITERAL","value":{"state":{"value":"IN_PROGRESS","displayValue":"In Progress"},"contextId":"b0f9599e5a613010021c69334198ef8a"}},"laneContext":{"type":"JSON_LITERAL","value":{"name":"","title":"","order":0,"state":{"value":"IN_PROGRESS","displayValue":"In Progress"},"contextId":""}},"advanced":{"type":"JSON_LITERAL","value":{"inUIBuilder":true,"associatedRecordModCount":0,"processedOn":0,"activityType":{"value":"e12af577871333003058d1a936cb0ba4","displayValue":"Record"},"contextId":"","filterData":[],"loading":false,"userSession":{},"expandOnMountOrChange":false,"workspaceConfigId":"","authorizedActions":["complete","skip","restart"],"formApi":{"requestReload":"","requestValidation":"","requestSubmitAction":"","dispatchDeclarativeAction":null,"formFieldsRequired":false,"modalDeclarativeAction":null}}}}</macroponent_config>
+        <name>Non-Compliant Event - Non Compliance Investigation</name>
+        <order>0</order>
+        <parent_macroponent display_value="Playbook App Shell">64f1d8fbc3ca201098c960bc0eba8fe3</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Custom Activity UIs">5b1efb5ac3113010948404186e40dd54</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-11-03 19:40:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c7b8c0841b03d5506eb0a6c0604bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Non-Compliant Event - Non Compliance Investigation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_screen_c7b8c0841b03d5506eb0a6c0604bcbad</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-11-03 19:40:45</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=c7b8c0841b03d5506eb0a6c0604bcbad"/>
+</record_update>

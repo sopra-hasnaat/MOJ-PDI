@@ -13,7 +13,7 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p>Please provide supporting evidence of the exception via an attachment.</p>]]></description>
+        <description><![CDATA[<p>Please provide supporting evidence of the absence via an attachment.</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -30,7 +30,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Request an Exception</name>
+        <name>Request Authorised Absence</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -79,7 +79,7 @@
 * Avoid `current.setAbortAction()` and generate a separate record
 * Use `producer.var1` to access variables
 */]]></script>
-        <short_description>Request an Exception</short_description>
+        <short_description>Request Authorised Absence</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state>published</state>
@@ -87,14 +87,14 @@
         <sys_created_by>rebecca.seiga.ems</sys_created_by>
         <sys_created_on>2022-09-21 10:14:40</sys_created_on>
         <sys_id>e8f9e8ca87ca1510952f87f5cebb35a0</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>Request an Exception</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Request Authorised Absence</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sc_cat_item_producer_e8f9e8ca87ca1510952f87f5cebb35a0</sys_update_name>
         <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
-        <sys_updated_on>2022-10-03 09:10:12</sys_updated_on>
+        <sys_updated_on>2022-11-09 16:18:29</sys_updated_on>
         <table_name>sn_customerservice_case</table_name>
         <taxonomy_topic/>
         <template/>

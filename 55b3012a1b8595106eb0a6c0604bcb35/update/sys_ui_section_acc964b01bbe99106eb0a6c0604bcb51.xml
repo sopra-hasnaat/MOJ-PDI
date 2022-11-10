@@ -3,98 +3,112 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-24 20:09:56</sys_created_on>
-            <sys_id>bc8f60781bbe99106eb0a6c0604bcb66</sys_id>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-03 12:32:24</sys_created_on>
+            <sys_id>20b66a3f1b7a95506eb0a6c0604bcb88</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Non-Compliance" display_value="Non-Compliance" name="x_ster2_emfs_non_compliance" sys_domain="global" view="Default view">acc964b01bbe99106eb0a6c0604bcb51</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-24 20:09:56</sys_updated_on>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-03 12:32:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assignment_group</element>
             <position>1</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-24 20:09:56</sys_created_on>
-            <sys_id>b08f60781bbe99106eb0a6c0604bcb67</sys_id>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-03 12:32:24</sys_created_on>
+            <sys_id>68b66a3f1b7a95506eb0a6c0604bcb88</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Non-Compliance" display_value="Non-Compliance" name="x_ster2_emfs_non_compliance" sys_domain="global" view="Default view">acc964b01bbe99106eb0a6c0604bcb51</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-24 20:09:56</sys_updated_on>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-03 12:32:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
             <position>2</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-24 20:09:56</sys_created_on>
-            <sys_id>b48f60781bbe99106eb0a6c0604bcb67</sys_id>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-03 12:32:24</sys_created_on>
+            <sys_id>6cb66a3f1b7a95506eb0a6c0604bcb88</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Non-Compliance" display_value="Non-Compliance" name="x_ster2_emfs_non_compliance" sys_domain="global" view="Default view">acc964b01bbe99106eb0a6c0604bcb51</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-24 20:09:56</sys_updated_on>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-03 12:32:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>3</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-24 20:09:56</sys_created_on>
-            <sys_id>b88f60781bbe99106eb0a6c0604bcb67</sys_id>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-03 12:32:24</sys_created_on>
+            <sys_id>60b66a3f1b7a95506eb0a6c0604bcb89</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Non-Compliance" display_value="Non-Compliance" name="x_ster2_emfs_non_compliance" sys_domain="global" view="Default view">acc964b01bbe99106eb0a6c0604bcb51</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-24 20:09:56</sys_updated_on>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-03 12:32:24</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
             <position>4</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-24 20:09:56</sys_created_on>
-            <sys_id>bc8f60781bbe99106eb0a6c0604bcb67</sys_id>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-03 12:32:24</sys_created_on>
+            <sys_id>64b66a3f1b7a95506eb0a6c0604bcb89</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Non-Compliance" display_value="Non-Compliance" name="x_ster2_emfs_non_compliance" sys_domain="global" view="Default view">acc964b01bbe99106eb0a6c0604bcb51</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-24 20:09:56</sys_updated_on>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-03 12:32:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
             <position>5</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-24 20:09:56</sys_created_on>
-            <sys_id>b08f60781bbe99106eb0a6c0604bcb68</sys_id>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-03 12:32:24</sys_created_on>
+            <sys_id>68b66a3f1b7a95506eb0a6c0604bcb89</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Non-Compliance" display_value="Non-Compliance" name="x_ster2_emfs_non_compliance" sys_domain="global" view="Default view">acc964b01bbe99106eb0a6c0604bcb51</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-24 20:09:56</sys_updated_on>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-03 12:32:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>outcome</element>
             <position>6</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-24 20:09:56</sys_created_on>
-            <sys_id>b48f60781bbe99106eb0a6c0604bcb68</sys_id>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-03 12:32:24</sys_created_on>
+            <sys_id>6cb66a3f1b7a95506eb0a6c0604bcb89</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Non-Compliance" display_value="Non-Compliance" name="x_ster2_emfs_non_compliance" sys_domain="global" view="Default view">acc964b01bbe99106eb0a6c0604bcb51</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-24 20:09:56</sys_updated_on>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-03 12:32:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>noncomplianceassessment</element>
+            <position>7</position>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-03 12:32:24</sys_created_on>
+            <sys_id>60b66a3f1b7a95506eb0a6c0604bcb8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Non-Compliance" display_value="Non-Compliance" name="x_ster2_emfs_non_compliance" sys_domain="global" view="Default view">acc964b01bbe99106eb0a6c0604bcb51</sys_ui_section>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-03 12:32:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -26,5 +26,6 @@
             </choice>
         </element>
         <element label="Device Wearer" max_length="32" name="subject" reference="x_ster2_emfs_subject" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Court Result Received Date &amp; Time" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
     </element>
 </database>

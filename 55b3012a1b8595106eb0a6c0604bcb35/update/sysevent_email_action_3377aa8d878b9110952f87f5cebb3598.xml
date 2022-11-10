@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_ster2_emfs_non_compliance</collection>
+        <condition table="x_ster2_emfs_non_compliance">outcome=warning_letter^EQ<item display_value="Warning Letter" endquery="false" field="outcome" goto="false" newquery="false" operator="=" or="false" value="warning_letter"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p style="margin: 0cm; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">MFS COMPANY NAME</p>
+<p style="margin: 0cm; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">Address</p>
+<p style="margin: 0cm; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">Tel:</p>
+<p style="margin: 0cm; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">Web:</p>
+<p style="margin: 0cm 0cm 12pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">QR CODE TO APP?</p>
+<p style="margin: 0cm 0cm 12pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">${subject.first_name}&nbsp; ${subject.last_name}</p>
+<p style="margin: 0cm; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">${subject.address_line_1}</p>
+<p style="margin: 0cm; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">${subject.address_line_2}</p>
+<p style="margin: 0cm; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">${subject.city}</p>
+<p style="margin: 0cm; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">${subject.post_code}</p>
+<p style="margin: 0cm; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="text-align: center; margin: 0cm; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>WARNING LETTER</strong></p>
+<p style="margin: 20pt 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">Dear ${subject.first_name}&nbsp; ${subject.last_name}</p>
+<p style="margin: 0cm 0cm 12pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">&ldquo;EMFS COMPANY NAME&rdquo; has identified that you failed to comply with you electronic monitoring requirement made on <span style="color: red;">&nbsp;${notification_date_time}</span>&nbsp;at <span style="color: red;">NAME of COURT </span>on the following occasions:</p>
+<ol style="margin-bottom: 8pt; margin-top: 0px; list-style-position: inside;">
+<li style="color: red;"><strong>NON COMPLIANCE TYPE DD/MM/YYYY at HH:MM:SS &nbsp;(<span style="color: red;">SELECTED IN PLAYBOOK</span>)</strong></li>
+</ol>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">On this occasion we are issuing you with a warning letter to remind you of the importance of complying with your electronic monitoring requirement.</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">Please contact us or provide us with any evidence you may have in regard to the aforementioned non compliance so we can review this.</p>
+<p style="margin: 0cm 0cm 12pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 50pt; break-after: avoid; font-size: 11pt; font-family: Calibri, sans-serif;">Sincerely,</p>
+<p style="margin: 0cm; line-height: 115%; break-after: avoid; font-size: 11pt; font-family: Calibri, sans-serif;">Created by: ${sys_created_by}</p>
+<p style="margin: 0cm; line-height: 115%; break-after: avoid; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="color: red;">&nbsp;</span></p>
+<p style="margin: 0cm 0cm 18pt; line-height: 115%; break-after: avoid; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="color: red;">INITIALS OF USER CREATING DOC</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Warning Letter non c</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>subject.email</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Warning Letter</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-11-07 09:51:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3377aa8d878b9110952f87f5cebb3598</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Warning Letter non c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sysevent_email_action_3377aa8d878b9110952f87f5cebb3598</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-11-07 10:04:07</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

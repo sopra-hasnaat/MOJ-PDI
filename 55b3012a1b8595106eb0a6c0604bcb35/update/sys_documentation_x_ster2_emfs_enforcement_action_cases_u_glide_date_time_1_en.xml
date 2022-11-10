@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_glide_date_time_1" label="Court Result Received Date &amp; Time" language="en" table="x_ster2_emfs_enforcement_action_cases">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_glide_date_time_1</element>
+            <help/>
+            <hint/>
+            <label>Court Result Received Date &amp; Time</label>
+            <language>en</language>
+            <name>x_ster2_emfs_enforcement_action_cases</name>
+            <plural>Court Result Received Date &amp; Times</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-03 13:13:45</sys_created_on>
+            <sys_id>0e207ab71bba95506eb0a6c0604bcbd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Court Result Received Date &amp; Time</sys_name>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_documentation_x_ster2_emfs_enforcement_action_cases_u_glide_date_time_1_en</sys_update_name>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-03 13:13:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -13,7 +13,7 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p><span style="color: #ff0000;">Use this form only if the Subject already exists in the database</span></p>]]></description>
+        <description><![CDATA[<p><span style="color: #ff0000;">Use this form only if the Device Wearer already exists in the database</span></p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -30,7 +30,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>New Monitoring Order</name>
+        <name>New Monitoring Order (Old)</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -82,7 +82,7 @@ grCase.category = 5;
 grCase.expected_start = producer.start_date_time;
 grCase.contact = gs.getUserID();
 grCase.insert();]]></script>
-        <short_description>New Monitoring Order for an exisiting Subject</short_description>
+        <short_description>New Monitoring Order for an existing Device Wearer</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state>published</state>
@@ -90,14 +90,14 @@ grCase.insert();]]></script>
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-08-05 13:32:58</sys_created_on>
         <sys_id>ca75d7f287891910952f87f5cebb35ec</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>New Monitoring Order</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>New Monitoring Order (Old)</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sc_cat_item_producer_ca75d7f287891910952f87f5cebb35ec</sys_update_name>
-        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-10-20 10:04:18</sys_updated_on>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-10 18:49:39</sys_updated_on>
         <table_name>x_ster2_emfs_monitoring_order</table_name>
         <taxonomy_topic/>
         <template/>

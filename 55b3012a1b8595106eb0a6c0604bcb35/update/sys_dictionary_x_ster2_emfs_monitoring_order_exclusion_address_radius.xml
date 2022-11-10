@@ -9,7 +9,7 @@
         <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Exclusion Zone Radius</column_label>
+        <column_label>Exclusion Address Radius</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -49,14 +49,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-09 20:06:19</sys_created_on>
         <sys_id>cc2803391b8755106eb0a6c0604bcb93</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Exclusion Zone Radius</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Exclusion Address Radius</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_dictionary_x_ster2_emfs_monitoring_order_exclusion_address_radius</sys_update_name>
-        <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-11-09 20:06:21</sys_updated_on>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-10 18:32:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
