@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>400</order>
+        <published_ref display_value="Non-Fitted">0dfb1b1e87aa9110952f87f5cebb35db</published_ref>
+        <question display_value="Monitoring Type">db9088161b4b95106eb0a6c0604bcb2f</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-10 18:51:36</sys_created_on>
+        <sys_id>db9088161b4b95106eb0a6c0604bcb3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Non-Fitted</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_db9088161b4b95106eb0a6c0604bcb3b</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-10 18:51:36</sys_updated_on>
+        <text>Non-Fitted</text>
+        <value>non_fitted</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=db9088161b4b95106eb0a6c0604bcb3b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_db9088161b4b95106eb0a6c0604bcb3b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>400</order><published_ref display_value="Non-Fitted">0dfb1b1e87aa9110952f87f5cebb35db</published_ref><question display_value="Monitoring Type">db9088161b4b95106eb0a6c0604bcb2f</question><sys_class_name>question_choice</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-11-10 18:51:36</sys_created_on><sys_id>db9088161b4b95106eb0a6c0604bcb3b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Non-Fitted</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>question_choice_db9088161b4b95106eb0a6c0604bcb3b</sys_update_name><sys_updated_by>hasnaat.khan.ems</sys_updated_by><sys_updated_on>2022-11-10 18:51:36</sys_updated_on><text>Non-Fitted</text><value>non_fitted</value></question_choice><fx_price action="delete_multiple" query="id=db9088161b4b95106eb0a6c0604bcb3b"/></record_update>]]></payload>
+        <payload_hash>-1072015033</payload_hash>
+        <record_name>Non-Fitted</record_name>
+        <reverted_from/>
+        <source>9b20f8ba1b66d1106eb0a6c0604bcb1c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-10 18:51:36</sys_created_on>
+        <sys_id>d39088161b4b95106eb0a6c0604bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18462e21cbf0000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-10 18:51:36</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>5b9088166f4b9510ff187cd7855da33d</update_guid>
+        <update_guid_history>5b9088166f4b9510ff187cd7855da33d:-1072015033</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Non-Fitted">933dc4521b8b95106eb0a6c0604bcba2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-10 19:46:46</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>672bf3025e70407db290a532eeaccd51</sys_id>
+        <sys_metadata>db9088161b4b95106eb0a6c0604bcb3b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Non-Fitted</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_db9088161b4b95106eb0a6c0604bcb3b</sys_update_name>
+        <sys_update_version display_value="question_choice_db9088161b4b95106eb0a6c0604bcb3b">d39088161b4b95106eb0a6c0604bcb3e</sys_update_version>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-10 19:46:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

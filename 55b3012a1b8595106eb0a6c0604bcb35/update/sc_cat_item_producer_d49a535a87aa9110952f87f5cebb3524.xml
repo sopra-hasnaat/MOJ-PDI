@@ -7,7 +7,7 @@
         <billable>false</billable>
         <can_cancel>true</can_cancel>
         <category display_value="Services">4cb69d19c3921200b0449f2974d3ae69</category>
-        <checked_out>true</checked_out>
+        <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>
@@ -30,7 +30,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>New Monitoring Order</name>
+        <name>New Order</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -79,7 +79,7 @@
 * Avoid `current.setAbortAction()` and generate a separate record
 * Use `producer.var1` to access variables
 */]]></script>
-        <short_description>New Monitoring Order</short_description>
+        <short_description>New Order</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state>published</state>
@@ -88,13 +88,13 @@
         <sys_created_on>2022-10-17 14:13:40</sys_created_on>
         <sys_id>d49a535a87aa9110952f87f5cebb3524</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name>New Monitoring Order</sys_name>
+        <sys_name>New Order</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sc_cat_item_producer_d49a535a87aa9110952f87f5cebb3524</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-11-09 11:51:54</sys_updated_on>
+        <sys_updated_on>2022-11-11 00:40:27</sys_updated_on>
         <table_name>x_ster2_emfs_monitoring_order</table_name>
         <taxonomy_topic/>
         <template/>

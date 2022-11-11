@@ -6,7 +6,7 @@
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
-        <comments>Qualified action is available to  Entry Order team when monitoring order is in New status</comments>
+        <comments>Confirmed action is available to  Entry Order team when monitoring order is in New status</comments>
         <condition>current.state == 1;</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
@@ -27,12 +27,16 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>Qualified</name>
+        <name>Confirmed</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[current.state = 3; //Set state to LIVE
+        <script><![CDATA[// var confirmeddate = new GlideDateTime();
+// current.confirmed_date = confirmeddate.getDateTime();
+current.state = 3; //Set state to LIVE
 current.update();
-action.setRedirectURL(current);]]></script>
+action.setRedirectURL(current);
+
+]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -43,15 +47,15 @@ action.setRedirectURL(current);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b4a67aa387765950952f87f5cebb3579</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_name>Qualified</sys_name>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Confirmed</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_ui_action_b4a67aa387765950952f87f5cebb3579</sys_update_name>
-        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-11-03 09:58:49</sys_updated_on>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-11 00:35:51</sys_updated_on>
         <table>x_ster2_emfs_monitoring_order</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

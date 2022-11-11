@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>question-circle</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category display_value="How to">28ddee1b1b2dd5906eb0a6c0604bcbdd</kb_category>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">9c468c90874fd950952f87f5cebb359f</sp_column>
+        <sp_page display_value="kb_home">e1c919e4dbd3220099f93691f0b8f535</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-31 20:35:12</sys_created_on>
+        <sys_id>747fae9b1b2dd5906eb0a6c0604bcb00</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>How Do I?</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_instance_link_747fae9b1b2dd5906eb0a6c0604bcb00</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-04 14:08:25</sys_updated_on>
+        <title>How Do I?</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=747fae9b1b2dd5906eb0a6c0604bcb00"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sp_instance_link_747fae9b1b2dd5906eb0a6c0604bcb00</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;question-circle&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category display_value="How to"&gt;28ddee1b1b2dd5906eb0a6c0604bcbdd&lt;/kb_category&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;9c468c90874fd950952f87f5cebb359f&lt;/sp_column&gt;&lt;sp_page display_value="kb_home"&gt;e1c919e4dbd3220099f93691f0b8f535&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;des.king.ems&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-31 20:35:12&lt;/sys_created_on&gt;&lt;sys_id&gt;747fae9b1b2dd5906eb0a6c0604bcb00&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;How Do I?&lt;/sys_name&gt;&lt;sys_package display_value="Electronic Monitoring" source="x_ster2_emfs"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Electronic Monitoring"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_747fae9b1b2dd5906eb0a6c0604bcb00&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;hasnaat.khan.ems&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-04 14:08:25&lt;/sys_updated_on&gt;&lt;title&gt;How Do I?&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=747fae9b1b2dd5906eb0a6c0604bcb00"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-830736144</payload_hash>
+        <record_name>How Do I?</record_name>
+        <reverted_from/>
+        <source>877c8dab877e1950952f87f5cebb356c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-04 14:08:25</sys_created_on>
+        <sys_id>bc468c90874fd950952f87f5cebb35b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18442f8b0b20000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-04 14:08:25</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>f4468c90a54fd950d032e57c776787b5</update_guid>
+        <update_guid_history>f4468c90a54fd950d032e57c776787b5:-830736144,f369c7178dadd590a1c3e5b53e89d202:221627121,7869c717e6add590ad1affb3f22cf934:74127891,f6a2729fa62dd5907314b1ddb80e2f65:982312674,d2b07edb212dd59042749a9ed3113ec1:-2026733940,0effa6dbb22dd5907ef7066d6d79240e:351311693,6cdfae9b592dd5900e0812a1a5147bbf:-1581296674,f07fae9bae2dd5902973a60276e52c02:745405205</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="How Do I?">4831b4d61b0f95106eb0a6c0604bcbab</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-10 22:23:49</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>6a2e1ff0d4d3480dbb8ccdadf65585e1</sys_id>
+        <sys_metadata>747fae9b1b2dd5906eb0a6c0604bcb00</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How Do I?</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sp_instance_link_747fae9b1b2dd5906eb0a6c0604bcb00</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_747fae9b1b2dd5906eb0a6c0604bcb00">bc468c90874fd950952f87f5cebb35b5</sys_update_version>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-10 22:23:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
