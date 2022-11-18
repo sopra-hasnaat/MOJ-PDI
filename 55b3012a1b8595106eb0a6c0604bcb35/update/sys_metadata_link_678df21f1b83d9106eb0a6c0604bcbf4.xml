@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>2b8df21f1b83d9106eb0a6c0604bcbf2</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_model_part_requirement">
+    <cmdb_model_part_requirement action="INSERT_OR_UPDATE">
+        <mandatory>true</mandatory>
+        <model display_value="SCRAM CAM Bundle">27b6f382877159d0952f87f5cebb358a</model>
+        <order>0</order>
+        <required_quantity>1</required_quantity>
+        <service_order_task display_value="Install RF Tag">aa693c0aa6d2e0aa605e0aa61790aa6a</service_order_task>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-11-14 11:11:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2b8df21f1b83d9106eb0a6c0604bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 11:11:01</sys_updated_on>
+    </cmdb_model_part_requirement>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-11-14 11:11:01</sys_created_on>
+        <sys_id>678df21f1b83d9106eb0a6c0604bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 14/11/2022 11:11:01</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_metadata_link_678df21f1b83d9106eb0a6c0604bcbf4</sys_update_name>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 11:11:01</sys_updated_on>
+        <tablename>cmdb_model_part_requirement</tablename>
+    </sys_metadata_link>
+</record_update>

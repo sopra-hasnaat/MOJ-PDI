@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Responsible Officer  - New Tab">fc681e4c871bdd10952f87f5cebb3543</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 16/11/2022 16:49:29">813e1604875bdd10952f87f5cebb35a0</portal_widget>
+        <posx>0</posx>
+        <posy>20</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-11-16 16:49:29</sys_created_on>
+        <sys_id>853e9a04875bdd10952f87f5cebb3552</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>fc681e4c871bdd10952f87f5cebb3543</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_853e9a04875bdd10952f87f5cebb3552</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-11-16 16:49:36</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+</record_update>

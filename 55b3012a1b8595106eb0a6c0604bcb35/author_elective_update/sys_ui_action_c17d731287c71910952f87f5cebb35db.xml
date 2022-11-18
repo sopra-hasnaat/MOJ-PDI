@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name/>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>true</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Sign and Confirm</name>
+        <onclick/>
+        <order>100</order>
+        <script/>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-11-11 13:16:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c17d731287c71910952f87f5cebb35db</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Sign and Confirm</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ui_action_c17d731287c71910952f87f5cebb35db</sys_update_name>
+        <sys_updated_by>josh.higham.ems</sys_updated_by>
+        <sys_updated_on>2022-11-11 14:21:31</sys_updated_on>
+        <table>wm_task</table>
+        <ui11_compatible>false</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_ui_action_c17d731287c71910952f87f5cebb35db</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;true&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Sign and Confirm&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script/&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;paul.fraser.ems&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-11 13:16:39&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c17d731287c71910952f87f5cebb35db&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Sign and Confirm&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Electronic Monitoring" source="x_ster2_emfs"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Electronic Monitoring"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_c17d731287c71910952f87f5cebb35db&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;josh.higham.ems&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-11 14:21:31&lt;/sys_updated_on&gt;&lt;table&gt;wm_task&lt;/table&gt;&lt;ui11_compatible&gt;false&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>559143790</payload_hash>
+        <record_name>Sign and Confirm</record_name>
+        <reverted_from/>
+        <source>40f530ff87cf5d10952f87f5cebb353e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-15 14:35:28</sys_created_on>
+        <sys_id>80f530ff87cf5d10952f87f5cebb3572</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1847bb76a5e0000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-15 14:35:28</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>706c442aeb8bd510e355e519fd6b1ddd</update_guid>
+        <update_guid_history>706c442aeb8bd510e355e519fd6b1ddd:559143790,9d3f9b539747d9104be2588303149759:1079298180,3dacd39fa107d91038e299b516709166:304354413,2e9c539f0007d91092126caf0a132b9c:-606717958,8e7c575f6207d9107a8e4df429665b86:63156589,329bdf1ffd07d910959761a5007ca509:1574463928,148b571f6007d910c7cb7a698493d4e0:1604491929,10da5bdbc707d910af003a1e5e475ab2:1677563034,e84a13dbd507d910d7e993c908f519cf:-606717958,6859df5b5807d910f5d27998dc8b9890:83263878,ce3ae42ec00fd510168cc8956fbf841d:-606717958,1a68a8aa4b0fd51038d28b918237ab78:83263878,9d2824aa3a0fd510c4c97c6701eb0ed4:2075994786,63602c62080fd510d04b3c35d115aeb4:83263878,6c30a4629e0fd51070ee924e436efc33:-606717958,3ebf5422130fd51096d953033ffdf868:-867307754,a27f98eec3cbd5104eedf0ce2e972344:711211550,0b8edc6e6ecbd510f0aa05aebaf75a23:83263878,706c442aeb8bd510e355e519fd6b1ddd:559143790,524c442ae58bd510599fdec2fc83604d:-684403405,ea8dbfde9f8719102342d0e71f50fc28:2116042452</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-15 15:41:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>6eeafafb3317422099616c2365fde1c1</sys_id>
+        <sys_metadata>c17d731287c71910952f87f5cebb35db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sign and Confirm</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="Wm Task">cd66eae18781d110952f87f5cebb3537</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_ui_action_c17d731287c71910952f87f5cebb35db</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_c17d731287c71910952f87f5cebb35db">80f530ff87cf5d10952f87f5cebb3572</sys_update_version>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-15 15:41:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

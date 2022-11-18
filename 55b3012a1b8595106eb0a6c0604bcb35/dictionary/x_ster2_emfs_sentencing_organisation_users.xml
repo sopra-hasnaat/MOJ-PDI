@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_user" label="Sentencing Organisation users" max_length="40" name="x_ster2_emfs_sentencing_organisation_users" sizeclass="2" text_index="true" type="collection">
+    <element extends="sys_user" label="Notifying Organisation users" max_length="40" name="x_ster2_emfs_sentencing_organisation_users" sizeclass="2" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
-        <element label="Sentencing Organisation" max_length="32" name="sentencing_organisation" reference="x_ster2_emfs_sentencing_organisations" reference_qual="javascript:'type='+current.type;" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Sentencing Organisation" max_length="32" name="sentencing_organisation" reference="x_ster2_emfs_sentencing_organisations" reference_qual="typeLIKE8f71f01f1b3615506eb0a6c0604bcbf4^ORtypeLIKEc971701f1b3615506eb0a6c0604bcb26^ORtypeLIKEb65c746b873e1950952f87f5cebb35bd^EQ" reference_qual_condition="typeLIKE8f71f01f1b3615506eb0a6c0604bcbf4^ORtypeLIKEc971701f1b3615506eb0a6c0604bcb26^ORtypeLIKEb65c746b873e1950952f87f5cebb35bd^EQ" type="reference"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="IRC" value="irc"/>

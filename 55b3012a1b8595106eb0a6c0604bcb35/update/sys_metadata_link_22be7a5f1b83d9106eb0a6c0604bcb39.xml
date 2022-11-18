@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>507cc60507f12050726205070260507f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_worktask_product_model">
+    <cmdb_worktask_product_model action="INSERT_OR_UPDATE">
+        <acquisition_method/>
+        <asset_tracking_strategy>leave_to_category</asset_tracking_strategy>
+        <asset_tracking_unit display_value="Individual Unit">51a74add0f233300fee7579ac4767e59</asset_tracking_unit>
+        <assignment_group/>
+        <barcode/>
+        <bundle>false</bundle>
+        <bundle_assets>false</bundle_assets>
+        <certified>false</certified>
+        <checklist_template/>
+        <cmdb_ci_class/>
+        <cmdb_model_category>98b44470d7311100158ba6859e610353</cmdb_model_category>
+        <comments/>
+        <company/>
+        <customer_visible>false</customer_visible>
+        <depreciation/>
+        <description/>
+        <dispatch_group/>
+        <display_name>Pre-Visit Checks</display_name>
+        <expenditure_type/>
+        <flow_rate/>
+        <full_name/>
+        <is_migrated>true</is_migrated>
+        <life_cycle_stage/>
+        <life_cycle_stage_status/>
+        <main_component/>
+        <manufacturer/>
+        <model_number/>
+        <name>Pre-Visit Checks</name>
+        <norm_status_sumry_function/>
+        <owner/>
+        <picture/>
+        <power_consumption/>
+        <product_catalog_item/>
+        <rack_units>1</rack_units>
+        <requires_crew>true</requires_crew>
+        <short_description>Pre-Visit Checks</short_description>
+        <sla/>
+        <sound_power/>
+        <status>In Production</status>
+        <sys_class_name>cmdb_worktask_product_model</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-11-14 11:16:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>507cc60507f12050726205070260507f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 11:18:14</sys_updated_on>
+        <task_description/>
+        <task_estimated_duration/>
+        <task_skills/>
+        <type>Generic</type>
+        <weight/>
+        <work_type display_value="Install">999469283bca10103f09080044efc4cf</work_type>
+    </cmdb_worktask_product_model>
+    <fx_price action="delete_multiple" query="id=507cc60507f12050726205070260507f"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=507cc60507f12050726205070260507f"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-11-14 11:16:09</sys_created_on>
+        <sys_id>22be7a5f1b83d9106eb0a6c0604bcb39</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Pre-Visit Checks</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_metadata_link_22be7a5f1b83d9106eb0a6c0604bcb39</sys_update_name>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 11:18:14</sys_updated_on>
+        <tablename>cmdb_worktask_product_model</tablename>
+    </sys_metadata_link>
+</record_update>

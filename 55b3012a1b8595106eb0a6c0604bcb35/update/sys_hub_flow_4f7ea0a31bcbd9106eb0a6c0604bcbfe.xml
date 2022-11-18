@@ -1,0 +1,1877 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>rasie_remove_task_when_order_is_ceased</internal_name>
+        <label_cache>[{"name":"3cbd3e6b-192c-4687-b1eb-26a311020e30.item.subject_name.risk_comments","label":"2 - For Each➛Monitoring Order Record➛Device Wearer➛Risk Comments","reference":"","reference_display":"Risk Comments","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"risk_comments"},{"name":"fae516ad-7d22-4028-81e7-9863bd7cfb33.Records","label":"1 - Look Up Records➛Records","reference_display":"Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fae516ad-7d22-4028-81e7-9863bd7cfb33.Table","label":"1 - Look Up Records➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fae516ad-7d22-4028-81e7-9863bd7cfb33.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fae516ad-7d22-4028-81e7-9863bd7cfb33.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"fae516ad-7d22-4028-81e7-9863bd7cfb33.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"39a366d8-612f-4fd8-b483-c3555ac14035.Records","label":"1 - Look Up Records➛Records","reference_display":"Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"39a366d8-612f-4fd8-b483-c3555ac14035.Table","label":"1 - Look Up Records➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"39a366d8-612f-4fd8-b483-c3555ac14035.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"39a366d8-612f-4fd8-b483-c3555ac14035.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"39a366d8-612f-4fd8-b483-c3555ac14035.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"001670c5-cdd1-405a-b08b-78106456c735.Records","label":"1 - Look Up Records➛Monitoring Order Records","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"001670c5-cdd1-405a-b08b-78106456c735.Table","label":"1 - Look Up Records➛Monitoring Order Table","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"001670c5-cdd1-405a-b08b-78106456c735.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"001670c5-cdd1-405a-b08b-78106456c735.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"001670c5-cdd1-405a-b08b-78106456c735.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3cbd3e6b-192c-4687-b1eb-26a311020e30.item","label":"2 - For Each➛Monitoring Order Record","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"d84300ee-1e3f-445b-b1ad-c216299da3e2.Records","label":"3 - Look Up Records➛Curfew Location Records","reference":"x_ster2_emfs_curfew_location","reference_display":"Curfew Location","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d84300ee-1e3f-445b-b1ad-c216299da3e2.Table","label":"3 - Look Up Records➛Curfew Location Table","reference":"x_ster2_emfs_curfew_location","reference_display":"Curfew Location","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d84300ee-1e3f-445b-b1ad-c216299da3e2.Count","label":"3 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d84300ee-1e3f-445b-b1ad-c216299da3e2.__action_status__","label":"3 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"d84300ee-1e3f-445b-b1ad-c216299da3e2.__dont_treat_as_error__","label":"3 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"22cd7d6b-3588-42ed-8a75-4709533f40ff.Case","label":"4 - Create Case➛Case","reference":"sn_customerservice_case","reference_display":"Case","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"22cd7d6b-3588-42ed-8a75-4709533f40ff.__action_status__","label":"4 - Create Case➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"22cd7d6b-3588-42ed-8a75-4709533f40ff.__dont_treat_as_error__","label":"4 - Create Case➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3cbd3e6b-192c-4687-b1eb-26a311020e30.item.subject_name.subject_name","label":"2 - For Each➛Monitoring Order Record➛Device Wearer➛Subject Name","reference":"","reference_display":"Subject Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"subject_name"},{"name":"3cbd3e6b-192c-4687-b1eb-26a311020e30.item.subject_name.sys_id","label":"2 - For Each➛Monitoring Order Record➛Device Wearer➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_subject","column_name":"sys_id"},{"name":"d685c95c-db18-4b07-871a-a6e279d58c03.Record","label":"3 - Look Up Record➛Curfew Location Record","reference":"x_ster2_emfs_curfew_location","reference_display":"Curfew Location","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d685c95c-db18-4b07-871a-a6e279d58c03.Table","label":"3 - Look Up Record➛Curfew Location Table","reference":"x_ster2_emfs_curfew_location","reference_display":"Curfew Location","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d685c95c-db18-4b07-871a-a6e279d58c03.status","label":"3 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"d685c95c-db18-4b07-871a-a6e279d58c03.error_message","label":"3 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"d685c95c-db18-4b07-871a-a6e279d58c03.__action_status__","label":"3 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d685c95c-db18-4b07-871a-a6e279d58c03.__dont_treat_as_error__","label":"3 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d685c95c-db18-4b07-871a-a6e279d58c03.Record.sys_id","label":"3 - Look Up Record➛Curfew Location Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_curfew_location","column_name":"sys_id"},{"name":"a529184a-866b-4411-8b32-af11e297b884.Work Order","label":"5 - Create Work Order➛Work Order","reference":"wm_order","reference_display":"Work Order","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a529184a-866b-4411-8b32-af11e297b884.__action_status__","label":"5 - Create Work Order➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a529184a-866b-4411-8b32-af11e297b884.__dont_treat_as_error__","label":"5 - Create Work Order➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.sys_id","label":"4 - Create Case➛Case➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_customerservice_case","column_name":"sys_id"},{"name":"22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.expected_start","label":"4 - Create Case➛Case➛Expected start","reference":"","reference_display":"Expected start","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sn_customerservice_case","column_name":"expected_start"},{"name":"22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.u_subject.subject_name","label":"4 - Create Case➛Case➛Device Wearer➛Subject Name","reference":"","reference_display":"Subject Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"subject_name"},{"name":"22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.u_subject.risk_comments","label":"4 - Create Case➛Case➛Device Wearer➛Risk Comments","reference":"","reference_display":"Risk Comments","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"risk_comments"},{"name":"d685c95c-db18-4b07-871a-a6e279d58c03.Record.risk_notes","label":"3 - Look Up Record➛Curfew Location Record➛Risk Notes","reference":"","reference_display":"Risk Notes","type":"html","base_type":"html","parent_table_name":"x_ster2_emfs_curfew_location","column_name":"risk_notes"},{"name":"22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.u_subject.sys_id","label":"4 - Create Case➛Case➛Device Wearer➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_subject","column_name":"sys_id"},{"name":"22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.location.sys_id","label":"4 - Create Case➛Case➛Location➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"cmn_location","column_name":"sys_id"},{"name":"9f7d8b6f-7e38-4275-9fd3-f066f7d9509e.item","label":"6 - For Each➛Monitoring Order Record","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"60fd2d0b-a674-4a83-9753-dd590916191f.record","label":"7 - Update Record➛Monitoring Order Record","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"60fd2d0b-a674-4a83-9753-dd590916191f.table_name","label":"7 - Update Record➛Monitoring Order Table","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"60fd2d0b-a674-4a83-9753-dd590916191f.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"60fd2d0b-a674-4a83-9753-dd590916191f.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>c305f06b1bcbd9106eb0a6c0604bcb67</master_snapshot>
+        <name>Raise Remove Task when Order is ceased.</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>2b05346b1bcbd9106eb0a6c0604bcb0d</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:24:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4f7ea0a31bcbd9106eb0a6c0604bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Raise Remove Task when Order is ceased.</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_hub_flow_4f7ea0a31bcbd9106eb0a6c0604bcbfe</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-15 14:34:53</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=4f7ea0a31bcbd9106eb0a6c0604bcbfe"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4f7ea0a31bcbd9106eb0a6c0604bcbfe"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_ster2_emfs_monitoring_order">stateCHANGESTO7^outcomeCHANGESTOcease<item display_value="Revoked" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="7"/>
+            <item display_value="Cease" endquery="false" field="outcome" goto="false" newquery="false" operator="CHANGESTO" or="false" value="cease"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2b05346b1bcbd9106eb0a6c0604bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:07</sys_updated_on>
+        <table>x_ster2_emfs_monitoring_order</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"d7b930631b0fd9106eb0a6c0604bcba9","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>4f7ea0a31bcbd9106eb0a6c0604bcbfe</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 20:13:35</sys_created_on>
+        <sys_id>d7b930631b0fd9106eb0a6c0604bcba9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:35</sys_updated_on>
+        <trigger display_value="">2b05346b1bcbd9106eb0a6c0604bcb0d</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>d7b930631b0fd9106eb0a6c0604bcba9</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 20:13:35</sys_created_on>
+        <sys_id>d3b930631b0fd9106eb0a6c0604bcbaa</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=4f7ea0a31bcbd9106eb0a6c0604bcbfe^sys_idNOT INd7b930631b0fd9106eb0a6c0604bcba9"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=4f7ea0a31bcbd9106eb0a6c0604bcbfe^sys_idNOT INff74342b1bcbd9106eb0a6c0604bcb61"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Raise Remove Task when Order is ceased.">4f7ea0a31bcbd9106eb0a6c0604bcbfe</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:41</sys_created_on>
+        <sys_id>ff74342b1bcbd9106eb0a6c0604bcb61</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:35</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ff74342b1bcbd9106eb0a6c0604bcb61"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ff74342b1bcbd9106eb0a6c0604bcb61</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:41</sys_created_on>
+        <sys_id>7374342b1bcbd9106eb0a6c0604bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:41</sys_updated_on>
+        <value>stateCHANGESTO7^outcomeCHANGESTOcease</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ff74342b1bcbd9106eb0a6c0604bcb61</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:41</sys_created_on>
+        <sys_id>7b74342b1bcbd9106eb0a6c0604bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:41</sys_updated_on>
+        <value>x_ster2_emfs_monitoring_order</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=ff74342b1bcbd9106eb0a6c0604bcb61"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=4f7ea0a31bcbd9106eb0a6c0604bcbfe"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=4f7ea0a31bcbd9106eb0a6c0604bcbfe^sys_idNOT INcb7ea0a31bcbd9106eb0a6c0604bcbff"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>4f7ea0a31bcbd9106eb0a6c0604bcbfe</id>
+        <name>Rasie Remove Task when Order is ceased.</name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:24:25</sys_created_on>
+        <sys_id>cb7ea0a31bcbd9106eb0a6c0604bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:24:25</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=cb7ea0a31bcbd9106eb0a6c0604bcbff"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=4f7ea0a31bcbd9106eb0a6c0604bcbfe^sys_idNOT IN3b74342b1bcbd9106eb0a6c0604bcb5c,bb74342b1bcbd9106eb0a6c0604bcb58,bf74342b1bcbd9106eb0a6c0604bcb53"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Raise Remove Task when Order is ceased.">4f7ea0a31bcbd9106eb0a6c0604bcbfe</model>
+        <model_id>4f7ea0a31bcbd9106eb0a6c0604bcbfe</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_4f7ea0a31bcbd9106eb0a6c0604bcbfe</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:41</sys_created_on>
+        <sys_id>3b74342b1bcbd9106eb0a6c0604bcb5c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD3eb93063da0fd910ce785e6a26e89e1b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Raise Remove Task when Order is ceased.">4f7ea0a31bcbd9106eb0a6c0604bcbfe</model>
+        <model_id>4f7ea0a31bcbd9106eb0a6c0604bcbfe</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_4f7ea0a31bcbd9106eb0a6c0604bcbfe</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:41</sys_created_on>
+        <sys_id>bb74342b1bcbd9106eb0a6c0604bcb58</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Raise Remove Task when Order is ceased.">4f7ea0a31bcbd9106eb0a6c0604bcbfe</model>
+        <model_id>4f7ea0a31bcbd9106eb0a6c0604bcbfe</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_4f7ea0a31bcbd9106eb0a6c0604bcbfe</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:41</sys_created_on>
+        <sys_id>bf74342b1bcbd9106eb0a6c0604bcb53</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=4f7ea0a31bcbd9106eb0a6c0604bcbfe"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4f7ea0a31bcbd9106eb0a6c0604bcbfe"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=4f7ea0a31bcbd9106eb0a6c0604bcbfe^sys_idNOT IN0084342b1bcbd9106eb0a6c0604bcb85,3b74342b1bcbd9106eb0a6c0604bcb6a,4484342b1bcbd9106eb0a6c0604bcb7f,4884342b1bcbd9106eb0a6c0604bcb8e,cc84342b1bcbd9106eb0a6c0604bcb78"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Work Order">128cc856e751030097a26188d2f6a980</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Raise Remove Task when Order is ceased.">4f7ea0a31bcbd9106eb0a6c0604bcbfe</flow>
+        <order>5</order>
+        <parent_ui_id>3cbd3e6b-192c-4687-b1eb-26a311020e30</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:42</sys_created_on>
+        <sys_id>0084342b1bcbd9106eb0a6c0604bcb85</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:35</sys_updated_on>
+        <ui_id>a529184a-866b-4411-8b32-af11e297b884</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0084342b1bcbd9106eb0a6c0604bcb85"/>
+    <sys_element_mapping action="delete_multiple" query="id=0084342b1bcbd9106eb0a6c0604bcb85"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_case</field>
+        <id>0084342b1bcbd9106eb0a6c0604bcb85</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:42</sys_created_on>
+        <sys_id>8484342b1bcbd9106eb0a6c0604bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_128cc856e751030097a26188d2f6a980</table>
+        <value>{{22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_work_order_fields</field>
+        <id>0084342b1bcbd9106eb0a6c0604bcb85</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:42</sys_created_on>
+        <sys_id>c084342b1bcbd9106eb0a6c0604bcb86</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_128cc856e751030097a26188d2f6a980</table>
+        <value>requested_due_by={{22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.expected_start}}^template={"display":"Remove - Adult - Male","value":"17281a3f1b3a95506eb0a6c0604bcbb1"}^short_description=Removal of device from ﻿{{22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.u_subject.subject_name}}^description=&lt;p data-tinymcerootblock=""&gt;Removal of device from &lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:5f931488-0514-4917-9074-1dafeb3878d1}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="4 &amp;gt; Case &amp;gt; Device Wearer &amp;gt; Subject Name"&gt;&lt;span class="pill-start"&gt;4&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Subject Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_5f931488-0514-4917-9074-1dafeb3878d1" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Note the following Risk Profile&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Device Wearer Risk&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:d32afe77-ef73-4faa-b7da-04d5d2f5e0ab}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="2 &amp;gt; Monitoring Order Record &amp;gt; Device Wearer &amp;gt; Risk Comments"&gt;&lt;span class="pill-start"&gt;2&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Risk Comments&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_d32afe77-ef73-4faa-b7da-04d5d2f5e0ab" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Location Risk&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:4961b866-fb20-4eda-b9fa-3be79d927142}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="3 &amp;gt; Curfew Location Record &amp;gt; Risk Notes"&gt;&lt;span class="pill-start"&gt;3&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Risk Notes&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_4961b866-fb20-4eda-b9fa-3be79d927142" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;^qualification_group={"display":"UK_Qualifiers","value":"8f2723a987695590952f87f5cebb3567"}^initiated_from={{22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.sys_id}}^u_subject_name={{22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.u_subject.sys_id}}^location={{22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.location.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0084342b1bcbd9106eb0a6c0604bcb85"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0084342b1bcbd9106eb0a6c0604bcb85"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Raise Remove Task when Order is ceased.">4f7ea0a31bcbd9106eb0a6c0604bcbfe</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:41</sys_created_on>
+        <sys_id>3b74342b1bcbd9106eb0a6c0604bcb6a</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:35</sys_updated_on>
+        <ui_id>001670c5-cdd1-405a-b08b-78106456c735</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3b74342b1bcbd9106eb0a6c0604bcb6a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3b74342b1bcbd9106eb0a6c0604bcb6a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:41</sys_created_on>
+        <sys_id>3b74342b1bcbd9106eb0a6c0604bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:41</sys_updated_on>
+        <value>x_ster2_emfs_monitoring_order</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3b74342b1bcbd9106eb0a6c0604bcb6a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:41</sys_created_on>
+        <sys_id>7774342b1bcbd9106eb0a6c0604bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:41</sys_updated_on>
+        <value>active=true^actual_end_dateISEMPTY^removal_scheduled=false^remove_home=true</value>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=3b74342b1bcbd9106eb0a6c0604bcb6a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3b74342b1bcbd9106eb0a6c0604bcb6a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3b74342b1bcbd9106eb0a6c0604bcb6a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Case">a7c8dc84e7010300c4726188d2f6a9ca</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Raise Remove Task when Order is ceased.">4f7ea0a31bcbd9106eb0a6c0604bcbfe</flow>
+        <order>4</order>
+        <parent_ui_id>3cbd3e6b-192c-4687-b1eb-26a311020e30</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:42</sys_created_on>
+        <sys_id>4484342b1bcbd9106eb0a6c0604bcb7f</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:35</sys_updated_on>
+        <ui_id>22cd7d6b-3588-42ed-8a75-4709533f40ff</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4484342b1bcbd9106eb0a6c0604bcb7f"/>
+    <sys_element_mapping action="delete_multiple" query="id=4484342b1bcbd9106eb0a6c0604bcb7f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_case_fields</field>
+        <id>4484342b1bcbd9106eb0a6c0604bcb7f</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:42</sys_created_on>
+        <sys_id>4884342b1bcbd9106eb0a6c0604bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a7c8dc84e7010300c4726188d2f6a9ca</table>
+        <value>category=3^short_description=Removal of device from ﻿{{3cbd3e6b-192c-4687-b1eb-26a311020e30.item.subject_name.subject_name}}^description=&lt;p data-tinymcerootblock=""&gt;Removal of device from &lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:58c5688d-386a-4ee1-832d-6e88d86af96d}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="2 &gt; Monitoring Order Record &gt; Device Wearer &gt; Subject Name"&gt;&lt;span class="pill-start"&gt;2&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Subject Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_58c5688d-386a-4ee1-832d-6e88d86af96d" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt; due to cessation of order&lt;/p&gt;^u_subject={{3cbd3e6b-192c-4687-b1eb-26a311020e30.item.subject_name.sys_id}}^location={{d685c95c-db18-4b07-871a-a6e279d58c03.Record.sys_id}}^expected_start=</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4484342b1bcbd9106eb0a6c0604bcb7f^sys_idNOT IN4084342b1bcbd9106eb0a6c0604bcb80"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_case_fields</input_name>
+        <instance>4484342b1bcbd9106eb0a6c0604bcb7f</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"expected_start":{"scriptActive":false,"savedValue":""}}</script>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:42</sys_created_on>
+        <sys_id>4084342b1bcbd9106eb0a6c0604bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:42</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4484342b1bcbd9106eb0a6c0604bcb7f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Raise Remove Task when Order is ceased.">4f7ea0a31bcbd9106eb0a6c0604bcbfe</flow>
+        <order>7</order>
+        <parent_ui_id>9f7d8b6f-7e38-4275-9fd3-f066f7d9509e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:42</sys_created_on>
+        <sys_id>4884342b1bcbd9106eb0a6c0604bcb8e</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:35</sys_updated_on>
+        <ui_id>60fd2d0b-a674-4a83-9753-dd590916191f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4884342b1bcbd9106eb0a6c0604bcb8e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4884342b1bcbd9106eb0a6c0604bcb8e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:42</sys_created_on>
+        <sys_id>4884342b1bcbd9106eb0a6c0604bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:42</sys_updated_on>
+        <value>x_ster2_emfs_monitoring_order</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4884342b1bcbd9106eb0a6c0604bcb8e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:42</sys_created_on>
+        <sys_id>8484342b1bcbd9106eb0a6c0604bcb90</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:52:20</sys_updated_on>
+        <value>removal_scheduled=true^work_notes=Removal of device scheduled﻿</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4884342b1bcbd9106eb0a6c0604bcb8e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>4884342b1bcbd9106eb0a6c0604bcb8e</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:42</sys_created_on>
+        <sys_id>4084342b1bcbd9106eb0a6c0604bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{9f7d8b6f-7e38-4275-9fd3-f066f7d9509e.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>4884342b1bcbd9106eb0a6c0604bcb8e</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:42</sys_created_on>
+        <sys_id>8c84342b1bcbd9106eb0a6c0604bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>4884342b1bcbd9106eb0a6c0604bcb8e</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:42</sys_created_on>
+        <sys_id>0484342b1bcbd9106eb0a6c0604bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4884342b1bcbd9106eb0a6c0604bcb8e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4884342b1bcbd9106eb0a6c0604bcb8e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Raise Remove Task when Order is ceased.">4f7ea0a31bcbd9106eb0a6c0604bcbfe</flow>
+        <order>3</order>
+        <parent_ui_id>3cbd3e6b-192c-4687-b1eb-26a311020e30</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:41</sys_created_on>
+        <sys_id>cc84342b1bcbd9106eb0a6c0604bcb78</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:35</sys_updated_on>
+        <ui_id>d685c95c-db18-4b07-871a-a6e279d58c03</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cc84342b1bcbd9106eb0a6c0604bcb78"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cc84342b1bcbd9106eb0a6c0604bcb78</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:42</sys_created_on>
+        <sys_id>c084342b1bcbd9106eb0a6c0604bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:42</sys_updated_on>
+        <value>x_ster2_emfs_curfew_location</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3^id=cc84342b1bcbd9106eb0a6c0604bcb78"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cc84342b1bcbd9106eb0a6c0604bcb78^sys_idNOT IN4084342b1bcbd9106eb0a6c0604bcb7a"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>conditions</input_name>
+        <instance>cc84342b1bcbd9106eb0a6c0604bcb78</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"conditions":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n**\n**Requires GlideRecord encodedQuery response, example:\n**\"active\u003dtrue^short_descriptionSTARTSWITHtest\";\n*/\nvar subjectAddressLine1 \u003d fd_data._1__look_up_records.records.subject_name.address_line_1;\nvar subjectPostcode \u003d fd_data._1__look_up_records.records.subject_name.post_code;\n\nreturn \"x_ster2_emfs_address_line_1\u003d\"+ subjectAddressLine1 +\"^zip\u003d\"+ subjectPostcode;"}}</script>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:41</sys_created_on>
+        <sys_id>4084342b1bcbd9106eb0a6c0604bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:41</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cc84342b1bcbd9106eb0a6c0604bcb78"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=4f7ea0a31bcbd9106eb0a6c0604bcbfe"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=4f7ea0a31bcbd9106eb0a6c0604bcbfe^sys_idNOT IN8084342b1bcbd9106eb0a6c0604bcb87,bb74342b1bcbd9106eb0a6c0604bcb6e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c884342b1bcbd9106eb0a6c0604bcb86</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Raise Remove Task when Order is ceased.">4f7ea0a31bcbd9106eb0a6c0604bcbfe</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:42</sys_created_on>
+        <sys_id>8084342b1bcbd9106eb0a6c0604bcb87</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:35</sys_updated_on>
+        <ui_id>9f7d8b6f-7e38-4275-9fd3-f066f7d9509e</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8084342b1bcbd9106eb0a6c0604bcb87"/>
+    <sys_element_mapping action="delete_multiple" query="id=8084342b1bcbd9106eb0a6c0604bcb87"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>8084342b1bcbd9106eb0a6c0604bcb87</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:42</sys_created_on>
+        <sys_id>c484342b1bcbd9106eb0a6c0604bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:42</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{001670c5-cdd1-405a-b08b-78106456c735.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=8084342b1bcbd9106eb0a6c0604bcb87"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8084342b1bcbd9106eb0a6c0604bcb87"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">bf74342b1bcbd9106eb0a6c0604bcb6d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Raise Remove Task when Order is ceased.">4f7ea0a31bcbd9106eb0a6c0604bcbfe</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:41</sys_created_on>
+        <sys_id>bb74342b1bcbd9106eb0a6c0604bcb6e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:35</sys_updated_on>
+        <ui_id>3cbd3e6b-192c-4687-b1eb-26a311020e30</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=bb74342b1bcbd9106eb0a6c0604bcb6e"/>
+    <sys_element_mapping action="delete_multiple" query="id=bb74342b1bcbd9106eb0a6c0604bcb6e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>bb74342b1bcbd9106eb0a6c0604bcb6e</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:41</sys_created_on>
+        <sys_id>c884342b1bcbd9106eb0a6c0604bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{001670c5-cdd1-405a-b08b-78106456c735.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=bb74342b1bcbd9106eb0a6c0604bcb6e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bb74342b1bcbd9106eb0a6c0604bcb6e"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=4f7ea0a31bcbd9106eb0a6c0604bcbfe^sys_idNOT IN0484342b1bcbd9106eb0a6c0604bcb9f,18b97c231b0fd9106eb0a6c0604bcb4f,4084342b1bcbd9106eb0a6c0604bcba0,8c84342b1bcbd9106eb0a6c0604bcb9f,c884342b1bcbd9106eb0a6c0604bcb9f"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>4f7ea0a31bcbd9106eb0a6c0604bcbfe</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{3cbd3e6b-192c-4687-b1eb-26a311020e30.item.subject_name.subject_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:42</sys_created_on>
+        <sys_id>0484342b1bcbd9106eb0a6c0604bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>58c5688d-386a-4ee1-832d-6e88d86af96d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>4f7ea0a31bcbd9106eb0a6c0604bcbfe</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{3cbd3e6b-192c-4687-b1eb-26a311020e30.item.subject_name.risk_comments}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 20:13:23</sys_created_on>
+        <sys_id>18b97c231b0fd9106eb0a6c0604bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d32afe77-ef73-4faa-b7da-04d5d2f5e0ab</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>4f7ea0a31bcbd9106eb0a6c0604bcbfe</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{d685c95c-db18-4b07-871a-a6e279d58c03.Record.risk_notes}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:42</sys_created_on>
+        <sys_id>4084342b1bcbd9106eb0a6c0604bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4961b866-fb20-4eda-b9fa-3be79d927142</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>4f7ea0a31bcbd9106eb0a6c0604bcbfe</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.u_subject.risk_comments}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:42</sys_created_on>
+        <sys_id>8c84342b1bcbd9106eb0a6c0604bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1046fe55-1eba-483e-b0f2-92e569b0ff7d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>4f7ea0a31bcbd9106eb0a6c0604bcbfe</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.u_subject.subject_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:42</sys_created_on>
+        <sys_id>c884342b1bcbd9106eb0a6c0604bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5f931488-0514-4917-9074-1dafeb3878d1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=4f7ea0a31bcbd9106eb0a6c0604bcbfe"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_4f7ea0a31bcbd9106eb0a6c0604bcbfe^sys_idNOT IN7b74342b1bcbd9106eb0a6c0604bcb5b,b374342b1bcbd9106eb0a6c0604bcb5f,fb74342b1bcbd9106eb0a6c0604bcb57"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4f7ea0a31bcbd9106eb0a6c0604bcbfe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:41</sys_created_on>
+        <sys_id>7b74342b1bcbd9106eb0a6c0604bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Changed Fields</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_4f7ea0a31bcbd9106eb0a6c0604bcbfe_changed_fields_en</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4f7ea0a31bcbd9106eb0a6c0604bcbfe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:41</sys_created_on>
+        <sys_id>b374342b1bcbd9106eb0a6c0604bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_4f7ea0a31bcbd9106eb0a6c0604bcbfe_table_name_en</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4f7ea0a31bcbd9106eb0a6c0604bcbfe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:50:41</sys_created_on>
+        <sys_id>fb74342b1bcbd9106eb0a6c0604bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_4f7ea0a31bcbd9106eb0a6c0604bcbfe_current_en</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:50:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_4f7ea0a31bcbd9106eb0a6c0604bcbfe"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_4f7ea0a31bcbd9106eb0a6c0604bcbfe"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_4f7ea0a31bcbd9106eb0a6c0604bcbfe"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=4f7ea0a31bcbd9106eb0a6c0604bcbfe^sys_idNOT IN6f05346b1bcbd9106eb0a6c0604bcb0f"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>4f7ea0a31bcbd9106eb0a6c0604bcbfe</plan_id>
+        <snapshot>c305f06b1bcbd9106eb0a6c0604bcb67</snapshot>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6f05346b1bcbd9106eb0a6c0604bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:08</sys_updated_on>
+        <trigger display_value="">2b05346b1bcbd9106eb0a6c0604bcb0d</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=4f7ea0a31bcbd9106eb0a6c0604bcbfe"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>raise_remove_task_when_order_is_ceased</internal_name>
+        <label_cache>[{"name":"3cbd3e6b-192c-4687-b1eb-26a311020e30.item.subject_name.risk_comments","label":"2 - For Each➛Monitoring Order Record➛Device Wearer➛Risk Comments","reference":"","reference_display":"Risk Comments","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"risk_comments"},{"name":"fae516ad-7d22-4028-81e7-9863bd7cfb33.Records","label":"1 - Look Up Records➛Records","reference_display":"Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fae516ad-7d22-4028-81e7-9863bd7cfb33.Table","label":"1 - Look Up Records➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fae516ad-7d22-4028-81e7-9863bd7cfb33.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fae516ad-7d22-4028-81e7-9863bd7cfb33.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"fae516ad-7d22-4028-81e7-9863bd7cfb33.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"39a366d8-612f-4fd8-b483-c3555ac14035.Records","label":"1 - Look Up Records➛Records","reference_display":"Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"39a366d8-612f-4fd8-b483-c3555ac14035.Table","label":"1 - Look Up Records➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"39a366d8-612f-4fd8-b483-c3555ac14035.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"39a366d8-612f-4fd8-b483-c3555ac14035.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"39a366d8-612f-4fd8-b483-c3555ac14035.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"001670c5-cdd1-405a-b08b-78106456c735.Records","label":"1 - Look Up Records➛Monitoring Order Records","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"001670c5-cdd1-405a-b08b-78106456c735.Table","label":"1 - Look Up Records➛Monitoring Order Table","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"001670c5-cdd1-405a-b08b-78106456c735.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"001670c5-cdd1-405a-b08b-78106456c735.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"001670c5-cdd1-405a-b08b-78106456c735.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3cbd3e6b-192c-4687-b1eb-26a311020e30.item","label":"2 - For Each➛Monitoring Order Record","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"d84300ee-1e3f-445b-b1ad-c216299da3e2.Records","label":"3 - Look Up Records➛Curfew Location Records","reference":"x_ster2_emfs_curfew_location","reference_display":"Curfew Location","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d84300ee-1e3f-445b-b1ad-c216299da3e2.Table","label":"3 - Look Up Records➛Curfew Location Table","reference":"x_ster2_emfs_curfew_location","reference_display":"Curfew Location","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d84300ee-1e3f-445b-b1ad-c216299da3e2.Count","label":"3 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d84300ee-1e3f-445b-b1ad-c216299da3e2.__action_status__","label":"3 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"d84300ee-1e3f-445b-b1ad-c216299da3e2.__dont_treat_as_error__","label":"3 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"22cd7d6b-3588-42ed-8a75-4709533f40ff.Case","label":"4 - Create Case➛Case","reference":"sn_customerservice_case","reference_display":"Case","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"22cd7d6b-3588-42ed-8a75-4709533f40ff.__action_status__","label":"4 - Create Case➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"22cd7d6b-3588-42ed-8a75-4709533f40ff.__dont_treat_as_error__","label":"4 - Create Case➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3cbd3e6b-192c-4687-b1eb-26a311020e30.item.subject_name.subject_name","label":"2 - For Each➛Monitoring Order Record➛Device Wearer➛Subject Name","reference":"","reference_display":"Subject Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"subject_name"},{"name":"3cbd3e6b-192c-4687-b1eb-26a311020e30.item.subject_name.sys_id","label":"2 - For Each➛Monitoring Order Record➛Device Wearer➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_subject","column_name":"sys_id"},{"name":"d685c95c-db18-4b07-871a-a6e279d58c03.Record","label":"3 - Look Up Record➛Curfew Location Record","reference":"x_ster2_emfs_curfew_location","reference_display":"Curfew Location","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d685c95c-db18-4b07-871a-a6e279d58c03.Table","label":"3 - Look Up Record➛Curfew Location Table","reference":"x_ster2_emfs_curfew_location","reference_display":"Curfew Location","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d685c95c-db18-4b07-871a-a6e279d58c03.status","label":"3 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"d685c95c-db18-4b07-871a-a6e279d58c03.error_message","label":"3 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"d685c95c-db18-4b07-871a-a6e279d58c03.__action_status__","label":"3 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d685c95c-db18-4b07-871a-a6e279d58c03.__dont_treat_as_error__","label":"3 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d685c95c-db18-4b07-871a-a6e279d58c03.Record.sys_id","label":"3 - Look Up Record➛Curfew Location Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_curfew_location","column_name":"sys_id"},{"name":"a529184a-866b-4411-8b32-af11e297b884.Work Order","label":"5 - Create Work Order➛Work Order","reference":"wm_order","reference_display":"Work Order","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a529184a-866b-4411-8b32-af11e297b884.__action_status__","label":"5 - Create Work Order➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a529184a-866b-4411-8b32-af11e297b884.__dont_treat_as_error__","label":"5 - Create Work Order➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.sys_id","label":"4 - Create Case➛Case➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_customerservice_case","column_name":"sys_id"},{"name":"22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.expected_start","label":"4 - Create Case➛Case➛Expected start","reference":"","reference_display":"Expected start","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sn_customerservice_case","column_name":"expected_start"},{"name":"22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.u_subject.subject_name","label":"4 - Create Case➛Case➛Device Wearer➛Subject Name","reference":"","reference_display":"Subject Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"subject_name"},{"name":"22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.u_subject.risk_comments","label":"4 - Create Case➛Case➛Device Wearer➛Risk Comments","reference":"","reference_display":"Risk Comments","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"risk_comments"},{"name":"d685c95c-db18-4b07-871a-a6e279d58c03.Record.risk_notes","label":"3 - Look Up Record➛Curfew Location Record➛Risk Notes","reference":"","reference_display":"Risk Notes","type":"html","base_type":"html","parent_table_name":"x_ster2_emfs_curfew_location","column_name":"risk_notes"},{"name":"22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.u_subject.sys_id","label":"4 - Create Case➛Case➛Device Wearer➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_subject","column_name":"sys_id"},{"name":"22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.location.sys_id","label":"4 - Create Case➛Case➛Location➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"cmn_location","column_name":"sys_id"},{"name":"9f7d8b6f-7e38-4275-9fd3-f066f7d9509e.item","label":"6 - For Each➛Monitoring Order Record","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"60fd2d0b-a674-4a83-9753-dd590916191f.record","label":"7 - Update Record➛Monitoring Order Record","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"60fd2d0b-a674-4a83-9753-dd590916191f.table_name","label":"7 - Update Record➛Monitoring Order Table","reference":"x_ster2_emfs_monitoring_order","reference_display":"Monitoring Order","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"60fd2d0b-a674-4a83-9753-dd590916191f.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"60fd2d0b-a674-4a83-9753-dd590916191f.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Raise Remove Task when Order is ceased.</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Raise Remove Task when Order is ceased.">4f7ea0a31bcbd9106eb0a6c0604bcbfe</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c305f06b1bcbd9106eb0a6c0604bcb67</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:33</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=c305f06b1bcbd9106eb0a6c0604bcb67"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c305f06b1bcbd9106eb0a6c0604bcb67"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=c305f06b1bcbd9106eb0a6c0604bcb67^sys_idNOT IN9b05f06b1bcbd9106eb0a6c0604bcbc8"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Raise Remove Task when Order is ceased.">c305f06b1bcbd9106eb0a6c0604bcb67</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:07</sys_created_on>
+        <sys_id>9b05f06b1bcbd9106eb0a6c0604bcbc8</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:35</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9b05f06b1bcbd9106eb0a6c0604bcbc8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9b05f06b1bcbd9106eb0a6c0604bcbc8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:07</sys_created_on>
+        <sys_id>1b05f06b1bcbd9106eb0a6c0604bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:07</sys_updated_on>
+        <value>x_ster2_emfs_monitoring_order</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9b05f06b1bcbd9106eb0a6c0604bcbc8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:07</sys_created_on>
+        <sys_id>5705f06b1bcbd9106eb0a6c0604bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:07</sys_updated_on>
+        <value>stateCHANGESTO7^outcomeCHANGESTOcease</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=9b05f06b1bcbd9106eb0a6c0604bcbc8"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=c305f06b1bcbd9106eb0a6c0604bcb67"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c305f06b1bcbd9106eb0a6c0604bcb67^sys_idNOT IN4705f06b1bcbd9106eb0a6c0604bcb68"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c305f06b1bcbd9106eb0a6c0604bcb67</id>
+        <name>Raise Remove Task when Order is ceased.</name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:05</sys_created_on>
+        <sys_id>4705f06b1bcbd9106eb0a6c0604bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:05</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=4705f06b1bcbd9106eb0a6c0604bcb68"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=c305f06b1bcbd9106eb0a6c0604bcb67^sys_idNOT IN0705f06b1bcbd9106eb0a6c0604bcb7e,4b05f06b1bcbd9106eb0a6c0604bcb6b,8f05f06b1bcbd9106eb0a6c0604bcb86"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD3eb93063da0fd910ce785e6a26e89e1b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Raise Remove Task when Order is ceased.">c305f06b1bcbd9106eb0a6c0604bcb67</model>
+        <model_id>c305f06b1bcbd9106eb0a6c0604bcb67</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_c305f06b1bcbd9106eb0a6c0604bcb67</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:05</sys_created_on>
+        <sys_id>0705f06b1bcbd9106eb0a6c0604bcb7e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Raise Remove Task when Order is ceased.">c305f06b1bcbd9106eb0a6c0604bcb67</model>
+        <model_id>c305f06b1bcbd9106eb0a6c0604bcb67</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_c305f06b1bcbd9106eb0a6c0604bcb67</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:05</sys_created_on>
+        <sys_id>4b05f06b1bcbd9106eb0a6c0604bcb6b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Raise Remove Task when Order is ceased.">c305f06b1bcbd9106eb0a6c0604bcb67</model>
+        <model_id>c305f06b1bcbd9106eb0a6c0604bcb67</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_c305f06b1bcbd9106eb0a6c0604bcb67</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:05</sys_created_on>
+        <sys_id>8f05f06b1bcbd9106eb0a6c0604bcb86</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=c305f06b1bcbd9106eb0a6c0604bcb67"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c305f06b1bcbd9106eb0a6c0604bcb67"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=c305f06b1bcbd9106eb0a6c0604bcb67^sys_idNOT IN1705f06b1bcbd9106eb0a6c0604bcba2,5f05f06b1bcbd9106eb0a6c0604bcbbd,9b05f06b1bcbd9106eb0a6c0604bcbc6,db05f06b1bcbd9106eb0a6c0604bcbae,df05f06b1bcbd9106eb0a6c0604bcbb6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Raise Remove Task when Order is ceased.">c305f06b1bcbd9106eb0a6c0604bcb67</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:06</sys_created_on>
+        <sys_id>1705f06b1bcbd9106eb0a6c0604bcba2</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:33</sys_updated_on>
+        <ui_id>001670c5-cdd1-405a-b08b-78106456c735</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1705f06b1bcbd9106eb0a6c0604bcba2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1705f06b1bcbd9106eb0a6c0604bcba2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:06</sys_created_on>
+        <sys_id>d705f06b1bcbd9106eb0a6c0604bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:06</sys_updated_on>
+        <value>active=true^actual_end_dateISEMPTY^removal_scheduled=false^remove_home=true</value>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1705f06b1bcbd9106eb0a6c0604bcba2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:06</sys_created_on>
+        <sys_id>df05f06b1bcbd9106eb0a6c0604bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:06</sys_updated_on>
+        <value>x_ster2_emfs_monitoring_order</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=1705f06b1bcbd9106eb0a6c0604bcba2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1705f06b1bcbd9106eb0a6c0604bcba2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1705f06b1bcbd9106eb0a6c0604bcba2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Work Order">128cc856e751030097a26188d2f6a980</action_type>
+        <action_type_parent display_value="Create Work Order">1f4c4456e751030097a26188d2f6a98e</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Raise Remove Task when Order is ceased.">c305f06b1bcbd9106eb0a6c0604bcb67</flow>
+        <order>5</order>
+        <parent_ui_id>3cbd3e6b-192c-4687-b1eb-26a311020e30</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:06</sys_created_on>
+        <sys_id>5f05f06b1bcbd9106eb0a6c0604bcbbd</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:33</sys_updated_on>
+        <ui_id>a529184a-866b-4411-8b32-af11e297b884</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5f05f06b1bcbd9106eb0a6c0604bcbbd"/>
+    <sys_element_mapping action="delete_multiple" query="id=5f05f06b1bcbd9106eb0a6c0604bcbbd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_case</field>
+        <id>5f05f06b1bcbd9106eb0a6c0604bcbbd</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:06</sys_created_on>
+        <sys_id>d305f06b1bcbd9106eb0a6c0604bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_128cc856e751030097a26188d2f6a980</table>
+        <value>{{22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_work_order_fields</field>
+        <id>5f05f06b1bcbd9106eb0a6c0604bcbbd</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:06</sys_created_on>
+        <sys_id>1305f06b1bcbd9106eb0a6c0604bcbbf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_128cc856e751030097a26188d2f6a980</table>
+        <value>requested_due_by={{22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.expected_start}}^template={"display":"Remove - Adult - Male","value":"17281a3f1b3a95506eb0a6c0604bcbb1"}^short_description=Removal of device from ﻿{{22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.u_subject.subject_name}}^description=&lt;p data-tinymcerootblock=""&gt;Removal of device from &lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:5f931488-0514-4917-9074-1dafeb3878d1}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="4 &amp;gt; Case &amp;gt; Device Wearer &amp;gt; Subject Name"&gt;&lt;span class="pill-start"&gt;4&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Subject Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_5f931488-0514-4917-9074-1dafeb3878d1" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Note the following Risk Profile&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Device Wearer Risk&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:d32afe77-ef73-4faa-b7da-04d5d2f5e0ab}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="2 &amp;gt; Monitoring Order Record &amp;gt; Device Wearer &amp;gt; Risk Comments"&gt;&lt;span class="pill-start"&gt;2&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Risk Comments&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_d32afe77-ef73-4faa-b7da-04d5d2f5e0ab" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Location Risk&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:4961b866-fb20-4eda-b9fa-3be79d927142}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="3 &amp;gt; Curfew Location Record &amp;gt; Risk Notes"&gt;&lt;span class="pill-start"&gt;3&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Risk Notes&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_4961b866-fb20-4eda-b9fa-3be79d927142" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;^qualification_group={"display":"UK_Qualifiers","value":"8f2723a987695590952f87f5cebb3567"}^initiated_from={{22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.sys_id}}^u_subject_name={{22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.u_subject.sys_id}}^location={{22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.location.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5f05f06b1bcbd9106eb0a6c0604bcbbd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5f05f06b1bcbd9106eb0a6c0604bcbbd"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Raise Remove Task when Order is ceased.">c305f06b1bcbd9106eb0a6c0604bcb67</flow>
+        <order>7</order>
+        <parent_ui_id>9f7d8b6f-7e38-4275-9fd3-f066f7d9509e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:07</sys_created_on>
+        <sys_id>9b05f06b1bcbd9106eb0a6c0604bcbc6</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:33</sys_updated_on>
+        <ui_id>60fd2d0b-a674-4a83-9753-dd590916191f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9b05f06b1bcbd9106eb0a6c0604bcbc6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9b05f06b1bcbd9106eb0a6c0604bcbc6</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:07</sys_created_on>
+        <sys_id>9705f06b1bcbd9106eb0a6c0604bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:07</sys_updated_on>
+        <value>x_ster2_emfs_monitoring_order</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9b05f06b1bcbd9106eb0a6c0604bcbc6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:07</sys_created_on>
+        <sys_id>d305f06b1bcbd9106eb0a6c0604bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:07</sys_updated_on>
+        <value>removal_scheduled=true^work_notes=Removal of device scheduled﻿</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9b05f06b1bcbd9106eb0a6c0604bcbc6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>9b05f06b1bcbd9106eb0a6c0604bcbc6</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:07</sys_created_on>
+        <sys_id>9f05f06b1bcbd9106eb0a6c0604bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{9f7d8b6f-7e38-4275-9fd3-f066f7d9509e.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>9b05f06b1bcbd9106eb0a6c0604bcbc6</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:07</sys_created_on>
+        <sys_id>db05f06b1bcbd9106eb0a6c0604bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>9b05f06b1bcbd9106eb0a6c0604bcbc6</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:07</sys_created_on>
+        <sys_id>5305f06b1bcbd9106eb0a6c0604bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9b05f06b1bcbd9106eb0a6c0604bcbc6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9b05f06b1bcbd9106eb0a6c0604bcbc6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Raise Remove Task when Order is ceased.">c305f06b1bcbd9106eb0a6c0604bcb67</flow>
+        <order>3</order>
+        <parent_ui_id>3cbd3e6b-192c-4687-b1eb-26a311020e30</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:06</sys_created_on>
+        <sys_id>db05f06b1bcbd9106eb0a6c0604bcbae</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:33</sys_updated_on>
+        <ui_id>d685c95c-db18-4b07-871a-a6e279d58c03</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=db05f06b1bcbd9106eb0a6c0604bcbae"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>db05f06b1bcbd9106eb0a6c0604bcbae</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:06</sys_created_on>
+        <sys_id>df05f06b1bcbd9106eb0a6c0604bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:06</sys_updated_on>
+        <value>x_ster2_emfs_curfew_location</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3^id=db05f06b1bcbd9106eb0a6c0604bcbae"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=db05f06b1bcbd9106eb0a6c0604bcbae^sys_idNOT IN5f05f06b1bcbd9106eb0a6c0604bcbaf"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>conditions</input_name>
+        <instance>db05f06b1bcbd9106eb0a6c0604bcbae</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"conditions":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n**\n**Requires GlideRecord encodedQuery response, example:\n**\"active\u003dtrue^short_descriptionSTARTSWITHtest\";\n*/\nvar subjectAddressLine1 \u003d fd_data._1__look_up_records.records.subject_name.address_line_1;\nvar subjectPostcode \u003d fd_data._1__look_up_records.records.subject_name.post_code;\n\nreturn \"x_ster2_emfs_address_line_1\u003d\"+ subjectAddressLine1 +\"^zip\u003d\"+ subjectPostcode;"}}</script>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:06</sys_created_on>
+        <sys_id>5f05f06b1bcbd9106eb0a6c0604bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:06</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=db05f06b1bcbd9106eb0a6c0604bcbae"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Case">a7c8dc84e7010300c4726188d2f6a9ca</action_type>
+        <action_type_parent display_value="Create Case">a7b8733be7b00300c4726188d2f6a913</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Raise Remove Task when Order is ceased.">c305f06b1bcbd9106eb0a6c0604bcb67</flow>
+        <order>4</order>
+        <parent_ui_id>3cbd3e6b-192c-4687-b1eb-26a311020e30</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:06</sys_created_on>
+        <sys_id>df05f06b1bcbd9106eb0a6c0604bcbb6</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:33</sys_updated_on>
+        <ui_id>22cd7d6b-3588-42ed-8a75-4709533f40ff</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=df05f06b1bcbd9106eb0a6c0604bcbb6"/>
+    <sys_element_mapping action="delete_multiple" query="id=df05f06b1bcbd9106eb0a6c0604bcbb6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_case_fields</field>
+        <id>df05f06b1bcbd9106eb0a6c0604bcbb6</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:06</sys_created_on>
+        <sys_id>d305f06b1bcbd9106eb0a6c0604bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a7c8dc84e7010300c4726188d2f6a9ca</table>
+        <value>category=3^short_description=Removal of device from ﻿{{3cbd3e6b-192c-4687-b1eb-26a311020e30.item.subject_name.subject_name}}^description=&lt;p data-tinymcerootblock=""&gt;Removal of device from &lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:58c5688d-386a-4ee1-832d-6e88d86af96d}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="2 &gt; Monitoring Order Record &gt; Device Wearer &gt; Subject Name"&gt;&lt;span class="pill-start"&gt;2&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Subject Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_58c5688d-386a-4ee1-832d-6e88d86af96d" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt; due to cessation of order&lt;/p&gt;^u_subject={{3cbd3e6b-192c-4687-b1eb-26a311020e30.item.subject_name.sys_id}}^location={{d685c95c-db18-4b07-871a-a6e279d58c03.Record.sys_id}}^expected_start=</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=df05f06b1bcbd9106eb0a6c0604bcbb6^sys_idNOT INdb05f06b1bcbd9106eb0a6c0604bcbb7"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_case_fields</input_name>
+        <instance>df05f06b1bcbd9106eb0a6c0604bcbb6</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"expected_start":{"scriptActive":false,"savedValue":""}}</script>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:06</sys_created_on>
+        <sys_id>db05f06b1bcbd9106eb0a6c0604bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:06</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=df05f06b1bcbd9106eb0a6c0604bcbb6"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c305f06b1bcbd9106eb0a6c0604bcb67"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=c305f06b1bcbd9106eb0a6c0604bcb67^sys_idNOT IN1b05f06b1bcbd9106eb0a6c0604bcb97,c305f06b1bcbd9106eb0a6c0604bcb93"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c884342b1bcbd9106eb0a6c0604bcb86</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Raise Remove Task when Order is ceased.">c305f06b1bcbd9106eb0a6c0604bcb67</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:06</sys_created_on>
+        <sys_id>1b05f06b1bcbd9106eb0a6c0604bcb97</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:33</sys_updated_on>
+        <ui_id>9f7d8b6f-7e38-4275-9fd3-f066f7d9509e</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=1b05f06b1bcbd9106eb0a6c0604bcb97"/>
+    <sys_element_mapping action="delete_multiple" query="id=1b05f06b1bcbd9106eb0a6c0604bcb97"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>1b05f06b1bcbd9106eb0a6c0604bcb97</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:06</sys_created_on>
+        <sys_id>5f05f06b1bcbd9106eb0a6c0604bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:06</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{001670c5-cdd1-405a-b08b-78106456c735.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1b05f06b1bcbd9106eb0a6c0604bcb97"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1b05f06b1bcbd9106eb0a6c0604bcb97"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">bf74342b1bcbd9106eb0a6c0604bcb6d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Raise Remove Task when Order is ceased.">c305f06b1bcbd9106eb0a6c0604bcb67</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:06</sys_created_on>
+        <sys_id>c305f06b1bcbd9106eb0a6c0604bcb93</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:33</sys_updated_on>
+        <ui_id>3cbd3e6b-192c-4687-b1eb-26a311020e30</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c305f06b1bcbd9106eb0a6c0604bcb93"/>
+    <sys_element_mapping action="delete_multiple" query="id=c305f06b1bcbd9106eb0a6c0604bcb93"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>c305f06b1bcbd9106eb0a6c0604bcb93</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:06</sys_created_on>
+        <sys_id>d705f06b1bcbd9106eb0a6c0604bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:06</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{001670c5-cdd1-405a-b08b-78106456c735.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c305f06b1bcbd9106eb0a6c0604bcb93"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c305f06b1bcbd9106eb0a6c0604bcb93"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c305f06b1bcbd9106eb0a6c0604bcb67^sys_idNOT IN5705f06b1bcbd9106eb0a6c0604bcbcb,5f05f06b1bcbd9106eb0a6c0604bcbca,7eb930631b0fd9106eb0a6c0604bcb42,d305f06b1bcbd9106eb0a6c0604bcbcb,d705f06b1bcbd9106eb0a6c0604bcbcb"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>c305f06b1bcbd9106eb0a6c0604bcb67</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{3cbd3e6b-192c-4687-b1eb-26a311020e30.item.subject_name.subject_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:07</sys_created_on>
+        <sys_id>5705f06b1bcbd9106eb0a6c0604bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:07</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>58c5688d-386a-4ee1-832d-6e88d86af96d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>c305f06b1bcbd9106eb0a6c0604bcb67</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.u_subject.subject_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:07</sys_created_on>
+        <sys_id>5f05f06b1bcbd9106eb0a6c0604bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:07</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5f931488-0514-4917-9074-1dafeb3878d1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>c305f06b1bcbd9106eb0a6c0604bcb67</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{3cbd3e6b-192c-4687-b1eb-26a311020e30.item.subject_name.risk_comments}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 20:13:33</sys_created_on>
+        <sys_id>7eb930631b0fd9106eb0a6c0604bcb42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 20:13:33</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d32afe77-ef73-4faa-b7da-04d5d2f5e0ab</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>c305f06b1bcbd9106eb0a6c0604bcb67</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{d685c95c-db18-4b07-871a-a6e279d58c03.Record.risk_notes}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:07</sys_created_on>
+        <sys_id>d305f06b1bcbd9106eb0a6c0604bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:07</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4961b866-fb20-4eda-b9fa-3be79d927142</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>c305f06b1bcbd9106eb0a6c0604bcb67</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{22cd7d6b-3588-42ed-8a75-4709533f40ff.Case.u_subject.risk_comments}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:07</sys_created_on>
+        <sys_id>d705f06b1bcbd9106eb0a6c0604bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:07</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1046fe55-1eba-483e-b0f2-92e569b0ff7d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=c305f06b1bcbd9106eb0a6c0604bcb67"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_c305f06b1bcbd9106eb0a6c0604bcb67^sys_idNOT IN4705f06b1bcbd9106eb0a6c0604bcb83,cb05f06b1bcbd9106eb0a6c0604bcb7a,cb05f06b1bcbd9106eb0a6c0604bcb8b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c305f06b1bcbd9106eb0a6c0604bcb67</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:05</sys_created_on>
+        <sys_id>4705f06b1bcbd9106eb0a6c0604bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Changed Fields</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c305f06b1bcbd9106eb0a6c0604bcb67</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:05</sys_created_on>
+        <sys_id>cb05f06b1bcbd9106eb0a6c0604bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c305f06b1bcbd9106eb0a6c0604bcb67</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 19:53:06</sys_created_on>
+        <sys_id>cb05f06b1bcbd9106eb0a6c0604bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 19:53:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_c305f06b1bcbd9106eb0a6c0604bcb67"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_c305f06b1bcbd9106eb0a6c0604bcb67"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_c305f06b1bcbd9106eb0a6c0604bcb67"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>4f7ea0a31bcbd9106eb0a6c0604bcbfe</sys_id>
+        <latest_snapshot>c305f06b1bcbd9106eb0a6c0604bcb67</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+</record_update>

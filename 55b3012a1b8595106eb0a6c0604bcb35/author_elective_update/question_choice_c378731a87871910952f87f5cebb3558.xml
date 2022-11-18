@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref display_value="Change to add an Inclusion or Exclusion Zone(s)">eb12dc961b8b95106eb0a6c0604bcb06</published_ref>
+        <question display_value="Variation Type">8778731a87871910952f87f5cebb353e</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-11 12:54:35</sys_created_on>
+        <sys_id>c378731a87871910952f87f5cebb3558</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Change to add an Inclusion or Exclusion Zone(s)</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_c378731a87871910952f87f5cebb3558</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-11 12:54:35</sys_updated_on>
+        <text>Change to add an Inclusion or Exclusion Zone(s)</text>
+        <value>add_zone</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=c378731a87871910952f87f5cebb3558"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_c378731a87871910952f87f5cebb3558</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>300</order><published_ref display_value="Change to add an Inclusion or Exclusion Zone(s)">eb12dc961b8b95106eb0a6c0604bcb06</published_ref><question display_value="Variation Type">8778731a87871910952f87f5cebb353e</question><sys_class_name>question_choice</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-11-11 12:54:35</sys_created_on><sys_id>c378731a87871910952f87f5cebb3558</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Change to add an Inclusion or Exclusion Zone(s)</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>question_choice_c378731a87871910952f87f5cebb3558</sys_update_name><sys_updated_by>hasnaat.khan.ems</sys_updated_by><sys_updated_on>2022-11-11 12:54:35</sys_updated_on><text>Change to add an Inclusion or Exclusion Zone(s)</text><value>add_zone</value></question_choice><fx_price action="delete_multiple" query="id=c378731a87871910952f87f5cebb3558"/></record_update>]]></payload>
+        <payload_hash>542142633</payload_hash>
+        <record_name>Change to add an Inclusion or Exclusion Zone(s)</record_name>
+        <reverted_from/>
+        <source>877c8dab877e1950952f87f5cebb356c</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-11 12:54:35</sys_created_on>
+        <sys_id>9b78731a87871910952f87f5cebb355a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18466c19b180000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-11 12:54:35</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>0378731ac487191004ed244019d0d55a</update_guid>
+        <update_guid_history>0378731ac487191004ed244019d0d55a:542142633</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Change to add an Inclusion or Exclusion Zone(s)">6cc8ff1a87871910952f87f5cebb35e8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-11 12:55:46</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>070bdb9b8eb94aea80b52c50c96d5199</sys_id>
+        <sys_metadata>c378731a87871910952f87f5cebb3558</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Change to add an Inclusion or Exclusion Zone(s)</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">8778731a87871910952f87f5cebb353e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_c378731a87871910952f87f5cebb3558</sys_update_name>
+        <sys_update_version display_value="question_choice_c378731a87871910952f87f5cebb3558">9b78731a87871910952f87f5cebb355a</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-11 12:55:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

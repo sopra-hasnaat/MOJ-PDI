@@ -4,6 +4,36 @@
         <app_config display_value="Electronic Monitoring Subjects Config">6c74300f1e659590bb960d72709de55d</app_config>
         <description/>
         <event_mappings>[ {
+  "eventMappingId" : "claiffokhqaaccejddffhhffideebbffaafgg",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_ster2_emfs.UXR_APP_SHELL_DATA_SOURCE_1_REFRESH_RELAY_11faf3fc87de1150952f87f5cebb3597",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_ster2_emfs.UXR_APP_SHELL_DATA_SOURCE_1_REFRESH_RELAY_11faf3fc87de1150952f87f5cebb3597",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : {
+      "dataBrokerId" : "eaa5861c530210105a20ddeeff7b12fd",
+      "operationName" : "REFRESH",
+      "parentResourceId" : "uxr_app_shell_data_source_1",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      }
+    },
+    "targetId" : "claiffokhqaacceiddffhhffqxeyjiiddk",
+    "type" : "DATABROKER_OP"
+  } ]
+}, {
   "eventMappingId" : "cliiomiiiihhgaabbaeeddffhhffjhhvebccjjbb",
   "isConfiguration" : false,
   "offRowStorageId" : null,
@@ -134,6 +164,10 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "pagerefresh" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
   "label" : {
     "type" : "TRANSLATION_LITERAL",
     "value" : {
@@ -165,7 +199,8 @@
   "propagateNotifications" : {
     "type" : "JSON_LITERAL",
     "value" : false
-  }
+  },
+  "refreshrequest" : ""
 }</macroponent_config>
         <name>list-page default</name>
         <order>0</order>
@@ -180,7 +215,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>51faf3fc87de1150952f87f5cebb359a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>list-page default</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
@@ -188,7 +223,7 @@
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_ux_screen_51faf3fc87de1150952f87f5cebb359a</sys_update_name>
         <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-09-30 15:03:50</sys_updated_on>
+        <sys_updated_on>2022-11-15 12:01:30</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=51faf3fc87de1150952f87f5cebb359a"/>
 </record_update>

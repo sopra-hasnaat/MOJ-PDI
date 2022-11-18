@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Cease Order">3b3a035b1bc3d9106eb0a6c0604bcbbe</catalog_item>
+        <catalog_variable>IO:a3ed4f1f1bc3d9106eb0a6c0604bcb4b</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 12:26:17</sys_created_on>
+        <sys_id>0ace8b5f1bc3d9106eb0a6c0604bcbc2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>where_should_the_tag_be_removed_from_the_device_wearer</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_0ace8b5f1bc3d9106eb0a6c0604bcbc2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-14 12:33:47</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'where_should_the_tag_be_removed_from_the_device_wearer' visible depending on 'remove_home'">32be4b5f1bc3d9106eb0a6c0604bcbd4</ui_policy>
+        <variable>where_should_the_tag_be_removed_from_the_device_wearer</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

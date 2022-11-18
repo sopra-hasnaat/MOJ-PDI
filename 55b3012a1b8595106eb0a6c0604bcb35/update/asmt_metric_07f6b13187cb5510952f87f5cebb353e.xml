@@ -27,12 +27,12 @@
         <duration/>
         <field_validation/>
         <mandatory>false</mandatory>
-        <max>6</max>
+        <max>10</max>
         <max_weight/>
         <maximum_normalization_input>false</maximum_normalization_input>
         <method>assessment</method>
         <metric_type display_value="Generic: Arrival At Address">7f2882f9879a1550952f87f5cebb3563</metric_type>
-        <min>1</min>
+        <min>2</min>
         <name>Visit Outcome</name>
         <order>400</order>
         <plugin/>
@@ -51,14 +51,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>07f6b13187cb5510952f87f5cebb353e</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Visit Outcome</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>asmt_metric_07f6b13187cb5510952f87f5cebb353e</sys_update_name>
         <sys_updated_by>paul.fraser.ems</sys_updated_by>
-        <sys_updated_on>2022-11-09 14:20:46</sys_updated_on>
+        <sys_updated_on>2022-11-11 09:42:39</sys_updated_on>
         <template/>
         <value_parameters/>
         <weight>10</weight>

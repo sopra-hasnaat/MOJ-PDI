@@ -4,21 +4,21 @@
         <api_name>x_ster2_emfs.Audience for appElectronic Monitoring Subjects</api_name>
         <description/>
         <name>Audience for appElectronic Monitoring Subjects</name>
-        <roles>d08987ea1b8d95106eb0a6c0604bcb5a,dd0390661b5555506eb0a6c0604bcbba</roles>
+        <roles name="x_ster2_emfs.responsible_officers">92cbfcf787039d10952f87f5cebb35fa</roles>
         <sys_class_name>sys_ux_applicability</sys_class_name>
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-08-30 16:59:22</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5974300f1b6595906eb0a6c0604bcbd4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Audience for appElectronic Monitoring Subjects</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_ux_applicability_5974300f1b6595906eb0a6c0604bcbd4</sys_update_name>
-        <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-08-30 16:59:22</sys_updated_on>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-18 12:44:50</sys_updated_on>
     </sys_ux_applicability>
 </record_update>

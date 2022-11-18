@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Cease Order">299a035b1bc3d9106eb0a6c0604bcbd7</sc_cat_item>
+        <sc_catalog display_value="Customer Service">65bcd377c3011200b12d9f2974d3aea0</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 12:24:55</sys_created_on>
+        <sys_id>467e475f1bc3d9106eb0a6c0604bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Service.Cease Order</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_467e475f1bc3d9106eb0a6c0604bcba2</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 12:24:55</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sc_cat_item_catalog_467e475f1bc3d9106eb0a6c0604bcba2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Cease Order">299a035b1bc3d9106eb0a6c0604bcbd7</sc_cat_item><sc_catalog display_value="Customer Service">65bcd377c3011200b12d9f2974d3aea0</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>des.king.ems</sys_created_by><sys_created_on>2022-11-14 12:24:55</sys_created_on><sys_id>467e475f1bc3d9106eb0a6c0604bcba2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Customer Service.Cease Order</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sc_cat_item_catalog_467e475f1bc3d9106eb0a6c0604bcba2</sys_update_name><sys_updated_by>des.king.ems</sys_updated_by><sys_updated_on>2022-11-14 12:24:55</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1782434941</payload_hash>
+        <record_name>Customer Service.Cease Order</record_name>
+        <reverted_from/>
+        <source>a43d80521b8b95106eb0a6c0604bcb26</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 12:24:55</sys_created_on>
+        <sys_id>c67e475f1bc3d9106eb0a6c0604bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184761988410000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 12:24:55</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>4e7e475f38c3d91076749a12da8945a4</update_guid>
+        <update_guid_history>4e7e475f38c3d91076749a12da8945a4:-1782434941</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Customer Service.Cease Order">295fc39f1bc3d9106eb0a6c0604bcb4c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-14 12:28:42</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>0f73a03a95b24e00aad1d49f0f840000</sys_id>
+        <sys_metadata>467e475f1bc3d9106eb0a6c0604bcba2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Service.Cease Order</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">299a035b1bc3d9106eb0a6c0604bcbd7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_467e475f1bc3d9106eb0a6c0604bcba2</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_467e475f1bc3d9106eb0a6c0604bcba2">c67e475f1bc3d9106eb0a6c0604bcba5</sys_update_version>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 12:28:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

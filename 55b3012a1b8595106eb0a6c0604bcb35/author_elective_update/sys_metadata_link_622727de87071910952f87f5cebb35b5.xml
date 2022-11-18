@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="DELETE">
+        <directory>update</directory>
+        <documentkey>262727de87071910952f87f5cebb35b3</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_model_part_requirement">
+    <cmdb_model_part_requirement action="INSERT_OR_UPDATE">
+        <mandatory>false</mandatory>
+        <model display_value="SCRAM 7cm Strap">f5d0657d1bbd11d06eb0a6c0604bcb2f</model>
+        <order>10</order>
+        <required_quantity>1</required_quantity>
+        <service_order_task display_value="Install AM Tag">6873b606876f50687d7f06879ad06877</service_order_task>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-11-11 11:38:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>262727de87071910952f87f5cebb35b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-11-11 11:38:54</sys_updated_on>
+    </cmdb_model_part_requirement>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-11-11 11:38:54</sys_created_on>
+        <sys_id>622727de87071910952f87f5cebb35b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 11/11/2022 11:38:54</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_metadata_link_622727de87071910952f87f5cebb35b5</sys_update_name>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-11-11 11:38:54</sys_updated_on>
+        <tablename>cmdb_model_part_requirement</tablename>
+    </sys_metadata_link>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_metadata_link_622727de87071910952f87f5cebb35b5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_metadata_link"&gt;&lt;sys_metadata_link action="INSERT_OR_UPDATE"&gt;&lt;directory&gt;update&lt;/directory&gt;&lt;documentkey&gt;262727de87071910952f87f5cebb35b3&lt;/documentkey&gt;&lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="cmdb_model_part_requirement"&gt;
+    &lt;cmdb_model_part_requirement action="INSERT_OR_UPDATE"&gt;
+        &lt;mandatory&gt;false&lt;/mandatory&gt;
+        &lt;model display_value="SCRAM 7cm Strap"&gt;f5d0657d1bbd11d06eb0a6c0604bcb2f&lt;/model&gt;
+        &lt;order&gt;10&lt;/order&gt;
+        &lt;required_quantity&gt;1&lt;/required_quantity&gt;
+        &lt;service_order_task display_value="Install AM Tag"&gt;6873b606876f50687d7f06879ad06877&lt;/service_order_task&gt;
+        &lt;sys_created_by&gt;paul.fraser.ems&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-11-11 11:38:54&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_id&gt;262727de87071910952f87f5cebb35b3&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;paul.fraser.ems&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-11-11 11:38:54&lt;/sys_updated_on&gt;
+    &lt;/cmdb_model_part_requirement&gt;
+&lt;/record_update&gt;
+]]&gt;&lt;/payload&gt;&lt;sys_class_name&gt;sys_metadata_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;paul.fraser.ems&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-11 11:38:54&lt;/sys_created_on&gt;&lt;sys_id&gt;622727de87071910952f87f5cebb35b5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Created 11/11/2022 11:38:54&lt;/sys_name&gt;&lt;sys_package display_value="Electronic Monitoring" source="x_ster2_emfs"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Electronic Monitoring"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_metadata_link_622727de87071910952f87f5cebb35b5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;paul.fraser.ems&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-11 11:38:54&lt;/sys_updated_on&gt;&lt;tablename&gt;cmdb_model_part_requirement&lt;/tablename&gt;&lt;/sys_metadata_link&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1612656548</payload_hash>
+        <record_name>Created 11/11/2022 11:38:54</record_name>
+        <reverted_from/>
+        <source>d96407d287831910952f87f5cebb35cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-11-11 11:38:54</sys_created_on>
+        <sys_id>2a2727de87071910952f87f5cebb35b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184667c51380000001</sys_recorded_at>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-11-11 11:38:54</sys_updated_on>
+        <type>Metadata Snapshot</type>
+        <update_guid>622727deb00719108aeae76557a730b6</update_guid>
+        <update_guid_history>622727deb00719108aeae76557a730b6:-1612656548</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>paul.fraser.ems</sys_created_by>
+        <sys_created_on>2022-11-11 11:39:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_metadata_link">sys_metadata_link</sys_db_object>
+        <sys_id>b6de295fdb3847d885799032cc71af90</sys_id>
+        <sys_metadata>622727de87071910952f87f5cebb35b5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 11/11/2022 11:38:54</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_metadata_link_622727de87071910952f87f5cebb35b5</sys_update_name>
+        <sys_update_version display_value="sys_metadata_link_622727de87071910952f87f5cebb35b5">2a2727de87071910952f87f5cebb35b6</sys_update_version>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-11-11 11:39:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

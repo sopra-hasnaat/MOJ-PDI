@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="New Order">d49a535a87aa9110952f87f5cebb3524</catalog_item>
+        <catalog_variable>IO:af76949a1b8b95106eb0a6c0604bcb20</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-11 12:27:21</sys_created_on>
+        <sys_id>9042f71e87471910952f87f5cebb3518</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>exclusion_address</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_9042f71e87471910952f87f5cebb3518</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-11 12:31:42</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'exclusion_address' visible depending on 'exclusion_address_option'">9442f71e87471910952f87f5cebb3512</ui_policy>
+        <variable>exclusion_address</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>catalog_ui_policy_action_9042f71e87471910952f87f5cebb3518</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="New Order">d49a535a87aa9110952f87f5cebb3524</catalog_item><catalog_variable>IO:af76949a1b8b95106eb0a6c0604bcb20</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-11-11 12:27:21</sys_created_on><sys_id>9042f71e87471910952f87f5cebb3518</sys_id><sys_mod_count>2</sys_mod_count><sys_name>exclusion_address</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>catalog_ui_policy_action_9042f71e87471910952f87f5cebb3518</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-11-11 12:31:42</sys_updated_on><table/><ui_policy display_value="Make 'exclusion_address' visible depending on 'exclusion_address_option'">9442f71e87471910952f87f5cebb3512</ui_policy><variable>exclusion_address</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1861810586</payload_hash>
+        <record_name>exclusion_address</record_name>
+        <reverted_from/>
+        <source>877c8dab877e1950952f87f5cebb356c</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-11 12:31:42</sys_created_on>
+        <sys_id>c043fb9e87471910952f87f5cebb357c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18466aca91f0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-11 12:31:42</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>8043fb9e7c47191027d66c4524179e6f</update_guid>
+        <update_guid_history>8043fb9e7c47191027d66c4524179e6f:1861810586,ec42f71e4647191042e044840533d422:1605791369,1042f71e55471910384a52879dd9ae1c:1861810586</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="exclusion_address">37643b5287871910952f87f5cebb35b2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-11 12:36:52</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>379c823ff2ce45608b9af73880a8ea40</sys_id>
+        <sys_metadata>9042f71e87471910952f87f5cebb3518</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>exclusion_address</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_9042f71e87471910952f87f5cebb3518</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_9042f71e87471910952f87f5cebb3518">c043fb9e87471910952f87f5cebb357c</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-11 12:36:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

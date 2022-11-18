@@ -616,7 +616,49 @@
                           "value" : "default"
                         }
                       },
-                      "eventMappings" : [ ],
+                      "eventMappings" : [ {
+                        "eventMappingId" : "claieehhttiiaabbffmddffhhffddujbbjjhhpx",
+                        "isConfiguration" : false,
+                        "offRowStorageId" : null,
+                        "sourceEventApiName" : "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                        "sourceEventCorrelationId" : null,
+                        "sourceEventDefinition" : {
+                          "apiName" : "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                          "id" : null,
+                          "type" : "UXEVENT"
+                        },
+                        "sourceEventSysId" : null,
+                        "targets" : [ {
+                          "broker" : null,
+                          "clientScript" : null,
+                          "conditional" : null,
+                          "declarativeAction" : null,
+                          "event" : {
+                            "apiName" : "x_ster2_emfs.NAV_ITEM_SELECTED_RELAY_c8002b618786d110952f87f5cebb3511",
+                            "payload" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : {
+                                "route" : "list",
+                                "fields" : null,
+                                "params" : {
+                                  "listId" : "14ffae0087a69d50952f87f5cebb3579",
+                                  "tinyId" : "2f00324087a69d50952f87f5cebb35fd"
+                                },
+                                "redirect" : null,
+                                "passiveNavigation" : null,
+                                "title" : "All Cases",
+                                "multiInstField" : null,
+                                "targetRoute" : null,
+                                "external" : null
+                              }
+                            },
+                            "sysId" : "8ad708bb87cb5d10952f87f5cebb352e"
+                          },
+                          "operation" : null,
+                          "targetId" : "claieehhttjjaabbffnddffhhfftuewhhaaqs",
+                          "type" : "EVENT"
+                        } ]
+                      } ],
                       "slot" : null,
                       "definition" : {
                         "id" : "d24d53f60350de7a652caf3188a46ed2",
@@ -790,7 +832,7 @@
                           "type" : "TRANSLATION_LITERAL",
                           "value" : {
                             "code" : null,
-                            "message" : "All Active Monitoring Orders",
+                            "message" : "All Monitoring Orders",
                             "comment" : ""
                           }
                         },
@@ -967,7 +1009,50 @@
                           "value" : "default"
                         }
                       },
-                      "eventMappings" : [ ],
+                      "eventMappings" : [ {
+                        "eventMappingId" : "claieecheefaaccjjwddffhhffdmfnweerz",
+                        "isConfiguration" : false,
+                        "offRowStorageId" : null,
+                        "sourceEventApiName" : "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                        "sourceEventCorrelationId" : null,
+                        "sourceEventDefinition" : {
+                          "apiName" : "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                          "id" : null,
+                          "type" : "UXEVENT"
+                        },
+                        "sourceEventSysId" : null,
+                        "targets" : [ {
+                          "broker" : null,
+                          "clientScript" : null,
+                          "conditional" : null,
+                          "declarativeAction" : null,
+                          "event" : {
+                            "apiName" : "x_ster2_emfs.NAV_ITEM_SELECTED_RELAY_c8002b618786d110952f87f5cebb3511",
+                            "payload" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : {
+                                "route" : "list",
+                                "fields" : null,
+                                "params" : {
+                                  "listId" : "2574700f1b6595906eb0a6c0604bcb33",
+                                  "configId" : null,
+                                  "tinyId" : "fa54b9f087265190952f87f5cebb351d"
+                                },
+                                "redirect" : null,
+                                "passiveNavigation" : null,
+                                "title" : "All Monitoring Orders",
+                                "multiInstField" : null,
+                                "targetRoute" : null,
+                                "external" : null
+                              }
+                            },
+                            "sysId" : "8ad708bb87cb5d10952f87f5cebb352e"
+                          },
+                          "operation" : null,
+                          "targetId" : "claieecheefaaccjjxddffhhffvbccnzhhggf",
+                          "type" : "EVENT"
+                        } ]
+                      } ],
                       "slot" : null,
                       "definition" : {
                         "id" : "d24d53f60350de7a652caf3188a46ed2",
@@ -1141,7 +1226,7 @@
                           "type" : "TRANSLATION_LITERAL",
                           "value" : {
                             "code" : null,
-                            "message" : "All Active Alerts",
+                            "message" : "All Alerts",
                             "comment" : ""
                           }
                         },
@@ -1318,7 +1403,60 @@
                           "value" : "default"
                         }
                       },
-                      "eventMappings" : [ ],
+                      "eventMappings" : [ {
+                        "eventMappingId" : "claieedzhccaaccabddffhhffxccjyrfus",
+                        "isConfiguration" : false,
+                        "offRowStorageId" : null,
+                        "sourceEventApiName" : "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                        "sourceEventCorrelationId" : null,
+                        "sourceEventDefinition" : {
+                          "apiName" : "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                          "id" : null,
+                          "type" : "UXEVENT"
+                        },
+                        "sourceEventSysId" : null,
+                        "targets" : [ {
+                          "broker" : null,
+                          "clientScript" : {
+                            "sysId" : "b03b4873870f5d10952f87f5cebb3554"
+                          },
+                          "conditional" : null,
+                          "declarativeAction" : null,
+                          "event" : null,
+                          "operation" : null,
+                          "targetId" : "claieedzhccaaccacddffhhffpbesklvd",
+                          "type" : "CLIENT_SCRIPT"
+                        }, {
+                          "broker" : null,
+                          "clientScript" : null,
+                          "conditional" : null,
+                          "declarativeAction" : null,
+                          "event" : {
+                            "apiName" : "x_ster2_emfs.NAV_ITEM_SELECTED_RELAY_c8002b618786d110952f87f5cebb3511",
+                            "payload" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : {
+                                "route" : "list",
+                                "fields" : null,
+                                "params" : {
+                                  "listId" : "7918848d87125150952f87f5cebb35c1",
+                                  "tinyId" : "8d0846ae879ed550952f87f5cebb35ce"
+                                },
+                                "redirect" : null,
+                                "passiveNavigation" : null,
+                                "title" : null,
+                                "multiInstField" : null,
+                                "targetRoute" : null,
+                                "external" : null
+                              }
+                            },
+                            "sysId" : "8ad708bb87cb5d10952f87f5cebb352e"
+                          },
+                          "operation" : null,
+                          "targetId" : "claiffxhhaaxaaddjeeddffhhffccddhifxys",
+                          "type" : "EVENT"
+                        } ]
+                      } ],
                       "slot" : null,
                       "definition" : {
                         "id" : "d24d53f60350de7a652caf3188a46ed2",
@@ -1504,331 +1642,12 @@
             "type" : "MACROPONENT"
           },
           "overrides" : {
-            "composition" : [ {
-              "elementId" : "single_score_5",
-              "elementLabel" : "Donut",
-              "propertyValues" : {
-                "chartSize" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "showDataLabels" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "dataLabelsType" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "both"
-                },
-                "maxLabelSize" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "truncationType" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "end"
-                },
-                "showRegister" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : true
-                },
-                "registerPosition" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "bottom"
-                },
-                "registerOrientation" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "horizontal"
-                },
-                "showRegisterOnSameLine" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
-                "showRegisterValue" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
-                "showRegisterPercentage" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "colorConfig" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : {
-                    "type" : "default"
-                  }
-                },
-                "dataSources" : {
-                  "type" : "LIST_CONTAINER",
-                  "container" : [ {
-                    "type" : "MAP_CONTAINER",
-                    "container" : {
-                      "isDatabaseView" : {
-                        "type" : "JSON_LITERAL",
-                        "value" : false
-                      },
-                      "allowRealTime" : {
-                        "type" : "JSON_LITERAL",
-                        "value" : true
-                      },
-                      "label" : {
-                        "type" : "TRANSLATION_LITERAL",
-                        "value" : {
-                          "code" : null,
-                          "message" : "Subjects",
-                          "comment" : ""
-                        }
-                      },
-                      "sourceType" : {
-                        "type" : "JSON_LITERAL",
-                        "value" : "table"
-                      },
-                      "tableOrViewName" : {
-                        "type" : "JSON_LITERAL",
-                        "value" : "x_ster2_emfs_subject"
-                      },
-                      "filterQuery" : {
-                        "type" : "JSON_LITERAL",
-                        "value" : "active=true"
-                      },
-                      "reportSourceSysId" : {
-                        "type" : "JSON_LITERAL",
-                        "value" : null
-                      },
-                      "id" : {
-                        "type" : "JSON_LITERAL",
-                        "value" : "dGFibGV4X3N0ZXIyX2VtZnNfc3ViamVjdDE2NjM2NzE4NjA2NDQ="
-                      }
-                    }
-                  } ]
-                },
-                "showHeader" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : true
-                },
-                "wrapTitle" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
-                "showHeaderSeparator" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : true
-                },
-                "title" : {
-                  "type" : "TRANSLATION_LITERAL",
-                  "value" : {
-                    "code" : null,
-                    "message" : "All Active Subjects with Responsible Officers",
-                    "comment" : ""
-                  }
-                },
-                "showBorder" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : true
-                },
-                "bareBorder" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
-                "formats" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "metrics" : {
-                  "type" : "LIST_CONTAINER",
-                  "container" : [ {
-                    "type" : "MAP_CONTAINER",
-                    "container" : {
-                      "dataSource" : {
-                        "type" : "JSON_LITERAL",
-                        "value" : "dGFibGV4X3N0ZXIyX2VtZnNfc3ViamVjdDE2NjM2NzE4NjA2NDQ="
-                      },
-                      "id" : {
-                        "type" : "JSON_LITERAL",
-                        "value" : "ZEdGaWJHVjRYM04wWlhJeVgyVnRabk5mYzNWaWFtVmpkREUyTmpNMk56RTROakEyTkRRPTE2NjM2NzE4NjQ2MzQ="
-                      },
-                      "aggregateFunction" : {
-                        "type" : "JSON_LITERAL",
-                        "value" : "COUNT"
-                      },
-                      "numberFormat" : {
-                        "type" : "JSON_LITERAL",
-                        "value" : {
-                          "customFormat" : false
-                        }
-                      },
-                      "axisId" : {
-                        "type" : "JSON_LITERAL",
-                        "value" : "primary"
-                      }
-                    }
-                  } ]
-                },
-                "groupBy" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : [ {
-                    "maxNumberOfGroups" : 10,
-                    "numberOfGroupsBasedOn" : "NO_OF_GROUP_BASED_ON_PER_METRIC",
-                    "showOthers" : false,
-                    "groupBy" : [ {
-                      "dataSource" : "dGFibGV4X3N0ZXIyX2VtZnNfc3ViamVjdDE2NjM2NzE4NjA2NDQ=",
-                      "groupByField" : "responsible_officer",
-                      "isRange" : false,
-                      "isPaBucket" : false
-                    } ]
-                  } ]
-                },
-                "sortBy" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "value"
-                },
-                "sortByOrder" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "desc"
-                },
-                "trendBy" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "showChange" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "showChangePercentage" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "showTarget" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "showForecast" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "showForecastRange" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "showTrend" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "showConfidenceBand" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "showGapPercentage" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "showSparkline" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
-                "showMetricLabel" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "showThreshold" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "showComment" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "showTotalValue" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "followFilters" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : true
-                },
-                "showFilterIcon" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : true
-                },
-                "enableRealTimeUpdate" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "enableDrilldown" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : true
-                },
-                "refreshFrequency" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "backgroundRefreshInterval" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "standardFormatData" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "filterConfigurations" : {
-                  "type" : "STATE_BINDING",
-                  "binding" : {
-                    "address" : [ "parFilters" ]
-                  }
-                },
-                "showMaximumRange" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
-                "numberOfPeriods" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : 3
-                },
-                "showAbsolutePeriod" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
-                "startTime" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "endTime" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "period" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "M"
-                },
-                "dateFormat" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "default"
-                }
-              },
-              "eventMappings" : [ ],
-              "slot" : null,
-              "definition" : {
-                "id" : "a2b0596cec6b9d49dd1ff9bf76b5084b",
-                "type" : "MACROPONENT"
-              },
-              "overrides" : null,
-              "isHidden" : {
-                "type" : "JSON_LITERAL",
-                "value" : null
-              },
-              "isHero" : false,
-              "isNonDestructive" : false,
-              "styles" : {
-                "height" : "100%",
-                "width" : "50%",
-                "align-self" : "center"
-              }
-            } ],
+            "composition" : [ ],
             "layout" : {
               "default" : {
                 "children" : null,
                 "isInline" : null,
-                "items" : [{"element_id":"single_score_5","styles":{}}],
+                "items" : [],
                 "root" : null,
                 "rules" : null,
                 "styles" : {"flex-direction":"column","display":"flex","margin-right":"2em"},
@@ -2238,7 +2057,7 @@
       },
       "isHidden" : {
         "type" : "JSON_LITERAL",
-        "value" : null
+        "value" : true
       },
       "isHero" : false,
       "isNonDestructive" : false,
@@ -2272,7 +2091,7 @@
 } ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
-        <dispatched_events/>
+        <dispatched_events>386f0c73870f5d10952f87f5cebb35c5,8ad708bb87cb5d10952f87f5cebb352e</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -2301,13 +2120,10 @@
   "message" : "Alerts 1",
   "comment" : ""
 }, {
-  "message" : "All Active Alerts",
+  "message" : "All Alerts",
   "comment" : ""
 }, {
-  "message" : "All Active Monitoring Orders",
-  "comment" : ""
-}, {
-  "message" : "All Active Subjects with Responsible Officers",
+  "message" : "All Monitoring Orders",
   "comment" : ""
 }, {
   "message" : "Case",
@@ -2321,9 +2137,6 @@
 }, {
   "message" : "Responsible Officer Portal",
   "comment" : ""
-}, {
-  "message" : "Subjects",
-  "comment" : ""
 } ]</required_translations>
         <root_component/>
         <root_component_config>{ }</root_component_config>
@@ -2334,13 +2147,13 @@
         <sys_created_by>hasnaat.khan.ems</sys_created_by>
         <sys_created_on>2022-09-20 10:09:22</sys_created_on>
         <sys_id>c8002b618786d110952f87f5cebb3511</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_name>Responsible officer CH</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_ux_macroponent_c8002b618786d110952f87f5cebb3511</sys_update_name>
         <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-10-10 15:19:27</sys_updated_on>
+        <sys_updated_on>2022-11-15 12:40:32</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

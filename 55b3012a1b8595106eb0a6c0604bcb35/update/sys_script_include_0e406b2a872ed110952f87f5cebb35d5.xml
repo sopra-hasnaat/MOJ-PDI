@@ -11,14 +11,14 @@
 RetrieveSubject.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     retrieveUser: function() {
         var userSysID = this.getParameter("sys_id");
-        var userGr = new GlideRecord('sys_user');
+        var userGr = new GlideRecord('x_ster2_emfs_subject');
         userGr.get(userSysID);
 
         var result = {
-            "address_line_1": userGr.getDisplayValue('u_subject.address_line_1'),
-            "post_code": userGr.getDisplayValue('u_subject.post_code'),
-            "address2_line_1": userGr.getDisplayValue('u_subject.address2_line_1'),
-            "address2_post_code": userGr.getDisplayValue('u_subject.address2_post_code')
+            "address_line_1": userGr.getDisplayValue('address_line_1'),
+            "post_code": userGr.getDisplayValue('post_code'),
+            "address2_line_1": userGr.getDisplayValue('address2_line_1'),
+            "address2_post_code": userGr.getDisplayValue('address2_post_code')
         };
         return JSON.stringify(result);
     },
@@ -56,13 +56,13 @@ RetrieveSubject.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>hasnaat.khan.ems</sys_created_by>
         <sys_created_on>2022-10-18 09:16:19</sys_created_on>
         <sys_id>0e406b2a872ed110952f87f5cebb35d5</sys_id>
-        <sys_mod_count>102</sys_mod_count>
+        <sys_mod_count>103</sys_mod_count>
         <sys_name>RetrieveSubject</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_script_include_0e406b2a872ed110952f87f5cebb35d5</sys_update_name>
-        <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-10-24 10:25:58</sys_updated_on>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-14 15:35:04</sys_updated_on>
     </sys_script_include>
 </record_update>

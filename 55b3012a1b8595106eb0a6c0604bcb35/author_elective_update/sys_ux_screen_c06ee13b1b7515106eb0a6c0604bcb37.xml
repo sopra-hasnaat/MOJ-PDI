@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="Electronic Monitoring Subjects Config">6c74300f1e659590bb960d72709de55d</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Responsible officer CH">446ee13b1b7515106eb0a6c0604bcb35</macroponent>
+        <macroponent_config>{
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config>
+        <name>Responsible officer CH default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Responsible officer CH">4c6e29f71b7515106eb0a6c0604bcbe4</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>cheryl.holt.ems</sys_created_by>
+        <sys_created_on>2022-09-14 15:23:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c06ee13b1b7515106eb0a6c0604bcb37</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Responsible officer CH default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_screen_c06ee13b1b7515106eb0a6c0604bcb37</sys_update_name>
+        <sys_updated_by>cheryl.holt.ems</sys_updated_by>
+        <sys_updated_on>2022-09-14 16:12:44</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=c06ee13b1b7515106eb0a6c0604bcb37"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_ux_screen_c06ee13b1b7515106eb0a6c0604bcb37</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="Electronic Monitoring Subjects Config">6c74300f1e659590bb960d72709de55d</app_config><description/><event_mappings>[ ]</event_mappings><macroponent display_value="Responsible officer CH">446ee13b1b7515106eb0a6c0604bcb35</macroponent><macroponent_config>{
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config><name>Responsible officer CH default</name><order>0</order><parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Responsible officer CH">4c6e29f71b7515106eb0a6c0604bcbe4</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>cheryl.holt.ems</sys_created_by><sys_created_on>2022-09-14 15:23:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c06ee13b1b7515106eb0a6c0604bcb37</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Responsible officer CH default</sys_name><sys_overrides/><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sys_ux_screen_c06ee13b1b7515106eb0a6c0604bcb37</sys_update_name><sys_updated_by>cheryl.holt.ems</sys_updated_by><sys_updated_on>2022-09-14 16:12:44</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=c06ee13b1b7515106eb0a6c0604bcb37"/></record_update>]]></payload>
+        <payload_hash>2092743315</payload_hash>
+        <record_name>Responsible officer CH default</record_name>
+        <reverted_from/>
+        <source>8019931487ce1910952f87f5cebb35c7</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-09-16 12:26:44</sys_created_on>
+        <sys_id>d119171487ce1910952f87f5cebb3525</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1834643fc960000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-09-16 12:26:44</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>54a931f39ab51510ef5dcf664f33d8a3</update_guid>
+        <update_guid_history>54a931f39ab51510ef5dcf664f33d8a3:2092743315,80e893d0b9ce1910466664dcffafe3aa:1969590259,1fd853d003ce191051ea70043e73779a:0,57d853d0bbce1910e12070795bf2ee8b:0,54a931f39ab51510ef5dcf664f33d8a3:2092743315,f8424af71ff59510b0a31ed349d72723:1969590259,1c420af7d1f5951006e305e9bbc60a95:0,50420af72cf59510ceecdc8df1166c38:0,54a931f39ab51510ef5dcf664f33d8a3:2092743315,0c6ee13b22751510fad4840fabdeb938:-2118866955</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-15 11:15:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>28347230cbb8414d89a0ebd86170c711</sys_id>
+        <sys_metadata>c06ee13b1b7515106eb0a6c0604bcb37</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Responsible officer CH default</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_c06ee13b1b7515106eb0a6c0604bcb37</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_c06ee13b1b7515106eb0a6c0604bcb37">d119171487ce1910952f87f5cebb3525</sys_update_version>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-15 11:15:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

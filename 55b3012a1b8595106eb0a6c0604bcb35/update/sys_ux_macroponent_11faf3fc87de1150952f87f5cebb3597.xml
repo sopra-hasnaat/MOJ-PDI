@@ -3675,7 +3675,7 @@
   },
   "readEvaluationMode" : "EXPLICIT"
 } ]</data>
-        <dispatched_events>2a4300c587125150952f87f5cebb3521,312cbb3087125150952f87f5cebb3553,5dd4f4050f121010036a83fa68767eb6,f008951d0fc21010036a83fa68767e1c,b408951d0fc21010036a83fa68767e21,7008951d0fc21010036a83fa68767e37,93e48589a9ee4a69f8d3f5d45ffeb05d</dispatched_events>
+        <dispatched_events>cad054f7870f5d10952f87f5cebb354a,2a4300c587125150952f87f5cebb3521,312cbb3087125150952f87f5cebb3553,5dd4f4050f121010036a83fa68767eb6,f008951d0fc21010036a83fa68767e1c,b408951d0fc21010036a83fa68767e21,7008951d0fc21010036a83fa68767e37,93e48589a9ee4a69f8d3f5d45ffeb05d</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events>f7d18e2cb7735010cd8af8e32e11a90b,8c1321d50f1310107d20409dc4767e52,2640a5150f1310107d20409dc4767e8a</handled_events>
         <interactions/>
@@ -3801,7 +3801,7 @@
       "sysId" : null
     },
     "operation" : null,
-    "targetId" : "cliivdffqffpaaccwggddffhhffddjpzeejjbaa",
+    "targetId" : "cliivdffsibbaaccwjjddffhhffeqlrxwsm",
     "type" : "EVENT"
   }, {
     "broker" : null,
@@ -3817,7 +3817,55 @@
       "sysId" : null
     },
     "operation" : null,
-    "targetId" : "cliivdffsibbaaccwjjddffhhffeqlrxwsm",
+    "targetId" : "claiffkiaayaaccdpddffhhffkaaxmjlez",
+    "type" : "EVENT"
+  }, {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : null,
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : null
+    },
+    "operation" : null,
+    "targetId" : "claiffkkffzaaccdqddffhhffxeeaaxesygg",
+    "type" : "EVENT"
+  }, {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : null,
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : null
+    },
+    "operation" : null,
+    "targetId" : "claiffkkyaaaaccdrddffhhffbuwiihviiu",
+    "type" : "EVENT"
+  }, {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : null,
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : null
+    },
+    "operation" : null,
+    "targetId" : "claiffkncqaaccdsddffhhffwceenityo",
     "type" : "EVENT"
   } ],
   "sn_uib_base_aw.LIST#OPEN_MODAL" : [ {
@@ -3905,6 +3953,30 @@
   "defaultValue" : null,
   "description" : null,
   "readOnly" : false,
+  "selectable" : false,
+  "disabled" : false
+}, {
+  "name" : "pagerefresh",
+  "label" : "pagerefresh",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false,
+  "disabled" : false
+}, {
+  "name" : "refreshrequest",
+  "label" : "refreshrequest",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
   "selectable" : false,
   "disabled" : false
 } ]</props>
@@ -4131,13 +4203,13 @@
         <sys_created_by>hasnaat.khan.ems</sys_created_by>
         <sys_created_on>2022-09-30 14:27:23</sys_created_on>
         <sys_id>11faf3fc87de1150952f87f5cebb3597</sys_id>
-        <sys_mod_count>174</sys_mod_count>
+        <sys_mod_count>179</sys_mod_count>
         <sys_name>List</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_ux_macroponent_11faf3fc87de1150952f87f5cebb3597</sys_update_name>
         <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-10-10 15:52:01</sys_updated_on>
+        <sys_updated_on>2022-11-15 12:01:29</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

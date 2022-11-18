@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Daily Completions Report">77e7883f87cb5d10952f87f5cebb354a</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>rebecca.seiga.ems</sys_created_by>
+        <sys_created_on>2022-11-15 11:14:28</sys_created_on>
+        <sys_id>7fe7883f87cb5d10952f87f5cebb354a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>77e7883f87cb5d10952f87f5cebb354a</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_report_users_groups_7fe7883f87cb5d10952f87f5cebb354a</sys_update_name>
+        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+        <sys_updated_on>2022-11-15 11:14:28</sys_updated_on>
+        <user_id display_value="Rebecca Seiga">5a9e8acb1b3151106eb0a6c0604bcb72</user_id>
+    </sys_report_users_groups>
+</record_update>

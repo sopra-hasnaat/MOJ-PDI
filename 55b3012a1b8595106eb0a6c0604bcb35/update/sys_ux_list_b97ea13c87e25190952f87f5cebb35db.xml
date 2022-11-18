@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
     <sys_ux_list action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <category display_value="Tasks">c702793087265190952f87f5cebb3522</category>
+        <active>false</active>
+        <category display_value="My Tasks">c702793087265190952f87f5cebb3522</category>
         <columns/>
         <condition/>
         <configuration display_value="Electronic Monitoring Subjects_menu_config">d574300f1b6595906eb0a6c0604bcbdc</configuration>
@@ -60,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b97ea13c87e25190952f87f5cebb35db</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>All</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
@@ -68,7 +68,7 @@
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_ux_list_b97ea13c87e25190952f87f5cebb35db</sys_update_name>
         <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-10-12 14:54:30</sys_updated_on>
+        <sys_updated_on>2022-11-18 16:09:06</sys_updated_on>
         <table>sn_customerservice_task</table>
         <title>All</title>
         <view display_value="Default view" name="NULL">Default view</view>

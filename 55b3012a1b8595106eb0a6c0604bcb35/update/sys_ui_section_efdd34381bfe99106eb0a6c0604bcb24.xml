@@ -3,128 +3,142 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-31 17:18:01</sys_created_on>
-            <sys_id>0b4b8ccb1bb2d1506eb0a6c0604bcb7d</sys_id>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-11 10:26:39</sys_created_on>
+            <sys_id>54a6179a1b87d5106eb0a6c0604bcbbd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Enforcement Action Case" display_value="Enforcement Action Case" name="x_ster2_emfs_enforcement_action_cases" sys_domain="global" view="Default view">efdd34381bfe99106eb0a6c0604bcb24</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-31 17:18:01</sys_updated_on>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-11 10:26:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>subject</element>
             <position>1</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-31 17:18:01</sys_created_on>
-            <sys_id>0f4b8ccb1bb2d1506eb0a6c0604bcb7d</sys_id>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-11 10:26:39</sys_created_on>
+            <sys_id>58a6179a1b87d5106eb0a6c0604bcbbd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Enforcement Action Case" display_value="Enforcement Action Case" name="x_ster2_emfs_enforcement_action_cases" sys_domain="global" view="Default view">efdd34381bfe99106eb0a6c0604bcb24</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-31 17:18:01</sys_updated_on>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-11 10:26:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assignment_group</element>
             <position>2</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-31 17:18:01</sys_created_on>
-            <sys_id>034b8ccb1bb2d1506eb0a6c0604bcb7e</sys_id>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-11 10:26:39</sys_created_on>
+            <sys_id>5ca6179a1b87d5106eb0a6c0604bcbbd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Enforcement Action Case" display_value="Enforcement Action Case" name="x_ster2_emfs_enforcement_action_cases" sys_domain="global" view="Default view">efdd34381bfe99106eb0a6c0604bcb24</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-31 17:18:01</sys_updated_on>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-11 10:26:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
             <position>3</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-31 17:18:01</sys_created_on>
-            <sys_id>074b8ccb1bb2d1506eb0a6c0604bcb7e</sys_id>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-11 10:26:39</sys_created_on>
+            <sys_id>50a6179a1b87d5106eb0a6c0604bcbbe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Enforcement Action Case" display_value="Enforcement Action Case" name="x_ster2_emfs_enforcement_action_cases" sys_domain="global" view="Default view">efdd34381bfe99106eb0a6c0604bcb24</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-31 17:18:01</sys_updated_on>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-11 10:26:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>outcome</element>
             <position>4</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-31 17:18:01</sys_created_on>
-            <sys_id>0b4b8ccb1bb2d1506eb0a6c0604bcb7e</sys_id>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-11 10:26:39</sys_created_on>
+            <sys_id>54a6179a1b87d5106eb0a6c0604bcbbe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Enforcement Action Case" display_value="Enforcement Action Case" name="x_ster2_emfs_enforcement_action_cases" sys_domain="global" view="Default view">efdd34381bfe99106eb0a6c0604bcb24</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-31 17:18:01</sys_updated_on>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-11 10:26:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>5</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-31 17:18:01</sys_created_on>
-            <sys_id>0f4b8ccb1bb2d1506eb0a6c0604bcb7e</sys_id>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-11 10:26:39</sys_created_on>
+            <sys_id>58a6179a1b87d5106eb0a6c0604bcbbe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Enforcement Action Case" display_value="Enforcement Action Case" name="x_ster2_emfs_enforcement_action_cases" sys_domain="global" view="Default view">efdd34381bfe99106eb0a6c0604bcb24</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-31 17:18:01</sys_updated_on>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-11 10:26:39</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
             <position>6</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-31 17:18:01</sys_created_on>
-            <sys_id>034b8ccb1bb2d1506eb0a6c0604bcb7f</sys_id>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-11 10:26:39</sys_created_on>
+            <sys_id>5ca6179a1b87d5106eb0a6c0604bcbbe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Enforcement Action Case" display_value="Enforcement Action Case" name="x_ster2_emfs_enforcement_action_cases" sys_domain="global" view="Default view">efdd34381bfe99106eb0a6c0604bcb24</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-31 17:18:01</sys_updated_on>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-11 10:26:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>priority</element>
             <position>7</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-31 17:18:01</sys_created_on>
-            <sys_id>074b8ccb1bb2d1506eb0a6c0604bcb7f</sys_id>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-11 10:26:39</sys_created_on>
+            <sys_id>50a6179a1b87d5106eb0a6c0604bcbbf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Enforcement Action Case" display_value="Enforcement Action Case" name="x_ster2_emfs_enforcement_action_cases" sys_domain="global" view="Default view">efdd34381bfe99106eb0a6c0604bcb24</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-31 17:18:01</sys_updated_on>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-11 10:26:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
             <position>8</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-31 17:18:01</sys_created_on>
-            <sys_id>0b4b8ccb1bb2d1506eb0a6c0604bcb7f</sys_id>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-11 10:26:39</sys_created_on>
+            <sys_id>54a6179a1b87d5106eb0a6c0604bcbbf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Enforcement Action Case" display_value="Enforcement Action Case" name="x_ster2_emfs_enforcement_action_cases" sys_domain="global" view="Default view">efdd34381bfe99106eb0a6c0604bcb24</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-31 17:18:01</sys_updated_on>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-11 10:26:39</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inline_checklist_macro</element>
+            <position>9</position>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-11 10:26:39</sys_created_on>
+            <sys_id>58a6179a1b87d5106eb0a6c0604bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Checklist">ade76621c3200200e280dccdf3d3ae9a</sys_ui_formatter>
+            <sys_ui_section caption="Enforcement Action Case" display_value="Enforcement Action Case" name="x_ster2_emfs_enforcement_action_cases" sys_domain="global" view="Default view">efdd34381bfe99106eb0a6c0604bcb24</sys_ui_section>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-11 10:26:39</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Enforcement Action Case</caption>

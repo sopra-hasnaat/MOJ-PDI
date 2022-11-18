@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Monitoring Order" max_length="40" name="x_ster2_emfs_monitoring_order" sizeclass="101" text_index="true" type="collection">
+    <element audit="true" label="Orders" max_length="40" name="x_ster2_emfs_monitoring_order" sizeclass="112" text_index="true" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Actual End Date" max_length="40" name="actual_end_date" type="glide_date_time"/>
         <element label="Additional Requirements" max_length="8000" name="additional_requirements" type="html"/>
+        <element default="Order Entry Team" label="Assignment" max_length="32" name="assignment" reference="sys_user_group" type="reference"/>
         <element label="Attachments" max_length="40" name="attachments" type="file_attachment"/>
         <element label="Case" max_length="32" name="case" reference="sn_customerservice_case" type="reference"/>
         <element label="Concurrent Order" max_length="40" name="concurrent_order" type="boolean"/>
         <element label="Confirmed Date" max_length="40" name="confirmed_date" type="glide_date_time"/>
-        <element choice="1" label="Sentencing Court/Releasing Prison" max_length="200" name="court_prison" reference="x_ster2_emfs_sentencing_organisations" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
+        <element choice="1" label="Court/Releasing Prison" max_length="200" name="court_prison" reference="x_ster2_emfs_sentencing_organisations" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
             <choice/>
         </element>
         <element label="Court Reference" max_length="200" name="court_reference" type="string"/>
@@ -42,7 +43,7 @@
         <element label="Exclusion Zones" max_length="4000" name="exclusion_zones" reference="cmn_location" type="glide_list"/>
         <element label="Inclusion Coordinates" max_length="10000" name="inclusion_coordinates" read_only="true" type="string"/>
         <element attributes="start_locked=false" label="Inclusion Zones" max_length="4000" name="inclusion_zones" reference="cmn_location" reference_qual="sys_class_name=cmn_location^EQ" reference_qual_condition="sys_class_name=cmn_location^EQ" type="glide_list"/>
-        <element label="Individual Protocol Instructions" max_length="1000" name="individual_protocol_instructions" type="glide_encrypted"/>
+        <element label="Individual Protocol Instructions" max_length="1000" name="individual_protocol_instructions" type="string"/>
         <element label="Installation Instructions" max_length="1000" name="installation_instructions" type="string"/>
         <element label="Install Scheduled?" max_length="40" name="installscheduled" type="boolean"/>
         <element choice="1" label="Monitoring Type" max_length="40" name="monitoring_type" type="choice">
@@ -132,8 +133,8 @@
                 <element inactive_on_update="false" label="Home Office" sequence="50" value="home office"/>
             </choice>
         </element>
-        <element label="Responsible Officer" max_length="200" name="responsible_officer" reference="x_ster2_emfs_responsible_officers" type="reference"/>
-        <element choice="1" label="Responsible Organisation" max_length="40" name="responsible_organisation" type="choice">
+        <element label="Responsible Officer" max_length="200" name="responsible_officer" reference="sys_user" reference_qual="u_responsible_organisationISNOTEMPTY^EQ" reference_qual_condition="u_responsible_organisationISNOTEMPTY^EQ" type="reference"/>
+        <element choice="1" label="Responsible Organisation" max_length="40" name="responsible_organisation" reference="sys_user_group" reference_qual="typeLIKEa1835ed0875b1150952f87f5cebb35f4^EQ" reference_qual_condition="typeLIKEa1835ed0875b1150952f87f5cebb35f4^EQ" type="reference">
             <choice>
                 <element inactive_on_update="false" label="F - South Central - Buckinghamshire and Milton Keynes" sequence="10" value="f - south central - buckinghamshire and milton keynes"/>
                 <element inactive_on_update="false" label="F - South Central - Hampshire North and East" sequence="20" value="f - south central - hampshire north and east"/>
@@ -146,13 +147,14 @@
         <element choice="1" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="New" sequence="1" value="1"/>
-                <element inactive_on_update="false" label="Starts Today" sequence="2" value="2"/>
-                <element inactive_on_update="false" label="Live" sequence="3" value="3"/>
-                <element inactive_on_update="false" label="Pending" sequence="4" value="4"/>
-                <element inactive_on_update="false" label="Complete" sequence="5" value="5"/>
-                <element inactive_on_update="false" label="Revoked" sequence="6" value="6"/>
-                <element inactive_on_update="false" label="Void" sequence="7" value="7"/>
-                <element inactive_on_update="false" label="In Custody" sequence="8" value="8"/>
+                <element inactive_on_update="false" label="Confirmed" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Starts Today" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Live" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Pending" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Complete" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Revoked" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="Void" sequence="8" value="8"/>
+                <element inactive_on_update="false" label="In Custody" sequence="9" value="9"/>
             </choice>
         </element>
         <element label="Device Wearer" max_length="32" name="subject_name" reference="x_ster2_emfs_subject" reference_qual="subject_nameSTARTSWITH^EQ" reference_qual_condition="subject_nameSTARTSWITH^EQ" type="reference"/>
@@ -179,9 +181,12 @@
             <element name="notifying_organisation"/>
         </index>
         <index name="index4">
-            <element name="subject_name"/>
+            <element name="assignment"/>
         </index>
         <index name="index5">
+            <element name="subject_name"/>
+        </index>
+        <index name="index6">
             <element name="case"/>
         </index>
     </element>

@@ -3,14 +3,14 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_notes</element>
             <position>0</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-24 21:13:44</sys_created_on>
-            <sys_id>a71e38381bfe99106eb0a6c0604bcbdc</sys_id>
+            <sys_created_by>rebecca.seiga.ems</sys_created_by>
+            <sys_created_on>2022-11-11 10:26:40</sys_created_on>
+            <sys_id>28a6179a1b87d5106eb0a6c0604bcbd3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Work Notes" display_value="Work Notes" name="x_ster2_emfs_enforcement_action_cases" sys_domain="global" view="Default view">971e38381bfe99106eb0a6c0604bcb56</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-24 21:13:44</sys_updated_on>
+            <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
+            <sys_updated_on>2022-11-11 10:26:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ga_decision_tree_node">
+    <ga_decision_tree_node action="INSERT_OR_UPDATE">
+        <decision_table display_value="Enforcement Action Decision ">6990d6fb87879d10952f87f5cebb35c0</decision_table>
+        <decision_tree display_value="Enforcement Action Decision ">5680d6fb87879d10952f87f5cebb3559</decision_tree>
+        <guidance/>
+        <guidance_inputs/>
+        <label>Enforcement Action Decision </label>
+        <linked_decision_tree/>
+        <next_node/>
+        <sys_class_name>ga_decision_tree_node</sys_class_name>
+        <sys_created_by>josh.higham.ems</sys_created_by>
+        <sys_created_on>2022-11-15 21:11:31</sys_created_on>
+        <sys_id>ad90d6fb87879d10952f87f5cebb35c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enforcement Action Decision </sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>ga_decision_tree_node_ad90d6fb87879d10952f87f5cebb35c3</sys_update_name>
+        <sys_updated_by>josh.higham.ems</sys_updated_by>
+        <sys_updated_on>2022-11-15 21:11:31</sys_updated_on>
+        <type>decision</type>
+    </ga_decision_tree_node>
+    <sys_variable_value action="delete_multiple" query="document_key=ad90d6fb87879d10952f87f5cebb35c3"/>
+</record_update>

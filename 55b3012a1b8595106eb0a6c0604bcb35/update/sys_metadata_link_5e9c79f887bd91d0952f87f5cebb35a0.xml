@@ -10,6 +10,7 @@
         <assignment_group/>
         <barcode/>
         <bundle>false</bundle>
+        <bundle_assets>false</bundle_assets>
         <certified>false</certified>
         <checklist_template/>
         <cmdb_ci_class/>
@@ -31,11 +32,13 @@
         <manufacturer/>
         <model_number/>
         <name>Pre-Visit Checks</name>
+        <norm_status_sumry_function/>
         <owner/>
         <picture/>
         <power_consumption/>
         <product_catalog_item/>
         <rack_units>1</rack_units>
+        <requires_crew>false</requires_crew>
         <short_description>Pre-Visit Checks</short_description>
         <sla/>
         <sound_power/>
@@ -44,11 +47,11 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-05 08:43:55</sys_created_on>
         <sys_domain>global</sys_domain>
-        <sys_domain_path/>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>5455d30545bf405453240545d2f05458</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-05 08:43:55</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-11-11 11:38:50</sys_updated_on>
         <task_description/>
         <task_estimated_duration/>
         <task_skills/>
@@ -64,14 +67,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-05 08:43:55</sys_created_on>
         <sys_id>5e9c79f887bd91d0952f87f5cebb35a0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Pre-Visit Checks</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_metadata_link_5e9c79f887bd91d0952f87f5cebb35a0</sys_update_name>
-        <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-05 08:43:55</sys_updated_on>
+        <sys_updated_by>paul.fraser.ems</sys_updated_by>
+        <sys_updated_on>2022-11-11 11:38:50</sys_updated_on>
         <tablename>cmdb_worktask_product_model</tablename>
     </sys_metadata_link>
 </record_update>

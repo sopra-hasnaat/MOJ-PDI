@@ -12,14 +12,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-08-30 16:59:20</sys_created_on>
         <sys_id>2074300f266595902f71ce01d56e875e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Electronic Monitoring Workspace</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Responsible Officer Workspace</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_ux_page_registry_2074300f266595902f71ce01d56e875e</sys_update_name>
         <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-09-29 15:40:25</sys_updated_on>
-        <title>Electronic Monitoring Workspace</title>
+        <sys_updated_on>2022-11-18 10:06:04</sys_updated_on>
+        <title>Responsible Officer Workspace</title>
     </sys_ux_page_registry>
 </record_update>

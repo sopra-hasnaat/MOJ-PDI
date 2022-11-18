@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="sn_customerservice_task" label="Non-Compliance" max_length="40" name="x_ster2_emfs_non_compliance" sizeclass="1" type="collection">
+    <element audit="true" extends="sn_customerservice_task" label="Non-Compliance" max_length="40" name="x_ster2_emfs_non_compliance" sizeclass="2" type="collection">
         <element label="Alert" max_length="32" name="alert" read_only="true" reference="x_ster2_emfs_alerts2" type="reference"/>
         <element choice="1" label="Assessment" max_length="4000" name="assessment" type="choice">
             <choice>
@@ -30,6 +30,6 @@
         </element>
         <element label="Outcome Date/Time" max_length="40" name="outcome_date_time" type="glide_date_time"/>
         <element label="Response Date/Time" max_length="40" name="response_date_time" type="glide_date_time"/>
-        <element label="Device Wearer" max_length="32" name="subject" read_only="true" reference="x_ster2_emfs_subject" type="reference"/>
+        <element label="Device Wearer" max_length="32" name="subject" reference="x_ster2_emfs_subject" type="reference"/>
     </element>
 </database>

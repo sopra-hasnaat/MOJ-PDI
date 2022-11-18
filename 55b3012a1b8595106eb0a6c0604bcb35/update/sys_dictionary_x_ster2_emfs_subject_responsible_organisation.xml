@@ -27,20 +27,22 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_ster2_emfs_subject</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="sys_user_group">sys_user_group</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>typeLIKEa1835ed0875b1150952f87f5cebb35f4^EQ</reference_qual>
+        <reference_qual_condition table="sys_user_group">typeLIKEa1835ed0875b1150952f87f5cebb35f4^EQ<item endquery="false" field="type" goto="false" newquery="false" operator="LIKE" or="false" value="a1835ed0875b1150952f87f5cebb35f4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <reference_type/>
         <sizeclass/>
         <spell_check>false</spell_check>
@@ -49,14 +51,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-09-08 14:28:21</sys_created_on>
         <sys_id>8938a2f51bf151d06eb0a6c0604bcba3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Responsible Organisation</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_dictionary_x_ster2_emfs_subject_responsible_organisation</sys_update_name>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-09-08 17:14:21</sys_updated_on>
+        <sys_updated_on>2022-11-18 10:16:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
