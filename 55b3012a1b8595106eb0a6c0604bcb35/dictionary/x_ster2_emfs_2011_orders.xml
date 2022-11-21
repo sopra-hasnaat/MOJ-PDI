@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="2011-Orders" max_length="40" name="x_ster2_emfs_2011_orders" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Active" label="Active" max_length="40" name="u_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Additional Requirements" label="Additional Requirements" max_length="40" name="u_additional_requirements" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Concurrent Order" label="Concurrent Order" max_length="40" name="u_concurrent_order" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Condition Type" label="Condition Type " max_length="40" name="u_condition_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Court Ref" label="Court Ref" max_length="40" name="u_court_ref" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Court/Releasing Prison" label="Court/Releasing Prison" max_length="40" name="u_court_releasing_prison" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Curfew Location" label="Curfew Location" max_length="40" name="u_curfew_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Curfew Schedules" label="Curfew Schedules" max_length="40" name="u_curfew_schedules" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=End Date" label="End Date" max_length="40" name="u_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Enforceable Condition" label="Enforceable Condition" max_length="40" name="u_enforceable_condition" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Exclusion Address" label="Exclusion Address" max_length="40" name="u_exclusion_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Exclusion Address Radius" label="Exclusion Address Radius" max_length="40" name="u_exclusion_address_radius" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Exclusion Zones" label="Exclusion Zones" max_length="40" name="u_exclusion_zones" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Inclusion Zones" label="Inclusion Zones" max_length="40" name="u_inclusion_zones" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Individual Protocol Instructions" label="Individual Protocol Instructions" max_length="40" name="u_individual_p_l_instructions" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Installation Instructions" label="Installation Instructions" max_length="40" name="u_installation_instructions" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Notifying Officer" label="Notifying Officer" max_length="40" name="u_notifying_officer" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Offence" label="Offence" max_length="40" name="u_offence" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Order Type" label="Order Type" max_length="40" name="u_order_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Outcome" label="Outcome" max_length="40" name="u_outcome" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Permissible ATV" label="Permissible ATV" max_length="40" name="u_permissible_atv" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Primary Order" label="Primary Order" max_length="40" name="u_primary_order" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Request Type" label="Request Type" max_length="40" name="u_request_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Responsible Officer Name" label="Responsible Officer Name" max_length="40" name="u_responsible_officer_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Special" label="Special" max_length="40" name="u_special" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Start Date" label="Start Date" max_length="40" name="u_start_date" type="glide_date"/>
+        <element attributes="import_attribute_name=State" label="State" max_length="40" name="u_state" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=subject_name.value" label="subject_name.value" max_length="42" name="u_subject_name_value" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Supervised Order" label="Supervised Order" max_length="40" name="u_supervised_order" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Variation Details" label="Variation Details" max_length="40" name="u_variation_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Variation Type" label="Variation Type" max_length="40" name="u_variation_type" type="string"/>
+    </element>
+</database>

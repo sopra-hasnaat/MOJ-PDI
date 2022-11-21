@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="New Monitoring Order">d49a535a87aa9110952f87f5cebb3524</sc_cat_item>
+        <sc_category display_value="Services">4cb69d19c3921200b0449f2974d3ae69</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-09 11:50:48</sys_created_on>
+        <sys_id>21b6d979870b5510952f87f5cebb35f6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Services.New Monitoring Order</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sc_cat_item_category_21b6d979870b5510952f87f5cebb35f6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-09 11:51:40</sys_updated_on>
+    </sc_cat_item_category>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sc_cat_item_category_21b6d979870b5510952f87f5cebb35f6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="New Monitoring Order">d49a535a87aa9110952f87f5cebb3524</sc_cat_item>
+        <sc_category display_value="Services">4cb69d19c3921200b0449f2974d3ae69</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-09 11:50:48</sys_created_on>
+        <sys_id>21b6d979870b5510952f87f5cebb35f6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Services.New Monitoring Order</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sc_cat_item_category_21b6d979870b5510952f87f5cebb35f6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-09 11:51:40</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>]]></payload>
+        <payload_hash>1124730656</payload_hash>
+        <record_name>Services.New Monitoring Order</record_name>
+        <reverted_from/>
+        <source>0ef2787387cf5d10952f87f5cebb3596</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-15 14:31:05</sys_created_on>
+        <sys_id>bbe4f07b87cf5d10952f87f5cebb35a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1847bb3666c0000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-15 14:31:05</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>f7e4f07b58cf5d1017e1d61f1436e2a5</update_guid>
+        <update_guid_history>f7e4f07b58cf5d1017e1d61f1436e2a5:0,e1b6d979ed0b55107f29d1044447aef9:-222103651</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.New Monitoring Order">fa69a6a91b1fd1506eb0a6c0604bcb34</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 09:29:22</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>06b4f16c64a94fb781c459d4d4f820f9</sys_id>
+        <sys_metadata>21b6d979870b5510952f87f5cebb35f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.New Monitoring Order</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_21b6d979870b5510952f87f5cebb35f6</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_21b6d979870b5510952f87f5cebb35f6">bbe4f07b87cf5d10952f87f5cebb35a5</sys_update_version>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 09:29:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
