@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Orders" max_length="40" name="x_ster2_emfs_monitoring_order" sizeclass="112" text_index="true" type="collection">
+    <element audit="true" label="Orders" max_length="40" name="x_ster2_emfs_monitoring_order" sizeclass="168" text_index="true" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Actual End Date" max_length="40" name="actual_end_date" type="glide_date_time"/>
         <element label="Additional Requirements" max_length="8000" name="additional_requirements" type="html"/>
@@ -39,7 +39,7 @@
                 <element inactive_on_update="false" label="10km" sequence="6" value="10000"/>
             </choice>
         </element>
-        <element label="Exclusion Coordinates" max_length="10000" name="exclusion_coordinates" type="string"/>
+        <element label="Exclusion Coordinates" max_length="10000" name="exclusion_coordinates" read_only="true" type="string"/>
         <element label="Exclusion Zones" max_length="4000" name="exclusion_zones" reference="cmn_location" type="glide_list"/>
         <element label="Inclusion Coordinates" max_length="10000" name="inclusion_coordinates" read_only="true" type="string"/>
         <element attributes="start_locked=false" label="Inclusion Zones" max_length="4000" name="inclusion_zones" reference="cmn_location" reference_qual="sys_class_name=cmn_location^EQ" reference_qual_condition="sys_class_name=cmn_location^EQ" type="glide_list"/>

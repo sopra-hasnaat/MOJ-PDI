@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="New Subject">b51bfce41b215d506eb0a6c0604bcbdf</catalog_item>
+        <catalog_variable>IO:0e1bf0281b215d506eb0a6c0604bcb5e</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-17 14:58:56</sys_created_on>
+        <sys_id>d135ebde87ea9110952f87f5cebb35b2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>alternative_contact</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d135ebde87ea9110952f87f5cebb35b2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:04:41</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'alternative_contact' mandatory depending on 'adult_juvenile'">d535ebde87ea9110952f87f5cebb35ae</ui_policy>
+        <variable>alternative_contact</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>catalog_ui_policy_action_d135ebde87ea9110952f87f5cebb35b2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="New Subject">b51bfce41b215d506eb0a6c0604bcbdf</catalog_item>
+        <catalog_variable>IO:0e1bf0281b215d506eb0a6c0604bcb5e</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-17 14:58:56</sys_created_on>
+        <sys_id>d135ebde87ea9110952f87f5cebb35b2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>alternative_contact</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d135ebde87ea9110952f87f5cebb35b2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:04:41</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'alternative_contact' mandatory depending on 'adult_juvenile'">d535ebde87ea9110952f87f5cebb35ae</ui_policy>
+        <variable>alternative_contact</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>-267334306</payload_hash>
+        <record_name>alternative_contact</record_name>
+        <reverted_from/>
+        <source>0ef2787387cf5d10952f87f5cebb3596</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-15 14:30:45</sys_created_on>
+        <sys_id>0bd4b83b87cf5d10952f87f5cebb35df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1847bb3189b0000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-15 14:30:45</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>47d4b83bdccf5d101a326037e1be11df</update_guid>
+        <update_guid_history>47d4b83bdccf5d101a326037e1be11df:0,a9862792a72e91104bbaee57c576b098:-2002230609,1535ebde52ea911064c53ee502de54ba:1752606477,dd35ebde00ea9110d447df40590ddcb4:-2002230609</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="alternative_contact">e3962cce87d79510952f87f5cebb3509</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-22 13:14:51</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>2ddd93c3ac1642e1919d570f87933469</sys_id>
+        <sys_metadata>d135ebde87ea9110952f87f5cebb35b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>alternative_contact</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_d135ebde87ea9110952f87f5cebb35b2</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_d135ebde87ea9110952f87f5cebb35b2">0bd4b83b87cf5d10952f87f5cebb35df</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:14:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

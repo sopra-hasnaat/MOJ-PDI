@@ -51,7 +51,7 @@
 <p style="margin: 0cm; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
 <p style="text-align: center; margin: 0cm; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>WARNING LETTER</strong></p>
 <p style="margin: 20pt 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">Dear ${subject.first_name}&nbsp; ${subject.last_name}</p>
-<p style="margin: 0cm 0cm 12pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">&ldquo;EMFS COMPANY NAME&rdquo; has identified that you failed to comply with you electronic monitoring requirement made on <span style="color: red;">&nbsp;${notification_date_time}</span>&nbsp;at <span style="color: red;">NAME of COURT </span>on the following occasions:</p>
+<p style="margin: 0cm 0cm 12pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">Sopra Steria has identified that you failed to comply with you electronic monitoring requirement made on <span style="color: red;">&nbsp;${notification_date_time}</span>&nbsp;at <span style="color: red;">NAME of COURT </span>on the following occasions:</p>
 <ol style="margin-bottom: 8pt; margin-top: 0px; list-style-position: inside;">
 <li style="color: red;"><strong>NON COMPLIANCE TYPE DD/MM/YYYY at HH:MM:SS &nbsp;(<span style="color: red;">SELECTED IN PLAYBOOK</span>)</strong></li>
 </ol>
@@ -83,15 +83,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3377aa8d878b9110952f87f5cebb3598</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Warning Letter non c</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sysevent_email_action_3377aa8d878b9110952f87f5cebb3598</sys_update_name>
-        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
-        <sys_updated_on>2022-11-07 10:04:07</sys_updated_on>
+        <sys_updated_by>josh.higham.ems</sys_updated_by>
+        <sys_updated_on>2022-11-19 20:55:44</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

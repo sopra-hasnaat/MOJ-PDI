@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Device Wearers" max_length="40" name="x_ster2_emfs_subject" sizeclass="55" text_index="true" type="collection">
+    <element audit="true" label="Device Wearers" max_length="40" name="x_ster2_emfs_subject" sizeclass="151" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Access Comments" max_length="4000" name="access_comments" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Disability" max_length="1024" name="access_requirements" reference="x_ster2_emfs_disability" type="glide_list">
             <choice/>
@@ -75,6 +75,8 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Faith/Religion" max_length="40" name="faith_religion" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Christian" sequence="0" value="christian"/>
+                <element inactive_on_update="false" label="No religion" sequence="0" value="No religion"/>
+                <element inactive_on_update="false" label="Other religion" sequence="0" value="Other religion"/>
                 <element inactive_on_update="false" label="Buddhist" sequence="1" value="buddhist"/>
                 <element inactive_on_update="false" label="Hindu" sequence="2" value="hindu"/>
                 <element inactive_on_update="false" label="Jewish" sequence="3" value="jewish"/>
@@ -147,7 +149,7 @@
         <element label="Secondary Address Validated" max_length="10" name="secondary_address_validated" type="boolean"/>
         <element label="Secondary phone" max_length="40" name="secondary_phone" type="phone_number_e164"/>
         <element label="Special?" max_length="40" name="special" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Individual Protocol" max_length="4000" name="special_handling" type="glide_encrypted"/>
+        <element attributes="edge_encryption_enabled=true" label="Individual Protocol" max_length="4000" name="special_handling" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="string">
             <choice>
                 <element inactive_on_update="false" label="Live" sequence="0" value="1"/>

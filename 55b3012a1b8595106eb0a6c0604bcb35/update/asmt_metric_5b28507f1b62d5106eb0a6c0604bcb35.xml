@@ -27,13 +27,13 @@
         <duration/>
         <field_validation/>
         <mandatory>false</mandatory>
-        <max>3</max>
+        <max/>
         <max_weight/>
         <maximum_normalization_input>false</maximum_normalization_input>
         <method>assessment</method>
         <metric_type display_value="Install/Remove: Equipment">f8c7943f1b62d5106eb0a6c0604bcb87</metric_type>
-        <min>1</min>
-        <name>New Choice</name>
+        <min/>
+        <name>Left or Right Ankle / Wrist</name>
         <order>300</order>
         <plugin/>
         <question>Left or Right Ankle / Wrist</question>
@@ -51,14 +51,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5b28507f1b62d5106eb0a6c0604bcb35</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>New Choice</sys_name>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Left or Right Ankle / Wrist</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>asmt_metric_5b28507f1b62d5106eb0a6c0604bcb35</sys_update_name>
-        <sys_updated_by>paul.fraser.ems</sys_updated_by>
-        <sys_updated_on>2022-10-21 15:59:47</sys_updated_on>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 23:56:28</sys_updated_on>
         <template/>
         <value_parameters/>
         <weight>10</weight>

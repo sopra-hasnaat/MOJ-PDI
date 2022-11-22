@@ -41,6 +41,46 @@
             <element>faith_religion</element>
             <hint/>
             <inactive>false</inactive>
+            <label>No religion</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-20 15:04:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be7c6e1d879bd110952f87f5cebb3559</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-20 15:04:16</sys_updated_on>
+            <value>No religion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>faith_religion</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other religion</label>
+            <language>en</language>
+            <name>x_ster2_emfs_subject</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2022-11-20 15:04:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e7c6e1d879bd110952f87f5cebb352f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2022-11-20 15:04:16</sys_updated_on>
+            <value>Other religion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>faith_religion</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Buddhist</label>
             <language>en</language>
             <name>x_ster2_emfs_subject</name>

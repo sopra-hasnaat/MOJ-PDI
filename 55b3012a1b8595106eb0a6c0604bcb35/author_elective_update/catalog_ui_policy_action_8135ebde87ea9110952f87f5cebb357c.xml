@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="New Subject">b51bfce41b215d506eb0a6c0604bcbdf</catalog_item>
+        <catalog_variable>IO:da1bf0281b215d506eb0a6c0604bcbab</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-17 14:58:55</sys_created_on>
+        <sys_id>8135ebde87ea9110952f87f5cebb357c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>access_comments</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_8135ebde87ea9110952f87f5cebb357c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:04:41</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'access_comments' visible depending on 'access_requirements'">0135ebde87ea9110952f87f5cebb3578</ui_policy>
+        <variable>access_comments</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>catalog_ui_policy_action_8135ebde87ea9110952f87f5cebb357c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="New Subject">b51bfce41b215d506eb0a6c0604bcbdf</catalog_item>
+        <catalog_variable>IO:da1bf0281b215d506eb0a6c0604bcbab</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-17 14:58:55</sys_created_on>
+        <sys_id>8135ebde87ea9110952f87f5cebb357c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>access_comments</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_8135ebde87ea9110952f87f5cebb357c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:04:41</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'access_comments' visible depending on 'access_requirements'">0135ebde87ea9110952f87f5cebb3578</ui_policy>
+        <variable>access_comments</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>-1042139722</payload_hash>
+        <record_name>access_comments</record_name>
+        <reverted_from/>
+        <source>0ef2787387cf5d10952f87f5cebb3596</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-15 14:30:45</sys_created_on>
+        <sys_id>c3d4b83b87cf5d10952f87f5cebb35c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1847bb317600000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-15 14:30:45</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>03d4b83beccf5d1010cada4b5bd0dcc3</update_guid>
+        <update_guid_history>03d4b83beccf5d1010cada4b5bd0dcc3:0,e9862792a42e9110d1d623b7bc9ba979:133433013,0135ebde81ea9110bf359499c51da786:432744343,4535ebde0aea911016b75eb0ccfc987f:133433013</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="access_comments">1b96e8ce87d79510952f87f5cebb35c2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-22 13:14:50</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>00fb96965da1438e80030f2112db1564</sys_id>
+        <sys_metadata>8135ebde87ea9110952f87f5cebb357c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>access_comments</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_8135ebde87ea9110952f87f5cebb357c</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_8135ebde87ea9110952f87f5cebb357c">c3d4b83b87cf5d10952f87f5cebb35c3</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:14:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

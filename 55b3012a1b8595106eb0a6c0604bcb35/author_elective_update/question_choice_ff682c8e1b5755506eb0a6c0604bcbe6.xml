@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref display_value="Variation">f101d8561b8b95106eb0a6c0604bcb64</published_ref>
+        <question display_value="Request Type">7b682c8e1b5755506eb0a6c0604bcbd4</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:22:48</sys_created_on>
+        <sys_id>ff682c8e1b5755506eb0a6c0604bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variation</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_ff682c8e1b5755506eb0a6c0604bcbe6</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:22:48</sys_updated_on>
+        <text>Variation</text>
+        <value>variation</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=ff682c8e1b5755506eb0a6c0604bcbe6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_ff682c8e1b5755506eb0a6c0604bcbe6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref display_value="Variation">f101d8561b8b95106eb0a6c0604bcb64</published_ref><question display_value="Request Type">7b682c8e1b5755506eb0a6c0604bcbd4</question><sys_class_name>question_choice</sys_class_name><sys_created_by>des.king.ems</sys_created_by><sys_created_on>2022-11-22 13:22:48</sys_created_on><sys_id>ff682c8e1b5755506eb0a6c0604bcbe6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Variation</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>question_choice_ff682c8e1b5755506eb0a6c0604bcbe6</sys_update_name><sys_updated_by>des.king.ems</sys_updated_by><sys_updated_on>2022-11-22 13:22:48</sys_updated_on><text>Variation</text><value>variation</value></question_choice><fx_price action="delete_multiple" query="id=ff682c8e1b5755506eb0a6c0604bcbe6"/></record_update>]]></payload>
+        <payload_hash>304800123</payload_hash>
+        <record_name>Variation</record_name>
+        <reverted_from/>
+        <source>877c8dab877e1950952f87f5cebb356c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:22:48</sys_created_on>
+        <sys_id>3b682c8e1b5755506eb0a6c0604bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1849f81655a0000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:22:48</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>7f682c8ee357555070e311ac31e849e8</update_guid>
+        <update_guid_history>7f682c8ee357555070e311ac31e849e8:304800123</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Variation">b63fa0ca871b9510952f87f5cebb35e8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-22 13:52:29</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>c7382c25635a4064a3e2164ecca49710</sys_id>
+        <sys_metadata>ff682c8e1b5755506eb0a6c0604bcbe6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variation</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">7b682c8e1b5755506eb0a6c0604bcbd4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_ff682c8e1b5755506eb0a6c0604bcbe6</sys_update_name>
+        <sys_update_version display_value="question_choice_ff682c8e1b5755506eb0a6c0604bcbe6">3b682c8e1b5755506eb0a6c0604bcbe9</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:52:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

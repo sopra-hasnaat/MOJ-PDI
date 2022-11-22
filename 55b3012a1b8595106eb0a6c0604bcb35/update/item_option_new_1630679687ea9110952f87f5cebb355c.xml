@@ -19,7 +19,7 @@
         <dynamic_ref_qual/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field/>
+        <field>exclusion_zones</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -36,10 +36,10 @@
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>false</map_to_field>
+        <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>exclusion_zone</name>
+        <name>exclusion_zones</name>
         <order>3300</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -65,17 +65,17 @@
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
-        <sys_created_by>hasnaat.khan.ems</sys_created_by>
-        <sys_created_on>2022-11-14 09:38:21</sys_created_on>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:22:46</sys_created_on>
         <sys_id>1630679687ea9110952f87f5cebb355c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Exclusion Zones</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>item_option_new_1630679687ea9110952f87f5cebb355c</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-11-14 09:39:41</sys_updated_on>
+        <sys_updated_on>2022-11-22 13:52:36</sys_updated_on>
         <table/>
         <tooltip/>
         <type>21</type>

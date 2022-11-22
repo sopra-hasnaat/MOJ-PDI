@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="New Order">27a0308a1b9755506eb0a6c0604bcbe5</catalog_item>
+        <catalog_variable>IO:65b0f08a1b9755506eb0a6c0604bcbd5</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:59:01</sys_created_on>
+        <sys_id>92b0748a1b9755506eb0a6c0604bcb54</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>curfew_schedules</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_92b0748a1b9755506eb0a6c0604bcb54</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:59:01</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'curfew_schedules' visible depending on 'enforceable_condition'">96b0748a1b9755506eb0a6c0604bcb37</ui_policy>
+        <variable>curfew_schedules</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

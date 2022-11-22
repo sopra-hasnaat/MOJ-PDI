@@ -5,7 +5,8 @@
         <assessment_record/>
         <assessment_record_field/>
         <business_rule display_value="Auto assessment business rule">8838c2f9879a1550952f87f5cebb3563</business_rule>
-        <condition table="wm_task">state=18^EQ<item display_value="Work In Progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="18"/>
+        <condition table="wm_task">state=17^short_descriptionSTARTSWITHPre-Visit Checks^EQ<item display_value="Accepted" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="17"/>
+            <item endquery="false" field="short_description" goto="false" newquery="false" operator="STARTSWITH" or="false" value="Pre-Visit Checks"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description/>
@@ -21,15 +22,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8038c2f9879a1550952f87f5cebb3562</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Generic: Arrival At Address</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>asmt_condition_8038c2f9879a1550952f87f5cebb3562</sys_update_name>
-        <sys_updated_by>paul.fraser.ems</sys_updated_by>
-        <sys_updated_on>2022-11-09 14:22:34</sys_updated_on>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 22:02:46</sys_updated_on>
         <table>wm_task</table>
         <trigger_random>false</trigger_random>
         <user_field>assigned_to</user_field>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="New Order">d49a535a87aa9110952f87f5cebb3524</catalog_item>
+        <catalog_variable>IO:8bd4905a1b8b95106eb0a6c0604bcb6e</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-14 09:38:32</sys_created_on>
+        <sys_id>e8686a5787071d10952f87f5cebb35d3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>radius</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_e8686a5787071d10952f87f5cebb35d3</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-14 09:39:23</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'radius' visible depending on 'exclusion_address_option'">20686a5787071d10952f87f5cebb3590</ui_policy>
+        <variable>radius</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>catalog_ui_policy_action_e8686a5787071d10952f87f5cebb35d3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="New Order">d49a535a87aa9110952f87f5cebb3524</catalog_item><catalog_variable>IO:8bd4905a1b8b95106eb0a6c0604bcb6e</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-11-14 09:38:32</sys_created_on><sys_id>e8686a5787071d10952f87f5cebb35d3</sys_id><sys_mod_count>2</sys_mod_count><sys_name>radius</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>catalog_ui_policy_action_e8686a5787071d10952f87f5cebb35d3</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-11-14 09:39:23</sys_updated_on><table/><ui_policy display_value="Make 'radius' visible depending on 'exclusion_address_option'">20686a5787071d10952f87f5cebb3590</ui_policy><variable>radius</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1193028772</payload_hash>
+        <record_name>radius</record_name>
+        <reverted_from/>
+        <source>74f530ff87cf5d10952f87f5cebb35ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-15 14:35:41</sys_created_on>
+        <sys_id>dbf534ff87cf5d10952f87f5cebb35f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1847bb79b150000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-15 14:35:41</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>cd98629714071d10950b800b698e1830</update_guid>
+        <update_guid_history>cd98629714071d10950b800b698e1830:1193028772,c76470b7adcf5d1042890a4917c833a3:770651886,cd98629714071d10950b800b698e1830:1193028772,b4686a5768071d103c269a16dc7710de:682818758,e4686a5764071d1043a57eb30496c4d7:1193028772</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="radius">dc1928b187d75510952f87f5cebb35b8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-21 18:47:04</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>acc397130f49469e8321c300be935701</sys_id>
+        <sys_metadata>e8686a5787071d10952f87f5cebb35d3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>radius</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_e8686a5787071d10952f87f5cebb35d3</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_e8686a5787071d10952f87f5cebb35d3">dbf534ff87cf5d10952f87f5cebb35f4</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-21 18:47:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>400</order>
+        <published_ref display_value="Hindu">cc2baa7087b1d1d0952f87f5cebb3505</published_ref>
+        <question display_value="(If applicable) Religion/Faith">37b464c61b5755506eb0a6c0604bcb4c</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:06:41</sys_created_on>
+        <sys_id>b3b464c61b5755506eb0a6c0604bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hindu</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_b3b464c61b5755506eb0a6c0604bcb70</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:06:41</sys_updated_on>
+        <text>Hindu</text>
+        <value>hindu</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=b3b464c61b5755506eb0a6c0604bcb70"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_b3b464c61b5755506eb0a6c0604bcb70</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>400</order><published_ref display_value="Hindu">cc2baa7087b1d1d0952f87f5cebb3505</published_ref><question display_value="(If applicable) Religion/Faith">37b464c61b5755506eb0a6c0604bcb4c</question><sys_class_name>question_choice</sys_class_name><sys_created_by>des.king.ems</sys_created_by><sys_created_on>2022-11-22 13:06:41</sys_created_on><sys_id>b3b464c61b5755506eb0a6c0604bcb70</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hindu</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>question_choice_b3b464c61b5755506eb0a6c0604bcb70</sys_update_name><sys_updated_by>des.king.ems</sys_updated_by><sys_updated_on>2022-11-22 13:06:41</sys_updated_on><text>Hindu</text><value>hindu</value></question_choice><fx_price action="delete_multiple" query="id=b3b464c61b5755506eb0a6c0604bcb70"/></record_update>]]></payload>
+        <payload_hash>623841968</payload_hash>
+        <record_name>Hindu</record_name>
+        <reverted_from/>
+        <source>d2e6adf01b1f11506eb0a6c0604bcbe9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:06:41</sys_created_on>
+        <sys_id>fbb464c61b5755506eb0a6c0604bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1849f72a55f0000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:06:41</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>33b464c629575550e077dd06bb960872</update_guid>
+        <update_guid_history>33b464c629575550e077dd06bb960872:623841968</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Hindu">45a6acce87d79510952f87f5cebb3537</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-22 13:14:57</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>2c29ebd9732640d0b6b49d00af518a40</sys_id>
+        <sys_metadata>b3b464c61b5755506eb0a6c0604bcb70</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hindu</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">37b464c61b5755506eb0a6c0604bcb4c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_b3b464c61b5755506eb0a6c0604bcb70</sys_update_name>
+        <sys_update_version display_value="question_choice_b3b464c61b5755506eb0a6c0604bcb70">fbb464c61b5755506eb0a6c0604bcb72</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:14:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

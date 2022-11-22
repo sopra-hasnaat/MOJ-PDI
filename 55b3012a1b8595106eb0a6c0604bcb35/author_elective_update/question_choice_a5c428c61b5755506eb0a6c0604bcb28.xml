@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref display_value="Phone">0c1bd857879a9950952f87f5cebb35f0</published_ref>
+        <question display_value="What is the preferred method for notifications">adc428c61b5755506eb0a6c0604bcb12</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:06:48</sys_created_on>
+        <sys_id>a5c428c61b5755506eb0a6c0604bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Phone</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_a5c428c61b5755506eb0a6c0604bcb28</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:06:48</sys_updated_on>
+        <text>Phone</text>
+        <value>phone</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=a5c428c61b5755506eb0a6c0604bcb28"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_a5c428c61b5755506eb0a6c0604bcb28</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref display_value="Phone">0c1bd857879a9950952f87f5cebb35f0</published_ref><question display_value="What is the preferred method for notifications">adc428c61b5755506eb0a6c0604bcb12</question><sys_class_name>question_choice</sys_class_name><sys_created_by>des.king.ems</sys_created_by><sys_created_on>2022-11-22 13:06:48</sys_created_on><sys_id>a5c428c61b5755506eb0a6c0604bcb28</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Phone</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>question_choice_a5c428c61b5755506eb0a6c0604bcb28</sys_update_name><sys_updated_by>des.king.ems</sys_updated_by><sys_updated_on>2022-11-22 13:06:48</sys_updated_on><text>Phone</text><value>phone</value></question_choice><fx_price action="delete_multiple" query="id=a5c428c61b5755506eb0a6c0604bcb28"/></record_update>]]></payload>
+        <payload_hash>-197902554</payload_hash>
+        <record_name>Phone</record_name>
+        <reverted_from/>
+        <source>d2e6adf01b1f11506eb0a6c0604bcbe9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:06:48</sys_created_on>
+        <sys_id>21c428c61b5755506eb0a6c0604bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1849f72c1770000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:06:48</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>65c428c64b575550c58d049a796fec2a</update_guid>
+        <update_guid_history>65c428c64b575550c58d049a796fec2a:-197902554</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Phone">b4a66cce87d79510952f87f5cebb35ed</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-22 13:14:56</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>2a257faca71a45abb7fdaa9963e45d71</sys_id>
+        <sys_metadata>a5c428c61b5755506eb0a6c0604bcb28</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Phone</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">adc428c61b5755506eb0a6c0604bcb12</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_a5c428c61b5755506eb0a6c0604bcb28</sys_update_name>
+        <sys_update_version display_value="question_choice_a5c428c61b5755506eb0a6c0604bcb28">21c428c61b5755506eb0a6c0604bcb2b</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:14:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

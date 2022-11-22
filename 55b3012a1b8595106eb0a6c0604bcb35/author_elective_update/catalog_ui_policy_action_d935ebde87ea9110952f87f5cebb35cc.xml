@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="New Subject">b51bfce41b215d506eb0a6c0604bcbdf</catalog_item>
+        <catalog_variable>IO:0f1b34281b215d506eb0a6c0604bcba7</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-17 14:58:56</sys_created_on>
+        <sys_id>d935ebde87ea9110952f87f5cebb35cc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>alternative_contact_relationship_to_subject</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d935ebde87ea9110952f87f5cebb35cc</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:04:41</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'alternative_contact_relationship_to_subject' mandatory depending on 'adult_juvenile'">dd35ebde87ea9110952f87f5cebb35c8</ui_policy>
+        <variable>alternative_contact_relationship_to_subject</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>catalog_ui_policy_action_d935ebde87ea9110952f87f5cebb35cc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="New Subject">b51bfce41b215d506eb0a6c0604bcbdf</catalog_item>
+        <catalog_variable>IO:0f1b34281b215d506eb0a6c0604bcba7</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-10-17 14:58:56</sys_created_on>
+        <sys_id>d935ebde87ea9110952f87f5cebb35cc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>alternative_contact_relationship_to_subject</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d935ebde87ea9110952f87f5cebb35cc</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:04:41</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'alternative_contact_relationship_to_subject' mandatory depending on 'adult_juvenile'">dd35ebde87ea9110952f87f5cebb35c8</ui_policy>
+        <variable>alternative_contact_relationship_to_subject</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>1070305424</payload_hash>
+        <record_name>alternative_contact_relationship_to_subject</record_name>
+        <reverted_from/>
+        <source>0ef2787387cf5d10952f87f5cebb3596</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-15 14:30:45</sys_created_on>
+        <sys_id>cfd4b83b87cf5d10952f87f5cebb35f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1847bb318e30000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-15 14:30:45</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>0fd4b83b54cf5d10f2b16a97bce89ef2</update_guid>
+        <update_guid_history>0fd4b83b54cf5d10f2b16a97bce89ef2:0,ad862792952e91109e4fa8dbb97a95a1:-528179167,d135ebde8fea9110fb6cce9a108940e1:1384758256,d535ebde59ea91108bd7cf3fc63f01cf:-528179167</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="alternative_contact_relationship_to_subject">2b962cce87d79510952f87f5cebb3532</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-22 13:14:51</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>98cfb055ef714850badf606a7d2205a9</sys_id>
+        <sys_metadata>d935ebde87ea9110952f87f5cebb35cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>alternative_contact_relationship_to_subject</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_d935ebde87ea9110952f87f5cebb35cc</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_d935ebde87ea9110952f87f5cebb35cc">cfd4b83b87cf5d10952f87f5cebb35f2</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:14:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

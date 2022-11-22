@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>600</order>
+        <published_ref display_value="5km">2595589a1b8b95106eb0a6c0604bcb49</published_ref>
+        <question display_value="Radius">a4b0b08a1b9755506eb0a6c0604bcb4b</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:58:53</sys_created_on>
+        <sys_id>acb0b08a1b9755506eb0a6c0604bcb59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5km</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_acb0b08a1b9755506eb0a6c0604bcb59</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:58:53</sys_updated_on>
+        <text>5km</text>
+        <value>5000</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=acb0b08a1b9755506eb0a6c0604bcb59"/>
+</record_update>

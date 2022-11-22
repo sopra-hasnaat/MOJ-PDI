@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Special Device Wearer (Preston)">082aa0421b9755506eb0a6c0604bcbbd</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>5a9e8acb1b3151106eb0a6c0604bcb72</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>josh.higham.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:44:29</sys_created_on>
+        <sys_id>296d6c461b9755506eb0a6c0604bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5a9e8acb1b3151106eb0a6c0604bcb72</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_296d6c461b9755506eb0a6c0604bcb09</sys_update_name>
+        <sys_updated_by>josh.higham.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:44:29</sys_updated_on>
+        <type>3</type>
+        <user display_value="Rebecca Seiga">5a9e8acb1b3151106eb0a6c0604bcb72</user>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

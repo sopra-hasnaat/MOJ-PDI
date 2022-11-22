@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="New Subject">b51bfce41b215d506eb0a6c0604bcbdf</cat_item>
+        <cat_item display_value="New Device Wearer">b51bfce41b215d506eb0a6c0604bcbdf</cat_item>
         <category/>
         <choice_direction>across</choice_direction>
         <choice_field/>
@@ -40,7 +40,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>interpreter</name>
-        <order>1100</order>
+        <order>1200</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
@@ -65,17 +65,17 @@
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
-        <sys_created_by>hasnaat.khan.ems</sys_created_by>
-        <sys_created_on>2022-10-17 14:58:40</sys_created_on>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:06:43</sys_created_on>
         <sys_id>a3cb541b879a9950952f87f5cebb35e0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Is an interpreter required?</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>item_option_new_a3cb541b879a9950952f87f5cebb35e0</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-10-17 15:05:31</sys_updated_on>
+        <sys_updated_on>2022-11-22 13:15:44</sys_updated_on>
         <table/>
         <tooltip/>
         <type>3</type>

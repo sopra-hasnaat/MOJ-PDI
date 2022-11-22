@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref display_value="Juvenile">9fd043231b6d19906eb0a6c0604bcb98</published_ref>
+        <question display_value="Adult / Juvenile">dac468c61b5755506eb0a6c0604bcb15</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:06:51</sys_created_on>
+        <sys_id>92c468c61b5755506eb0a6c0604bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Juvenile</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_92c468c61b5755506eb0a6c0604bcb2d</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:06:51</sys_updated_on>
+        <text>Juvenile</text>
+        <value>juvenile</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=92c468c61b5755506eb0a6c0604bcb2d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_92c468c61b5755506eb0a6c0604bcb2d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref display_value="Juvenile">9fd043231b6d19906eb0a6c0604bcb98</published_ref><question display_value="Adult / Juvenile">dac468c61b5755506eb0a6c0604bcb15</question><sys_class_name>question_choice</sys_class_name><sys_created_by>des.king.ems</sys_created_by><sys_created_on>2022-11-22 13:06:51</sys_created_on><sys_id>92c468c61b5755506eb0a6c0604bcb2d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Juvenile</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>question_choice_92c468c61b5755506eb0a6c0604bcb2d</sys_update_name><sys_updated_by>des.king.ems</sys_updated_by><sys_updated_on>2022-11-22 13:06:51</sys_updated_on><text>Juvenile</text><value>juvenile</value></question_choice><fx_price action="delete_multiple" query="id=92c468c61b5755506eb0a6c0604bcb2d"/></record_update>]]></payload>
+        <payload_hash>-64128318</payload_hash>
+        <record_name>Juvenile</record_name>
+        <reverted_from/>
+        <source>d2e6adf01b1f11506eb0a6c0604bcbe9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:06:51</sys_created_on>
+        <sys_id>1ec468c61b5755506eb0a6c0604bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1849f72cd4b0000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:06:51</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>52c468c67d575550845b7cb35de08a2f</update_guid>
+        <update_guid_history>52c468c67d575550845b7cb35de08a2f:-64128318</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Juvenile">a4a66cce87d79510952f87f5cebb35cc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-22 13:14:56</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>0d4b92620b7c43c281d2ba7afe0d48d9</sys_id>
+        <sys_metadata>92c468c61b5755506eb0a6c0604bcb2d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Juvenile</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">dac468c61b5755506eb0a6c0604bcb15</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_92c468c61b5755506eb0a6c0604bcb2d</sys_update_name>
+        <sys_update_version display_value="question_choice_92c468c61b5755506eb0a6c0604bcb2d">1ec468c61b5755506eb0a6c0604bcb2f</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:14:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

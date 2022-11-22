@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref display_value="Bail Pre-Trial (PT)">9857be6087215190952f87f5cebb35dd</published_ref>
+        <question display_value="What is the Order type">82b4a0c61b5755506eb0a6c0604bcbe3</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:06:34</sys_created_on>
+        <sys_id>deb4a0c61b5755506eb0a6c0604bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bail Pre-Trial (PT)</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_deb4a0c61b5755506eb0a6c0604bcbf8</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:06:34</sys_updated_on>
+        <text>Bail Pre-Trial (PT)</text>
+        <value>pt</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=deb4a0c61b5755506eb0a6c0604bcbf8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_deb4a0c61b5755506eb0a6c0604bcbf8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>300</order><published_ref display_value="Bail Pre-Trial (PT)">9857be6087215190952f87f5cebb35dd</published_ref><question display_value="What is the Order type">82b4a0c61b5755506eb0a6c0604bcbe3</question><sys_class_name>question_choice</sys_class_name><sys_created_by>des.king.ems</sys_created_by><sys_created_on>2022-11-22 13:06:34</sys_created_on><sys_id>deb4a0c61b5755506eb0a6c0604bcbf8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Bail Pre-Trial (PT)</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>question_choice_deb4a0c61b5755506eb0a6c0604bcbf8</sys_update_name><sys_updated_by>des.king.ems</sys_updated_by><sys_updated_on>2022-11-22 13:06:34</sys_updated_on><text>Bail Pre-Trial (PT)</text><value>pt</value></question_choice><fx_price action="delete_multiple" query="id=deb4a0c61b5755506eb0a6c0604bcbf8"/></record_update>]]></payload>
+        <payload_hash>1830333488</payload_hash>
+        <record_name>Bail Pre-Trial (PT)</record_name>
+        <reverted_from/>
+        <source>d2e6adf01b1f11506eb0a6c0604bcbe9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:06:34</sys_created_on>
+        <sys_id>5ab4a0c61b5755506eb0a6c0604bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1849f728a570000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:06:34</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>9eb4a0c62c575550ed017075b76c98fa</update_guid>
+        <update_guid_history>9eb4a0c62c575550ed017075b76c98fa:1830333488</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Bail Pre-Trial (PT)">d1a6acce87d79510952f87f5cebb359d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-22 13:14:58</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>0a43310029d74648822755a7b7a53c64</sys_id>
+        <sys_metadata>deb4a0c61b5755506eb0a6c0604bcbf8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bail Pre-Trial (PT)</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">82b4a0c61b5755506eb0a6c0604bcbe3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_deb4a0c61b5755506eb0a6c0604bcbf8</sys_update_name>
+        <sys_update_version display_value="question_choice_deb4a0c61b5755506eb0a6c0604bcbf8">5ab4a0c61b5755506eb0a6c0604bcbfb</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:14:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

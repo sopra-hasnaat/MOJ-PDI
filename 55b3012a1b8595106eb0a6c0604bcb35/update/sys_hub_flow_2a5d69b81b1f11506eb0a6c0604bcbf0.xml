@@ -2,35 +2,33 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>create_reinstall_hmu</internal_name>
-        <label_cache>[{"name":"6062b25d-c406-415b-98f6-c2188d202dcb.Work Order","label":"1 - Create Work Order➛Work Order","reference":"wm_order","reference_display":"Work Order","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6062b25d-c406-415b-98f6-c2188d202dcb.__action_status__","label":"1 - Create Work Order➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"6062b25d-c406-415b-98f6-c2188d202dcb.__dont_treat_as_error__","label":"1 - Create Work Order➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛Case Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_customerservice_case","column_name":"sys_id"},{"name":"Created or Updated_1.current.location.sys_id","label":"Trigger - Record Created or Updated➛Case Record➛Location➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"cmn_location","column_name":"sys_id"},{"name":"Created or Updated_1.current.u_subject.subject_name","label":"Trigger - Record Created or Updated➛Case Record➛Device Wearer➛Subject Name","reference":"","reference_display":"Subject Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"subject_name"},{"name":"Created or Updated_1.current.location.x_ster2_emfs_address_line_1","label":"Trigger - Record Created or Updated➛Case Record➛Location➛Address Line 1","reference":"","reference_display":"Address Line 1","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"x_ster2_emfs_address_line_1"},{"name":"Created or Updated_1.current.location.x_ster2_emfs_address_line_2","label":"Trigger - Record Created or Updated➛Case Record➛Location➛Address Line 2","reference":"","reference_display":"Address Line 2","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"x_ster2_emfs_address_line_2"},{"name":"Created or Updated_1.current.location.city","label":"Trigger - Record Created or Updated➛Case Record➛Location➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"city"},{"name":"Created or Updated_1.current.location.zip","label":"Trigger - Record Created or Updated➛Case Record➛Location➛Zip / Postal Code","reference":"","reference_display":"Zip / Postal Code","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"zip"},{"name":"Created or Updated_1.current.u_subject.sys_id","label":"Trigger - Record Created or Updated➛Case Record➛Device Wearer➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_subject","column_name":"sys_id"}]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <label_cache>[{"name":"Created or Updated_1.current.u_subject.sys_id","label":"Trigger - Record Created or Updated➛Case Record➛Device Wearer➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_subject","column_name":"sys_id"},{"name":"Created or Updated_1.current.location.zip","label":"Trigger - Record Created or Updated➛Case Record➛Location➛Zip / Postal Code","reference":"","reference_display":"Zip / Postal Code","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"zip"},{"name":"Created or Updated_1.current.location.city","label":"Trigger - Record Created or Updated➛Case Record➛Location➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"city"},{"name":"Created or Updated_1.current.location.x_ster2_emfs_address_line_2","label":"Trigger - Record Created or Updated➛Case Record➛Location➛Address Line 2","reference":"","reference_display":"Address Line 2","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"x_ster2_emfs_address_line_2"},{"name":"Created or Updated_1.current.location.x_ster2_emfs_address_line_1","label":"Trigger - Record Created or Updated➛Case Record➛Location➛Address Line 1","reference":"","reference_display":"Address Line 1","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"x_ster2_emfs_address_line_1"},{"name":"Created or Updated_1.current.u_subject.subject_name","label":"Trigger - Record Created or Updated➛Case Record➛Device Wearer➛Subject Name","reference":"","reference_display":"Subject Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"subject_name"},{"name":"Created or Updated_1.current.location.sys_id","label":"Trigger - Record Created or Updated➛Case Record➛Location➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"cmn_location","column_name":"sys_id"},{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛Case Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_customerservice_case","column_name":"sys_id"},{"name":"6062b25d-c406-415b-98f6-c2188d202dcb.__dont_treat_as_error__","label":"1 - Create Work Order➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6062b25d-c406-415b-98f6-c2188d202dcb.__action_status__","label":"1 - Create Work Order➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6062b25d-c406-415b-98f6-c2188d202dcb.Work Order","label":"1 - Create Work Order➛Work Order","reference":"wm_order","reference_display":"Work Order","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>8d263a6d1b5fd1506eb0a6c0604bcb9a</master_snapshot>
         <name>Create Re-install HMU</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id/>
+        <remote_trigger_id>95263a6d1b5fd1506eb0a6c0604bcbee</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-18 21:11:30</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2a5d69b81b1f11506eb0a6c0604bcbf0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Create Re-install HMU</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
@@ -38,11 +36,62 @@
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_hub_flow_2a5d69b81b1f11506eb0a6c0604bcbf0</sys_update_name>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-11-18 21:19:50</sys_updated_on>
+        <sys_updated_on>2022-11-21 10:24:59</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=2a5d69b81b1f11506eb0a6c0604bcbf0"/>
     <sys_variable_value action="delete_multiple" query="document_key=2a5d69b81b1f11506eb0a6c0604bcbf0"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="sn_customerservice_case">category=12<item display_value="Reinstall" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="12"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>95263a6d1b5fd1506eb0a6c0604bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
+        <table>sn_customerservice_case</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"1d263a6d1b5fd1506eb0a6c0604bcbee","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>2a5d69b81b1f11506eb0a6c0604bcbf0</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:58</sys_created_on>
+        <sys_id>1d263a6d1b5fd1506eb0a6c0604bcbee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
+        <trigger display_value="">95263a6d1b5fd1506eb0a6c0604bcbee</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>1d263a6d1b5fd1506eb0a6c0604bcbee</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:58</sys_created_on>
+        <sys_id>d1263a6d1b5fd1506eb0a6c0604bcbef</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=2a5d69b81b1f11506eb0a6c0604bcbf0^sys_idNOT IN1d263a6d1b5fd1506eb0a6c0604bcbee"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=2a5d69b81b1f11506eb0a6c0604bcbf0^sys_idNOT INb84f217c1b1f11506eb0a6c0604bcb3c"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -53,10 +102,10 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-18 21:19:50</sys_created_on>
         <sys_id>b84f217c1b1f11506eb0a6c0604bcb3c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-11-18 21:19:50</sys_updated_on>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -111,7 +160,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDa44f217c5f1f115051f2b60b0b66e72c,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD9d263a6d265fd150705a398ca93785f3,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -169,14 +218,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-18 21:19:50</sys_created_on>
         <sys_id>344f217c1b1f11506eb0a6c0604bcb33</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name/>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-11-18 21:19:50</sys_updated_on>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -192,7 +241,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -250,14 +299,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-18 21:19:50</sys_created_on>
         <sys_id>b04f217c1b1f11506eb0a6c0604bcb37</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name/>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-11-18 21:19:50</sys_updated_on>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -273,7 +322,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -331,14 +380,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-18 21:19:50</sys_created_on>
         <sys_id>f04f217c1b1f11506eb0a6c0604bcb2f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name/>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-11-18 21:19:50</sys_updated_on>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -359,7 +408,6 @@
         <action_type display_value="Create Work Order">128cc856e751030097a26188d2f6a980</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create Re-install HMU">2a5d69b81b1f11506eb0a6c0604bcbf0</flow>
         <order>1</order>
@@ -368,10 +416,10 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-18 21:19:50</sys_created_on>
         <sys_id>784f217c1b1f11506eb0a6c0604bcb42</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-11-18 21:19:50</sys_updated_on>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
         <ui_id>6062b25d-c406-415b-98f6-c2188d202dcb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=784f217c1b1f11506eb0a6c0604bcb42"/>
@@ -568,6 +616,593 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_2a5d69b81b1f11506eb0a6c0604bcbf0"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_2a5d69b81b1f11506eb0a6c0604bcbf0"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_2a5d69b81b1f11506eb0a6c0604bcbf0"/>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=2a5d69b81b1f11506eb0a6c0604bcbf0"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=2a5d69b81b1f11506eb0a6c0604bcbf0^sys_idNOT INd5263a6d1b5fd1506eb0a6c0604bcbef"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>2a5d69b81b1f11506eb0a6c0604bcbf0</plan_id>
+        <snapshot>8d263a6d1b5fd1506eb0a6c0604bcb9a</snapshot>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d5263a6d1b5fd1506eb0a6c0604bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
+        <trigger display_value="">95263a6d1b5fd1506eb0a6c0604bcbee</trigger>
+    </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=2a5d69b81b1f11506eb0a6c0604bcbf0"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>create_reinstall_hmu</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.u_subject.sys_id","label":"Trigger - Record Created or Updated➛Case Record➛Device Wearer➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_ster2_emfs_subject","column_name":"sys_id"},{"name":"Created or Updated_1.current.location.zip","label":"Trigger - Record Created or Updated➛Case Record➛Location➛Zip / Postal Code","reference":"","reference_display":"Zip / Postal Code","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"zip"},{"name":"Created or Updated_1.current.location.city","label":"Trigger - Record Created or Updated➛Case Record➛Location➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"city"},{"name":"Created or Updated_1.current.location.x_ster2_emfs_address_line_2","label":"Trigger - Record Created or Updated➛Case Record➛Location➛Address Line 2","reference":"","reference_display":"Address Line 2","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"x_ster2_emfs_address_line_2"},{"name":"Created or Updated_1.current.location.x_ster2_emfs_address_line_1","label":"Trigger - Record Created or Updated➛Case Record➛Location➛Address Line 1","reference":"","reference_display":"Address Line 1","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"x_ster2_emfs_address_line_1"},{"name":"Created or Updated_1.current.u_subject.subject_name","label":"Trigger - Record Created or Updated➛Case Record➛Device Wearer➛Subject Name","reference":"","reference_display":"Subject Name","type":"string","base_type":"string","parent_table_name":"x_ster2_emfs_subject","column_name":"subject_name"},{"name":"Created or Updated_1.current.location.sys_id","label":"Trigger - Record Created or Updated➛Case Record➛Location➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"cmn_location","column_name":"sys_id"},{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛Case Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_customerservice_case","column_name":"sys_id"},{"name":"6062b25d-c406-415b-98f6-c2188d202dcb.__dont_treat_as_error__","label":"1 - Create Work Order➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6062b25d-c406-415b-98f6-c2188d202dcb.__action_status__","label":"1 - Create Work Order➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6062b25d-c406-415b-98f6-c2188d202dcb.Work Order","label":"1 - Create Work Order➛Work Order","reference":"wm_order","reference_display":"Work Order","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Create Re-install HMU</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Create Re-install HMU">2a5d69b81b1f11506eb0a6c0604bcbf0</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d263a6d1b5fd1506eb0a6c0604bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:57</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=8d263a6d1b5fd1506eb0a6c0604bcb9a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8d263a6d1b5fd1506eb0a6c0604bcb9a"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=8d263a6d1b5fd1506eb0a6c0604bcb9a^sys_idNOT IN55263a6d1b5fd1506eb0a6c0604bcbde"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Re-install HMU">8d263a6d1b5fd1506eb0a6c0604bcb9a</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:58</sys_created_on>
+        <sys_id>55263a6d1b5fd1506eb0a6c0604bcbde</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=55263a6d1b5fd1506eb0a6c0604bcbde"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>55263a6d1b5fd1506eb0a6c0604bcbde</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:58</sys_created_on>
+        <sys_id>11263a6d1b5fd1506eb0a6c0604bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
+        <value>category=12</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>55263a6d1b5fd1506eb0a6c0604bcbde</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:58</sys_created_on>
+        <sys_id>d1263a6d1b5fd1506eb0a6c0604bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
+        <value>sn_customerservice_case</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=55263a6d1b5fd1506eb0a6c0604bcbde"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=8d263a6d1b5fd1506eb0a6c0604bcb9a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8d263a6d1b5fd1506eb0a6c0604bcb9a^sys_idNOT IN09263a6d1b5fd1506eb0a6c0604bcb9b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8d263a6d1b5fd1506eb0a6c0604bcb9a</id>
+        <name>Create Re-install HMU</name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:57</sys_created_on>
+        <sys_id>09263a6d1b5fd1506eb0a6c0604bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:57</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=09263a6d1b5fd1506eb0a6c0604bcb9b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=8d263a6d1b5fd1506eb0a6c0604bcb9a^sys_idNOT IN09263a6d1b5fd1506eb0a6c0604bcb9e,0d263a6d1b5fd1506eb0a6c0604bcbbe,81263a6d1b5fd1506eb0a6c0604bcbb6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create Re-install HMU">8d263a6d1b5fd1506eb0a6c0604bcb9a</model>
+        <model_id>8d263a6d1b5fd1506eb0a6c0604bcb9a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8d263a6d1b5fd1506eb0a6c0604bcb9a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:57</sys_created_on>
+        <sys_id>09263a6d1b5fd1506eb0a6c0604bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create Re-install HMU">8d263a6d1b5fd1506eb0a6c0604bcb9a</model>
+        <model_id>8d263a6d1b5fd1506eb0a6c0604bcb9a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8d263a6d1b5fd1506eb0a6c0604bcb9a</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:57</sys_created_on>
+        <sys_id>0d263a6d1b5fd1506eb0a6c0604bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDc1263a6d9c5fd150cbac3d3e4dd9959c,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Create Re-install HMU">8d263a6d1b5fd1506eb0a6c0604bcb9a</model>
+        <model_id>8d263a6d1b5fd1506eb0a6c0604bcb9a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8d263a6d1b5fd1506eb0a6c0604bcb9a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:57</sys_created_on>
+        <sys_id>81263a6d1b5fd1506eb0a6c0604bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=8d263a6d1b5fd1506eb0a6c0604bcb9a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8d263a6d1b5fd1506eb0a6c0604bcb9a"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=8d263a6d1b5fd1506eb0a6c0604bcb9a^sys_idNOT IN89263a6d1b5fd1506eb0a6c0604bcbdc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Work Order">128cc856e751030097a26188d2f6a980</action_type>
+        <action_type_parent display_value="Create Work Order">1f4c4456e751030097a26188d2f6a98e</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Re-install HMU">8d263a6d1b5fd1506eb0a6c0604bcb9a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:58</sys_created_on>
+        <sys_id>89263a6d1b5fd1506eb0a6c0604bcbdc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
+        <ui_id>6062b25d-c406-415b-98f6-c2188d202dcb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=89263a6d1b5fd1506eb0a6c0604bcbdc"/>
+    <sys_element_mapping action="delete_multiple" query="id=89263a6d1b5fd1506eb0a6c0604bcbdc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_case</field>
+        <id>89263a6d1b5fd1506eb0a6c0604bcbdc</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:58</sys_created_on>
+        <sys_id>01263a6d1b5fd1506eb0a6c0604bcbde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_128cc856e751030097a26188d2f6a980</table>
+        <value>{{Created or Updated_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_work_order_fields</field>
+        <id>89263a6d1b5fd1506eb0a6c0604bcbdc</id>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:58</sys_created_on>
+        <sys_id>4d263a6d1b5fd1506eb0a6c0604bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_128cc856e751030097a26188d2f6a980</table>
+        <value>template={"display":"Reinstall Monitoring Equipment","value":"e33861741b1f11506eb0a6c0604bcbd5"}^initiated_from={{Created or Updated_1.current.sys_id}}^qualification_group={"display":"UK_Qualifiers","value":"8f2723a987695590952f87f5cebb3567"}^short_description=Reinstall HMU for ﻿{{Created or Updated_1.current.u_subject.subject_name}}^description=&lt;p data-tinymcerootblock=""&gt;Reinstall HMU for&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:b85b82de-d865-4d52-b9e5-19c73ad01e74}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &gt; Case Record &gt; Device Wearer &gt; Subject Name"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Subject Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_b85b82de-d865-4d52-b9e5-19c73ad01e74" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt; at&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:8f222d28-8151-4212-8c70-f15e10f27341}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &gt; Case Record &gt; Location &gt; Address Line 1"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Address Line 1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_8f222d28-8151-4212-8c70-f15e10f27341" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:bbdfba07-6637-4080-9169-138ce6c68a55}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &gt; Case Record &gt; Location &gt; Address Line 2"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Address Line 2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_bbdfba07-6637-4080-9169-138ce6c68a55" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:a1bdcea2-2b88-4e9f-ba1b-fb935901d81c}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &gt; Case Record &gt; Location &gt; City"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;City&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_a1bdcea2-2b88-4e9f-ba1b-fb935901d81c" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:f6622bef-24bc-4f69-a467-162a6478bb4a}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &gt; Case Record &gt; Location &gt; Zip / Postal Code"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Zip / Postal Code&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f6622bef-24bc-4f69-a467-162a6478bb4a" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;^location={{Created or Updated_1.current.location.sys_id}}^u_subject_name={{Created or Updated_1.current.u_subject.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=89263a6d1b5fd1506eb0a6c0604bcbdc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=89263a6d1b5fd1506eb0a6c0604bcbdc"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=8d263a6d1b5fd1506eb0a6c0604bcb9a"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=8d263a6d1b5fd1506eb0a6c0604bcb9a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8d263a6d1b5fd1506eb0a6c0604bcb9a^sys_idNOT IN11263a6d1b5fd1506eb0a6c0604bcbe1,19263a6d1b5fd1506eb0a6c0604bcbe0,1d263a6d1b5fd1506eb0a6c0604bcbe0,99263a6d1b5fd1506eb0a6c0604bcbe0,9d263a6d1b5fd1506eb0a6c0604bcbe0"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8d263a6d1b5fd1506eb0a6c0604bcb9a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.location.zip}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:58</sys_created_on>
+        <sys_id>11263a6d1b5fd1506eb0a6c0604bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f6622bef-24bc-4f69-a467-162a6478bb4a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8d263a6d1b5fd1506eb0a6c0604bcb9a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.location.city}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:58</sys_created_on>
+        <sys_id>19263a6d1b5fd1506eb0a6c0604bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a1bdcea2-2b88-4e9f-ba1b-fb935901d81c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8d263a6d1b5fd1506eb0a6c0604bcb9a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.location.x_ster2_emfs_address_line_1}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:58</sys_created_on>
+        <sys_id>1d263a6d1b5fd1506eb0a6c0604bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>8f222d28-8151-4212-8c70-f15e10f27341</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8d263a6d1b5fd1506eb0a6c0604bcb9a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.location.x_ster2_emfs_address_line_2}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:58</sys_created_on>
+        <sys_id>99263a6d1b5fd1506eb0a6c0604bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>bbdfba07-6637-4080-9169-138ce6c68a55</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8d263a6d1b5fd1506eb0a6c0604bcb9a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.u_subject.subject_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:58</sys_created_on>
+        <sys_id>9d263a6d1b5fd1506eb0a6c0604bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b85b82de-d865-4d52-b9e5-19c73ad01e74</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=8d263a6d1b5fd1506eb0a6c0604bcb9a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_8d263a6d1b5fd1506eb0a6c0604bcb9a^sys_idNOT IN49263a6d1b5fd1506eb0a6c0604bcbb2,49263a6d1b5fd1506eb0a6c0604bcbc3,c1263a6d1b5fd1506eb0a6c0604bcbbb"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8d263a6d1b5fd1506eb0a6c0604bcb9a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:57</sys_created_on>
+        <sys_id>49263a6d1b5fd1506eb0a6c0604bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8d263a6d1b5fd1506eb0a6c0604bcb9a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:58</sys_created_on>
+        <sys_id>49263a6d1b5fd1506eb0a6c0604bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8d263a6d1b5fd1506eb0a6c0604bcb9a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-21 10:24:57</sys_created_on>
+        <sys_id>c1263a6d1b5fd1506eb0a6c0604bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:24:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8d263a6d1b5fd1506eb0a6c0604bcb9a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_8d263a6d1b5fd1506eb0a6c0604bcb9a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8d263a6d1b5fd1506eb0a6c0604bcb9a"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>2a5d69b81b1f11506eb0a6c0604bcbf0</sys_id>
+        <latest_snapshot>8d263a6d1b5fd1506eb0a6c0604bcb9a</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
 </record_update>

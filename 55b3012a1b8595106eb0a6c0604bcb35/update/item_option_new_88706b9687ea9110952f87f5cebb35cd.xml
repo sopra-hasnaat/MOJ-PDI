@@ -40,7 +40,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>formatter7</name>
-        <order>4400</order>
+        <order>4600</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
@@ -65,17 +65,17 @@
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
-        <sys_created_by>hasnaat.khan.ems</sys_created_by>
-        <sys_created_on>2022-11-14 09:38:25</sys_created_on>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:22:49</sys_created_on>
         <sys_id>88706b9687ea9110952f87f5cebb35cd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>formatter7</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>item_option_new_88706b9687ea9110952f87f5cebb35cd</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-11-14 09:39:50</sys_updated_on>
+        <sys_updated_on>2022-11-22 13:52:40</sys_updated_on>
         <table/>
         <tooltip/>
         <type>24</type>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>View Device 360 Page</name>
+        <specificity>20</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-20 12:55:10</sys_created_on>
+        <sys_id>bfee8e59871bd110952f87f5cebb353f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View Device 360 Page</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_form_action_bfee8e59871bd110952f87f5cebb353f</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-20 12:55:10</sys_updated_on>
+        <table>sn_customerservice_case</table>
+        <ui_action display_value="View Device Wearer 360 Page">43ae4e59871bd110952f87f5cebb35c1</ui_action>
+    </sys_ux_form_action>
+</record_update>

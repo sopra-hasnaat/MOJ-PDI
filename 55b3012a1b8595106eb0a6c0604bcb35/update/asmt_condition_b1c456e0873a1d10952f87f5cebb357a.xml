@@ -5,7 +5,8 @@
         <assessment_record/>
         <assessment_record_field/>
         <business_rule display_value="Auto assessment business rule">71c456e0873a1d10952f87f5cebb357b</business_rule>
-        <condition table="wm_task">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <condition table="wm_task">active=true^short_descriptionSTARTSWITHtamper^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="short_description" goto="false" newquery="false" operator="STARTSWITH" or="false" value="tamper"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description/>
@@ -21,15 +22,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b1c456e0873a1d10952f87f5cebb357a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Tamper: Equipment</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>asmt_condition_b1c456e0873a1d10952f87f5cebb357a</sys_update_name>
-        <sys_updated_by>paul.fraser.ems</sys_updated_by>
-        <sys_updated_on>2022-11-02 10:08:31</sys_updated_on>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 22:07:01</sys_updated_on>
         <table>wm_task</table>
         <trigger_random>false</trigger_random>
         <user_field>assigned_to</user_field>

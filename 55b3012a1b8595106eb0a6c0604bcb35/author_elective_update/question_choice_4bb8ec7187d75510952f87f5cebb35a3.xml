@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>400</order>
+        <published_ref display_value="B = Bail Order">393f0cd21b8b95106eb0a6c0604bcb82</published_ref>
+        <question display_value="Condition Type">c7b8ec7187d75510952f87f5cebb3596</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-21 18:45:37</sys_created_on>
+        <sys_id>4bb8ec7187d75510952f87f5cebb35a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>B = Bail Order</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_4bb8ec7187d75510952f87f5cebb35a3</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 18:45:37</sys_updated_on>
+        <text>B = Bail Order</text>
+        <value>b</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=4bb8ec7187d75510952f87f5cebb35a3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_4bb8ec7187d75510952f87f5cebb35a3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>400</order><published_ref display_value="B = Bail Order">393f0cd21b8b95106eb0a6c0604bcb82</published_ref><question display_value="Condition Type">c7b8ec7187d75510952f87f5cebb3596</question><sys_class_name>question_choice</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-11-21 18:45:37</sys_created_on><sys_id>4bb8ec7187d75510952f87f5cebb35a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>B = Bail Order</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>question_choice_4bb8ec7187d75510952f87f5cebb35a3</sys_update_name><sys_updated_by>hasnaat.khan.ems</sys_updated_by><sys_updated_on>2022-11-21 18:45:37</sys_updated_on><text>B = Bail Order</text><value>b</value></question_choice><fx_price action="delete_multiple" query="id=4bb8ec7187d75510952f87f5cebb35a3"/></record_update>]]></payload>
+        <payload_hash>-1198558984</payload_hash>
+        <record_name>B = Bail Order</record_name>
+        <reverted_from/>
+        <source>877c8dab877e1950952f87f5cebb356c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-21 18:45:37</sys_created_on>
+        <sys_id>8bb8ec7187d75510952f87f5cebb35b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1849b8296df0000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-21 18:45:37</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>cfb8ec711fd75510f269a56ee18286b1</update_guid>
+        <update_guid_history>cfb8ec711fd75510f269a56ee18286b1:-1198558984</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="B = Bail Order">7c1968b187d75510952f87f5cebb35c7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-21 18:47:07</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>1578c7f7e64e4b1686a326a6a9d85c61</sys_id>
+        <sys_metadata>4bb8ec7187d75510952f87f5cebb35a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>B = Bail Order</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">c7b8ec7187d75510952f87f5cebb3596</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_4bb8ec7187d75510952f87f5cebb35a3</sys_update_name>
+        <sys_update_version display_value="question_choice_4bb8ec7187d75510952f87f5cebb35a3">8bb8ec7187d75510952f87f5cebb35b2</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-21 18:47:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
