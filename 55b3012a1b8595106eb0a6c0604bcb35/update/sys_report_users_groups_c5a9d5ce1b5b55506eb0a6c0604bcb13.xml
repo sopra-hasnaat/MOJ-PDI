@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Stock Replenishment Report">41a9d5ce1b5b55506eb0a6c0604bcb13</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>josh.higham.ems</sys_created_by>
+        <sys_created_on>2022-11-22 16:57:47</sys_created_on>
+        <sys_id>c5a9d5ce1b5b55506eb0a6c0604bcb13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>41a9d5ce1b5b55506eb0a6c0604bcb13</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_report_users_groups_c5a9d5ce1b5b55506eb0a6c0604bcb13</sys_update_name>
+        <sys_updated_by>josh.higham.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 16:57:47</sys_updated_on>
+        <user_id display_value="Joshua Higham">38dd02cb1b3151106eb0a6c0604bcbe2</user_id>
+    </sys_report_users_groups>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>moj_sla - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="moj_sla">6c8b2dca1bdb55506eb0a6c0604bcb9c</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>josh.higham.ems</sys_created_by>
+        <sys_created_on>2022-11-22 18:15:50</sys_created_on>
+        <sys_id>288b2dca1bdb55506eb0a6c0604bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>moj_sla - Container 1</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_container_288b2dca1bdb55506eb0a6c0604bcb9f</sys_update_name>
+        <sys_updated_by>josh.higham.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 18:15:50</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

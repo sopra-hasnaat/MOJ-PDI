@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Stochroom Demo - New Tab">d1f89d4e1b5b55506eb0a6c0604bcb9d</legacy_page>
+        <name>PA Stochroom Demo - New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>josh.higham.ems</sys_created_by>
+        <sys_created_on>2022-11-22 16:54:48</sys_created_on>
+        <sys_id>ddf89d4e1b5b55506eb0a6c0604bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Stochroom Demo - New Tab</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_grid_canvas_ddf89d4e1b5b55506eb0a6c0604bcb9e</sys_update_name>
+        <sys_updated_by>josh.higham.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 16:54:48</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

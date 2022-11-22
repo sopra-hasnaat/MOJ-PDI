@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">10468c90874fd950952f87f5cebb359e</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>josh.higham.ems</sys_created_by>
+        <sys_created_on>2022-11-22 15:31:09</sys_created_on>
+        <sys_id>80d545821b1b55506eb0a6c0604bcbcf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Special Device Wearer Dashboard</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_instance_80d545821b1b55506eb0a6c0604bcbcf</sys_update_name>
+        <sys_updated_by>josh.higham.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 15:32:44</sys_updated_on>
+        <title>Special Device Wearer Dashboard</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p><a title=\"Special Device Wearers Dashboard\" href=\"https://soprasteriafieldservicespov.service-now.com/$pa_dashboard.do?sysparm_dashboard=082aa0421b9755506eb0a6c0604bcbbd&amp;sysparm_tab=3b2ae0421b9755506eb0a6c0604bcbde&amp;sysparm_cancelable=true&amp;sysparm_editable=undefined&amp;sysparm_active_panel=false\" target=\"_blank\" data-mce-href=\"https://soprasteriafieldservicespov.service-now.com/$pa_dashboard.do?sysparm_dashboard=082aa0421b9755506eb0a6c0604bcbbd&amp;sysparm_tab=3b2ae0421b9755506eb0a6c0604bcbde&amp;sysparm_cancelable=true&amp;sysparm_editable=undefined&amp;sysparm_active_panel=false\">Special Device Wearers Dashboard</a></p>",
+		"displayValue": "<p><a title=\"Special Device Wearers Dashboard\" href=\"https://soprasteriafieldservicespov.service-now.com/$pa_dashboard.do?sysparm_dashboard=082aa0421b9755506eb0a6c0604bcbbd&amp;sysparm_tab=3b2ae0421b9755506eb0a6c0604bcbde&amp;sysparm_cancelable=true&amp;sysparm_editable=undefined&amp;sysparm_active_panel=false\" target=\"_blank\">Special Device Wearers Dashboard</a></p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=80d545821b1b55506eb0a6c0604bcbcf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sp_instance_80d545821b1b55506eb0a6c0604bcbcf</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;10468c90874fd950952f87f5cebb359e&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;josh.higham.ems&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-22 15:31:09&lt;/sys_created_on&gt;&lt;sys_id&gt;80d545821b1b55506eb0a6c0604bcbcf&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Special Device Wearer Dashboard&lt;/sys_name&gt;&lt;sys_package display_value="Electronic Monitoring" source="x_ster2_emfs"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Electronic Monitoring"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_80d545821b1b55506eb0a6c0604bcbcf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;josh.higham.ems&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-22 15:32:44&lt;/sys_updated_on&gt;&lt;title&gt;Special Device Wearer Dashboard&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;p&gt;&lt;a title=\"Special Device Wearers Dashboard\" href=\"https://soprasteriafieldservicespov.service-now.com/$pa_dashboard.do?sysparm_dashboard=082aa0421b9755506eb0a6c0604bcbbd&amp;amp;sysparm_tab=3b2ae0421b9755506eb0a6c0604bcbde&amp;amp;sysparm_cancelable=true&amp;amp;sysparm_editable=undefined&amp;amp;sysparm_active_panel=false\" target=\"_blank\" data-mce-href=\"https://soprasteriafieldservicespov.service-now.com/$pa_dashboard.do?sysparm_dashboard=082aa0421b9755506eb0a6c0604bcbbd&amp;amp;sysparm_tab=3b2ae0421b9755506eb0a6c0604bcbde&amp;amp;sysparm_cancelable=true&amp;amp;sysparm_editable=undefined&amp;amp;sysparm_active_panel=false\"&gt;Special Device Wearers Dashboard&lt;/a&gt;&lt;/p&gt;",
+		"displayValue": "&lt;p&gt;&lt;a title=\"Special Device Wearers Dashboard\" href=\"https://soprasteriafieldservicespov.service-now.com/$pa_dashboard.do?sysparm_dashboard=082aa0421b9755506eb0a6c0604bcbbd&amp;amp;sysparm_tab=3b2ae0421b9755506eb0a6c0604bcbde&amp;amp;sysparm_cancelable=true&amp;amp;sysparm_editable=undefined&amp;amp;sysparm_active_panel=false\" target=\"_blank\"&gt;Special Device Wearers Dashboard&lt;/a&gt;&lt;/p&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=80d545821b1b55506eb0a6c0604bcbcf"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-704593846</payload_hash>
+        <record_name>Special Device Wearer Dashboard</record_name>
+        <reverted_from/>
+        <source>bae405421b1b55506eb0a6c0604bcbbe</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>josh.higham.ems</sys_created_by>
+        <sys_created_on>2022-11-22 15:32:44</sys_created_on>
+        <sys_id>17264d821b1b55506eb0a6c0604bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1849ff85a380000001</sys_recorded_at>
+        <sys_updated_by>josh.higham.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 15:32:44</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>9b264d82191b5550486daf1da8e9d07d</update_guid>
+        <update_guid_history>9b264d82191b5550486daf1da8e9d07d:-704593846,b9e54582dc1b5550d92ffd11c54965c0:-499655252,c8d54582ba1b55501bad677849fa54d0:-672529703</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Special Device Wearer Dashboard">6bb71d0a1b5b55506eb0a6c0604bcb89</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>josh.higham.ems</sys_created_by>
+        <sys_created_on>2022-11-22 16:49:29</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>70b6c5d42a93460d8e2d690db22312e1</sys_id>
+        <sys_metadata>80d545821b1b55506eb0a6c0604bcbcf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Special Device Wearer Dashboard</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sp_instance_80d545821b1b55506eb0a6c0604bcbcf</sys_update_name>
+        <sys_update_version display_value="sp_instance_80d545821b1b55506eb0a6c0604bcbcf">17264d821b1b55506eb0a6c0604bcb7e</sys_update_version>
+        <sys_updated_by>josh.higham.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 16:49:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

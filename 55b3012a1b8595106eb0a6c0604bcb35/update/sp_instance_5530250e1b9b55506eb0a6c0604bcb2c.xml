@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>3</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">22dfd9ca1b9b55506eb0a6c0604bcb1f</sp_column>
+        <sp_widget display_value="Report">e41aa2d29f0222008252baac757fcfce</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>josh.higham.ems</sys_created_by>
+        <sys_created_on>2022-11-22 17:26:28</sys_created_on>
+        <sys_id>5530250e1b9b55506eb0a6c0604bcb2c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_instance_5530250e1b9b55506eb0a6c0604bcb2c</sys_update_name>
+        <sys_updated_by>josh.higham.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 17:29:07</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"report_id": {
+		"value": "045ec54e1b1b55506eb0a6c0604bcb49",
+		"displayValue": "Hardware Stock Location"
+	},
+	"show_title": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=5530250e1b9b55506eb0a6c0604bcb2c"/>
+</record_update>

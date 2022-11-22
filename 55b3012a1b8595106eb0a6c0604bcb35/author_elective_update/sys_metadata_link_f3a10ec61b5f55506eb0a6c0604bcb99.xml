@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="DELETE">
+        <directory>update</directory>
+        <documentkey>b7a10ec61b5f55506eb0a6c0604bcb97</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_model_part_requirement">
+    <cmdb_model_part_requirement action="INSERT_OR_UPDATE">
+        <mandatory>false</mandatory>
+        <model display_value="MDSS CAM Bundle">27b6f382877159d0952f87f5cebb358a</model>
+        <order>0</order>
+        <required_quantity>1</required_quantity>
+        <service_order_task display_value="Install RF Tag">30f161030f23b030fac4030f134030f9</service_order_task>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 19:52:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>b7a10ec61b5f55506eb0a6c0604bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 19:52:44</sys_updated_on>
+    </cmdb_model_part_requirement>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 19:52:44</sys_created_on>
+        <sys_id>f3a10ec61b5f55506eb0a6c0604bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 22/11/2022 19:52:44</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_metadata_link_f3a10ec61b5f55506eb0a6c0604bcb99</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 19:52:44</sys_updated_on>
+        <tablename>cmdb_model_part_requirement</tablename>
+    </sys_metadata_link>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_metadata_link_f3a10ec61b5f55506eb0a6c0604bcb99</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_metadata_link"&gt;&lt;sys_metadata_link action="INSERT_OR_UPDATE"&gt;&lt;directory&gt;update&lt;/directory&gt;&lt;documentkey&gt;b7a10ec61b5f55506eb0a6c0604bcb97&lt;/documentkey&gt;&lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="cmdb_model_part_requirement"&gt;
+    &lt;cmdb_model_part_requirement action="INSERT_OR_UPDATE"&gt;
+        &lt;mandatory&gt;false&lt;/mandatory&gt;
+        &lt;model display_value="MDSS CAM Bundle"&gt;27b6f382877159d0952f87f5cebb358a&lt;/model&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;required_quantity&gt;1&lt;/required_quantity&gt;
+        &lt;service_order_task display_value="Install RF Tag"&gt;30f161030f23b030fac4030f134030f9&lt;/service_order_task&gt;
+        &lt;sys_created_by&gt;des.king.ems&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-11-22 19:52:44&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_id&gt;b7a10ec61b5f55506eb0a6c0604bcb97&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;des.king.ems&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-11-22 19:52:44&lt;/sys_updated_on&gt;
+    &lt;/cmdb_model_part_requirement&gt;
+&lt;/record_update&gt;
+]]&gt;&lt;/payload&gt;&lt;sys_class_name&gt;sys_metadata_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;des.king.ems&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-22 19:52:44&lt;/sys_created_on&gt;&lt;sys_id&gt;f3a10ec61b5f55506eb0a6c0604bcb99&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Created 22/11/2022 19:52:44&lt;/sys_name&gt;&lt;sys_package display_value="Electronic Monitoring" source="x_ster2_emfs"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Electronic Monitoring"&gt;55b3012a1b8595106eb0a6c0604bcb35&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_metadata_link_f3a10ec61b5f55506eb0a6c0604bcb99&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;des.king.ems&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-22 19:52:44&lt;/sys_updated_on&gt;&lt;tablename&gt;cmdb_model_part_requirement&lt;/tablename&gt;&lt;/sys_metadata_link&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1276309890</payload_hash>
+        <record_name>Created 22/11/2022 19:52:44</record_name>
+        <reverted_from/>
+        <source>69ad810e1b1b55506eb0a6c0604bcbdf</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 19:52:44</sys_created_on>
+        <sys_id>3fa10ec61b5f55506eb0a6c0604bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184a0e663e70000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 19:52:44</sys_updated_on>
+        <type>Metadata Snapshot</type>
+        <update_guid>37a10ec6395f55505c07d3f66104589a</update_guid>
+        <update_guid_history>37a10ec6395f55505c07d3f66104589a:1276309890</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 19:53:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_metadata_link">sys_metadata_link</sys_db_object>
+        <sys_id>07ea3ccc1c1d4a9c8a78fda8ad0efb10</sys_id>
+        <sys_metadata>f3a10ec61b5f55506eb0a6c0604bcb99</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 22/11/2022 19:52:44</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_metadata_link_f3a10ec61b5f55506eb0a6c0604bcb99</sys_update_name>
+        <sys_update_version display_value="sys_metadata_link_f3a10ec61b5f55506eb0a6c0604bcb99">3fa10ec61b5f55506eb0a6c0604bcb9a</sys_update_version>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 19:53:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
