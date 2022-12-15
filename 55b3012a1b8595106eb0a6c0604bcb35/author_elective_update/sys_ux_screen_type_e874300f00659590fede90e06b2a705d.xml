@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description/>
+        <name>Home2</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-30 16:59:20</sys_created_on>
+        <sys_id>e874300f00659590fede90e06b2a705d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Home2</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_screen_type_e874300f00659590fede90e06b2a705d</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-05 16:31:10</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="DELETE" query="documentkey=e874300f00659590fede90e06b2a705d"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_ux_screen_type_e874300f00659590fede90e06b2a705d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>Home2</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-08-30 16:59:20</sys_created_on>
+        <sys_id>e874300f00659590fede90e06b2a705d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Home2</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_screen_type_e874300f00659590fede90e06b2a705d</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-10-05 16:31:10</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=e874300f00659590fede90e06b2a705d"/>
+</record_update>]]></payload>
+        <payload_hash>-658054881</payload_hash>
+        <record_name>Home2</record_name>
+        <reverted_from/>
+        <source>e472728a1b9395506eb0a6c0604bcbd2</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 23:31:31</sys_created_on>
+        <sys_id>a0c3fe821bd395506eb0a6c0604bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184a1aeb0e30000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 23:31:31</sys_updated_on>
+        <type>UX Screen Collection</type>
+        <update_guid>ecc3fe82f1d3955061fc376bf60a0c91</update_guid>
+        <update_guid_history>ecc3fe82f1d3955061fc376bf60a0c91:0,66e1b68695939550627e21e575d53602:0,c7378e2e8c9ed5505bf817f529f2e0fa:-356617889,0f378e2eec9ed550d22f58ba11885bf8:658716979</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-23 09:11:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>8079489ae51746d08a685ce22fad6310</sys_id>
+        <sys_metadata>e874300f00659590fede90e06b2a705d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home2</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_e874300f00659590fede90e06b2a705d</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_e874300f00659590fede90e06b2a705d">a0c3fe821bd395506eb0a6c0604bcb92</sys_update_version>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-23 09:11:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

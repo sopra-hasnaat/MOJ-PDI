@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref display_value="Change of curfew hours">2f12d0161b8b95106eb0a6c0604bcb08</published_ref>
+        <question display_value="Variation Type">f0b0b08a1b9755506eb0a6c0604bcbac</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:58:54</sys_created_on>
+        <sys_id>f4b0b08a1b9755506eb0a6c0604bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Change of curfew hours</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_f4b0b08a1b9755506eb0a6c0604bcbbc</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:58:54</sys_updated_on>
+        <text>Change of curfew hours</text>
+        <value>curfew_hours</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=f4b0b08a1b9755506eb0a6c0604bcbbc"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_f4b0b08a1b9755506eb0a6c0604bcbbc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref display_value="Change of curfew hours">2f12d0161b8b95106eb0a6c0604bcb08</published_ref>
+        <question display_value="Variation Type">f0b0b08a1b9755506eb0a6c0604bcbac</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:58:54</sys_created_on>
+        <sys_id>f4b0b08a1b9755506eb0a6c0604bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Change of curfew hours</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_f4b0b08a1b9755506eb0a6c0604bcbbc</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:58:54</sys_updated_on>
+        <text>Change of curfew hours</text>
+        <value>curfew_hours</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=f4b0b08a1b9755506eb0a6c0604bcbbc"/>
+</record_update>]]></payload>
+        <payload_hash>-1217647877</payload_hash>
+        <record_name>Change of curfew hours</record_name>
+        <reverted_from/>
+        <source>4f677cd687dbd510952f87f5cebb35f5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-23 09:07:28</sys_created_on>
+        <sys_id>55973c1a87dbd510952f87f5cebb356f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184a3bdfc9e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-23 09:07:28</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>91973c1a6fdbd510ffe97f0edff7f86f</update_guid>
+        <update_guid_history>91973c1a6fdbd510ffe97f0edff7f86f:0,ede83e8e0d93d5104b06e8edf2582165:-69854316,ce037e4e959395509d253b722938b4f9:0,07a1ba062c9395500fc4bb8027a8a3ee:-1787669838,107eea82b5539550c8696281a79c81f5:0,292ae64ade53d5104ae15551b9a5b931:-1787669838,b4b0b08a2e97555078cb0c6778abf5be:939807461</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Change of curfew hours">3d1f2a5287571910952f87f5cebb3500</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-23 17:49:36</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>546e30d2763a4fc885eabab59a4a7c64</sys_id>
+        <sys_metadata>f4b0b08a1b9755506eb0a6c0604bcbbc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Change of curfew hours</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">f0b0b08a1b9755506eb0a6c0604bcbac</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_f4b0b08a1b9755506eb0a6c0604bcbbc</sys_update_name>
+        <sys_update_version display_value="question_choice_f4b0b08a1b9755506eb0a6c0604bcbbc">55973c1a87dbd510952f87f5cebb356f</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-23 17:49:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

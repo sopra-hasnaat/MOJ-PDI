@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref display_value="L = Licence Condition of a Custodial Order">a53fc0921b8b95106eb0a6c0604bcbce</published_ref>
+        <question display_value="Condition Type">5cb0b08a1b9755506eb0a6c0604bcb22</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:58:52</sys_created_on>
+        <sys_id>50b0b08a1b9755506eb0a6c0604bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>L = Licence Condition of a Custodial Order</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_50b0b08a1b9755506eb0a6c0604bcb37</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:58:52</sys_updated_on>
+        <text>L = Licence Condition of a Custodial Order</text>
+        <value>l</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=50b0b08a1b9755506eb0a6c0604bcb37"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_50b0b08a1b9755506eb0a6c0604bcb37</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref display_value="L = Licence Condition of a Custodial Order">a53fc0921b8b95106eb0a6c0604bcbce</published_ref>
+        <question display_value="Condition Type">5cb0b08a1b9755506eb0a6c0604bcb22</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:58:52</sys_created_on>
+        <sys_id>50b0b08a1b9755506eb0a6c0604bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>L = Licence Condition of a Custodial Order</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_50b0b08a1b9755506eb0a6c0604bcb37</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:58:52</sys_updated_on>
+        <text>L = Licence Condition of a Custodial Order</text>
+        <value>l</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=50b0b08a1b9755506eb0a6c0604bcb37"/>
+</record_update>]]></payload>
+        <payload_hash>-384411932</payload_hash>
+        <record_name>L = Licence Condition of a Custodial Order</record_name>
+        <reverted_from/>
+        <source>4f677cd687dbd510952f87f5cebb35f5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-23 09:07:26</sys_created_on>
+        <sys_id>0597f81a87dbd510952f87f5cebb35b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184a3bdf6d90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-23 09:07:26</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>4197f81a51dbd5107923f59ba887b5b6</update_guid>
+        <update_guid_history>4197f81a51dbd5107923f59ba887b5b6:0,49e8fa8e5b93d510dfffd412051a7821:-244433239,11033e4eb59395507fc5a5bfbd8a2655:0,bac0b28e4c539550f2567036a6c7f369:-546778974,c07eea82fb5395507cc0721eaa7c9a5a:0,851aae0a6953d510835ff828ebd65632:-546778974,dcb0b08a5f975550abc4daea9c197438:519090582</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="L = Licence Condition of a Custodial Order">1d1fe65287571910952f87f5cebb3529</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-23 17:49:34</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>15aad48503dd493caa222e453e804104</sys_id>
+        <sys_metadata>50b0b08a1b9755506eb0a6c0604bcb37</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>L = Licence Condition of a Custodial Order</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">5cb0b08a1b9755506eb0a6c0604bcb22</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_50b0b08a1b9755506eb0a6c0604bcb37</sys_update_name>
+        <sys_update_version display_value="question_choice_50b0b08a1b9755506eb0a6c0604bcb37">0597f81a87dbd510952f87f5cebb35b6</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-23 17:49:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

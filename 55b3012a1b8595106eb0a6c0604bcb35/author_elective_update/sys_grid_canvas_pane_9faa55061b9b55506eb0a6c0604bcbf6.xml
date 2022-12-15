@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA Stochroom Demo - New Tab">ddf89d4e1b5b55506eb0a6c0604bcb9e</grid_canvas>
+        <height>6</height>
+        <portal_widget display_value="Created 22/11/2022 17:02:18">d7aa55061b9b55506eb0a6c0604bcbf3</portal_widget>
+        <posx>0</posx>
+        <posy>40</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>josh.higham.ems</sys_created_by>
+        <sys_created_on>2022-11-22 17:02:18</sys_created_on>
+        <sys_id>9faa55061b9b55506eb0a6c0604bcbf6</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>ddf89d4e1b5b55506eb0a6c0604bcb9e</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_9faa55061b9b55506eb0a6c0604bcbf6</sys_update_name>
+        <sys_updated_by>josh.higham.ems</sys_updated_by>
+        <sys_updated_on>2022-11-23 12:15:10</sys_updated_on>
+        <width>2</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sys_grid_canvas_pane_9faa55061b9b55506eb0a6c0604bcbf6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA Stochroom Demo - New Tab">ddf89d4e1b5b55506eb0a6c0604bcb9e</grid_canvas><height>6</height><portal_widget display_value="Created 22/11/2022 17:02:18">d7aa55061b9b55506eb0a6c0604bcbf3</portal_widget><posx>0</posx><posy>40</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>josh.higham.ems</sys_created_by><sys_created_on>2022-11-22 17:02:18</sys_created_on><sys_id>9faa55061b9b55506eb0a6c0604bcbf6</sys_id><sys_mod_count>12</sys_mod_count><sys_name>ddf89d4e1b5b55506eb0a6c0604bcb9e</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sys_grid_canvas_pane_9faa55061b9b55506eb0a6c0604bcbf6</sys_update_name><sys_updated_by>josh.higham.ems</sys_updated_by><sys_updated_on>2022-11-23 12:15:10</sys_updated_on><width>2</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>1630691999</payload_hash>
+        <record_name>ddf89d4e1b5b55506eb0a6c0604bcb9e</record_name>
+        <reverted_from/>
+        <source>daec1d1a879fd510952f87f5cebb3518</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>josh.higham.ems</sys_created_by>
+        <sys_created_on>2022-11-23 12:15:10</sys_created_on>
+        <sys_id>0b82adde879fd510952f87f5cebb357d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184a469d7b20000001</sys_recorded_at>
+        <sys_updated_by>josh.higham.ems</sys_updated_by>
+        <sys_updated_on>2022-11-23 12:15:10</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>8f82adde9c9fd510b34a591bf11caa7c</update_guid>
+        <update_guid_history>8f82adde9c9fd510b34a591bf11caa7c:1630691999,6a722dde299fd510193d067bb5f154c7:429550656,05722dded69fd5103822a3214b31c525:-771590687,33dd9d5aef9fd510c775d43745102758:-1972732030,ce0d5d1a9b9fd5107b4ff04c7ba14ec1:-940147659,b6fc5d1a419fd51099b6fe82233447b2:252783564,ba97305a65dbd5109475968e8fca172f:0,6ab674d2badbd5107026c37a3eb6a51c:764757910,c923fa8e5d939550a1552d4ef316bee0:0,9d413e42aa9395505d78caf445fedad5:764757910,bd7eae825a53955024a06c97b61346a4:0,df1ae24a0253d510b35a0f84d5fae008:764757910,6fdad1462f9b55509dae7e6d16292a06:-2103021686,94ae1a46d913d510ff690f9cbbd7251c:764757910,6fdad1462f9b55509dae7e6d16292a06:-2103021686,1cca5906769b55504c25f46e5bb1d24c:1324305670,cbbad506f29b55500ae8aa6d6a7913bc:-15600047,e2ba9506929b55506378c32e8082fdfd:-1294569140,65bad5067e9b5550a53ad73dc5cfe57a:1581074125,94ba9506dc9b5550580fc1b5939ddb16:-1294569140,d3aa5506349b5550738e0d9c31fd3df9:-590553825</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>josh.higham.ems</sys_created_by>
+        <sys_created_on>2022-11-23 12:16:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>0eeda9d977754137aa932ec7bbeea889</sys_id>
+        <sys_metadata>9faa55061b9b55506eb0a6c0604bcbf6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ddf89d4e1b5b55506eb0a6c0604bcb9e</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_9faa55061b9b55506eb0a6c0604bcbf6</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_9faa55061b9b55506eb0a6c0604bcbf6">0b82adde879fd510952f87f5cebb357d</sys_update_version>
+        <sys_updated_by>josh.higham.ems</sys_updated_by>
+        <sys_updated_on>2022-11-23 12:16:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

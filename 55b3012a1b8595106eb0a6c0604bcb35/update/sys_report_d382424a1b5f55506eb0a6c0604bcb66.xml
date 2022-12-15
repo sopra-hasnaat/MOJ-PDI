@@ -47,8 +47,9 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>location</field>
         <field_list>ref_alm_hardware.x_ster2_emfs_device_wearer,asset_tag,model_category,model.display_name,assigned_to,company,install_status,substatus,ci</field_list>
-        <filter table="alm_asset">install_statusNOT IN2,7^ref_alm_hardware.x_ster2_emfs_device_wearerISNOTEMPTY<item display_value="2,7" endquery="false" field="install_status" goto="false" newquery="false" operator="NOT IN" or="false" value="2,7"/>
+        <filter table="alm_asset">install_statusNOT IN2,7^ref_alm_hardware.x_ster2_emfs_device_wearerISNOTEMPTY^locationISNOTEMPTY<item display_value="2,7" endquery="false" field="install_status" goto="false" newquery="false" operator="NOT IN" or="false" value="2,7"/>
             <item endquery="false" field="ref_alm_hardware.x_ster2_emfs_device_wearer" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="location" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
         </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
@@ -108,14 +109,14 @@
         <sys_created_by>josh.higham.ems</sys_created_by>
         <sys_created_on>2022-11-22 19:56:31</sys_created_on>
         <sys_id>d382424a1b5f55506eb0a6c0604bcb66</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Device Wearer Asset Location</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_report_d382424a1b5f55506eb0a6c0604bcb66</sys_update_name>
         <sys_updated_by>josh.higham.ems</sys_updated_by>
-        <sys_updated_on>2022-11-22 20:21:40</sys_updated_on>
+        <sys_updated_on>2022-11-23 20:57:30</sys_updated_on>
         <table>alm_asset</table>
         <title>Device Wearer Asset Location</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

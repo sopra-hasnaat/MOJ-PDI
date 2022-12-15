@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
     <pa_tabs action="INSERT_OR_UPDATE">
         <canvas_page display_value="PA Stochroom Demo - New Tab">ddf89d4e1b5b55506eb0a6c0604bcb9e</canvas_page>
-        <name>Stochroom Demo - New Tab</name>
-        <page display_value="PA Stochroom Demo - New Tab">d1f89d4e1b5b55506eb0a6c0604bcb9d</page>
+        <name>Hardware Reports</name>
+        <page display_value="PA Hardware Reports">d1f89d4e1b5b55506eb0a6c0604bcb9d</page>
         <sys_class_name>pa_tabs</sys_class_name>
         <sys_created_by>josh.higham.ems</sys_created_by>
         <sys_created_on>2022-11-22 16:54:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>19f89d4e1b5b55506eb0a6c0604bcba1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Stochroom Demo - New Tab</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Hardware Reports</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>pa_tabs_19f89d4e1b5b55506eb0a6c0604bcba1</sys_update_name>
         <sys_updated_by>josh.higham.ems</sys_updated_by>
-        <sys_updated_on>2022-11-22 16:54:48</sys_updated_on>
+        <sys_updated_on>2022-11-23 12:16:02</sys_updated_on>
     </pa_tabs>
 </record_update>

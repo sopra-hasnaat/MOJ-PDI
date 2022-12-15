@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Number Of Active Device Wearers">c3a7421e87531910952f87f5cebb3526</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>josh.higham.ems</sys_created_by>
+        <sys_created_on>2022-11-23 16:41:27</sys_created_on>
+        <sys_id>7b7f1a5a87d31910952f87f5cebb35d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c3a7421e87531910952f87f5cebb3526</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_report_users_groups_7b7f1a5a87d31910952f87f5cebb35d5</sys_update_name>
+        <sys_updated_by>josh.higham.ems</sys_updated_by>
+        <sys_updated_on>2022-11-23 16:41:27</sys_updated_on>
+        <user_id display_value="Gavin Emberton">d83a3c7787039d10952f87f5cebb356e</user_id>
+    </sys_report_users_groups>
+</record_update>

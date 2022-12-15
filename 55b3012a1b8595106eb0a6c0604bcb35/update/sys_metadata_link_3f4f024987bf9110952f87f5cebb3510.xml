@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7f4f024987bf9110952f87f5cebb350e</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_model_part_requirement">
+    <cmdb_model_part_requirement action="INSERT_OR_UPDATE">
+        <mandatory>false</mandatory>
+        <model display_value="MDSS CAM">0a93385d87bd15d0952f87f5cebb35b6</model>
+        <order>0</order>
+        <required_quantity>1</required_quantity>
+        <service_order_task display_value="Install AM Tag">6873b606876f50687d7f06879ad06877</service_order_task>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-12-14 14:49:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7f4f024987bf9110952f87f5cebb350e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-12-14 14:49:44</sys_updated_on>
+    </cmdb_model_part_requirement>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-12-14 14:49:44</sys_created_on>
+        <sys_id>3f4f024987bf9110952f87f5cebb3510</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 14/12/2022 14:49:44</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_metadata_link_3f4f024987bf9110952f87f5cebb3510</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-12-14 14:49:44</sys_updated_on>
+        <tablename>cmdb_model_part_requirement</tablename>
+    </sys_metadata_link>
+</record_update>

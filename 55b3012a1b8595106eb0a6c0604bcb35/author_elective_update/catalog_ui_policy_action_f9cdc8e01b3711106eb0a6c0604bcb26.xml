@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="New Order">d49a535a87aa9110952f87f5cebb3524</catalog_item>
+        <catalog_variable>IO:8d661579870b5510952f87f5cebb35d2</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-12-12 16:06:58</sys_created_on>
+        <sys_id>f9cdc8e01b3711106eb0a6c0604bcb26</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>esri_map</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_f9cdc8e01b3711106eb0a6c0604bcb26</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-12-12 16:07:06</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show Exclusion/Inclusion Fields on Enforceable Condition">8ab0348a1b9755506eb0a6c0604bcbae</ui_policy>
+        <variable>esri_map</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>catalog_ui_policy_action_f9cdc8e01b3711106eb0a6c0604bcb26</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="New Order">d49a535a87aa9110952f87f5cebb3524</catalog_item><catalog_variable>IO:8d661579870b5510952f87f5cebb35d2</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-12-12 16:06:58</sys_created_on><sys_id>f9cdc8e01b3711106eb0a6c0604bcb26</sys_id><sys_mod_count>1</sys_mod_count><sys_name>esri_map</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>catalog_ui_policy_action_f9cdc8e01b3711106eb0a6c0604bcb26</sys_update_name><sys_updated_by>hasnaat.khan.ems</sys_updated_by><sys_updated_on>2022-12-12 16:07:06</sys_updated_on><table/><ui_policy display_value="Show Exclusion/Inclusion Fields on Enforceable Condition">8ab0348a1b9755506eb0a6c0604bcbae</ui_policy><variable>esri_map</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>343103004</payload_hash>
+        <record_name>esri_map</record_name>
+        <reverted_from/>
+        <source>1938b45e87dbd510952f87f5cebb351c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-12-12 16:07:06</sys_created_on>
+        <sys_id>e1ddc8e01b3711106eb0a6c0604bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185071701de0000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-12-12 16:07:06</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>69ddc8e0743711103cde0696e2ba3be6</update_guid>
+        <update_guid_history>69ddc8e0743711103cde0696e2ba3be6:343103004,ebcdc8e0d43711103699f2627b19f970:-146587688</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="esri_map">5aa15ce41b3711106eb0a6c0604bcb9f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-12-12 16:23:48</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>377902540190456897290dbe0b791939</sys_id>
+        <sys_metadata>f9cdc8e01b3711106eb0a6c0604bcb26</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>esri_map</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_f9cdc8e01b3711106eb0a6c0604bcb26</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_f9cdc8e01b3711106eb0a6c0604bcb26">e1ddc8e01b3711106eb0a6c0604bcbe7</sys_update_version>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-12-12 16:23:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

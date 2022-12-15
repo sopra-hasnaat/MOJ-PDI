@@ -4,27 +4,27 @@
             <element>special</element>
             <position>0</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-07 08:53:06</sys_created_on>
-            <sys_id>fc91be0f87929950952f87f5cebb3518</sys_id>
+            <sys_created_on>2022-11-29 16:57:08</sys_created_on>
+            <sys_id>3f9c9dd887671150952f87f5cebb353d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Special Handling" display_value="Special Handling" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">d8917e0f87929950952f87f5cebb358c</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-07 08:53:06</sys_updated_on>
+            <sys_updated_on>2022-11-29 16:57:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>special_handling</element>
+            <element>individual_protocol</element>
             <position>1</position>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-07 08:53:06</sys_created_on>
-            <sys_id>f091be0f87929950952f87f5cebb3519</sys_id>
+            <sys_created_on>2022-11-29 16:57:08</sys_created_on>
+            <sys_id>339c9dd887671150952f87f5cebb353e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Special Handling" display_value="Special Handling" name="x_ster2_emfs_subject" sys_domain="global" view="Default view">d8917e0f87929950952f87f5cebb358c</sys_ui_section>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-07 08:53:06</sys_updated_on>
+            <sys_updated_on>2022-11-29 16:57:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

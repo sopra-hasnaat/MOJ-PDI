@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="New Order">d49a535a87aa9110952f87f5cebb3524</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:22:56</sys_created_on>
+        <sys_id>7978ec8e1b5755506eb0a6c0604bcbbd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New Order.</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_7978ec8e1b5755506eb0a6c0604bcbbd</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:52:26</sys_updated_on>
+        <user_criteria display_value="Notifying Organisations">9f65482487535150952f87f5cebb3599</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_7978ec8e1b5755506eb0a6c0604bcbbd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="New Order">d49a535a87aa9110952f87f5cebb3524</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:22:56</sys_created_on>
+        <sys_id>7978ec8e1b5755506eb0a6c0604bcbbd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New Order.</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_7978ec8e1b5755506eb0a6c0604bcbbd</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:52:26</sys_updated_on>
+        <user_criteria display_value="Notifying Organisations">9f65482487535150952f87f5cebb3599</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>]]></payload>
+        <payload_hash>781847</payload_hash>
+        <record_name>New Order.</record_name>
+        <reverted_from/>
+        <source>4f677cd687dbd510952f87f5cebb35f5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-23 09:07:29</sys_created_on>
+        <sys_id>a1973c1a87dbd510952f87f5cebb35db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184a3be01420000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-23 09:07:29</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>ed973c1a80dbd510e71d4b64ac4577da</update_guid>
+        <update_guid_history>ed973c1a80dbd510e71d4b64ac4577da:0,f4e8ba8e4d93d510e07f0eaf3f27cb22:1137349145,6c7e2e8299539550a423f447d7fa405f:0,423f60ca6a1b95109d94a176050908a3:1304590403,3178ec8ec35755506f4ba723397403c0:169184391</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="New Order.">c91fa65287571910952f87f5cebb359a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-23 17:49:32</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>0a9d64bec241443d825208d7e9b28c49</sys_id>
+        <sys_metadata>7978ec8e1b5755506eb0a6c0604bcbbd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Order.</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_7978ec8e1b5755506eb0a6c0604bcbbd</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_7978ec8e1b5755506eb0a6c0604bcbbd">a1973c1a87dbd510952f87f5cebb35db</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-23 17:49:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

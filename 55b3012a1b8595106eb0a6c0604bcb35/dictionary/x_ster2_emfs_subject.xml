@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Device Wearers" max_length="40" name="x_ster2_emfs_subject" sizeclass="151" text_index="true" type="collection">
+    <element audit="true" label="Device Wearers" max_length="40" name="x_ster2_emfs_subject" sizeclass="153" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Access Comments" max_length="4000" name="access_comments" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Disability" max_length="1024" name="access_requirements" reference="x_ster2_emfs_disability" type="glide_list">
             <choice/>
@@ -96,6 +96,7 @@
         </element>
         <element label="Gender Reassignment" max_length="40" name="gender_reassignment" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Immigration Number" max_length="50" name="immigration_number" type="string"/>
+        <element label="Individual Protocol" max_length="4000" name="individual_protocol" type="string"/>
         <element label="Interpreter Required?" max_length="40" name="interpreter" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" default="English" label="Language" max_length="1024" name="language" reference="x_ster2_emfs_languages" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="50" name="last_name" type="string"/>
@@ -135,7 +136,7 @@
             </choice>
         </element>
         <element label="Responsible Officer" max_length="32" name="responsible_officer" reference="x_ster2_emfs_responsible_officers" type="reference"/>
-        <element label="Responsible Officer" max_length="32" name="responsible_officer2" reference="sys_user" reference_qual="sys_user_grmember=2e08548a87769150952f87f5cebb35a8^" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Responsible Officer" max_length="32" name="responsible_officer2" reference="sys_user" reference_qual="sys_user_grmember=2e08548a87769150952f87f5cebb35a8^" reference_qual_condition="sys_user_grmember=2e08548a87769150952f87f5cebb35a8^" type="reference"/>
         <element label="Responsible Organisation" max_length="40" name="responsible_organisation" reference="sys_user_group" reference_qual="typeLIKEa1835ed0875b1150952f87f5cebb35f4^EQ" reference_qual_condition="typeLIKEa1835ed0875b1150952f87f5cebb35f4^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="low" label="Risk" mandatory="true" max_length="40" name="risk" type="choice">
             <choice>
@@ -149,7 +150,6 @@
         <element label="Secondary Address Validated" max_length="10" name="secondary_address_validated" type="boolean"/>
         <element label="Secondary phone" max_length="40" name="secondary_phone" type="phone_number_e164"/>
         <element label="Special?" max_length="40" name="special" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Individual Protocol" max_length="4000" name="special_handling" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="string">
             <choice>
                 <element inactive_on_update="false" label="Live" sequence="0" value="1"/>

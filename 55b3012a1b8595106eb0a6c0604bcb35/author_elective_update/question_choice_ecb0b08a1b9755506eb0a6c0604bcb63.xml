@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref display_value="100m">a595589a1b8b95106eb0a6c0604bcb3a</published_ref>
+        <question display_value="Radius">a4b0b08a1b9755506eb0a6c0604bcb4b</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:58:53</sys_created_on>
+        <sys_id>ecb0b08a1b9755506eb0a6c0604bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100m</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_ecb0b08a1b9755506eb0a6c0604bcb63</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:58:53</sys_updated_on>
+        <text>100m</text>
+        <value>100</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=ecb0b08a1b9755506eb0a6c0604bcb63"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_ecb0b08a1b9755506eb0a6c0604bcb63</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref display_value="100m">a595589a1b8b95106eb0a6c0604bcb3a</published_ref>
+        <question display_value="Radius">a4b0b08a1b9755506eb0a6c0604bcb4b</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:58:53</sys_created_on>
+        <sys_id>ecb0b08a1b9755506eb0a6c0604bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100m</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_ecb0b08a1b9755506eb0a6c0604bcb63</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:58:53</sys_updated_on>
+        <text>100m</text>
+        <value>100</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=ecb0b08a1b9755506eb0a6c0604bcb63"/>
+</record_update>]]></payload>
+        <payload_hash>1725340097</payload_hash>
+        <record_name>100m</record_name>
+        <reverted_from/>
+        <source>4f677cd687dbd510952f87f5cebb35f5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-23 09:07:27</sys_created_on>
+        <sys_id>d5973c1a87dbd510952f87f5cebb355e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184a3bdfbea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-23 09:07:27</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>15973c1a0fdbd510826ed058568f735e</update_guid>
+        <update_guid_history>15973c1a0fdbd510826ed058568f735e:0,e1e83e8e5293d510769882ad1c2d9151:287282631,8a037e4e6e93955087e5a2310101f2d8:0,bb417282ad93955039be8e3f8104c1b3:-716129269,987eea82b1539550334aac04f5fac8e5:0,671ae24a1953d5109d2fe07acca00e5a:-716129269,6cb0b08afc97555071b8f13d4329c165:-2101493683</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="100m">b91fe65287571910952f87f5cebb35eb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-23 17:49:35</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>70b99ddd2c7d4fa2969aaeafc3e818d1</sys_id>
+        <sys_metadata>ecb0b08a1b9755506eb0a6c0604bcb63</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100m</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">a4b0b08a1b9755506eb0a6c0604bcb4b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_ecb0b08a1b9755506eb0a6c0604bcb63</sys_update_name>
+        <sys_update_version display_value="question_choice_ecb0b08a1b9755506eb0a6c0604bcb63">d5973c1a87dbd510952f87f5cebb355e</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-23 17:49:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -30,7 +30,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Raise Service Request</name>
+        <name>Raise a Service Request</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -87,14 +87,14 @@
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-11-14 13:29:26</sys_created_on>
         <sys_id>eeec9b9f1b07d9106eb0a6c0604bcb01</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Raise Service Request</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Raise a Service Request</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sc_cat_item_producer_eeec9b9f1b07d9106eb0a6c0604bcb01</sys_update_name>
         <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2022-11-17 19:00:17</sys_updated_on>
+        <sys_updated_on>2022-12-12 17:02:24</sys_updated_on>
         <table_name>sn_customerservice_case</table_name>
         <taxonomy_topic/>
         <template/>

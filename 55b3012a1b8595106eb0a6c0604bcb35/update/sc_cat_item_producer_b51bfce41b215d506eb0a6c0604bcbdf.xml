@@ -77,7 +77,8 @@
         <script><![CDATA[var subjectID = current.sys_id;
 var grUser = new GlideRecord('sys_user');
 grUser.initialize();
-grUser.user_name = (current.email).toLowerCase();
+// grUser.user_name = (current.email).toLowerCase();
+grUser.user_name = current.pnc;
 grUser.first_name = current.first_name;
 grUser.last_name = current.last_name;
 grUser.email = current.email;
@@ -97,14 +98,14 @@ producer.portal_redirect = "?id=sc_cat_item&sys_id=d49a535a87aa9110952f87f5cebb3
         <sys_created_by>des.king.ems</sys_created_by>
         <sys_created_on>2022-08-22 23:03:32</sys_created_on>
         <sys_id>b51bfce41b215d506eb0a6c0604bcbdf</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>New Device Wearer</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sc_cat_item_producer_b51bfce41b215d506eb0a6c0604bcbdf</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-11-22 13:16:50</sys_updated_on>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-11-29 17:09:03</sys_updated_on>
         <table_name>x_ster2_emfs_subject</table_name>
         <taxonomy_topic/>
         <template/>

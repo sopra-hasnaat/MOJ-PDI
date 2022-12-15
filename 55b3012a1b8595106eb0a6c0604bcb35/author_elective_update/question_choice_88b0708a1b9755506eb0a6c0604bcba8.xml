@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref display_value="GPS">01fb1b1e87aa9110952f87f5cebb35d6</published_ref>
+        <question display_value="Order Type">80b0708a1b9755506eb0a6c0604bcb91</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:58:51</sys_created_on>
+        <sys_id>88b0708a1b9755506eb0a6c0604bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GPS</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_88b0708a1b9755506eb0a6c0604bcba8</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:58:51</sys_updated_on>
+        <text>GPS</text>
+        <value>gps</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=88b0708a1b9755506eb0a6c0604bcba8"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_88b0708a1b9755506eb0a6c0604bcba8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref display_value="GPS">01fb1b1e87aa9110952f87f5cebb35d6</published_ref>
+        <question display_value="Order Type">80b0708a1b9755506eb0a6c0604bcb91</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:58:51</sys_created_on>
+        <sys_id>88b0708a1b9755506eb0a6c0604bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GPS</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_88b0708a1b9755506eb0a6c0604bcba8</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:58:51</sys_updated_on>
+        <text>GPS</text>
+        <value>gps</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=88b0708a1b9755506eb0a6c0604bcba8"/>
+</record_update>]]></payload>
+        <payload_hash>108100362</payload_hash>
+        <record_name>GPS</record_name>
+        <reverted_from/>
+        <source>4f677cd687dbd510952f87f5cebb35f5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-23 09:07:26</sys_created_on>
+        <sys_id>8197f81a87dbd510952f87f5cebb35e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184a3bdf8900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-23 09:07:26</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>cd97f81ae3dbd5108645ffe1e83543e0</update_guid>
+        <update_guid_history>cd97f81ae3dbd5108645ffe1e83543e0:0,91e8fa8ee693d510b69dc77b7861ecc4:-68875199,69033e4eaa93955075cbc19b1b3c4bcc:0,9111f60221939550b81ee1eca4354026:-153473910,c87eea82255395509a60c71a99c46b8b:0,8b1a624af553d5105008eee9f43201fc:-153473910,48b0708a0f97555002b42389bb764caa:565888202</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="GPS">a11fe65287571910952f87f5cebb3569</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-23 17:49:34</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>026671909db94b00802bf49fdbb32990</sys_id>
+        <sys_metadata>88b0708a1b9755506eb0a6c0604bcba8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GPS</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">80b0708a1b9755506eb0a6c0604bcb91</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_88b0708a1b9755506eb0a6c0604bcba8</sys_update_name>
+        <sys_update_version display_value="question_choice_88b0708a1b9755506eb0a6c0604bcba8">8197f81a87dbd510952f87f5cebb35e1</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-23 17:49:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

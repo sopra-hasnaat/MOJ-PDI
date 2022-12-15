@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">f9052b5a1b6291106eb0a6c0604bcb4e</sp_column>
+        <sp_widget display_value="ESRI Map Leaflet Device Wearer Portal">b59c4f3087ef9150952f87f5cebb350b</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-12-01 14:29:50</sys_created_on>
+        <sys_id>e91e0bb087ef9150952f87f5cebb35ff</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_instance_e91e0bb087ef9150952f87f5cebb35ff</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-12-01 14:30:08</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=e91e0bb087ef9150952f87f5cebb35ff"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>sp_instance_e91e0bb087ef9150952f87f5cebb35ff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="1">f9052b5a1b6291106eb0a6c0604bcb4e</sp_column><sp_widget display_value="ESRI Map Leaflet Device Wearer Portal">b59c4f3087ef9150952f87f5cebb350b</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>hasnaat.khan.ems</sys_created_by><sys_created_on>2022-12-01 14:29:50</sys_created_on><sys_id>e91e0bb087ef9150952f87f5cebb35ff</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sp_instance_e91e0bb087ef9150952f87f5cebb35ff</sys_update_name><sys_updated_by>hasnaat.khan.ems</sys_updated_by><sys_updated_on>2022-12-01 14:30:08</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=e91e0bb087ef9150952f87f5cebb35ff"/></record_update>]]></payload>
+        <payload_hash>697106764</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1938b45e87dbd510952f87f5cebb351c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-12-01 14:30:09</sys_created_on>
+        <sys_id>0e2e8bb087ef9150952f87f5cebb35ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184ce18497f0000001</sys_recorded_at>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-12-01 14:30:09</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>822e8bb07cef9150f14ce2c570d976ac</update_guid>
+        <update_guid_history>822e8bb07cef9150f14ce2c570d976ac:697106764,131e4bb0e7ef9150814f5e095a8c2492:1932786701,211e4bb07cef915067868b8e45a43602:697106764</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ea6e8fb087ef9150952f87f5cebb35be</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-12-01 14:31:16</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>3385956326014372bfba72f52a0e7fa9</sys_id>
+        <sys_metadata>e91e0bb087ef9150952f87f5cebb35ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sp_instance_e91e0bb087ef9150952f87f5cebb35ff</sys_update_name>
+        <sys_update_version display_value="sp_instance_e91e0bb087ef9150952f87f5cebb35ff">0e2e8bb087ef9150952f87f5cebb35ac</sys_update_version>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-12-01 14:31:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

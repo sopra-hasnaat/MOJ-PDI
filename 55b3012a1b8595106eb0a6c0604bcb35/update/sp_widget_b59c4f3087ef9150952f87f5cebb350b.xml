@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function ESRIMapController($timeout, $rootScope, $scope, $http, $sce) {
+    var c = this;
+    var apiKey = "AAPKd3875a5e44b64c8db23d06e225adb90bm95eJu8e1pd-N6fZZKic7OTzXZkiqu2QRho5P97TynyxP-liFAI8emWdtV_oKarD";
+    var basemapEnum = "ArcGIS:Navigation";
+
+    // This is the center of the map 
+    var myTownCenterLat = 53.2964587;
+    var myTownCenterLong = -2.9824668;
+
+    // Inital map setup                                                                
+    var map = L.map("map", {
+        minZoom: 1
+    }).setView([myTownCenterLat, myTownCenterLong], 9);
+
+    // Sets up the vector so we can click on it
+    L.esri.Vector.vectorBasemapLayer(basemapEnum, {
+        apiKey: apiKey
+    }).addTo(map);
+
+    var inclusionCoordinates = c.data.inclusionCoordinatesArray;
+    var exclusionCoordinates = c.data.exclusionCoordinatesArray;
+    if (exclusionCoordinates) {
+        for (var i = 0; i < exclusionCoordinates.length; i++) {
+            var latlngs = L.GeoJSON.coordsToLatLngs(JSON.parse("[" + exclusionCoordinates[i] + "]"), 0, false); // Boolean to reverse coordinates to long/lat
+            var polygon = L.polygon(latlngs, {
+                color: 'red'
+            }).addTo(map);
+            //             map.fitBounds(polygon.getBounds()); // zoom the map to the polygon
+        }
+    }
+
+    if (inclusionCoordinates) {
+        for (var i = 0; i < inclusionCoordinates.length; i++) {
+            var latlngs = L.GeoJSON.coordsToLatLngs(JSON.parse("[" + inclusionCoordinates[i] + "]"), 0, false); // Boolean to reverse coordinates to long/lat
+            var polygon = L.polygon(latlngs, {
+                color: 'green'
+            }).addTo(map);
+            //             map.fitBounds(polygon.getBounds()); // zoom the map to the polygon
+        }
+    }
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>#map {
+  height: 100%;
+  width: 100%;
+  min-height: 750px;
+  min-width: 750px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #323232;
+}
+
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>ESRI Map Leaflet Device Wearer Portal</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    var user = gs.getUserID();
+
+    var grUser = new GlideRecord('sys_user');
+    if (grUser.get(user)) {
+        var subjectSysID = grUser.getValue('u_subject');
+
+        var exclusionCoordinatesArray = [];
+        var inclusionCoordinatesArray = [];
+
+        var grOrder = new GlideRecord('x_ster2_emfs_monitoring_order');
+        grOrder.addQuery('subject_name', subjectSysID);
+        grOrder.query();
+        while (grOrder.next()) {
+            if (grOrder.getValue('exclusion_zones')) {
+                var exclusionZonesValue = grOrder.getValue('exclusion_zones');
+                var exclusionZones = exclusionZonesValue.split(',');
+
+                for (var i = 0; i < exclusionZones.length; i++) {
+                    var gr = new GlideRecord('cmn_location');
+                    gr.get(exclusionZones[i]);
+                    exclusionCoordinatesArray.push(gr.getValue('u_coordinates'));
+                }
+                data.exclusionCoordinatesArray = exclusionCoordinatesArray;
+            }
+			if (grOrder.getValue('inclusion_zones')) {
+                var inclusionZonesValue = grOrder.getValue('inclusion_zones');
+                var inclusionZones = inclusionZonesValue.split(',');
+
+                for (var i = 0; i < inclusionZones.length; i++) {
+                    var gr = new GlideRecord('cmn_location');
+                    gr.get(inclusionZones[i]);
+                    inclusionCoordinatesArray.push(gr.getValue('u_coordinates'));
+                }
+                data.inclusionCoordinatesArray = inclusionCoordinatesArray;
+            }
+        }
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-12-01 14:23:32</sys_created_on>
+        <sys_id>b59c4f3087ef9150952f87f5cebb350b</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name>ESRI Map Leaflet Device Wearer Portal</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_widget_b59c4f3087ef9150952f87f5cebb350b</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-12-01 17:59:09</sys_updated_on>
+        <template><![CDATA[<div id="map"></div>
+]]></template>
+    </sp_widget>
+</record_update>

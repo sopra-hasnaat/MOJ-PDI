@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Stockroom Demo - New Tab 2">1ca2edde879fd510952f87f5cebb35bc</grid_canvas>
+        <height>6</height>
+        <portal_widget display_value="Created 23/11/2022 12:16:44">bde2a51287dfd510952f87f5cebb3541</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>josh.higham.ems</sys_created_by>
+        <sys_created_on>2022-11-23 12:16:44</sys_created_on>
+        <sys_id>fde2a51287dfd510952f87f5cebb3543</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>1ca2edde879fd510952f87f5cebb35bc</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_fde2a51287dfd510952f87f5cebb3543</sys_update_name>
+        <sys_updated_by>josh.higham.ems</sys_updated_by>
+        <sys_updated_on>2022-11-23 12:17:49</sys_updated_on>
+        <width>3</width>
+    </sys_grid_canvas_pane>
+</record_update>

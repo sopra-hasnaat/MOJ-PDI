@@ -4,7 +4,7 @@
         <class_name/>
         <color>default</color>
         <css/>
-        <glyph/>
+        <glyph>empty</glyph>
         <id/>
         <kb_article/>
         <kb_category/>
@@ -16,21 +16,21 @@
         <short_description/>
         <size>md</size>
         <sp_column display_value="1">ac07806d87221590952f87f5cebb3558</sp_column>
-        <sp_page display_value="restricted_access">9a2ab1011b2e9d506eb0a6c0604bcb9b</sp_page>
+        <sp_page display_value="map">5079fff81beb11906eb0a6c0604bcb1a</sp_page>
         <sp_widget display_value="restricted">c4d48a241b129d106eb0a6c0604bcb23</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>rebecca.seiga.ems</sys_created_by>
         <sys_created_on>2022-10-14 14:52:48</sys_created_on>
         <sys_id>0a07c06d87221590952f87f5cebb3536</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Restricted Access</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>My Inclusion/Exclusion Map</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sp_instance_link_0a07c06d87221590952f87f5cebb3536</sys_update_name>
-        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
-        <sys_updated_on>2022-10-14 14:53:41</sys_updated_on>
-        <title>Restricted Access</title>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2022-12-01 17:49:19</sys_updated_on>
+        <title>My Inclusion/Exclusion Map</title>
         <type>page</type>
         <url/>
         <widget_parameters><![CDATA[{

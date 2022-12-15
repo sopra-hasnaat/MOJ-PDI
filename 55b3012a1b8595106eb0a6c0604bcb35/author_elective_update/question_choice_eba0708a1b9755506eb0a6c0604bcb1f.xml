@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref display_value="Home Office">da57541e1b8b95106eb0a6c0604bcb90</published_ref>
+        <question display_value="Notifying Organisation">aba0708a1b9755506eb0a6c0604bcb10</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:58:49</sys_created_on>
+        <sys_id>eba0708a1b9755506eb0a6c0604bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home Office</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_eba0708a1b9755506eb0a6c0604bcb1f</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:58:49</sys_updated_on>
+        <text>Home Office</text>
+        <value>home_office</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=eba0708a1b9755506eb0a6c0604bcb1f"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_eba0708a1b9755506eb0a6c0604bcb1f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref display_value="Home Office">da57541e1b8b95106eb0a6c0604bcb90</published_ref>
+        <question display_value="Notifying Organisation">aba0708a1b9755506eb0a6c0604bcb10</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:58:49</sys_created_on>
+        <sys_id>eba0708a1b9755506eb0a6c0604bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home Office</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_eba0708a1b9755506eb0a6c0604bcb1f</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:58:49</sys_updated_on>
+        <text>Home Office</text>
+        <value>home_office</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=eba0708a1b9755506eb0a6c0604bcb1f"/>
+</record_update>]]></payload>
+        <payload_hash>-177153909</payload_hash>
+        <record_name>Home Office</record_name>
+        <reverted_from/>
+        <source>4f677cd687dbd510952f87f5cebb35f5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-23 09:07:27</sys_created_on>
+        <sys_id>11973c1a87dbd510952f87f5cebb354e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184a3bdfbc20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-23 09:07:27</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>5d973c1a89dbd510c1d882db56bfec4d</update_guid>
+        <update_guid_history>5d973c1a89dbd510c1d882db56bfec4d:0,6de83e8e0193d5106e918c90921fab46:-1563369746,82037e4e6d9395503fc4ee6570ad5cd5:0,8e51f682f2939550ced5ce0ccfa3e417:442406832,dc7eea8262539550a141b98305ff4be1:0,2f1ae24a1753d5108a4ae87653a1cb89:-787638353,6ba0708a829755506b5473df6116ab21:1147873083</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Home Office">711fe65287571910952f87f5cebb35e1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-23 17:49:35</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>ae25042d845a4a12aed63e9515ac5a71</sys_id>
+        <sys_metadata>eba0708a1b9755506eb0a6c0604bcb1f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home Office</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">aba0708a1b9755506eb0a6c0604bcb10</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_eba0708a1b9755506eb0a6c0604bcb1f</sys_update_name>
+        <sys_update_version display_value="question_choice_eba0708a1b9755506eb0a6c0604bcb1f">11973c1a87dbd510952f87f5cebb354e</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-23 17:49:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

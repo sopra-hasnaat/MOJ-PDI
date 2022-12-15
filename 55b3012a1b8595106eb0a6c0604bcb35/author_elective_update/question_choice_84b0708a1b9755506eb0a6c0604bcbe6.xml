@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref display_value="Cease">b101d8561b8b95106eb0a6c0604bcb67</published_ref>
+        <question display_value="Request Type">44b0708a1b9755506eb0a6c0604bcbda</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:58:51</sys_created_on>
+        <sys_id>84b0708a1b9755506eb0a6c0604bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cease</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_84b0708a1b9755506eb0a6c0604bcbe6</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:58:51</sys_updated_on>
+        <text>Cease</text>
+        <value>cease</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=84b0708a1b9755506eb0a6c0604bcbe6"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>f4948f24dbc9599449eac5970596198f</instance_id>
+        <instance_name>soprasteriafieldservicespov</instance_name>
+        <name>question_choice_84b0708a1b9755506eb0a6c0604bcbe6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref display_value="Cease">b101d8561b8b95106eb0a6c0604bcb67</published_ref>
+        <question display_value="Request Type">44b0708a1b9755506eb0a6c0604bcbda</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2022-11-22 13:58:51</sys_created_on>
+        <sys_id>84b0708a1b9755506eb0a6c0604bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cease</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>question_choice_84b0708a1b9755506eb0a6c0604bcbe6</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2022-11-22 13:58:51</sys_updated_on>
+        <text>Cease</text>
+        <value>cease</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=84b0708a1b9755506eb0a6c0604bcbe6"/>
+</record_update>]]></payload>
+        <payload_hash>324585933</payload_hash>
+        <record_name>Cease</record_name>
+        <reverted_from/>
+        <source>4f677cd687dbd510952f87f5cebb35f5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-23 09:07:26</sys_created_on>
+        <sys_id>8197f81a87dbd510952f87f5cebb35d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184a3bdf8390000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-23 09:07:26</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>cd97f81ae3dbd5107a0431bf081865d8</update_guid>
+        <update_guid_history>cd97f81ae3dbd5107a0431bf081865d8:0,11e8fa8e2693d510f5cf9a06da83ab88:-273971185,a5033e4e4d9395507414b3ac19bd17c5:0,55b03a4e07539550f49517a3c2b8fb63:-1225827822,407eea82d7539550cb0f2f5062e0b784:0,c51a6e0a9353d5104a05fe7e30799495:478493575,44b0708a299755500b9732abbb686ce8:606498323</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Cease">691fe65287571910952f87f5cebb355e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-23 17:49:34</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>24de2938e85f49a38feb1272e7551de9</sys_id>
+        <sys_metadata>84b0708a1b9755506eb0a6c0604bcbe6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cease</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent display_value="">44b0708a1b9755506eb0a6c0604bcbda</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>question_choice_84b0708a1b9755506eb0a6c0604bcbe6</sys_update_name>
+        <sys_update_version display_value="question_choice_84b0708a1b9755506eb0a6c0604bcbe6">8197f81a87dbd510952f87f5cebb35d9</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-23 17:49:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
