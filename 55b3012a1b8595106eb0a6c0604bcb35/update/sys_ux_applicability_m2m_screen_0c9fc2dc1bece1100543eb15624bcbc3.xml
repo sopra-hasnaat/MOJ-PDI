@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Monitoring/Contact Centre">580f4ad01b2025100543eb15624bcb08</applicability>
+        <order>1</order>
+        <screen display_value="CSM Landing Page">70189b82877a101045957d3d87cb0ba8</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2023-01-18 13:42:29</sys_created_on>
+        <sys_id>0c9fc2dc1bece1100543eb15624bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_0c9fc2dc1bece1100543eb15624bcbc3</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2023-01-18 13:42:29</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

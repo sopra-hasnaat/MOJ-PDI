@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Offence Information" section_id="01169c001ba8a1100543eb15624bcbf5" sys_domain="global" table="x_ster2_emfs_monitoring_order" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>primary_offence</element>
+            <position>0</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:15:15</sys_created_on>
+            <sys_id>a68694401ba8a1100543eb15624bcb3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Offence Information" display_value="Offence Information" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">01169c001ba8a1100543eb15624bcbf5</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:15:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Offence Information</caption>
+            <header>false</header>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01169c001ba8a1100543eb15624bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ster2_emfs_monitoring_order</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_ui_section_01169c001ba8a1100543eb15624bcbf5</sys_update_name>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:13</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">57a3235364901110a866d1e779b53017</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

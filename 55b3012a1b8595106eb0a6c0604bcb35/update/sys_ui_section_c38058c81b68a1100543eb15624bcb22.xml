@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="c38058c81b68a1100543eb15624bcb22" sys_domain="global" table="x_ster2_emfs_monitoring_order" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>c916dc001ba8a1100543eb15624bcb2e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order_type2</element>
+            <position>1</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>d116dc001ba8a1100543eb15624bcb2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order_type</element>
+            <position>2</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>d516dc001ba8a1100543eb15624bcb2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>enforceable_conditions</element>
+            <position>3</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>d916dc001ba8a1100543eb15624bcb2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date_time</element>
+            <position>4</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>dd16dc001ba8a1100543eb15624bcb2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>planned_end_date</element>
+            <position>5</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>d116dc001ba8a1100543eb15624bcb30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>d516dc001ba8a1100543eb15624bcb30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>7</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>d916dc001ba8a1100543eb15624bcb30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment</element>
+            <position>8</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>dd16dc001ba8a1100543eb15624bcb30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>confirmed_date</element>
+            <position>9</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>d116dc001ba8a1100543eb15624bcb31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>10</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>d516dc001ba8a1100543eb15624bcb31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>11</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>d916dc001ba8a1100543eb15624bcb31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>installscheduled</element>
+            <position>12</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>dd16dc001ba8a1100543eb15624bcb31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>removal_scheduled</element>
+            <position>13</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>d116dc001ba8a1100543eb15624bcb32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>14</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>d516dc001ba8a1100543eb15624bcb32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subject_name</element>
+            <position>15</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>d916dc001ba8a1100543eb15624bcb32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>court_reference</element>
+            <position>16</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>dd16dc001ba8a1100543eb15624bcb32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notifying_officer</element>
+            <position>17</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>d116dc001ba8a1100543eb15624bcb33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notifying_organisation</element>
+            <position>18</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>d516dc001ba8a1100543eb15624bcb33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>court_prison</element>
+            <position>19</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>d916dc001ba8a1100543eb15624bcb33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tag_at_source</element>
+            <position>20</position>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 10:13:14</sys_created_on>
+            <sys_id>dd16dc001ba8a1100543eb15624bcb33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="57a3235364901110a866d1e779b53017">c38058c81b68a1100543eb15624bcb22</sys_ui_section>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 10:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_ster2_emfs_monitoring_order</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-17 09:49:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c38058c81b68a1100543eb15624bcb22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ster2_emfs_monitoring_order</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+            <sys_update_name>sys_ui_section_c38058c81b68a1100543eb15624bcb22</sys_update_name>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-17 09:49:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">57a3235364901110a866d1e779b53017</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

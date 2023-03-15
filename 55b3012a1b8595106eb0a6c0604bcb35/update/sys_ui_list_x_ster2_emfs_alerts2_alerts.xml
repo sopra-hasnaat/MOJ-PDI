@@ -3,167 +3,197 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">866530811bbed9106eb0a6c0604bcb8e</list_id>
+            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">2d4237951b5c25100543eb15624bcbb0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-11-11 16:05:38</sys_created_on>
-            <sys_id>313464661b0fd5106eb0a6c0604bcb10</sys_id>
+            <sys_created_on>2023-01-09 13:11:59</sys_created_on>
+            <sys_id>294277951b5c25100543eb15624bcb47</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-11-11 16:05:38</sys_updated_on>
+            <sys_updated_on>2023-01-09 13:11:59</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>subject</element>
-            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">866530811bbed9106eb0a6c0604bcb8e</list_id>
+            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">2d4237951b5c25100543eb15624bcbb0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-11-11 16:05:38</sys_created_on>
-            <sys_id>793464661b0fd5106eb0a6c0604bcb10</sys_id>
+            <sys_created_on>2023-01-09 13:11:59</sys_created_on>
+            <sys_id>614277951b5c25100543eb15624bcb48</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-11-11 16:05:38</sys_updated_on>
+            <sys_updated_on>2023-01-09 13:11:59</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>device</element>
-            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">866530811bbed9106eb0a6c0604bcb8e</list_id>
+            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">2d4237951b5c25100543eb15624bcbb0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-11-11 16:05:38</sys_created_on>
-            <sys_id>7d3464661b0fd5106eb0a6c0604bcb10</sys_id>
+            <sys_created_on>2023-01-09 13:11:59</sys_created_on>
+            <sys_id>654277951b5c25100543eb15624bcb48</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-11-11 16:05:38</sys_updated_on>
+            <sys_updated_on>2023-01-09 13:11:59</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>active</element>
-            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">866530811bbed9106eb0a6c0604bcb8e</list_id>
+            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">2d4237951b5c25100543eb15624bcbb0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-11-11 16:05:38</sys_created_on>
-            <sys_id>713464661b0fd5106eb0a6c0604bcb11</sys_id>
+            <sys_created_on>2023-01-09 13:11:59</sys_created_on>
+            <sys_id>694277951b5c25100543eb15624bcb48</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-11-11 16:05:38</sys_updated_on>
+            <sys_updated_on>2023-01-09 13:11:59</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>priority</element>
-            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">866530811bbed9106eb0a6c0604bcb8e</list_id>
+            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">2d4237951b5c25100543eb15624bcbb0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-11-11 16:05:38</sys_created_on>
-            <sys_id>753464661b0fd5106eb0a6c0604bcb11</sys_id>
+            <sys_created_on>2023-01-09 13:11:59</sys_created_on>
+            <sys_id>6d4277951b5c25100543eb15624bcb48</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-11-11 16:05:38</sys_updated_on>
+            <sys_updated_on>2023-01-09 13:11:59</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">866530811bbed9106eb0a6c0604bcb8e</list_id>
+            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">2d4237951b5c25100543eb15624bcbb0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-11-11 16:05:38</sys_created_on>
-            <sys_id>3134a4661b0fd5106eb0a6c0604bcbac</sys_id>
+            <sys_created_on>2023-01-09 13:11:59</sys_created_on>
+            <sys_id>614277951b5c25100543eb15624bcb49</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-11-11 16:05:38</sys_updated_on>
+            <sys_updated_on>2023-01-09 13:11:59</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assigned_to</element>
-            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">866530811bbed9106eb0a6c0604bcb8e</list_id>
+            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">2d4237951b5c25100543eb15624bcbb0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-11-11 16:05:38</sys_created_on>
-            <sys_id>3534a4661b0fd5106eb0a6c0604bcbac</sys_id>
+            <sys_created_on>2023-01-09 13:11:59</sys_created_on>
+            <sys_id>654277951b5c25100543eb15624bcb49</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-11-11 16:05:38</sys_updated_on>
+            <sys_updated_on>2023-01-09 13:11:59</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>short_description</element>
-            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">866530811bbed9106eb0a6c0604bcb8e</list_id>
+            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">2d4237951b5c25100543eb15624bcbb0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-11-11 16:05:38</sys_created_on>
-            <sys_id>3934a4661b0fd5106eb0a6c0604bcbac</sys_id>
+            <sys_created_on>2023-01-09 13:11:59</sys_created_on>
+            <sys_id>694277951b5c25100543eb15624bcb49</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-11-11 16:05:38</sys_updated_on>
+            <sys_updated_on>2023-01-09 13:11:59</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_class_name</element>
-            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">866530811bbed9106eb0a6c0604bcb8e</list_id>
+            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">2d4237951b5c25100543eb15624bcbb0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
             <sum>false</sum>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-11-11 16:05:38</sys_created_on>
-            <sys_id>3d34a4661b0fd5106eb0a6c0604bcbac</sys_id>
+            <sys_created_on>2023-01-09 13:11:59</sys_created_on>
+            <sys_id>6d4277951b5c25100543eb15624bcb49</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-11-11 16:05:38</sys_updated_on>
+            <sys_updated_on>2023-01-09 13:11:59</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>atv_value</element>
-            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">866530811bbed9106eb0a6c0604bcb8e</list_id>
+            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">2d4237951b5c25100543eb15624bcbb0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
             <sum>false</sum>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-11-11 16:05:38</sys_created_on>
-            <sys_id>3134a4661b0fd5106eb0a6c0604bcbad</sys_id>
+            <sys_created_on>2023-01-09 13:11:59</sys_created_on>
+            <sys_id>614277951b5c25100543eb15624bcb4a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-11-11 16:05:38</sys_updated_on>
+            <sys_updated_on>2023-01-09 13:11:59</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>linked_alert</element>
-            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">866530811bbed9106eb0a6c0604bcb8e</list_id>
+            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">2d4237951b5c25100543eb15624bcbb0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>10</position>
             <sum>false</sum>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-11-11 16:05:38</sys_created_on>
-            <sys_id>3534a4661b0fd5106eb0a6c0604bcbad</sys_id>
+            <sys_created_on>2023-01-09 13:11:59</sys_created_on>
+            <sys_id>654277951b5c25100543eb15624bcb4a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-11-11 16:05:38</sys_updated_on>
+            <sys_updated_on>2023-01-09 13:11:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">2d4237951b5c25100543eb15624bcbb0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-09 13:11:59</sys_created_on>
+            <sys_id>694277951b5c25100543eb15624bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-09 13:11:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_by</element>
+            <list_id display_value="x_ster2_emfs_alerts2" element="NULL" name="x_ster2_emfs_alerts2" parent="NULL" relationship="NULL" sys_domain="global" view="2be8fbe01bfa99106eb0a6c0604bcbbd">2d4237951b5c25100543eb15624bcbb0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>des.king.ems</sys_created_by>
+            <sys_created_on>2023-01-09 13:11:59</sys_created_on>
+            <sys_id>6d4277951b5c25100543eb15624bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>des.king.ems</sys_updated_by>
+            <sys_updated_on>2023-01-09 13:11:59</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -177,10 +207,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-11-11 16:05:38</sys_created_on>
+            <sys_created_on>2023-01-09 13:11:59</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>866530811bbed9106eb0a6c0604bcb8e</sys_id>
+            <sys_id>2d4237951b5c25100543eb15624bcbb0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_ster2_emfs_alerts2</sys_name>
             <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
@@ -188,7 +218,7 @@
             <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
             <sys_update_name>sys_ui_list_x_ster2_emfs_alerts2_alerts</sys_update_name>
             <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-11-11 16:05:38</sys_updated_on>
+            <sys_updated_on>2023-01-09 13:11:59</sys_updated_on>
             <sys_user/>
             <view display_value="Alerts" name="alerts">2be8fbe01bfa99106eb0a6c0604bcbbd</view>
             <view_name/>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Knowledge Category Picker Modal">1ce5f6921b5429100543eb15624bcbf2</macroponent>
+        <name>Set Category Picker Parameters</name>
+        <required_translations/>
+        <script><![CDATA[function handler({
+    api,
+    event,
+    imports
+}) {
+    const isEmpty = (value) => {
+        return (
+            value == null || (typeof value === 'object' && Object.keys(value).length === 0) || (typeof value === 'string' && value.trim().length === 0)
+        );
+    };
+
+    var changes = JSON.parse(api.context.props.serializedChanges);
+    var sysId = api.context.props.sysId;
+    var value = api.context.props.value;
+    var encodedRecord = api.context.props.encodedRecord;
+    var hasValue = true;
+
+    if (isEmpty(value)) {
+        hasValue = false;
+        value = '';
+    }
+
+    api.setState('hasValue', hasValue);
+    api.setState('value', value);
+    api.setState('sysId', '-1');
+
+    if (changes.hasOwnProperty('kb_knowledge_base') && !isEmpty(changes.kb_knowledge_base)) {
+        api.setState('parentId', changes.kb_knowledge_base);
+    } else if (!isEmpty(sysId) && sysId.length == 32) {
+        api.setState('sysId', sysId);
+    } else if (!isEmpty(encodedRecord)) {
+        api.setState('encodedRecord', encodedRecord);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2023-01-12 11:22:03</sys_created_on>
+        <sys_id>24e53a921b5429100543eb15624bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Category Picker Parameters</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_client_script_24e53a921b5429100543eb15624bcb0a</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2023-01-12 11:22:03</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

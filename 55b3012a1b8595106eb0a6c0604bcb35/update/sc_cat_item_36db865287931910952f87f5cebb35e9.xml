@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
     <sc_cat_item action="INSERT_OR_UPDATE">
         <access_type>restricted</access_type>
-        <active>true</active>
+        <active>false</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
         <category display_value="Starters">190c8a5287931910952f87f5cebb3547</category>
@@ -64,14 +64,14 @@
         <sys_created_by>rebecca.seiga.ems</sys_created_by>
         <sys_created_on>2022-11-23 15:17:05</sys_created_on>
         <sys_id>36db865287931910952f87f5cebb35e9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>New User</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sc_cat_item_36db865287931910952f87f5cebb35e9</sys_update_name>
-        <sys_updated_by>rebecca.seiga.ems</sys_updated_by>
-        <sys_updated_on>2022-11-23 15:20:06</sys_updated_on>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2023-01-31 16:25:01</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>

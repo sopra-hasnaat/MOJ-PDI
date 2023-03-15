@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_kmf_crypto_caller_policy">
+    <sys_kmf_crypto_caller_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <approval_type/>
+        <check_script_hash>false</check_script_hash>
+        <crypto_module display_value="com_glide_certificates_glideencrypter">8994cbe3ff23201022f462aa453bf13d</crypto_module>
+        <crypto_spec display_value="com_glide_certificates_glideencrypter --- Symmetric Key Wrapping/Unwrapping">0594cbe3ff23201022f462aa453bf13f</crypto_spec>
+        <granular_operation/>
+        <impersonation>false</impersonation>
+        <instance_recipient/>
+        <owner>a7e978f1dbcc4f008264f70fbf961971</owner>
+        <policy_name>AutoGen-script-8b25f312d733210092610eca5e610335-global.com_glide_certificates_glideencrypter</policy_name>
+        <result>reject</result>
+        <script_hash>LP7uOayONXRNLI+hU24lth8HJp8WDRUl8+q2bkRrmX8=</script_hash>
+        <script_table>sys_script_include</script_table>
+        <signature_data/>
+        <specify_purpose>false</specify_purpose>
+        <sys_class_name>sys_kmf_crypto_caller_policy</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2023-02-14 10:00:32</sys_created_on>
+        <sys_id>9cbf1c0d1b896d102eda6357b04bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AutoGen-script-8b25f312d733210092610eca5e610335-global.com_glide_certificates_glideencrypter</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_kmf_crypto_caller_policy_9cbf1c0d1b896d102eda6357b04bcbae</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2023-02-14 10:00:32</sys_updated_on>
+        <target_role/>
+        <target_scope/>
+        <target_script>8b25f312d733210092610eca5e610335</target_script>
+        <type>1</type>
+        <used>false</used>
+    </sys_kmf_crypto_caller_policy>
+</record_update>

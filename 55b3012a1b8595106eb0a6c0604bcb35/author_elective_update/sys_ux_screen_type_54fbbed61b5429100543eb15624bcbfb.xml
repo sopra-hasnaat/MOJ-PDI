@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description/>
+        <name>test</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2023-01-12 11:48:31</sys_created_on>
+        <sys_id>54fbbed61b5429100543eb15624bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_screen_type_54fbbed61b5429100543eb15624bcbfb</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2023-01-12 11:48:31</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="DELETE" query="documentkey=54fbbed61b5429100543eb15624bcbfb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</application>
+        <file_path/>
+        <instance_id>a7e978f1dbcc4f008264f70fbf961971</instance_id>
+        <instance_name>soprasteriademo5</instance_name>
+        <name>sys_ux_screen_type_54fbbed61b5429100543eb15624bcbfb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type"><sys_ux_screen_type action="INSERT_OR_UPDATE"><description/><name>test</name><sys_class_name>sys_ux_screen_type</sys_class_name><sys_created_by>des.king.ems</sys_created_by><sys_created_on>2023-01-12 11:48:31</sys_created_on><sys_id>54fbbed61b5429100543eb15624bcbfb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test</sys_name><sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package><sys_policy/><sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope><sys_update_name>sys_ux_screen_type_54fbbed61b5429100543eb15624bcbfb</sys_update_name><sys_updated_by>des.king.ems</sys_updated_by><sys_updated_on>2023-01-12 11:48:31</sys_updated_on></sys_ux_screen_type><sys_translated_text action="delete_multiple" query="documentkey=54fbbed61b5429100543eb15624bcbfb"/></record_update>]]></payload>
+        <payload_hash>381333977</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>191ec3c01b5021100543eb15624bcb7f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2023-01-12 11:48:32</sys_created_on>
+        <sys_id>94fbbed61b5429100543eb15624bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185a5cf6aba0000001</sys_recorded_at>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2023-01-12 11:48:32</sys_updated_on>
+        <type>UX Screen Collection</type>
+        <update_guid>9cfbbed651542910212ee9f7a093f3fd</update_guid>
+        <update_guid_history>9cfbbed651542910212ee9f7a093f3fd:381333977</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2023-01-12 11:52:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>2c7b92bfaccd47109301303051ee3b10</sys_id>
+        <sys_metadata>54fbbed61b5429100543eb15624bcbfb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_scope_delete display_value="">1728f35f3cdf4e24be031eef5c348910</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_54fbbed61b5429100543eb15624bcbfb</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_54fbbed61b5429100543eb15624bcbfb">94fbbed61b5429100543eb15624bcbfe</sys_update_version>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2023-01-12 11:52:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

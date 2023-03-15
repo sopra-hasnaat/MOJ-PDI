@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Asset lifecycle">05c572921b5429100543eb15624bcb50</macroponent>
+        <name>Button Click Handler</name>
+        <required_translations/>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({api, event, helpers, imports}) {
+    api.emit('NAV_ITEM_SELECTED', {
+        route: 'list',
+		fields: {'table':event.context.item.value.table,'listTitle':event.context.item.value.title},
+		params: {'query':event.context.item.value.query},
+		redirect: null,
+		passiveNavigation: null,
+		title: event.context.item.value.title,
+		multiInstField: null,
+		targetRoute: null,
+		external: null
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>des.king.ems</sys_created_by>
+        <sys_created_on>2023-01-12 11:21:33</sys_created_on>
+        <sys_id>d5c572921b5429100543eb15624bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Button Click Handler</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ux_client_script_d5c572921b5429100543eb15624bcb68</sys_update_name>
+        <sys_updated_by>des.king.ems</sys_updated_by>
+        <sys_updated_on>2023-01-12 11:21:33</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
