@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="inclusion_coordinates" table="x_ster2_emfs_monitoring_order">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="inclusion_coordinates_object" table="x_ster2_emfs_monitoring_order">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
+        <calculation/>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Inclusion Coordinates</column_label>
+        <column_label>Inclusion Coordinates Object</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,7 +22,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>inclusion_coordinates</element>
+        <element>inclusion_coordinates_object</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -51,17 +46,17 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>des.king.ems</sys_created_by>
-        <sys_created_on>2022-10-19 10:31:03</sys_created_on>
-        <sys_id>379272ca1b9395506eb0a6c0604bcb96</sys_id>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2023-04-05 11:00:59</sys_created_on>
+        <sys_id>0d0dc68d1bcead902eda6357b04bcb72</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Inclusion Coordinates</sys_name>
+        <sys_name>Inclusion Coordinates Object</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
-        <sys_update_name>sys_dictionary_x_ster2_emfs_monitoring_order_inclusion_coordinates</sys_update_name>
+        <sys_update_name>sys_dictionary_x_ster2_emfs_monitoring_order_inclusion_coordinates_object</sys_update_name>
         <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2023-04-04 17:40:01</sys_updated_on>
+        <sys_updated_on>2023-04-05 11:02:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

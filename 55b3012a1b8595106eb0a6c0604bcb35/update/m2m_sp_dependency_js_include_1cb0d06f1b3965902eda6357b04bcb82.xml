@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include">
+    <m2m_sp_dependency_js_include action="INSERT_OR_UPDATE">
+        <order>500</order>
+        <sp_dependency display_value="ESRI Includes">2398a26d1b46e8108872b88e034bcbd8</sp_dependency>
+        <sp_js_include display_value="https://unpkg.com/@geoman-io/leaflet-geoman-free@latest/dist/leaflet-geoman.min.js">83c0546f1b3965902eda6357b04bcb6b</sp_js_include>
+        <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2023-03-31 10:11:16</sys_created_on>
+        <sys_id>1cb0d06f1b3965902eda6357b04bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ESRI Includes.https://unpkg.com/arcgis-js-api@4.26.5/widgets/Sketch/SketchViewModel.js</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>m2m_sp_dependency_js_include_1cb0d06f1b3965902eda6357b04bcb82</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2023-03-31 10:11:16</sys_updated_on>
+    </m2m_sp_dependency_js_include>
+</record_update>

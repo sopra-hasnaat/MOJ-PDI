@@ -3,28 +3,42 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>inclusion_zones</element>
             <position>0</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-19 10:34:11</sys_created_on>
-            <sys_id>aecb708b872e5510952f87f5cebb3577</sys_id>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2023-04-05 11:01:02</sys_created_on>
+            <sys_id>2d0d0a8d1bcead902eda6357b04bcb5b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Inclusion Zones" display_value="Inclusion Zones" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">52cb308b872e5510952f87f5cebb35e5</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-19 10:34:11</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2023-04-05 11:01:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>inclusion_coordinates</element>
             <position>1</position>
-            <sys_created_by>des.king.ems</sys_created_by>
-            <sys_created_on>2022-10-19 10:34:11</sys_created_on>
-            <sys_id>a2cb708b872e5510952f87f5cebb3578</sys_id>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2023-04-05 11:01:02</sys_created_on>
+            <sys_id>650d0a8d1bcead902eda6357b04bcb5c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Inclusion Zones" display_value="Inclusion Zones" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">52cb308b872e5510952f87f5cebb35e5</sys_ui_section>
-            <sys_updated_by>des.king.ems</sys_updated_by>
-            <sys_updated_on>2022-10-19 10:34:11</sys_updated_on>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2023-04-05 11:01:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inclusion_coordinates_object</element>
+            <position>2</position>
+            <sys_created_by>hasnaat.khan.ems</sys_created_by>
+            <sys_created_on>2023-04-05 11:01:02</sys_created_on>
+            <sys_id>690d0a8d1bcead902eda6357b04bcb5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inclusion Zones" display_value="Inclusion Zones" name="x_ster2_emfs_monitoring_order" sys_domain="global" view="Default view">52cb308b872e5510952f87f5cebb35e5</sys_ui_section>
+            <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+            <sys_updated_on>2023-04-05 11:01:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

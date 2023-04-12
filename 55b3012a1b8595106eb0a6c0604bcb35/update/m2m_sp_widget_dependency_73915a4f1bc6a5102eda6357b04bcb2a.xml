@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
     <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
         <sp_dependency display_value="ESRI Includes">2398a26d1b46e8108872b88e034bcbd8</sp_dependency>
-        <sp_widget display_value="ESRI Map Leaflet Device Wearer Portal">b59c4f3087ef9150952f87f5cebb350b</sp_widget>
+        <sp_widget display_value="ESRI Map Leaflet Device Wearer">3b91d64f1bc6a5102eda6357b04bcb29</sp_widget>
         <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
         <sys_created_by>hasnaat.khan.ems</sys_created_by>
-        <sys_created_on>2022-12-01 14:23:53</sys_created_on>
-        <sys_id>66bccf3087ef9150952f87f5cebb3528</sys_id>
+        <sys_created_on>2023-04-11 16:28:57</sys_created_on>
+        <sys_id>73915a4f1bc6a5102eda6357b04bcb2a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ESRI Includes.ESRI Map Leaflet Device Wearer Portal</sys_name>
+        <sys_name>ESRI Includes.ESRI Map Leaflet Device Wearer</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
-        <sys_update_name>m2m_sp_widget_dependency_66bccf3087ef9150952f87f5cebb3528</sys_update_name>
+        <sys_update_name>m2m_sp_widget_dependency_73915a4f1bc6a5102eda6357b04bcb2a</sys_update_name>
         <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
-        <sys_updated_on>2022-12-01 14:23:53</sys_updated_on>
+        <sys_updated_on>2023-04-11 16:28:57</sys_updated_on>
     </m2m_sp_widget_dependency>
 </record_update>

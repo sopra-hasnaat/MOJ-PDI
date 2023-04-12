@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function ESRIMapController($timeout, $rootScope, $scope, $http, $sce) {
+    var c = this;
+    var apiKey = "AAPKd3875a5e44b64c8db23d06e225adb90bm95eJu8e1pd-N6fZZKic7OTzXZkiqu2QRho5P97TynyxP-liFAI8emWdtV_oKarD";
+    var basemapEnum = "ArcGIS:Navigation";
+
+    // This is the center of the map 
+    var myTownCenterLat = 53.2964587;
+    var myTownCenterLong = -2.9824668;
+
+    // Inital map setup                                                                
+    var map = L.map("map", {
+        minZoom: 1
+    }).setView([myTownCenterLat, myTownCenterLong], 9);
+
+    // Sets up the vector so we can click on it
+    L.esri.Vector.vectorBasemapLayer(basemapEnum, {
+        apiKey: apiKey
+    }).addTo(map);
+
+	var orderNumber = c.data.orderNumber;
+    var orderSysId = c.data.orderSysId;
+    var inclusionCoordinates = c.data.inclusionCoordinatesArray;
+    var exclusionCoordinates = c.data.exclusionCoordinatesArray;
+	var inclusionCoordinatesValue = c.data.inclusionCoordinatesValue;
+	var exclusionCoordinatesValue = c.data.exclusionCoordinatesValue;
+	var monitoringOrderSpan = document.getElementById("monitoringOrderSpan");
+
+	monitoringOrderSpan.innerHTML = orderNumber;
+	
+	//Check Geoman object coordinates
+    if (inclusionCoordinatesValue) {
+		inclusionCoordinatesValue = '[' + c.data.inclusionCoordinatesValue + ']';
+        var geoLayerInclusion = L.geoJSON(JSON.parse(inclusionCoordinatesValue), {
+            style: function(feature) {
+                return feature.properties.style;
+            },
+            pointToLayer: function(feature, latlng) {
+                if (feature.geometry.type === 'Point') {
+                    return L.circle(latlng, {
+                        radius: feature.properties.radius
+                    });
+                }
+            }
+        }).addTo(map);
+    }
+	
+    if (exclusionCoordinatesValue) {
+		exclusionCoordinatesValue = '[' + c.data.exclusionCoordinatesValue + ']';
+        var geoLayerExclusion = L.geoJSON(JSON.parse(exclusionCoordinatesValue), {
+            style: function(feature) {
+                return feature.properties.style;
+            },
+            pointToLayer: function(feature, latlng) {
+                if (feature.geometry.type === 'Point') {
+                    return L.circle(latlng, {
+                        radius: feature.properties.radius
+                    });
+                }
+            }
+        }).addTo(map);
+    }
+
+	//Check postcode area coordinates
+    if (exclusionCoordinates) {
+        for (var i = 0; i < exclusionCoordinates.length; i++) {
+            var latlngsExclusion = L.GeoJSON.coordsToLatLngs(JSON.parse("[" + exclusionCoordinates[i] + "]"), 0, false);
+            // Boolean to reverse coordinates to long/lat
+            L.polygon(latlngsExclusion, {
+                color: 'red'
+            }).addTo(map);
+        }
+    }
+
+    if (inclusionCoordinates) {
+        for (var i = 0; i < inclusionCoordinates.length; i++) {
+            var latlngsInclusion = L.GeoJSON.coordsToLatLngs(JSON.parse("[" + inclusionCoordinates[i] + "]"), 0, false);
+            // Boolean to reverse coordinates to long/lat
+            L.polygon(latlngsInclusion, {
+                color: 'green'
+            }).addTo(map);
+        }
+    }
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>#map {&#13;
+  height: 100%;&#13;
+  width: 100%;&#13;
+  min-height: 750px;&#13;
+  min-width: 300px;&#13;
+  font-family: Arial, Helvetica, sans-serif;&#13;
+  font-size: 14px;&#13;
+  color: #323232;&#13;
+}&#13;
+&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>esri_map_leaflet_device_wearer</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>ESRI Map Leaflet Device Wearer</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    var user = gs.getUserID();
+    var grUser = new GlideRecord('sys_user');
+    if (grUser.get(user)) {
+        var subjectSysID = grUser.getValue('u_subject');
+        var grOrder = new GlideRecord('x_ster2_emfs_monitoring_order');
+		
+        grOrder.addQuery('subject_name', subjectSysID);
+        grOrder.query();
+        while (grOrder.next()) {
+			var orderNumber = grOrder.getValue('number');
+			data.orderNumber = orderNumber;
+			var orderSysId = grOrder.getUniqueValue();
+			data.orderSysId = orderSysId;
+			var inclusionCoordinates = grOrder.getValue('inclusion_coordinates_object');
+			var exclusionCoordinates = grOrder.getValue('exclusion_coordinates_object');
+			data.inclusionCoordinatesValue = inclusionCoordinates;
+			data.exclusionCoordinatesValue = exclusionCoordinates;
+
+            if (grOrder.getValue('exclusion_zones')) {
+				//Get all postcode area values, split them and search the location table for their coordinates
+                var exclusionZonesValue = grOrder.getValue('exclusion_zones'); 
+                var exclusionZones = exclusionZonesValue.split(',');
+				var exclusionCoordinatesArray = [];
+				
+                for (var i = 0; i < exclusionZones.length; i++) {
+                    var grExclusionZone = new GlideRecord('cmn_location');
+                    grExclusionZone.get(exclusionZones[i]);
+                    exclusionCoordinatesArray.push(grExclusionZone.getValue('u_coordinates'));
+                }
+                data.exclusionCoordinatesArray = exclusionCoordinatesArray;
+            }
+			if (grOrder.getValue('inclusion_zones')) {
+                var inclusionZonesValue = grOrder.getValue('inclusion_zones');
+                var inclusionZones = inclusionZonesValue.split(',');
+				var inclusionCoordinatesArray = [];
+				
+                for (var i = 0; i < inclusionZones.length; i++) {
+                    var grInclusionZone = new GlideRecord('cmn_location');
+                    grInclusionZone.get(inclusionZones[i]);
+                    inclusionCoordinatesArray.push(grInclusionZone.getValue('u_coordinates'));
+                }
+                data.inclusionCoordinatesArray = inclusionCoordinatesArray;
+            }
+        }
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2023-04-11 16:28:57</sys_created_on>
+        <sys_id>3b91d64f1bc6a5102eda6357b04bcb29</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ESRI Map Leaflet Device Wearer</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sp_widget_3b91d64f1bc6a5102eda6357b04bcb29</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2023-04-11 16:34:23</sys_updated_on>
+        <template><![CDATA[<h2>Monitoring Order: <span id='monitoringOrderSpan'></span></h2>
+<div id="map"></div>
+]]></template>
+    </sp_widget>
+</record_update>

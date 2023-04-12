@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[var apiKey = "AAPKd3875a5e44b64c8db23d06e225adb90bm95eJu8e1pd-N6fZZKic7OTzXZkiqu2QRho5P97TynyxP-liFAI8emWdtV_oKarD";
+var basemapEnum = "ArcGIS:Navigation";
+
+// This is the center of the map 
+var myTownCenterLat = 53.2964587;
+var myTownCenterLong = -2.9824668;
+
+var orderSysId = document.getElementById('record_sys_id').value;
+var orderNumber = document.getElementById('orderNumber').value;
+// Button Variables
+var saveButton = document.getElementById('saveButton');
+var setInclusionZonesButton = document.getElementById('setInclusionZonesButton');
+var setExclusionZonesButton = document.getElementById('setExclusionZonesButton');
+// Text Variables
+var setSettingText = document.getElementById('setSetting');
+var monitoringOrderHeading = document.getElementById("monitoringOrderHeading");
+// Coordinate Variables
+var oldInclusionCoordinates = document.getElementById('oldInclusionCoordinates').value;
+var oldExclusionCoordinates = document.getElementById('oldExclusionCoordinates').value;
+var newInclusionCoordinates = document.getElementById('newInclusionCoordinates');
+var newExclusionCoordinates = document.getElementById('newExclusionCoordinates');
+var inclusionPostCodeCoordinates = document.getElementById('inclusionPostCodeCoordinates').value;
+var exclusionPostCodeCoordinates = document.getElementById('exclusionPostCodeCoordinates').value;
+var inclusionPostCodeZones = document.getElementById('inclusionPostCodeZones').value;
+var exclusionPostCodeZones = document.getElementById('exclusionPostCodeZones').value;
+
+if (!orderSysId) {
+    document.body.innerHTML = "<h1>Error: No Monitoring Order Record ID specified in URL</h1>";
+}
+
+monitoringOrderHeading.innerHTML = orderNumber;
+// Inital map setup                                                               
+var map = L.map("map", {
+    minZoom: 1
+}).setView([myTownCenterLat, myTownCenterLong], 9);
+// Sets up the vector so we can click on it
+L.esri.Vector.vectorBasemapLayer(basemapEnum, {
+    apiKey: apiKey
+}).addTo(map);
+
+// add Leaflet-Geoman controls with some options to the map  
+map.pm.addControls({
+    position: 'topleft',
+    drawCircleMarker: false,
+    drawPolyline: false
+});
+
+// Define the style object for green layers
+var greenStyle = {
+    fillColor: "green",
+    fillOpacity: 0.5,
+    color: "green" 
+};
+
+// Define the style object for red layers
+var redStyle = {
+    fillColor: "red",
+    fillOpacity: 0.5, 
+    color: "red" 
+};
+
+//Path Styling
+map.pm.setPathOptions(greenStyle); // Default style for paths
+setInclusionZonesButton.disabled = true;
+
+setInclusionZonesButton.onclick = function() {
+    map.pm.setPathOptions(greenStyle);
+    setSettingText.innerHTML = "Inclusion Zones";
+    setInclusionZonesButton.disabled = true;
+    setExclusionZonesButton.disabled = false;
+};
+
+setExclusionZonesButton.onclick = function() {
+    map.pm.setPathOptions(redStyle);
+    setSettingText.innerHTML = "Exclusion Zones";
+    setInclusionZonesButton.disabled = false;
+    setExclusionZonesButton.disabled = true;
+    buttonFlag = false;
+};
+
+//If coordinates already exist in monitoring order record then place layers on map
+if (oldInclusionCoordinates) {
+    var geoLayerInclusion = L.geoJSON(JSON.parse('[' + oldInclusionCoordinates + ']'), {
+        style: function(feature) {
+            return feature.properties.style; // return styles from each features property object
+        },
+        pointToLayer: function(feature, latlng) {
+            if (feature.properties.radius) {
+                return new L.Circle(latlng, feature.properties.radius);
+            } else {
+                return new L.Marker(latlng);
+            }
+        }
+    }).addTo(map);
+}
+
+//If coordinates already exist in monitoring order record then place layers on map
+if (oldExclusionCoordinates) {
+    var geoLayerExclusion = L.geoJSON(JSON.parse('[' + oldExclusionCoordinates + ']'), {
+        style: function(feature) {
+            return feature.properties.style; // return styles from each features property object
+        },
+        pointToLayer: function(feature, latlng) {
+            if (feature.properties.radius) {
+                return new L.Circle(latlng, feature.properties.radius);
+            } else {
+                return new L.Marker(latlng);
+            }
+        }
+    }).addTo(map);
+}
+
+//Check if any postcode zones are set on the monitoring order record and run script include to get them and add to map
+if (exclusionPostCodeZones) {
+    var gaExclusion = new GlideAjax('ESRIMapScriptInclude');
+    gaExclusion.addParam('sysparm_name', 'retrieveExclusionCoordinateZones');
+    gaExclusion.addParam('sysparm_order_sys_id', orderSysId);
+    gaExclusion.getXMLAnswer(_handleResponseExclusion);
+
+    function _handleResponseExclusion(response) {
+        var parsedResponse = JSON.parse(response);
+
+        for (var i = 0; i < parsedResponse.length; i++) {
+            var latlngsExclusion = L.GeoJSON.coordsToLatLngs(JSON.parse("[" + parsedResponse[i] + "]"), 0, false);
+            // Boolean to reverse coordinates to long/lat
+            L.polygon(latlngsExclusion, {
+                color: 'red'
+            }).addTo(map);
+        }
+    }
+}
+
+//Check if any postcode zones are set on the monitoring order record and run script include to get them and add to map
+if (inclusionPostCodeZones) {
+    var gaInclusion = new GlideAjax('ESRIMapScriptInclude');
+    gaInclusion.addParam('sysparm_name', 'retrieveInclusionCoordinateZones');
+    gaInclusion.addParam('sysparm_order_sys_id', orderSysId);
+    gaInclusion.getXMLAnswer(_handleResponseInclusion);
+
+    function _handleResponseInclusion(response) {
+        var parsedResponse = JSON.parse(response);
+
+        for (var i = 0; i < parsedResponse.length; i++) {
+            var latlngsExclusion = L.GeoJSON.coordsToLatLngs(JSON.parse("[" + parsedResponse[i] + "]"), 0, false);
+            // Boolean to reverse coordinates to long/lat
+            L.polygon(latlngsExclusion, {
+                color: 'green'
+            }).addTo(map);
+        }
+    }
+}
+
+saveButton.onclick = function() {
+    //Save layers present on map to monitoring order table
+    var allGreenLayers = L.featureGroup(); // Create a feature group for green layers
+    var allRedLayers = L.featureGroup(); // Create a feature group for red layers
+    map.eachLayer(function(layer) {
+        if (layer.options.fillColor === 'green') { // Only add layer if fill color is green
+            if (layer instanceof L.Path) {
+                allGreenLayers.addLayer(layer);
+            }
+            if (layer instanceof L.Circle) {
+                var featureInclusion = layer.toGeoJSON(); //Add a layer to feature
+                featureInclusion.properties.radius = layer.getRadius();
+                allGreenLayers.addLayer(L.geoJSON(featureInclusion)); // Add the modified feature to the feature group
+                allGreenLayers.removeLayer(layer); // Remove the original layer from the feature group to prevent duplicates
+            }
+        } else if (layer.options.fillColor === 'red') { // Only add layer if fill color is red
+            if (layer instanceof L.Path) {
+                allRedLayers.addLayer(layer);
+            }
+            if (layer instanceof L.Circle) {
+                var featureExclusion = layer.toGeoJSON(); //Add a layer to feature
+                featureExclusion.properties.radius = layer.getRadius();
+                allRedLayers.addLayer(L.geoJSON(featureExclusion)); // Add the modified feature to the feature group
+                allRedLayers.removeLayer(layer); // Remove the original layer from the feature group to prevent duplicates
+            }
+        }
+    });
+
+    var geojsonGreen = allGreenLayers.toGeoJSON(); // Store all green layers in geojson
+    var geojsonRed = allRedLayers.toGeoJSON(); // Store all red layers in geojson
+
+    // Loop over each green feature and add the style property, pushing coordinates to array outside of loop
+    var allGreenCoordinates = [];
+    geojsonGreen.features.forEach(function(feature) {
+        feature.properties.style = greenStyle;
+        var coordinates = JSON.stringify(feature);
+        allGreenCoordinates.push(coordinates);
+    });
+    newInclusionCoordinates.value = allGreenCoordinates;
+
+    // Loop over each red feature and add the style property, pushing coordinates to array outside of loop
+    var allRedCoordinates = [];
+    geojsonRed.features.forEach(function(feature) {
+        feature.properties.style = redStyle;
+        var coordinates = JSON.stringify(feature);
+        allRedCoordinates.push(coordinates);
+    });
+    newExclusionCoordinates.value = allRedCoordinates;
+};
+
+// Search Functionality 
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+var searchControl = L.esri.Geocoding.geosearch({
+    position: "topright",
+    placeholder: "Enter an address or place e.g. 1 York St",
+    useMapBounds: false,
+    providers: [
+        L.esri.Geocoding.arcgisOnlineProvider({
+            apikey: apiKey,
+            countries: "GBR",
+            nearby: {
+                lat: -33.8688,
+                lng: 151.2093
+            }
+        })
+    ]
+}).addTo(map);
+
+var results = L.layerGroup().addTo(map);
+searchControl.on("results", function(data) {
+    var searchResultText = (data.text.slice(0, -5));
+
+    var gaSearchResults = new GlideAjax('ESRIMapScriptInclude');
+    gaSearchResults.addParam('sysparm_name', 'retrieveSearchResultCoordinates');
+    gaSearchResults.addParam('sysparm_search_result_text', searchResultText);
+    gaSearchResults.getXMLAnswer(_handleResponseSearchResults);
+
+    function _handleResponseSearchResults(response) {
+        if (response) {
+            var latlngsExclusion = L.GeoJSON.coordsToLatLngs(JSON.parse("[" + response + "]"), 0, false);
+            if (setInclusionZonesButton.disabled == true) {
+                L.polygon(latlngsExclusion, Object.assign({}, greenStyle)).addTo(map); //Add polygon and assign green style object
+            } else {
+                L.polygon(latlngsExclusion, Object.assign({}, redStyle)).addTo(map); //Add polygon and assign red style object
+            }
+        }
+    }   
+
+    results.clearLayers();
+    for (var i = data.results.length - 1; i >= 0; i--) {
+        results.addLayer(L.marker(data.results[i].latlng));
+    }
+});]]></client_script>
+        <description>Using Leaflet Geoman functionality to draw polygons on an ESRI map&#13;
+https://github.com/geoman-io/leaflet-geoman&#13;
+&#13;
+Updates monitoring order which is passed in through sys_id in URL</description>
+        <direct>false</direct>
+        <endpoint>x_ster2_emfs_ESRISketch.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+  <style>
+    html,
+    body,
+    #map {
+      padding: 0;
+      margin: 0 auto;
+      height: 90%;
+      width: 95%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      color: #323232;
+    }
+	#saveButton {
+	  margin: 1em auto;
+	  display: block;
+    }
+	#setContent, h2 {
+	  text-align: center;
+    }
+	img.leaflet-marker-icon {
+	  filter: hue-rotate(135deg);
+	}
+
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha512-mD70nAW2ThLsWH0zif8JPbfraZ8hbCtjQ+5RU1m4+ztZq6/MymyZeB55pWsi4YAX+73yvcaJyk61mzfYMvtm9w==" crossorigin="" />
+  <link rel="stylesheet" href="https://unpkg.com/esri-leaflet-geocoder@3.0.0/dist/esri-leaflet-geocoder.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@geoman-io/leaflet-geoman-free@latest/dist/leaflet-geoman.css" />
+	<h2 id='monitoringOrderHeading'></h2>
+	<div id="map"></div>
+	<div id="setContent">
+		<h3>Currently Setting: <span id="setSetting" style="margin-left: 5px;">Inclusion Zones</span></h3>
+		<button type='button' id="setInclusionZonesButton">Set Inclusion Zones</button>
+		<button type='button' id="setExclusionZonesButton">Set Exclusion Zones</button>
+	</div>
+	<g:ui_form>		
+		<g:evaluate jelly="true" var="jvar_sys_id" expression="RP.getParameterValue('sysparm_parameter_sys_id')"/>
+  		<g:evaluate var="jvar_GR" object="true" jelly="true">
+			var gr = new GlideRecord('x_ster2_emfs_monitoring_order');
+			gr.get(jelly.jvar_sys_id);
+			gr;
+		</g:evaluate>		
+		
+		<g:dialog_button id="saveButton">Save</g:dialog_button>
+		<input type="hidden" id="record_sys_id" name="record_sys_id" value="${jvar_sys_id}" />	
+		<input type="hidden" id="orderNumber" name="orderNumber" value="${jvar_GR.getValue('number')}"  />
+		<input type="hidden" id="newInclusionCoordinates" name="newInclusionCoordinates" />	
+		<input type="hidden" id="newExclusionCoordinates" name="newExclusionCoordinates" />	
+		<input type="hidden" id="oldInclusionCoordinates" name="inclusionCoordinates" value="${jvar_GR.getValue('inclusion_coordinates_object')}"  />	
+		<input type="hidden" id="oldExclusionCoordinates" name="exclusionCoordinates" value="${jvar_GR.getValue('exclusion_coordinates_object')}"  />	
+		<input type="hidden" id="inclusionPostCodeCoordinates" name="inclusionPostCodeCoordinates" value="${jvar_GR.getValue('inclusion_coordinates')}"  />	
+		<input type="hidden" id="exclusionPostCodeCoordinates" name="exclusionPostCodeCoordinates" value="${jvar_GR.getValue('exclusion_coordinates')}"  />	
+		<input type="hidden" id="exclusionPostCodeZones" name="exclusionPostCodeZones" value="${jvar_GR.getValue('exclusion_zones')}"  />
+		<input type="hidden" id="inclusionPostCodeZones" name="inclusionPostCodeZones" value="${jvar_GR.getValue('inclusion_zones')}"  />
+	</g:ui_form>
+  <script type="text/javascript" src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/esri-leaflet@3.0.0/dist/esri-leaflet.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/esri-leaflet-vector@3.0.0/dist/esri-leaflet-vector.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/esri-leaflet-geocoder@3.0.0/dist/esri-leaflet-geocoder.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/@geoman-io/leaflet-geoman-free@latest/dist/leaflet-geoman.min.js"></script>
+</j:jelly>]]></html>
+        <name>ESRISketch</name>
+        <processing_script><![CDATA[var gr = new GlideRecord('x_ster2_emfs_monitoring_order');
+gr.get(record_sys_id);
+gr.inclusion_coordinates_object = newInclusionCoordinates;
+gr.exclusion_coordinates_object = newExclusionCoordinates;
+gr.update();
+response.sendRedirect('/x_ster2_emfs_ESRISketch.do?sysparm_parameter_sys_id='+record_sys_id);]]></processing_script>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2023-03-31 13:16:10</sys_created_on>
+        <sys_id>6edbb0af1b3d65902eda6357b04bcbc4</sys_id>
+        <sys_mod_count>1386</sys_mod_count>
+        <sys_name>ESRISketch</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_ui_page_6edbb0af1b3d65902eda6357b04bcbc4</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2023-04-12 11:41:58</sys_updated_on>
+    </sys_ui_page>
+</record_update>

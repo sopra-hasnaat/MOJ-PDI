@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_ster2_emfs.ESRIMapScriptInclude</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ESRIMapScriptInclude</name>
+        <script><![CDATA[var ESRIMapScriptInclude = Class.create();
+ESRIMapScriptInclude.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    retrieveExclusionCoordinateZones: function() {
+        var orderSysId = this.getParameter('sysparm_order_sys_id');
+        var grOrder = new GlideRecord('x_ster2_emfs_monitoring_order');
+        grOrder.get(orderSysId);
+
+        var exclusionZonesValue = grOrder.getValue('exclusion_zones');
+        if (exclusionZonesValue) {
+            //Get all postcode area values, split them and search the location table for their coordinates
+            var exclusionZones = exclusionZonesValue.split(',');
+            var exclusionCoordinatesArray = [];
+
+            for (var i = 0; i < exclusionZones.length; i++) {
+                var grExclusionZone = new GlideRecord('cmn_location');
+                grExclusionZone.get(exclusionZones[i]);
+                exclusionCoordinatesArray.push(grExclusionZone.getValue('u_coordinates'));
+            }
+            return JSON.stringify(exclusionCoordinatesArray);
+        }
+    },
+    retrieveInclusionCoordinateZones: function() {
+        var orderSysId = this.getParameter('sysparm_order_sys_id');
+        var grOrder = new GlideRecord('x_ster2_emfs_monitoring_order');
+        grOrder.get(orderSysId);
+
+        var inclusionZonesValue = grOrder.getValue('inclusion_zones');
+        if (inclusionZonesValue) {
+            //Get all postcode area values, split them and search the location table for their coordinates
+            var inclusionZones = inclusionZonesValue.split(',');
+            var inclusionCoordinatesArray = [];
+
+            for (var i = 0; i < inclusionZones.length; i++) {
+                var grInclusionZone = new GlideRecord('cmn_location');
+                grInclusionZone.get(inclusionZones[i]);
+                inclusionCoordinatesArray.push(grInclusionZone.getValue('u_coordinates'));
+            }
+            return JSON.stringify(inclusionCoordinatesArray);
+        }
+    },
+	retrieveSearchResultCoordinates: function() {
+		var searchResultText = this.getParameter('sysparm_search_result_text');
+		var grLocation = new GlideRecord('cmn_location');
+		grLocation.addQuery('type', '397549ec1b6a1d506eb0a6c0604bcb13');
+		grLocation.addQuery('name', searchResultText);
+		grLocation.query();
+		
+		if (grLocation.next()) {
+			return grLocation.u_coordinates;
+		}
+	},
+    type: 'ESRIMapScriptInclude'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>hasnaat.khan.ems</sys_created_by>
+        <sys_created_on>2023-04-11 13:15:43</sys_created_on>
+        <sys_id>a845ad4b1bc2a5102eda6357b04bcbd5</sys_id>
+        <sys_mod_count>55</sys_mod_count>
+        <sys_name>ESRIMapScriptInclude</sys_name>
+        <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
+        <sys_update_name>sys_script_include_a845ad4b1bc2a5102eda6357b04bcbd5</sys_update_name>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2023-04-12 10:09:23</sys_updated_on>
+    </sys_script_include>
+</record_update>
