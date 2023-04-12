@@ -279,6 +279,96 @@
     "width" : "100%"
   }
 }, {
+  "elementId" : "button_1",
+  "elementLabel" : "Button 1",
+  "propertyValues" : {
+    "variant" : {
+      "type" : "JSON_LITERAL",
+      "value" : "secondary"
+    },
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "md"
+    },
+    "label" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Show Inclusion/Exclusion Zones",
+        "comment" : ""
+      }
+    },
+    "icon" : {
+      "type" : "JSON_LITERAL",
+      "value" : "map-pin-outline"
+    },
+    "disabled" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "tooltipContent" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Enter a label",
+        "comment" : ""
+      }
+    },
+    "configAria" : {
+      "type" : "MAP_CONTAINER",
+      "container" : { }
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "clgdqfwtddaacccjjddffhheeoeebiirjmdd",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : null,
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : {
+        "apiName" : "x_ster2_emfs.NAV_ITEM_SELECTED_RELAY_c1a6042887825910952f87f5cebb35bc",
+        "payload" : {
+          "type" : "CLIENT_TRANSFORM_SCRIPT",
+          "script" : {
+            "apiVersion" : "1.0.0",
+            "inlineScript" : "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n* @param {any} params.imports\n*/\nfunction evaluateEvent({api, event}) {\n\treturn {\n\t\troute: null,\n\t\tfields: null,\n\t\tparams: null,\n\t\tredirect: null,\n\t\tpassiveNavigation: null,\n\t\ttitle: null,\n\t\tmultiInstField: null,\n\t\ttargetRoute: null,\n\t\texternal: {\n\t\t\turl: \"https://soprasteriademo5.service-now.com/x_ster2_emfs_ESRISketch.do?sysparm_parameter_sys_id=\" + api.data.monitoring_orders.results[0].sys_id.value\n\t\t}\n\t};\n}",
+            "scriptSysId" : null
+          }
+        },
+        "sysId" : "7ed70c2887825910952f87f5cebb3507"
+      },
+      "operation" : null,
+      "targetId" : "clgdqfwtddaacccaddffhheepaaydohhhcc",
+      "type" : "EVENT"
+    } ]
+  } ],
+  "slot" : "Top Right",
+  "definition" : {
+    "id" : "d37ce8abca89d02905fed903c8e34d8e",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "margin-left" : "1em"
+  }
+}, {
   "elementId" : "header_container",
   "elementLabel" : "Header container",
   "propertyValues" : {
@@ -3359,7 +3449,7 @@
     },
     "returnFields" : {
       "type" : "JSON_LITERAL",
-      "value" : "planned_end_date,start_date_time,order_type,monitoring_type,court_prison,curfew_schedules,additional_requirements,responsible_officer,sub_order_type,court_reference,court_prison.name"
+      "value" : "planned_end_date,start_date_time,order_type,monitoring_type,court_prison,curfew_schedules,additional_requirements,responsible_officer,sub_order_type,court_reference,court_prison.name,sys_id"
     },
     "orderBy" : {
       "type" : "JSON_LITERAL",
@@ -3952,6 +4042,9 @@
   "message" : "Customer Comments",
   "comment" : ""
 }, {
+  "message" : "Enter a label",
+  "comment" : ""
+}, {
   "message" : "Legend",
   "comment" : ""
 }, {
@@ -3980,6 +4073,9 @@
   "comment" : ""
 }, {
   "message" : "Security constraints prevent access to requested page",
+  "comment" : ""
+}, {
+  "message" : "Show Inclusion/Exclusion Zones",
   "comment" : ""
 }, {
   "message" : "Timeline",
@@ -4244,13 +4340,13 @@
         <sys_created_by>hasnaat.khan.ems</sys_created_by>
         <sys_created_on>2022-09-16 15:45:47</sys_created_on>
         <sys_id>c1a6042887825910952f87f5cebb35bc</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>Record</sys_name>
         <sys_package display_value="Electronic Monitoring" source="x_ster2_emfs">55b3012a1b8595106eb0a6c0604bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic Monitoring">55b3012a1b8595106eb0a6c0604bcb35</sys_scope>
         <sys_update_name>sys_ux_macroponent_c1a6042887825910952f87f5cebb35bc</sys_update_name>
-        <sys_updated_by>des.king.ems</sys_updated_by>
-        <sys_updated_on>2023-01-12 11:50:21</sys_updated_on>
+        <sys_updated_by>hasnaat.khan.ems</sys_updated_by>
+        <sys_updated_on>2023-04-12 14:29:05</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
